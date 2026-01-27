@@ -1,0 +1,85 @@
+<header><meta name="title" content="Lib Env - Shader API | Substance 3D Painter"><meta name="description" content="Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Env - Shader API"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Lib Env - Shader API</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="LibEnvShaderAPI-lib-env.glsl">lib-env.glsl</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><strong>Public Functions:</strong> <i>envSampleLOD</i> <i>envIrradiance</i></p><p>Needed for math constants</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">import lib-defines.glsl</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Engine provided parameters</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">//: param auto texture_environment 
+uniform sampler2D environment_texture; 
+//: param auto environment_rotation 
+uniform float environment_rotation; 
+//: param auto environment_exposure 
+uniform float environment_exposure; 
+//: param auto environment_irrad_mat_red 
+uniform mat4 irrad_mat_red; 
+//: param auto environment_irrad_mat_green 
+uniform mat4 irrad_mat_green; 
+//: param auto environment_irrad_mat_blue 
+uniform mat4 irrad_mat_blue;</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Helper that allows one to sample environment. Rotation is taken into account. The environment map is a panoramic env map behind the scene, that's why there is extra computation from dir vector.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">vec3 envSampleLOD(vec3 dir, float lod) 
+{ 
+  // WORKAROUND: Intel GLSL compiler for HD5000 is bugged on OSX: 
+  // https://bugs.chromium.org/p/chromium/issues/detail?id=308366 
+  // It is necessary to replace atan(y, -x) by atan(y, -1.0 * x) to force 
+  // the second parameter to be interpreted as a float 
+  vec2 pos = M_INV_PI * vec2(atan(-dir.z, -1.0 * dir.x), 2.0 * asin(dir.y)); 
+  pos = 0.5 * pos + vec2(0.5); 
+  pos.x += environment_rotation; 
+  return textureLod(environment_texture, pos, lod).rgb * environment_exposure; 
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Return the irradiance for a given direction. The computation is based on environment's spherical harmonics projection.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">vec3 envIrradiance(vec3 dir) 
+{ 
+  float rot = environment_rotation * M_2PI; 
+  float crot = cos(rot); 
+  float srot = sin(rot); 
+  vec4 shDir = vec4(dir.xzy, 1.0); 
+  shDir = vec4( 
+    shDir.x * crot - shDir.y * srot, 
+    shDir.x * srot + shDir.y * crot, 
+    shDir.z, 
+    1.0); 
+  return max(vec3(0.0), vec3( 
+      dot(shDir, irrad_mat_red * shDir), 
+      dot(shDir, irrad_mat_green * shDir), 
+      dot(shDir, irrad_mat_blue * shDir) 
+    )) * environment_exposure; 
+} 
+ 
+</pre>
+</div>
+</div>
+</div></body>

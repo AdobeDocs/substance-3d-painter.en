@@ -1,0 +1,489 @@
+<header><meta name="title" content="Subsurface Parameters | Substance 3D Painter"><meta name="description" content="Painter > Features > Subsurface Scattering > Subsurface Parameters"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Subsurface Parameters</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Substance 3D Painter real-time subsurface implementation is a screen-space subsurface scattering effect. The parameters to control it are explained in this page. <br/>The current implementation is based on the "Approximate Reflectance Profiles for Efficient Subsurface Scattering" method <a href="http://graphics.pixar.com/library/ApproxBSSRDF/" rel="nofollow"> published by PIXAR</a>.</p><p>For examples of materials based on these parameters, see: <a href="/substance-3d-painter/features/subsurface-scattering/subsurface-material-type.html">Subsurface Material Type</a>.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Shader/MDL Parameters</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image" src="shader-parameters.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Available in the <a href="/substance-3d-painter/interface/shader-settings.html">Shader settings</a> window.</p>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_dx_table">
+<table border="0" cellpadding="0" cellspacing="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<th abbr="" class="row-r0 column-c0" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p><em> Setting </em></p>
+</div>
+</div>
+</th>
+<th abbr="" class="row-r0 column-c1" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p><em> Description </em></p>
+</div>
+</div>
+</th>
+</tr>
+<tr>
+<td abbr="" class="row-r1 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Enable </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r1 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>Activate or Deactivate the Subsurface Scattering effect on this shader/mdl instance. <br/>Can be used to disable the SSS effect on material that don't need it.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r2 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Scattering Type </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r2 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>Defines the behavior of the light absorption in the material:</p><ul><li><strong> Translucent</strong>: suited for generic materials such as Jade or Marble where light can penetrate deeply into an object.</li><li><strong> Skin</strong>: suited for organic skin, where light is absorbed quickly and only scatter near the surface.</li><li><strong>Red Shift/Rayleigh</strong>: more accurate than the skin setting to simulate human or creature surface skin.</li></ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r3 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Scale </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r3 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>Controls the radius/depth of the light absorption in the material. This parameter behavior change depending of the size of the mesh in the scene.</p><p>Comparison between a scale of 0.0, 0.2 and 1.0 on a human sized head: <br/> <img src="scale-sss.jpg" width="650"/> </p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r4 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Color </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r4 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>The color of light when absorbed by the material.</p><p>Comparison between three colors : <br/> <img src="color-sss.jpg" width="650"/> </p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td {
+        background: #FFFFFF;
+        
+        
+        border: 1px solid #B3B3B3;
+        
+    }
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th:before {
+        border: 1px solid #B3B3B3;
+        left: -1px;
+        top: -1px;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r0,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r0 {
+        background: #EAEAEA;
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r1,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r1 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r2,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r2 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r3,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r3 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r4,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r4 {
+        
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c0,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c0 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c1,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c1 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="SubsurfaceParameters-DisplaySettingsParameters">Display Settings Parameters</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid1" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image" src="display-settings-1.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Available in the <a href="/substance-3d-painter/interface/display-settings.html">Display settings</a> window.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+
+            This parameter <strong> only affect </strong> the <strong> realtime </strong> version of the subsurface scattering effect.
+        </div>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_dx_table1">
+<table border="0" cellpadding="0" cellspacing="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<th abbr="" class="row-r0 column-c0" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p><em> Setting </em></p>
+</div>
+</div>
+</th>
+<th abbr="" class="row-r0 column-c1" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p><em> Description </em></p>
+</div>
+</div>
+</th>
+</tr>
+<tr>
+<td abbr="" class="row-r1 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Sample Count </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r1 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>Controls the amount of samples that will be performed to generate the Subsurface blur in screen-space. More samples means less noise but will impact performances.</p><p>Comparison between 8, 32 and 64 samples when looking close to a surface : <br/> <img src="samples-sss-v2.jpg" width="650"/> </p>
+</div>
+</div>
+<div class="text">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+
+            The amount of noise can also be reduced by enabling <a href="/substance-3d-painter/interface/display-settings/camera-settings.html">Camera settings</a> without increasing the amount of samples.
+        </div>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_dx_table1 > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_dx_table1 > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_dx_table1 > .dexter-Table > tbody > tr > td {
+        background: #FFFFFF;
+        
+        
+        border: 1px solid #B3B3B3;
+        
+    }
+    
+    #root_content_flex_items_position_position-par_dx_table1 > .dexter-Table > tbody > tr > th:before {
+        border: 1px solid #B3B3B3;
+        left: -1px;
+        top: -1px;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table1 > .dexter-Table > tbody > tr > th.row-r0,
+     #root_content_flex_items_position_position-par_dx_table1 > .dexter-Table > tbody > tr > td.row-r0 {
+        background: #EAEAEA;
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table1 > .dexter-Table > tbody > tr > th.row-r1,
+     #root_content_flex_items_position_position-par_dx_table1 > .dexter-Table > tbody > tr > td.row-r1 {
+        
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_dx_table1 > .dexter-Table > tbody > tr > th.column-c0,
+    #root_content_flex_items_position_position-par_dx_table1 > .dexter-Table > tbody > tr > td.column-c0 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table1 > .dexter-Table > tbody > tr > th.column-c1,
+    #root_content_flex_items_position_position-par_dx_table1 > .dexter-Table > tbody > tr > td.column-c1 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+</div>
+</div></body>

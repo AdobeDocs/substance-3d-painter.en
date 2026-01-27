@@ -1,0 +1,54 @@
+<header><meta name="title" content="Crash while baking | Substance 3D Painter"><meta name="description" content="Painter > Technical support > Technical Issues > Stability Issues > Crash while baking"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Crash while baking</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Substance 3D Painter may crash during the baking process on some configurations. This page regroups a list of know issues and how to mitigate them.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="Crashwhilebaking-CrashwithBakingpreview">Crash with Baking preview</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>By default Substance 3D Painter display in the viewport the in-progress state of the baking of a texture. On some computer this feature may lead to instabilities.</p><p>To disable it:</p><ol><li>Use <strong> Edit &gt; Settings </strong> to open the main settings</li><li>Under <strong> General </strong> scrolls down to the section named <strong> Baking Options </strong> .</li><li>Uncheck/Disable the option <strong> Enable live preview baking process </strong> .</li></ol>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="Crashwhilebaking-CrashwithGPURaytracing">Crash with GPU Raytracing</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>On some GPU with unstable drivers, the baking process may lead to crashes because of the GPU raytracing feature.</p><p>To disable it:</p><ol><li>Use <strong> Edit &gt; Settings </strong> to open the main settings</li><li>Under <strong> General </strong> scrolls down to the section named <strong> Baking Options </strong> .</li><li>Uncheck/Disable the option <strong> Enable GPU raytracing </strong> .</li></ol>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="Crashwhilebaking-CrashwithRyzenCPUs">  Crash with Ryzen CPUs  </h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>  The application may crash during the baking process on some computer configuration running with a Ryzen CPU. An update of the BIOS usually fix the problem.  </p><p> This is related to multi-threaded computations. Many Motherboard constructors have issued new BIOS updates to fix this issue, so we recommend applying the update. Refer to the Motherboard manual and constructor website for more information. </p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="Crashwhilebaking-IncompatibleAssbinfiles"> Incompatible Assbin files </h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> By default when baking, high-poly meshes are pre-processed into <strong> *.assbin </strong> files to speed-up rebaking later. In some rare cases, these files may crash the application if they have been generated with a different version. Simply deleting them should solve the problem, as they will be regenerated. </p>
+</div>
+</div>
+</div>
+</div></body>

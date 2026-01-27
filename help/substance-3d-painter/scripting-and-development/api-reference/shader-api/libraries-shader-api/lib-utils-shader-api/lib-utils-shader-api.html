@@ -1,0 +1,225 @@
+<header><meta name="title" content="Lib Utils - Shader API | Substance 3D Painter"><meta name="description" content="Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Utils - Shader API"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Lib Utils - Shader API</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="LibUtilsShaderAPI-Allegorithmicutilityfunctions">Allegorithmic utility functions</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="LibUtilsShaderAPI-Tonemapping">Tone mapping</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>These are examples of tone mapping you can use in your shader. Painter doesn't apply any tone mapping except the optional one applied by Yebis. If you decide to do some tone mapping in your shader, it will be applied before Yebis tone mapping.</p><p>Perform the S-curve tone mapping based on the parameters sigma and n.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">vec3 tonemapSCurve(vec3 value, float sigma, float n) 
+{ 
+  vec3 pow_value = pow(value, vec3(n)); 
+  return pow_value / (pow_value + pow(sigma, n)); 
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="LibUtilsShaderAPI-sRGBconversions">sRGB conversions</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>These are the conversions used in Painter. You can override the automatic linear -&gt; sRGB conversion in the viewport by putting this line in your custom shader:</p><p><i>#define DISABLE_FRAMEBUFFER_SRGB_CONVERSION</i></p><p>and doing your own custom conversion.</p><p>sRGB to linear color conversion. Scalar version.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">float sRGB2linear(float x) 
+{ 
+  return x &lt;= 0.04045 ? 
+    x * 0.0773993808 : // 1.0/12.92 
+    pow((x + 0.055) / 1.055, 2.4); 
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>sRGB to linear color conversion. RGB version.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">vec3 sRGB2linear(vec3 rgb) 
+{ 
+  return vec3( 
+    sRGB2linear(rgb.r), 
+    sRGB2linear(rgb.g), 
+    sRGB2linear(rgb.b)); 
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>sRGB to linear color conversion. RGB + Alpha version.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">vec4 sRGB2linear(vec4 rgba) 
+{ 
+  return vec4(sRGB2linear(rgba.rgb), rgba.a); 
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Linear to sRGB color conversion. Scalar version.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">float linear2sRGB(float x) 
+{ 
+  return x &lt;= 0.0031308 ? 
+      12.92 * x : 
+      1.055 * pow(x, 0.41666) - 0.055; 
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Linear to sRGB color conversion. RGB version.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">vec3 linear2sRGB(vec3 rgb) 
+{ 
+  return vec3( 
+      linear2sRGB(rgb.r), 
+      linear2sRGB(rgb.g), 
+      linear2sRGB(rgb.b)); 
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Linear to sRGB color conversion. RGB + Alpha version.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">vec4 linear2sRGB(vec4 rgba) 
+{ 
+  return vec4(linear2sRGB(rgba.rgb), rgba.a); 
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Linear to sRGB color conversion optional. Scalar version.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">//: param auto conversion_linear_to_srgb 
+uniform bool convert_to_srgb_opt; 
+float linear2sRGBOpt(float x) 
+{ 
+  return convert_to_srgb_opt ? linear2sRGB(x) : x; 
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Linear to sRGB color conversion optional. RGB version.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">vec3 linear2sRGBOpt(vec3 rgb) 
+{ 
+  return convert_to_srgb_opt ? linear2sRGB(rgb) : rgb; 
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Linear to sRGB color conversion optional. RGB + Alpha version.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">vec4 linear2sRGBOpt(vec4 rgba) 
+{ 
+  return convert_to_srgb_opt ? linear2sRGB(rgba) : rgba; 
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Color conversion. Scalar version.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">uniform int output_conversion_method; 
+float convertOutput(float x) 
+{ 
+ if (output_conversion_method == 0) return x; 
+ else if (output_conversion_method == 1) return linear2sRGB(x); 
+ else return sRGB2linear(x); 
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Color conversion. RGB version.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">vec3 convertOutput(vec3 rgb) 
+{ 
+ if (output_conversion_method == 0) return rgb; 
+ else if (output_conversion_method == 1) return linear2sRGB(rgb); 
+ else return sRGB2linear(rgb); 
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Color conversion. RGB + Alpha version.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">vec4 convertOutput(vec4 rgba) 
+{ 
+ if (output_conversion_method == 0) return rgba; 
+ else if (output_conversion_method == 1) return linear2sRGB(rgba); 
+ else return sRGB2linear(rgba); 
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="LibUtilsShaderAPI-Dithering">Dithering</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>These are some helpers to add dithering to shaders.</p><p>Use 8x8 Bayer matrix for dithering mode</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">import lib-bayer.glsl 
+ 
+float getDitherThreshold(uvec2 coords) 
+{ 
+  return bayerMatrix8(coords); 
+} 
+ 
+ 
+vec4 RGB2Gray(vec4 rgba) 
+{ 
+  float gray = 0.299 * rgba.r + 0.587 * rgba.g + 0.114 * rgba.b; 
+  return vec4(vec3(gray), rgba.a); 
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Remove AO and shadows on glossy metallic surfaces (close to mirrors)</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">float specularOcclusionCorrection(float diffuseOcclusion, float metallic, float roughness) 
+{ 
+  return mix(diffuseOcclusion, 1.0, metallic * (1.0 - roughness) * (1.0 - roughness)); 
+} 
+ 
+</pre>
+</div>
+</div>
+</div></body>

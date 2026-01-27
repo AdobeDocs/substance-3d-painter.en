@@ -1,0 +1,262 @@
+<header><meta name="title" content="Retrieving the installation path | Substance 3D Painter"><meta name="description" content="Painter > Pipeline and integration > Installation and preferences > Retrieving the installation path"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Retrieving the installation path</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>This page regroups information on ways to retrieve the installation path of the application depending on the version and platform.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="RetrievingInstallationPath-Windows">Windows</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="RetrievingInstallationPath-CreativeCloudDesktop">Creative Cloud Desktop</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ol> <li>Open Windows registry editor (<strong>regedit</strong>).</li> <li>Navigate to the registry key: <strong>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\</strong></li> <li>Open the sub-key named <strong>Adobe Substance 3D Painter.exe</strong></li> <li>The value of the key contains the path to the application executable where it is installed</li> </ol>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>This registry key is only available since version 7.2.<br/>  For older versions, the installation path can be retrieved from the file associations in <strong>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ Explorer\FileExts</strong>.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="RetrievingInstallationPath-Substance3DStandalone">Substance 3D Standalone</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ol> <li>Open Windows registry editor (<strong>regedit</strong>).</li> <li>Navigate to the registry key: <strong>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall </strong></li> <li>Find the sub-key matching the AppID of your application version (see the table below)<strong> <br/></strong></li> <li>The value of the key contains the path to the application installation location</li> </ol>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_dx_table">
+<table border="0" cellpadding="0" cellspacing="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<th abbr="" class="row-r0 column-c0" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p>Version</p>
+</div>
+</div>
+</th>
+<th abbr="" class="row-r0 column-c1" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p>AppId</p>
+</div>
+</div>
+</th>
+</tr>
+<tr>
+<td abbr="" class="row-r1 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong>Version 1.x</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r1 column-c1">
+<div class="codeblock parbase"><div></div>
+<pre data-enlighter-language="css" data-gutter="true" data-line-wrap="true">{410F5B6E-A29C-4F43-9DE3-44A1357D6AF5}</pre>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r2 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong>Version 2.x</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r2 column-c1">
+<div class="codeblock parbase"><div></div>
+<pre data-enlighter-language="css" data-gutter="true" data-line-wrap="true">{f42b7a996fa1d13a1d0a2e33eea2c0800bb5d1b8}</pre>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r3 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong>3.x (2017.x) to 7.1</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r3 column-c1">
+<div class="codeblock parbase"><div></div>
+<pre data-enlighter-language="css" data-gutter="true" data-line-wrap="true">{33C3E9E2-0675-4196-9019-28AB9C5E9BB0}</pre>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r4 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong>7.2 or newer</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r4 column-c1">
+<div class="codeblock parbase"><div></div>
+<pre data-enlighter-language="css" data-gutter="true" data-line-wrap="true">{2a8bbb68-725b-477c-9194-60efc5ece348}</pre>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td {
+        background: #FFFFFF;
+        
+        
+        border: 1px solid #B3B3B3;
+        
+    }
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th:before {
+        border: 1px solid #B3B3B3;
+        left: -1px;
+        top: -1px;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r0,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r0 {
+        background: #EAEAEA;
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r1,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r1 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r2,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r2 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r3,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r3 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r4,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r4 {
+        
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c0,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c0 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c1,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c1 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="RetrievingInstallationPath-Steam">Steam</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The application is installed in the <strong>steamapps/common/</strong> sub-folder of the Steam installation folder.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="RetrievingInstallationPath-Mac">Mac</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>On Mac the application is installed in the following:</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table style="width: 100.0%;"> <colgroup> <col style="width: 20.0%;"/> <col style="width: 80.0%;"/> </colgroup> <tbody> <tr> <th>Version</th> <th>Path</th> </tr> <tr> <td><strong>7.2 or newer</strong></td> <td><strong>/Applications/Adobe Substance 3D Painter.app</strong></td> </tr> <tr> <td colspan="1"><strong>Legacy</strong></td> <td colspan="1"><strong>/Applications/Substance Painter.app</strong></td> </tr> </tbody> </table>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="RetrievingInstallationPath-Linux">Linux</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>On Linux the rpm package is installed in the following path:</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table style="width: 100.0%;"> <colgroup> <col style="width: 20.0%;"/> <col style="width: 80.0%;"/> </colgroup> <tbody> <tr> <th>Version</th> <th>Path</th> </tr> <tr> <td colspan="1"><strong>7.2 or newer</strong></td> <td colspan="1"><strong>/opt/Adobe/Adobe_Substance_3D_Painter</strong></td> </tr> <tr> <td colspan="1"><strong>Legacy</strong></td> <td colspan="1"><strong>/opt/Allegorithmic/Substance_Painter</strong></td> </tr> </tbody> </table>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><strong> <br/></strong></p>
+</div>
+</div>
+</div>
+</div></body>

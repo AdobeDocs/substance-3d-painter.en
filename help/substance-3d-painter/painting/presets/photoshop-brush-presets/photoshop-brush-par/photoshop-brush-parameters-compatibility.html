@@ -1,0 +1,2609 @@
+<header><meta name="title" content="Photoshop Brush Parameters Compatibility | Substance 3D Painter"><meta name="description" content="Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Photoshop Brush Parameters Compatibility"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Photoshop Brush Parameters Compatibility</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>This page list all the Photoshop brush parameters and their compatibility with Substance 3D Painter brush engine.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="PhotoshopBrushParametersCompatibility-GeneralCompatibility">General Compatibility</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>When looking inside the ABR file, Substance 3D Painter will only retrieve specific Brush/Tool presets:</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table style="width: 75.0%;"><colgroup> <col style="width: 20.0%;"/> <col style="width: 20.0%;"/> <col style="width: 60.0%;"/> </colgroup><tbody><tr><th><em> Preset Type </em></th><th><em> Support </em></th><th colspan="1"><em> Description </em></th></tr><tr><td><strong> Brush (bitmap) </strong></td><td>Imported</td><td>Brush presets based on bitmaps as their alphas will be imported.</td></tr><tr><td colspan="1"><strong> Brush (procedural) </strong></td><td colspan="1">Ignored</td><td colspan="1">Brush presets based on procedural shapes (like a circle) are not imported.</td></tr><tr><td colspan="1"><strong> Brush (Airbrush) </strong></td><td colspan="1"><span> Ignored </span></td><td colspan="1">Brush presets with Airbrush settings are not imported.</td></tr><tr><td colspan="1"><strong> Brush (Bristle) </strong></td><td colspan="1"><span> Ignored </span></td><td colspan="1"><span> Brush presets with Bristle settings are not imported. </span></td></tr><tr><td colspan="1"><strong> Brush (Erodible) </strong></td><td colspan="1"><span> Ignored </span></td><td colspan="1"><span> Brush presets with Erodible settings are not imported. </span></td></tr><tr><td colspan="1"><strong> Pencil </strong></td><td colspan="1">Ignored</td><td colspan="1"><span> Pencil presets are not imported. </span></td></tr><tr><td colspan="1"><strong> Mixer Brush </strong></td><td colspan="1">Ignored</td><td colspan="1"><span> Mixer brush presets are not imported. </span></td></tr><tr><td colspan="1"><strong> Clone Stamp </strong></td><td colspan="1">Ignored</td><td colspan="1"><span> Clone Stamp presets are not imported. </span></td></tr><tr><td colspan="1"><strong> Smudge </strong></td><td colspan="1">Ignored</td><td colspan="1"><span> Smudge presets are not imported. </span></td></tr></tbody></table>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="PhotoshopBrushParametersCompatibility-Parameters">Parameters</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> To learn more about what those parameters can do, refer to the official  <a href="https://helpx.adobe.com/photoshop/using/creating-modifying-brushes.html" rel="nofollow"> Photoshop documentation </a>  . </p><p>Not all Photoshop brush parameters are supported. Refer to the legend to know the status of each parameter described below:</p><ul><li><strong> Square (■) </strong> : indicates the parameter is supported, refer to the description to know how to access it.</li><li><strong> Cross (✖) </strong> : indicates the parameter is not supported.</li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>While control parameters in brush presets can be controlled via various methods such as Pen Tilt, Fade and Pen pressure, only the <strong> Pen Pressure </strong> is currently supported.</p>
+</div>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_dx_table">
+<table border="0" cellpadding="0" cellspacing="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<th abbr="" class="row-r0 column-c0" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p><em> Group </em></p>
+</div>
+</div>
+</th>
+<th abbr="" class="row-r0 column-c1" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p><em> Parameter </em></p>
+</div>
+</div>
+</th>
+<th abbr="" class="row-r0 column-c2" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p><em> Support </em></p>
+</div>
+</div>
+</th>
+<th abbr="" class="row-r0 column-c3" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p><em> Description </em></p>
+</div>
+</div>
+</th>
+</tr>
+<tr>
+<td abbr="" class="row-r1 column-c0">
+<div class="text">
+<div class="cmp-text">
+<h5 id="PhotoshopBrushParametersCompatibility-BrushTipShape"> Brush Tip Shape </h5>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r1 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Size </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r1 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p>■</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r1 column-c3">
+<div class="text">
+<div class="cmp-text">
+<p>Matched with Paint tool Size parameter.</p>
+</div>
+</div>
+<div class="text">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>Photoshop defines size in Pixels, while Substance 3D Painter size is based on the project Bounding Box. An exact match is therefore not possible and will only be relative.</p>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r2 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Flip X </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r2 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>■</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r2 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p> Handled  via "Brush Maker Photoshop" Substance file.</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r2 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r3 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Flip Y </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r3 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>■</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r3 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p>  Handled  via "Brush Maker Photoshop" Substance file. </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r3 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r4 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Angle </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r4 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>■</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r4 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p> Matched with Paint tool Angle parameter. </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r4 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r5 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Roundness </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r5 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>■</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r5 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p>  Handled  via "Brush Maker Photoshop" Substance file. </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r5 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r6 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Hardness </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r6 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>■</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r6 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p>  Handled  via "Brush Maker Photoshop" Substance file. </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r6 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r7 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Spacing </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r7 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>■</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r7 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p> Matched with Paint tool Spacing parameter. </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r7 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r8 column-c0">
+</td>
+<td abbr="" class="row-r8 column-c1">
+</td>
+<td abbr="" class="row-r8 column-c2">
+</td>
+<td abbr="" class="row-r8 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r9 column-c0">
+<div class="text">
+<div class="cmp-text">
+<h5 id="PhotoshopBrushParametersCompatibility-ShapeDynamics"> Shape Dynamics </h5>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r9 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Size Jitter </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r9 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p>■</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r9 column-c3">
+<div class="text">
+<div class="cmp-text">
+<p>Matched with Paint tool Size Jitter parameter.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r10 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Control (for Size) </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r10 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ■ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r10 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p> Matched with Paint tool Pressure setting for Size parameter   . </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r10 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r11 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Minimum Diameter </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r11 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>■</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r11 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p> Matched with Paint tool Minimum Size parameter. </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r11 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r12 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Tilt Scale </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r12 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>✖</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r12 column-c2">
+</td>
+<td abbr="" class="row-r12 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r13 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Angle Jitter </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r13 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>■</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r13 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p> Matched with Paint tool Angle Jitter parameter. </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r13 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r14 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Control (for Angle) </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r14 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r14 column-c2">
+</td>
+<td abbr="" class="row-r14 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r15 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Roundness Jitter </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r15 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>■</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r15 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p> Handled via "Brush Maker Photoshop" Substance file. </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r15 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r16 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Minimum Roundness </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r16 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>■</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r16 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p> Handled via "Brush Maker Photoshop" Substance file. </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r16 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r17 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Flip X Jitter </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r17 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>■</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r17 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p> Handled via "Brush Maker Photoshop" Substance file. </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r17 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r18 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Flip Y Jitter </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r18 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>■</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r18 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p> Handled via "Brush Maker Photoshop" Substance file. </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r18 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r19 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Brush Projection </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r19 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>✖</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r19 column-c2">
+</td>
+<td abbr="" class="row-r19 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r20 column-c0">
+</td>
+<td abbr="" class="row-r20 column-c1">
+</td>
+<td abbr="" class="row-r20 column-c2">
+</td>
+<td abbr="" class="row-r20 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r21 column-c0">
+<div class="text">
+<div class="cmp-text">
+<h5 id="PhotoshopBrushParametersCompatibility-Scattering"> Scattering </h5>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r21 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Scatter </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r21 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p>  ■  <br/></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r21 column-c3">
+<div class="text">
+<div class="cmp-text">
+<p> Matched with Paint tool Position Jitter parameter. </p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r22 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Both Axes </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r22 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>  ■  <br/></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r22 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p> Matched with Paint tool Position Jitter Axis parameter. </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r22 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r23 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Control (for Scatter) </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r23 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r23 column-c2">
+</td>
+<td abbr="" class="row-r23 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r24 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Count </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r24 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>  ■  <br/></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r24 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p>Compensated via Paint tool Spacing parameter.</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r24 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r25 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Count Jitter </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r25 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r25 column-c2">
+</td>
+<td abbr="" class="row-r25 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r26 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Control (for Count Jitter) </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r26 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r26 column-c2">
+</td>
+<td abbr="" class="row-r26 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r27 column-c0">
+</td>
+<td abbr="" class="row-r27 column-c1">
+</td>
+<td abbr="" class="row-r27 column-c2">
+</td>
+<td abbr="" class="row-r27 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r28 column-c0">
+<div class="text">
+<div class="cmp-text">
+<h5 id="PhotoshopBrushParametersCompatibility-Texture"> Texture </h5>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r28 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Texture Pattern </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r28 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r28 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r29 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Invert </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r29 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r29 column-c2">
+</td>
+<td abbr="" class="row-r29 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r30 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Scale </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r30 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r30 column-c2">
+</td>
+<td abbr="" class="row-r30 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r31 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Brightness </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r31 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r31 column-c2">
+</td>
+<td abbr="" class="row-r31 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r32 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Contrast </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r32 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r32 column-c2">
+</td>
+<td abbr="" class="row-r32 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r33 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Texture Each Tip </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r33 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r33 column-c2">
+</td>
+<td abbr="" class="row-r33 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r34 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Mode </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r34 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r34 column-c2">
+</td>
+<td abbr="" class="row-r34 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r35 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Depth </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r35 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r35 column-c2">
+</td>
+<td abbr="" class="row-r35 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r36 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Minimum Depth </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r36 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r36 column-c2">
+</td>
+<td abbr="" class="row-r36 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r37 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Depth Jitter </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r37 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r37 column-c2">
+</td>
+<td abbr="" class="row-r37 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r38 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Control (for Depth Jitter) </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r38 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r38 column-c2">
+</td>
+<td abbr="" class="row-r38 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r39 column-c0">
+</td>
+<td abbr="" class="row-r39 column-c1">
+</td>
+<td abbr="" class="row-r39 column-c2">
+</td>
+<td abbr="" class="row-r39 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r40 column-c0">
+<div class="text">
+<div class="cmp-text">
+<h5 id="PhotoshopBrushParametersCompatibility-DualBrush"> Dual Brush </h5>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r40 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Mode </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r40 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r40 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r41 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Size </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r41 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r41 column-c2">
+</td>
+<td abbr="" class="row-r41 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r42 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Spacing </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r42 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r42 column-c2">
+</td>
+<td abbr="" class="row-r42 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r43 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Scatter </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r43 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r43 column-c2">
+</td>
+<td abbr="" class="row-r43 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r44 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Both Axes </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r44 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r44 column-c2">
+</td>
+<td abbr="" class="row-r44 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r45 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Count </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r45 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r45 column-c2">
+</td>
+<td abbr="" class="row-r45 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r46 column-c0">
+</td>
+<td abbr="" class="row-r46 column-c1">
+</td>
+<td abbr="" class="row-r46 column-c2">
+</td>
+<td abbr="" class="row-r46 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r47 column-c0">
+<div class="text">
+<div class="cmp-text">
+<h5 id="PhotoshopBrushParametersCompatibility-ColorDynamics"> Color Dynamics </h5>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r47 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Apply Per Tip </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r47 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r47 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r48 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Foreground/Background Jitter </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r48 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r48 column-c2">
+</td>
+<td abbr="" class="row-r48 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r49 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Control (for F/B Jitter) </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r49 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r49 column-c2">
+</td>
+<td abbr="" class="row-r49 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r50 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Hue Jitter </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r50 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r50 column-c2">
+</td>
+<td abbr="" class="row-r50 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r51 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Saturation Jitter </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r51 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r51 column-c2">
+</td>
+<td abbr="" class="row-r51 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r52 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Brightness Jitter </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r52 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r52 column-c2">
+</td>
+<td abbr="" class="row-r52 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r53 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Purity </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r53 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r53 column-c2">
+</td>
+<td abbr="" class="row-r53 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r54 column-c0">
+</td>
+<td abbr="" class="row-r54 column-c1">
+</td>
+<td abbr="" class="row-r54 column-c2">
+</td>
+<td abbr="" class="row-r54 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r55 column-c0">
+<div class="text">
+<div class="cmp-text">
+<h5 id="PhotoshopBrushParametersCompatibility-Transfert"> Transfert </h5>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r55 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Opacity Jitter </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r55 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p>  ■  <br/></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r55 column-c3">
+<div class="text">
+<div class="cmp-text">
+<p>Matched with Paint tool Stamps Blending parameter set to "Lighten".</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r56 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Control (for Opacity) </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r56 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>  ■  <br/></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r56 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p> Matched with Paint tool Pressure setting for Flow parameter. </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r56 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r57 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Minimum (for Opacity Control) </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r57 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>  ■  <br/></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r57 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p> Matched with Paint tool Minimum Flow parameter. </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r57 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r58 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Flow Jitter </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r58 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>  ■  <br/></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r58 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p>Matched with Paint tool Flow Jitter parameter.</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r58 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r59 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Control (for Flow) </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r59 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>  ■  <br/></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r59 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p>Matched with Paint tool Pressure setting for Flow parameter  (if lower than Opacity)  .</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r59 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r60 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Minimum (for Flow Control) </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r60 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>  ■  <br/></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r60 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p>Matched with Paint tool Minimum Flow parameter (if lower than Opacity).</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r60 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r61 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Wetness Jitter </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r61 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r61 column-c2">
+</td>
+<td abbr="" class="row-r61 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r62 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Control (for Wetness Jitter) </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r62 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r62 column-c2">
+</td>
+<td abbr="" class="row-r62 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r63 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Minimum (for Wetness Control) </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r63 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r63 column-c2">
+</td>
+<td abbr="" class="row-r63 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r64 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Mix Jitter </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r64 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r64 column-c2">
+</td>
+<td abbr="" class="row-r64 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r65 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Control (for Mix) </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r65 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r65 column-c2">
+</td>
+<td abbr="" class="row-r65 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r66 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Minimum (for Mix Control) </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r66 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r66 column-c2">
+</td>
+<td abbr="" class="row-r66 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r67 column-c0">
+</td>
+<td abbr="" class="row-r67 column-c1">
+</td>
+<td abbr="" class="row-r67 column-c2">
+</td>
+<td abbr="" class="row-r67 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r68 column-c0">
+<div class="text">
+<div class="cmp-text">
+<h5 id="PhotoshopBrushParametersCompatibility-BrushPose"> Brush Pose </h5>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r68 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Tilt X </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r68 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r68 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r69 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Override Tilt X </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r69 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r69 column-c2">
+</td>
+<td abbr="" class="row-r69 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r70 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Tilt Y </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r70 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r70 column-c2">
+</td>
+<td abbr="" class="row-r70 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r71 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Override Tilt Y </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r71 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r71 column-c2">
+</td>
+<td abbr="" class="row-r71 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r72 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Rotation </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r72 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r72 column-c2">
+</td>
+<td abbr="" class="row-r72 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r73 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Override Rotation </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r73 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r73 column-c2">
+</td>
+<td abbr="" class="row-r73 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r74 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Pressure </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r74 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r74 column-c2">
+</td>
+<td abbr="" class="row-r74 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r75 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Override Pressure </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r75 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r75 column-c2">
+</td>
+<td abbr="" class="row-r75 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r76 column-c0">
+</td>
+<td abbr="" class="row-r76 column-c1">
+</td>
+<td abbr="" class="row-r76 column-c2">
+</td>
+<td abbr="" class="row-r76 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r77 column-c0">
+<div class="text">
+<div class="cmp-text">
+<h5 id="PhotoshopBrushParametersCompatibility-Other"> Other </h5>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r77 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Noise </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r77 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r77 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r78 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Wet Edges </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r78 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r78 column-c2">
+</td>
+<td abbr="" class="row-r78 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r79 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Build-up </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r79 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r79 column-c2">
+</td>
+<td abbr="" class="row-r79 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r80 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Smoothing </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r80 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>  ■  <br/></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r80 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p>Not directly matched, but can be handled via the <a href="/substance-3d-painter/painting/lazy-mouse.html"> Lazy Mouse</a> setting.</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r80 column-c3">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r81 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Protect Texture </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r81 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> ✖ </p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r81 column-c2">
+</td>
+<td abbr="" class="row-r81 column-c3">
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td {
+        background: #FFFFFF;
+        
+        
+        border: 1px solid #B3B3B3;
+        
+    }
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th:before {
+        border: 1px solid #B3B3B3;
+        left: -1px;
+        top: -1px;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r0,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r0 {
+        background: #EAEAEA;
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r1,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r1 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r2,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r2 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r3,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r3 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r4,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r4 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r5,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r5 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r6,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r6 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r7,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r7 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r8,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r8 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r9,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r9 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r10,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r10 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r11,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r11 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r12,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r12 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r13,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r13 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r14,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r14 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r15,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r15 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r16,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r16 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r17,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r17 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r18,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r18 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r19,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r19 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r20,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r20 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r21,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r21 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r22,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r22 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r23,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r23 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r24,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r24 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r25,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r25 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r26,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r26 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r27,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r27 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r28,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r28 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r29,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r29 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r30,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r30 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r31,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r31 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r32,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r32 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r33,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r33 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r34,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r34 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r35,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r35 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r36,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r36 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r37,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r37 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r38,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r38 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r39,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r39 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r40,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r40 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r41,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r41 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r42,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r42 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r43,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r43 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r44,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r44 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r45,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r45 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r46,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r46 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r47,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r47 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r48,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r48 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r49,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r49 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r50,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r50 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r51,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r51 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r52,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r52 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r53,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r53 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r54,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r54 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r55,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r55 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r56,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r56 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r57,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r57 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r58,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r58 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r59,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r59 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r60,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r60 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r61,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r61 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r62,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r62 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r63,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r63 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r64,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r64 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r65,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r65 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r66,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r66 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r67,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r67 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r68,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r68 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r69,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r69 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r70,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r70 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r71,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r71 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r72,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r72 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r73,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r73 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r74,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r74 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r75,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r75 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r76,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r76 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r77,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r77 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r78,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r78 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r79,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r79 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r80,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r80 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r81,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r81 {
+        
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c0,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c0 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c1,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c1 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c2,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c2 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c3,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c3 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+</div>
+</div></body>

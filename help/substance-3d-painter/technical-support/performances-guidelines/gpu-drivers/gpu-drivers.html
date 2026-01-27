@@ -1,0 +1,62 @@
+<header><meta name="title" content="GPU VRAM and Drivers | Substance 3D Painter"><meta name="description" content="Painter > Technical support > Performances guidelines > GPU Drivers"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">GPU Drivers</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>We cannot guarantee performance without the use of recommended drivers. Non-WHQL drivers must be avoided.<br/>
+GPU drivers are like any software, each new release can introduce performance issues. If issues occur after updating to a more recent driver version, we recommend downgrading your drivers to a previous version.</p>
+</div>
+</div>
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>NVIDIA Drivers Settings</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Some default NVIDIA settings can have an impact on performance, we recommend creating a profile and disabling the following parameters (set them to off) :</p>
+<ul>
+<li>Threaded Optimization</li>
+<li>Vertical Synchronization</li>
+</ul>
+</div>
+</div>
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">How other applications can utilize the GPU</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Substance 3D Painter is not alone in working with the GPU, other applications do the same. Almost any 3D application will use the GPU and VRAM to run, including those commonly used alongside Painter, like Blender, Maya, Unreal Engine, Unity, C4D, and others. A solution to ensure good performance while keeping these applications open is to be sure Substance 3D Painter is launched first in order to request its own VRAM allocation. Still, some software can acquire some parts of the VRAM dynamically and can still be in conflict with Substance 3D Painter even if they are launched after Painter. </p>
+<p>In general, the more VRAM Painter has access to, the faster it will run, so try to minimize the amount of VRAM used by other applications running concurrently with Painter.</p>
+</div>
+</div>
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">GPU VRAM amount and bandwidth</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Substance 3D Painter relies a lot on the GPU to perform most of its computations. This is why it is important to have a GPU that follows the <a href="/substance-3d-painter/getting-started/system-requirements.html">System requirements</a>.</p>
+<p><span style="color: rgb(80,80,80);">Painter works by transferring textures into the GPU memory (VRAM) in order to do the computations (like blending operations to create the final textures). However, if the VRAM is starting to get full, the unused textures will be transferred back to the RAM of the computer to free VRAM space. Substance 3D Painter writes and reads GBs of data when working. This means that both the capacity of the VRAM (amount) and the bandwidth speed when doing transfers are important. You can use tools such as </span><a href="https://www.msi.com/page/afterburner" rel="nofollow">MSI AfterBurner</a><span style="color: rgb(80,80,80);"> to monitor this behavior.</span></p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>The <b>Nvidia GTX 970</b> is known to have a problematic design regarding its GPU memory that affects Substance 3D Painter. The last 500MB of the whole 4GB work at a slower pace than the remaining 3.5GB. If Substance 3D Painter works on those last 500MB, the performance can be reduced by as much as 10 times (from what we measured). For more technical details, see : <a href="https://www.pcper.com/news/Graphics-Cards/NVIDIA-Responds-GTX-970-35GB-Memory-Issue" rel="nofollow">https://www.pcper.com/news/Graphics-Cards/NVIDIA-Responds-GTX-970-35GB-Memory-Issue </a></p>
+</div>
+</div>
+</div>
+</div>
+</div></body>

@@ -1,0 +1,249 @@
+<header><meta name="title" content="Painter doesn't start on the right GPU | Substance 3D Painter"><meta name="description" content="Painter > Technical support > Technical Issues > GPU Issues > Painter doesn't start on the right GPU"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Painter doesn't start on the right GPU</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>On Windows, the application may not use the right GPU when starting up which can lead to performance and stability issues. Below is a list of of common issues and their solutions to make sure the software works with the right GPU.</p><p>To know which GPU is used, you can check the <a href="/substance-3d-painter/technical-support/exporting-the-log-file.html">log file</a>. </p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Monitor Cables Configuration</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>On Windows the GPU assigned to an application depends of the monitor on which the application is running. This is because the monitor cables are linked directly to the output of the GPU itself. The application may start on the wrong GPU therefore if the monitor on which it starts is linked to the graphics output of the motherboard instead of the one from the graphic card itself. In that case, Windows is likely to use the integrated GPU rather than the dedicated GPU. </p><p><strong>To solve this issue</strong> : simply fix the cable configuration by un-plugin the monitor linked to the motherboard and then linking it to the GPU outputs instead.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Incorrect GPU Driver Installation</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>If the GPU drivers are not properly installed the application will be unable to reach the dedicated GPU and it will have to fallback on the integrated GPU instead.</p><p><strong>To solve this issue</strong> : uninstall the current GPU drivers, perform a cleanup and then reinstall the GPU drivers after a reboot of the computer.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Nvidia GPU driver profile setting</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>On some computers, such as Laptops, the application may run on the integrated GPU instead of the dedicated Nvidia GPU by default. With an NVIDIA GPU, the switch to the right GPU depends on application profiles. If an application does not have such profile, you can assign one manually.</p><p><strong>To solve this issue</strong> : </p><ol><li>Right-click on the Desktop and select NVIDIA Control Panel <strong>or</strong> Navigate to the Control Panel and search for NVIDIA Control Panel</li><li>Under <strong>3D Settings</strong>, go to <strong>Manage 3D Settings</strong></li><li>Under the tab <strong>Program settings</strong> add a new profile for <strong>Substance 3D Painter</strong></li><li>Change the preferred graphics processor setting to High-performance NVIDIA processor</li></ol>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Windows Performance Setting</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Windows may have set the wrong GPU setting for the application because of the default performance and power consumption settings.</p><p><strong>To solve this issue : </strong>follow the step by step below to override the default GPU configuration.</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ol class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> Open the display settings by right-clicking on your desktop :</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_proc_step_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_proc_par_proc_step_step_par_image" src="settings-33.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> Navigate to the bottom of the window on the home and click on "Graphics Settings" :</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_image" src="graphics-settings.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> Click on the "Browse" button and locate the Substance 3D Painter executable :</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_proc_step2_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step2_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step2_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_proc_par_proc_step2_step_par_image" src="browse-16.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> Once the application has been added, click on the button "Options" :</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_proc_step3_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step3_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step3_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_proc_par_proc_step3_step_par_image" src="options-19.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> Choose the setting "High performance" and click on the "Save" button<br/></p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_proc_step4_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step4_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step4_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_proc_par_proc_step4_step_par_image" src="specs.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+</ol>
+</div></div>
+</div>
+</div></body>

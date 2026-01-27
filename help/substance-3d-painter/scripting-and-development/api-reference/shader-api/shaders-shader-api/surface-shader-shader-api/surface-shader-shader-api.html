@@ -1,0 +1,73 @@
+<header><meta name="title" content="Surface Shader - Shader API | Substance 3D Painter"><meta name="description" content="Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > Surface Shader - Shader API"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Surface Shader - Shader API</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="SurfaceShaderShaderAPI-surface-shader.glsl">surface-shader.glsl</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>To create a shader resource that can be used in Substance Painter, just create a glsl file containing a single function called <em>shade</em> with the following profile:</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">void shade(V2F inputs);</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="SurfaceShaderShaderAPI-V2Finputtypedefinition:">V2F input type definition:</h2>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">struct V2F { 
+  vec3 normal;               // interpolated normal 
+  vec3 tangent;              // interpolated tangent 
+  vec3 bitangent;            // interpolated bitangent 
+  vec3 position;             // interpolated position 
+  vec4 color[1];             // interpolated vertex colors (color0) 
+  vec2 tex_coord;            // interpolated texture coordinates (uv0) 
+  SparseCoord sparse_coord;  // interpolated sparse texture coordinates used by textureSparse() sampling function 
+  vec2 multi_tex_coord[8];   // interpolated texture coordinates (uv0-uv7) 
+};</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Note: To obtain a SparseCoord for uv1-uv7, you have to explicitly call <i>getSparseCoord(vec2)</i> defined in <a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api.html">lib-sparse.glsl</a></p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="SurfaceShaderShaderAPI-Surfaceshaderoutputs:">Surface shader outputs:</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The following functions can be called from within the <em>shade</em> function to describe fragment properties:</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">// fragment opacity. default value: 1.0 
+void alphaOutput(float); 
+// diffuse lighting contribution. default value: vec3(0.0) 
+void diffuseShadingOutput(vec3); 
+// specular lighting contribution. default value: vec3(0.0) 
+void specularShadingOutput(vec3); 
+// color emitted by the fragment. default value: vec3(0.0) 
+void emissiveColorOutput(vec3); 
+// fragment color. default value: vec3(1.0) 
+void albedoOutput(vec3); 
+// subsurface scattering properties, see lib-sss.glsl for details. default value: vec4(0.0) 
+void sssCoefficientsOutput(vec4);</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>As an example, the most basic rendering equation for computing the fragment color is: <i>emissiveColor + albedo * diffuseShading + specularShading</i></p>
+</div>
+</div>
+</div>
+</div></body>

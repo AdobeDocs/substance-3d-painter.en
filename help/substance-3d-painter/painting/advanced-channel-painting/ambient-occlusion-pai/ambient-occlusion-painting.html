@@ -1,0 +1,167 @@
+<header><meta name="title" content="Ambient Occlusion Painting | Substance 3D Painter"><meta name="description" content="Painter > Painting > Advanced channel painting > Ambient Occlusion Painting"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Ambient Occlusion Painting</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The ambient occlusion channel allow to paint details in the ambient shadows of an object. It can be used to add AO details coming from Materials, or simply fix manually baking errors when needed.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<blockquote><p>In computer graphics, ambient occlusion is a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting. The interior of a tube is typically more occluded (and hence darker) than the exposed outer surfaces, and the deeper you go inside the tube, the more occluded (and darker) the lighting becomes. Ambient occlusion can be seen as an accessibility value that is calculated for each surface point.<br/>Source: <a class="external-link" href="https://en.wikipedia.org/wiki/Ambient_occlusion" rel="nofollow">https://en.wikipedia.org/wiki/Ambient_occlusion</a></p></blockquote>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The <strong> result </strong> of this computation is stored in a bitmap named the "Ambient Occlusion" map. This map can be baked in the application directly, see: <a href="/substance-3d-painter/baking.html">Baking</a>.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="AmbientOcclusionPainting-PaintingAmbientOcclusion"> Painting Ambient Occlusion </h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>To paint custom occlusion details, an Ambient Occlusion channel is required. It can be added via the <a href="/substance-3d-painter/interface/texture-set/texture-set-settings.html">Texture Set settings</a>:</p>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image" src="add-ao-channel.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Once the channel has been added to a Texture Set, any layer can be used to paint new information. Since the AO channel contains only grayscale information, recommended blending mode are <strong>Normal</strong> (paint over) and <strong>Multiply</strong> (combine).</p><p>To know more about them and how to change them per channel, see: <a href="/substance-3d-painter/interface/layer-stack/blending-modes.html">Blending modes</a>.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="AmbientOcclusionPainting-PaintingovertheAmbientOcclusionadditionalmap">Painting over the Ambient Occlusion additional map</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> In some situation, it can be useful to paint over the baked Ambient Occlusion in order to hide details or even fix baking issues.  <br/> </p><p>The default setup of a project in Substance 3D Painter will combine the Ambient Occlusion <strong> channel </strong> with the Ambient Occlusion map from the <strong> additional maps </strong> . This means that painting over the baked additional map is not possible by default, the results of each maps (the baked maps and the channels) will be multiplied together. This can be changed however with the following setup :</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="AmbientOcclusionPainting-1-AddanAmbientOcclusionchannel">1 - Add an Ambient Occlusion channel</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Add an ambient occlusion channel in the current texture set : <br/> <img src="edit-ao-channel-optimized.gif"/> </p><p>Set its mixing mode to " <strong> replace </strong> " instead of " <strong> multiply </strong> " : <br/> <img src="ao-mix-mode.gif"/> </p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="AmbientOcclusionPainting-2-Settingafilllayerwiththebakedambientocclusion">2 - Setting a fill layer with the baked ambient occlusion</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> Create a new fill layer and put the baked ambient occlusion inside the "ambient occlusion" slot, via the properties panel. Don't forget to change the default tilling of the fill layer if it not already set to 1. <br/> <img src="ao-stack.png"/> </p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="AmbientOcclusionPainting-3-Changingthefilllayerblendingmode">3 - Changing the fill layer blending mode</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>By default the blending mode of the AO channel on any new layer is set to " <strong> Multiply </strong> ". Since it is preferable to use the fill layer as the base, we chose the "normal" blending mode since the bitmap don't have any alpha, it will replace everything below (including the default color of the shader). <br/> <img src="ao-blend-mode.gif"/> </p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="AmbientOcclusionPainting-4-Creatingalayertopaintoverthebakedambientocclusionmap">4 - Creating a layer to paint over the baked ambient occlusion map</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> Create a new layer (regular or fill) and change its blending mode to "normal" for the AO channel. Once this setup is done, anything painted on the AO channel will take over the baked AO map that is on the layer below. <br/> <img height="250" src="paint-over-ao-optimized.gif"/> </p>
+</div>
+</div>
+</div>
+</div></body>

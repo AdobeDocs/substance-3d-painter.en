@@ -1,0 +1,51 @@
+<header><meta name="title" content="UV Reprojection | Substance 3D Painter"><meta name="description" content="Painter > Features > UV Reprojection"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">UV Reprojection</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> UV Reprojection is an automatic process that happens when you changed the texture resolution or that you import a new mesh. <br/> If you load a new mesh in your document (via the <a href="https://substance3d.adobe.com/display/draftpainter/project%20configuration" rel="nofollow"> Project Configuration </a> window ), all your actions will be reprojected on that new mesh. It doesn't matter if the topology changed (as long it's similar) or that the UVs have changed. Since the reprojection works by recomputing all the layers and brush strokes, it can take a bit of time (especially at high texture resolutions). </p><p> Painting in 2D View </p><p> Since every stroke made in the 2D view is performed in the UV space, there is no way to reproject it properly in case the UV of the mesh change dramatically after a reimport. The best way to make your project reprojection proof is to rely on masking by an ID map and other type of selection and painting instead the 3D View. </p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1> How does the re-projection work ? </h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> Substance 3D Painter saves its data in 3D in world space to keep everything non destructive. That means that when reimporting a mesh, Substance 3D Painter tries to paint where the mesh was before the reimport, it has no way to know where some pieces could have moved. </p><p> Also when Substance 3D Painter import a mesh, it computes it's bounding box to register the space and define a relative scale for the tools (paint brush, particles and so on). This Bounding Box is 1 unit wide on every axis. When you import a new mesh, if you uncheck the "preserve stroke" we re-normalize the bounding box to the new mesh. Therefore if your mesh changed dramatically in size, the strokes can move. If you check "preserve strokes" however, we scale the original bounding box to the new one in order to reproject properly the brush strokes. </p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ ADOBE CONFIDENTIAL
+  ~ __________________
+  ~
+  ~  Copyright 2020 Adobe
+  ~  All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains
+  ~ the property of Adobe and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Adobe
+  ~ and its suppliers and are protected by all applicable intellectual
+  ~ property laws, including trade secret and copyright laws.
+  ~ Dissemination of this information or reproduction of this material
+  ~ is strictly forbidden unless prior written permission is obtained
+  ~ from Adobe.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<div class="helpx-note helpx-alert">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Alert</span>
+</span>
+<div class="cmp-text">
+<p> Changing units of your 3D mesh can lead to UV reprojection not working; the old and new mesh, even though topology has not changed, can be interpreted as vastly different scales. Ideally you avoid changing your unit setup, as it can be difficult to fix. </p>
+</div>
+</div>
+</div>
+</div>
+</div></body>

@@ -1,0 +1,59 @@
+<header><meta name="title" content="Lib Emissive - Shader API | Substance 3D Painter"><meta name="description" content="Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Emissive - Shader API"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Lib Emissive - Shader API</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="LibEmissiveShaderAPI-lib-emissive.glsl">lib-emissive.glsl</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><strong>Public Functions:</strong> <i>pbrComputeEmissive</i></p><p>Import from library</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">import lib-sparse.glsl</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The emissive channel texture.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">//: param auto channel_emissive 
+uniform SamplerSparse emissive_tex;</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>A value used to tweak the emissive intensity.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">//: param custom { 
+//:   "default": 1.0, 
+//:   "label": "Emissive Intensity", 
+//:   "min": 0.0, 
+//:   "max": 100.0, 
+//:   "group": "Common Parameters" 
+//: } 
+uniform float emissive_intensity;</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Compute the emissive radiance to the viewer's eye</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">vec3 pbrComputeEmissive(SamplerSparse emissive, SparseCoord coord) 
+{ 
+  return emissive_intensity * textureSparse(emissive, coord).rgb; 
+} 
+ 
+</pre>
+</div>
+</div>
+</div></body>

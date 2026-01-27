@@ -1,0 +1,14 @@
+<header><meta name="title" content="Preserve brush strokes setting stays disabled | Substance 3D Painter"><meta name="description" content="Painter > Technical support > Workflow Issues > Project Issues > Preserve brush strokes setting stays disabled"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Preserve brush strokes setting stays disabled</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Because of an unfortunate bug introduced in Substance 3D Painter 1.5 (partially fixed in 1.7) some projects have lost metadata related to the mesh. This bug makes therefore the "Preserve strokes positions on mesh" setting in the <a href="/substance-3d-painter/interface/project-configuration.html"> Project Configuration </a> window to stay disabled.</p><p>To solve the issue some specific steps need to be followed :</p><ul><li><p>Open the project with the issue in Substance 3D Painter 1.7 or superior</p></li><li>Go to Edit &gt; Project Configuration</li><li>Select and re-import the original mesh that you used in the current project (not the updated version)</li><li>Validate and let Substance 3D Painter compute the layers, nothing should change if it's the same mesh</li><li>Go again to Edit &gt; Project Configuration</li><li>"Preserve strokes positions on mesh" should now be enabled again, allowing you to import the new mesh</li></ul>
+</div>
+</div>
+</div>
+</div></body>

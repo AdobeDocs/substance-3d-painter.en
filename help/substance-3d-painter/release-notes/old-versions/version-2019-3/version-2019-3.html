@@ -1,0 +1,1757 @@
+<header><meta name="title" content="Version 2019.3 | Substance 3D Painter"><meta name="description" content="Painter > Release notes > Old versions > Version 2019.3"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Version 2019.3</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><strong>Substance Painter 2019.3</strong> introduces Photoshop brush presets support and automatic UV unwrapping for your meshes, as well as delivers various quality of life improvements, such as better handling of graphic tablets.</p><p>Release date: <em style="letter-spacing: 0.0px;">December 17, 2019</em></p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="Version2019.3-MajorFeatures">Major Features</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Photoshop Brush Presets Support (ABR)</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-abr?$png$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-abr?$png$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-abr?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image" src="banner-abr.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>You can now use your Photoshop brushes in Substance Painter. By simply exporting your presets as an ABR file, you can now import them as regular brush presets. Presets contained inside an ABR files will appear in the Shelf as individual brush presets.</p><p>If you don't have ABR files to import, you can find a lot of them online:</p><ul><li><a href="https://www.adobe.com/products/photoshop/brushes.html" rel="nofollow">Kyle's Brush Presets on Adobe</a></li><li><a href="https://www.artstation.com/marketplace?q=photoshop%20brush&amp;sort_by=trending" rel="nofollow">Brush Presets on ArtStation</a></li><li><a href="https://www.deviantart.com/search?q=photoshop%20brush" rel="nofollow">Brush Presets on DeviantArt</a></li><li><a href="https://cubebrush.co/marketplace?categories=354,57" rel="nofollow">Brush Presets on Cubebrush</a></li></ul><p>In order to support Photoshop brushes, various new features have been added to the painting tool properties:</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ul class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>New Size and Flow Minimum parameters</strong> <br/>You can now specify the minimum size and the minimum flow of the tool when Pen Pressure is enabled. This parameter works as a percentage based on the current maximum size/flow defined. These settings are automatically calibrated when using a Photoshop brush preset.<br/> <img src="size-minimum.png"/></p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>New Position Jitter parameters</strong> <br/>In order to match Photoshop brush behavior, we added a few new settings. It is now possible to define which axis the jitter is applied to and how random positions are distributed (choose <strong>Uniform</strong> to match Photoshop).<br/> <img src="position-jitter-settings.png"/> <br/> <img src="gaussian-vs-uniform.png" width="400"/></p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>New alpha blending mode</strong> <br/>Photoshop doesn't composite its brush strokes the same way as Substance Painter does, therefore we added a new blending mode (Lighten) to better match the painting result. This blending mode doesn't over-accumulate when stamps overlap, which can improve the feeling of pressure when painting with a low Flow/Opacity value.<br/> <img src="alpha-blend-mode.png"/> <br/> <img src="lighten-vs-normal-demo.png" width="400"/></p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Support for Roundness and Flip</strong> <br/>A new Substance Alpha named <strong>Brush Maker Photoshop</strong> has been added to support parameters such as Roundness (scale the height of the Alpha) and Flip (mirror an image on both axes). This Substance Alpha is automatically loaded when clicking on a brush preset coming from an ABR file.<br/> <img src="brush-maker-photoshop.png" width="303"/> <br/> <img src="brush-maker-photoshop-settings.png"/> <br/> <strong> <br/> </strong></p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>New gamma correction for alpha channel of layers</strong> <br/>Photoshop doesn't blend its brush strokes in Linear Gamma space, which means blending and opacity may look wrong when painting with a Photoshop brush preset. A new setting can be enabled on layers to match that behavior and apply a gamma correction. This will affect the alpha used to paint brush strokes, as well as how the layer's mask is used to blend with other layers, however layer's blending modes will still operate in Linear gamma space.<br/>To <strong>activate this setting</strong>, simply right-click on a layer and choose <strong>Gamma corrected alpha/mask</strong>. A new icon will appear next to the layer to indicate when this setting is enabled.<br/> <img height="65" src="layer-menu.png"/> <img src="layer-icon.png"/> <br/> <img src="gamma-correction-demo.png" width="400"/></p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Increased maximum value for Spacing and Position Jitter</strong> <br/>In order to match properly Photoshop brush presets parameters, the maximum value of the following parameters has been increased:</p><ul><li><strong>Spacing</strong>: maximum can now be set to 1000.</li><li><strong>Position Jitter</strong>: maximum can now be set to 1000.</li></ul>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>For more information, such as how to export ABR files and import them, take a look at the <a href="/substance-3d-painter/painting/presets/photoshop-brush-presets-abr.html">Photoshop Brush Presets</a> documentation.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>Not all Photoshop brush parameters are supported at the moment, refer to the <a href="/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/photoshop-brush-parameters-compatibility.html">compatibility list</a> for more information.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="Version2019.3-PaintingandGraphicTabletSupportImprovements">Painting and Graphic Tablet Support Improvements</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid1" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-painting-improvements?$png$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-painting-improvements?$png$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-painting-improvements?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image" src="banner-painting-improvements.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>In addition to the support of Photoshop brush presets, numerous improvements and fixes have been made related to the use of graphic tablets.</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ul class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Straight Line first stamp is not doubled anymore</strong><br/>When painting a Straight Line, the first stamp is not duplicated anymore (no need to Undo your stamp just to place the Straight Line in position).<br/> <img src="straight-line-double-stamp.png" width="400"/> <br/> <strong> <br/> </strong></p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Straight Line pressure interpolation</strong> <br/>Straights Lines now support pressure. The pressure value will be interpolated between the first stamp and the last stamp.<br/> <img src="straight-line-pressure.png" width="400"/></p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>New brush preview modes</strong> <br/>The brush preview in the viewport can now be changed to different visualization modes. To change the mode, simply click on the new dropdown button in the contextual toolbar.<br/> </p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step2_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step2_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step2_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/brush-outline?$png$&amp;jpegSize=200&amp;wid=723"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/brush-outline?$png$&amp;jpegSize=200&amp;wid=723"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/brush-outline?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_procedure1_proc_par_proc_step2_step_par_image" src="brush-outline.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Pen pressure curves</strong> <br/>In the contextual toolbar it is now possible to define how the pen pressure should be interpreted. These new settings control how fast the pressure build-up which allow different painting styles.</p><ul><li><strong>Linear</strong>: No transformation, the pressure it retrieved as provided by the graphic tablet's pen. Use this setting in case a Pen pressure curve is already defined in the Tablet drivers settings.</li><li><strong>Ease In</strong> (default): Slow down the beginning of the pressure, making it easier to paint thin or faint strokes.</li><li><strong>Ease In Out</strong>: Slow down the beginning of the pressure and speed up its ending, making it easier to paint soft or strong strokes.</li></ul>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step3_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step3_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step3_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/pressure-curve?$png$&amp;jpegSize=200&amp;wid=683"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/pressure-curve?$png$&amp;jpegSize=200&amp;wid=683"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/pressure-curve?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_procedure1_proc_par_proc_step3_step_par_image" src="pressure-curve.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Pressure button is not a dropdown anymore</strong> <br/>We changed the Pen pressure controls to be simple on/off buttons. This makes enabling and disabling the pressure much easier and quicker.<br/> </p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step4_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step4_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step4_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure1_proc_par_proc_step4_step_par_image" src="contextual-toolbar-pen-pressure-button.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><strong>Improved support of graphic tablets and switch to Windows Ink</strong> <br/>We reworked the way we handle graphic tablets. This should improve compatibility in general with recent models of graphic tablets and reduce the number of issues we had in the past. On Windows we also switched to Windows Ink instead of Wintab to improve the compatibility. </p>
+</div>
+</div>
+<div class="text">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>Make sure your Wacom drivers are up to date and that "Windows Ink" is enabled in tablet settings.</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Automatic UV Unwrapping (Beta)</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid2 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid2" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid2_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid2_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid2_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid2_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-uv-unwrap?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-uv-unwrap?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-uv-unwrap?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid2_items_grid-cell_position-par_image" src="banner-uv-unwrap.jpg"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Substance Painter will now automatically unwrap meshes which have missing UV coordinates. This make possible to import any kind of geometry and immediately start to paint. Our UV Unwrapping system will generate one UV island per sub-mesh while still following the material assignation to create Texture Sets. This feature is currently in beta and will evolve in future versions. The Automatic Unwrapping will be only applied to projects that <strong>don't use the UDIM workflow</strong>.</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ul class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Automatic UV Unwrapping</strong> <br/>By default Substance Painter will now automatically generate UV coordinates for meshes which are missing them. This apply to both project creation and mesh reimport. It is however possible to disable this behavior by going into the <a href="/substance-3d/unlisted/documentation/spdoc/general-71008262.html">main settings</a> and disabling <strong>Enable automatic UV unwrapping</strong> under <strong>Import Options</strong>.<br/> </p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure2_proc_par_proc_step_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure2_proc_par_proc_step_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure2_proc_par_proc_step_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure2_proc_par_proc_step_step_par_image" src="uv-unwrap-setting.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>UV Unwrapping Progress Bar</strong> <br/>When importing a mesh there is a now a progress bar to indicate the current state of the process. This also include the UV Unwrapping process.<br/> </p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure2_proc_par_proc_step1_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure2_proc_par_proc_step1_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure2_proc_par_proc_step1_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure2_proc_par_proc_step1_step_par_image" src="uv-unwrapping-progress.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Currently Known Issues</strong> <br/>Since this new feature is currently in beta, some issues are expected. Refer to the release notes below to get a list of the currently known issues. If the application crash and produce incorrect results, we suggest sending us a crash or bug report via the application to help us investigate the problem and improve the process.</p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>A new <strong>generator</strong> has been added in the Shelf to help visualize the automatic unwrapping. To use it, simply create a new layer, add a generator effect and load the new <strong>UV Checker</strong> resource into it.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="Version2019.3-SubstanceIntegrationImprovements">Substance Integration Improvements</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid3 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid3" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid3_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid3_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid3_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid3_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-substance?$png$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-substance?$png$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-substance?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid3_items_grid-cell_position-par_image" src="banner.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>We continue improving the integration of the Substance format by supporting some long awaited features but also by improving existing system such as the Dynamic Stroke feature.</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ul class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Non-clamped with soft ranges sliders</strong> <br/>Until now, exposed sliders from Substance graph always behaved like they were clamped. Meaning the values that could be input couldn't go beyond the default minimum and maximum values defined by the parameter.<br/> </p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure3_proc_par_proc_step_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure3_proc_par_proc_step_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure3_proc_par_proc_step_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure3_proc_par_proc_step_step_par_image" src="slider-soft-range.gif"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Support of the Step defined in parameters</strong> <br/>Substance graph that have parameters with a defined step will now be taken into account when tweaking the slider.<br/> <strong> <br/> </strong></p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Increased digit precision for float sliders</strong> <br/>Float slider can now have input values that go down to 6 decimals. This is however limited by floating point precision, which means the value input may be rounded in some cases.<br/> <strong> <br/> </strong></p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>New Random Seed control with Dynamic Strokes</strong> <br/>It is now possible to request multiple random seed values withing a defined range. This allows to create unique and random Substance variations while still getting good performances by benefiting from the cache recycling.<br/>Under the Dynamic Stroke group switch the <strong>Random Seed Type</strong> parameter to <strong>Random Per Stroke</strong> or <strong>Random Per Stamp</strong> to access the new parameter. The <strong>Random Sample Amount</strong> defines how many Substance variations will be generated in total. A random variations will be pick within the set already once the amount selected has been generated.<br/> </p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure3_proc_par_proc_step3_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure3_proc_par_proc_step3_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure3_proc_par_proc_step3_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure3_proc_par_proc_step3_step_par_image" src="dynamic-stroke-random-seed.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>New user data Static Dynamic Strokes</strong> <br/>A new optimization has been added which allows to specify when a Substance can be considered a dynamic stroke. Similar to the Visible If, it is now possible to add conditions in the userdata field to specify under which condition Substance Painter should generate new Substance variations with the Dynamic Stroke feature. See the <a href="/substance-3d-painter/content/creating-custom-effects/user-data.html">userdata documentation</a> for more information.<br/></p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>New user data to designate an output node as mask for all channels</strong> <br/>A new userdata can now be added on an output node to use it an alpha mask for all the other channels. This is similar to the existing <strong>channels_Alpha</strong> system, but without the need to create a new dedicated output in the Substance graph. See the <a href="/substance-3d-painter/content/creating-custom-effects/user-data.html">userdata documentation</a> for more information.</p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="Version2019.3-MiscellaneousImprovements">Miscellaneous Improvements</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid4 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid4" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid4_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid4_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid4_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid4_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-baking-1?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-baking-1?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-baking-1?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid4_items_grid-cell_position-par_image" src="banner-baking-1.jpg"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Various improvements have been made in the rest of the application which should help for the day to day work within Substance Painter.</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ul class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Independent viewports focus</strong> <br/>The 2D and 3D focus (F shortcut) has been modified with the following behavior:</p><ul><li><strong>Mouse over the 2D view</strong>: pressing F will only focus the 2D view.</li><li><strong>Mouse over the 3D view</strong>: pressing F will only focus the 3D view.</li><li><strong>Mouse outside the viewports</strong>: pressing F will focus both the 2D and 3D view.</li></ul>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure4_proc_par_proc_step_step_par_image { width:400px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure4_proc_par_proc_step_step_par_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure4_proc_par_proc_step_step_par_image { width:px; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure4_proc_par_proc_step_step_par_image" src="viewport-focus.gif"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Baking Window keyboard and menu shortcut</strong> <br/>The baking window can be open by two new different ways:</p><ul><li>By pressing <strong>Ctrl+Shift+B</strong>.</li><li>By going in the Edit menu and clicking on <strong>Bake Mesh Maps</strong>.</li></ul>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure4_proc_par_proc_step1_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure4_proc_par_proc_step1_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure4_proc_par_proc_step1_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure4_proc_par_proc_step1_step_par_image" src="bake-mesh-maps-menu.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Scroll Docks and Windows with Ctrl+Alt+Left Click shortcut</strong> <br/>A new shortcut has been added that allows to scroll windows and docks without the need of the mouse wheel. Which this shortcut it is now possible to scroll with the pen of the graphic tablet.<br/> </p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure4_proc_par_proc_step2_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure4_proc_par_proc_step2_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure4_proc_par_proc_step2_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure4_proc_par_proc_step2_step_par_image" src="scroll-shortcut.gif"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Performance improvements</strong><br/>In the background many optimizations have been put in place which should improve the general performances of Substance Painter (from openings projects to painting).</p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="Version2019.3-NewContent">New Content</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid5 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid5" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid5_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid5_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid5_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid5_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-content-2?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-content-2?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-content-2?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid5_items_grid-cell_position-par_image" src="banner-content-2.jpg"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>In this release a lot of new content has been added:</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ul class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Updated "Meet Mat" sample project</strong><br/>Mat has been updated with a new topology, making it more friendly with displacement. The ID map has been reworked to offer more masking possibilities and a new set of Cameras is available in the project to offer new viewing angles.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step_step_par_image { width:500px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step_step_par_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step_step_par_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/meet-mat-2019?$pjpeg$&amp;jpegSize=300&amp;wid=1449"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/meet-mat-2019?$pjpeg$&amp;jpegSize=200&amp;wid=1199"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/meet-mat-2019?$pjpeg$&amp;jpegSize=100&amp;wid=500"/>
+<img class="" id="root_content_flex_items_position_position-par_procedure5_proc_par_proc_step_step_par_image" src="meet-mat-2019.jpg"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>New filters</strong><br/>3 new new filters have been added to make stylized content easier:<strong><br/></strong></p>
+</div>
+</div>
+<div class="procedure parbase">
+<div class="procedure">
+<ul class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>MatFx Comic Book</strong><br/>This filter simulate hatching and edge lines based on the input provided (from the base color/diffuse to the curvature).</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step1_step_par_procedure_proc_par_proc_step_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step1_step_par_procedure_proc_par_proc_step_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step1_step_par_procedure_proc_par_proc_step_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure5_proc_par_proc_step1_step_par_procedure_proc_par_proc_step_step_par_image" src="icon-matfx-comic-book.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>MatFx Watercolor</strong><br/>This filter simulate watercolor painting with color bleeding and paper absorption by reading the input color.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step1_step_par_procedure_proc_par_proc_step1_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step1_step_par_procedure_proc_par_proc_step1_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step1_step_par_procedure_proc_par_proc_step1_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure5_proc_par_proc_step1_step_par_procedure_proc_par_proc_step1_step_par_image" src="icon-matfx-watercolor.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><strong>MatFx Oil Paint</strong><br/>Inspired by <a href="https://www.artstation.com/emrecancubukcu" rel="nofollow">Emrecan Cubukcu</a> work, this filter read the color information from the input and translate it into brush strokes based on various parameters. Multiple presets are available to easily try out variations. We recommend combining it with the <strong>Baked Lighting Environment</strong> filter or to manually bake/paint shadows in your textures to maximize its effect.<br/></p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step1_step_par_procedure_proc_par_proc_step2_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step1_step_par_procedure_proc_par_proc_step2_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step1_step_par_procedure_proc_par_proc_step2_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure5_proc_par_proc_step1_step_par_procedure_proc_par_proc_step2_step_par_image" src="icon-matfx-oil-paint.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step1_step_par_procedure_proc_par_proc_step2_step_par_image1 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step1_step_par_procedure_proc_par_proc_step2_step_par_image1 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step1_step_par_procedure_proc_par_proc_step2_step_par_image1 { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure5_proc_par_proc_step1_step_par_procedure_proc_par_proc_step2_step_par_image1" src="oil-paint-demo.jpg"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>This is a very expensive filter which can take some time to compute. When iterating, it is recommended to disable the layer that contains the effect before tweaking layers bellow it.</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div></div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>New brush presets</strong></p>
+</div>
+</div>
+<div class="procedure parbase">
+<div class="procedure">
+<ul class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>102 Photoshop brush presets</strong><br/>With the introduction of the photoshop brush support a new set of presets has been included to showcase it. Those presets are been selected from Kyle T. Webster's packs available on <a href="https://www.adobe.com/products/photoshop/brushes.html" rel="nofollow">Adobe website</a>.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step2_step_par_procedure_proc_par_proc_step_step_par_image { width:500px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step2_step_par_procedure_proc_par_proc_step_step_par_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step2_step_par_procedure_proc_par_proc_step_step_par_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/shelf-abr-demo?$pjpeg$&amp;jpegSize=200&amp;wid=689"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/shelf-abr-demo?$pjpeg$&amp;jpegSize=200&amp;wid=689"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/shelf-abr-demo?$pjpeg$&amp;jpegSize=100&amp;wid=500"/>
+<img class="" id="root_content_flex_items_position_position-par_procedure5_proc_par_proc_step2_step_par_procedure_proc_par_proc_step_step_par_image" src="shelf-abr-demo.jpg"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>18 new brush presets</strong><br/>In addition to the Photoshop brush presets, new more regular presets have been added:</p><ul><li><p>Basic Hard Pressure</p></li><li><p>Charcoal Fine</p></li><li><p>Charcoal Full Frame</p></li><li><p>Charcoal Light</p></li><li><p>Charcoal Medium</p></li><li><p>Charcoal Natural</p></li><li><p>Charcoal Ramp</p></li><li><p>Wiggle Stroke Dense</p></li><li><p>Wiggly Dots</p></li><li><p>Wiggly Stroke With Break Up</p></li><li><p>Wiggly Strokes</p></li><li><p>Paint Roller Arrow</p></li><li><p>Paint Roller Staples Wide</p></li><li><p>Paint Roller Staples</p></li><li><p>Paint Roller Stitches</p></li><li><p>Paint Roller Stripes</p></li><li><p>Paint Roller Vein Long Narrow</p></li><li><p>Paint Roller Warning Text</p></li></ul>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step2_step_par_procedure_proc_par_proc_step1_step_par_image { width:500px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step2_step_par_procedure_proc_par_proc_step1_step_par_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step2_step_par_procedure_proc_par_proc_step1_step_par_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/shelf-presets-demo?$pjpeg$&amp;jpegSize=100&amp;wid=540"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/shelf-presets-demo?$pjpeg$&amp;jpegSize=100&amp;wid=540"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/shelf-presets-demo?$pjpeg$&amp;jpegSize=100&amp;wid=500"/>
+<img class="" id="root_content_flex_items_position_position-par_procedure5_proc_par_proc_step2_step_par_procedure_proc_par_proc_step1_step_par_image" src="shelf-presets-demo.jpg"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+</ul>
+</div></div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>New tool presets</strong><br/>2 new tool presets have been added which simulate gouache paint.<strong><br/></strong></p><ul><li>Gouache Dense.</li><li>Gouache Faded.</li></ul>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step3_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step3_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step3_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure5_proc_par_proc_step3_step_par_image" src="shelf-gouache.jpg"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>New alphas</strong><br/>In addition to the alphas used to create the new brush presets (see above) two new important Alpha have been integrated:</p>
+</div>
+</div>
+<div class="procedure parbase">
+<div class="procedure">
+<ul class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Brush Maker Photoshop</strong><br/>This new Substance graph replicates some specific brush parameters available in Photoshop via the Dynamic Stroke feature. With it is possible to control the Roundness and the Flip or an input image. Some jitter parameter are also available to create more variations. This Substance graph is automatically inserted in the Alpha section when clicking on a Photoshop brush preset coming from an ABR file.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step4_step_par_procedure_proc_par_proc_step_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step4_step_par_procedure_proc_par_proc_step_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step4_step_par_procedure_proc_par_proc_step_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure5_proc_par_proc_step4_step_par_procedure_proc_par_proc_step_step_par_image" src="icon-brush-maker-photoshop.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Brush Maker Paint Roller</strong><br/>This new Substance graph simulates a Paint Roller (or simple Ribbon tool) to paint continuous patterns with turns without breaking. To make the setup easier take a look at existing presets or refer to the graph description. We recommend enabling the <a href="/substance-3d-painter/painting/lazy-mouse.html">Lazy mouse</a> to make the roll brush draw properly without creating break-ups.<br/></p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step4_step_par_procedure_proc_par_proc_step1_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step4_step_par_procedure_proc_par_proc_step1_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step4_step_par_procedure_proc_par_proc_step1_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure5_proc_par_proc_step4_step_par_procedure_proc_par_proc_step1_step_par_image" src="icon-brush-maker-paint-roller.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step4_step_par_procedure_proc_par_proc_step1_step_par_image1 { width:290px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step4_step_par_procedure_proc_par_proc_step1_step_par_image1 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step4_step_par_procedure_proc_par_proc_step1_step_par_image1 { width:px; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure5_proc_par_proc_step4_step_par_procedure_proc_par_proc_step1_step_par_image1" src="paint-roller-text-warning2-optim.gif"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+</ul>
+</div></div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>New "UV Checker" generator</strong><br/>A new generator named "UV checker" has been integrated to help analyze the mesh UV coordinates. This make the UVs generated by our Automatic UV Unwrapping easier to understand.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step5_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step5_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure5_proc_par_proc_step5_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure5_proc_par_proc_step5_step_par_image" src="icon-uv-checker.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>New template and export presets</strong></p><ul><li><strong>Keyshot 9+</strong><br/>This export preset makes the exported textures compatible with the new Keyshot 9 feature that simplify the loading and assignation of textures and materials. For more information see the <a href="https://luxion.atlassian.net/wiki/spaces/K9M/pages/1124335675/Material+Importer" rel="nofollow">Keyshot documentation</a>.<br/><br/></li><li><strong>Spark AR Studio</strong><br/>This new project template and export preset make it easier to work with <a href="https://sparkar.facebook.com/ar-studio/" rel="nofollow">Spark AR Studio</a>.</li></ul>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ ADOBE CONFIDENTIAL
+  ~ __________________
+  ~
+  ~  Copyright 2020 Adobe
+  ~  All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains
+  ~ the property of Adobe and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Adobe
+  ~ and its suppliers and are protected by all applicable intellectual
+  ~ property laws, including trade secret and copyright laws.
+  ~ Dissemination of this information or reproduction of this material
+  ~ is strictly forbidden unless prior written permission is obtained
+  ~ from Adobe.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<div class="helpx-note helpx-alert">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Alert</span>
+</span>
+<div class="cmp-text">
+<ul><li>This release doesn't support MacOS 10.11 (El Capitan) anymore.</li><li>This release doesn't support CentOS 6.x anymore.</li><li>On CentOS 7.5 (or below) the application may not start because of some dependencies issues, to fix the problem either update the system or copy the <a href="https://centos.pkgs.org/7/centos-x86_64/freetype-2.8-12.el7.x86_64.rpm.html" rel="nofollow" style="letter-spacing: 0.0px;">following library</a> in the installation folder.</li></ul>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="Version2019.3-ReleaseNotes">Release Notes</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="Version2019.3-2019.3.3">2019.3.3 </h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> <i>(Released February 06, 2020)</i> <br/>Summary : <strong>Bugfix with upgrade to Iray 2019.3</strong> </p><p><strong>Added:</strong></p><ul> <li>Upgrade to Iray 2019.3 </li><li>[Log] Indicate outdated bios for Ryzen CPU leading to crash during baking </li><li>[ABR] Extract ABR alphas to shelf </li></ul><p><strong>Fixed:</strong></p><ul> <li>[Baker] Baking fail if High-poly mesh does not have UVs </li><li>[Linux] Custom mouse shortcuts are not saved </li><li>[Brush] Outline disappears with some alpha shapes </li><li>[Tablet] Bad detection when moving sliders </li><li>[Shortcuts] Can not set up any shortcut with "Ctrl+Alt+MouseClick" </li><li>[Shelf] Can not see resource tooltip when using a pen tablet </li><li>[2D View][Export] 2D View preset does not take into account the normal information </li><li>Freeze when painting in UV alignment with certain brushes </li><li>Painting under a filter creates artifact on the ongoing stroke </li><li>[Viewport] Incorrect texture cache in viewport after re-importing a mesh </li><li>[Crash] Error when saving after exporting to Photoshop </li><li>[Crash] Writing special symbols in prefix when importing resources </li><li>[Crash] Click on the reference in Anchor Point Properties </li><li>[Anchor Points] Channel does not update when there is a filter between Anchor point and reference </li><li>Iray url link in Help menu does not work </li></ul><p><strong>Known Issues:</strong></p><ul> <li>[UV Unwrapping] Processing high poly meshes can take a long time </li><li>[UV Unwrapping] Vertices at the exact same coordinates are merged </li><li>[UV Unwrapping] UV Generation may fail on some mesh parts in some rare cases </li><li>[UV Unwrapping] Non uniform or highly distorted texel ratio in a single UV island in some cases </li><li>[UV Unwrapping] Non uniform texel ratio between Texture Sets </li><li>[UV Unwrapping] UV island generated can be very elongated and do not fit into UV space in some cases </li><li>[UV Unwrapping] Degenerated faces or non-triangular mesh faces with small or overlaping edges may not get UV unwrapped </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="Version2019.3-2019.3.2">2019.3.2 </h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> <i>(Released January 21, 2020)</i> <br/>Summary : <strong>Bugfix</strong> </p><p><strong>Fixed:</strong></p><ul> <li>Opening a project that was saved in solo channel mode does not display the mesh </li><li>Viewport is not always updated when painting under layer using clone tool </li></ul><p><strong>Known Issues:</strong></p><ul> <li>[Bakers] Crash related to multi-threading on Ryzen CPUs </li><li>[UV Unwrapping] Processing high poly meshes can take a long time </li><li>[UV Unwrapping] Vertices at the exact same coordinates are merged </li><li>[UV Unwrapping] UV Generation may fail on some mesh parts in some rare cases </li><li>[UV Unwrapping] Non uniform or highly distorted texel ratio in a single UV island in some cases </li><li>[UV Unwrapping] Non uniform texel ratio between Texture Sets </li><li>[UV Unwrapping] UV island generated can be very elongated and do not fit into UV space in some cases </li><li>[UV Unwrapping] Degenerated faces or non-triangular mesh faces with small or overlaping edges may not get UV unwrapped </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="Version2019.3-2019.3.1">2019.3.1 </h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> <i>(Released December 20, 2019)</i> <br/>Summary : <strong>Hotfix</strong> </p><p><strong>Fixed:</strong></p><ul> <li>Crash when working on meshes with specific UV projections </li><li>[ABR] Crash when switching between Photoshop presets </li><li>[Linux] Cannot start Substance Painter on CentOS 7.4 because of libGLX dependency issue </li><li>[Bakers] Crash when baking after using File &gt; Clean </li><li>[Bakers] Baking progress dialog freeze after cancel </li><li>[Bakers] Baking mesh after exporting textures does not work </li><li>[Bakers] Using "Match By Name" results with black Mesh Maps </li><li>[Bakers] Cage is not taken into account </li><li>[Shelf] Importing PSD files leads to broken images </li><li>[Sample] "Mat" sample project has broken cameras and incorrect export preset </li></ul><p><strong>Known Issues:</strong></p><ul> <li>[Bakers] Crash related to multi-threading on Ryzen CPUs </li><li>[UV Unwrapping] Processing high poly meshes can take a long time </li><li>[UV Unwrapping] Vertices at the exact same coordinates are merged </li><li>[UV Unwrapping] UV Generation may fail on some mesh parts in some rare cases </li><li>[UV Unwrapping] Non uniform or highly distorted texel ratio in a single UV island in some cases </li><li>[UV Unwrapping] Non uniform texel ratio between Texture Sets </li><li>[UV Unwrapping] UV island generated can be very elongated and do not fit into UV space in some cases </li><li>[UV Unwrapping] Degenerated faces or non-triangular mesh faces with small or overlaping edges may not get UV unwrapped </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="Version2019.3-2019.3.0">2019.3.0 </h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> <i>(Released December 17, 2019)</i> <br/>Summary : <strong>Major release with improvment of handpainting user experience, working with tablets, automatic UV unwrapping in beta (0.3.0) and diverse new content for handpainting</strong> </p><p><strong>Added:</strong></p><ul> <li>Integrate Automatic UV unwrapping 0.3.0 version in Substance Painter </li><li>[UV unwrapping] Automatic UV unwrapping in Substance Painter when No UVs present or partial UVs </li><li>[UV unwrapping] One Global setting to activate and deactivate it </li><li>[UV unwrapping] Version reported in log file </li><li>[UV unwrapping][UI] Indicate UV Unwrapping progress </li><li>[UI] New settings in contextual toolbar to select the brush preview: Full preview, Brush outline and Crosshair </li><li>[Tool] New advanced blending mode in alpha section: Lighten (Maximum) in addition to Normal </li><li>[Layer Stack] Gamma correction option per layer for alpha or mask (right click menu) </li><li>[Layer Stack][UI] Add 'i' icon when a layer alpha is gamma corrected </li><li>[Tablet][Tool] Expose minimum pressure for size and flow </li><li>[Tablet][UI] New setting in contextual toolbar to select the curve pressure: linear, easy-in, easy-in-out </li><li>[Tablet][UX] Add Ctrl+Alt+click to scroll </li><li>Import Photoshop brush presets (ABR format) </li><li>[ABR] Support Shape parameters </li><li>[ABR] Support Shape dynamics parameters </li><li>[ABR] Support Transfer parameters </li><li>[ABR] Support Scattering parameters </li><li>[ABR][Dynamic strokes] Support Roundness and Flip </li><li>[ABR][Shelf] Expose the brush folder structure in the Filter Editor </li><li>[ABR][Shelf] Add Photoshop icon in thumbnails </li><li>[ABR][Shelf] Add list of unsupported parameters in the ABR detailed thumbnail </li><li>[Tool][Dynamic Strokes] New dynamic stroke setting to control how many random seed to generate </li><li>[Tool][UI] Add new distribution and axis settings for Scattering jitter </li><li>[Shortcut] Add Ctrl+Shift+B to open the Baking window </li><li>[UI][Menu] Add entry in 'Edit' menu to open Baking window </li><li>[UI][Settings] Improvement alignment of the shortcuts list </li><li>[UI] Replace pressure controls (size and flow) icons by on/off buttons </li><li>[Viewport] Allow to focus 2D and 3D viewport separately </li><li>Update to QT 5.12.5 </li><li>[UI] Indicate mesh loading progress </li><li>[Substance] Add support for non-clamped and soft range with sliders </li><li>[Substance] Increase Substance parameters precision up to 6 decimals </li><li>[Substance] Take into account the step defined by a parameter </li><li>[Substance] Optimize Dynamic Stroke generation with support of conditions in userdata </li><li>[Substance] Allow to designate a graph output as a mask for all channels via userdata </li><li>[Content] Update 'Mat' sample project with displacement friendly topology, new ID map and new cameras </li><li>[Content] Integrate 3 new filters (MatFx): Comic Book, Watercolor, Oil Paint (inspired by Emrecan Cubukcu work) </li><li>[Content] Integrate 102 Photoshop brush presets from Kyle T. Webster's packs </li><li>[Content] Integrate 18 new brush presets: Paint Roller Arrow, Paint Roller Warning text, Charcoal Fine and more </li><li>[Content] Integrate 9 new alphas: Brush Maker Paint Roller, Brush Maker Photoshop, Brush patterns and more </li><li>[Content] Integrate 2 new tool presets: Gouache Dense and Gouache Faded </li><li>[Content] Integrate 1 new generator : UV checker (highlight UV islands and seams) </li><li>[Content] Integrate 2 new export preset: Keyshot 9+ and Spark AR Studio </li><li>[Content] Integrate 1 new project template : Spark AR Studio (Facebook) </li></ul><p><strong>Fixed:</strong></p><ul> <li>[Tablet] Undoing stylus strokes (Ctrl+Z) lags more than undoing mouse strokes </li><li>[Tablet] Start and end pressure not taken into account when drawing a straight line </li><li>[Tablet] First stamp is drawn twice when using a straight line </li><li>[Tablet] Improve support for Huion tablet shortcuts </li><li>[Tablet] Improve support for Huion pen buttons </li><li>[Tablet] Offset between the brush preview and the drawn stamp </li><li>[Tablet] Shortcuts to modify brushes with pen lead to low performance in rare cases </li><li>[Tablet] Lag when painting on a specific layer </li><li>Blurry textures may occur in rare cases when switching viewport </li><li>[UI][Substance] Image inputs are not always displayed </li><li>Clean does not remove presets from shelf which have been imported in a project </li><li>[Tool][Dynamic Stroke] Performance issue when tweaking Stamp Cycle Count </li><li>Refresh issues while painting in 3D/2D viewport mode in rare cases </li><li>Painting one very long stroke can lead to a freeze </li><li>[Tool] Performance issue when painting with specific dynamic strokes </li><li>[UI] Contextual toolbar still display brush properties when selecting a folder </li><li>Symmetry axis values do not reset </li><li>Import of EXR textures with floating point values are fully black </li><li>Alt+click on a channel to isolate does not work for filter and generator </li><li>[Export] Specific project crashes at export </li><li>[Substance] Incorrect default value on dropdown if parameter is hidden by Visible If </li><li>[Shader] Channels defined via Material Layering are not sorted the same way in the UI </li><li>[Shelf] Presets metadata are not saved on disk </li></ul><p><strong>Known Issues:</strong></p><ul> <li>[UV Unwrapping] Processing high poly meshes can take a long time </li><li>[UV Unwrapping] Vertices at the exact same coordinates are merged </li><li>[UV Unwrapping] UV Generation may fail on some mesh parts in some rare cases </li><li>[UV Unwrapping] Non uniform or highly distorted texel ratio in a single UV island in some cases </li><li>[UV Unwrapping] Non uniform texel ratio between Texture Sets </li><li>[UV Unwrapping] UV island generated can be very elongated and do not fit into UV space in some cases </li><li>[UV Unwrapping] Degenerated faces or non-triangular mesh faces with small or overlaping edges may not get UV unwrapped </li><li>Meetmat sample has some issues with imported cameras </li></ul>
+</div>
+</div>
+</div>
+</div></body>

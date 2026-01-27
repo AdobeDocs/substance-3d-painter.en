@@ -1,0 +1,79 @@
+<header><meta name="title" content="Lib Alpha - Shader API | Substance 3D Painter"><meta name="description" content="Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Alpha - Shader API"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Lib Alpha - Shader API</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="LibAlphaShaderAPI-lib-alpha.glsl">lib-alpha.glsl</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><strong>Public Functions:</strong> <i>alphaKill</i></p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">import lib-sampler.glsl 
+import lib-random.glsl</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Opacity map, provided by the engine.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">//: param auto channel_opacity 
+uniform SamplerSparse opacity_tex;</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Alpha test threshold.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">//: param custom { 
+//:   "default": 0.33, 
+//:   "label": "Alpha threshold", 
+//:   "min": 0.0, 
+//:   "max": 1.0, 
+//:   "group": "Common Parameters" 
+//: } 
+uniform float alpha_threshold;</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Alpha test dithering.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">//: param custom { 
+//:   "default": false, 
+//:   "label": "Alpha dithering", 
+//:   "group": "Common Parameters" 
+//: } 
+uniform bool alpha_dither;</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Emulate alpha test : discard current fragment if its opacity is below a user defined threshold. Should be called AFTER texture sampling calls: it can break derivatives</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">void alphaKill(float alpha) 
+{ 
+  float threshold = alpha_dither ? getBlueNoiseThresholdTemporal() : alpha_threshold; 
+  if (alpha &lt; threshold) discard; 
+} 
+ 
+void alphaKill(SparseCoord coord) 
+{ 
+  alphaKill(getOpacity(opacity_tex, coord)); 
+} 
+ 
+</pre>
+</div>
+</div>
+</div></body>

@@ -1,0 +1,289 @@
+<header><meta name="title" content="Tone Mapping | Substance 3D Painter"><meta name="description" content="Painter > Features > Post Processing > Tone Mapping"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Tone Mapping</h1>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image" src="tone-mapping.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The Tone Mapping parameters allow to control how the colors will be scaled to be displayed on the screen. Those settings can be useful to redistribute colors because of their wide range of values (which can exceed what the current screen is capable of displaying).</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>Substance 3D Painter outputs <strong> HDR </strong> (High Dynamic Range) colors (in Linear Gamma space), but most screens only allow to visualize <strong> LDR </strong> (Low Dynamic Range) colors. In order to map the HDR range to the LDR range, a conversion has to be done. This is the principle of the tone mapping.</p>
+</div>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_dx_table">
+<table border="0" cellpadding="0" cellspacing="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<th abbr="" class="row-r0 column-c0" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p><em> Setting </em></p>
+</div>
+</div>
+</th>
+<th abbr="" class="row-r0 column-c1" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p><em> Description </em></p>
+</div>
+</div>
+</th>
+</tr>
+<tr>
+<td abbr="" class="row-r1 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Exposure </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r1 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>Scales the HDR space rendering results before any glare effects are applied or tone mapping takes place.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r2 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Gamma </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r2 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> This is the gamma value for gamma correction. <br/></p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r3 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Function </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r3 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>Function to use to map the HDR range to the LDR range. <br/>Available functions are:</p><ul><li><strong> Auto </strong> : The tone map function is selected automatically. Default is <strong> Sensitometric </strong>  . </li><li><strong> Linear </strong> : The output color is not clamped to 0 to 1 for this type only. This is optimal for when implementing some effect in the HDR space on the application side after the applying of the effects. <br/>We do not recommend this unless you have some specific reason for using it, because the high luminance components will be completely lost and blown out highlights will occur if linear mapping is used as the final screen output as is.</li><li><strong> LinearSat </strong> : This is almost the same as <strong> Linear </strong> , except that the output color is clamped. Also, glare synthesis is a little smoother than <strong> Linear </strong> .</li><li><strong> Sensitometric </strong> : Default function when scene rendering is performed in the HDR space.</li><li><strong> Reinhard </strong> : This results in mapping that is more gradual than <strong> Sensitometric </strong> , and contrast that is slightly low. Accordingly, it causes the resolution of the high luminance components to become high, and stronger reproduction of the luminance variations in the bright portions.</li><li><strong> ReinhardLum </strong> : Type for implementing the <strong> Reinhard </strong>   tone map with the luminance as the reference and keeping the original saturation (vividness: RGB ratio). Maps only the luminance information to the LDR space and then reproduces the original saturation. The saturation in the HDR space is also kept after tone mapping.</li><li><strong> Log </strong> : This results in mapping that is even more gradual than <strong> Reinhard </strong> , and contrast that is low. It causes the resolution of the high luminance components to become high, and the strongest reproduction of the luminance variations in the bright portions.</li><li><strong> LogLum </strong> : Type for implementing the tone map of the logarithmic space with the luminance as the reference and keeping the original saturation (vividness: RGB ratio). This maps only the luminance information to the logarithmic space and then reproduces the original saturation. The saturation in the HDR space is also kept after tone mapping.</li></ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r4 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Mapping Factor </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r4 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>This controls the maximum level of the luminance (brightness) in HDR space that is mapped to the final LDR space in the tone mapping process. Colors brighter than the specified HDR space luminance cannot be represented in LDR space, resulting in blown out highlights. In concrete terms, this value is the luminance (after exposure scaling) in HDR space that maps to the maximum luminance value (1.0) in LDR space. In HDR rendering mode, the lower this value is, the higher the contrast and the greater the likelihood of blown out highlights. Conversely, specifying higher values results in lower contrast and decreases the likelihood of blown out highlights. In LDR rendering mode, when a remapping to HDR space takes place in order to apply an effect, the luminance range is expanded up to the value specified in <strong> Mapping Factor </strong> . Conversely, the <strong> Mapping Factor </strong> luminance is mapped to the maximum LDR luminance during tone mapping.</p><p>In other words, this specifies the dynamic range scaling factor applied to the LDR rendering results for the application of effects. Setting this to a high value emphasizes bright regions in effects.</p>
+</div>
+</div>
+<div class="text">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>This setting will have no effect (it will be ignored) if the <strong> function </strong> is set to any of the following in HDR rendering mode: <strong> Linear </strong> , <strong> LinearSat </strong> or <strong> Sensitometric </strong> .</p>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td {
+        background: #FFFFFF;
+        
+        
+        border: 1px solid #B3B3B3;
+        
+    }
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th:before {
+        border: 1px solid #B3B3B3;
+        left: -1px;
+        top: -1px;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r0,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r0 {
+        background: #EAEAEA;
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r1,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r1 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r2,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r2 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r3,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r3 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r4,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r4 {
+        
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c0,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c0 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c1,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c1 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+</div>
+</div></body>
