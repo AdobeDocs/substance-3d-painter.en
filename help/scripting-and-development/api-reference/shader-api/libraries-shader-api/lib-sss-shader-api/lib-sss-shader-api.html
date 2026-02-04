@@ -1,0 +1,114 @@
+<header><meta name="title" content="Lib SSS - Shader API | Substance 3D Painter"><meta name="description" content=""><meta name="helpx_description" content="Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib SSS - Shader API"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Lib SSS - Shader API</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="LibSSSShaderAPI-lib-sss.glsl">lib-sss.glsl</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><strong>Public Functions:</strong> <i>getSSSCoefficients</i></p><p>Import from library</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">import lib-sampler.glsl</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The scalar SSS coefficient texture</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">//: param auto channel_scattering 
+uniform SamplerSparse sss_tex; 
+ 
+//: param auto scene_original_radius 
+uniform float sssSceneScale; 
+ 
+//: param custom { 
+//:   "label": "Enable", 
+//:   "default": true, 
+//:   "group": "Subsurface Scattering Parameters", 
+//:   "description": "&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enable the Subsurface Scattering. It needs to be activated in the Display Settings and a Scattering channel needs to be present for these parameters to have an effect.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" 
+//: } 
+uniform bool sssEnabled;</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Select whether the light penetrates straight through the material (translucent) or is diffused before starting to scatter (skin).</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">//: param custom { 
+//:   "default": 1, 
+//:   "label": "Scattering Type", 
+//:   "widget": "combobox", 
+//:   "values": { 
+//:     "Translucent": 0, 
+//:     "Skin": 1 
+//:   }, 
+//:   "group": "Subsurface Scattering Parameters", 
+//:   "description": "&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Skin or Translucent/Generic. It needs to be activated in the Display Settings and a Scattering channel needs to be present for these parameters to have an effect.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" 
+//: } 
+uniform int sssType;</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Global scale to the subsurface scattering effect</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">//: param custom { 
+//:   "default": 0.5, 
+//:   "label": "Scale", 
+//:   "min": 0.01, 
+//:   "max": 1.0, 
+//:   "group": "Subsurface Scattering Parameters", 
+//:   "description": "&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Controls the radius/depth of the light absorption in the material. It needs to be activated in the Display Settings and a Scattering channel needs to be present for these parameters to have an effect.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" 
+//: } 
+uniform float sssScale;</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Wavelength dependency of the SSS of the material</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">//: param custom { 
+//:   "default": [0.701, 0.301, 0.305], 
+//:   "label": "Color", 
+//:   "widget": "color", 
+//:   "group": "Subsurface Scattering Parameters", 
+//:   "description": "&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The color of light when absorbed by the material. It needs to be activated in the Display Settings and a Scattering channel needs to be present for these parameters to have an effect.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" 
+//: } 
+uniform vec3 sssColor;</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Return the material SSS coefficients</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">vec4 getSSSCoefficients(float scattering) { 
+  if (sssEnabled) { 
+    vec3 sss = sssScale / sssSceneScale * scattering * sssColor; 
+    return vec4(sss, sss == vec3(0.0) ? 0.0 : 1.0); 
+  } 
+  return vec4(0.0); 
+} 
+vec4 getSSSCoefficients(SparseCoord coord) { 
+  if (sssEnabled) { 
+    return getSSSCoefficients(getScattering(sss_tex, coord)); 
+  } 
+  return vec4(0.0); 
+} 
+ 
+</pre>
+</div>
+</div>
+</div></body>

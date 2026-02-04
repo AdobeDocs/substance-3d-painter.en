@@ -1,0 +1,635 @@
+<header><meta name="title" content="Automatic UV Unwrapping | Substance 3D Painter"><meta name="description" content=""><meta name="helpx_description" content="Painter > Features > Automatic UV Unwrapping"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Automatic UV Unwrapping</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><img src="auto-unwrap-update-810.jpg"/> <br/>The automatic UV unwrapping allow to generate UV islands automatically when importing a 3D model. It can be used to paint on 3D model that don't have any existing UVs.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="AutomaticUVUnwrapping-EnablingtheautomaticUVunwrapping">Enabling the automatic UV unwrapping</h2>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image" src="uv-new-project.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>When creating a new project or re-importing a mesh into an existing project, make sure the setting "Auto-unwrap" is checked. If disabled, the process will be skipped and mesh UVs will remain as-is.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="AutomaticUVUnwrapping-UVunwrappingsettings">UV unwrapping settings</h2>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid1" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image" src="unwrap-settings.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>When importing a mesh and using the unwrapping process, the following settings are available. Some settings are available via the Options button in the interface.</p>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_dx_table">
+<table border="0" cellpadding="0" cellspacing="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<th abbr="" class="row-r0 column-c0" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p>Section</p>
+</div>
+</div>
+</th>
+<th abbr="" class="row-r0 column-c1" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p><em> <strong> Setting </strong> </em></p>
+</div>
+</div>
+</th>
+<th abbr="" class="row-r0 column-c2" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p><em> <strong> Description </strong> </em></p>
+</div>
+</div>
+</th>
+</tr>
+<tr>
+<td abbr="" class="row-r1 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong>Unwrap sequence</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r1 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Seams </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r1 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p>Controls if the seams (UV island borders) should be generated only for meshes that don't have them or always regenerated.</p><p>Possible values:</p><ul><li><strong> Generate missing data </strong> (default): Seams will be generated for meshes missing them.</li><li><strong> Recompute all </strong> : Seams will be generated for all the meshes.</li></ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r2 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> UV islands </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r2 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p> Controls if the UV unwrapping should generated from meshes without UVs or for any meshes. </p><p>Possible values:</p><ul><li><strong> Generate missing data </strong> (default): UV unwrapping will be generated for meshes missing UVs.</li><li><strong> Recompute all </strong> : UV unwrapping will be generated for all the meshes.</li></ul>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r2 column-c2">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r3 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Packing </strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r3 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>Controls the packing/layout of UV islands of the meshes.</p><p>Possible values:</p><ul><li><strong> Generate missing data </strong> (default): pack UV islands for meshes that were missing UVs.</li><li><strong> Recompute all </strong> : pack all UV islands.</li></ul>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r3 column-c2">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r4 column-c0">
+</td>
+<td abbr="" class="row-r4 column-c1">
+</td>
+<td abbr="" class="row-r4 column-c2">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r5 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong>Layout customization</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r5 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><strong> Margin size</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r5 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p>Defines the spacing between UV islands. This setting applies a general percentage independent from the resolution.</p><p>Possible values:</p><ul><li><strong> No margin </strong> : 0%</li><li><strong> Small </strong> (default): 0.2%</li><li><strong> Medium </strong> : 0.5%</li><li><strong> Large </strong> : 1%</li></ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r6 column-c0">
+</td>
+<td abbr="" class="row-r6 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><strong>UV island orientation</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r6 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p>Control the orientation of the UV islands during the packing process.</p><p>Possible values:</p><ul><li><strong>Unconstrained</strong> (default): no constrain is applied to compute the orientation.</li><li><strong>Align with 3D mesh</strong>: constrain the UV island to be oriented toward the mesh direction</li></ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r7 column-c0">
+</td>
+<td abbr="" class="row-r7 column-c1">
+</td>
+<td abbr="" class="row-r7 column-c2">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r8 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong>UV Tiles</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r8 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><strong>Maximum number of UV Tiles</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r8 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p>If the UV Tiles workflow is enabled, this settings determine the maximum number of tiles to produce to distribute on the UV islands.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r9 column-c0">
+</td>
+<td abbr="" class="row-r9 column-c1">
+</td>
+<td abbr="" class="row-r9 column-c2">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r10 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong>Optimization</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r10 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><strong>Avoid elongated UV islands</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r10 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p>If enabled, this process will split UV islands considered too long to improve the usage of the texture space.</p><p>Example of before (top) and after (bottom):</p>
+</div>
+</div>
+<div class="flex">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dx_table_row-r10-column-c2_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dx_table_row-r10-column-c2_dynamic_grid" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dx_table_row-r10-column-c2_dynamic_grid_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dx_table_row-r10-column-c2_dynamic_grid_items_grid-cell_position-par_image { width:400px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dx_table_row-r10-column-c2_dynamic_grid_items_grid-cell_position-par_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dx_table_row-r10-column-c2_dynamic_grid_items_grid-cell_position-par_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/uv-before-after?$pjpeg$&amp;jpegSize=100&amp;wid=570"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/uv-before-after?$pjpeg$&amp;jpegSize=100&amp;wid=570"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/uv-before-after?$pjpeg$&amp;jpegSize=100&amp;wid=400"/>
+<img class="" id="root_content_flex_items_position_position-par_dx_table_row-r10-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="uv-before-after.jpg"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td {
+        background: #FFFFFF;
+        
+        
+        border: 1px solid #B3B3B3;
+        
+    }
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th:before {
+        border: 1px solid #B3B3B3;
+        left: -1px;
+        top: -1px;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r0,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r0 {
+        background: #EAEAEA;
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r1,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r1 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r2,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r2 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r3,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r3 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r4,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r4 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r5,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r5 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r6,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r6 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r7,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r7 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r8,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r8 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r9,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r9 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r10,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r10 {
+        
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c0,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c0 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c1,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c1 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c2,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c2 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="AutomaticUVUnwrapping-Knownlimitations">Known limitations</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Below is a list of limitations related to the unwrapping process:</p><ul><li>Processing high poly meshes can take a long time.</li><li>Vertices at the exact same coordinates are merged</li><li>UV Generation may fail on some mesh parts in some rare cases</li><li>Non uniform or highly distorted texel ratio in a single UV island in some cases</li><li>Non uniform texel ratio between Texture Sets</li><li>UV island generated can be very elongated and do not fit into UV space in some cases</li><li>Degenerated faces or non-triangular mesh faces with small or overlapping edges may not get UV unwrapped</li></ul>
+</div>
+</div>
+</div>
+</div></body>

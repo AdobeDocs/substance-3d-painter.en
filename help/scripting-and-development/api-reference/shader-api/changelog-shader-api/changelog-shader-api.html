@@ -1,0 +1,274 @@
+<header><meta name="title" content="Changelog - Shader API | Substance 3D Painter"><meta name="description" content=""><meta name="helpx_description" content="Painter > Scripting and development > API Reference > Shader API > Changelog - Shader API"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Changelog - Shader API</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="ChangelogShaderAPI-Changelog">Changelog</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-2018.3.2">2018.3.2</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api.html">lib-sparse.glsl</a>: Sampling functions uses texture derivatives instead simple mipmap level. It's a requirement for the support of anisotropy sampling. Sampling functions signatures are not modified. </li><li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pom-shader-api.html">lib-pom.glsl</a>: the <em>getParallaxOffset</em> function signature has changed in order to uses texture derivatives </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-2018.3.0">2018.3.0</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>Add a new <a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pbr-aniso-shader-api.html">lib-pbr-aniso.glsl</a> library to help visualizing anisotropic specular highlight </li><li>Add a new <a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api.html">lib-sparse.glsl</a> library to help channel sampling by taking care of mipmaps availability </li><li>Update shader libraries interfaces to take care of this safe sampling </li><li><strong>Deprecation</strong>: The previous functions based on the vec2 texture coordinates and the texture sampler have been deprecated (please use new signatures) </li><li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pom-shader-api.html">lib-pom.glsl</a>: Add a <em>applyParallaxOffset</em> function to simplify to use of parallax occlusion effect </li><li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-random-shader-api.html">lib-random.glsl</a>: Add a Blue Noise random value generator and temporal alternatives </li><li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sampler-shader-api.html">lib-sampler.glsl</a>: Split all channel sampling helpers to have both value interpretation and sampling helpers </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-2018.2.0">2018.2.0</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li><strong>Surface shader API change</strong>: the <em>shade</em> function signature has changed, see <a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.html">surface-shader.glsl</a> </li><li>The <em>shadeShadow</em> function is no longer used and can safely be removed from custom surface shaders </li><li>Add Subsurface Scattering support, see <a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.html">surface-shader.glsl</a> and <a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sss-shader-api.html">lib-sss.glsl</a> for details </li><li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pbr-shader-api.html">lib-pbr.glsl</a>: the <em>pbrComputeBRDF</em> function has been removed. See <a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-metal-rough-shader-api.html">pbr-metal-rough.glsl</a> example to know how to use the library now </li><li>New engine parameters have been added: <em>texture_blue_noise</em>, <em>aspect_ratio</em>, <em>camera_vp_matrix_inverse</em>, <em>environment_exposure</em>, <em>environment_rotation</em>, <em>fovy</em>, <em>main_light</em> and <em>screen_size</em>. See <a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader-api.html">all-engine-params.glsl</a> for details </li><li>Add the <em>description</em> metadata to provide tooltips for custom shader parameters </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-2017.4.2">2017.4.2</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>Fix missing shaders in documentation samples (pixelated and toon shaders) </li><li>Fix dithering for high resolution<ul> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-bayer-shader-api.html">lib-bayer.glsl</a>: <strong>bayerMatrix8()</strong> return valid values for coords &gt; 4k </li></ul> </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-2017.4.1">2017.4.1</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>Fix pbr-coated shader<ul> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-vectors-shader-api.html">lib-vectors.glsl</a>: <strong>tangentSpaceToWorldSpace()</strong> and <strong>worldSpaceToTangentSpace()</strong> outputs are now normalized </li></ul> </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-2017.4.0">2017.4.0</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>Incorrect specular reflection in the 2D view for certain meshes </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-2017.3.1">2017.3.1</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>Cheaper dithering </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-2017.2.0">2017.2.0</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>Remove interpolated tbn normalization to match Substance Designer and bakers behavior </li><li>[Viewport] Replace Hammersley table by a Fibonacci spiral </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-2.6.0">2.6.0</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>Fix shaders blending and culling modes </li><li>Rework dithering. Now if we have a render in linear, we apply it after the color profile </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-2.5.0">2.5.0</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>Add support for Color Profiles (LUT) in viewports (Optional sRGB conversion) </li><li>Add dithering to opacity in shaders </li><li>Add parallax occlusion mapping to PBR shaders </li><li>Add a way to hide custom params from the default shader UI </li><li>Add a link to channel tags list in layering shader documentation </li><li>Replace 'channel_ao' tag by 'channel_ambientocclusion' </li><li>[Viewport] Some normal maps have clamped values which appear as artifacts </li><li>Fix available channels in shaders doc </li><li>Allow to define a custom shader UI </li><li>Add a standard custom shader UI for material layering shaders </li><li>Custom UI files are now searched relatively to a shaders/custom-ui folder in the shelves (like the mdl) </li><li>Use the specular level channel in default shaders </li><li>Fix vec3 shader params example </li><li>Upgrade Painter to OpenGL core profile </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-2.4.0">2.4.0</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>Fix the difference on the normal map combined exported and the one displayed in the viewport </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-2.2.0">2.2.0</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>Add support for bindless textures in generic material for non Document textures </li><li>Update custom shader sliders documentation </li><li>Allow to define step precision for sliders </li><li>Documentation for dynamic material layering </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-2.1.1">2.1.1</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>Add a 'RGB2Gray' function in lib-utils </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-2.1.0">2.1.0</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>Allow to define groups for shader parameters and materials/masks </li><li>Add missing channels in documentation ('ao', 'diffuse', 'specularlevel') </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-2.0.4">2.0.4</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>Normal unpack function incorrect with low alpha values </li><li>Allow to read mesh vertex colors in custom shader </li><li>[Viewport] Stretched environment map on some computers </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-2.0.0">2.0.0</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>Allow to override Normal/AO additional maps by dedicated channel </li><li>Change Height2Normal function to use Sobel method </li><li>Add the possibility to define a mdl per shader </li><li>Add a new mdl folder in the shelf </li><li>Add diffuse and specular level channel presets </li><li>Documentation update for tone mapping </li><li>Fix reflections when in orthographic mode </li><li>Fixed the vertical white glitch appearing at a specific location on the envmap </li><li>Allow to define 'default_color' for texture params </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-1.7.0">1.7.0</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>Allow to sample external textures (from shelf) </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-1.6.0">1.6.0</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>Expose gamma/tonemapping function to allow to override them </li><li>Expose multiple texcoords </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-1.5.0">1.5.0</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>Add line number and filename in shader error report </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-1.4.1">1.4.1</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>All sRGB conversions follow the sRGB standard, except those done in the shaders that have close approximation </li><li>Height channel to Normal map is converted to the wrong color space </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-1.4.0">1.4.0</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>Add ambient occlusion channel </li><li>Add new workflow for normal edition </li><li>Add 'or' expression syntax for texture related auto parameters </li><li>Fix pbr shader for Intel gpu on OSX </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-1.3.4">1.3.4</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>Allow to interpolate binormals in fragment shader </li><li>Fix Mikkt tangent space </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-1.3.3">1.3.3</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>Fix spherical harmonics producing negative light intensity </li><li>Exposure computation is different from Substance Designer (and fix exposure slider) </li><li>Shadows should not be visible on 100% metallic surface </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-1.3.0">1.3.0</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>Add shadow function </li><li>Add support for opacity ('alpha_test' and 'alpha_blend') </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-1.2.0">1.2.0</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>Ability to set required openGL states into custom shaders </li><li>Fix inverted bitangents </li><li>Add support for normal channel </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ChangelogShaderAPI-1.0">1.0</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li>Add support for custom shaders </li></ul>
+</div>
+</div>
+</div>
+</div></body>

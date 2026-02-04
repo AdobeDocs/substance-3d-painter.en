@@ -1,0 +1,39 @@
+<header><meta name="title" content="Application failed to start because of Qt | Substance 3D Painter"><meta name="description" content=""><meta name="helpx_description" content="Painter > Technical support > Technical Issues > Startup Issues > Application failed to start because of Qt"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Application failed to start because of Qt</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The following error message may appear when starting the application:</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<blockquote> <p>This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.</p> <p>Available platforms plugins are: minimal, offscreen, webgl, windows.</p> </blockquote>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>This error can be produced because another software defined environment variable that conflicts with the application.</p><p>Make sure to remove the following variables from the current environment before starting the application:</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="c++" data-gutter="true" data-line-wrap="true">QT_PLUGIN_PATH 
+QML2_IMPORT_PATH</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>These variables can be inherited from a Python context as well, for example with <strong>pyinstaller</strong>. Make sure to remove them from the context in which the application is launched.</p>
+</div>
+</div>
+</div>
+</div>
+</div></body>

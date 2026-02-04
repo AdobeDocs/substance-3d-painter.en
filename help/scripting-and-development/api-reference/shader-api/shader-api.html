@@ -1,0 +1,234 @@
+<header><meta name="title" content="Shader API | Substance 3D Painter"><meta name="description" content=""><meta name="helpx_description" content="Painter > Scripting and development > API Reference > Shader API"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Shader API</h1>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/header-shader?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/header-shader?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/header-shader?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image" src="header-shader.jpg"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Substance Painter uses shaders to render materials in its realtime viewport. It is possible to write custom shaders to implement new behaviors or to simply make the viewport match other renderers.</p><p>Additional shaders for Substance Painter can be found on <a href="https://share.allegorithmic.com/libraries?by_category_type_id=6" rel="nofollow">Substance Share</a>.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>The Shader API is also available directly from the application, by going into the menu <strong>Help &gt; Documentation &gt; Shader API</strong>.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="ShaderAPI-Shaderreference">Shader reference</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ShaderAPI-Changelog">Changelog</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/changelog-shader-api.html">Full changelog file</a></li> </ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ShaderAPI-Warmup">Warm up</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>In Substance Painter, you can write your own shaders in <em>GLSL</em>. We allow you to write only a <em>portion</em> of the fragment shader, which is sometimes called a <em>surface shader</em>. Without further ado, let's introduce the "Hello world" Substance Painter surface shader:</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">void shade(V2F inputs) { 
+  diffuseShadingOutput(vec3(1.0, 0.0, 1.0)); 
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Now, if you save this snippet into a <em>.glsl</em> file and load it into Substance Painter by dropping it into your shelf's shader tab, you can now use it and see a beautiful uniform pink color on your mesh.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ShaderAPI-Surfaceshader">Surface shader</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.html">surface-shader.glsl</a></li> </ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Engine provided data (or how do I access my channels?)</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>In Substance Painter, you can access rendering engine parameters (document's channels, additional textures, camera-related data and the like). Here is an exhaustive list of all engine provided parameters :</p><ul> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader-api.html">all-engine-params.glsl</a></li> </ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Engine settings (or how do I specify rendering states?)</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>In some cases you may want to use a specific rendering configuration (culling, blending, sampling locality, and the like) for an effect. Some rendering states are exposed and can be set in the shader. Here is an exhaustive list of all exposed rendering states :</p><ul> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-rendering-states-params-shader-api.html">all-rendering-states-params.glsl</a></li> </ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Custom tweaks (or how do I tweak my shader?)</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>It's usual to have custom tweaks in a shader. To do so in Substance Painter's shaders, we have introduced a way to specify custom tweaks. Here is an exhaustive list of all custom shader tweaks types :</p><ul> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-custom-params-shader-api.html">all-custom-params.glsl</a></li> </ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ShaderAPI-Embeddedlibraries">Embedded libraries</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>In order to avoid writing a lot of boilerplate code in all of your shaders, we created a small yet practical library of useful functions. <strong>Please note that you can't edit it nor create your own at the moment.</strong></p><ul> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-alpha-shader-api.html">lib-alpha.glsl</a> : contains opacity related helpers</li> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-bayer-shader-api.html">lib-bayer.glsl</a> : contains bayer matrix helpers</li> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-defines-shader-api.html">lib-defines.glsl</a> : contains useful math constants</li> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-emissive-shader-api.html">lib-emissive.glsl</a> : contains emissive properties helpers</li> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api.html">lib-env.glsl</a> : contains environment map related helpers</li> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-normal-shader-api.html">lib-normal.glsl</a> : contains normal map related helpers (and height-map generated normal map)</li> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pbr-shader-api.html">lib-pbr.glsl</a> : contains physically based rendering helpers</li> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pbr-aniso-shader-api.html">lib-pbr-aniso.glsl</a> : contains anisotropic physically based rendering helpers</li> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pom-shader-api.html">lib-pom.glsl</a> : contains parallax occlusion mapping helpers</li> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-random-shader-api.html">lib-random.glsl</a> : contains random utilities (low discrepancy sequences)</li> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sampler-shader-api.html">lib-sampler.glsl</a> : contains channel getters helpers</li> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api.html">lib-sparse.glsl</a> : contains safe sparse texture sampling helpers</li> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sss-shader-api.html">lib-sss.glsl</a> : contains subsurface scattering helpers</li> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-utils-shader-api.html">lib-utils.glsl</a> : contains color utility functions (sRGB conversions, tone mapping)</li> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-vectors-shader-api.html">lib-vectors.glsl</a> : contains common vectors helpers</li> </ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ShaderAPI-Metadata">Metadata</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>You can declare additional non required information to give some hint to the rendering system. Here is the syntax:</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">//: metadata { 
+//:   "key1":"value1", 
+//:   "key2":"value2" 
+//: }</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Supported keys are:</p><ul> <li><strong>custom-ui</strong>: Replace the standard shader parameters user interface with a custom view written as a QML module (see scripting documentation). The path can be absolute or relative to one of your shelf <em>custom-ui</em> folder.</li> <li><strong>mdl</strong>: define the Iray mdl material to use with the shader. The path syntax is as follow: <em>mdl::folder1::folder2::mdl_filename::material_name</em> where <em>folder1::folder2::mdl_filename</em> is the path inside one of your shelf <em>mdl</em> folder to a mdl file and <em>::material_name</em> is the name of a material declared inside this mdl file. (ex: "mdl" : "mdl::alg::materials::physically_metallic_roughness::physically_metallic_roughness")</li> </ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Example shaders (yeah, finally!)</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>To get a taste of what looks like a real shader, here are a few sample shader, ordered by increasing complexity:</p><ul> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pixelated-shader-api.html">pixelated.glsl</a> : a pixelating shader</li> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/toon-shader-api.html">toon.glsl</a> : a toon shader</li> <li><a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-metal-rough-shader-api.html">pbr-metal-rough.glsl</a> : the default PBR shader embedded in Substance Painter</li> </ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ShaderAPI-Dynamicmateriallayering">Dynamic material layering</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The Dynamic Material Layering is a specific workflow where materials are mixed together inside a shader and let the user dynamically edit blending masks in Substance Painter. To enable this workflow, there are two new functionalities:</p><ul> <li>declare editable stacks from a shader definition: <a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-declare-stacks-shader-api.html">layering_declare_stacks.glsl</a></li> <li>bind materials as shader parameters: <a href="/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-bind-materials-shader-api.html">layering_bind_materials.glsl</a></li> </ul>
+</div>
+</div>
+</div>
+</div></body>

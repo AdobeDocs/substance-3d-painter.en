@@ -1,0 +1,54 @@
+<header><meta name="title" content="Crash during export | Substance 3D Painter"><meta name="description" content=""><meta name="helpx_description" content="Painter > Technical support > Technical Issues > Stability Issues > Crash during export"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Crash during export</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Some specific cases can lead to Substance 3D Painter crashing while exporting, especially at very high resolution (such as 4K or 8K). Below is a list of the most common sources of this issue.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>TDR (Timeout Detection and Recovery)</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The Timeout Detection and Recovery (TDR) is a safety mechanism of Microsoft Windows to prevent a GPU from locking up the system with a never ending computation. This mechanism is unfortunately too restrictive for Substance 3D Painter by default.</p><p>For more information see: <a href="/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html">GPU drivers crash with long computations (TDR crash)</a>.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="Crashduringexport-LowVirtualMemory">Low Virtual Memory</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Exporting can consume a large amount of RAM (Computer Memory), in which case the system will try to fallback on the virtual memory if the system runs out of RAM. The virtual memory is usually additional memory stored on hard disk drives. If the virtual memory size is too small, Substance 3D Painter will crash because it ran out of total memory.</p><p>For more information, see: <a href="/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-with-low-virtual-memory.html">Crash with low virtual memory</a>.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="Crashduringexport-LackofDiskSpace">Lack of Disk Space</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Since the introduction of the Sparse Virtual Textures (SVT) Substance 3D Painter can stream out on the disk some cache to balance performances. If there is not enough free space on your disk, it may lead to a crash because the application wasn't able to transfer and write the cache.</p><p>The cache location can be moved from the default system temporary files folder. For more information see: <a href="/substance-3d-painter/features/sparse-virtual-textures.html">Sparse Virtual Textures</a>.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="Crashduringexport-OverclockedGPUfrequency">Overclocked GPU frequency</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Overclocked GPUs can often be more unstable because they run of frequencies that weren't initially designed by the GPU constructor. It may helps to disable the overclocking for a while.</p><p>For more information, see: <a href="/substance-3d-painter/technical-support/technical-issues/gpu-issues/crash-when-working-with-overclocked-gpu.html">Crash when working with overclocked GPU</a>.</p>
+</div>
+</div>
+</div>
+</div></body>

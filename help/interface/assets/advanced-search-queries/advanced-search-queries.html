@@ -1,0 +1,44 @@
+<header><meta name="title" content="Advanced search queries | Substance 3D Painter"><meta name="description" content=""><meta name="helpx_description" content="Painter > Interface > Assets > Advanced search queries"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Advanced search queries</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Advanced search queries allow you to construct complex searches and reuse them as <a href="/substance-3d-painter/interface/assets/saved-searches.html">Saved searches</a>.</p><p>Advanced queries can be used in the search bar and can contain - </p><ol><li><strong> Path </strong> : allow to refine the result of a search by a folder/folder structure.</li><li><strong> Usage </strong> : List all the possible usage that are available in the application</li><li><strong> Text query </strong> : Allow to add any other type of query freely (like custom keywords)</li></ol><p>Multiple selections are allowed when defining a new search query.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="Filteringshelfcontent-Path">Path</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The path query allow to refine a query based on a path. The <strong>Filter by Path</strong> panel lists all the available libraries (which you can add yourself via Edit &gt; Settings &gt; Libraries). <br/>It is possible to use the path definition to filter by custom library path or by specific sub-folders in the hierarchy.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="Filteringshelfcontent-Usage">Usage</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Usage define what a resource is and how to use it in Substance 3D Painter. Some can be defined by the file type of the resource. <br/>For example-</p><ul><li><strong> pbr.glsl</strong>: A shader file - it can only be used as a shader, and nothing else.</li><li><strong> effect.sbsar</strong>: A substance file - it can be a generator, a filter or even a material, so if its usage is not set in the original graph (in Designer), it will have to be indicated by the user in Painter at the moment of import.</li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="Filteringshelfcontent-Text">Text</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The text query support multiple type of filtering, some being more advanced than the regular interface. <br/>They can be enabled by typing the right keywords.</p><ul><li><strong> Available search types </strong> :<ul><li>" <strong> n: </strong> " : name</li><li>" <strong> s: </strong> " : shelf/library (includes "session" and "project")</li><li>" <strong> p: </strong> " : path</li><li>" <strong> u: </strong> " : usage</li></ul></li><li><strong> Escaping </strong> : it is possible to either use " <strong> \ </strong> " before the character that need to be escaped or use quotes instead, example :<ul><li><strong> a\ name\ with\ spaces </strong></li><li><strong> "a name with spaces" </strong></li></ul></li><li><strong> Specific attributes (or group) </strong> : to search in specific attributes, prepend a 'or group' with a type specifier. Example :<ul><li><strong> n:a,b,c,d </strong> : name is a or b or c or d</li></ul></li><li><strong> Search behavior </strong> :<ul><li>To filter specific usages, add the specific <strong> keyword </strong> to your search for example : " <strong> images </strong> ambient"</li><li>To add multiple request, use a comma " <strong> , </strong> ", for example : "cobalt <strong> , </strong> gold" (if a comma is you used, the search will only show a resource that match both keyword at the same time)</li><li>To search for an exact name, use an exclamation point "!" at the end, example : <strong> di! </strong> (will return <strong> dirt </strong> but not <strong> drips </strong> , this keyword disable the fuzzy matching)</li><li>To exclude a pattern from a search, use an hyphen " <strong> - </strong> ", for example : <strong> u:image n:-normal </strong> (will return images that don't contain "normal")</li></ul></li><li><strong> Matching functions (pattern suffix) : </strong><ul><li><strong> default </strong> : approximate matching (fuzzy)</li><li><strong> contains </strong> : !</li><li><strong> regex </strong> : #</li><li><strong> equal </strong> : =</li><li><strong> starts with </strong> : ^</li><li><strong> ends with </strong> : &amp;</li></ul></li></ul>
+</div>
+</div>
+</div>
+</div></body>

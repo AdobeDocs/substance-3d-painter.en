@@ -1,0 +1,56 @@
+<header><meta name="title" content="Remote Desktop | Substance 3D Painter"><meta name="description" content=""><meta name="helpx_description" content="Painter > Pipeline and integration > Configuration > Remote Desktop"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Remote Desktop</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> This pages describes solutions and alternatives to make Substance 3D Painter able to run via Remote Desktop (RDP) on Windows. <br/> </p><p> By default RDP on Windows runs in an OpenGL context that is non-existent or too low, which makes the application unable to work properly or crash. Substance 3D Painter requires an OpenGL 3.3 context. Below are solutions to mitigate the problem, but there is no garanties they will work as the initial problem is dependent of Windows and some GPU drivers. </p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+
+               Nvidia Quadro GPUs can run the application in RDP mode by default while Nvidia GeForce GPUs only provide an OpenGL 1.4 context (which is too low for Substance 3D Painter). It is possible to install an executable to remedy to that, see: <a href="https://developer.nvidia.com/designworks" rel="nofollow"> https://developer.nvidia.com/designworks </a>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="RemoteDesktop-WindowsPolicyConfiguration"> Windows Policy Configuration </h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> On Windows 10 it may be necessary to change the <strong> Group Policy </strong> to allow the GPU to be run while in RDP mode. </p><p> To do so: </p><ol> <li> Press <strong> Win + R </strong> to open the execute window  </li><li> Type " <strong> gpedit.msc </strong> " then Enter  </li><li> Navigate to <strong> Local Computer Policy\Computer Configuration\Administrative Templates\Windows Components\Remote Desktop Services\Remote Desktop Session Host\Remote Session Environment </strong> </li><li> Enable the option <strong> Use the hardware default graphics adapter for all Remote Desktop Services sessions </strong> .  </li></ol>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="RemoteDesktop-WindowsTSCONcommand"> Windows TSCON command </h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> If the previous Policy change doesn't work, you may try to use the <strong> tscon </strong> command line. This command disconnect the remote computer and connect a new one to the physical hardware (mouse, keyboard, etc). Then simply running the application and reconnecting remotely should allow to work with the application on the GPU. </p><ol> <li> Press the key <strong> Windows+R </strong> to open the <strong> execute </strong> window.  </li><li> Type <strong> cmd </strong> and press <strong> Enter </strong> .  </li><li> In the command line type and the following command: <strong> tscon 1 /dest:console </strong> </li><li> Press Enter  </li><li> In the command line type the next command: <strong> start "Path/To/Substance/Painter/Folder/Substance 3D Painter.exe" </strong> (make sure to change the path to match your computer)  </li><li> Press Enter  </li></ol><p> After these steps, wait a few seconds to let the application startup and then reconnect to your session. </p><p> You may have to run the Windows command line in administrator mode in case this procedure doesn't work. </p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="RemoteDesktop-Alternatives"> Alternatives </h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> If previous suggestions still don't work we recommend using alternative solutions such as VNC or Teamviewer which support the GPU via remote connections. </p>
+</div>
+</div>
+</div>
+</div></body>

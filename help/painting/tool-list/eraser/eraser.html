@@ -1,0 +1,185 @@
+<header><meta name="title" content="Eraser | Substance 3D Painter"><meta name="description" content=""><meta name="helpx_description" content="Painter > Painting > Tool list > Eraser"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Eraser</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The Eraser is a paint tool that erase/hide what has been painted previously by other tools. This tool only affect one layer at a time.</p><p>The Eraser share common parameters and behaviors with the Paint tool. To know more about the brush, alpha and stencil controls take a look at the <a href="/substance-3d-painter/painting/tool-list/paint-brush.html">Paint tool page</a>.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>Technically,<strong> the eraser doesn't really remove information</strong>. It simply set the layer alpha back to zero which erase/hide the previous painting information. This means :</p><ul><li>Any previous brush strokes that was painted are still computed when a project is reopened before the brush strokes with the eraser are applied.</li><li>A Substance filter can retrieve the paint information if it ignores the alpha information</li></ul><p>This is why sometimes it is more advised to <strong>delete a layer and recreate it</strong> rather than using the eraser as it can improve performances.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="Eraser-Material">Material</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>When erasing information, it possible to only affect specific channels.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>Contrary to the Paint tool, the Eraser only allows to define which Channels will be affected. It is not possible to load a resource from the Shelf to affect each channel.</p>
+</div>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ul class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> If all channels are enabled, the eraser will remove information inside all the channels:</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_proc_step_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_proc_par_proc_step_step_par_image" src="eraser-all-channels-selection.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_proc_step_step_par_image1 { width:325px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step_step_par_image1 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step_step_par_image1 { width:px; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_proc_par_proc_step_step_par_image1" src="erase-all-channel-optim.gif"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> If specific channels are selected, the eraser will remove information from those channels only:</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_image" src="eraser-one-channel-selection.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_image1 { width:325px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_image1 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_image1 { width:px; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_image1" src="erase-one-channel-optim.gif"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+</ul>
+</div></div>
+</div>
+</div></body>

@@ -1,0 +1,133 @@
+<header><meta name="title" content="Layer management | Substance 3D Painter"><meta name="description" content=""><meta name="helpx_description" content="Painter > Technical support > Performances guidelines > Layer management"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Layer management</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Painter computes the layer stack from the bottom to the top. So, if you make changes to the top layer on the stack, Painter only needs to compute the changes of that layer. However, if you make a change to a layer at the bottom of the stack, Painter needs to compute all of the layers above that layer to calculate the final result.</p>
+<p>There are various options you can use to decrease the performance cost of making changes to layers lower in the stack:</p>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-name="layermanagement">
+<spectrum-accordion-item data-label="Use Geometry masks" data-titleid="item-UseGeometrymask-layermanagement">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Hide layers" data-titleid="item-Hidelayers-layermanagement">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Disable layers" data-titleid="item-Disablelayers-layermanagement">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Use folders" data-titleid="item-Usefolders-layermanagement">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Limit the use of filters near the top of the layer stack" data-titleid="item-Limittheuseoffiltersnearthetopofthelayerstack-layermanagement">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Limit the use of passthrough blending mode" data-titleid="item-Limittheuseofpassthroughblendingmode-layermanagement">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Keep projection depth small" data-titleid="item-Keepprojectiondepthsmall-layermanagement">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Be careful with brushes that have dynamic strokes" data-titleid="item-Becarefulwithbrushesthathavedynamicstrokes-layermanagement">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Work at a lower texture resolution" data-titleid="item-Workatalowertextureresolution-layermanagement">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Set Decals to Planar projection mode" data-titleid="item-SetDecalstoPlanarprojectionmode-layermanagement">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-UseGeometrymask-layermanagement">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Geometry masks are your best optimization tool. Whenever you can isolate a part of your mesh to work on, do so, either by masking layers or folders. Geometry masks work by isolating either by UDIM or by mesh part, so areas that are not in the mask are not processed, improving performance. As a bonus, you can also isolate those parts visually in the viewport for easier texturing.</p>
+<p>You can <a disablelinktracking="false" href="https://www.youtube.com/watch?v=TGASuIGSUns">learn more about geometry masks with this tutorial</a>, or by <a disablelinktracking="false" href="/substance-3d-painter/interface/layer-stack/geometry-mask.html">referring to the documentation</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Hidelayers-layermanagement">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>In order to avoid slowdowns when making changes at a lower level in the layer stack, you can hide layers above the edited layer until you have finished making your adjustments. Painter doesn't process hidden layers, so if all the layers above your layer are hidden, it's as if you're editing the top layer in the stack. This way, the layers above will only be computed once, when you unhide them, rather than after every change you make.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Disablelayers-layermanagement">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Just like hiding layers, the disable blend mode will prevent layers from being calculated. It can be helpful to set low impact layers to the disable blend mode while modifying areas where they are unimportant.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Usefolders-layermanagement">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Try to group layers whenever possible, as folders act like an invisible caching point. If you are making any changes below or above a given folder, the layers inside the folder won't all be recalculated individually, but rather their group result will be recalculated.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Limittheuseoffiltersnearthetopofthelayerstack-layermanagement">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Filters can be expensive. If it's necessary to use a filter near the top of the layer stack, use geometry masks to decrease their performance cost.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Limittheuseofpassthroughblendingmode-layermanagement">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Passthrough is frequently used with filters or brush stroke layers. It is a costly blending mode because it looks at all the layers underneath and transforms their result, instead of overriding the result like normal blending mode. Whenever using passthrough, try to combine it with Geometry masks and folders to minimize the performance impact.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Keepprojectiondepthsmall-layermanagement">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>With any tool or mode that has a Projection depth setting (warp, planar, path, etc), keep the Projection depth value as small as possible. The further the Projection depth extends, the less performant it is.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Becarefulwithbrushesthathavedynamicstrokes-layermanagement">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Brushes and tools with an orange tag have a dynamic parameter. This dynamic parameter can be set to "Unlimited", which means that every stamp in a stroke will be unique. This can have a substantial performance impact if using hundreds or thousands of brush strokes. In most cases, it's difficult to tell the difference after 16-32 variations, so generally speaking going beyond that is unlikely to have much visual impact.</p>
+<p><a disablelinktracking="false" href="/substance-3d-painter/painting/dynamic-strokes.html">Learn more about dynamic strokes in the documentation.</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Workatalowertextureresolution-layermanagement">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Decreasing document resolution is the fastest way to improve performance. Doubling the resolution means a 4 times larger map, so going from 1k to 2k means up to a 4 times increase in performance cost. As a result, it's often useful to work at a lower resolution for as long as possible.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-SetDecalstoPlanarprojectionmode-layermanagement">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The default decal mode is Warp, but unless you are actually deforming the decal by moving its points, switching it to Planar mode is much less costly.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></body>

@@ -1,0 +1,1355 @@
+<header><meta name="title" content="Version 10.0 | Substance 3D Painter"><meta name="description" content=""><meta name="helpx_description" content="Substance 3D Painter 10.0 brings support of Fonts via Text resources, layer stack functionalities in the Python API, support of Illustrator (.ai) files and several quality of life improvements."></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="HelpX in-article navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1>Version 10.0</h1>
+<p><b>Substance 3D Painter 10.0</b> brings support of Illustrator (.ai) files, integrates Substance 3D Assets, imports Fonts via the Text resources, adds layer stack functionalities in the Python API, and several quality of life improvements.</p>
+<p>Release date: <i>16 May 2024</i></p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1>Major features</h1>
+<h3>New text resource</h3>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_banner_text-1?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_banner_text-1?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_banner_text-1?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_image" src="v10_banner_text-1.jpg"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>This new version introduces the <b>Text resource</b> which is a way to load font files to write text in different contexts (brush, fill projection, Substance image inputs, etc.) to embellish your textures.</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ul class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Browse your fonts in the Assets window</b><br/>
+Fonts are now listed in the Assets window under their own filter. They are gathered from different locations on the operating system (and also from the Libraries).</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_step_0_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_step_0_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_step_0_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_proc_par_step_0_step_par_image" src="v10_text_assets-1.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Drag and drop fonts like any other resources</b><br/>
+Fonts can be used as text resources like any other kind of resource. Drag and drop them to automatically create fill projection. They can also be used in brushes or as input in Substance filters.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_step_1_step_par_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_proc_par_step_1_step_par_image" src="v10_text_drag_drop.gif"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Text resource parameters</b><br/>
+When creating a text resource, you can tweak a few parameters to adjust the look of your text: vertical and horizontal alignment, automatic or manual size, line and character spacing, color, etc.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_step_2_step_par_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_proc_par_step_2_step_par_image" src="v10_text_features.gif"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Wide range of characters and feature supported</b><br/>
+The Text resource supports right to left writing as well as <a disablelinktracking="false" href="https://en.wikipedia.org/wiki/Ligature_(writing)">ligatures</a>. (To be able to write non latin characters a compatible font is required.)<br/>
+</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_step_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_step_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_step_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_font_hello?$pjpeg$&amp;jpegSize=100&amp;wid=637"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_font_hello?$pjpeg$&amp;jpegSize=100&amp;wid=637"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_font_hello?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_procedure_proc_par_step_step_par_image" src="v10_font_hello.jpg"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Import custom fonts like regular resource</b><br/>
+You can import your own fonts files directly into your Library or project like any other resources. Some types of fonts are not supported however, for more information see this <a href="/substance-3d-painter/technical-support/workflow-issues/shelf-issues/font-import.html">documentation page</a>.</p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>For more information about the <b>Text resource</b>, see the <a href="/substance-3d-painter/painting/text-resource.html">dedicated documentation page</a>.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>New import of Illustrator files (.Ai)</h3>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_801415981 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_801415981 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_801415981 { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_banner_ai-1?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_banner_ai-1?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_banner_ai-1?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_image_801415981" src="v10_banner_ai-1.jpg"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Following the support for <b>.svg</b> files, this new version also adds the ability to import Illustrator files (<b>.ai</b>).</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ul class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Illustrator (.Ai) file support</b><br/>
+In this new version .ai files can now be imported and rendered in Painter to be used as resource in brushes, fill projections or as Substance image inputs.</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>.svg and .ai files share common settings</b><br/>
+SVG and Illustrator documents share similar settings, notably the resolution, crop area and scope selection parameters. This means that vectorial resource can be managed in a similar way.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_1248653962_proc_par_step_1_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_1248653962_proc_par_step_1_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_1248653962_proc_par_step_1_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_ai_demo?$pjpeg$&amp;jpegSize=100&amp;wid=604"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_ai_demo?$pjpeg$&amp;jpegSize=100&amp;wid=604"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_ai_demo?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_procedure_1248653962_proc_par_step_1_step_par_image" src="v10_ai_demo.jpg"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Artboard selection</b><br/>
+Illustrator documents support artboards, when using an .ai file you can also choose between different artboards available via the dedicated setting.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_1248653962_proc_par_step_2_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_1248653962_proc_par_step_2_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_1248653962_proc_par_step_2_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_1248653962_proc_par_step_2_step_par_image" src="v10_ai_artboard.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Improved scope selection</b><br/>
+The scope selection window has been improved with the support of thumbnails, making it easier to browse and select only specific elements.<br/>
+For performance reasons thumbnails are off by default and can be enabled with the <b>Show thumbnails</b> checkbox.<br/>
+</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_1248653962_proc_par_step_4_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_1248653962_proc_par_step_4_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_1248653962_proc_par_step_4_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_1248653962_proc_par_step_4_step_par_image" src="v10_ai_thumbs.jpg"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+</ul>
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>Importing Illustrator (<b>.ai</b>) files is currently only supported on Windows and MacOS.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>New Substance 3D Assets integration</h3>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_810835854 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_810835854 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_810835854 { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_banner_3d_assets_2?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_banner_3d_assets_2?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_banner_3d_assets_2?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_image_810835854" src="v10_banner_3d_assets_2.jpg"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>A new window is available which embeds the Substance 3D Assets website directly inside Painter. This integration makes it easier to browse and download resources directly in your own library.</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ul class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>New Substance 3D Assets window</b><br/>
+A new dock is available in the interface to browse Substance 3D Assets. If the dock is not visible and closed it can be found again in the dock toolbar on the right of the interface.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_1220618378_proc_par_step_0_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_1220618378_proc_par_step_0_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_1220618378_proc_par_step_0_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_1220618378_proc_par_step_0_step_par_image" src="v10_3d_dock-1.jpg"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Download manager</b><br/>
+You can see the assets currently being downloaded via the dedicated manager using the bottom left button of the window. Assets that may fail to download can be started again from this list.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_1220618378_proc_par_step_1_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_1220618378_proc_par_step_1_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_1220618378_proc_par_step_1_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_1220618378_proc_par_step_1_step_par_image" src="v10_3d_assets_download.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Find your downloaded assets easily</b><br/>
+The button in the bottom right of the window opens a menu with a few actions to help navigate the website but also to shows were assets have been donwloaded.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_1220618378_proc_par_step_2_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_1220618378_proc_par_step_2_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_1220618378_proc_par_step_2_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_1220618378_proc_par_step_2_step_par_image" src="v10_3d_assets_menu-1.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+</ul>
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>Upon the first launch a login into your account will be necessary to download assets. This login is then be cached for future uses.  </p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>The Substance 3D Assets dock is not available in the Steam version.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>New layer stack module in Python API</h3>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1032087241 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_1032087241 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_1032087241 { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_banner_python-1?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_banner_python-1?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_banner_python-1?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_image_1032087241" src="v10_banner_python-1.jpg"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>This release sees the addition of the new layer stack module in our Python API. This API allows to control the layer stack of a project, opening the door to the creation of advanced layer stack plugins and custom tools.</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ul class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>New Layer stack API</b><br/>
+The new <b>layerstack</b> module allows to control the layer stack of a project in many ways. You can:<br/>
+</p>
+<ul>
+<li>Query and set the selection of layers and effects.</li>
+<li>Create new layers, folders and effects (including filters, anchor points, etc.).</li>
+<li>Instantiate layers.<br/>
+</li>
+<li>Get and set parameters of layers and effects, load resources into them.</li>
+<li>Get and set Substance parameters.</li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Scoped modifications and pause of the engine</b><br/>
+Manipulating the layer stack could lead to long computations, this is why we also exposed the possibility to pause and unpause the engine from the API (like in the UI). We also made it possible to group modifications together, for both performance reasons but also to undo a single time multiple operations.</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Basic color management</b><br/>
+With the exposition of the layer stack we needed to introduce the notion of color management in our API. A new <b>colormanagement</b> module has been added to create, tweak colors and choose the color space of bitmaps. (This part of the API isn't complete yet and will be expanded in future versions.)</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Query export preset information</b><br/>
+Export presets are now exposed in our API, allowing to query the list of presets (both predefined and custom). Their content can also be retrieved in a similar format to our existing export textures API.</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>New possibilities ahead!<br/>
+</b> This new part of the API allows to do a lot of new things, like saving and restoring a selection of layers or changing the random seed of all the resources in a project for example:</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_886339528_proc_par_step_4_step_par_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_886339528_proc_par_step_4_step_par_image" src="v10_api_random_randomseed.gif"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+</ul>
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>For more information on the API, see the documentation included with the application (via <b>Help &gt; Scripting documentation &gt; Python API</b>) which includes many code snippets to easily get started.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>Examples of layer stack plugins can also be found in our <a href="https://adobedocs.github.io/painter-python-api/">online documentation</a>.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Improved normal map painting</h3>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1308734285 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_1308734285 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_1308734285 { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_banner_flow-1?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_banner_flow-1?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_banner_flow-1?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_image_1308734285" src="v10_banner_flow-1.jpg"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>In this release we reworked the normal map painting workflow. We notably changed the way we accumulate and blend normal brush stamps. This changes were made to address issues related to painting flow maps.</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ul class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Fixed accumulation issue</b><br/>
+Painting over and over an area in the normal channel will no longer saturate or clamp and create holes or artifacts. Switching the normal channel to RGB32F is also no longer needed.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_891924619_proc_par_step_0_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_891924619_proc_par_step_0_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_891924619_proc_par_step_0_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_891924619_proc_par_step_0_step_par_image" src="v10_normal_accumulation.jpg"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Fixed undo breaking painted strokes</b><br/>
+Undoing a brush stroke no longer breaks other already painted strokes.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_891924619_proc_par_step_1_step_par_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_891924619_proc_par_step_1_step_par_image" src="v10_normal_stroke_undo.gif"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Transparency on zero alpha</b><br/>
+Brush stamps made with a texture with an alpha at zero will now draw as transparent. The example below shows a brush stamp (left) versus a planar projection (right).</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_891924619_proc_par_step_2_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_891924619_proc_par_step_2_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_891924619_proc_par_step_2_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_891924619_proc_par_step_2_step_par_image" src="v10_normal_alpha.jpg"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+</ul>
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>For more information on painting flow map, see the <a href="/substance-3d-painter/painting/advanced-channel-painting/flow-map-painting.html">documentation page</a>.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Improved transform manipulators</h3>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_210717373 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_210717373 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_210717373 { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_banner_transform_v2-1?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_banner_transform_v2-1?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_banner_transform_v2-1?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_image_210717373" src="v10_banner_transform_v2-1.jpg"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Several improvements have been made to enhance the usage of the transform manipulators.</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ul class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Precision mode with CTRL</b><br/>
+Pressing control while dragging on a manipulator will now enter into a new precision mode which allows more meticulous operations. This change applies to the translate, rotate and scale manipulators.<br/>
+Here is an example before and after pressing CTRL while dragging:</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_1913423635_proc_par_step_0_step_par_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_1913423635_proc_par_step_0_step_par_image" src="v10_ctrl_precise_mode.gif"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>New scale behavior</b><br/>
+The scale intensity is now based on the current scale value itself and not on the scene size anymore. This makes relative changes easier to do, especially at small values. Combined with the precise mode it makes scaling a lot more pleasant.<br/>
+Another change is scaling down until 0 will no longer go into negative values. This avoid the issue of wanting to scale down a projection and flipping it by accident.<br/>
+</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_1913423635_proc_par_step_1_step_par_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_1913423635_proc_par_step_1_step_par_image" src="v10_translate_new.gif"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Improved surface manipulator rotation</b><br/>
+The surface decal manipulator is now a lot more stable when dragging around a surface. It doesn't increase its rotation when just doing back and forth translations.<br/>
+Here is the <b>old</b> behavior compared to the <b>new</b> one:</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_1913423635_proc_par_step_2_step_par_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_1913423635_proc_par_step_2_step_par_image" src="v10_decal_old.gif"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_1913423635_proc_par_step_2_step_par_image_369452852 { width:auto; }
+    
+    
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_1913423635_proc_par_step_2_step_par_image_369452852" src="v10_decal_new.gif"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Camera aligned projection on drag and drop</b><br/>
+Drag and dropping a resource into the viewport allows to create a warp projection directly on the surface of the mesh. This projection was previously incorrectly rotated, it is now aligned to the camera.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_1913423635_proc_par_step_3_step_par_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_1913423635_proc_par_step_3_step_par_image" src="v10_projection_aligned_screen.gif"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+</ul>
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_2099085081 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_2099085081 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_2099085081 { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_banner_misc-1?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_banner_misc-1?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/v10_banner_misc-1?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_image_2099085081" src="v10_banner_misc-1.jpg"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>A few other improvements have been added, notably:<br/>
+</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ul class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Updated Tile Generator</b><br/>
+The <b>Tile Generator</b> blending mode parameter can now be changed and will modify the result as expected. The resource has also been updated to the latest version available in <b>Substance 3D Designer</b>.</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Fixed banding/quality issues on some filters</b><br/>
+Several filters were stuck on 8 bit precision instead of 16 bit, leading to banding/artifacts when using them (like the histogram scan or directional blur). This is now fixed.</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Color space in SBSAR output</b><br/>
+When the Legacy or OCIO color management workflow is enabled, the SBSAR export will now reference the color space names used in the project on the respective outputs.</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Faster resource discovery</b><br/>
+With the introduction of the <b>Text resource</b> we added a new cache to make crawling of resources on the disk faster on next startup. This is quite notable when resources are installed on a HDD or when a library has gigabytes of resources. This new cache can be disabled with a command line, see the dedicated <a href="/substance-3d-painter/pipeline-and-integration/configuration/command-lines.html">documentation page</a> for more information.</p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Many thanks to the website <a disablelinktracking="false" href="https://isthisarabic.com/">is this arabic ?</a> which was of great help during the development of this version.</p>
+<p>Reference to artworks used in the medias above:</p>
+<ul>
+<li><a disablelinktracking="false" href="https://unsplash.com/photos/man-wearing-black-shirt-aoEwuEH7YAs">Man wearing black shirt</a> by Lucas Gouvêa<br/>
+</li>
+<li><a disablelinktracking="false" href="https://unsplash.com/photos/pink-and-green-abstract-art-ruJm3dBXCqw">Pink and green</a> by Pawel Czerwinski<br/>
+</li>
+<li><a disablelinktracking="false" href="https://undraw.co/illustrations">unDraw illsutrations</a><br/>
+</li>
+<li>Claude Monet</li>
+</ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1>Tutorials</h1>
+</div>
+</div>
+<div class="video aem-GridColumn aem-GridColumn--default--12">
+<!-- Ambient Video -->
+<div></div>
+<div class="videoContainer">
+<!-- Custom Video -->
+<!-- Youtube Video -->
+<iframe allowfullscreen="" id="player-QSVgnyiDADc" mozallowfullscreen="" src="https://www.youtube.com/embed/QSVgnyiDADc?rel=0&amp;enablejsapi=1" title="youtube video service" webkitallowfullscreen=""></iframe>
+<!-- Vimeo and Adobe TV Video -->
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> </p>
+</div>
+</div>
+<div class="video aem-GridColumn aem-GridColumn--default--12">
+<!-- Ambient Video -->
+<div></div>
+<div class="videoContainer">
+<!-- Custom Video -->
+<!-- Youtube Video -->
+<iframe allowfullscreen="" id="player-_lMpyz0Vhx8" mozallowfullscreen="" src="https://www.youtube.com/embed/_lMpyz0Vhx8?rel=0&amp;enablejsapi=1" title="youtube video service" webkitallowfullscreen=""></iframe>
+<!-- Vimeo and Adobe TV Video -->
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1>Release notes</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3><b>10.0.0</b></h3>
+<p>Release date: <b>2024/05/16</b><br/>
+Summary: <b>Major release, edition of the layer stack with Python API, read native Illustrator files, integration of 3D Assets and new text resource</b></p>
+<p><b>Added</b>:</p>
+<ul>
+<li>[Illustrator] Use Illustrator files with art boards in Painter</li>
+<li>[Illustrator][SVG] Add previews in scope selection</li>
+<li>[Substance 3D Assets] Browse, select and download 3D Assets directly in Painter</li>
+<li>[Substance 3D Assets][UI] New panel</li>
+<li>[Substance 3D Assets] Support environment maps and materials</li>
+<li>[Substance 3D Assets] Allow to reload and navigate and open location folder in new Substance 3D Assets panel</li>
+<li>[Substance 3D Assets] Addition of a download manager</li>
+<li>[Text Resource] Allow to use embeddable fonts</li>
+<li>[Text Resource] Allow to render a font/text on a mesh</li>
+<li>[Text Resource] Display fonts from user and other shared paths in Assets panel with a new category</li>
+<li>[Text Resource][Properties] Add support for advanced font properties</li>
+<li>[Text Resource] Allow to search/view fonts in mini-shelves</li>
+<li>[Text Resource] Add error message/dialog when importing an incompatible font</li>
+<li>Miscellaneous</li>
+<li>[Fill projection] Improve Scale manipulator behavior when using small values</li>
+<li>[Manipulators] Add new precise mode when pressing CTRL shortcut</li>
+<li>[Manipulators] Improve surface manipulator stability when translating</li>
+<li>[Export] Add colorspace name in SBSAR outputs</li>
+<li>[Performance] Improve library discovery time of assets on disk</li>
+<li>[Substance] Update to Substance engine version 9.1.2</li>
+<li>[Drag and Drop] Align decal rotation to camera when dropping in viewport</li>
+<li>[Python] Edition of the layer stack</li>
+<li>[Python] Allow to select layer, effect, mask, geo mask in UI</li>
+<li>[Python] Allow to get/set layer blending modes</li>
+<li>[Python] Allow to get/set fill layer projection settings</li>
+<li>[Python] Allow to query Substance material color from a fill layer</li>
+<li>[Python] Allow to query and set uniform colors and resources in layers and effects</li>
+<li>[Python] Allow to create and edit text resources in layer stack</li>
+<li>[Python] Allow to edit active channels on layers and effects</li>
+<li>[Python] Allow to batch actions to have a single undo/redo</li>
+<li>[Python] Allow to load/edit vectorial source parameters</li>
+<li>[Python] Allow to edit layer and effects color properties with color management</li>
+<li>[Python] Allow to query and create instanced layers</li>
+<li>[Python] Allow to add color selection effect</li>
+<li>[Python] Allow to control bitmap image color management</li>
+<li>[Python] Allow to pause/unpause engine</li>
+<li>[Python] Allow to navigate to siblings and parent nodes</li>
+<li>[Python] Allow to create filter/generator effect</li>
+<li>[Python] Allow to add level effect</li>
+<li>[Python] Allow to add smart mask on a layer</li>
+<li>[Python] Allow to create/edit anchor points</li>
+<li>[Python] Allow to get/Set mask on layers</li>
+<li>[Python] Allow to create compare mask effect</li>
+<li>[Python] Allow to query and use presets from Substance resources</li>
+<li>[Python] Allow to list presets and their values via internal_properties function for Substance resources</li>
+<li>[Python] Allow to list predefined export presets</li>
+<li>[Python] Allow to list export presets available in the library</li>
+<li>[Python] Allow to retrieve the content of export presets</li>
+</ul>
+<p><b>Fixed</b>:</p>
+<ul>
+<li>[Crash] Undoing "Remove shader instance" with Ctrl-Z</li>
+<li>[Crash] Create a layer on empty stack if last selection was an effect</li>
+<li>[SVG] Issue with custom cropped area value</li>
+<li>[Auto-Unwrap] Recomputing only the packing without any change to UV orientation results in crash</li>
+<li>[Drag and drop] Lag due to external resources are preloaded multiple times</li>
+<li>[UI] Drag and drop resource thumbnail can hide warning message in layer stack</li>
+<li>[Performance] Masked UV tiles are still computed</li>
+<li>[USD] Wrong highlight for scope selection</li>
+<li>[Resource] Bitmap image gets corrupted after painting in normal channel and saving project</li>
+<li>[USD] Support left-handed vertex mesh ordering</li>
+<li>[Substance] Reset to default always go back to zero for angle widget</li>
+<li>[Engine] Painting with an SVG in a stencil doesn't work</li>
+<li>[Engine] Normal map brush strokes break after an undo</li>
+<li>[Content] Graphic to Material filter has incorrect alpha blending and color space</li>
+<li>[Content] Blending modes on Tile Generator are not working</li>
+<li>[Content] Histogram scan filter produces banding in some cases</li>
+<li>[Content] Baked lighting stylized does not take painted height into account</li>
+<li>[Python] Unexpected error when retrieving instanced layer information after shader change</li>
+</ul>
+<p><b>Known Issues</b>:</p>
+<ul>
+<li>[Color Management] HDR color space conversions with ACE on Linux produce clamped colors</li>
+<li>[Crash][Linux][AMD] Dragging and dropping resources in layer stack on Wayland OS</li>
+<li>[Regression][UI] Right Click Menu is too small on HD screens</li>
+<li>[Crash][Python] USD export triggered by TextureStateEvent</li>
+<li>[Save] Spp project file is lost when "save as" fails</li>
+<li>[MacOS Intel] Crash when importing some presets</li>
+<li>[Illustrator] Cannot import Ai files after server crash without restarting Painter</li>
+<li>[Import] Assets with same name but different extensions are overridden</li>
+</ul>
+</div>
+</div>
+</div>
+</div></body>

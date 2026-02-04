@@ -1,0 +1,168 @@
+<header><meta name="title" content="Toon - Shader API | Substance 3D Painter"><meta name="description" content=""><meta name="helpx_description" content="Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > Toon - Shader API"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Toon - Shader API</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="ToonShaderAPI-Basictoonshader">Basic toon shader</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Import from libraries.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">import lib-sampler.glsl</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>We define the global light position</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">const vec3 light_pos = vec3(10.0, 10.0, 10.0);</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>We <strong>bind</strong> the auto param world eye position to our uniform <strong>camera_pos</strong>.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">//: param auto world_eye_position 
+uniform vec3 camera_pos;</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>We <strong>bind</strong> the document's channel <strong>base color</strong> to our uniform <strong>basecolor_tex</strong>.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">//: param auto channel_basecolor 
+uniform SamplerSparse basecolor_tex;</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>We <strong>bind</strong> the <strong>mesh curvature</strong> to our uniform <strong>curvature_tex</strong>. If no curvature is available, transparent texture is provided.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">//: param auto texture_curvature 
+uniform SamplerSparse curvature_tex;</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>We define a new custom tweak for this shader, along with its default value. This one is used to tweak the thickness of outline, when shadowed.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">//: param custom { 
+//:  "default": 0.4, 
+//:   "min": 0.0, 
+//:   "max": 1.0, 
+//:   "label": "Unlit outline thickness" 
+//: } 
+uniform float unlit_outline_thickness;</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>We define a new custom tweak for this shader, along with its default value. This one is used to tweak the thickness of outline, when lit.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">//: param custom { 
+//:   "default": 0.1, 
+//:   "min": 0.0, 
+//:   "max": 1.0, 
+//:   "label": "Lit outline thickness" 
+//: } 
+uniform float lit_outline_thickness;</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Whether we prefer using the curvature or not.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">//: param custom { 
+//:   "default": false, 
+//:   "label": "Use curvature" 
+//: } 
+uniform bool use_curvature;</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Entry point of the shader.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">void shade(V2F inputs) 
+{</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>We compute a few useful values.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">  vec3 V = normalize(camera_pos - inputs.position); 
+  vec3 N = normalize(inputs.normal); 
+  vec3 L = normalize(light_pos - inputs.position); 
+  float NdV = dot(N, V); 
+  float NdL = max(0.0, dot(N, L));</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><strong>Priority</strong> is to performs the <strong>outline detection</strong>. Allow the user to choose whether he prefers using the curvature map for outline detection or not.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">  if (use_curvature) { 
+    float curv = textureSparse(curvature_tex, inputs.sparse_coord).r; 
+    NdV = 1.0 - curv; 
+  }</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>If outline condition is reach, exit with black color.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">  if (NdV &lt; mix(unlit_outline_thickness, lit_outline_thickness, NdL)) { 
+    return; 
+  }</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Here, we perform a 4 steps discretization of color.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">  vec3 color = getBaseColor(basecolor_tex, inputs.sparse_coord); 
+  if (NdL &gt; 0.75) { 
+    color = color; 
+  } else if (NdL &gt; 0.5) { 
+    color = color * 0.5; 
+  } else if (NdL &gt; 0.1) { 
+    color = color * 0.1; 
+  } 
+  else</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Fallback is black.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">    color = vec3(0.0); 
+ 
+  diffuseShadingOutput(color); 
+} 
+ 
+</pre>
+</div>
+</div>
+</div></body>

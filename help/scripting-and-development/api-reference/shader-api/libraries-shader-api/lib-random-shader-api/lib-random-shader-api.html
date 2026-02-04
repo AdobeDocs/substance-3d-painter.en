@@ -1,0 +1,110 @@
+<header><meta name="title" content="Lib Random - Shader API | Substance 3D Painter"><meta name="description" content=""><meta name="helpx_description" content="Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Random - Shader API"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Lib Random - Shader API</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="LibRandomShaderAPI-lib-random.glsl">lib-random.glsl</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><strong>Public Functions:</strong> <i>getBlueNoiseThreshold</i> <i>getBlueNoiseThresholdTemporal</i> <i>fibonacci1D</i> <i>fibonacci2D</i> <i>fibonacci2DDitheredTemporal</i></p><p>Import from library</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">import lib-defines.glsl</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>A 2D blue noise texture containing scalar values</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">//: param auto texture_blue_noise 
+uniform sampler2D texture_blue_noise;</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Blue noise texture resolution</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">const ivec2 texture_blue_noise_size = ivec2(256);</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Current frame random seed</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">//: param auto random_seed 
+uniform int alg_random_seed;</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Get an uniform random value based on pixel coordinates.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">float getBlueNoiseThreshold() 
+{ 
+  return texture(texture_blue_noise, gl_FragCoord.xy / vec2(texture_blue_noise_size)).x + 0.5 / 65536.0; 
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Get an uniform random value based on pixel coordinates and frame id.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">float getBlueNoiseThresholdTemporal() 
+{ 
+  return fract(getBlueNoiseThreshold() + M_GOLDEN_RATIO * alg_random_seed); 
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Return the i<em>th</em> number from fibonacci sequence.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">float fibonacci1D(int i) 
+{ 
+  return fract((float(i) + 1.0) * M_GOLDEN_RATIO); 
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Return the i<em>th</em> couple from the fibonacci sequence. nbSample is required to get an uniform distribution.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">vec2 fibonacci2D(int i, int nbSamples) 
+{ 
+  return vec2( 
+    (float(i)+0.5) / float(nbSamples), 
+    fibonacci1D(i) 
+  ); 
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Return the i<em>th</em> couple from the fibonacci sequence. nbSample is required to get an uniform distribution. This version has a per frame and per pixel pseudo-random rotation applied.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="glsl" data-gutter="true" data-line-wrap="true">vec2 fibonacci2DDitheredTemporal(int i, int nbSamples) 
+{ 
+  vec2 s = fibonacci2D(i, nbSamples); 
+  s.x += getBlueNoiseThresholdTemporal(); 
+  return s; 
+} 
+ 
+</pre>
+</div>
+</div>
+</div></body>

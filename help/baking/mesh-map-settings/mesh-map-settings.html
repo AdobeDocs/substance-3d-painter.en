@@ -1,0 +1,284 @@
+<header><meta name="title" content="Mesh map settings | Substance 3D Painter"><meta name="description" content=""><meta name="helpx_description" content="Substance 3D Painter"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="HelpX in-article navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="xfreference experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<style>
+</style>
+<div class="xf" id="root_content_flex_items_position_position-par_xf_feedback">
+<div class="xfpage page basicpage">
+<div class="xf-content-height">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b>The Mesh map settings panel</b> is available in Baking mode, and has controls to prepare your mesh for baking. To adjust mesh map settings for a given map, select the map in the <b>Mesh map bakers panel</b>. Each Mesh map can have different settings available. A collection of <b>Common settings </b>shared by all mesh maps is available at the top of the Mesh Map Bakers panel. </p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Any settings that are shared across mesh maps will appear on the Common settings page, rather than on each individual mesh map.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Common settings</h2>
+<p>The Common settings page holds controls that affect how all mesh maps are baked.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Output settings</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table border="1" cellpadding="1" cellspacing="0">
+<tbody><tr><th scope="col">Setting</th>
+<th scope="col">Function</th>
+</tr><tr><td> Output size</td>
+<td><p>Define the X and Y resolution of generated mesh maps.</p>
+<p>Click the lock to allow for non-square resolutions.</p>
+</td>
+</tr><tr><td>Dilation width</td>
+<td>Adjust how far the baked information extends beyond the boundaries of UV islands.</td>
+</tr><tr><td>Apply diffusion</td>
+<td>Enable this box to apply diffusion to the edges of generated information.</td>
+</tr></tbody></table>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>High-poly parameters</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table border="1" cellpadding="1" cellspacing="0">
+<tbody><tr><th scope="col">Setting</th>
+<th scope="col">Function</th>
+</tr><tr><td>Use Low poly mesh as high poly mesh</td>
+<td><p>Enable this setting to bake maps based on your project mesh.</p>
+</td>
+</tr><tr><td>High definition meshes</td>
+<td>Add high poly meshes to your project to make from a high poly mesh onto the low poly mesh in your project. Multiple meshes can be imported.</td>
+</tr><tr><td>Cage</td>
+<td><p>Determine how the baking cage is generated.</p>
+<ul>
+<li>Distance based: Inflate the vertices away from the mesh a uniform distance across the model to create a cage.</li>
+<li>Automatic (experimental): Painter will analyse your mesh and generate a cage automatically, trying to keep the cage close to the surface without creating intersections for best results.</li>
+<li>Custom file: Import a file that you have created to use as the cage. Note that imported files must have the same number of vertices as the base mesh to work correctly.</li>
+</ul>
+</td>
+</tr><tr><td>Ignore backface</td>
+<td>Toggle whether back-faces are ignored while baking. This can help reduce artifacts, but can also cause errors in certain edge-cases.</td>
+</tr><tr><td>Match</td>
+<td><p>Change how the Baker determines whether to include objects while baking:</p>
+<ul>
+<li>Always: Include all high poly meshes that are hit within the cage while baking.</li>
+<li>By mesh name: For each cage, only bake meshes with the corresponding mesh suffix.</li>
+</ul>
+</td>
+</tr><tr><td>Low poly mesh suffix</td>
+<td>When using Match By mesh name, use this suffix to define low poly meshes.</td>
+</tr><tr><td>High poly mesh suffix</td>
+<td>When using Match By mesh name, use this suffix to define high poly meshes and match them with the corresponding low poly mesh.</td>
+</tr><tr><td>Antialiasing</td>
+<td>Adjust the amount of antialiasing in the generated maps.</td>
+</tr></tbody></table>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>ID map settings</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table border="1" cellpadding="1" cellspacing="0">
+<tbody><tr><th scope="col">Setting</th>
+<th scope="col">Function</th>
+</tr><tr><td>Color source</td>
+<td><p>Change how the baked colors of the ID map are determined:</p>
+<ul>
+<li>Vertex Color</li>
+<li>Material Color</li>
+<li>File ID</li>
+<li>Mesh ID/Polygroup</li>
+</ul>
+</td>
+</tr><tr><td>Color Generator</td>
+<td><p>When using File ID or Mesh ID/Polygroup as the color source, determine how colors are generated:</p>
+<ul>
+<li>Random</li>
+<li>Hue shift</li>
+<li>Grayscale</li>
+</ul>
+</td>
+</tr></tbody></table>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Ambient occlusion map settings</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table border="1" cellpadding="1" cellspacing="0">
+<tbody><tr><th scope="col">Setting</th>
+<th scope="col">Function</th>
+</tr><tr><td>Secondary rays</td>
+<td>Change the number of secondary rays. More rays can yield better results at the cost of increased processing time.</td>
+</tr><tr><td>Min Occluder distance</td>
+<td>Adjust the minimum distance for rays to travel to hit high poly geometry and impact the resulting AO map.</td>
+</tr><tr><td>Max occluder distance</td>
+<td>Rays that extend further than this distance without hitting the high poly mesh are considered to not be occluded and will not affect the AO map.</td>
+</tr><tr><td>Relative to bounding box</td>
+<td>When this box is checked, other settings that refer to distance are based on the bounding box of the project mesh. So a distance of 1 is equal to the size of the bounding box.</td>
+</tr><tr><td>Spread angle</td>
+<td>Adjust the angular range of generated rays. A higher spread angle allows a surface to be occluded more easily by geometry that is not positioned perpendicularly away from the surface.</td>
+</tr><tr><td>Distribution</td>
+<td>Select how rays are distributed.</td>
+</tr><tr><td>Ignore backface</td>
+<td>Change whether backfaces are considered to occlude objects.</td>
+</tr><tr><td>Self occlusion</td>
+<td>Select which meshes should affect ambient occlusion for the current mesh.</td>
+</tr><tr><td>Attenuation</td>
+<td>Change how occlusion is attenuated by occluder distance.</td>
+</tr><tr><td>Ground plane</td>
+<td>Enable this to create a ground plane that acts as an occluder.</td>
+</tr><tr><td>Ground plane offset</td>
+<td>Change the position of the ground plane.</td>
+</tr></tbody></table>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Curvature map settings</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table border="1" cellpadding="1" cellspacing="0">
+<tbody><tr><th scope="col">Setting</th>
+<th scope="col">Function</th>
+</tr><tr><td>Method</td>
+<td>Choose how to generate the curvature map.</td>
+</tr><tr><td>Secondary rays</td>
+<td>Adjust how many secondary rays are used to generate the curvature map. More secondary rays can produce better results at the cost of increased processing time.</td>
+</tr><tr><td>Sampling radius</td>
+<td>Adjust how far the baker searches to calculate the curvature of the current point.</td>
+</tr><tr><td>Relative to Bounding box</td>
+<td>When this is checked, all distances are based on the size of the mesh bounding box.</td>
+</tr><tr><td>Self intersection</td>
+<td>Choose which objects will be considered when determining curvature.</td>
+</tr><tr><td>Auto tonemapping (per UV tile)</td>
+<td>Leave this checked to automatically adjust the tonemap curvature maps on a per UV tile basis.</td>
+</tr><tr><td>Tonemapping Min</td>
+<td>If auto tonemapping is disabled, adjust the minimum value for tonemapping.</td>
+</tr><tr><td>Tonemapping Max</td>
+<td>If auto tonemapping is disabled, adjust the maximum value for tonemapping.</td>
+</tr></tbody></table>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Position map settings</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table border="1" cellpadding="1" cellspacing="0">
+<tbody><tr><th scope="col">Setting</th>
+<th scope="col">Function</th>
+</tr><tr><td>Mode</td>
+<td>Select whether to generate an all axis position map, or only calculate position for a selected axis.</td>
+</tr><tr><td>Axis</td>
+<td>If Single Axis mode is selected, use this setting to choose which axis to calculate.</td>
+</tr><tr><td>Normalization type</td>
+<td>Change how position values are normalized, either with a Bounding Box, Bounding sphere, or disable normalization.</td>
+</tr><tr><td>Normalization scale</td>
+<td>Change what is considered the maximum bounds of the position space.</td>
+</tr></tbody></table>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Thickness map settings</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table border="1" cellpadding="1" cellspacing="0">
+<tbody><tr><th scope="col">Setting</th>
+<th scope="col">Function</th>
+</tr><tr><td>Secondary rays</td>
+<td>Change the number of secondary rays. More rays can yield better results at the cost of increased processing time.</td>
+</tr><tr><td>Min Occluder distance</td>
+<td>Adjust the minimum distance for rays to travel to hit high poly geometry and impact the resulting thickness map.</td>
+</tr><tr><td>Max Occluder distance</td>
+<td>Rays that extend further than this distance without hitting the high poly mesh are considered to not be occluded and will not affect the thickness map.</td>
+</tr><tr><td>Relative to bounding box</td>
+<td>When this box is checked, other settings that refer to distance are based on the bounding box of the project mesh. So a distance of 1 is equal to the size of the bounding box.</td>
+</tr><tr><td>Spread angle</td>
+<td>Adjust the angular range of generated rays. A higher spread angle allows a surface to be occluded more easily by geometry that is not positioned perpendicularly away from the surface.</td>
+</tr><tr><td>Distribution</td>
+<td>Select how rays are distributed.</td>
+</tr><tr><td>Self occlusion</td>
+<td>Select which meshes should affect thickness for the current mesh.</td>
+</tr><tr><td>Normalization</td>
+<td>Change how thickness values are normalized.</td>
+</tr></tbody></table>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Height map settings</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table border="1" cellpadding="1" cellspacing="0">
+<tbody><tr><th scope="col">Setting</th>
+<th scope="col">Function</th>
+</tr><tr><td>Normalization</td>
+<td>Change how height values are normalized.</td>
+</tr><tr><td>Scaling divisor</td>
+<td>If Normalization is set to Manual, use this slider to adjust the scaling divisor and adjust height map normalization.</td>
+</tr></tbody></table>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Bent normals map settings</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table border="1" cellpadding="1" cellspacing="0">
+<tbody><tr><th scope="col"><span style="font-weight: 400;">Setting</span></th>
+<th scope="col"><span style="font-weight: 400;">Function</span></th>
+</tr><tr><td>Secondary rays</td>
+<td>Change the number of secondary rays. More rays can yield better results at the cost of increased processing time.</td>
+</tr><tr><td>Min Occluder distance</td>
+<td>Adjust the minimum distance for rays to travel to hit high poly geometry and impact the resulting bent normals map.</td>
+</tr><tr><td>Max Occluder distance</td>
+<td>Rays that extend further than this distance without hitting the high poly mesh are considered to not be occluded and will not affect the bent normals map.</td>
+</tr><tr><td>Relative to bounding box</td>
+<td>Whenn this box is checked, other settings that refer to distance are based on the bounding box of the project mesh. So a distance of 1 is equal to the size of the bounding box.</td>
+</tr><tr><td>Spread angle</td>
+<td>Adjust the angular range of generated rays. A higher spread angle allows a surface to be occluded more easily by geometry that is not positioned perpendicularly away from the surface.</td>
+</tr><tr><td>Distribution</td>
+<td>Select how rays are distributed.</td>
+</tr><tr><td>Ignore backface</td>
+<td>Choose whether to treat backfaces as occluders.</td>
+</tr><tr><td>Self occlusion</td>
+<td>Select which meshes should impact bent normals for the current mesh.</td>
+</tr></tbody></table>
+</div>
+</div>
+</div>
+</div></body>
