@@ -1,6 +1,7 @@
 ---
-title: "Version 10.1 | Substance 3D Painter"
-description: "Substance 3D Painter"
+title: "Version 10.1"
+description: ""
+helpx_description: "Substance 3D Painter"
 ---
 
 # Version 10.1

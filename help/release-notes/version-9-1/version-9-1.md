@@ -1,6 +1,7 @@
 ---
-title: "Version 9.1 | Substance 3D Painter"
-description: "Substance 3D Painter 9.1 adds tangent control for the Path tool, support of the SVG file format, the ability to import and apply resources by drag and drop and support for translucency in the viewport."
+title: "Version 9.1"
+description: ""
+helpx_description: "Substance 3D Painter 9.1 adds tangent control for the Path tool, support of the SVG file format, the ability to import and apply resources by drag and drop and support for translucency in the viewport."
 ---
 
 # Version 9.1

@@ -1,6 +1,7 @@
 ---
-title: "Creating custom effects | Substance 3D Painter"
-description: "Painter > Content > Creating custom effects"
+title: "Creating custom effects"
+description: ""
+helpx_description: "Painter > Content > Creating custom effects"
 ---
 
 # Creating custom effects

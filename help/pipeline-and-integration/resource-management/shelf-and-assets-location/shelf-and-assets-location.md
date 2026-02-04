@@ -1,6 +1,7 @@
 ---
-title: "Shelf and Assets location | Substance 3D Painter"
-description: "Painter > Pipeline and integration > Resource management > Shelf and Assets location"
+title: "Shelf and Assets location"
+description: ""
+helpx_description: "Painter > Pipeline and integration > Resource management > Shelf and Assets location"
 ---
 
 # Shelf and Assets location

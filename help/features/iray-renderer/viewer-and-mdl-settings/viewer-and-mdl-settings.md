@@ -1,6 +1,7 @@
 ---
-title: "Viewer and MDL Settings | Substance 3D Painter"
-description: "Painter > Features > Iray Renderer > Viewer and MDL Settings"
+title: "Viewer and MDL Settings"
+description: ""
+helpx_description: "Painter > Features > Iray Renderer > Viewer and MDL Settings"
 ---
 
 # Viewer and MDL Settings

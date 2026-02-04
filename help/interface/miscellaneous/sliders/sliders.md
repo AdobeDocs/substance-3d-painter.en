@@ -1,6 +1,7 @@
 ---
-title: "Sliders | Substance 3D Painter"
-description: "Painter > Interface > Miscellaneous > Sliders"
+title: "Sliders"
+description: ""
+helpx_description: "Painter > Interface > Miscellaneous > Sliders"
 ---
 
 # Sliders

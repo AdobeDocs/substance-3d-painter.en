@@ -1,6 +1,7 @@
 ---
-title: "Error there is no disk in the drive | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > Miscellaneous Issues > Error there is no disk in the drive"
+title: "Error there is no disk in the drive"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > Miscellaneous Issues > Error there is no disk in the drive"
 ---
 
 # Error there is no disk in the drive

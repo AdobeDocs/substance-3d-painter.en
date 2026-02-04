@@ -1,6 +1,7 @@
 ---
-title: "Camera management | Substance 3D Painter"
-description: "Painter > Interface > Viewport > Camera management"
+title: "Camera management"
+description: ""
+helpx_description: "Painter > Interface > Viewport > Camera management"
 ---
 
 # Camera management

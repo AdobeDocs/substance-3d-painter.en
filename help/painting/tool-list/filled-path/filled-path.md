@@ -1,6 +1,7 @@
 ---
-title: "Filled path | Substance 3D Painter"
-description: "Substance 3D Painter"
+title: "Filled path"
+description: ""
+helpx_description: "Substance 3D Painter"
 ---
 
 # Filled path

@@ -1,6 +1,7 @@
 ---
 title: "Known issues"
-description: "Substance 3D Painter"
+description: ""
+helpx_description: "Substance 3D Painter"
 ---
 
 # Known issues

@@ -1,6 +1,7 @@
 ---
-title: "Libraries configuration | Substance 3D Painter"
-description: "Painter > Interface > Settings > Libraries configuration"
+title: "Libraries configuration"
+description: ""
+helpx_description: "Painter > Interface > Settings > Libraries configuration"
 ---
 
 # Libraries configuration

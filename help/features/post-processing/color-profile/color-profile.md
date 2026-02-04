@@ -1,6 +1,7 @@
 ---
-title: "Color Profile | Substance 3D Painter"
-description: "Painter > Features > Post Processing > Color Profile"
+title: "Color Profile"
+description: ""
+helpx_description: "Painter > Features > Post Processing > Color Profile"
 ---
 
 # Color Profile

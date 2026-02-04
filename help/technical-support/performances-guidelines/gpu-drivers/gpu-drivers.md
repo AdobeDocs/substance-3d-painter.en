@@ -1,6 +1,7 @@
 ---
-title: "GPU VRAM and Drivers | Substance 3D Painter"
-description: "Painter > Technical support > Performances guidelines > GPU Drivers"
+title: "GPU VRAM and Drivers"
+description: ""
+helpx_description: "Painter > Technical support > Performances guidelines > GPU Drivers"
 ---
 
 # GPU Drivers

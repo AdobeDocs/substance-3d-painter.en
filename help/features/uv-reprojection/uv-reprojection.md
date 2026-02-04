@@ -1,6 +1,7 @@
 ---
-title: "UV Reprojection | Substance 3D Painter"
-description: "Painter > Features > UV Reprojection"
+title: "UV Reprojection"
+description: ""
+helpx_description: "Painter > Features > UV Reprojection"
 ---
 
 # UV Reprojection

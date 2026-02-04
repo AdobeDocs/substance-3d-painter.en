@@ -1,6 +1,7 @@
 ---
-title: "Navigation | Substance 3D Painter"
-description: "Painter > Interface > Assets > Navigation"
+title: "Navigation"
+description: ""
+helpx_description: "Painter > Interface > Assets > Navigation"
 ---
 
 # Navigation

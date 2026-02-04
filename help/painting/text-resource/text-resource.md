@@ -1,6 +1,7 @@
 ---
-title: "Text Resource | Substance 3D Painter"
-description: "Substance 3D Painter"
+title: "Text Resource"
+description: ""
+helpx_description: "Substance 3D Painter"
 ---
 
 # Text resource

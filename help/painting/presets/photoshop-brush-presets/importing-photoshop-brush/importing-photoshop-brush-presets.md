@@ -1,6 +1,7 @@
 ---
-title: "Importing Photoshop Brush Presets | Substance 3D Painter"
-description: "Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Importing Photoshop Brush Presets"
+title: "Importing Photoshop Brush Presets"
+description: ""
+helpx_description: "Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Importing Photoshop Brush Presets"
 ---
 
 # Importing Photoshop Brush Presets

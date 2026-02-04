@@ -1,6 +1,7 @@
 ---
-title: "USDz (Apple AR) | Substance 3D Painter"
-description: "Painter > Getting Started > Export > Export presets > Predefined Presets > USDz (Apple AR) Preset"
+title: "USDz (Apple AR)"
+description: ""
+helpx_description: "Painter > Getting Started > Export > Export presets > Predefined Presets > USDz (Apple AR) Preset"
 ---
 
 # USDz (Apple AR) predefined template

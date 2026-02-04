@@ -1,6 +1,7 @@
 ---
-title: "Fill projections | Substance 3D Painter"
-description: "Painter > Painting > Fill projections"
+title: "Fill projections"
+description: ""
+helpx_description: "Painter > Painting > Fill projections"
 ---
 
 # Fill projections

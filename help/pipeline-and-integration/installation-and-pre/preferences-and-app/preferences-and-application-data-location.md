@@ -1,6 +1,7 @@
 ---
-title: "Preferences and application data location | Substance 3D Painter"
-description: "Painter > Pipeline and integration > Installation and preferences > Preferences and application data location"
+title: "Preferences and application data location"
+description: ""
+helpx_description: "Painter > Pipeline and integration > Installation and preferences > Preferences and application data location"
 ---
 
 # Preferences and application data location

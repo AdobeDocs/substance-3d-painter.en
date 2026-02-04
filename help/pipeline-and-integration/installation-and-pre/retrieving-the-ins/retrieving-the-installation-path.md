@@ -1,6 +1,7 @@
 ---
-title: "Retrieving the installation path | Substance 3D Painter"
-description: "Painter > Pipeline and integration > Installation and preferences > Retrieving the installation path"
+title: "Retrieving the installation path"
+description: ""
+helpx_description: "Painter > Pipeline and integration > Installation and preferences > Retrieving the installation path"
 ---
 
 # Retrieving the installation path

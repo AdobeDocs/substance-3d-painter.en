@@ -1,6 +1,7 @@
 ---
-title: "Creating Custom Dynamic Strokes | Substance 3D Painter"
-description: "Painter > Painting > Dynamic strokes > Creating Custom Dynamic Strokes"
+title: "Creating Custom Dynamic Strokes"
+description: ""
+helpx_description: "Painter > Painting > Dynamic strokes > Creating Custom Dynamic Strokes"
 ---
 
 # Creating Custom Dynamic Strokes
@@ -30,6 +31,9 @@ Below is a list of the supported parameters for Dynamic Strokes in Substance gra
 | <b>$time</b> | <b>Float1</b> Will be fed by Substance 3D Painter when painting the brush stroke based on the elapsed painting time (per stroke). This property can generate a lot of Substance variations and can therefor impact performance. |
 | <b>strokeSpacing</b> | <b>float1</b> The current spacing value for the whole stroke painted. |
 | <b>strokeSize</b> | <b>float1</b> The current size value for the whole stroke painted. |
-| <b>stampStrokePosition</b> | <b>integer1</b> Can be disabled using isstrokepositionactive user tag.  Painter will be the value 0 (middle), 1 (start) or 2 (end) to specify if the current stamp location inside the stroke. This allow to create a beginning and an end. The end property is only available with the Path tool. |
+| <b>stampStrokePosition</b> | <b>integer1</b> Used to specify the begin/start of a stroke. End value is only available on path stroke, not via manual painting. Possible value:<ul data-preserve-html="true"> <li data-preserve-html="true">0 = middle</li> <li data-preserve-html="true">1 = start</li> <li data-preserve-html="true">2 = end</li> </ul>Can be disabled using isstrokepositionactive user tag. |
 | <b>distanceAlongCurve</b> | <b>float1</b> The current distance at the given stamp along a Path. This property can generate a lot of Substance variations and can therefor impact performance. Can be disabled with the <b>iscurvedistanceactive</b> user tag. |
 | <b>distanceMaxCurve</b> | <b>float1</b> The total length of a Path made with the path tool. Can be disabled with the <b>iscurvedistanceactive</b> user tag. |
+| <b>pathCorner</b> | <b>integer1</b> Indicate which type of corner a Ribbon is using. Possible value:<ul data-preserve-html="true"> <li data-preserve-html="true">0 = No corner</li> <li data-preserve-html="true">1 = Left corner</li> <li data-preserve-html="true">2 = Right corner</li> </ul> |
+| <b>pathCornerAngle</b> | <b>float</b> Angle (in radian) of the corner on a Ribbon path. Can be used to compensate or adjust the look of a corner based on a precise angle value. |
+| <b>patchLengthOnCurve</b> | <b>float</b> Size of a section (patch) on a Ribbon path. Combined with <b>distanceAlongCurve</b> and <b>distanceMaxCurve</b> it can be used to normalize the size of a patch for example. |

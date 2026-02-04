@@ -1,6 +1,7 @@
 ---
-title: "Filter by path | Substance 3D Painter"
-description: "Painter > Interface > Assets > Filter by path"
+title: "Filter by path"
+description: ""
+helpx_description: "Painter > Interface > Assets > Filter by path"
 ---
 
 # Filter by path

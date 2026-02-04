@@ -1,6 +1,7 @@
 ---
-title: "Automated installation | Substance 3D Painter"
-description: "Painter > Pipeline and integration > Installation and preferences > Automated installation"
+title: "Automated installation"
+description: ""
+helpx_description: "Painter > Pipeline and integration > Installation and preferences > Automated installation"
 ---
 
 # Automated installation

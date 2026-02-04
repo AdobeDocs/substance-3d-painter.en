@@ -1,6 +1,7 @@
 ---
-title: "Height Map Painting | Substance 3D Painter"
-description: "Painter > Painting > Advanced channel painting > Height Map Painting"
+title: "Height Map Painting"
+description: ""
+helpx_description: "Painter > Painting > Advanced channel painting > Height Map Painting"
 ---
 
 # Height Map Painting

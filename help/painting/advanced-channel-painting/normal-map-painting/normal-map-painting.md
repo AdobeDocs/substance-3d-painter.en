@@ -1,6 +1,7 @@
 ---
-title: "Normal Map Painting | Substance 3D Painter"
-description: "Painter > Painting > Advanced channel painting > Normal Map Painting"
+title: "Normal Map Painting"
+description: ""
+helpx_description: "Painter > Painting > Advanced channel painting > Normal Map Painting"
 ---
 
 # Normal Map Painting

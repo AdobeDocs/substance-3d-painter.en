@@ -1,6 +1,7 @@
 ---
-title: "Projects are really big | Substance 3D Painter"
-description: "Painter > Technical support > Workflow Issues > Project Issues > Projects are really big"
+title: "Projects are really big"
+description: ""
+helpx_description: "Painter > Technical support > Workflow Issues > Project Issues > Projects are really big"
 ---
 
 # Projects are really big

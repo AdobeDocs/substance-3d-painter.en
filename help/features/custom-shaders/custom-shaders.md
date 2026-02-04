@@ -1,6 +1,7 @@
 ---
-title: "Custom Shaders | Substance 3D Painter"
-description: "Painter > Features > Custom Shaders"
+title: "Custom Shaders"
+description: ""
+helpx_description: "Painter > Features > Custom Shaders"
 ---
 
 # Custom Shaders

@@ -1,6 +1,7 @@
 ---
-title: "Fill | Substance 3D Painter"
-description: "Painter > Features > Effects > Fill"
+title: "Fill"
+description: ""
+helpx_description: "Painter > Features > Effects > Fill"
 ---
 
 # Fill

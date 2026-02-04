@@ -1,6 +1,7 @@
 ---
-title: "Mesh and UV setup | Substance 3D Painter"
-description: "Painter > Technical support > Performances guidelines > Mesh and UV setup"
+title: "Mesh and UV setup"
+description: ""
+helpx_description: "Painter > Technical support > Performances guidelines > Mesh and UV setup"
 ---
 
 # Mesh and UV setup

@@ -1,6 +1,7 @@
 ---
-title: "Excluding resources in a resource path | Substance 3D Painter"
-description: "Painter > Pipeline and integration > Resource management > Excluding resources in a resource path"
+title: "Excluding resources in a resource path"
+description: ""
+helpx_description: "Painter > Pipeline and integration > Resource management > Excluding resources in a resource path"
 ---
 
 # Excluding resources in a resource path

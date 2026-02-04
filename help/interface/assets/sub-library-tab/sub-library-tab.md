@@ -1,6 +1,7 @@
 ---
-title: "Sub-library tab | Substance 3D Painter"
-description: "Painter > Interface > Assets > Sub-library tab"
+title: "Sub-library tab"
+description: ""
+helpx_description: "Painter > Interface > Assets > Sub-library tab"
 ---
 
 # Sub-library tab

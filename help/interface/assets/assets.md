@@ -1,6 +1,7 @@
 ---
-title: "Assets | Substance 3D Painter"
-description: "Painter > Interface > Assets"
+title: "Assets"
+description: ""
+helpx_description: "Painter > Interface > Assets"
 ---
 
 # Assets

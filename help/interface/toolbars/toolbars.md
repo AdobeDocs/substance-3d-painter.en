@@ -1,6 +1,7 @@
 ---
-title: "Toolbars | Substance 3D Painter"
-description: "Painter > Interface > Toolbars"
+title: "Toolbars"
+description: ""
+helpx_description: "Painter > Interface > Toolbars"
 ---
 
 # Toolbars

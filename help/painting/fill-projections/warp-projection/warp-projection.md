@@ -1,6 +1,7 @@
 ---
-title: "Warp projection | Substance 3D Painter"
-description: "Painter > Painting > Fill projections > Warp projection"
+title: "Warp projection"
+description: ""
+helpx_description: "Painter > Painting > Fill projections > Warp projection"
 ---
 
 # Warp projection

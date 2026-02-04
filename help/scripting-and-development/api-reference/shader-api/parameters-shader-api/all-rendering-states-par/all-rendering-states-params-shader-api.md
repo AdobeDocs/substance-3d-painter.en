@@ -1,6 +1,7 @@
 ---
-title: "All Rendering States Params - Shader API | Substance 3D Painter"
-description: "Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Rendering States Params - Shader API"
+title: "All Rendering States Params - Shader API"
+description: ""
+helpx_description: "Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Rendering States Params - Shader API"
 ---
 
 # All Rendering States Params - Shader API

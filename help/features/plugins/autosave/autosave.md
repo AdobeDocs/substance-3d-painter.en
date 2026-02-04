@@ -1,6 +1,7 @@
 ---
-title: "Autosave | Substance 3D Painter"
-description: "Painter > Features > Plugins > Autosave"
+title: "Autosave"
+description: ""
+helpx_description: "Painter > Features > Plugins > Autosave"
 ---
 
 # Autosave

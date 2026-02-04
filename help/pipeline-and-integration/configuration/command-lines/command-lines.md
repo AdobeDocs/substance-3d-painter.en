@@ -1,6 +1,7 @@
 ---
-title: "Command lines | Substance 3D Painter"
-description: "Painter > Pipeline and integration > Configuration > Command lines"
+title: "Command lines"
+description: ""
+helpx_description: "Painter > Pipeline and integration > Configuration > Command lines"
 ---
 
 # Command lines

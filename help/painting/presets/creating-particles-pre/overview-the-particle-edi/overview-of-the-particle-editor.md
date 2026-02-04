@@ -1,6 +1,7 @@
 ---
-title: "Overview of the particle editor | Substance 3D Painter"
-description: "Painter > Painting > Presets > Creating particles presets > Overview of the particle editor"
+title: "Overview of the particle editor"
+description: ""
+helpx_description: "Painter > Painting > Presets > Creating particles presets > Overview of the particle editor"
 ---
 
 # Overview of the particle editor

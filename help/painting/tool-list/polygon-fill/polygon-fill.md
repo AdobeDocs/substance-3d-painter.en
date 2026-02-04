@@ -1,6 +1,7 @@
 ---
-title: "Polygon fill | Substance 3D Painter"
-description: "Painter > Painting > Tool list > Polygon fill"
+title: "Polygon fill"
+description: ""
+helpx_description: "Painter > Painting > Tool list > Polygon fill"
 ---
 
 # Polygon fill

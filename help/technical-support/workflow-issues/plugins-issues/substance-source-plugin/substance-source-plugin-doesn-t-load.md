@@ -1,6 +1,7 @@
 ---
-title: "Substance Source plugin doesnt load | Substance 3D Painter"
-description: "Painter > Technical support > Workflow Issues > Plugins Issues > Substance Source plugin doesnt load"
+title: "Substance Source plugin doesnt load"
+description: ""
+helpx_description: "Painter > Technical support > Workflow Issues > Plugins Issues > Substance Source plugin doesnt load"
 ---
 
 # Substance Source plugin doesn't load

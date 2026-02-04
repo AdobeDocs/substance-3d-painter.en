@@ -1,6 +1,7 @@
 ---
-title: "Creating a Javascript plugin | Substance 3D Painter"
-description: "Painter > Scripting and development > Scripts and plugins > Creating a Javascript plugin"
+title: "Creating a Javascript plugin"
+description: ""
+helpx_description: "Painter > Scripting and development > Scripts and plugins > Creating a Javascript plugin"
 ---
 
 # Creating a Javascript plugin

@@ -1,6 +1,7 @@
 ---
-title: "Substance 3D Assets | Substance 3D Painter"
-description: "Substance 3D Painter"
+title: "Substance 3D Assets"
+description: ""
+helpx_description: "Substance 3D Painter"
 ---
 
 # Substance 3D Assets

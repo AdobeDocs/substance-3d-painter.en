@@ -1,6 +1,7 @@
 ---
-title: "Crash with low virtual memory | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > Stability Issues > Crash with low virtual memory"
+title: "Crash with low virtual memory"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > Stability Issues > Crash with low virtual memory"
 ---
 
 # Crash with low virtual memory

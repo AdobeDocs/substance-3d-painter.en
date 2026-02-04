@@ -1,6 +1,7 @@
 ---
-title: "Corrupted project file | Substance 3D Painter"
-description: "Painter > Technical support > Workflow Issues > Project Issues > Corrupted project file"
+title: "Corrupted project file"
+description: ""
+helpx_description: "Painter > Technical support > Workflow Issues > Project Issues > Corrupted project file"
 ---
 
 # A project has been processed as a text file and is now corrupted

@@ -1,6 +1,7 @@
 ---
-title: "Window menu | Substance 3D Painter"
-description: "Painter > Interface > Main menu > Window menu"
+title: "Window menu"
+description: ""
+helpx_description: "Painter > Interface > Main menu > Window menu"
 ---
 
 # Window menu

@@ -1,6 +1,7 @@
 ---
-title: "Creating layers | Substance 3D Painter"
-description: "Painter > Interface > Layer stack > Creating layers"
+title: "Creating layers"
+description: ""
+helpx_description: "Painter > Interface > Layer stack > Creating layers"
 ---
 
 # Creating layers

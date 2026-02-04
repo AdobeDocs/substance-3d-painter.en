@@ -1,6 +1,7 @@
 ---
-title: "UV projection | Substance 3D Painter"
-description: "Painter > Painting > Fill projections > UV projection"
+title: "UV projection"
+description: ""
+helpx_description: "Painter > Painting > Fill projections > UV projection"
 ---
 
 # UV projection

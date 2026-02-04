@@ -1,6 +1,7 @@
 ---
-title: "Baking visualization settings | Substance 3D Painter"
-description: "Painter > Baking > Baking visualization settings"
+title: "Baking visualization settings"
+description: ""
+helpx_description: "Painter > Baking > Baking visualization settings"
 ---
 
 # Baking visualization settings

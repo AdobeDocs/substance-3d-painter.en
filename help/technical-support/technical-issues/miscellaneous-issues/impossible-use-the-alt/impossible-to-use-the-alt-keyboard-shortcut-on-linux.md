@@ -1,6 +1,7 @@
 ---
-title: "Impossible to use the ALT keyboard shortcut on Linux | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > Miscellaneous Issues > Impossible to use the ALT keyboard shortcut on Linux"
+title: "Impossible to use the ALT keyboard shortcut on Linux"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > Miscellaneous Issues > Impossible to use the ALT keyboard shortcut on Linux"
 ---
 
 # Impossible to use the ALT keyboard shortcut on Linux

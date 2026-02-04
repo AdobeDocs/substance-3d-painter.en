@@ -1,6 +1,7 @@
 ---
-title: "Masking and effects | Substance 3D Painter"
-description: "Painter > Interface > Layer stack > Masking and effects"
+title: "Masking and effects"
+description: ""
+helpx_description: "Painter > Interface > Layer stack > Masking and effects"
 ---
 
 # Masking and effects

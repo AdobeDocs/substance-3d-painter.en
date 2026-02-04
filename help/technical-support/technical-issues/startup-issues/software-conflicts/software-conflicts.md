@@ -1,6 +1,7 @@
 ---
-title: "Software conflicts | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > Startup Issues > Software conflicts"
+title: "Software conflicts"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > Startup Issues > Software conflicts"
 ---
 
 # Software conflicts

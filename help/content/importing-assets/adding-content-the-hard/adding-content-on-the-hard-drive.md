@@ -1,6 +1,7 @@
 ---
-title: "Adding content on the hard drive | Substance 3D Painter"
-description: "Painter > Content > Importing assets > Adding content on the hard drive"
+title: "Adding content on the hard drive"
+description: ""
+helpx_description: "Painter > Content > Importing assets > Adding content on the hard drive"
 ---
 
 # Adding content on the hard drive

@@ -1,6 +1,7 @@
 ---
-title: "Iray Settings | Substance 3D Painter"
-description: "Painter > Features > Iray Renderer > Iray Settings"
+title: "Iray Settings"
+description: ""
+helpx_description: "Painter > Features > Iray Renderer > Iray Settings"
 ---
 
 # Iray Settings

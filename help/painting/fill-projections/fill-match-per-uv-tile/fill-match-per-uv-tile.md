@@ -1,6 +1,7 @@
 ---
-title: "Fill (match per UV Tile) | Substance 3D Painter"
-description: "Painter > Painting > Fill projections > Fill (match per UV Tile)"
+title: "Fill (match per UV Tile)"
+description: ""
+helpx_description: "Painter > Painting > Fill projections > Fill (match per UV Tile)"
 ---
 
 # Fill (match per UV Tile)

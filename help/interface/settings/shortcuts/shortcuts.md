@@ -1,6 +1,7 @@
 ---
-title: "Shortcuts | Substance 3D Painter"
-description: "Painter > Interface > Settings > Shortcuts"
+title: "Shortcuts"
+description: ""
+helpx_description: "Painter > Interface > Settings > Shortcuts"
 ---
 
 # Shortcuts

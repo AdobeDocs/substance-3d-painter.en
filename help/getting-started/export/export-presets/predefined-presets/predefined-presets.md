@@ -1,6 +1,7 @@
 ---
-title: "Predefined Output templates | Substance 3D Painter"
-description: "Painter > Getting Started > Export > Export presets > Predefined Output templates"
+title: "Predefined Output templates"
+description: ""
+helpx_description: "Painter > Getting Started > Export > Export presets > Predefined Output templates"
 ---
 
 # Predefined Output templates

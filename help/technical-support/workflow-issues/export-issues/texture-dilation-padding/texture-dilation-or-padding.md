@@ -1,6 +1,7 @@
 ---
-title: "Texture dilation or Padding | Substance 3D Painter"
-description: "Painter > Technical support > Workflow Issues > Export Issues > Texture dilation or Padding"
+title: "Texture dilation or Padding"
+description: ""
+helpx_description: "Painter > Technical support > Workflow Issues > Export Issues > Texture dilation or Padding"
 ---
 
 # Texture dilation or Padding

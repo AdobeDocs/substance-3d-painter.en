@@ -1,6 +1,7 @@
 ---
-title: "PBR Metal Rough - Shader API | Substance 3D Painter"
-description: "Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > PBR Metal Rough - Shader API"
+title: "PBR Metal Rough - Shader API"
+description: ""
+helpx_description: "Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > PBR Metal Rough - Shader API"
 ---
 
 # PBR Metal Rough - Shader API

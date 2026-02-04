@@ -1,6 +1,7 @@
 ---
-title: "Creating A New Particle Script | Substance 3D Painter"
-description: "Painter > Painting > Presets > Creating particles presets > Creating A New Particle Script"
+title: "Creating A New Particle Script"
+description: ""
+helpx_description: "Painter > Painting > Presets > Creating particles presets > Creating A New Particle Script"
 ---
 
 # Creating A New Particle Script

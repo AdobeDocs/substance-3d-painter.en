@@ -1,6 +1,7 @@
 ---
-title: "Adding resources via drag and drop | Substance 3D Painter"
-description: "Substance 3D Painter"
+title: "Adding resources via drag and drop"
+description: ""
+helpx_description: "Substance 3D Painter"
 ---
 
 # Adding resources via drag and drop

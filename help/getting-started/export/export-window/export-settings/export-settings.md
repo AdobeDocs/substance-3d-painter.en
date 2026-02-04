@@ -1,6 +1,7 @@
 ---
-title: "Export settings | Substance 3D Painter"
-description: "Painter > Getting Started > Export > Export window > Export settings"
+title: "Export settings"
+description: ""
+helpx_description: "Painter > Getting Started > Export > Export window > Export settings"
 ---
 
 # Export settings

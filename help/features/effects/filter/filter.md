@@ -1,6 +1,7 @@
 ---
-title: "Filter | Substance 3D Painter"
-description: "Painter > Features > Effects > Filter"
+title: "Filter"
+description: ""
+helpx_description: "Painter > Features > Effects > Filter"
 ---
 
 # Filter

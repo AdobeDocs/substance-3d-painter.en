@@ -1,6 +1,7 @@
 ---
-title: "Environment variables | Substance 3D Painter"
-description: "Painter > Pipeline and integration > Configuration > Environment variables"
+title: "Environment variables"
+description: ""
+helpx_description: "Painter > Pipeline and integration > Configuration > Environment variables"
 ---
 
 # Environment variables

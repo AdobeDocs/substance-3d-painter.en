@@ -1,6 +1,7 @@
 ---
-title: "Generic filter | Substance 3D Painter"
-description: "Painter > Content > Creating custom effects > Generic filter"
+title: "Generic filter"
+description: ""
+helpx_description: "Painter > Content > Creating custom effects > Generic filter"
 ---
 
 # Generic filter

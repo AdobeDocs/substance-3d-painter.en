@@ -1,6 +1,7 @@
 ---
-title: "Lib PBR - Shader API | Substance 3D Painter"
-description: "Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib PBR - Shader API"
+title: "Lib PBR - Shader API"
+description: ""
+helpx_description: "Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib PBR - Shader API"
 ---
 
 # Lib PBR - Shader API

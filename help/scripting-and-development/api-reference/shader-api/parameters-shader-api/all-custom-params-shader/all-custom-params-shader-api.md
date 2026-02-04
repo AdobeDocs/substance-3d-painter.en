@@ -1,6 +1,7 @@
 ---
-title: "All Custom Params - Shader API | Substance 3D Painter"
-description: "Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Custom Params - Shader API"
+title: "All Custom Params - Shader API"
+description: ""
+helpx_description: "Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Custom Params - Shader API"
 ---
 
 # All Custom Params - Shader API

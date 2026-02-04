@@ -1,6 +1,7 @@
 ---
-title: "Mode menu | Substance 3D Painter"
-description: "Painter > Interface > Main menu > Mode menu"
+title: "Mode menu"
+description: ""
+helpx_description: "Painter > Interface > Main menu > Mode menu"
 ---
 
 # Mode menu

@@ -1,6 +1,7 @@
 ---
-title: "How to bake mesh maps | Substance 3D Painter"
-description: "Painter > Baking > How to bake mesh maps"
+title: "How to bake mesh maps"
+description: ""
+helpx_description: "Painter > Baking > How to bake mesh maps"
 ---
 
 # How to bake mesh maps

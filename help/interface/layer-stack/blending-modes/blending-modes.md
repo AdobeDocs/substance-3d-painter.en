@@ -1,6 +1,7 @@
 ---
-title: "Blending modes | Substance 3D Painter"
-description: "Painter > Interface > Layer stack > Blending modes"
+title: "Blending modes"
+description: ""
+helpx_description: "Painter > Interface > Layer stack > Blending modes"
 ---
 
 # Blending modes

@@ -1,6 +1,7 @@
 ---
-title: "Thumbnails in the shelf look incorrect | Substance 3D Painter"
-description: "Painter > Technical support > Workflow Issues > Shelf Issues > Thumbnails in the shelf look incorrect"
+title: "Thumbnails in the shelf look incorrect"
+description: ""
+helpx_description: "Painter > Technical support > Workflow Issues > Shelf Issues > Thumbnails in the shelf look incorrect"
 ---
 
 # Thumbnails in the shelf look incorrect

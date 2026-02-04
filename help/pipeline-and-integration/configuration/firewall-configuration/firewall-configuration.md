@@ -1,6 +1,7 @@
 ---
-title: "Firewall Configuration | Substance 3D Painter"
-description: "Painter > Pipeline and integration > Configuration > Firewall Configuration"
+title: "Firewall Configuration"
+description: ""
+helpx_description: "Painter > Pipeline and integration > Configuration > Firewall Configuration"
 ---
 
 # Firewall Configuration

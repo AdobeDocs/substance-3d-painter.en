@@ -1,6 +1,7 @@
 ---
-title: "Channel specific filter | Substance 3D Painter"
-description: "Painter > Content > Creating custom effects > Channel specific filter"
+title: "Channel specific filter"
+description: ""
+helpx_description: "Painter > Content > Creating custom effects > Channel specific filter"
 ---
 
 # Channel specific filter

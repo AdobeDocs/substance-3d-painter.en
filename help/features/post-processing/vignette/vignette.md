@@ -1,6 +1,7 @@
 ---
-title: "Vignette | Substance 3D Painter"
-description: "Painter > Features > Post Processing > Vignette"
+title: "Vignette"
+description: ""
+helpx_description: "Painter > Features > Post Processing > Vignette"
 ---
 
 # Vignette

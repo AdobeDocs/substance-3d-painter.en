@@ -1,6 +1,7 @@
 ---
-title: "Layer stack | Substance 3D Painter"
-description: "Painter > Interface > Layer stack"
+title: "Layer stack"
+description: ""
+helpx_description: "Painter > Interface > Layer stack"
 ---
 
 # Layer stack

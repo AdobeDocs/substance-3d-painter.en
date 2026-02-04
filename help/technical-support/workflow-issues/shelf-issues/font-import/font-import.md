@@ -1,6 +1,7 @@
 ---
-title: "Font file cannot be imported | Substance 3D Painter"
-description: "Substance 3D Painter"
+title: "Font file cannot be imported"
+description: ""
+helpx_description: "Substance 3D Painter"
 ---
 
 # Font file cannot be imported

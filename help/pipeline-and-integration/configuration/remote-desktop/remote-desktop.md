@@ -1,6 +1,7 @@
 ---
-title: "Remote Desktop | Substance 3D Painter"
-description: "Painter > Pipeline and integration > Configuration > Remote Desktop"
+title: "Remote Desktop"
+description: ""
+helpx_description: "Painter > Pipeline and integration > Configuration > Remote Desktop"
 ---
 
 # Remote Desktop

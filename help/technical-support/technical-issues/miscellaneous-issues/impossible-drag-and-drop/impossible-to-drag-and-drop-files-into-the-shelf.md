@@ -1,6 +1,7 @@
 ---
-title: "Impossible to drag and drop files into the shelf | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > Miscellaneous Issues > Impossible to drag and drop files into the shelf"
+title: "Impossible to drag and drop files into the shelf"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > Miscellaneous Issues > Impossible to drag and drop files into the shelf"
 ---
 
 # Impossible to drag and drop files into the shelf

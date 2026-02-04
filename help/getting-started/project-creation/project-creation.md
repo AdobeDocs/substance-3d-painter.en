@@ -1,6 +1,7 @@
 ---
-title: "Project Creation | Substance 3D Painter"
-description: "Painter > Getting Started > Project Creation"
+title: "Project Creation"
+description: ""
+helpx_description: "Painter > Getting Started > Project Creation"
 ---
 
 # Project Creation
@@ -46,7 +47,7 @@ When a USD is selected, other file type-specific settings become available.
 | --- | --- |
 | **Document Resolution** | Define the default texture resolution of the project for each Texture Set. The resolution can go up to 4K (4096x4096 pixels) when working inside the application and 8K (8192x8192 pixels) when exporting. The resolution can be changed at any time later on via the [Texture Set settings](../../interface/texture-set/texture-set-settings/texture-set-settings.md).  **Note:**  8K export requires at least 2.5GB of VRam on the GPU to be available. |
 | **Normal Map Format** | Defines the Normal map format for the project, can be either<ul data-preserve-html="true"><li data-preserve-html="true"><strong>DirectX</strong> (X+, Y-, Z+)</li><li data-preserve-html="true"><strong>OpenGL</strong> (X+, Y+, Z+)</li></ul>  **Note:**  As a reminder:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Unreal Engine</b> uses DirectX by default.</li> <li data-preserve-html="true"><b>Unity</b> uses OpenGL by default.</li> </ul> |
-| **Compute Tangent Space per Fragment** | If enabled, the Bitangents are computed in the fragment (pixel) shader instead of the vertex shader. This parameter impacts the way the Normal map is decoded by the Shader in the viewport. Changing this settings will require to rebake the Normal map.  **Note:**  As a reminder:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Unreal Engine</strong> needs this setting to be Enabled.</li><li data-preserve-html="true"><strong>Unity </strong> needs this setting to be Disabled (or enabled if you are using the HDRP workflow).</li></ul>For more information see the [Tangent Space](../../../substance-3d-bake/features/tangent-space/tangent-space.md) page in the Bakers documentation. |
+| **Compute Tangent Space per Fragment** | If enabled, the Bitangents are computed in the fragment (pixel) shader instead of the vertex shader. This parameter impacts the way the Normal map is decoded by the Shader in the viewport. Changing this settings will require to rebake the Normal map.  **Note:**  As a reminder:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Unreal Engine</strong> needs this setting to be Enabled.</li><li data-preserve-html="true"><strong>Unity </strong> needs this setting to be Disabled (or enabled if you are using the HDRP workflow).</li></ul>For more information see the [Tangent Space](https://helpx.adobe.com/substance-3d-bake/features/tangent-space.html) page in the Bakers documentation. |
 
 ### UV Tile Settings (UDIMs)
 

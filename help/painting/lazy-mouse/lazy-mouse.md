@@ -1,6 +1,7 @@
 ---
-title: "Lazy mouse | Substance 3D Painter"
-description: "Painter > Painting > Lazy mouse"
+title: "Lazy mouse"
+description: ""
+helpx_description: "Painter > Painting > Lazy mouse"
 ---
 
 # Lazy mouse

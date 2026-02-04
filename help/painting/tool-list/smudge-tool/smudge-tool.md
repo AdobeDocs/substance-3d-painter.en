@@ -1,6 +1,7 @@
 ---
-title: "Smudge tool | Substance 3D Painter"
-description: "Painter > Painting > Tool list > Smudge tool"
+title: "Smudge tool"
+description: ""
+helpx_description: "Painter > Painting > Tool list > Smudge tool"
 ---
 
 # Smudge tool

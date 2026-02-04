@@ -1,6 +1,7 @@
 ---
-title: "Creating particles presets | Substance 3D Painter"
-description: "Painter > Painting > Presets > Creating particles presets"
+title: "Creating particles presets"
+description: ""
+helpx_description: "Painter > Painting > Presets > Creating particles presets"
 ---
 
 # Creating particles presets

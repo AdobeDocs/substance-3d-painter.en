@@ -1,6 +1,7 @@
 ---
-title: "Adding a new library | Substance 3D Painter"
-description: "Painter > Interface > Assets > Adding a new library"
+title: "Adding a new library"
+description: ""
+helpx_description: "Painter > Interface > Assets > Adding a new library"
 ---
 
 # Adding a new library

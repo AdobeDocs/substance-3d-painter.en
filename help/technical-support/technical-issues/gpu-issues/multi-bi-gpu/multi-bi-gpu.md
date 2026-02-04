@@ -1,6 +1,7 @@
 ---
-title: "MultiBi-GPU | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > GPU Issues > MultiBi-GPU"
+title: "MultiBi-GPU"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > GPU Issues > MultiBi-GPU"
 ---
 
 # Multi/Bi-GPU

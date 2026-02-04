@@ -1,6 +1,7 @@
 ---
-title: "Error with missing api-ms-crt dll | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > Miscellaneous Issues > Error with missing api-ms-crt dll"
+title: "Error with missing api-ms-crt dll"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > Miscellaneous Issues > Error with missing api-ms-crt dll"
 ---
 
 # Error with missing api-ms-crt dll

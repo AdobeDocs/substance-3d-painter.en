@@ -1,6 +1,7 @@
 ---
-title: "Texture Set list | Substance 3D Painter"
-description: "Painter > Interface > Texture Set > Texture Set list"
+title: "Texture Set list"
+description: ""
+helpx_description: "Painter > Interface > Texture Set > Texture Set list"
 ---
 
 # Texture Set list

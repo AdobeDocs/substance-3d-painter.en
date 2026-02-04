@@ -1,6 +1,7 @@
 ---
-title: "GPU drivers compatibility | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > GPU Issues > GPU drivers compatibility"
+title: "GPU drivers compatibility"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > GPU Issues > GPU drivers compatibility"
 ---
 
 # GPU drivers compatibility

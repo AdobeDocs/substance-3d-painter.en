@@ -1,6 +1,7 @@
 ---
-title: "Crash when opening or saving a file | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > Stability Issues > Crash when opening or saving a file"
+title: "Crash when opening or saving a file"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > Stability Issues > Crash when opening or saving a file"
 ---
 
 # Crash when opening or saving a file

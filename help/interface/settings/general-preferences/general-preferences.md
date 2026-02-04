@@ -1,6 +1,7 @@
 ---
-title: "General preferences | Substance 3D Painter"
-description: "Painter > Interface > Settings > General preferences"
+title: "General preferences"
+description: ""
+helpx_description: "Painter > Interface > Settings > General preferences"
 ---
 
 # General preferences

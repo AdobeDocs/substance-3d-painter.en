@@ -1,6 +1,7 @@
 ---
-title: "Issues with Nvidia GPUs on recent Mac OS versions | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > GPU Issues > Issues with Nvidia GPUs on recent Mac OS versions"
+title: "Issues with Nvidia GPUs on recent Mac OS versions"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > GPU Issues > Issues with Nvidia GPUs on recent Mac OS versions"
 ---
 
 # Issues with Nvidia GPUs on recent Mac OS versions

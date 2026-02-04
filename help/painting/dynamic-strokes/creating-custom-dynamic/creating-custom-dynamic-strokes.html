@@ -1,4 +1,4 @@
-<header><meta name="title" content="Creating Custom Dynamic Strokes | Substance 3D Painter"><meta name="description" content="Painter > Painting > Dynamic strokes > Creating Custom Dynamic Strokes"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<header><meta name="title" content="Creating Custom Dynamic Strokes | Substance 3D Painter"><meta name="description" content=""><meta name="helpx_description" content="Painter > Painting > Dynamic strokes > Creating Custom Dynamic Strokes"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
 <div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
 <div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
 <div class="cmp-text">
@@ -62,9 +62,14 @@
 </td>
 </tr><tr><td><b>stampStrokePosition</b></td>
 <td><p><b>integer1</b></p>
-<p>Can be disabled using isstrokepositionactive user tag.<br/>
-Painter will be the value 0 (middle), 1 (start) or 2 (end) to specify if the current stamp location inside the stroke. This allow to create a beginning and an end. The end property is only available with the Path tool.<br/>
-</p>
+<p>Used to specify the begin/start of a stroke. End value is only available on path stroke, not via manual painting.</p>
+<p>Possible value: </p>
+<ul>
+<li>0 = middle</li>
+<li>1 = start</li>
+<li>2 = end</li>
+</ul>
+<p>Can be disabled using isstrokepositionactive user tag.</p>
 </td>
 </tr><tr><td><b>distanceAlongCurve</b></td>
 <td><p><b>float1</b></p>
@@ -75,6 +80,24 @@ Painter will be the value 0 (middle), 1 (start) or 2 (end) to specify if the cur
 <td><p><b>float1</b></p>
 <p>The total length of a Path made with the path tool. Can be disabled with the <b>iscurvedistanceactive</b> user tag.<br/>
 </p>
+</td>
+</tr><tr><td><b>pathCorner</b></td>
+<td><p><b>integer1</b></p>
+<p>Indicate which type of corner a Ribbon is using.</p>
+<p>Possible value:</p>
+<ul>
+<li>0 = No corner</li>
+<li>1 = Left corner</li>
+<li>2 = Right corner</li>
+</ul>
+</td>
+</tr><tr><td><b>pathCornerAngle</b></td>
+<td><p><b>float</b></p>
+<p>Angle (in radian) of the corner on a Ribbon path. Can be used to compensate or adjust the look of a corner based on a precise angle value.</p>
+</td>
+</tr><tr><td><b>patchLengthOnCurve</b></td>
+<td><p><b>float</b></p>
+<p>Size of a section (patch) on a Ribbon path. Combined with <b>distanceAlongCurve</b> and <b>distanceMaxCurve</b> it can be used to normalize the size of a patch for example.</p>
 </td>
 </tr></tbody></table>
 </div>

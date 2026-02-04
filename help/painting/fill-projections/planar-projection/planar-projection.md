@@ -1,6 +1,7 @@
 ---
-title: "Planar projection | Substance 3D Painter"
-description: "Painter > Painting > Fill projections > Planar projection"
+title: "Planar projection"
+description: ""
+helpx_description: "Painter > Painting > Fill projections > Planar projection"
 ---
 
 # Planar projection

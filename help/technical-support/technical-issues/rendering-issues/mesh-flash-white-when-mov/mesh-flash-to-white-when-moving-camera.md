@@ -1,6 +1,7 @@
 ---
-title: "Mesh flash to white when moving camera | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > Rendering Issues > Mesh flash to white when moving camera"
+title: "Mesh flash to white when moving camera"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > Rendering Issues > Mesh flash to white when moving camera"
 ---
 
 # Mesh flash to white when moving camera

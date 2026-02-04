@@ -1,6 +1,7 @@
 ---
-title: "Radial symmetry | Substance 3D Painter"
-description: "Substance 3D Painter"
+title: "Radial symmetry"
+description: ""
+helpx_description: "Substance 3D Painter"
 ---
 
 # Radial Symmetry

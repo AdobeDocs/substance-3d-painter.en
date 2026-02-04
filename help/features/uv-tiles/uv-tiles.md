@@ -1,6 +1,7 @@
 ---
-title: "UV Tiles | Substance 3D Painter"
-description: "Painter > Features > UV Tiles"
+title: "UV Tiles"
+description: ""
+helpx_description: "Painter > Features > UV Tiles"
 ---
 
 # UV Tiles

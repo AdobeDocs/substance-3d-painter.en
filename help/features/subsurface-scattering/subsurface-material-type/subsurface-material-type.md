@@ -1,6 +1,7 @@
 ---
-title: "Subsurface Material Type | Substance 3D Painter"
-description: "Painter > Features > Subsurface Scattering > Subsurface Material Type"
+title: "Subsurface Material Type"
+description: ""
+helpx_description: "Painter > Features > Subsurface Scattering > Subsurface Material Type"
 ---
 
 # Subsurface Material Type

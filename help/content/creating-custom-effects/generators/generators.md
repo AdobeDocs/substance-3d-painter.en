@@ -1,6 +1,7 @@
 ---
-title: "Generators | Substance 3D Painter"
-description: "Painter > Content > Creating custom effects > Generators"
+title: "Generators"
+description: ""
+helpx_description: "Painter > Content > Creating custom effects > Generators"
 ---
 
 # Generators

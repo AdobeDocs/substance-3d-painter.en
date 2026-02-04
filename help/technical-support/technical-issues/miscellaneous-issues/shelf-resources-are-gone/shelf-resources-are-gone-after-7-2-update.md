@@ -1,6 +1,7 @@
 ---
-title: "Shelf resources are gone after 7.2 update | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > Miscellaneous Issues > Shelf resources are gone after 7.2 update"
+title: "Shelf resources are gone after 7.2 update"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > Miscellaneous Issues > Shelf resources are gone after 7.2 update"
 ---
 
 # Shelf resources are gone after 7.2 update

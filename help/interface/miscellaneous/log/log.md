@@ -1,6 +1,7 @@
 ---
-title: "Log | Substance 3D Painter"
-description: "Painter > Interface > Miscellaneous > Log"
+title: "Log"
+description: ""
+helpx_description: "Painter > Interface > Miscellaneous > Log"
 ---
 
 # Log

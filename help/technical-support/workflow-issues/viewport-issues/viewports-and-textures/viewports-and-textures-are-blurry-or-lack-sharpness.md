@@ -1,6 +1,7 @@
 ---
-title: "Viewports and textures are blurry or lack sharpness | Substance 3D Painter"
-description: "Painter > Technical support > Workflow Issues > Viewport Issues > Viewports and textures are blurry or lack sharpness"
+title: "Viewports and textures are blurry or lack sharpness"
+description: ""
+helpx_description: "Painter > Technical support > Workflow Issues > Viewport Issues > Viewports and textures are blurry or lack sharpness"
 ---
 
 # Viewports and textures are blurry or lack sharpness

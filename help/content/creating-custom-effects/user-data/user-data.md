@@ -1,6 +1,7 @@
 ---
-title: "User data | Substance 3D Painter"
-description: "Painter > Content > Creating custom effects > User data"
+title: "User data"
+description: ""
+helpx_description: "Painter > Content > Creating custom effects > User data"
 ---
 
 # User data

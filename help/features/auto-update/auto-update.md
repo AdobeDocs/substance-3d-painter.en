@@ -1,6 +1,7 @@
 ---
-title: "Automatic resource update | Substance 3D Painter"
-description: "Substance 3D Painter"
+title: "Automatic resource update"
+description: ""
+helpx_description: "Substance 3D Painter"
 ---
 
 # Automatic resource update

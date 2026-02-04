@@ -1,6 +1,7 @@
 ---
-title: "Universal Scene Description (USD) | Substance 3D Painter"
-description: "Painter > Features > Universal Scene Description (USD)"
+title: "Universal Scene Description (USD)"
+description: ""
+helpx_description: "Painter > Features > Universal Scene Description (USD)"
 ---
 
 # Universal Scene Description (USD)

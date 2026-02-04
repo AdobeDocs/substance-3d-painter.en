@@ -1,6 +1,7 @@
 ---
-title: "Querying Current Software Version | Substance 3D Painter"
-description: "Painter > Pipeline and integration > Configuration > Querying Current Software Version"
+title: "Querying Current Software Version"
+description: ""
+helpx_description: "Painter > Pipeline and integration > Configuration > Querying Current Software Version"
 ---
 
 # Querying Current Software Version

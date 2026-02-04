@@ -1,6 +1,7 @@
 ---
-title: "Project resources | Substance 3D Painter"
-description: "Substance 3D Painter"
+title: "Project resources"
+description: ""
+helpx_description: "Substance 3D Painter"
 ---
 
 # Project resources and settings

@@ -1,6 +1,7 @@
 ---
-title: "Artifacts and glitches on Mac OS with Custom GPUs | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > Rendering Issues > Artifacts and glitches on Mac OS with Custom GPUs"
+title: "Artifacts and glitches on Mac OS with Custom GPUs"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > Rendering Issues > Artifacts and glitches on Mac OS with Custom GPUs"
 ---
 
 # Artifacts and glitches on Mac OS with Custom GPUs

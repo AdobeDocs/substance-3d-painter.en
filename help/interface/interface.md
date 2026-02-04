@@ -1,6 +1,7 @@
 ---
-title: "Interface | Substance 3D Painter"
-description: "Painter > Interface"
+title: "Interface"
+description: ""
+helpx_description: "Painter > Interface"
 ---
 
 # Interface

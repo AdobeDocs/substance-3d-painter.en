@@ -1,6 +1,7 @@
 ---
-title: "Running on integrated GPU | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > GPU Issues > Running on integrated GPU"
+title: "Running on integrated GPU"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > GPU Issues > Running on integrated GPU"
 ---
 
 # Running on integrated GPU

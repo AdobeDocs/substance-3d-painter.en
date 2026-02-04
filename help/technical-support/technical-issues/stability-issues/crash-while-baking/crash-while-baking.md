@@ -1,6 +1,7 @@
 ---
-title: "Crash while baking | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > Stability Issues > Crash while baking"
+title: "Crash while baking"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > Stability Issues > Crash while baking"
 ---
 
 # Crash while baking

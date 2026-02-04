@@ -1,6 +1,7 @@
 ---
-title: "Sparse Virtual Textures | Substance 3D Painter"
-description: "Painter > Features > Sparse Virtual Textures"
+title: "Sparse Virtual Textures"
+description: ""
+helpx_description: "Painter > Features > Sparse Virtual Textures"
 ---
 
 # Sparse Virtual Textures

@@ -1,6 +1,7 @@
 ---
-title: "Ambient Occlusion Painting | Substance 3D Painter"
-description: "Painter > Painting > Advanced channel painting > Ambient Occlusion Painting"
+title: "Ambient Occlusion Painting"
+description: ""
+helpx_description: "Painter > Painting > Advanced channel painting > Ambient Occlusion Painting"
 ---
 
 # Ambient Occlusion Painting

@@ -1,6 +1,7 @@
 ---
-title: "Layer instancing | Substance 3D Painter"
-description: "Painter > Interface > Layer stack > Layer instancing"
+title: "Layer instancing"
+description: ""
+helpx_description: "Painter > Interface > Layer stack > Layer instancing"
 ---
 
 # Layer instancing

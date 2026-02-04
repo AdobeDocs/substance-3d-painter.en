@@ -1,6 +1,7 @@
 ---
-title: "Crash or freeze during startup | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > Startup Issues > Crash or freeze during startup"
+title: "Crash or freeze during startup"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > Startup Issues > Crash or freeze during startup"
 ---
 
 # Crash or freeze during startup

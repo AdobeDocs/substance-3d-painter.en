@@ -1,6 +1,7 @@
 ---
-title: "Update checker | Substance 3D Painter"
-description: "Painter > Interface > Miscellaneous > Update checker"
+title: "Update checker"
+description: ""
+helpx_description: "Painter > Interface > Miscellaneous > Update checker"
 ---
 
 # Update checker

@@ -1,6 +1,7 @@
 ---
-title: "Exporting the log file | Substance 3D Painter"
-description: "Painter > Technical support > Exporting the log file"
+title: "Exporting the log file"
+description: ""
+helpx_description: "Painter > Technical support > Exporting the log file"
 ---
 
 # Exporting the log file

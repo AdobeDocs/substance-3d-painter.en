@@ -1,6 +1,7 @@
 ---
-title: "Exporting Brush Presets from Photoshop | Substance 3D Painter"
-description: "Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Exporting Brush Presets from Photoshop"
+title: "Exporting Brush Presets from Photoshop"
+description: ""
+helpx_description: "Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Exporting Brush Presets from Photoshop"
 ---
 
 # Exporting Brush Presets from Photoshop

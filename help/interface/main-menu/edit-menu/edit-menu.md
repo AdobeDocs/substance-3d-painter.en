@@ -1,6 +1,7 @@
 ---
-title: "Edit menu | Substance 3D Painter"
-description: "Painter > Interface > Main menu > Edit menu"
+title: "Edit menu"
+description: ""
+helpx_description: "Painter > Interface > Main menu > Edit menu"
 ---
 
 # Edit menu

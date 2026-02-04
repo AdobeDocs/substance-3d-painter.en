@@ -1,6 +1,7 @@
 ---
-title: "Texture Set reassignment | Substance 3D Painter"
-description: "Painter > Interface > Texture Set > Texture Set reassignment"
+title: "Texture Set reassignment"
+description: ""
+helpx_description: "Painter > Interface > Texture Set > Texture Set reassignment"
 ---
 
 # Texture Set reassignment

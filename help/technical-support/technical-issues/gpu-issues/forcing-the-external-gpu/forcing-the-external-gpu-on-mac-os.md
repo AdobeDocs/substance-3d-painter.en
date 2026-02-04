@@ -1,6 +1,7 @@
 ---
-title: "Forcing the external GPU on Mac OS | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > GPU Issues > Forcing the external GPU on Mac OS"
+title: "Forcing the external GPU on Mac OS"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > GPU Issues > Forcing the external GPU on Mac OS"
 ---
 
 # Forcing the external GPU on Mac OS

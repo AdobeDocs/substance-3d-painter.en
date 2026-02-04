@@ -1,6 +1,7 @@
 ---
-title: "Subsurface Parameters | Substance 3D Painter"
-description: "Painter > Features > Subsurface Scattering > Subsurface Parameters"
+title: "Subsurface Parameters"
+description: ""
+helpx_description: "Painter > Features > Subsurface Scattering > Subsurface Parameters"
 ---
 
 # Subsurface Parameters

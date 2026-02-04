@@ -1,6 +1,7 @@
 ---
-title: "Crash when working with overclocked GPU | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > GPU Issues > Crash when working with overclocked GPU"
+title: "Crash when working with overclocked GPU"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > GPU Issues > Crash when working with overclocked GPU"
 ---
 
 # Crash when working with overclocked GPU

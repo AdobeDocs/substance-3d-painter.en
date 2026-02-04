@@ -1,6 +1,7 @@
 ---
-title: "Performance guidelines | Substance 3D Painter"
-description: "Painter > Technical support > Performance guidelines"
+title: "Performance guidelines"
+description: ""
+helpx_description: "Painter > Technical support > Performance guidelines"
 ---
 
 # Performances guidelines

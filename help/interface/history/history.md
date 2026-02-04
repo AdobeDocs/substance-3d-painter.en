@@ -1,6 +1,7 @@
 ---
-title: "History | Substance 3D Painter"
-description: "Painter > Interface > History"
+title: "History"
+description: ""
+helpx_description: "Painter > Interface > History"
 ---
 
 # History

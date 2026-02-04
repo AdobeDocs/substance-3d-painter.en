@@ -1,6 +1,7 @@
 ---
-title: "Default Output templates | Substance 3D Painter"
-description: "Painter > Getting Started > Export > Export presets > Default Output templates"
+title: "Default Output templates"
+description: ""
+helpx_description: "Painter > Getting Started > Export > Export presets > Default Output templates"
 ---
 
 # Default Output templates
@@ -9,7 +10,7 @@ Below is a list of additional Output templates provided by default.  Default Ou
 
 >[!NOTE]
 >
-> Some other software not listed here may also be supported (such as  **Octane**). For more information see the [ecosystem and plug-ins](../../../../../substance-3d-integrations/home/home.md).
+> Some other software not listed here may also be supported (such as  **Octane**). For more information see the [ecosystem and plug-ins](https://helpx.adobe.com/substance-3d-integrations/home.html).
 
 | *Preset* | *Description* |
 | --- | --- |

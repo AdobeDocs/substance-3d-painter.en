@@ -1,6 +1,7 @@
 ---
-title: "Tri-planar projection | Substance 3D Painter"
-description: "Painter > Painting > Fill projections > Tri-planar projection"
+title: "Tri-planar projection"
+description: ""
+helpx_description: "Painter > Painting > Fill projections > Tri-planar projection"
 ---
 
 # Tri-planar projection

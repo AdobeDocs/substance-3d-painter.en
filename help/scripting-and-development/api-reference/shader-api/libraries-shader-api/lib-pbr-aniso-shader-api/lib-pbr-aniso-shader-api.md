@@ -1,6 +1,7 @@
 ---
-title: "Lib PBR Aniso - Shader API | Substance 3D Painter"
-description: "Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib PBR Aniso - Shader API"
+title: "Lib PBR Aniso - Shader API"
+description: ""
+helpx_description: "Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib PBR Aniso - Shader API"
 ---
 
 # Lib PBR Aniso - Shader API

@@ -1,6 +1,7 @@
 ---
-title: "2D view | Substance 3D Painter"
-description: "Painter > Interface > Viewport > 2D view"
+title: "2D view"
+description: ""
+helpx_description: "Painter > Interface > Viewport > 2D view"
 ---
 
 # 2D view

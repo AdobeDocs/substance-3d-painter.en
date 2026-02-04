@@ -1,6 +1,7 @@
 ---
-title: "Lib Emissive - Shader API | Substance 3D Painter"
-description: "Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Emissive - Shader API"
+title: "Lib Emissive - Shader API"
+description: ""
+helpx_description: "Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Emissive - Shader API"
 ---
 
 # Lib Emissive - Shader API

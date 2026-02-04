@@ -1,6 +1,7 @@
 ---
-title: "Viewport | Substance 3D Painter"
-description: "Painter > Interface > Viewport"
+title: "Viewport"
+description: ""
+helpx_description: "Painter > Interface > Viewport"
 ---
 
 # Viewport

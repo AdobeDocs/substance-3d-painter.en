@@ -1,6 +1,7 @@
 ---
-title: "All Engine Params - Shader API | Substance 3D Painter"
-description: "Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Engine Params - Shader API"
+title: "All Engine Params - Shader API"
+description: ""
+helpx_description: "Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Engine Params - Shader API"
 ---
 
 # All Engine Params - Shader API

@@ -1,6 +1,7 @@
 ---
-title: "Presets | Substance 3D Painter"
-description: "Painter > Painting > Presets"
+title: "Presets"
+description: ""
+helpx_description: "Painter > Painting > Presets"
 ---
 
 # Presets

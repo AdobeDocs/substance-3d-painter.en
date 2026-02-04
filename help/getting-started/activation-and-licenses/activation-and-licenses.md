@@ -1,6 +1,7 @@
 ---
-title: "Activation and licenses | Substance 3D Painter"
-description: "Painter > Getting Started > Activation and licenses"
+title: "Activation and licenses"
+description: ""
+helpx_description: "Painter > Getting Started > Activation and licenses"
 ---
 
 # Activation and licenses

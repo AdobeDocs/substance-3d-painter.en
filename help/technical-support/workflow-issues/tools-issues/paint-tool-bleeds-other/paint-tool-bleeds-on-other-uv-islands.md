@@ -1,6 +1,7 @@
 ---
-title: "Paint Tool bleeds on other UV islands | Substance 3D Painter"
-description: "Painter > Technical support > Workflow Issues > Tools Issues > Paint Tool bleeds on other UV islands"
+title: "Paint Tool bleeds on other UV islands"
+description: ""
+helpx_description: "Painter > Technical support > Workflow Issues > Tools Issues > Paint Tool bleeds on other UV islands"
 ---
 
 # Paint Tool bleeds on other UV islands

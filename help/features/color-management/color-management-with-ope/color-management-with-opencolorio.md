@@ -1,6 +1,7 @@
 ---
-title: "Color management with OpenColorIO | Substance 3D Painter"
-description: "Painter > Features > Color management > Color management with OpenColorIO"
+title: "Color management with OpenColorIO"
+description: ""
+helpx_description: "Painter > Features > Color management > Color management with OpenColorIO"
 ---
 
 # Color management with OpenColorIO

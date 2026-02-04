@@ -1,6 +1,7 @@
 ---
-title: "Automatic UV Unwrapping | Substance 3D Painter"
-description: "Painter > Features > Automatic UV Unwrapping"
+title: "Automatic UV Unwrapping"
+description: ""
+helpx_description: "Painter > Features > Automatic UV Unwrapping"
 ---
 
 # Automatic UV Unwrapping

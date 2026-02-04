@@ -1,6 +1,7 @@
 ---
-title: "Application failed to start because of Qt | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > Startup Issues > Application failed to start because of Qt"
+title: "Application failed to start because of Qt"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > Startup Issues > Application failed to start because of Qt"
 ---
 
 # Application failed to start because of Qt

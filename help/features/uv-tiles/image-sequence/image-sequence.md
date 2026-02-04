@@ -1,6 +1,7 @@
 ---
-title: "Image Sequence | Substance 3D Painter"
-description: "Painter > Features > UV Tiles > Image Sequence"
+title: "Image Sequence"
+description: ""
+helpx_description: "Painter > Features > UV Tiles > Image Sequence"
 ---
 
 # Image Sequence

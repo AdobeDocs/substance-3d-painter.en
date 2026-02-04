@@ -1,6 +1,7 @@
 ---
-title: "Project configuration | Substance 3D Painter"
-description: "Painter > Interface > Project configuration"
+title: "Project configuration"
+description: ""
+helpx_description: "Painter > Interface > Project configuration"
 ---
 
 # Project configuration

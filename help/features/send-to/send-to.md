@@ -1,6 +1,7 @@
 ---
-title: "Send to | Substance 3D Painter"
-description: "Substance 3D Painter"
+title: "Send to"
+description: ""
+helpx_description: "Substance 3D Painter"
 ---
 
 # Send to

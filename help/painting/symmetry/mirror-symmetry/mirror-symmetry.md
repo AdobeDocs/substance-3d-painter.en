@@ -1,6 +1,7 @@
 ---
-title: "Mirror Symmetry | Substance 3D Painter"
-description: "Painter > Painting > Symmetry > Mirror Symmetry"
+title: "Mirror Symmetry"
+description: ""
+helpx_description: "Painter > Painting > Symmetry > Mirror Symmetry"
 ---
 
 # Mirror Symmetry

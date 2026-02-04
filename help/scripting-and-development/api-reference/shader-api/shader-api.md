@@ -1,6 +1,7 @@
 ---
-title: "Shader API | Substance 3D Painter"
-description: "Painter > Scripting and development > API Reference > Shader API"
+title: "Shader API"
+description: ""
+helpx_description: "Painter > Scripting and development > API Reference > Shader API"
 ---
 
 # Shader API

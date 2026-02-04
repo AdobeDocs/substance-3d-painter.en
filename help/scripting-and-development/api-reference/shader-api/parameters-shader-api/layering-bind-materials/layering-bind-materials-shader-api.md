@@ -1,6 +1,7 @@
 ---
-title: "Layering Bind Materials - Shader API | Substance 3D Painter"
-description: "Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > Layering Bind Materials - Shader API"
+title: "Layering Bind Materials - Shader API"
+description: ""
+helpx_description: "Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > Layering Bind Materials - Shader API"
 ---
 
 # Layering Bind Materials - Shader API

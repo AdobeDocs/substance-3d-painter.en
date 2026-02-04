@@ -1,6 +1,7 @@
 ---
-title: "Settings | Substance 3D Painter"
-description: "Painter > Interface > Settings"
+title: "Settings"
+description: ""
+helpx_description: "Painter > Interface > Settings"
 ---
 
 # Settings

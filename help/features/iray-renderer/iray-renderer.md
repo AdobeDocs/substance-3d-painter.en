@@ -1,6 +1,7 @@
 ---
-title: "Iray Renderer | Substance 3D Painter"
-description: "Painter > Features > Iray Renderer"
+title: "Iray Renderer"
+description: ""
+helpx_description: "Painter > Features > Iray Renderer"
 ---
 
 # Iray Renderer

@@ -1,6 +1,7 @@
 ---
-title: "Viewport appears broken or unresponsive on Ubuntu | Substance 3D Paint"
-description: "Viewport appears broken or unresponsive on Ubuntu"
+title: "Viewport appears broken or unresponsive on Ubuntu"
+description: ""
+helpx_description: "Viewport appears broken or unresponsive on Ubuntu"
 ---
 
 # Viewport appears broken or unresponsive on Ubuntu

@@ -1,6 +1,7 @@
 ---
-title: "Adding saved searches manually | Substance 3D Painter"
-description: "Painter > Pipeline and integration > Resource management > Adding saved searches manually"
+title: "Adding saved searches manually"
+description: ""
+helpx_description: "Painter > Pipeline and integration > Resource management > Adding saved searches manually"
 ---
 
 # Adding saved searches manually

@@ -1,6 +1,7 @@
 ---
-title: "Blocky artifacts appear on textures in the viewport | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > Rendering Issues > Blocky artifacts appear on textures in the viewport"
+title: "Blocky artifacts appear on textures in the viewport"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > Rendering Issues > Blocky artifacts appear on textures in the viewport"
 ---
 
 # Blocky artifacts appear on textures in the viewport

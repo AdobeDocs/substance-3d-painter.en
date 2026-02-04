@@ -1,6 +1,7 @@
 ---
-title: "PBR Material Layering - Shader API | Substance 3D Painter"
-description: "Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > PBR Material Layering - Shader API"
+title: "PBR Material Layering - Shader API"
+description: ""
+helpx_description: "Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > PBR Material Layering - Shader API"
 ---
 
 # PBR Material Layering - Shader API

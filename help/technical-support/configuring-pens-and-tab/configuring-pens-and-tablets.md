@@ -1,6 +1,7 @@
 ---
-title: "Configuring Pens and Tablets | Substance 3D Painter"
-description: "Painter > Technical support > Configuring Pens and Tablets"
+title: "Configuring Pens and Tablets"
+description: ""
+helpx_description: "Painter > Technical support > Configuring Pens and Tablets"
 ---
 
 # Configuring Pens and Tablets

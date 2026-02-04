@@ -1,6 +1,7 @@
 ---
-title: "File menu | Substance 3D Painter"
-description: "Painter > Interface > Main menu > File menu"
+title: "File menu"
+description: ""
+helpx_description: "Painter > Interface > Main menu > File menu"
 ---
 
 # File menu

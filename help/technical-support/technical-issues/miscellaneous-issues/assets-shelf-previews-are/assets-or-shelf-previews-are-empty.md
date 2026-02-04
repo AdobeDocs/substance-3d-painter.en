@@ -1,6 +1,7 @@
 ---
-title: "Assets (or shelf) previews are empty | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > Miscellaneous Issues > Assets (or shelf) previews are empty"
+title: "Assets (or shelf) previews are empty"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > Miscellaneous Issues > Assets (or shelf) previews are empty"
 ---
 
 # Assets (or shelf) previews are empty

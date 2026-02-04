@@ -1,6 +1,7 @@
 ---
-title: "Mesh appears pink in the viewport | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > Rendering Issues > Mesh appears pink in the viewport"
+title: "Mesh appears pink in the viewport"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > Rendering Issues > Mesh appears pink in the viewport"
 ---
 
 # Mesh appears pink in the viewport

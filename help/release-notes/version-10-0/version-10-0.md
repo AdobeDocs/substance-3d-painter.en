@@ -1,6 +1,7 @@
 ---
-title: "Version 10.0 | Substance 3D Painter"
-description: "Substance 3D Painter 10.0 brings support of Fonts via Text resources, layer stack functionalities in the Python API, support of Illustrator (.ai) files and several quality of life improvements."
+title: "Version 10.0"
+description: ""
+helpx_description: "Substance 3D Painter 10.0 brings support of Fonts via Text resources, layer stack functionalities in the Python API, support of Illustrator (.ai) files and several quality of life improvements."
 ---
 
 # Version 10.0

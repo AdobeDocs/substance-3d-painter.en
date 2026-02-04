@@ -1,6 +1,7 @@
 ---
-title: "Layering Declare Stacks - Shader API | Substance 3D Painter"
-description: "Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > Layering Declare Stacks - Shader API"
+title: "Layering Declare Stacks - Shader API"
+description: ""
+helpx_description: "Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > Layering Declare Stacks - Shader API"
 ---
 
 # Layering Declare Stacks - Shader API

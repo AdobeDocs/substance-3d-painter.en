@@ -1,6 +1,7 @@
 ---
-title: "Projection | Substance 3D Painter"
-description: "Painter > Painting > Tool list > Projection"
+title: "Projection"
+description: ""
+helpx_description: "Painter > Painting > Tool list > Projection"
 ---
 
 # Projection

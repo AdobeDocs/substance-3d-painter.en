@@ -1,6 +1,7 @@
 ---
-title: "Path tool overview | Substance 3D Painter"
-description: "Painting > Path tools list > Path tool"
+title: "Path tool overview"
+description: ""
+helpx_description: "Painting > Path tools list > Path tool"
 ---
 
 # Path tool overview

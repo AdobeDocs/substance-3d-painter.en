@@ -1,6 +1,7 @@
 ---
-title: "Lib Normal - Shader API | Substance 3D Painter"
-description: "Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Normal - Shader API"
+title: "Lib Normal - Shader API"
+description: ""
+helpx_description: "Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Normal - Shader API"
 ---
 
 # Lib Normal - Shader API

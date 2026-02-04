@@ -1,6 +1,7 @@
 ---
-title: "Shader settings | Substance 3D Painter"
-description: "Painter > Interface > Shader settings"
+title: "Shader settings"
+description: ""
+helpx_description: "Painter > Interface > Shader settings"
 ---
 
 # Shader settings

@@ -1,6 +1,7 @@
 ---
-title: "Add resource paths manually | Substance 3D Painter"
-description: "Painter > Pipeline and integration > Resource management > Add resource paths manually"
+title: "Add resource paths manually"
+description: ""
+helpx_description: "Painter > Pipeline and integration > Resource management > Add resource paths manually"
 ---
 
 # Add resource paths by editing preferences manually

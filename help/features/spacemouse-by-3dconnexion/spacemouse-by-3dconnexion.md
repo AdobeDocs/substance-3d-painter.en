@@ -1,6 +1,7 @@
 ---
-title: "SpaceMouse by 3Dconnexion | Substance 3D Painter"
-description: "Painter > Features > SpaceMouse by 3Dconnexion"
+title: "SpaceMouse by 3Dconnexion"
+description: ""
+helpx_description: "Painter > Features > SpaceMouse by 3Dconnexion"
 ---
 
 # SpaceMouse® by 3Dconnexion

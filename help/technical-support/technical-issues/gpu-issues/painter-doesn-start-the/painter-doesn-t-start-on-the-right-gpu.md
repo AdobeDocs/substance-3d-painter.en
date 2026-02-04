@@ -1,6 +1,7 @@
 ---
-title: "Painter doesnt start on the right GPU | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > GPU Issues > Painter doesnt start on the right GPU"
+title: "Painter doesnt start on the right GPU"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > GPU Issues > Painter doesnt start on the right GPU"
 ---
 
 # Painter doesn't start on the right GPU

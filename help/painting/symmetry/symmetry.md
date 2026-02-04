@@ -1,6 +1,7 @@
 ---
-title: "Symmetry | Substance 3D Painter"
-description: "Painter > Painting > Symmetry"
+title: "Symmetry"
+description: ""
+helpx_description: "Painter > Painting > Symmetry"
 ---
 
 # Symmetry

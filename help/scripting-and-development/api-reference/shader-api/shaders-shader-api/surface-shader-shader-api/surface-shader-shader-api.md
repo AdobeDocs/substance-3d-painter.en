@@ -1,6 +1,7 @@
 ---
-title: "Surface Shader - Shader API | Substance 3D Painter"
-description: "Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > Surface Shader - Shader API"
+title: "Surface Shader - Shader API"
+description: ""
+helpx_description: "Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > Surface Shader - Shader API"
 ---
 
 # Surface Shader - Shader API

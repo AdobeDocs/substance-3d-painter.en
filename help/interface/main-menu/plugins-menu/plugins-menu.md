@@ -1,6 +1,7 @@
 ---
-title: "Plugins menu | Substance 3D Painter"
-description: "Painter > Interface > Main menu > Plugins menu"
+title: "Plugins menu"
+description: ""
+helpx_description: "Painter > Interface > Main menu > Plugins menu"
 ---
 
 # Plugins menu

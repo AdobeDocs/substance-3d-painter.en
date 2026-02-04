@@ -1,6 +1,7 @@
 ---
-title: "Quick mask | Substance 3D Painter"
-description: "Painter > Painting > Tool list > Quick mask"
+title: "Quick mask"
+description: ""
+helpx_description: "Painter > Painting > Tool list > Quick mask"
 ---
 
 # Quick mask

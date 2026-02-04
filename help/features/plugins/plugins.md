@@ -1,6 +1,7 @@
 ---
-title: "Plugins | Substance 3D Painter"
-description: "Painter > Features > Plugins"
+title: "Plugins"
+description: ""
+helpx_description: "Painter > Features > Plugins"
 ---
 
 # Plugins

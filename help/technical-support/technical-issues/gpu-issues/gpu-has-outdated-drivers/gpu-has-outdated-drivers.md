@@ -1,6 +1,7 @@
 ---
-title: "GPU has outdated drivers | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > GPU Issues > GPU has outdated drivers"
+title: "GPU has outdated drivers"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > GPU Issues > GPU has outdated drivers"
 ---
 
 # GPU has outdated drivers

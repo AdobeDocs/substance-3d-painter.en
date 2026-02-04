@@ -1,6 +1,7 @@
 ---
-title: "Texture Set settings | Substance 3D Painter"
-description: "Painter > Interface > Texture Set > Texture Set settings"
+title: "Texture Set settings"
+description: ""
+helpx_description: "Painter > Interface > Texture Set > Texture Set settings"
 ---
 
 # Texture Set settings

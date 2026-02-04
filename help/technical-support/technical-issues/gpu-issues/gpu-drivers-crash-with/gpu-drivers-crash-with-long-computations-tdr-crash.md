@@ -1,6 +1,7 @@
 ---
-title: "GPU drivers crash with long computations (TDR crash) | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > GPU Issues > GPU drivers crash with long computations (TDR crash)"
+title: "GPU drivers crash with long computations (TDR crash)"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > GPU Issues > GPU drivers crash with long computations (TDR crash)"
 ---
 
 # GPU drivers crash with long computations (TDR crash)

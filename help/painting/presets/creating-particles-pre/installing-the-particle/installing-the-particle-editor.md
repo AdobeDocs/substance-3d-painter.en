@@ -1,6 +1,7 @@
 ---
-title: "Installing the particle editor | Substance 3D Painter"
-description: "Painter > Painting > Presets > Creating particles presets > Installing the particle editor"
+title: "Installing the particle editor"
+description: ""
+helpx_description: "Painter > Painting > Presets > Creating particles presets > Installing the particle editor"
 ---
 
 # Installing the particle editor

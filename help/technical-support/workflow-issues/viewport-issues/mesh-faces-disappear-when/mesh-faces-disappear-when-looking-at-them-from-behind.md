@@ -1,6 +1,7 @@
 ---
-title: "Mesh faces disappear when looking at them from behind | Substance 3D Painter"
-description: "Painter > Technical support > Workflow Issues > Viewport Issues > Mesh faces disappear when looking at them from behind"
+title: "Mesh faces disappear when looking at them from behind"
+description: ""
+helpx_description: "Painter > Technical support > Workflow Issues > Viewport Issues > Mesh faces disappear when looking at them from behind"
 ---
 
 # Mesh faces disappear when looking at them from behind

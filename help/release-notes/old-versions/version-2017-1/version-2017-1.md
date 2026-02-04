@@ -1,6 +1,7 @@
 ---
-title: "Version 2017.1 | Substance 3D Painter"
-description: "Painter > Release notes > Old versions > Version 2017.1"
+title: "Version 2017.1"
+description: ""
+helpx_description: "Painter > Release notes > Old versions > Version 2017.1"
 ---
 
 # Version 2017.1

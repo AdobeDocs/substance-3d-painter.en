@@ -1,6 +1,7 @@
 ---
-title: "All Changes | Substance 3D Painter"
-description: "Painter > Release notes > All Changes"
+title: "All Changes"
+description: ""
+helpx_description: "Painter > Release notes > All Changes"
 ---
 
 # All Changes

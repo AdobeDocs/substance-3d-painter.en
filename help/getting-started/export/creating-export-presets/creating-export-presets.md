@@ -1,6 +1,7 @@
 ---
-title: "Creating Output templates | Substance 3D Painter"
-description: "Painter > Getting Started > Export > Creating Output templates"
+title: "Creating Output templates"
+description: ""
+helpx_description: "Painter > Getting Started > Export > Creating Output templates"
 ---
 
 # Creating Output templates

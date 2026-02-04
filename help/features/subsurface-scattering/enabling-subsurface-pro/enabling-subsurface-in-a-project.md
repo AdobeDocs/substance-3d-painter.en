@@ -1,6 +1,7 @@
 ---
-title: "Enabling Subsurface in a Project | Substance 3D Painter"
-description: "Painter > Features > Subsurface Scattering > Enabling Subsurface in a Project"
+title: "Enabling Subsurface in a Project"
+description: ""
+helpx_description: "Painter > Features > Subsurface Scattering > Enabling Subsurface in a Project"
 ---
 
 # Enabling Subsurface in a Project

@@ -1,6 +1,7 @@
 ---
-title: "Preserve brush strokes setting stays disabled | Substance 3D Painter"
-description: "Painter > Technical support > Workflow Issues > Project Issues > Preserve brush strokes setting stays disabled"
+title: "Preserve brush strokes setting stays disabled"
+description: ""
+helpx_description: "Painter > Technical support > Workflow Issues > Project Issues > Preserve brush strokes setting stays disabled"
 ---
 
 # Preserve brush strokes setting stays disabled

@@ -1,6 +1,7 @@
 ---
 title: "Substance 3D Painter"
-description: "Painter > Home"
+description: ""
+helpx_description: "Painter > Home"
 ---
 
 # Substance 3D Painter

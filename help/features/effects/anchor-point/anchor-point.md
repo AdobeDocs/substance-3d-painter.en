@@ -1,6 +1,7 @@
 ---
-title: "Anchor Point | Substance 3D Painter"
-description: "Painter > Features > Effects > Anchor Point"
+title: "Anchor Point"
+description: ""
+helpx_description: "Painter > Features > Effects > Anchor Point"
 ---
 
 # Anchor Point

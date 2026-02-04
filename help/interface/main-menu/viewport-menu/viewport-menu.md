@@ -1,6 +1,7 @@
 ---
-title: "Viewport menu | Substance 3D Painter"
-description: "Painter > Interface > Main menu > Viewport menu"
+title: "Viewport menu"
+description: ""
+helpx_description: "Painter > Interface > Main menu > Viewport menu"
 ---
 
 # Viewport menu

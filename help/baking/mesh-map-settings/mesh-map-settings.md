@@ -1,6 +1,7 @@
 ---
-title: "Mesh map settings | Substance 3D Painter"
-description: "Substance 3D Painter"
+title: "Mesh map settings"
+description: ""
+helpx_description: "Substance 3D Painter"
 ---
 
 # Mesh map settings

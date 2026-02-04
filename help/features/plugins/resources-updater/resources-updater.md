@@ -1,6 +1,7 @@
 ---
-title: "Resources Updater | Substance 3D Painter"
-description: "Painter > Features > Plugins > Resources Updater"
+title: "Resources Updater"
+description: ""
+helpx_description: "Painter > Features > Plugins > Resources Updater"
 ---
 
 # Resources Updater

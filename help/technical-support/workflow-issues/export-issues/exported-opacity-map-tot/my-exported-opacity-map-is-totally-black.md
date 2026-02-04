@@ -1,6 +1,7 @@
 ---
-title: "My exported opacity map is totally black | Substance 3D Painter"
-description: "Painter > Technical support > Workflow Issues > Export Issues > My exported opacity map is totally black"
+title: "My exported opacity map is totally black"
+description: ""
+helpx_description: "Painter > Technical support > Workflow Issues > Export Issues > My exported opacity map is totally black"
 ---
 
 # My exported opacity map is totally black

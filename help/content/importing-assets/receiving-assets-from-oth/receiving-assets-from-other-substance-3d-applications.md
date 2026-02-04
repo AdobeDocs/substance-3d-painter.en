@@ -1,6 +1,7 @@
 ---
-title: "Receiving assets from other Substance 3D applications | Substance 3D Painter"
-description: "Painter > Content > Importing assets > Receiving assets from other Substance 3D applications"
+title: "Receiving assets from other Substance 3D applications"
+description: ""
+helpx_description: "Painter > Content > Importing assets > Receiving assets from other Substance 3D applications"
 ---
 
 # Receiving assets from other Substance 3D applications

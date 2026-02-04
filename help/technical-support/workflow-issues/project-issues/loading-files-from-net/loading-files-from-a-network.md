@@ -1,6 +1,7 @@
 ---
-title: "Loading files from a network | Substance 3D Painter"
-description: "Painter > Technical support > Workflow Issues > Project Issues > Loading files from a network"
+title: "Loading files from a network"
+description: ""
+helpx_description: "Painter > Technical support > Workflow Issues > Project Issues > Loading files from a network"
 ---
 
 # Loading files from a network

@@ -1,6 +1,7 @@
 ---
-title: "Physical size | Substance 3D Painter"
-description: "Painter > Features > Physical size"
+title: "Physical size"
+description: ""
+helpx_description: "Painter > Features > Physical size"
 ---
 
 # Physical size

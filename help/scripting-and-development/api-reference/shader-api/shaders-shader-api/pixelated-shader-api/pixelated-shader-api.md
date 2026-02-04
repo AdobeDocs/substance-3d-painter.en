@@ -1,6 +1,7 @@
 ---
-title: "Pixelated - Shader API | Substance 3D Painter"
-description: "Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > Pixelated - Shader API"
+title: "Pixelated - Shader API"
+description: ""
+helpx_description: "Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > Pixelated - Shader API"
 ---
 
 # Pixelated - Shader API

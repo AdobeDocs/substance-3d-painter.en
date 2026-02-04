@@ -1,6 +1,7 @@
 ---
-title: "Color management with Adobe ACE - ICC | Substance 3D Painter"
-description: "Painter > Features > Color management > Color management with Adobe ACE - ICC"
+title: "Color management with Adobe ACE - ICC"
+description: ""
+helpx_description: "Painter > Features > Color management > Color management with Adobe ACE - ICC"
 ---
 
 # Color management with Adobe ACE - ICC

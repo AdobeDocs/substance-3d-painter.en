@@ -1,6 +1,7 @@
 ---
-title: "Mesh Based Input | Substance 3D Painter"
-description: "Painter > Content > Creating custom effects > Mesh Based Input"
+title: "Mesh Based Input"
+description: ""
+helpx_description: "Painter > Content > Creating custom effects > Mesh Based Input"
 ---
 
 # Mesh Based Input

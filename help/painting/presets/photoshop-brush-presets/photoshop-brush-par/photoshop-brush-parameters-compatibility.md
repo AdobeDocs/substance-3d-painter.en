@@ -1,6 +1,7 @@
 ---
-title: "Photoshop Brush Parameters Compatibility | Substance 3D Painter"
-description: "Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Photoshop Brush Parameters Compatibility"
+title: "Photoshop Brush Parameters Compatibility"
+description: ""
+helpx_description: "Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Photoshop Brush Parameters Compatibility"
 ---
 
 # Photoshop Brush Parameters Compatibility

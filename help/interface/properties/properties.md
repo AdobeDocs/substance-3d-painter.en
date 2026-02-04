@@ -1,6 +1,7 @@
 ---
-title: "Properties | Substance 3D Painter"
-description: "Painter > Interface > Properties"
+title: "Properties"
+description: ""
+helpx_description: "Painter > Interface > Properties"
 ---
 
 # Properties

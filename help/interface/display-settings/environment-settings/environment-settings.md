@@ -1,6 +1,7 @@
 ---
-title: "Environment settings | Substance 3D Painter"
-description: "Painter > Interface > Display settings > Environment settings"
+title: "Environment settings"
+description: ""
+helpx_description: "Painter > Interface > Display settings > Environment settings"
 ---
 
 # Environment settings

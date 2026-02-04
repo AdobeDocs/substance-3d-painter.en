@@ -1,6 +1,7 @@
 ---
-title: "Managing layers | Substance 3D Painter"
-description: "Painter > Interface > Layer stack > Managing layers"
+title: "Managing layers"
+description: ""
+helpx_description: "Painter > Interface > Layer stack > Managing layers"
 ---
 
 # Managing layers

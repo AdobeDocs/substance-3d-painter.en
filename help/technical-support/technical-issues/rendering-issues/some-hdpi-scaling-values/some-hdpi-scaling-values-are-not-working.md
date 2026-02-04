@@ -1,6 +1,7 @@
 ---
-title: "Some HDPI scaling values are not working | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > Rendering Issues > Some HDPI scaling values are not working"
+title: "Some HDPI scaling values are not working"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > Rendering Issues > Some HDPI scaling values are not working"
 ---
 
 # Some HDPI scaling values are not working

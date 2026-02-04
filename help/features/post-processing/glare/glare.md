@@ -1,6 +1,7 @@
 ---
-title: "Glare | Substance 3D Painter"
-description: "Painter > Features > Post Processing > Glare"
+title: "Glare"
+description: ""
+helpx_description: "Painter > Features > Post Processing > Glare"
 ---
 
 # Glare

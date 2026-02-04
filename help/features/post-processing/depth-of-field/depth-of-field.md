@@ -1,6 +1,7 @@
 ---
-title: "Depth of Field | Substance 3D Painter"
-description: "Painter > Features > Post Processing > Depth of Field"
+title: "Depth of Field"
+description: ""
+helpx_description: "Painter > Features > Post Processing > Depth of Field"
 ---
 
 # Depth of Field

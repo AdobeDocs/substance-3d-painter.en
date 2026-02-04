@@ -1,6 +1,7 @@
 ---
-title: "Levels | Substance 3D Painter"
-description: "Painter > Features > Effects > Levels"
+title: "Levels"
+description: ""
+helpx_description: "Painter > Features > Effects > Levels"
 ---
 
 # Levels

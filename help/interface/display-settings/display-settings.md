@@ -1,6 +1,7 @@
 ---
-title: "Display settings | Substance 3D Painter"
-description: "Painter > Interface > Display settings"
+title: "Display settings"
+description: ""
+helpx_description: "Painter > Interface > Display settings"
 ---
 
 # Display settings

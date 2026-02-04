@@ -1,6 +1,7 @@
 ---
-title: "Photoshop Brush Presets (ABR) | Substance 3D Painter"
-description: "Painter > Painting > Presets > Photoshop Brush Presets (ABR)"
+title: "Photoshop Brush Presets (ABR)"
+description: ""
+helpx_description: "Painter > Painting > Presets > Photoshop Brush Presets (ABR)"
 ---
 
 # Photoshop Brush Presets (ABR)

@@ -1,6 +1,7 @@
 ---
-title: "Lib Vectors - Shader API | Substance 3D Painter"
-description: "Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Vectors - Shader API"
+title: "Lib Vectors - Shader API"
+description: ""
+helpx_description: "Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Vectors - Shader API"
 ---
 
 # Lib Vectors - Shader API

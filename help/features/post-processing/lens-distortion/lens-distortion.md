@@ -1,6 +1,7 @@
 ---
-title: "Lens Distortion | Substance 3D Painter"
-description: "Painter > Features > Post Processing > Lens Distortion"
+title: "Lens Distortion"
+description: ""
+helpx_description: "Painter > Features > Post Processing > Lens Distortion"
 ---
 
 # Lens Distortion

@@ -1,6 +1,7 @@
 ---
-title: "Viewport settings | Substance 3D Painter"
-description: "Painter > Interface > Display settings > Viewport settings"
+title: "Viewport settings"
+description: ""
+helpx_description: "Painter > Interface > Display settings > Viewport settings"
 ---
 
 # Viewport settings

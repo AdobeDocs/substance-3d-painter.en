@@ -1,6 +1,7 @@
 ---
-title: "Smart Materials and Masks | Substance 3D Painter"
-description: "Painter > Features > Smart Materials and Masks"
+title: "Smart Materials and Masks"
+description: ""
+helpx_description: "Painter > Features > Smart Materials and Masks"
 ---
 
 # Smart Materials and Masks

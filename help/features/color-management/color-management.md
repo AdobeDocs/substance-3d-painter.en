@@ -1,6 +1,7 @@
 ---
-title: "Color management | Substance 3D Painter"
-description: "Painter > Features > Color management"
+title: "Color management"
+description: ""
+helpx_description: "Painter > Features > Color management"
 ---
 
 # Color management

@@ -1,6 +1,7 @@
 ---
-title: "Saved searches | Substance 3D Painter"
-description: "Painter > Interface > Assets > Saved searches"
+title: "Saved searches"
+description: ""
+helpx_description: "Painter > Interface > Assets > Saved searches"
 ---
 
 # Saved searches

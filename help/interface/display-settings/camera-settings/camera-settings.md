@@ -1,6 +1,7 @@
 ---
-title: "Camera settings | Substance 3D Painter"
-description: "Painter > Interface > Display settings > Camera settings"
+title: "Camera settings"
+description: ""
+helpx_description: "Painter > Interface > Display settings > Camera settings"
 ---
 
 # Camera settings

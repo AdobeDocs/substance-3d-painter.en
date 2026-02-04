@@ -1,6 +1,7 @@
 ---
-title: "Tool list | Substance 3D Painter"
-description: "Painter > Painting > Tool list"
+title: "Tool list"
+description: ""
+helpx_description: "Painter > Painting > Tool list"
 ---
 
 # Tool list

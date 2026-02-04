@@ -1,6 +1,7 @@
 ---
-title: "Flow Map Painting | Substance 3D Painter"
-description: "Painter > Painting > Advanced channel painting > Flow Map Painting"
+title: "Flow Map Painting"
+description: ""
+helpx_description: "Painter > Painting > Advanced channel painting > Flow Map Painting"
 ---
 
 # Flow Map Painting

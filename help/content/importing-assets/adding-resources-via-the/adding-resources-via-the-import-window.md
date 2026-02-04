@@ -1,6 +1,7 @@
 ---
-title: "Adding resources via the import window | Substance 3D Painter"
-description: "Painter > Content > Importing assets > Adding resources via the import window"
+title: "Adding resources via the import window"
+description: ""
+helpx_description: "Painter > Content > Importing assets > Adding resources via the import window"
 ---
 
 # Adding resources via the import window

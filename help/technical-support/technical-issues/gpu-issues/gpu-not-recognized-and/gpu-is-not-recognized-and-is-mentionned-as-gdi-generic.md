@@ -1,6 +1,7 @@
 ---
-title: "GPU is not recognized and is mentionned as GDI Generic | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > GPU Issues > GPU is not recognized and is mentionned as GDI Generic"
+title: "GPU is not recognized and is mentionned as GDI Generic"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > GPU Issues > GPU is not recognized and is mentionned as GDI Generic"
 ---
 
 # GPU is not recognized and is mentionned as GDI Generic

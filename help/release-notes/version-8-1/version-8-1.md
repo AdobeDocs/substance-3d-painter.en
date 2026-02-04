@@ -1,6 +1,7 @@
 ---
-title: "Version 8.1 | Substance 3D Painter"
-description: "Painter > Release notes > Version 8.1"
+title: "Version 8.1"
+description: ""
+helpx_description: "Painter > Release notes > Version 8.1"
 ---
 
 # Version 8.1

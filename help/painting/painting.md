@@ -1,6 +1,7 @@
 ---
-title: "Painting | Substance 3D Painter"
-description: "Painter > Painting"
+title: "Painting"
+description: ""
+helpx_description: "Painter > Painting"
 ---
 
 # Painting

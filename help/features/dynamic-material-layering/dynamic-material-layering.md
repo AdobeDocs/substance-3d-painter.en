@@ -1,6 +1,7 @@
 ---
-title: "Dynamic Material Layering | Substance 3D Painter"
-description: "Painter > Features > Dynamic Material Layering"
+title: "Dynamic Material Layering"
+description: ""
+helpx_description: "Painter > Features > Dynamic Material Layering"
 ---
 
 # Dynamic Material Layering

@@ -1,6 +1,7 @@
 ---
-title: "Advanced channel painting | Substance 3D Painter"
-description: "Painter > Painting > Advanced channel painting"
+title: "Advanced channel painting"
+description: ""
+helpx_description: "Painter > Painting > Advanced channel painting"
 ---
 
 # Advanced channel painting

@@ -1,6 +1,7 @@
 ---
-title: "Layer management | Substance 3D Painter"
-description: "Painter > Technical support > Performances guidelines > Layer management"
+title: "Layer management"
+description: ""
+helpx_description: "Painter > Technical support > Performances guidelines > Layer management"
 ---
 
 # Layer management

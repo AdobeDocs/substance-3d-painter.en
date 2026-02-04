@@ -1,6 +1,7 @@
 ---
-title: "Crash during export | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > Stability Issues > Crash during export"
+title: "Crash during export"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > Stability Issues > Crash during export"
 ---
 
 # Crash during export

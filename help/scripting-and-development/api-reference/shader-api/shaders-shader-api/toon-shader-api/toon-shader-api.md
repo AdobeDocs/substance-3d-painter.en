@@ -1,6 +1,7 @@
 ---
-title: "Toon - Shader API | Substance 3D Painter"
-description: "Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > Toon - Shader API"
+title: "Toon - Shader API"
+description: ""
+helpx_description: "Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > Toon - Shader API"
 ---
 
 # Toon - Shader API

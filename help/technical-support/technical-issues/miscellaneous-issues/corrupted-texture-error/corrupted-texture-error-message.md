@@ -1,6 +1,7 @@
 ---
-title: "Corrupted texture error message | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > Miscellaneous Issues > Corrupted texture error message"
+title: "Corrupted texture error message"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > Miscellaneous Issues > Corrupted texture error message"
 ---
 
 # Corrupted texture error message

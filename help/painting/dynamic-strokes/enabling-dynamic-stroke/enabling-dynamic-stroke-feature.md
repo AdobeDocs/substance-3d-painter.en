@@ -1,6 +1,7 @@
 ---
-title: "Enabling Dynamic Stroke Feature | Substance 3D Painter"
-description: "Painter > Painting > Dynamic strokes > Enabling Dynamic Stroke Feature"
+title: "Enabling Dynamic Stroke Feature"
+description: ""
+helpx_description: "Painter > Painting > Dynamic strokes > Enabling Dynamic Stroke Feature"
 ---
 
 # Enabling Dynamic Stroke Feature

@@ -1,6 +1,7 @@
 ---
-title: "Eraser | Substance 3D Painter"
-description: "Painter > Painting > Tool list > Eraser"
+title: "Eraser"
+description: ""
+helpx_description: "Painter > Painting > Tool list > Eraser"
 ---
 
 # Eraser

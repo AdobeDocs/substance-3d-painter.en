@@ -1,6 +1,7 @@
 ---
-title: "Spherical projection | Substance 3D Painter"
-description: "Painter > Painting > Fill projections > Spherical projection"
+title: "Spherical projection"
+description: ""
+helpx_description: "Painter > Painting > Fill projections > Spherical projection"
 ---
 
 # Spherical projection

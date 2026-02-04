@@ -1,6 +1,7 @@
 ---
-title: "Lib SSS - Shader API | Substance 3D Painter"
-description: "Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib SSS - Shader API"
+title: "Lib SSS - Shader API"
+description: ""
+helpx_description: "Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib SSS - Shader API"
 ---
 
 # Lib SSS - Shader API

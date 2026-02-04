@@ -1,6 +1,7 @@
 ---
-title: "Dynamic Stroke Performances | Substance 3D Painter"
-description: "Painter > Painting > Dynamic strokes > Dynamic Stroke Performances"
+title: "Dynamic Stroke Performances"
+description: ""
+helpx_description: "Painter > Painting > Dynamic strokes > Dynamic Stroke Performances"
 ---
 
 # Dynamic Stroke Performances

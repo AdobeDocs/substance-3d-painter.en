@@ -1,6 +1,7 @@
 ---
-title: "Clone Tool | Substance 3D Painter"
-description: "Painter > Painting > Tool list > Clone Tool"
+title: "Clone Tool"
+description: ""
+helpx_description: "Painter > Painting > Tool list > Clone Tool"
 ---
 
 # Clone Tool

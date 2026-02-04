@@ -1,6 +1,7 @@
 ---
-title: "Tone Mapping | Substance 3D Painter"
-description: "Painter > Features > Post Processing > Tone Mapping"
+title: "Tone Mapping"
+description: ""
+helpx_description: "Painter > Features > Post Processing > Tone Mapping"
 ---
 
 # Tone Mapping

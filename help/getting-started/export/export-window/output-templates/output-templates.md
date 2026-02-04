@@ -1,6 +1,7 @@
 ---
-title: "Output templates | Substance 3D Painter"
-description: "Painter > Getting Started > Export > Export window > Output templates"
+title: "Output templates"
+description: ""
+helpx_description: "Painter > Getting Started > Export > Export window > Output templates"
 ---
 
 # Output templates

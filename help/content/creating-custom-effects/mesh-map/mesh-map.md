@@ -1,6 +1,7 @@
 ---
-title: "Mesh Map | Substance 3D Painter"
-description: "Painter > Content > Creating custom effects > Mesh Map"
+title: "Mesh Map"
+description: ""
+helpx_description: "Painter > Content > Creating custom effects > Mesh Map"
 ---
 
 # Mesh Map

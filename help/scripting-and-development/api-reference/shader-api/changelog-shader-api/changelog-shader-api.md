@@ -1,6 +1,7 @@
 ---
-title: "Changelog - Shader API | Substance 3D Painter"
-description: "Painter > Scripting and development > API Reference > Shader API > Changelog - Shader API"
+title: "Changelog - Shader API"
+description: ""
+helpx_description: "Painter > Scripting and development > API Reference > Shader API > Changelog - Shader API"
 ---
 
 # Changelog - Shader API

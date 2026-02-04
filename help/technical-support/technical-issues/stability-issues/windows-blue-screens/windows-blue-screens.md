@@ -1,6 +1,7 @@
 ---
-title: "Windows Blue Screens | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > Stability Issues > Windows Blue Screens"
+title: "Windows Blue Screens"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > Stability Issues > Windows Blue Screens"
 ---
 
 # Windows Blue Screens

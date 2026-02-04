@@ -1,6 +1,7 @@
 ---
-title: "GPU is not recognized | Substance 3D Painter"
-description: "Painter > Technical support > Technical Issues > GPU Issues > GPU is not recognized"
+title: "GPU is not recognized"
+description: ""
+helpx_description: "Painter > Technical support > Technical Issues > GPU Issues > GPU is not recognized"
 ---
 
 # GPU is not recognized

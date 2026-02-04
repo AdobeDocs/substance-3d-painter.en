@@ -1,6 +1,7 @@
 ---
-title: "Paint brush | Substance 3D Painter"
-description: "Painter > Painting > Tool list > Paint brush"
+title: "Paint brush"
+description: ""
+helpx_description: "Painter > Painting > Tool list > Paint brush"
 ---
 
 # Paint brush

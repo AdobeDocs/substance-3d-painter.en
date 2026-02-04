@@ -1,6 +1,7 @@
 ---
-title: "Geometry mask | Substance 3D Painter"
-description: "Painter > Interface > Layer stack > Geometry mask"
+title: "Geometry mask"
+description: ""
+helpx_description: "Painter > Interface > Layer stack > Geometry mask"
 ---
 
 # Geometry mask

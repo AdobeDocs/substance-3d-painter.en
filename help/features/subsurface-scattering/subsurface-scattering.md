@@ -1,6 +1,7 @@
 ---
-title: "Subsurface Scattering | Substance 3D Painter"
-description: "Painter > Features > Subsurface Scattering"
+title: "Subsurface Scattering"
+description: ""
+helpx_description: "Painter > Features > Subsurface Scattering"
 ---
 
 # Subsurface Scattering

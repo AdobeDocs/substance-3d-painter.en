@@ -1,6 +1,7 @@
 ---
-title: "Remote control with scripting | Substance 3D Painter"
-description: "Painter > Scripting and development > Scripts and plugins > Remote control with scripting"
+title: "Remote control with scripting"
+description: ""
+helpx_description: "Painter > Scripting and development > Scripts and plugins > Remote control with scripting"
 ---
 
 # Remote control with scripting

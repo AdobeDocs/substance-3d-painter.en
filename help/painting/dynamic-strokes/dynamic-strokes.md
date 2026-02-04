@@ -1,6 +1,7 @@
 ---
-title: "Dynamic strokes | Substance 3D Painter"
-description: "Painter > Painting > Dynamic strokes"
+title: "Dynamic strokes"
+description: ""
+helpx_description: "Painter > Painting > Dynamic strokes"
 ---
 
 # Dynamic strokes

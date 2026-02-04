@@ -1,6 +1,7 @@
 ---
-title: "Ribbon path | Substance 3D Painter"
-description: "Substance 3D Painter"
+title: "Ribbon path"
+description: ""
+helpx_description: "Substance 3D Painter"
 ---
 
 # Ribbon path

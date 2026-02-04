@@ -1,6 +1,7 @@
 ---
-title: "Post Processing | Substance 3D Painter"
-description: "Painter > Features > Post Processing"
+title: "Post Processing"
+description: ""
+helpx_description: "Painter > Features > Post Processing"
 ---
 
 # Post Processing

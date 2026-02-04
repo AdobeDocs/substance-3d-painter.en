@@ -1,6 +1,7 @@
 ---
-title: "Preferences and content migration | Substance 3D Painter"
-description: "Painter > Pipeline and integration > Resource management > Preferences and content migration"
+title: "Preferences and content migration"
+description: ""
+helpx_description: "Painter > Pipeline and integration > Resource management > Preferences and content migration"
 ---
 
 # Preferences and content migration
@@ -51,4 +52,4 @@ Now restart the application, the saved searches should appear in the dedicated s
 
 We recommend to manually re-adjust the application settings from the interface. This is it the safest way to migrate information without introducing compatibility issues.
 
-Otherwise take a look at the following page to know where preferences are now located: [Preferences and application data location](https://helpx.adobe.com/content/help/en/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).
+Otherwise take a look at the following page to know where preferences are now located: [Preferences and application data location](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).

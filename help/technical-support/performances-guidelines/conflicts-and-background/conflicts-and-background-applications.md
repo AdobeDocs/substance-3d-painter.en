@@ -1,6 +1,7 @@
 ---
-title: "Conflicts and background applications | Substance 3D Painter"
-description: "Painter > Technical support > Performances guidelines > Conflicts and background applications"
+title: "Conflicts and background applications"
+description: ""
+helpx_description: "Painter > Technical support > Performances guidelines > Conflicts and background applications"
 ---
 
 # Conflicts and background applications

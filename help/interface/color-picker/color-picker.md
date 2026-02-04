@@ -1,6 +1,7 @@
 ---
-title: "Color picker | Substance 3D Painter"
-description: "Painter > Interface > Color picker"
+title: "Color picker"
+description: ""
+helpx_description: "Painter > Interface > Color picker"
 ---
 
 # Color picker

@@ -1,6 +1,7 @@
 ---
-title: "Updating a shader | Substance 3D Painter"
-description: "Painter > Interface > Shader settings > Updating a shader"
+title: "Updating a shader"
+description: ""
+helpx_description: "Painter > Interface > Shader settings > Updating a shader"
 ---
 
 # Updating a shader

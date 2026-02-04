@@ -1,6 +1,7 @@
 ---
-title: "Cylindrical projection | Substance 3D Painter"
-description: "Painter > Painting > Fill projections > Cylindrical projection"
+title: "Cylindrical projection"
+description: ""
+helpx_description: "Painter > Painting > Fill projections > Cylindrical projection"
 ---
 
 # Cylindrical projection

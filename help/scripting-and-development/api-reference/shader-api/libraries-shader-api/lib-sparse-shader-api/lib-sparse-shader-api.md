@@ -1,6 +1,7 @@
 ---
-title: "Lib Sparse - Shader API | Substance 3D Painter"
-description: "Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Sparse - Shader API"
+title: "Lib Sparse - Shader API"
+description: ""
+helpx_description: "Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Sparse - Shader API"
 ---
 
 # Lib Sparse - Shader API

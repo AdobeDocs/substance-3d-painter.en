@@ -1,6 +1,7 @@
 ---
-title: "Effects | Substance 3D Painter"
-description: "Painter > Features > Effects"
+title: "Effects"
+description: ""
+helpx_description: "Painter > Features > Effects"
 ---
 
 # Effects

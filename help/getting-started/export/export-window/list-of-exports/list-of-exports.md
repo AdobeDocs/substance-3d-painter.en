@@ -1,6 +1,7 @@
 ---
-title: "List of exports | Substance 3D Painter"
-description: "Painter > Getting Started > Export > Export window > List of exports"
+title: "List of exports"
+description: ""
+helpx_description: "Painter > Getting Started > Export > Export window > List of exports"
 ---
 
 # List of exports

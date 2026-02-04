@@ -1,6 +1,7 @@
 ---
-title: "Color correction | Substance 3D Painter"
-description: "Painter > Features > Post Processing > Color correction"
+title: "Color correction"
+description: ""
+helpx_description: "Painter > Features > Post Processing > Color correction"
 ---
 
 # Color correction

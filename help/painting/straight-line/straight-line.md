@@ -1,6 +1,7 @@
 ---
-title: "Straight line | Substance 3D Painter"
-description: "Painter > Painting > Straight line"
+title: "Straight line"
+description: ""
+helpx_description: "Painter > Painting > Straight line"
 ---
 
 # Straight line

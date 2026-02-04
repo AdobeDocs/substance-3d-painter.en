@@ -1,6 +1,7 @@
 ---
-title: "Customizing the layout | Substance 3D Painter"
-description: "Painter > Interface > Assets > Customizing the layout"
+title: "Customizing the layout"
+description: ""
+helpx_description: "Painter > Interface > Assets > Customizing the layout"
 ---
 
 # Customizing the layout

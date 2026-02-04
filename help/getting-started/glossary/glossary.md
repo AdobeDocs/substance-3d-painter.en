@@ -1,6 +1,7 @@
 ---
-title: "Glossary | Substance 3D Painter"
-description: "Painter > Getting Started > Glossary"
+title: "Glossary"
+description: ""
+helpx_description: "Painter > Getting Started > Glossary"
 ---
 
 # Glossary

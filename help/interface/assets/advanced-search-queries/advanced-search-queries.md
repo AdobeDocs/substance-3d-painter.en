@@ -1,6 +1,7 @@
 ---
-title: "Advanced search queries | Substance 3D Painter"
-description: "Painter > Interface > Assets > Advanced search queries"
+title: "Advanced search queries"
+description: ""
+helpx_description: "Painter > Interface > Assets > Advanced search queries"
 ---
 
 # Advanced search queries

@@ -1,6 +1,7 @@
 ---
-title: "Maintenance is expired dialog on startup | Substance 3D Painter"
-description: "Painter > Technical support > Workflow Issues > License Issues > Maintenance is expired dialog on startup"
+title: "Maintenance is expired dialog on startup"
+description: ""
+helpx_description: "Painter > Technical support > Workflow Issues > License Issues > Maintenance is expired dialog on startup"
 ---
 
 # Maintenance is expired dialog on startup

@@ -1,6 +1,7 @@
 ---
-title: "Exporting a DXDiag | Substance 3D Painter"
-description: "Painter > Technical support > Exporting a DXDiag"
+title: "Exporting a DXDiag"
+description: ""
+helpx_description: "Painter > Technical support > Exporting a DXDiag"
 ---
 
 # Exporting a DXDiag

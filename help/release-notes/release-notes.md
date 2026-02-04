@@ -1,6 +1,7 @@
 ---
-title: "Release notes | Substance 3D Painter"
-description: "Painter > Release notes"
+title: "Release notes"
+description: ""
+helpx_description: "Painter > Release notes"
 ---
 
 # Release notes

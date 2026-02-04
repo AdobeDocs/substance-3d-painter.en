@@ -1,6 +1,7 @@
 ---
-title: "Vector graphic (SVG)  | Substance 3D Painter"
-description: "Substance 3D Painter"
+title: "Vector graphic (SVG)"
+description: ""
+helpx_description: "Substance 3D Painter"
 ---
 
 # Vector graphic (.svg &amp; .ai)

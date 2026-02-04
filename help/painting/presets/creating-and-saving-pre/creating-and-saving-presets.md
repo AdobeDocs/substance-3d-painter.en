@@ -1,6 +1,7 @@
 ---
-title: "Create and save presets | Substance 3D Painter"
-description: "Painter > Painting > Presets > Creating and saving presets"
+title: "Create and save presets"
+description: ""
+helpx_description: "Painter > Painting > Presets > Creating and saving presets"
 ---
 
 # Create and save presets
