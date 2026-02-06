@@ -14,7 +14,7 @@ Take a look at the following page for a list of all the known software that may 
 
 ## Running on the wrong GPU
 
-If the application doesn't start on the right GPU it might lead to stability issues. See this page for more: [Painter doesn't start on the right GPU](../../gpu-issues/painter-doesn-start-the/painter-doesn-t-start-on-the-right-gpu.md).
+If the application doesn't start on the right GPU it might lead to stability issues. See this page for more: [Painter doesn't start on the right GPU](../../gpu-issues/doesn-start-the-right-gpu/painter-doesn-t-start-on-the-right-gpu.md).
 
 ## Outdated GPU Drivers
 
