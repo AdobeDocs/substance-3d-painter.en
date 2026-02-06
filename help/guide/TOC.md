@@ -38,7 +38,7 @@ user-guide-description: placeholder
     + [Advanced search queries](/help/interface/assets/advanced-search-queries/advanced-search-queries.md)
     + [Adding a new library](/help/interface/assets/adding-a-new-library/adding-a-new-library.md)
     + [Sub-library tab](/help/interface/assets/sub-library-tab/sub-library-tab.md)
-  + [Substance 3D Assets](/help/interface/substance-3d-assets/substance-3d-assets.md)
+  + [Substance 3D Assets](/help/interface/3d-assets/substance-3d-assets.md)
   + [Color picker](/help/interface/color-picker/color-picker.md)
   + Display settings{#display-settings}
     + [Display settings overview](/help/interface/display-settings/display-settings.md)
@@ -236,7 +236,7 @@ user-guide-description: placeholder
       + [Issues with Nvidia GPUs on recent Mac OS versions](/help/technical-support/technical-issues/gpu-issues/issues-with-nvidia-gpus/issues-with-nvidia-gpus-on-recent-mac-os-versions.md)
       + [Multi/Bi-GPU](/help/technical-support/technical-issues/gpu-issues/multi-bi-gpu/multi-bi-gpu.md)
       + [Running on integrated GPU](/help/technical-support/technical-issues/gpu-issues/running-on-integrated-gpu/running-on-integrated-gpu.md)
-      + [Painter doesn't start on the right GPU](/help/technical-support/technical-issues/gpu-issues/painter-doesn-start-the/painter-doesn-t-start-on-the-right-gpu.md)
+      + [Painter doesn't start on the right GPU](/help/technical-support/technical-issues/gpu-issues/doesn-start-the-right-gpu/painter-doesn-t-start-on-the-right-gpu.md)
     + Startup Issues{#startup-issues}
       + [Application failed to start because of Qt](/help/technical-support/technical-issues/startup-issues/application-failed-start/application-failed-to-start-because-of-qt.md)
       + [Crash or freeze during startup](/help/technical-support/technical-issues/startup-issues/crash-freeze-during-sta/crash-or-freeze-during-startup.md)
@@ -281,7 +281,7 @@ user-guide-description: placeholder
       + [Mesh faces disappear when looking at them from behind](/help/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when/mesh-faces-disappear-when-looking-at-them-from-behind.md)
       + [Viewports and textures are blurry or lack sharpness](/help/technical-support/workflow-issues/viewport-issues/viewports-and-textures/viewports-and-textures-are-blurry-or-lack-sharpness.md)
     + Plugins Issues{#plugins-issues}
-      + [Substance Source plugin doesn't load](/help/technical-support/workflow-issues/plugins-issues/substance-source-plugin/substance-source-plugin-doesn-t-load.md)
+      + [Substance Source plugin doesn't load](/help/technical-support/workflow-issues/plugins-issues/source-plugin-doesn-load/substance-source-plugin-doesn-t-load.md)
     + License Issues{#license-issues}
       + [Maintenance is expired dialog on startup](/help/technical-support/workflow-issues/license-issues/maintenance-expired-dia/maintenance-is-expired-dialog-on-startup.md)
 + Pipeline and integration{#pipeline-and-integration}

@@ -86,6 +86,8 @@ Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers
 Be sure to **stay on** "GraphicsDrivers" and **to not click** on the Registry **keys below** before going through the next steps.
 
 +++'GraphicsDrivers' in Windows Registry tree
+!['GraphicsDrivers' in Windows Registry tree](reg-left-pane.png "'GraphicsDrivers' in Windows Registry tree"){zoomable="yes"}
+
 
 
 +++

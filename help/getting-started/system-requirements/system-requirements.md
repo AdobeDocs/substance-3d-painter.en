@@ -109,37 +109,51 @@ To enable GPU raytracing via Optix or DXR the minimum drivers recommended above 
 Below is a list of compatible graphic tablets which have been tested with Substance 3D Painter version <b>7.4.2</b>:
 
 +++Wacom
+<b>Models:</b> Intuos Pro (M size), Intuos (S size)
 
 
-Models:Intuos Pro (M size), Intuos (S size)
-
+| OS | Driver version |
+| --- | --- |
+| Windows | 6.3.45-1 |
+| macOS | 6.3.45-3 |
 
 
 +++
 
 +++XPen
+<b>Model:</b> Deco 01
 
 
-Model:Deco 01
-
+| OS | Driver version |
+| --- | --- |
+| Windows | XP-PENWin\_3.2.2.211027 |
+| macOS | XP-PENMac\_3.2.3\_211203 |
+| Linux | XP-PEN-pentablet-3.2.1.211019-1 |
 
 
 +++
 
 +++Huion
+<b>Model:</b> Q11K
 
 
-Model:Q11K
-
+| OS | Driver version |
+| --- | --- |
+| Windows | XP-PENWin\_3.2.2.211027 |
+| macOS | XP-PENMac\_3.2.3\_211203 |
 
 
 +++
 
 +++Xencelabs
+<b>Model:</b> Pen Tablet Medium
 
 
-Model:Pen Tablet Medium
-
+| OS | Driver version |
+| --- | --- |
+| Windows | XencelabsWin\_1.2.1-14 |
+| macOS | XencelabsMac\_1.2.1-18 |
+| Linux | XencelabsLinux\_1.1.0-2 |
 
 
 +++
