@@ -1,8 +1,21 @@
 ---
 title: "Thumbnails in the shelf look incorrect"
-description: ""
-helpx_description: "Painter > Technical support > Workflow Issues > Shelf Issues > Thumbnails in the shelf look incorrect"
+description: "Learn how to fix incorrect thumbnail display in Substance 3D Painter shelf to ensure accurate resource previews."
+helpx_description: Painter > Technical support > Workflow Issues > Shelf Issues > Thumbnails in the shelf look incorrect
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/shelf-issues/thumbnails-in-the-shelf-look-incorrect.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - photo-editing
+  - xr
+  - product-design
 ---
+
+
+
 
 # Thumbnails in the shelf look incorrect
 

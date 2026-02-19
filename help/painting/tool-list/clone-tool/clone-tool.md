@@ -1,8 +1,21 @@
 ---
 title: "Clone Tool"
-description: ""
-helpx_description: "Painter > Painting > Tool list > Clone Tool"
+description: "Use the Clone Tool in Substance 3D Painter to copy texture details from one area to another for seamless texture painting."
+helpx_description: Painter > Painting > Tool list > Clone Tool
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/clone-tool.html"
+helpx_creative_field:
+  - painting-illustration
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - materials
+  - photo-restoration
+  - painting
 ---
+
+
+
 
 # Clone Tool
 

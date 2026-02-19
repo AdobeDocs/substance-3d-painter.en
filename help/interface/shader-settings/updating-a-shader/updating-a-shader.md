@@ -1,8 +1,22 @@
 ---
 title: "Updating a shader"
-description: ""
-helpx_description: "Painter > Interface > Shader settings > Updating a shader"
+description: "Learn how to update custom shaders in Substance 3D Painter to apply shader changes and reload shader files."
+helpx_description: Painter > Interface > Shader settings > Updating a shader
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/shader-settings/updating-a-shader.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - painting-illustration
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - shading
+  - xr
+  - product-design
 ---
+
+
+
 
 # Updating a shader
 

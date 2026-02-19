@@ -1,8 +1,21 @@
 ---
 title: "Lib Utils - Shader API"
-description: ""
-helpx_description: "Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Utils - Shader API"
+description: "Access the Lib Utils shader API reference for Substance 3D Painter to use utility functions in custom shader development."
+helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Utils - Shader API
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-utils-shader-api.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - color
+  - colorize
+  - enhancing-color
 ---
+
+
+
 
 # Lib Utils - Shader API
 

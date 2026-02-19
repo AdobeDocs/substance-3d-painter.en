@@ -1,8 +1,21 @@
 ---
 title: "Filter"
-description: ""
-helpx_description: "Painter > Features > Effects > Filter"
+description: "Learn how to use filter effects in Substance 3D Painter to apply image processing filters and texture adjustments."
+helpx_description: Painter > Features > Effects > Filter
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/filter.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - effects
+  - filters
+  - add-objects-to-images
 ---
+
+
+
 
 # Filter
 
@@ -33,7 +46,7 @@ Click on the button to open the mini-shelf and select the desired filter, here w
 
 ## Drag-and-Drop a Filter from the Shelf
 
-This method is only intended for filters that should apply to the whole Layerstack. It will automatically set all Channel [Blending modes](../../../interface/layer-stack/blending-modes/blending-modes.md) . It does not work for applying filters to a mask.
+This method is only intended for filters that should apply to the whole Layerstack. It will automatically set all Channel [Blending modes](../../../help/interface/layer-stack/blending-modes/blending-modes.md) . It does not work for applying filters to a mask.
 
 ### 1 - Open the Filters area of the Shelf
 
@@ -54,4 +67,4 @@ Note how in the above example the dropped filter already has a Passthrough Blend
 All the filters are Substances, which can be created with Substance 3D Designer.   
 As a quick startup, Substance 3D Designer provide templates ready to use for Substance 3D Painter.
 
-For more information see this page : [Creating custom effects](../../../content/creating-custom-effects/creating-custom-effects.md)
+For more information see this page : [Creating custom effects](../../../help/content/creating-custom-effects/creating-custom-effects.md)

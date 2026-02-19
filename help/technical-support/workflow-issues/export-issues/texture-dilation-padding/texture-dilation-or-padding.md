@@ -1,14 +1,27 @@
 ---
 title: "Texture dilation or Padding"
-description: ""
-helpx_description: "Painter > Technical support > Workflow Issues > Export Issues > Texture dilation or Padding"
+description: "Learn how to use texture dilation and padding in Substance 3D Painter to prevent edge artifacts in exported textures."
+helpx_description: Painter > Technical support > Workflow Issues > Export Issues > Texture dilation or Padding
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - texture
+  - shading
+  - painting
 ---
+
+
+
 
 # Texture dilation or Padding
 
 **Padding** (sometimes also called **dilation**) is a process that happens after the generation of a texture. Its purpose is to dilate the borders of the UV islands to fill empty areas with similar pixels.
 
-Generating a good quality padding is important to ensure good [mipmaps](../../../../getting-started/glossary/glossary.md) generation later by game engines or offline renderers.   
+Generating a good quality padding is important to ensure good [mipmaps](../../../../help/getting-started/glossary/glossary.md) generation later by game engines or offline renderers.   
 Substance 3D Painter can generate an infinite padding: this means a pixel will be stretched until it reaches an other UV island or the borders of the texture.
 
 ## Infinite padding generation
@@ -61,6 +74,6 @@ Inside a 3D application this is the result :
 
 Substance 3D Painter allows to change the behavior of the padding generation (such as disabling it) in different places :
 
-* **When baking** : see the [baking documentation](../../../../baking/baking.md) for more information.
-* **When generating textures for a Texture Set** : see the [Texture Set settings](../../../../interface/texture-set/texture-set-settings/texture-set-settings.md) documentation for more information.
-* **When exporting textures** : see the "Padding settings" section of the [export settings](../../../../getting-started/export/export-window/export-window.md) documentation for more information.
+* **When baking** : see the [baking documentation](../../../../help/baking/baking.md) for more information.
+* **When generating textures for a Texture Set** : see the [Texture Set settings](../../../../help/interface/texture-set/texture-set-settings/texture-set-settings.md) documentation for more information.
+* **When exporting textures** : see the "Padding settings" section of the [export settings](../../../../help/getting-started/export/export-window/export-window.md) documentation for more information.

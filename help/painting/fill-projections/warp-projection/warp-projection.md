@@ -1,8 +1,22 @@
 ---
 title: "Warp projection"
-description: ""
-helpx_description: "Painter > Painting > Fill projections > Warp projection"
+description: "Use warp projection in Substance 3D Painter to project textures with distortion effects for creative texture painting."
+helpx_description: Painter > Painting > Fill projections > Warp projection
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/warp-projection.html"
+helpx_creative_field:
+  - video
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - intermediate-advanced
+helpx_learn_topic:
+  - perspective
+  - asset-warp
+  - tiling
 ---
+
+
+
 
 # Warp projection
 
@@ -12,7 +26,7 @@ The Warp projection of the fill is a 3D projection that allows to deform a textu
 
 ## Quick setup
 
-It is possible to quickly setup a layer with the warp projection by drag and dropping a resource from the [Assets window](../../../interface/assets/assets.md) onto the mesh. When releasing the mouse a menu will open allowing to choose in which channel the resource should be assigned.
+It is possible to quickly setup a layer with the warp projection by drag and dropping a resource from the [Assets window](../../../help/interface/assets/assets.md) onto the mesh. When releasing the mouse a menu will open allowing to choose in which channel the resource should be assigned.
 
 Compatible resource types are:
 
@@ -51,7 +65,7 @@ The 3D projection settings control the transformation of the projection in 3D sp
 
 ## Contextual Toolbar
 
-Several settings and tools are available from the [Contextual toolbar](../../../interface/toolbars/toolbars.md) sitting at the top of the viewport which give controls over the manipulator and the projection:
+Several settings and tools are available from the [Contextual toolbar](../../../help/interface/toolbars/toolbars.md) sitting at the top of the viewport which give controls over the manipulator and the projection:
 
 | Icon | Name | Description |
 | --- | --- | --- |
@@ -72,7 +86,7 @@ Several settings and tools are available from the [Contextual toolbar](../../../
 
 ## Manipulator
 
-This projection manipulator is only available in the [3D viewport](../../../interface/viewport/3d-view/3d-view.md).
+This projection manipulator is only available in the [3D viewport](../../../help/interface/viewport/3d-view/3d-view.md).
 
 | Action | Shortcut | Description |
 | --- | --- | --- |
@@ -94,7 +108,7 @@ To edit the grid point, switch the edition mode to **Edit vertices** from the Co
 
 >[!NOTE]
 >
-> A keyboard shortcut is available to quickly switch between **Transform warp** and **Edit vertices**. See the **Toggle warp edition mode** in the [Shortcuts](../../../interface/settings/shortcuts/shortcuts.md) page.
+> A keyboard shortcut is available to quickly switch between **Transform warp** and **Edit vertices**. See the **Toggle warp edition mode** in the [Shortcuts](../../../help/interface/settings/shortcuts/shortcuts.md) page.
 
 ### Selecting points
 

@@ -1,8 +1,21 @@
 ---
 title: "Version 7.4"
-description: ""
-helpx_description: "Painter > Release notes > Old versions > Version 7.4"
+description: "Review release notes for Substance 3D Painter version 7.4 to learn about new features, improvements, and bug fixes."
+helpx_description: Painter > Release notes > Old versions > Version 7.4
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-7-4.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - creating-color-palettes
+  - color
+  - travel-photography
 ---
+
+
+
 
 # Version 7.4
 
@@ -56,7 +69,7 @@ This new workflow allows to manage and calibrate colors from import to export an
 
 >[!NOTE]
 >
-> To learn more about how color management works inside the application, see the [dedicated page](../../../features/color-management/color-management.md).
+> To learn more about how color management works inside the application, see the [dedicated page](../../../help/features/color-management/color-management.md).
 
 ### New undock of 2D and 3D viewport
 
@@ -87,7 +100,7 @@ Working with an undocked view is easier to organize the layout of the applicatio
 
 The **SpaceMouse®** is a device by 3Dconnexion that allows to manipulate the 3D viewport camera in a more intuitive and friendly way. It is now supported natively and directly plug and play with Painter.
 
-For more information, see the dedicated [documentation page](../../../features/spacemouse-by-3dconnexion/spacemouse-by-3dconnexion.md).
+For more information, see the dedicated [documentation page](../../../help/features/spacemouse-by-3dconnexion/spacemouse-by-3dconnexion.md).
 
 >[!NOTE]
 >

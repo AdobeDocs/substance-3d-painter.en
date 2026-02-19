@@ -1,8 +1,22 @@
 ---
 title: "Lib Defines - Shader API"
-description: ""
-helpx_description: "Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Defines - Shader API"
+description: "Access the Lib Defines shader API reference for Substance 3D Painter to define shader constants and preprocessor directives."
+helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Defines - Shader API
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-defines-shader-api.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - motion
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - shading
+  - symbols
+  - creating-color-palettes
 ---
+
+
+
 
 # Lib Defines - Shader API
 

@@ -1,8 +1,21 @@
 ---
 title: "Iray Settings"
-description: ""
-helpx_description: "Painter > Features > Iray Renderer > Iray Settings"
+description: "Learn how to configure Iray renderer settings in Substance 3D Painter to control rendering quality and performance."
+helpx_description: Painter > Features > Iray Renderer > Iray Settings
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/iray-renderer/iray-settings.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - rendering
+  - preview
+  - hdri
 ---
+
+
+
 
 # Iray Settings
 

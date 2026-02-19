@@ -1,8 +1,21 @@
 ---
 title: "Version 2018.1"
-description: ""
-helpx_description: "Painter > Release notes > Old versions > Version 2018.1"
+description: "Review release notes for Substance 3D Painter version 2018.1 to learn about new features, improvements, and bug fixes."
+helpx_description: Painter > Release notes > Old versions > Version 2018.1
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2018-1.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - creative-effects
+  - appearance
+  - effects
 ---
+
+
+
 
 # Version 2018.1
 

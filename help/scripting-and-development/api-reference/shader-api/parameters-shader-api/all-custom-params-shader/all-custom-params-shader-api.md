@@ -1,8 +1,21 @@
 ---
 title: "All Custom Params - Shader API"
-description: ""
-helpx_description: "Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Custom Params - Shader API"
+description: "Access the All Custom Params shader API reference for Substance 3D Painter to define and control custom shader parameters."
+helpx_description: Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Custom Params - Shader API
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-custom-params-shader-api.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - presets
+  - appearance
+  - materials
 ---
+
+
+
 
 # All Custom Params - Shader API
 

@@ -1,8 +1,21 @@
 ---
 title: "Libraries configuration"
-description: ""
-helpx_description: "Painter > Interface > Settings > Libraries configuration"
+description: "Learn how to configure libraries in Substance 3D Painter settings to manage resource paths and asset organization."
+helpx_description: Painter > Interface > Settings > Libraries configuration
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/settings/libraries-configuration.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - paths
+  - open
+  - preferences
 ---
+
+
+
 
 # Libraries configuration
 
@@ -32,4 +45,4 @@ The **default** radio button is used to define in which path new content (such a
 | **Name** | The named that will be used to reference the path in the interface (when right-clicking on a resource for example). This name also defines the internal location name for resources to track if they are up to date or not, therefore it is advised to not changed this name once defined. |
 | **Path** | The actual location where resources are (or will be) on the disk. |
 | **Plus button**  <div><img data-preserve-html="true" src="shelf-button.png" width="30"/></div> | Clicking on this button will add the path defined by the name and path settings to the list below.Adding a new path will automatically create the necessary sub-folders structure needed to organize the data and resources. To learn where to put resources see:  [Adding Content to the Shelf](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html). |
-| **Minus button**   <div><img data-preserve-html="true" src="shelf-remove.png" width="30"/></div> | Clicking on this button in front of a path will remove it from the list. Resources will not be listed anymore in the [Assets](../../assets/assets.md) interface.  **Note:**  The default paths cannot be removed, but they will become disabled and their resources will be hidden instead. |
+| **Minus button**   <div><img data-preserve-html="true" src="shelf-remove.png" width="30"/></div> | Clicking on this button in front of a path will remove it from the list. Resources will not be listed anymore in the [Assets](../../../help/interface/assets/assets.md) interface.  **Note:**  The default paths cannot be removed, but they will become disabled and their resources will be hidden instead. |

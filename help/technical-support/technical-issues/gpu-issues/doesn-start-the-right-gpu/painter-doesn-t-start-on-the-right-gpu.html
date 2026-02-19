@@ -12,42 +12,41 @@
 </div>
 <div class="text aem-GridColumn aem-GridColumn--default--12">
 <div class="cmp-text">
-<h2>Monitor Cables Configuration</h2>
+<h2>Windows</h2>
 </div>
 </div>
 <div class="text aem-GridColumn aem-GridColumn--default--12">
 <div class="cmp-text">
-<p>On Windows the GPU assigned to an application depends of the monitor on which the application is running. This is because the monitor cables are linked directly to the output of the GPU itself. The application may start on the wrong GPU therefore if the monitor on which it starts is linked to the graphics output of the motherboard instead of the one from the graphic card itself. In that case, Windows is likely to use the integrated GPU rather than the dedicated GPU. </p><p><strong>To solve this issue</strong> : simply fix the cable configuration by un-plugin the monitor linked to the motherboard and then linking it to the GPU outputs instead.</p>
+<h3>Monitor Cables Configuration</h3>
+<p>On Windows the GPU assigned to an application depends of the monitor on which the application is running. This is because the monitor cables are linked directly to the output of the GPU itself. The application may start on the wrong GPU therefore if the monitor on which it starts is linked to the graphics output of the motherboard instead of the one from the graphic card itself. In that case, Windows is likely to use the integrated GPU rather than the dedicated GPU.</p>
+<p><b>To solve this issue</b> : simply fix the cable configuration by un-plugin the monitor linked to the motherboard and then linking it to the GPU outputs instead.</p>
 </div>
 </div>
 <div class="text aem-GridColumn aem-GridColumn--default--12">
 <div class="cmp-text">
-<h2>Incorrect GPU Driver Installation</h2>
+<h3>Incorrect GPU Driver Installation</h3>
+<p>If the GPU drivers are not properly installed the application will be unable to reach the dedicated GPU and it will have to fallback on the integrated GPU instead.</p>
+<p><b>To solve this issue</b> : uninstall the current GPU drivers, perform a cleanup and then reinstall the GPU drivers after a reboot of the computer.</p>
 </div>
 </div>
 <div class="text aem-GridColumn aem-GridColumn--default--12">
 <div class="cmp-text">
-<p>If the GPU drivers are not properly installed the application will be unable to reach the dedicated GPU and it will have to fallback on the integrated GPU instead.</p><p><strong>To solve this issue</strong> : uninstall the current GPU drivers, perform a cleanup and then reinstall the GPU drivers after a reboot of the computer.</p>
+<h3>Nvidia GPU driver profile setting</h3>
+<p>On some computers, such as Laptops, the application may run on the integrated GPU instead of the dedicated Nvidia GPU by default. With an NVIDIA GPU, the switch to the right GPU depends on application profiles. If an application does not have such profile, you can assign one manually.</p>
+<p><b>To solve this issue</b> :</p>
+<ol>
+<li>Right-click on the Desktop and select NVIDIA Control Panel <b>or</b> Navigate to the Control Panel and search for NVIDIA Control Panel</li>
+<li>Under <b>3D Settings</b>, go to <b>Manage 3D Settings</b></li>
+<li>Under the tab <b>Program settings</b> add a new profile for <b>Substance 3D Painter</b></li>
+<li>Change the preferred graphics processor setting to High-performance NVIDIA processor</li>
+</ol>
 </div>
 </div>
 <div class="text aem-GridColumn aem-GridColumn--default--12">
 <div class="cmp-text">
-<h2>Nvidia GPU driver profile setting</h2>
-</div>
-</div>
-<div class="text aem-GridColumn aem-GridColumn--default--12">
-<div class="cmp-text">
-<p>On some computers, such as Laptops, the application may run on the integrated GPU instead of the dedicated Nvidia GPU by default. With an NVIDIA GPU, the switch to the right GPU depends on application profiles. If an application does not have such profile, you can assign one manually.</p><p><strong>To solve this issue</strong> : </p><ol><li>Right-click on the Desktop and select NVIDIA Control Panel <strong>or</strong> Navigate to the Control Panel and search for NVIDIA Control Panel</li><li>Under <strong>3D Settings</strong>, go to <strong>Manage 3D Settings</strong></li><li>Under the tab <strong>Program settings</strong> add a new profile for <strong>Substance 3D Painter</strong></li><li>Change the preferred graphics processor setting to High-performance NVIDIA processor</li></ol>
-</div>
-</div>
-<div class="text aem-GridColumn aem-GridColumn--default--12">
-<div class="cmp-text">
-<h2>Windows Performance Setting</h2>
-</div>
-</div>
-<div class="text aem-GridColumn aem-GridColumn--default--12">
-<div class="cmp-text">
-<p>Windows may have set the wrong GPU setting for the application because of the default performance and power consumption settings.</p><p><strong>To solve this issue : </strong>follow the step by step below to override the default GPU configuration.</p>
+<h3>Windows Performance Setting</h3>
+<p>Windows may have set the wrong GPU setting for the application because of the default performance and power consumption settings.</p>
+<p><b>To solve this issue : </b>follow the step by step below to override the default GPU configuration.</p>
 </div>
 </div>
 <div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
@@ -245,5 +244,23 @@
 </li>
 </ol>
 </div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Linux</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Disable "Prefers Non Default GPU"</h3>
+<p>When running Painter from a desktop shortcut or when running it via Steam, make sure the setting <b>PrefersNonDefaultGPU</b> inside the <b>*.desktop</b> file is set to <b>false</b>.</p>
+<p>This setting can be misleading and lead to the integrated GPU being used/forced instead of the discreet and more powerful one. For more informlation <a disablelinktracking="false" href="https://github.com/ValveSoftware/steam-for-linux/issues/9940">see this discussion</a>.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Force specific GPU using DRI_PRIME environment variable</h3>
+<p>By default Painter will use the first GPU listed by the Vulkan graphics API, however this GPU might be the wrong one (it might be the integrated GPU listed first), leading to poor performances. The DRI_PRIME environment variable can be used to force the GPU of your choice. For more information <a disablelinktracking="false" href="https://wiki.archlinux.org/title/PRIME#For_open_source_drivers%E2%80%94PRIME">see the documentation from the Arch wiki</a>. You can also refer to the <a disablelinktracking="false" href="https://docs.mesa3d.org/envvars.html#envvar-DRI_PRIME">Mesa documentation</a>.</p>
+</div>
+</div>
 </div>
 </div></body>

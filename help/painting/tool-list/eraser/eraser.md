@@ -1,14 +1,27 @@
 ---
 title: "Eraser"
-description: ""
-helpx_description: "Painter > Painting > Tool list > Eraser"
+description: "Use the Eraser tool in Substance 3D Painter to remove paint and textures from your 3D models with precision control."
+helpx_description: Painter > Painting > Tool list > Eraser
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/eraser.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - removing-objects
+  - masking
+  - photo-restoration
 ---
+
+
+
 
 # Eraser
 
 The Eraser is a paint tool that erase/hide what has been painted previously by other tools. This tool only affect one layer at a time.
 
-The Eraser share common parameters and behaviors with the Paint tool. To know more about the brush, alpha and stencil controls take a look at the [Paint tool page](../paint-brush/paint-brush.md).
+The Eraser share common parameters and behaviors with the Paint tool. To know more about the brush, alpha and stencil controls take a look at the [Paint tool page](../../../help/painting/tool-list/paint-brush/paint-brush.md).
 
 >[!NOTE]
 >

@@ -1,8 +1,21 @@
 ---
 title: "Symmetry"
-description: ""
-helpx_description: "Painter > Painting > Symmetry"
+description: "Learn how to use symmetry tools in Substance 3D Painter to create balanced and mirrored texture painting effects."
+helpx_description: Painter > Painting > Symmetry
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/symmetry.html"
+helpx_creative_field:
+  - painting-illustration
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - painting
+  - illustration
+  - transform
 ---
+
+
+
 
 # Symmetry
 
@@ -15,8 +28,8 @@ Symmetry is a helpful setting that you can use on brush and fill layers to easil
 
 Learn more about the types of symmetry you can use in Painter:
 
-* [Mirror Symmetry](mirror-symmetry/mirror-symmetry.md)
-* [Radial Symmetry](radial-symmetry/radial-symmetry.md)
+* [Mirror Symmetry](../../help/painting/symmetry/mirror-symmetry/mirror-symmetry.md)
+* [Radial Symmetry](../../help/painting/symmetry/radial-symmetry/radial-symmetry.md)
 
 ## Use Symmetry with the Paint tool
 

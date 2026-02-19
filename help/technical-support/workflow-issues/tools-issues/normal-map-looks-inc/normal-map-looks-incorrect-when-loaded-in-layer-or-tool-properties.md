@@ -1,8 +1,21 @@
 ---
 title: "Normal map looks incorrect when loaded in layer or tool properties"
-description: ""
-helpx_description: "Painter > Technical support > Workflow Issues > Tools Issues > Normal map looks incorrect when loaded in layer or tool properties"
+description: "Learn how to fix normal map display issues in Substance 3D Painter layer and tool properties for accurate surface detail."
+helpx_description: Painter > Technical support > Workflow Issues > Tools Issues > Normal map looks incorrect when loaded in layer or tool properties
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/tools-issues/normal-map-looks-incorrect-when-loaded-in-layer-or-tool-properties.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - normal-maps
+  - channels
+  - materials
 ---
+
+
+
 
 # Normal map looks incorrect when loaded in layer or tool properties
 

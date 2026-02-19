@@ -1,7 +1,8 @@
 ---
 title: "Filled path"
-description: ""
+description: "Learn how to use the filled path tool in Substance 3D Painter to create filled shapes and paths for texture painting."
 helpx_description: "Substance 3D Painter"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/filled-path.html"
 ---
 
 # Filled path

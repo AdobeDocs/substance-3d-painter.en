@@ -1,8 +1,14 @@
 ---
 title: "Version 10.1"
-description: ""
-helpx_description: "Substance 3D Painter"
+description: "Review release notes for Substance 3D Painter version 10.1 to learn about new features, improvements, and bug fixes."
+helpx_description: Substance 3D Painter
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-10-1.html"
+helpx_tags:
+  - SG_SUBSTANCE_PAINTER
 ---
+
+
+
 
 # Version 10.1
 

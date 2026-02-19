@@ -1,8 +1,27 @@
 ---
 title: "Crash or freeze during startup"
-description: ""
-helpx_description: "Painter > Technical support > Technical Issues > Startup Issues > Crash or freeze during startup"
+description: "Learn how to fix crashes and freezes during Substance 3D Painter startup for stable application launch."
+helpx_description: Painter > Technical support > Technical Issues > Startup Issues > Crash or freeze during startup
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
+helpx_creative_field:
+  - painting-illustration
+  - video
+  - graphic-design
+  - web
+  - social-media
+  - 3d-immersive
+  - motion
+  - publishing
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - known-issues
+  - troubleshooting
+  - system-requirements
 ---
+
+
+
 
 # Crash or freeze during startup
 
@@ -10,21 +29,21 @@ This page list known issues and their solutions related to the application not s
 
 ## Software conflicts
 
-Take a look at the following page for a list of all the known software that may create conflicts: [Software conflicts](../software-conflicts/software-conflicts.md).
+Take a look at the following page for a list of all the known software that may create conflicts: [Software conflicts](../../../../help/technical-support/technical-issues/startup-issues/software-conflicts/software-conflicts.md).
 
 ## Running on the wrong GPU
 
-If the application doesn't start on the right GPU it might lead to stability issues. See this page for more: [Painter doesn't start on the right GPU](../../gpu-issues/doesn-start-the-right-gpu/painter-doesn-t-start-on-the-right-gpu.md).
+If the application doesn't start on the right GPU it might lead to stability issues. See this page for more: [Painter doesn't start on the right GPU](../../../../help/technical-support/technical-issues/gpu-issues/doesn-start-the-right-gpu/painter-doesn-t-start-on-the-right-gpu.md).
 
 ## Outdated GPU Drivers
 
-Using old GPU drivers can lead to freezes and/or crashes. We recommend to use the latest GPU drivers when available. See: [GPU has outdated drivers](../../gpu-issues/gpu-has-outdated-drivers/gpu-has-outdated-drivers.md).
+Using old GPU drivers can lead to freezes and/or crashes. We recommend to use the latest GPU drivers when available. See: [GPU has outdated drivers](../../../../help/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers/gpu-has-outdated-drivers.md).
 
 ## White screen and unresponsive
 
 If the application freeze right when starting up on Windows (leading to a white screen) it can be of a few reasons:
 
-* An external application is creating a conflict, see [Software conflicts](../software-conflicts/software-conflicts.md) to know which ones.
+* An external application is creating a conflict, see [Software conflicts](../../../../help/technical-support/technical-issues/startup-issues/software-conflicts/software-conflicts.md) to know which ones.
 * Some windows of the application were opened on another monitor. Restoring the interface to its default layout allow to start the application normally:
   1. Open the registry editor (**regedit** from the start menu)
   1. Navigate to the application preferences (see: [Preferences and application data location](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html))

@@ -1,8 +1,18 @@
 ---
 title: "Version 11.1"
-description: ""
-helpx_description: "Substance 3D Painter > Release notes > Version 11.1"
+description: "Review release notes for Substance 3D Painter version 11.1 to learn about new features, improvements, and bug fixes."
+helpx_description: Substance 3D Painter > Release notes > Version 11.1
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-11-1.html"
+helpx_creative_field:
+  - 3d
+helpx_experience_level:
+  - all-skill-levels
+helpx_tags:
+  - SG_SUBSTANCE_PAINTER
 ---
+
+
+
 
 # Version 11.1
 
@@ -14,7 +24,7 @@ Release date: <b>November 18, 2025</b>
 >
 > This version of Painter switches the graphics API from OpenGL to Vulkan. This change may impact which GPUs are supported by the application, notably for baking with GPU-based raytracing.
 > 
-> For more information check out our [system requirements page](../../getting-started/system-requirements/system-requirements.md).
+> For more information check out our [system requirements page](../../help/getting-started/system-requirements/system-requirements.md).
 
 ## Major features
 
@@ -88,9 +98,9 @@ Additional improvements have been made across all path tools:
 
 >[!NOTE]
 >
-> For more information on the <b>Ribbon tool</b>, check out the [dedicated documentation page](../../painting/tool-list/ribbon-tool/ribbon-tool.md).
+> For more information on the <b>Ribbon tool</b>, check out the [dedicated documentation page](../../help/painting/tool-list/ribbon-tool/ribbon-tool.md).
 > 
-> For more information on <b>dynamic strokes</b>, check out the [dedicated documentation page](../../painting/dynamic-strokes/dynamic-strokes.md).
+> For more information on <b>dynamic strokes</b>, check out the [dedicated documentation page](../../help/painting/dynamic-strokes/dynamic-strokes.md).
 
 ### New content and categories for Ribbon tool
 
@@ -151,7 +161,7 @@ Fill layers and effects now support symmetry with their 3D projection modes. It 
 
   ![](symmetry_radial.png)
 
-For more information about the <b>symmetry</b>, see the [dedicated documentation page](../../painting/symmetry/symmetry.md).
+For more information about the <b>symmetry</b>, see the [dedicated documentation page](../../help/painting/symmetry/symmetry.md).
 
 ### Physical size for displacement
 

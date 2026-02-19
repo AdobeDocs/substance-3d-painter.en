@@ -1,8 +1,21 @@
 ---
 title: "Version 2019.2"
-description: ""
-helpx_description: "Painter > Release notes > Old versions > Version 2019.2"
+description: "Review release notes for Substance 3D Painter version 2019.2 to learn about new features, improvements, and bug fixes."
+helpx_description: Painter > Release notes > Old versions > Version 2019.2
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2019-2.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - baking
+  - shading
+  - sharpen
 ---
+
+
+
 
 # Version 2019.2
 
@@ -39,7 +52,7 @@ With the workflow improvement we also took the opportunity to update our Bakers 
 * **CPU Raytracing has been improved**   
   Raytracing computation on the CPU is now 2 to 3 times faster than before. So even if your GPU is not compatible with GPU Raytracing you will still get performance improvements in general.
 * **GPU Raytracing support with DXR and Optix**   
-  With compatible hardware the bakers can now compute directly on the GPU which drastically reduces computation time, especially when anti-aliasing is enabled and lots of rays are defined. DXR is the default option when available, otherwise Optix will be used. It is possible to disable GPU Raytracing by going into the [main settings](../../../interface/settings/settings.md) and looking for "**Baking Options**" :
+  With compatible hardware the bakers can now compute directly on the GPU which drastically reduces computation time, especially when anti-aliasing is enabled and lots of rays are defined. DXR is the default option when available, otherwise Optix will be used. It is possible to disable GPU Raytracing by going into the [main settings](../../../help/interface/settings/settings.md) and looking for "**Baking Options**" :
 
   ![](baking-options-v2.png)
 
@@ -50,7 +63,7 @@ With the workflow improvement we also took the opportunity to update our Bakers 
 
 >[!WARNING]
 >
-> When using GPU Raytracing, the baker may fail if the high-poly mesh cannot fit in VRam. When it happens, it is advised to go into the [main settings](../../../interface/settings/settings.md) and disable "**GPU Raytracing**" setting under the the "**Baking Options**" section. After that you can simply re-launch the baking process.
+> When using GPU Raytracing, the baker may fail if the high-poly mesh cannot fit in VRam. When it happens, it is advised to go into the [main settings](../../../help/interface/settings/settings.md) and disable "**GPU Raytracing**" setting under the the "**Baking Options**" section. After that you can simply re-launch the baking process.
 
 ### Miscellaneous new features and improvements
 
@@ -61,7 +74,7 @@ In this release we also added and reworked a few things to improve the quality o
 * **Improved rotation manipulator**  
   The rotation manipulator was a bit slow in the past making rotations sometimes tedious to perform. Rotation speed is now linked to the camera and scene size.
 * **Improved performances on High DPI screens with viewport downscaling**  
-  In the [main settings](../../../interface/settings/settings.md) there is now a new parameter named "Viewport Scaling" with the value "**None**" and "**Auto**" (default). When Substance Painter detects that a screen uses HDPI scaling (such as Retina screens on MacOS) it will automatically divide the viewport resolution by 2. This behavior avoids drawing the viewport too big and improves general performances without any noticeable loss of quality.
+  In the [main settings](../../../help/interface/settings/settings.md) there is now a new parameter named "Viewport Scaling" with the value "**None**" and "**Auto**" (default). When Substance Painter detects that a screen uses HDPI scaling (such as Retina screens on MacOS) it will automatically divide the viewport resolution by 2. This behavior avoids drawing the viewport too big and improves general performances without any noticeable loss of quality.
 
   ![](settings-viewport-downscale.png)
 * **New Console plugin for Scripting**  

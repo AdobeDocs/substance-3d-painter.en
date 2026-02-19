@@ -1,8 +1,21 @@
 ---
 title: "Exporting a DXDiag"
-description: ""
-helpx_description: "Painter > Technical support > Exporting a DXDiag"
+description: "Learn how to export DXDiag system information from Substance 3D Painter for Windows troubleshooting and support."
+helpx_description: Painter > Technical support > Exporting a DXDiag
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/exporting-a-dxdiag.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - export
+  - save
+  - printing
 ---
+
+
+
 
 # Exporting a DXDiag
 

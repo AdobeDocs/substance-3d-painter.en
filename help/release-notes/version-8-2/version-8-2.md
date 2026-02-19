@@ -1,8 +1,21 @@
 ---
 title: "Version 8.2"
-description: ""
-helpx_description: "Painter > Release notes > Version 8.2"
+description: "Review release notes for Substance 3D Painter version 8.2 to learn about new features, improvements, and bug fixes."
+helpx_description: Painter > Release notes > Version 8.2
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-8-2.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - appearance
+  - creative-effects
+  - replacing-backgrounds
 ---
+
+
+
 
 # Version 8.2
 
@@ -83,9 +96,9 @@ Substance archive (SBSAR) file format is now available when exporting textures. 
 
 ![](env-align-lighting2.gif)
 
-A new setting inside [Display Settings](../../interface/display-settings/environment-settings/environment-settings.md) allows to align the environment map to the camera making it possible to adjust the lighting angle and light up parts below the 3D model.
+A new setting inside [Display Settings](../../help/interface/display-settings/environment-settings/environment-settings.md) allows to align the environment map to the camera making it possible to adjust the lighting angle and light up parts below the 3D model.
 
-To use this new setting, go to [Display Settings](../../interface/display-settings/environment-settings/environment-settings.md) and change **Environment alignment** setting:
+To use this new setting, go to [Display Settings](../../help/interface/display-settings/environment-settings/environment-settings.md) and change **Environment alignment** setting:
 
 * **World**: the environment map is aligned to the scene.
 * **Local**: the environment map is aligned to the camera.
@@ -96,7 +109,7 @@ Shadows will automatically adjust based on the configuration of this setting.
 
 ![](banner-favorite.png)
 
-New actions have been added to the [Assets](../../interface/assets/assets.md) window to make management of resources more convenient.
+New actions have been added to the [Assets](../../help/interface/assets/assets.md) window to make management of resources more convenient.
 
 * **Favorite resources to quickly find them**   
   Right-click on any resource in the Assets window to favorite (or un-favorite) it. Favorite resources always appear first in line in search queries with a little star tag in the corner, making them stand out and accessible. A dedicated search query has been added as well, making it easy to view all your favorite resources.

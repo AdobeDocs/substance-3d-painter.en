@@ -1,8 +1,22 @@
 ---
 title: "Version 2019.1"
-description: ""
-helpx_description: "Painter > Release notes > Old versions > Version 2019.1"
+description: "Review release notes for Substance 3D Painter version 2019.1 to learn about new features, improvements, and bug fixes."
+helpx_description: Painter > Release notes > Old versions > Version 2019.1
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2019-1.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - painting-illustration
+helpx_experience_level:
+  - intermediate-advanced
+helpx_learn_topic:
+  - effects
+  - creative-effects
+  - appearance
 ---
+
+
+
 
 # Version 2019.1
 
@@ -45,7 +59,7 @@ We also added a lot of new **tool presets** to play with :
 
 >[!NOTE]
 >
-> To know more about this feature (and its performance impact) take a look at the [dedicated documentation](../../../painting/dynamic-strokes/dynamic-strokes.md).
+> To know more about this feature (and its performance impact) take a look at the [dedicated documentation](../../../help/painting/dynamic-strokes/dynamic-strokes.md).
 
 ### Displacement And Tesselation
 
@@ -163,7 +177,7 @@ Two new projection modes have been added with fill layers and fill effects : **P
 * **Quick toggle of Material channel buttons**   
   You can now press ALT and click on a channel button to isolate it. Clicking again will enable back all the channels.  
    ![](channels-toggle.gif)
-* **Dithering at export** Dithering can now be disabled via a dedicated setting in the export window next to the file format and bit depth. For more information about how and when dithering is applied [see the export documentation](../../../getting-started/export/export-window/export-window.md).  
+* **Dithering at export** Dithering can now be disabled via a dedicated setting in the export window next to the file format and bit depth. For more information about how and when dithering is applied [see the export documentation](../../../help/getting-started/export/export-window/export-window.md).  
    ![](dithering.png)
 * **Better Histograms**   
   We reworked our histogram generator. Histograms should now display more accurate information and update properly after a change in the layer stack.  

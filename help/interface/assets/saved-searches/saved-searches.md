@@ -1,8 +1,21 @@
 ---
 title: "Saved searches"
-description: ""
-helpx_description: "Painter > Interface > Assets > Saved searches"
+description: "Learn how to create and use saved searches in Substance 3D Painter to quickly access frequently used asset filters."
+helpx_description: Painter > Interface > Assets > Saved searches
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/saved-searches.html"
+helpx_creative_field:
+  - painting-illustration
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - assets
+  - cross-product-workflows
+  - footage
 ---
+
+
+
 
 # Saved searches
 
@@ -14,7 +27,7 @@ To create a saved search, it is possible to combine different types of navigatio
 
 >[!NOTE]
 >
-> Saved searches are saved in a config file that can be edited manually. To learn more, please take a look at [Adding saved searches manually](../../../pipeline-and-integration/resource-management/adding-saved-searches-man/adding-saved-searches-manually.md).
+> Saved searches are saved in a config file that can be edited manually. To learn more, please take a look at [Adding saved searches manually](../../../help/pipeline-and-integration/resource-management/adding-saved-searches-man/adding-saved-searches-manually.md).
 
 Once you create your saved search, it will appear in your list of searches. You can right-click on it to create a new sub-library tab, rename or delete it.
 

@@ -1,8 +1,23 @@
 ---
 title: "Windows Blue Screens"
-description: ""
-helpx_description: "Painter > Technical support > Technical Issues > Stability Issues > Windows Blue Screens"
+description: "Learn how to prevent Windows blue screen errors when using Substance 3D Painter for stable system operation."
+helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Windows Blue Screens
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/windows-blue-screens.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - painting-illustration
+  - motion
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - troubleshooting
+  - known-issues
+  - system-requirements
 ---
+
+
+
 
 # Windows Blue Screens
 
@@ -10,7 +25,7 @@ On Windows  [Blue Screens Of Death (BSOD)](https://en.wikipedia.org/wiki/Blue_sc
 
 ## Unstable GPU drivers
 
-Substance 3D Painter relies a lot on the GPU to perform its various computation. GPU drivers can sometimes be unstable or have regressions. We recommend to keep the GPU up to date to get the latest fixes and performance improvements. See: [GPU has outdated drivers](../../gpu-issues/gpu-has-outdated-drivers/gpu-has-outdated-drivers.md).
+Substance 3D Painter relies a lot on the GPU to perform its various computation. GPU drivers can sometimes be unstable or have regressions. We recommend to keep the GPU up to date to get the latest fixes and performance improvements. See: [GPU has outdated drivers](../../../../help/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers/gpu-has-outdated-drivers.md).
 
 ### Unstable Windows installation
 
@@ -40,7 +55,7 @@ For more information on this subject see :  [Use the System File Checker tool to
 
 ### Lack of Disk Space
 
-Since the introduction of the [Sparse Virtual Textures](../../../../features/sparse-virtual-textures/sparse-virtual-textures.md) in Substance 3D Painter, the application now use the disk to cache textures while working. If the system run out of space, this can lead to instabilities.
+Since the introduction of the [Sparse Virtual Textures](../../../../help/features/sparse-virtual-textures/sparse-virtual-textures.md) in Substance 3D Painter, the application now use the disk to cache textures while working. If the system run out of space, this can lead to instabilities.
 
 There are two easy solution to this problem:
 

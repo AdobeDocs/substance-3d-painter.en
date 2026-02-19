@@ -1,8 +1,21 @@
 ---
 title: "Lib Sparse - Shader API"
-description: ""
-helpx_description: "Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Sparse - Shader API"
+description: "Access the Lib Sparse shader API reference for Substance 3D Painter to work with sparse texture sampling in custom shaders."
+helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Sparse - Shader API
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - texture
+  - pbr
+  - painting
 ---
+
+
+
 
 # Lib Sparse - Shader API
 

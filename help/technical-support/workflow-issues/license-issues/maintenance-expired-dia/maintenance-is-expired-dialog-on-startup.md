@@ -1,8 +1,21 @@
 ---
 title: "Maintenance is expired dialog on startup"
-description: ""
-helpx_description: "Painter > Technical support > Workflow Issues > License Issues > Maintenance is expired dialog on startup"
+description: "Learn how to resolve the maintenance expired dialog appearing on startup in Substance 3D Painter for license management."
+helpx_description: Painter > Technical support > Workflow Issues > License Issues > Maintenance is expired dialog on startup
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/license-issues/maintenance-is-expired-dialog-on-startup.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - download-and-install
+  - account-management
+  - product-design
 ---
+
+
+
 
 # Maintenance is expired dialog on startup
 

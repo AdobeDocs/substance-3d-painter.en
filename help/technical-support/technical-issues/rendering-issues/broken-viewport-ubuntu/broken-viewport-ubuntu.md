@@ -1,7 +1,8 @@
 ---
 title: "Viewport appears broken or unresponsive on Ubuntu"
-description: ""
+description: "Learn how to fix broken or unresponsive viewport issues on Ubuntu in Substance 3D Painter for proper 3D rendering."
 helpx_description: "Viewport appears broken or unresponsive on Ubuntu"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/rendering-issues/broken-viewport-ubuntu.html"
 ---
 
 # Viewport appears broken or unresponsive on Ubuntu

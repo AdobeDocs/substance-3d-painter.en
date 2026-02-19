@@ -1,12 +1,25 @@
 ---
 title: "Advanced search queries"
-description: ""
-helpx_description: "Painter > Interface > Assets > Advanced search queries"
+description: "Learn how to create advanced search queries in Substance 3D Painter to find specific assets using complex search criteria."
+helpx_description: Painter > Interface > Assets > Advanced search queries
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/advanced-search-queries.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - intermediate-advanced
+helpx_learn_topic:
+  - assets
+  - orientation
+  - footage
 ---
+
+
+
 
 # Advanced search queries
 
-Advanced search queries allow you to construct complex searches and reuse them as [Saved searches](../saved-searches/saved-searches.md).
+Advanced search queries allow you to construct complex searches and reuse them as [Saved searches](../../../help/interface/assets/saved-searches/saved-searches.md).
 
 Advanced queries can be used in the search bar and can contain -
 

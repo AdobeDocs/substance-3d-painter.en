@@ -1,12 +1,25 @@
 ---
 title: "Paint brush"
-description: ""
-helpx_description: "Painter > Painting > Tool list > Paint brush"
+description: "Use the Paint Brush tool in Substance 3D Painter to paint textures directly onto 3D models with customizable brush settings."
+helpx_description: Painter > Painting > Tool list > Paint brush
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/paint-brush.html"
+helpx_creative_field:
+  - painting-illustration
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - brushes
+  - painting
+  - illustration
 ---
+
+
+
 
 # Paint brush
 
-The Paint tool is the default tool of Substance 3D Painter to apply colors and material properties on a 3D mesh. It has specific parameters which can be edited via the [Properties](../../../interface/properties/properties.md) .
+The Paint tool is the default tool of Substance 3D Painter to apply colors and material properties on a 3D mesh. It has specific parameters which can be edited via the [Properties](../../../help/interface/properties/properties.md) .
 
 The Paint tool simulates brush strokes via various behavior and settings to give the feeling of painting onto the 3D mesh.
 
@@ -14,7 +27,7 @@ The Paint tool simulates brush strokes via various behavior and settings to give
 
 ![](paint-toolbar.png)
 
-The [Toolbars](../../../interface/toolbars/toolbars.md) will display the following shortcuts (see their explanation in next sections) :
+The [Toolbars](../../../help/interface/toolbars/toolbars.md) will display the following shortcuts (see their explanation in next sections) :
 
 * Size
 * Flow
@@ -23,14 +36,14 @@ The [Toolbars](../../../interface/toolbars/toolbars.md) will display the followi
 
 Additional shortcuts are available which are common across some other tools :
 
-* [Lazy mouse](../../lazy-mouse/lazy-mouse.md)
-* [Symmetry](../../symmetry/symmetry.md)
+* [Lazy mouse](../../../help/painting/lazy-mouse/lazy-mouse.md)
+* [Symmetry](../../../help/painting/symmetry/symmetry.md)
 
 ## Preview
 
 ![](brush-preview.png)
 
-At the top of the [Properties](../../../interface/properties/properties.md) are the brush and material previews. They can be used to quickly glance at how the current tool is setup.
+At the top of the [Properties](../../../help/interface/properties/properties.md) are the brush and material previews. They can be used to quickly glance at how the current tool is setup.
 
 | *Name* | *Description* |
 | --- | --- |
@@ -45,7 +58,7 @@ The Brush parameters are what defines the look and feel of the brush stroke when
 
 >[!NOTE]
 >
-> Some parameters may be controlled by Pen Pressure when using a graphic tablet. This information can also be saved in [Presets](../../presets/presets.md) .   
+> Some parameters may be controlled by Pen Pressure when using a graphic tablet. This information can also be saved in [Presets](../../../help/painting/presets/presets.md) .   
 > Click on the dedicated button to enable or disable the pressure :
 > 
 > ![](pen-pressure.png)
@@ -74,7 +87,7 @@ The Alpha is the grayscale mask that is applied over each stamp inside the brush
 
 >[!NOTE]
 >
-> If a Substance graph has a parameter "hardness" (identifier) exposed, it can be controlled with the Hardness [Shortcuts](../../../interface/settings/shortcuts/shortcuts.md).
+> If a Substance graph has a parameter "hardness" (identifier) exposed, it can be controlled with the Hardness [Shortcuts](../../../help/interface/settings/shortcuts/shortcuts.md).
 
 ## Physics
 
@@ -84,14 +97,14 @@ The Physics properties allow to control the particles that are projected when pa
 
 By default the Physics properties are not available but can be enabled by two means :
 
-* By switching the tool to "Physical" in the [Toolbars](../../../interface/toolbars/toolbars.md) (or via the keyboard shortcut).
-* By clicking on a Particle brush preset in the [Assets](../../../interface/assets/assets.md) window.
+* By switching the tool to "Physical" in the [Toolbars](../../../help/interface/toolbars/toolbars.md) (or via the keyboard shortcut).
+* By clicking on a Particle brush preset in the [Assets](../../../help/interface/assets/assets.md) window.
 
 ## Stencil
 
 ![](stencil.png)
 
-The Stencil is an additional grayscale mask for the brush stroke. Contrary to the alpha which is applied for each individual stamps, the Stencil is a global mask applied from the [Viewport](../../../interface/viewport/viewport.md) point of view.
+The Stencil is an additional grayscale mask for the brush stroke. Contrary to the alpha which is applied for each individual stamps, the Stencil is a global mask applied from the [Viewport](../../../help/interface/viewport/viewport.md) point of view.
 
 >[!NOTE]
 >
@@ -101,7 +114,7 @@ The Stencil is an additional grayscale mask for the brush stroke. Contrary to th
 
 | *Mode* | *Viewport* |
 | --- | --- |
-| **No resource loaded** | When no resource is loaded, the stencil has no effect. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="stencil-viewport-none.png" width="350px"/></div> **Note:**  It is possible to disable temporarily the Stencil mask without removing the resource by pressing and maintaining the [Shortcuts](../../../interface/settings/shortcuts/shortcuts.md) "N". |
+| **No resource loaded** | When no resource is loaded, the stencil has no effect. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="stencil-viewport-none.png" width="350px"/></div> **Note:**  It is possible to disable temporarily the Stencil mask without removing the resource by pressing and maintaining the [Shortcuts](../../../help/interface/settings/shortcuts/shortcuts.md) "N". |
 | **Move Stencil** | Moving the Stencil can be done by pressing the  **S**  key and click and dragging with the  **Middle Mouse**  button. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="stencil-move.gif" width="350px"/></div> |
 | **Rotate Stencil** | Rotating the Stencil can be done by pressing the  **S**  key and click and dragging with the  **Left Mouse**  button. Additionally , pressing the  **Shift**  key allows to snap the rotation every  **90 degrees**  . <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="stencil-rotate.gif" width="350px"/></div> |
 | **Resize Stencil** | Resizing the Stencil can be done by pressing the  **S**  key and click and dragging with the  **Right Mouse**  button. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r4-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="stencil-resize.gif" width="350px"/></div> |
@@ -119,7 +132,7 @@ The tiling mode setting controls how the Stencil mask is repeated over the viewp
 
 ![](material.png)
 
-A Material is composed of multiple channels where each retain specific properties. The list of channels is dependent of those defined in [Texture Set settings](../../../interface/texture-set/texture-set-settings/texture-set-settings.md) .
+A Material is composed of multiple channels where each retain specific properties. The list of channels is dependent of those defined in [Texture Set settings](../../../help/interface/texture-set/texture-set-settings/texture-set-settings.md) .
 
 The  **Material mode**  button is an easy way to load a Substance files or a preset to quickly assign and edit multiple channels at once.
 

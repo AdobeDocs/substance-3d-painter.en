@@ -1,8 +1,21 @@
 ---
 title: "Version 2017.1"
-description: ""
-helpx_description: "Painter > Release notes > Old versions > Version 2017.1"
+description: "Review release notes for Substance 3D Painter version 2017.1 to learn about new features, improvements, and bug fixes."
+helpx_description: Painter > Release notes > Old versions > Version 2017.1
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-1.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - branding
+  - cross-product-workflows
+  - xr
 ---
+
+
+
 
 # Version 2017.1
 

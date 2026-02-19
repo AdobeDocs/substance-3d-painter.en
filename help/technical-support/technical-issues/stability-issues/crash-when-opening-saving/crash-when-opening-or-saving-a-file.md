@@ -1,8 +1,23 @@
 ---
 title: "Crash when opening or saving a file"
-description: ""
-helpx_description: "Painter > Technical support > Technical Issues > Stability Issues > Crash when opening or saving a file"
+description: "Learn how to fix Substance 3D Painter crashes when opening or saving files for reliable project management."
+helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash when opening or saving a file
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-when-opening-or-saving-a-file.html"
+helpx_creative_field:
+  - painting-illustration
+  - web
+  - 3d-immersive
+  - graphic-design
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - troubleshooting
+  - gradient-mesh
+  - system-requirements
 ---
+
+
+
 
 # Crash when opening or saving a file
 
@@ -10,7 +25,7 @@ There are a few reasons why Substance 3D Painter would crash on Windows when ope
 
 ## Software Conflicts
 
-Some program can add custom shell extensions which can lead to instabilities or crashes. Take a look at the [Software conflicts](../../startup-issues/software-conflicts/software-conflicts.md) list for more information.
+Some program can add custom shell extensions which can lead to instabilities or crashes. Take a look at the [Software conflicts](../../../../help/technical-support/technical-issues/startup-issues/software-conflicts/software-conflicts.md) list for more information.
 
 ## Shell extensions/Custom themes
 

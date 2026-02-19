@@ -1,7 +1,8 @@
 ---
 title: "Version 9.1"
-description: ""
+description: "Review release notes for Substance 3D Painter version 9.1 to learn about new features, improvements, and bug fixes."
 helpx_description: "Substance 3D Painter 9.1 adds tangent control for the Path tool, support of the SVG file format, the ability to import and apply resources by drag and drop and support for translucency in the viewport."
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-9-1.html"
 ---
 
 # Version 9.1
@@ -43,7 +44,7 @@ In this new version we continue the development of the Path tool (introduced in 
 
 >[!NOTE]
 >
-> For more information about the Path tool, [see the dedicated documentation](../../painting/tool-list/path/path.md).
+> For more information about the Path tool, [see the dedicated documentation](../../help/painting/tool-list/path/path.md).
 
 ### New support for translucency, transparency and absorption in viewport
 
@@ -55,7 +56,7 @@ So authoring materials like <b>glass</b>, <b>foliage</b> or <b>plastics</b> with
 
 * <b>New ASM shader settings</b>
 
-  The ASM shader has been updated to support new functionalities, which can be modified via the [Shader settings](../../interface/shader-settings/shader-settings.md) window:
+  The ASM shader has been updated to support new functionalities, which can be modified via the [Shader settings](../../help/interface/shader-settings/shader-settings.md) window:
 
   * <b>Transparency</b> (opacity): is it not necessary anymore to switch to another shader to get transparent surfaces, like foliage. Instead, enable either the <b>alpha test</b> or <b>alpha blending</b> parameter under the <b>Geometry &gt; Opacity</b> group. The usual settings, like dithering, are also available.
   * <b>Translucency</b>: this new property allows to create surfaces like glass, making shapes transparent while keeping the specular reflections. To use it add a Translucency channel in your project and enable the <b>Translucency</b> parameter under the <b>Interior</b> group.
@@ -114,7 +115,7 @@ SVG file are quite handy to represent logos or shapes precisely while being very
 
 >[!NOTE]
 >
-> For more information about the SVG format and settings, [see the dedicated documentation](../../painting/vector-graphic-svg/vector-graphic-svg.md).
+> For more information about the SVG format and settings, [see the dedicated documentation](../../help/painting/vector-graphic-svg/vector-graphic-svg.md).
 
 ### New import of resources via drag and drop
 
@@ -133,7 +134,7 @@ This release make it possible to drag and drop an external file into different c
 
 >[!NOTE]
 >
-> For more information on importing resources, [see the dedicated documentation](../../content/importing-assets/import-drag-and-drop/import-drag-and-drop.md).
+> For more information on importing resources, [see the dedicated documentation](../../help/content/importing-assets/import-drag-and-drop/import-drag-and-drop.md).
 
 ### New resource drag and drop behaviors
 

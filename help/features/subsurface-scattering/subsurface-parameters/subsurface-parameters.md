@@ -1,21 +1,34 @@
 ---
 title: "Subsurface Parameters"
-description: ""
-helpx_description: "Painter > Features > Subsurface Scattering > Subsurface Parameters"
+description: "Learn how to configure subsurface scattering parameters in Substance 3D Painter to create realistic translucent materials."
+helpx_description: Painter > Features > Subsurface Scattering > Subsurface Parameters
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering/subsurface-parameters.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - shading
+  - reflections
+  - effects
 ---
+
+
+
 
 # Subsurface Parameters
 
 Substance 3D Painter real-time subsurface implementation is a screen-space subsurface scattering effect. The parameters to control it are explained in this page.   
 The current implementation is based on the "Approximate Reflectance Profiles for Efficient Subsurface Scattering" method  [published by PIXAR](http://graphics.pixar.com/library/ApproxBSSRDF/).
 
-For examples of materials based on these parameters, see: [Subsurface Material Type](../subsurface-material-type/subsurface-material-type.md).
+For examples of materials based on these parameters, see: [Subsurface Material Type](../../../help/features/subsurface-scattering/subsurface-material-type/subsurface-material-type.md).
 
 ## Shader/MDL Parameters
 
 ![](shader-parameters.png)
 
-Available in the [Shader settings](../../../interface/shader-settings/shader-settings.md) window.
+Available in the [Shader settings](../../../help/interface/shader-settings/shader-settings.md) window.
 
 | *Setting* | *Description* |
 | --- | --- |
@@ -28,7 +41,7 @@ Available in the [Shader settings](../../../interface/shader-settings/shader-set
 
 ![](display-settings-1.png)
 
-Available in the [Display settings](../../../interface/display-settings/display-settings.md) window.
+Available in the [Display settings](../../../help/interface/display-settings/display-settings.md) window.
 
 >[!NOTE]
 >
@@ -36,4 +49,4 @@ Available in the [Display settings](../../../interface/display-settings/display-
 
 | *Setting* | *Description* |
 | --- | --- |
-| **Sample Count** | Controls the amount of samples that will be performed to generate the Subsurface blur in screen-space. More samples means less noise but will impact performances.Comparison between 8, 32 and 64 samples when looking close to a surface :   <div><img data-preserve-html="true" src="samples-sss-v2.jpg" width="650"/></div>  **Note:**  The amount of noise can also be reduced by enabling [Camera settings](../../../interface/display-settings/camera-settings/camera-settings.md) without increasing the amount of samples. |
+| **Sample Count** | Controls the amount of samples that will be performed to generate the Subsurface blur in screen-space. More samples means less noise but will impact performances.Comparison between 8, 32 and 64 samples when looking close to a surface :   <div><img data-preserve-html="true" src="samples-sss-v2.jpg" width="650"/></div>  **Note:**  The amount of noise can also be reduced by enabling [Camera settings](../../../help/interface/display-settings/camera-settings/camera-settings.md) without increasing the amount of samples. |

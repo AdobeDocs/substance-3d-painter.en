@@ -1,8 +1,23 @@
 ---
 title: "Issues with Nvidia GPUs on recent Mac OS versions"
-description: ""
-helpx_description: "Painter > Technical support > Technical Issues > GPU Issues > Issues with Nvidia GPUs on recent Mac OS versions"
+description: "Learn how to resolve Nvidia GPU compatibility issues on recent macOS versions in Substance 3D Painter for stable performance."
+helpx_description: Painter > Technical support > Technical Issues > GPU Issues > Issues with Nvidia GPUs on recent Mac OS versions
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/issues-with-nvidia-gpus-on-recent-mac-os-versions.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - painting-illustration
+  - motion
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - known-issues
+  - system-requirements
+  - troubleshooting
 ---
+
+
+
 
 # Issues with Nvidia GPUs on recent Mac OS versions
 

@@ -1,12 +1,26 @@
 ---
 title: "Preserve brush strokes setting stays disabled"
-description: ""
-helpx_description: "Painter > Technical support > Workflow Issues > Project Issues > Preserve brush strokes setting stays disabled"
+description: "Learn how to fix the preserve brush strokes setting staying disabled in Substance 3D Painter for proper brush stroke preservation."
+helpx_description: Painter > Technical support > Workflow Issues > Project Issues > Preserve brush strokes setting stays disabled
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/project-issues/preserve-brush-strokes-setting-stays-disabled.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - painting-illustration
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - brushes
+  - painting
+  - strokes
 ---
+
+
+
 
 # Preserve brush strokes setting stays disabled
 
-Because of an unfortunate bug introduced in Substance 3D Painter 1.5 (partially fixed in 1.7) some projects have lost metadata related to the mesh. This bug makes therefore the "Preserve strokes positions on mesh" setting in the [ Project Configuration ](../../../../interface/project-configuration/project-configuration.md) window to stay disabled.
+Because of an unfortunate bug introduced in Substance 3D Painter 1.5 (partially fixed in 1.7) some projects have lost metadata related to the mesh. This bug makes therefore the "Preserve strokes positions on mesh" setting in the [ Project Configuration ](../../../../help/interface/project-configuration/project-configuration.md) window to stay disabled.
 
 To solve the issue some specific steps need to be followed :
 

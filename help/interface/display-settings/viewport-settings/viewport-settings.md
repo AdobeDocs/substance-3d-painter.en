@@ -1,8 +1,21 @@
 ---
 title: "Viewport settings"
-description: ""
-helpx_description: "Painter > Interface > Display settings > Viewport settings"
+description: "Learn how to configure viewport settings in Substance 3D Painter to customize display options and rendering quality."
+helpx_description: Painter > Interface > Display settings > Viewport settings
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/display-settings/viewport-settings.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - channels
+  - landscape-photography
+  - adjustments
 ---
+
+
+
 
 # Viewport settings
 
@@ -25,7 +38,7 @@ Default settings are a compromise of quality and performances and should only be
 
 ![](camera-frame.png)
 
-For more information regarding Camera Management see : [Camera management](../../viewport/camera-management/camera-management.md)
+For more information regarding Camera Management see : [Camera management](../../../help/interface/viewport/camera-management/camera-management.md)
 
 ## Tool display
 

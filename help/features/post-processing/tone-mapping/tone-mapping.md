@@ -1,8 +1,21 @@
 ---
 title: "Tone Mapping"
-description: ""
-helpx_description: "Painter > Features > Post Processing > Tone Mapping"
+description: "Learn how to use tone mapping post-processing in Substance 3D Painter to adjust exposure and color grading in the viewport."
+helpx_description: Painter > Features > Post Processing > Tone Mapping
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/tone-mapping.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - hdri
+  - hdr
+  - enhancing-color
 ---
+
+
+
 
 # Tone Mapping
 

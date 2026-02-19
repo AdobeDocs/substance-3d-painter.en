@@ -1,8 +1,21 @@
 ---
 title: "Camera settings"
-description: ""
-helpx_description: "Painter > Interface > Display settings > Camera settings"
+description: "Learn how to configure camera settings in Substance 3D Painter to control viewport camera behavior and projection."
+helpx_description: Painter > Interface > Display settings > Camera settings
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/display-settings/camera-settings.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - enhancing-color
+  - landscape-photography
+  - adjustments
 ---
+
+
+
 
 # Camera settings
 
@@ -20,7 +33,7 @@ This section of the **Display Settings** controls the behavior of the camera as 
 
 ![](post.png)
 
-See the [Post-Effect page](../../../features/post-processing/post-processing.md) for more information.
+See the [Post-Effect page](../../../help/features/post-processing/post-processing.md) for more information.
 
 ## Temporal anti-aliasing
 
@@ -43,13 +56,13 @@ The Anti-Aliasing can also be used to filter the **Alpha-Test** shader if the se
 
 ![](subscat.png)
 
-See the [Subsurface Scattering](../../../features/subsurface-scattering/subsurface-scattering.md) page for more information.
+See the [Subsurface Scattering](../../../help/features/subsurface-scattering/subsurface-scattering.md) page for more information.
 
 ## Color profile
 
 ![](profile-13.png)
 
-See the [Color Profile page](../../../features/post-processing/color-profile/color-profile.md) for more information.
+See the [Color Profile page](../../../help/features/post-processing/color-profile/color-profile.md) for more information.
 
 ## Tone mapping
 

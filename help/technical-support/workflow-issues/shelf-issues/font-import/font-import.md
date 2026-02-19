@@ -1,12 +1,13 @@
 ---
 title: "Font file cannot be imported"
-description: ""
+description: "Learn how to fix font file import issues in Substance 3D Painter to successfully import and use font resources."
 helpx_description: "Substance 3D Painter"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/shelf-issues/font-import.html"
 ---
 
 # Font file cannot be imported
 
-With the introduction of the [Text resource](../../../../painting/text-resource/text-resource.md), fonts file are automatically gathered on startup. Font files can also be manually imported.
+With the introduction of the [Text resource](../../../../help/painting/text-resource/text-resource.md), fonts file are automatically gathered on startup. Font files can also be manually imported.
 
 In these cases a few error messages may appear:
 

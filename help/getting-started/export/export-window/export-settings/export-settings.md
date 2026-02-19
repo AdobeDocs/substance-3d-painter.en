@@ -1,8 +1,21 @@
 ---
 title: "Export settings"
-description: ""
-helpx_description: "Painter > Getting Started > Export > Export window > Export settings"
+description: "Learn how to configure export settings in Substance 3D Painter to control texture resolution, format, and output options."
+helpx_description: Painter > Getting Started > Export > Export window > Export settings
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window/export-settings.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - export
+  - texture
+  - printing
 ---
+
+
+
 
 # Export settings
 
@@ -29,7 +42,7 @@ This section contains the shared settings for each textures that will be generat
 | Setting | Description |
 | --- | --- |
 | <b>Output directory</b> | Save location for exported textures. |
-| <b>Output template</b> | Select the output template used to name and composite the channels into texture files. For more information on templates see the [Output templates](../../export-presets/export-presets.md) list. |
+| <b>Output template</b> | Select the output template used to name and composite the channels into texture files. For more information on templates see the [Output templates](../../../../help/getting-started/export/export-presets/export-presets.md) list. |
 | <b>File type  </b> | The file format and its bit depth. If the option <b>Based on output template</b> is selected, the file format is inherited from the export preset (which allows format and bit depth to be determined per texture instead of globally). The available bit depth depends on the file type; see the table below for more information. |
 | <b>Size  </b> | The resolution of the exported texture file. Possible values:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Based on each Texture Set's size</b></li> <li data-preserve-html="true"><b>128</b></li> <li data-preserve-html="true"><b>256</b></li> <li data-preserve-html="true"><b>512</b></li> <li data-preserve-html="true"><b>1024</b></li> <li data-preserve-html="true"><b>2048</b></li> <li data-preserve-html="true"><b>4096</b></li> <li data-preserve-html="true"><b>8192</b> (only available with GPUs that have more than 1.5GB of Vram)</li> </ul> |
 | <b>Padding  </b> | How the area outside the UV islands is filled inside the texture. Possible values are:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>No padding (passthrough)</b>: use the current state of the texture as-is.</li> <li data-preserve-html="true"><b>Dilation infinite</b>: stretch UV island borders until they reach neighbor borders or the end of the texture.</li> <li data-preserve-html="true"><b>Dilation + transparent</b>: stretch UV island borders to the given distance in pixels, the rest is transparent.</li> <li data-preserve-html="true"><b>Dilation + default background color</b>: stretch UV island borders to the given distance in pixels, the rest is filled with the default color of the Texture Set's channel.</li> <li data-preserve-html="true"><b>Dilation + default background color</b>: stretch UV island borders to the given distance in pixels, the rest is filled with the default color of the Texture Set's channel.</li> <li data-preserve-html="true"><b>Dilation + diffusion</b>: stretch UV island borders to the given distance in pixels, the rest is filled with a blurry version of the UV island (based on mip-maps).</li> </ul> |
@@ -80,7 +93,7 @@ When a specific texture set is selected, the Output maps section is visible for 
 
 ![](export-output-maps.png)
 
-This section lists all the textures that will be generated based on the current export preset. It indicates the texture name template, the file format, and bit depth, and the color space as well if [Color management](../../../../features/color-management/color-management.md) is enabled.
+This section lists all the textures that will be generated based on the current export preset. It indicates the texture name template, the file format, and bit depth, and the color space as well if [Color management](../../../../help/features/color-management/color-management.md) is enabled.
 
 This section allows you to disable the export of specific files or to override the <b>file format</b> and <b>bit depth</b>.
 

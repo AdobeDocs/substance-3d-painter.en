@@ -1,8 +1,22 @@
 ---
 title: "Querying Current Software Version"
-description: ""
-helpx_description: "Painter > Pipeline and integration > Configuration > Querying Current Software Version"
+description: "Learn how to query the current Substance 3D Painter software version programmatically for pipeline integration and automation."
+helpx_description: Painter > Pipeline and integration > Configuration > Querying Current Software Version
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/configuration/querying-current-software-version.html"
+helpx_creative_field:
+  - video
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - versions
+  - automation
+  - orientation
 ---
+
+
+
 
 # Querying Current Software Version
 

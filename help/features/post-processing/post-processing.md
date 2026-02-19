@@ -1,8 +1,21 @@
 ---
 title: "Post Processing"
-description: ""
-helpx_description: "Painter > Features > Post Processing"
+description: "Learn how to use post-processing effects in Substance 3D Painter to enhance viewport rendering with color grading and visual effects."
+helpx_description: Painter > Features > Post Processing
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - effects
+  - painting
+  - creative-effects
 ---
+
+
+
 
 # Post Processing
 
@@ -37,10 +50,10 @@ The Post-Process effects of Substance 3D Painter are powered by the middleware  
 
 The following pages describes the various post process effects supported by Substance 3D Painter:
 
-* [Color correction](color-correction/color-correction.md)
-* [Depth of Field](depth-of-field/depth-of-field.md)
-* [Glare](glare/glare.md)
-* [Lens Distortion](lens-distortion/lens-distortion.md)
-* [Tone Mapping](tone-mapping/tone-mapping.md)
-* [Vignette](vignette/vignette.md)
-* [Color Profile](color-profile/color-profile.md)
+* [Color correction](../../help/features/post-processing/color-correction/color-correction.md)
+* [Depth of Field](../../help/features/post-processing/depth-of-field/depth-of-field.md)
+* [Glare](../../help/features/post-processing/glare/glare.md)
+* [Lens Distortion](../../help/features/post-processing/lens-distortion/lens-distortion.md)
+* [Tone Mapping](../../help/features/post-processing/tone-mapping/tone-mapping.md)
+* [Vignette](../../help/features/post-processing/vignette/vignette.md)
+* [Color Profile](../../help/features/post-processing/color-profile/color-profile.md)

@@ -1,8 +1,21 @@
 ---
 title: "Projects are really big"
-description: ""
-helpx_description: "Painter > Technical support > Workflow Issues > Project Issues > Projects are really big"
+description: "Learn how to reduce Substance 3D Painter project file sizes to optimize performance and storage requirements."
+helpx_description: Painter > Technical support > Workflow Issues > Project Issues > Projects are really big
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/project-issues/projects-are-really-big.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - intermediate-advanced
+helpx_learn_topic:
+  - projects
+  - preparing-source-files
+  - collaboration
 ---
+
+
+
 
 # Projects are really big
 
@@ -35,7 +48,7 @@ When using many resource in project, Substance 3D Painter copy them. For example
 
 To remove unused resource, use the  **Clean**  action from the  [File menu](https://substance3d.adobe.com/display/DRAFTPAINTER/File+menu)  . Then save the project (this will trigger the actual removal of the resource).
 
-Resource that are still used in a project cannot be removed. This means disabled Texture Set still reference resources and prevent them from being deleted. To avoid that, remove disabled Texture Sets in the [ Texture Set reassignment window](../../../../interface/texture-set/texture-set-reassignment/texture-set-reassignment.md).
+Resource that are still used in a project cannot be removed. This means disabled Texture Set still reference resources and prevent them from being deleted. To avoid that, remove disabled Texture Sets in the [ Texture Set reassignment window](../../../../help/interface/texture-set/texture-set-reassignment/texture-set-reassignment.md).
 
 ### Reduce the Texture Set resolution
 
@@ -47,7 +60,7 @@ To reduce the cache footprint simply change the resolution to a lower number lik
 
 Saving a project incrementally (via CTRL+S) a lot can fragment the project file archive. While not a critical issue, this can introduce empty space in the project file which can increase the size.
 
-Use the "Save and Compact" function in the [ File Menu](../../../../interface/main-menu/file-menu/file-menu.md) to re-save the project and remove wasted empty space. This save action will be longer than a regular save but can significantly reduce the file footprint.
+Use the "Save and Compact" function in the [ File Menu](../../../../help/interface/main-menu/file-menu/file-menu.md) to re-save the project and remove wasted empty space. This save action will be longer than a regular save but can significantly reduce the file footprint.
 
 ### Reduce the baked Mesh maps size
 

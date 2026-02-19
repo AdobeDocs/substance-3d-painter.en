@@ -1,12 +1,25 @@
 ---
 title: "Layer instancing"
-description: ""
-helpx_description: "Painter > Interface > Layer stack > Layer instancing"
+description: "Learn how to use layer instancing in Substance 3D Painter to reuse layers across multiple texture sets efficiently."
+helpx_description: Painter > Interface > Layer stack > Layer instancing
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/layer-instancing.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - instances
+  - layers
+  - replacing-backgrounds
 ---
+
+
+
 
 # Layer instancing
 
-**Layer instancing** allows to synchronize layer parameters across multiple layers and [Texture Sets](../../texture-set/texture-set.md) while still being able to generate a mesh dependent result.
+**Layer instancing** allows to synchronize layer parameters across multiple layers and [Texture Sets](../../../help/interface/texture-set/texture-set.md) while still being able to generate a mesh dependent result.
 
 When a layer instance is created, the original layer (or source layer) is used to replicate parameters across all the existing instances. **Only the source layer can be modified**.
 

@@ -1,8 +1,27 @@
 ---
 title: "Impossible to use the ALT keyboard shortcut on Linux"
-description: ""
-helpx_description: "Painter > Technical support > Technical Issues > Miscellaneous Issues > Impossible to use the ALT keyboard shortcut on Linux"
+description: "Learn how to fix ALT keyboard shortcut issues on Linux in Substance 3D Painter for proper keyboard navigation."
+helpx_description: Painter > Technical support > Technical Issues > Miscellaneous Issues > Impossible to use the ALT keyboard shortcut on Linux
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/impossible-to-use-the-alt-keyboard-shortcut-on-linux.html"
+helpx_creative_field:
+  - painting-illustration
+  - video
+  - social-media
+  - graphic-design
+  - web
+  - 3d-immersive
+  - motion
+  - publishing
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - workspace
+  - download-and-install
+  - preferences
 ---
+
+
+
 
 # Impossible to use the ALT keyboard shortcut on Linux
 

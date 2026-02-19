@@ -1,8 +1,21 @@
 ---
 title: "Lib Sampler - Shader API"
-description: ""
-helpx_description: "Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Sampler - Shader API"
+description: "Access the Lib Sampler shader API reference for Substance 3D Painter to sample textures and data in custom shader development."
+helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Sampler - Shader API
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sampler-shader-api.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - reflections
+  - color
+  - enhancing-color
 ---
+
+
+
 
 # Lib Sampler - Shader API
 

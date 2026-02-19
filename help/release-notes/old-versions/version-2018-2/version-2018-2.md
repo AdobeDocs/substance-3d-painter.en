@@ -1,8 +1,22 @@
 ---
 title: "Version 2018.2"
-description: ""
-helpx_description: "Painter > Release notes > Old versions > Version 2018.2"
+description: "Review release notes for Substance 3D Painter version 2018.2 to learn about new features, improvements, and bug fixes."
+helpx_description: Painter > Release notes > Old versions > Version 2018.2
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2018-2.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - painting-illustration
+helpx_experience_level:
+  - intermediate-advanced
+helpx_learn_topic:
+  - 3d
+  - camera
+  - perspective
 ---
+
+
+
 
 # Version 2018.2
 
@@ -32,7 +46,7 @@ To add Subsurface Scattering in a project follow these few steps :
 1. Add a "**Scattering**" channel in the current texture set
 1. Use a fill layer or **paint in white** in the new channel to **reveal** the subsurface effect in the viewport.
 
-A more detailed procedure can be found in the [Subsurface Scattering documentation](../../../features/subsurface-scattering/subsurface-scattering.md).
+A more detailed procedure can be found in the [Subsurface Scattering documentation](../../../help/features/subsurface-scattering/subsurface-scattering.md).
 
 >[!NOTE]
 >
@@ -68,7 +82,7 @@ The contextual toolbar at the top of the viewport will also adapt depending of t
 
 ![](contextual-toolbar-manipulator.png)
 
-For more details, see the [Fill Layer documentation](../../../painting/fill-projections/fill-projections.md).
+For more details, see the [Fill Layer documentation](../../../help/painting/fill-projections/fill-projections.md).
 
 ### Non-square and non-tilling support for Stencil and Projection tool
 
@@ -100,14 +114,14 @@ This new parameter can be saved in a tool or brush preset, making it easy to sha
 It is now possible to **import custom cameras** inside Substance Painter alongside the mesh import.  
 Cameras can be selected **to look through** them in the **3D viewport** and used **to render in Iray**.
 
-For more details, see the [Camera Management documentation](../../../interface/viewport/camera-management/camera-management.md).
+For more details, see the [Camera Management documentation](../../../help/interface/viewport/camera-management/camera-management.md).
 
 To **import cameras** into a project :
 
 1. Export the mesh for the project with cameras in the same file (with a supported format such as FBX, Alembic or glTF)
-1. Select the "import cameras" settings in the [new project window](../../../getting-started/project-creation/project-creation.md) (or [project configuration](../../../interface/project-configuration/project-configuration.md)).  
+1. Select the "import cameras" settings in the [new project window](../../../help/getting-started/project-creation/project-creation.md) (or [project configuration](../../../help/interface/project-configuration/project-configuration.md)).  
     ![](new-project-cameras.png)
-1. Switch to the desired camera with the dropdown in the viewport or by using the settings in the [Display Settings](../../../interface/display-settings/camera-settings/camera-settings.md).  
+1. Switch to the desired camera with the dropdown in the viewport or by using the settings in the [Display Settings](../../../help/interface/display-settings/camera-settings/camera-settings.md).  
     ![](cmaera-select-viewport.png)
 
 The Camera Settings in the Display Settings window have been extended to control the Camera's properties.   
@@ -115,7 +129,7 @@ It is possible to **switch** between cameras, see its **ratio** and **lock** its
 
 ![](camera-properties-2.png)
 
-The camera frame (and it's gate) is also taken into account, making it possible to view and paint via a very specific point of view. The frame and gate are displayed over the 3D Viewport and its opacity can be controlled in the **Viewport Settings** from the [Display Settings](../../../interface/display-settings/camera-settings/camera-settings.md) window :
+The camera frame (and it's gate) is also taken into account, making it possible to view and paint via a very specific point of view. The frame and gate are displayed over the 3D Viewport and its opacity can be controlled in the **Viewport Settings** from the [Display Settings](../../../help/interface/display-settings/camera-settings/camera-settings.md) window :
 
 ![](camera-gate.png)
 

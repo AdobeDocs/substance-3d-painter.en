@@ -1,8 +1,21 @@
 ---
 title: "Mesh Map"
-description: ""
-helpx_description: "Painter > Content > Creating custom effects > Mesh Map"
+description: "Learn how to use mesh maps in custom effects for Substance 3D Painter to access geometry-based texture information."
+helpx_description: Painter > Content > Creating custom effects > Mesh Map
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/mesh-map.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - baking
+  - normal-maps
+  - annotation
 ---
+
+
+
 
 # Mesh Map
 

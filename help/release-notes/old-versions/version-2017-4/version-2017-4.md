@@ -1,8 +1,21 @@
 ---
 title: "Version 2017.4"
-description: ""
-helpx_description: "Painter > Release notes > Old versions > Version 2017.4"
+description: "Review release notes for Substance 3D Painter version 2017.4 to learn about new features, improvements, and bug fixes."
+helpx_description: Painter > Release notes > Old versions > Version 2017.4
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-4.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - layers
+  - materials
+  - xr
 ---
+
+
+
 
 # Version 2017.4
 
@@ -32,7 +45,7 @@ There are two ways to create an instance :
 > * If a smart material is saved with instanced layers, the source layer must be in the smart material folder otherwise the instance link will be broken.
 > * Depending of the layer stack setup, instanced layers can create a cycle, which is not supported and will break the instance result. Either delete or move the instance to fix it.
 
-For more details and examples, see the dedicated page : [Layer instancing](../../../interface/layer-stack/layer-instancing/layer-instancing.md)
+For more details and examples, see the dedicated page : [Layer instancing](../../../help/interface/layer-stack/layer-instancing/layer-instancing.md)
 
 ### DCC Live-link with Unreal Engine 4 support
 

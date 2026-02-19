@@ -1,8 +1,21 @@
 ---
 title: "Shader settings"
-description: ""
-helpx_description: "Painter > Interface > Shader settings"
+description: "Learn how to configure shader settings in Substance 3D Painter to customize material rendering and visual appearance."
+helpx_description: Painter > Interface > Shader settings
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/shader-settings.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - shading
+  - texture
+  - materials
 ---
+
+
+
 
 # Shader settings
 
@@ -35,7 +48,7 @@ A Shader Instance is a shader based on an original shader file but with customiz
 
 **For example:**  a project can use a base shader, while one texture set uses a custom shader to support opacity.
 
-To create and manage Shader Instances, see the [Texture Set list](../texture-set/texture-set-list/texture-set-list.md) window.
+To create and manage Shader Instances, see the [Texture Set list](../../help/interface/texture-set/texture-set-list/texture-set-list.md) window.
 
 ## Shader parameters
 

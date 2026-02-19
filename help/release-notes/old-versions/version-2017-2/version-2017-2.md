@@ -1,8 +1,21 @@
 ---
 title: "Version 2017.2"
-description: ""
-helpx_description: "Painter > Release notes > Old versions > Version 2017.2"
+description: "Review release notes for Substance 3D Painter version 2017.2 to learn about new features, improvements, and bug fixes."
+helpx_description: Painter > Release notes > Old versions > Version 2017.2
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-2.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - anchors
+  - effects
+  - asset-warp
 ---
+
+
+
 
 # Version 2017.2
 
@@ -20,7 +33,7 @@ Release date : *27 July 2017*
 
 Because the Anchor works as an effect, in can be created in **many situations** : the **content** of a layer, the **mask** and even as a **pass-through** filter. The effect also work even if the layer where it is located is disabled. Note that the Anchor define only a location, not what you can retrieve from it. This information is defined where the reference to the anchor is created.
 
-For more technical details and examples, see the dedicated page : [Anchor Point](../../../features/effects/anchor-point/anchor-point.md)
+For more technical details and examples, see the dedicated page : [Anchor Point](../../../help/features/effects/anchor-point/anchor-point.md)
 
 ### New various improvements
 

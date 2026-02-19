@@ -1,8 +1,21 @@
 ---
 title: "Preferences and content migration"
-description: ""
-helpx_description: "Painter > Pipeline and integration > Resource management > Preferences and content migration"
+description: "Learn how to migrate preferences and content in Substance 3D Painter when upgrading or moving to a new system."
+helpx_description: Painter > Pipeline and integration > Resource management > Preferences and content migration
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/preferences-and-content-migration.html"
+helpx_creative_field:
+  - 3d-immersive
+  - motion
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - import
+  - cross-product-workflows
+  - creative-cloud-libraries
 ---
+
+
+
 
 # Preferences and content migration
 

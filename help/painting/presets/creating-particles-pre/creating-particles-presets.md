@@ -1,8 +1,21 @@
 ---
 title: "Creating particles presets"
-description: ""
-helpx_description: "Painter > Painting > Presets > Creating particles presets"
+description: "Learn how to create particle brush presets in Substance 3D Painter to add dynamic texture painting effects to your workflow."
+helpx_description: Painter > Painting > Presets > Creating particles presets
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-particles-presets.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - brushes
+  - painting
+  - illustration
 ---
+
+
+
 
 # Creating particles presets
 
@@ -14,4 +27,4 @@ For more information see the dedicated pages :
 
 * [Installing the particle editor](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/installation-of-the-editor-67403780.html)
 * [Overview of the particle editor](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/overview-of-popcornfx-particle-editor-67796996.html)
-* [Creating A New Particle Script](creating-new-particle-scr/creating-a-new-particle-script.md)
+* [Creating A New Particle Script](../../../help/painting/presets/creating-particles-pre/creating-new-particle-scr/creating-a-new-particle-script.md)

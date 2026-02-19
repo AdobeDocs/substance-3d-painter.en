@@ -1,7 +1,8 @@
 ---
 title: "Getting Started"
-description: ""
+description: "Get started with Substance 3D Painter by learning the basics of project creation, interface navigation, and texture painting workflows."
 helpx_description: "Painter > Getting Started"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started.html"
 ---
 
 # Getting Started
@@ -17,15 +18,15 @@ From the <b>Welcome screen</b> window, you can access the following pages:
 
 Otherwise, get started with the basics of project creation and texture exports:
 
-* [Project Creation](project-creation/project-creation.md)
-* [Export](export/export.md)
-* [Glossary](glossary/glossary.md)
-* [Performance](../technical-support/performances-guidelines/performances-guidelines.md)
-* [Activation and licenses](activation-and-licenses/activation-and-licenses.md)
-* [System requirements](system-requirements/system-requirements.md)
+* [Project Creation](../help/getting-started/project-creation/project-creation.md)
+* [Export](../help/getting-started/export/export.md)
+* [Glossary](../help/getting-started/glossary/glossary.md)
+* [Performance](../help/technical-support/performances-guidelines/performances-guidelines.md)
+* [Activation and licenses](../help/getting-started/activation-and-licenses/activation-and-licenses.md)
+* [System requirements](../help/getting-started/system-requirements/system-requirements.md)
 
 To accelerate your workflow, take a look at the list of shortcuts:
 
-* [Shortcuts ](../interface/settings/shortcuts/shortcuts.md)
+* [Shortcuts ](../help/interface/settings/shortcuts/shortcuts.md)
 
 ![](welcome-screen-2021.png){width="500px"}

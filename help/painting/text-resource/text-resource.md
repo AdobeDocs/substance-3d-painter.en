@@ -1,7 +1,8 @@
 ---
 title: "Text Resource"
-description: ""
+description: "Learn how to use text resources in Substance 3D Painter to add text and typography to your texture painting workflows."
 helpx_description: "Substance 3D Painter"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/text-resource.html"
 ---
 
 # Text resource
@@ -12,7 +13,7 @@ The <b>Text resource</b> in can be used to write text into textures with the use
 
 ## Browsing fonts
 
-To browse the available font files, simply click on the font filter (the <b>T</b> button) in the [Assets window](../../interface/assets/assets.md):
+To browse the available font files, simply click on the font filter (the <b>T</b> button) in the [Assets window](../../help/interface/assets/assets.md):
 
 ![](v10_text_assets.png)
 
@@ -30,7 +31,7 @@ The font locations available depend on the current operating system:
 
 ### Importing fonts
 
-Fonts can be imported manually or put into an existing Painter's library like any regular resources. To do so see the [import documentation](../../content/importing-assets/import-drag-and-drop/import-drag-and-drop.md).
+Fonts can be imported manually or put into an existing Painter's library like any regular resources. To do so see the [import documentation](../../help/content/importing-assets/import-drag-and-drop/import-drag-and-drop.md).
 
 Painter support both <b>.ttf</b> and <b>.otf</b> font formats.
 

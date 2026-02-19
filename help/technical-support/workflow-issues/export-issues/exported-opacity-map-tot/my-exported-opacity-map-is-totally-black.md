@@ -1,8 +1,21 @@
 ---
 title: "My exported opacity map is totally black"
-description: ""
-helpx_description: "Painter > Technical support > Workflow Issues > Export Issues > My exported opacity map is totally black"
+description: "Learn how to fix exported opacity maps appearing totally black in Substance 3D Painter for proper transparency export."
+helpx_description: Painter > Technical support > Workflow Issues > Export Issues > My exported opacity map is totally black
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/export-issues/my-exported-opacity-map-is-totally-black.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - creating-color-palettes
+  - colorize
+  - export
 ---
+
+
+
 
 # My exported opacity map is totally black
 

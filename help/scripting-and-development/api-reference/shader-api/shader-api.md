@@ -1,8 +1,21 @@
 ---
 title: "Shader API"
-description: ""
-helpx_description: "Painter > Scripting and development > API Reference > Shader API"
+description: "Access the Shader API reference for Substance 3D Painter to create custom shaders and extend rendering capabilities."
+helpx_description: Painter > Scripting and development > API Reference > Shader API
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - shading
+  - creating-color-palettes
+  - pbr
 ---
+
+
+
 
 # Shader API
 
@@ -20,7 +33,7 @@ Additional shaders for Substance Painter can be found on [Substance Share](https
 
 ## Changelog
 
-* [Full changelog file](changelog-shader-api/changelog-shader-api.md)
+* [Full changelog file](../../../help/scripting-and-development/api-reference/shader-api/changelog-shader-api/changelog-shader-api.md)
 
 ## Warm up
 
@@ -40,45 +53,45 @@ Now, if you save this snippet into a *.glsl* file and load it into Substance Pai
 
 ## Surface shader
 
-* [surface-shader.glsl](shaders-shader-api/surface-shader-shader-api/surface-shader-shader-api.md)
+* [surface-shader.glsl](../../../help/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api/surface-shader-shader-api.md)
 
 ## Engine provided data (or how do I access my channels?)
 
 In Substance Painter, you can access rendering engine parameters (document's channels, additional textures, camera-related data and the like). Here is an exhaustive list of all engine provided parameters :
 
-* [all-engine-params.glsl](parameters-shader-api/all-engine-params-shader/all-engine-params-shader-api.md)
+* [all-engine-params.glsl](../../../help/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader/all-engine-params-shader-api.md)
 
 ## Engine settings (or how do I specify rendering states?)
 
 In some cases you may want to use a specific rendering configuration (culling, blending, sampling locality, and the like) for an effect. Some rendering states are exposed and can be set in the shader. Here is an exhaustive list of all exposed rendering states :
 
-* [all-rendering-states-params.glsl](parameters-shader-api/all-rendering-states-par/all-rendering-states-params-shader-api.md)
+* [all-rendering-states-params.glsl](../../../help/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-rendering-states-par/all-rendering-states-params-shader-api.md)
 
 ## Custom tweaks (or how do I tweak my shader?)
 
 It's usual to have custom tweaks in a shader. To do so in Substance Painter's shaders, we have introduced a way to specify custom tweaks. Here is an exhaustive list of all custom shader tweaks types :
 
-* [all-custom-params.glsl](parameters-shader-api/all-custom-params-shader/all-custom-params-shader-api.md)
+* [all-custom-params.glsl](../../../help/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-custom-params-shader/all-custom-params-shader-api.md)
 
 ## Embedded libraries
 
 In order to avoid writing a lot of boilerplate code in all of your shaders, we created a small yet practical library of useful functions. **Please note that you can't edit it nor create your own at the moment.**
 
-* [lib-alpha.glsl](libraries-shader-api/lib-alpha-shader-api/lib-alpha-shader-api.md) : contains opacity related helpers
-* [lib-bayer.glsl](libraries-shader-api/lib-bayer-shader-api/lib-bayer-shader-api.md) : contains bayer matrix helpers
-* [lib-defines.glsl](libraries-shader-api/lib-defines-shader-api/lib-defines-shader-api.md) : contains useful math constants
-* [lib-emissive.glsl](libraries-shader-api/lib-emissive-shader-api/lib-emissive-shader-api.md) : contains emissive properties helpers
-* [lib-env.glsl](libraries-shader-api/lib-env-shader-api/lib-env-shader-api.md) : contains environment map related helpers
-* [lib-normal.glsl](libraries-shader-api/lib-normal-shader-api/lib-normal-shader-api.md) : contains normal map related helpers (and height-map generated normal map)
-* [lib-pbr.glsl](libraries-shader-api/lib-pbr-shader-api/lib-pbr-shader-api.md) : contains physically based rendering helpers
-* [lib-pbr-aniso.glsl](libraries-shader-api/lib-pbr-aniso-shader-api/lib-pbr-aniso-shader-api.md) : contains anisotropic physically based rendering helpers
-* [lib-pom.glsl](libraries-shader-api/lib-pom-shader-api/lib-pom-shader-api.md) : contains parallax occlusion mapping helpers
-* [lib-random.glsl](libraries-shader-api/lib-random-shader-api/lib-random-shader-api.md) : contains random utilities (low discrepancy sequences)
-* [lib-sampler.glsl](libraries-shader-api/lib-sampler-shader-api/lib-sampler-shader-api.md) : contains channel getters helpers
-* [lib-sparse.glsl](libraries-shader-api/lib-sparse-shader-api/lib-sparse-shader-api.md) : contains safe sparse texture sampling helpers
-* [lib-sss.glsl](libraries-shader-api/lib-sss-shader-api/lib-sss-shader-api.md) : contains subsurface scattering helpers
-* [lib-utils.glsl](libraries-shader-api/lib-utils-shader-api/lib-utils-shader-api.md) : contains color utility functions (sRGB conversions, tone mapping)
-* [lib-vectors.glsl](libraries-shader-api/lib-vectors-shader-api/lib-vectors-shader-api.md) : contains common vectors helpers
+* [lib-alpha.glsl](../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-alpha-shader-api/lib-alpha-shader-api.md) : contains opacity related helpers
+* [lib-bayer.glsl](../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-bayer-shader-api/lib-bayer-shader-api.md) : contains bayer matrix helpers
+* [lib-defines.glsl](../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-defines-shader-api/lib-defines-shader-api.md) : contains useful math constants
+* [lib-emissive.glsl](../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-emissive-shader-api/lib-emissive-shader-api.md) : contains emissive properties helpers
+* [lib-env.glsl](../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api/lib-env-shader-api.md) : contains environment map related helpers
+* [lib-normal.glsl](../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-normal-shader-api/lib-normal-shader-api.md) : contains normal map related helpers (and height-map generated normal map)
+* [lib-pbr.glsl](../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pbr-shader-api/lib-pbr-shader-api.md) : contains physically based rendering helpers
+* [lib-pbr-aniso.glsl](../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pbr-aniso-shader-api/lib-pbr-aniso-shader-api.md) : contains anisotropic physically based rendering helpers
+* [lib-pom.glsl](../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pom-shader-api/lib-pom-shader-api.md) : contains parallax occlusion mapping helpers
+* [lib-random.glsl](../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-random-shader-api/lib-random-shader-api.md) : contains random utilities (low discrepancy sequences)
+* [lib-sampler.glsl](../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sampler-shader-api/lib-sampler-shader-api.md) : contains channel getters helpers
+* [lib-sparse.glsl](../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api/lib-sparse-shader-api.md) : contains safe sparse texture sampling helpers
+* [lib-sss.glsl](../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sss-shader-api/lib-sss-shader-api.md) : contains subsurface scattering helpers
+* [lib-utils.glsl](../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-utils-shader-api/lib-utils-shader-api.md) : contains color utility functions (sRGB conversions, tone mapping)
+* [lib-vectors.glsl](../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-vectors-shader-api/lib-vectors-shader-api.md) : contains common vectors helpers
 
 ## Metadata
 
@@ -105,13 +118,13 @@ Supported keys are:
 
 To get a taste of what looks like a real shader, here are a few sample shader, ordered by increasing complexity:
 
-* [pixelated.glsl](shaders-shader-api/pixelated-shader-api/pixelated-shader-api.md) : a pixelating shader
-* [toon.glsl](shaders-shader-api/toon-shader-api/toon-shader-api.md) : a toon shader
-* [pbr-metal-rough.glsl](shaders-shader-api/pbr-metal-rough-shader/pbr-metal-rough-shader-api.md) : the default PBR shader embedded in Substance Painter
+* [pixelated.glsl](../../../help/scripting-and-development/api-reference/shader-api/shaders-shader-api/pixelated-shader-api/pixelated-shader-api.md) : a pixelating shader
+* [toon.glsl](../../../help/scripting-and-development/api-reference/shader-api/shaders-shader-api/toon-shader-api/toon-shader-api.md) : a toon shader
+* [pbr-metal-rough.glsl](../../../help/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-metal-rough-shader/pbr-metal-rough-shader-api.md) : the default PBR shader embedded in Substance Painter
 
 ## Dynamic material layering
 
 The Dynamic Material Layering is a specific workflow where materials are mixed together inside a shader and let the user dynamically edit blending masks in Substance Painter. To enable this workflow, there are two new functionalities:
 
-* declare editable stacks from a shader definition: [layering\_declare\_stacks.glsl](parameters-shader-api/layering-declare-stacks/layering-declare-stacks-shader-api.md)
-* bind materials as shader parameters: [layering\_bind\_materials.glsl](parameters-shader-api/layering-bind-materials/layering-bind-materials-shader-api.md)
+* declare editable stacks from a shader definition: [layering\_declare\_stacks.glsl](../../../help/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-declare-stacks/layering-declare-stacks-shader-api.md)
+* bind materials as shader parameters: [layering\_bind\_materials.glsl](../../../help/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-bind-materials/layering-bind-materials-shader-api.md)

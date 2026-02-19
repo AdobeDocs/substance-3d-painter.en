@@ -1,8 +1,21 @@
 ---
 title: "Physical size"
-description: ""
-helpx_description: "Painter > Features > Physical size"
+description: "Learn how to set physical size in Substance 3D Painter to define real-world dimensions for accurate texture scaling."
+helpx_description: Painter > Features > Physical size
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/physical-size.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - scaling
+  - painting
+  - pbr
 ---
+
+
+
 
 # Physical size
 
@@ -14,8 +27,8 @@ To use physical size, apply a material that has this property with a value other
 
 For more information, see:
 
-* **Physical size** parameters in [Fill projections](../../painting/fill-projections/fill-projections.md)
-* **Grid** parameters in [Viewport settings](../../interface/display-settings/viewport-settings/viewport-settings.md)
+* **Physical size** parameters in [Fill projections](../../help/painting/fill-projections/fill-projections.md)
+* **Grid** parameters in [Viewport settings](../../help/interface/display-settings/viewport-settings/viewport-settings.md)
 
 >[!NOTE]
 >

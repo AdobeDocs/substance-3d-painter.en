@@ -1,8 +1,22 @@
 ---
 title: "Crash while baking"
-description: ""
-helpx_description: "Painter > Technical support > Technical Issues > Stability Issues > Crash while baking"
+description: "Learn how to fix Substance 3D Painter crashes during baking operations for reliable texture baking workflows."
+helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash while baking
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-while-baking.html"
+helpx_creative_field:
+  - painting-illustration
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - baking
+  - troubleshooting
+  - known-issues
 ---
+
+
+
 
 # Crash while baking
 

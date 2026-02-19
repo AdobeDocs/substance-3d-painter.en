@@ -1,8 +1,22 @@
 ---
 title: "Masking and effects"
-description: ""
-helpx_description: "Painter > Interface > Layer stack > Masking and effects"
+description: "Learn how to use masking and effects in Substance 3D Painter layer stack to control layer visibility and apply layer effects."
+helpx_description: Painter > Interface > Layer stack > Masking and effects
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/masking-and-effects.html"
+helpx_creative_field:
+  - painting-illustration
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - masking
+  - add-objects-to-images
+  - replacing-backgrounds
 ---
+
+
+
 
 # Masking and effects
 
@@ -38,7 +52,7 @@ The line under each thumbnail on a layer indicate if effects exist. Grey equals 
 
 ![](effect.gif)
 
-For more information, [see the dedicated page](../../../features/effects/effects.md).
+For more information, [see the dedicated page](../../../help/features/effects/effects.md).
 
 ## Smart Masks
 

@@ -1,8 +1,21 @@
 ---
 title: "Sliders"
-description: ""
-helpx_description: "Painter > Interface > Miscellaneous > Sliders"
+description: "Learn how to use sliders in Substance 3D Painter to adjust numeric values and parameters with precision control."
+helpx_description: Painter > Interface > Miscellaneous > Sliders
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/miscellaneous/sliders.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - keyframes
+  - preferences
+  - slideshow
 ---
+
+
+
 
 # Sliders
 

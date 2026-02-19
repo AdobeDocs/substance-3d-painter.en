@@ -1,8 +1,21 @@
 ---
 title: "Version 2018.3"
-description: ""
-helpx_description: "Painter > Release notes > Old versions > Version 2018.3"
+description: "Review release notes for Substance 3D Painter version 2018.3 to learn about new features, improvements, and bug fixes."
+helpx_description: Painter > Release notes > Old versions > Version 2018.3
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2018-3.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - effects
+  - reflections
+  - channels
 ---
+
+
+
 
 # Version 2018.3
 
@@ -38,7 +51,7 @@ You can now replicate the lighting of the viewport (as seen in the 2D view) and 
 
 In this new version we introduce a new shader named "**pbr-metal-rough-anisotropy-angle**". This shader supports two channels named "**Anisotropy Angle**" and "**Anisotropy Level**" which can be used to create anisotropic specular reflections. This shader will also translate into Iray as-is without the need of any conversion.
 
-This new shader can be accessed through the [Shader Window](../../../interface/shader-settings/shader-settings.md) by clicking on the shader button and opening the mini-shelf :
+This new shader can be accessed through the [Shader Window](../../../help/interface/shader-settings/shader-settings.md) by clicking on the shader button and opening the mini-shelf :
 
 ![](shader-anisotropy.png)
 
@@ -96,13 +109,13 @@ We exposed a few controls regarding this new system which can be edited in the m
 * **Cache directory** : this setting controls where Substance Painter will write its temporary files, including the SVT cache.
 * **Hardware support acceleration** : If enabled, Substance Painter will use the native support of Sparse Textures by the GPU (if disabled it will fallback on a software implementation)
 
-For more information about the SVT take a look at our documentation page : [Sparse Virtual Textures](../../../features/sparse-virtual-textures/sparse-virtual-textures.md)
+For more information about the SVT take a look at our documentation page : [Sparse Virtual Textures](../../../help/features/sparse-virtual-textures/sparse-virtual-textures.md)
 
 >[!NOTE]
 >
 > It is recommend to set the **Cache directory** on a **Solid State Drive (SSD)** to ensure the best performances while working with Substance Painter.
 > 
-> These settings can be overridden via environment variable : [Environment variables](../../../pipeline-and-integration/configuration/environment-variables/environment-variables.md).
+> These settings can be overridden via environment variable : [Environment variables](../../../help/pipeline-and-integration/configuration/environment-variables/environment-variables.md).
 
 ### New and Improved Symmetry tool
 
@@ -186,7 +199,7 @@ The new inputs available are :
 * Mesh Texel Size
 * Mesh UV Mask
 
-For more details see the new documentation : [Mesh Based Input](../../../content/creating-custom-effects/mesh-based-input/mesh-based-input.md)
+For more details see the new documentation : [Mesh Based Input](../../../help/content/creating-custom-effects/mesh-based-input/mesh-based-input.md)
 
 As an example we now provide a new **mask generator** named "**UV Border Distance**" which creates a black and white mask from the border of the UV islands of the current Texture Set.
 
@@ -194,7 +207,7 @@ As an example we now provide a new **mask generator** named "**UV Border Distanc
 
 >[!NOTE]
 >
-> These inputs are provided directly from the engine of Substance Painter based on the project Mesh and don't use the [Bakers](../../../baking/baking.md).
+> These inputs are provided directly from the engine of Substance Painter based on the project Mesh and don't use the [Bakers](../../../help/baking/baking.md).
 
 ### New and Updated Content
 

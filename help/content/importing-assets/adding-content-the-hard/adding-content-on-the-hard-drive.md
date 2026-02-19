@@ -1,14 +1,27 @@
 ---
 title: "Adding content on the hard drive"
-description: ""
-helpx_description: "Painter > Content > Importing assets > Adding content on the hard drive"
+description: "Learn how to add content from your hard drive to Substance 3D Painter to expand your resource library with local files."
+helpx_description: Painter > Content > Importing assets > Adding content on the hard drive
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/importing-assets/adding-content-on-the-hard-drive.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - cross-product-workflows
+  - creative-cloud-libraries
+  - open
 ---
+
+
+
 
 # Adding content on the hard drive
 
 It is possible to add resources to your libraries by placing new content directly on the hard drive at the right location.  
   
-A default folder for user assets is provided by default where you can add your new content, either through the application interface or by manually dropping it in the following location. This default library is also used when creating new presets such as brushes, tools, smart materials, etc. For more information, see the [Presets](../../../painting/presets/presets.md) documentation.
+A default folder for user assets is provided by default where you can add your new content, either through the application interface or by manually dropping it in the following location. This default library is also used when creating new presets such as brushes, tools, smart materials, etc. For more information, see the [Presets](../../../help/painting/presets/presets.md) documentation.
 
 ## Where to put assets ?
 
@@ -19,7 +32,7 @@ Below are the locations of the default **Your Assets** library where your own cu
 >[!WARNING]
 >
 > The **Starter assets** shipped with the application are located within the installation folder and are replaced in each new version. We do not recommend putting personal content in this location, as it will be **erased with every update** and may even cause read/write permission issues.   
-> It is best to use the **Your assets** location or another custom location. For more information on how to add a custom library location, see [Adding a new library](../../../interface/assets/adding-a-new-library/adding-a-new-library.md).
+> It is best to use the **Your assets** location or another custom location. For more information on how to add a custom library location, see [Adding a new library](../../../help/interface/assets/adding-a-new-library/adding-a-new-library.md).
 
 ## File formats and usages
 
@@ -43,7 +56,7 @@ You can import different types of files to your Substance 3D Painter library. Pl
 
 >[!NOTE]
 >
-> As of version 7.2.0, custom folders and categories can be used in a library. They will be accessible in the Assets window via [Filter by path](../../../interface/assets/filter-by-path/filter-by-path.md) or [Breadcrumbs](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html).
+> As of version 7.2.0, custom folders and categories can be used in a library. They will be accessible in the Assets window via [Filter by path](../../../help/interface/assets/filter-by-path/filter-by-path.md) or [Breadcrumbs](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html).
 
 >[!WARNING]
 >

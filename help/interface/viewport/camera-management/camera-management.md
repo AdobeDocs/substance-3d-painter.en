@@ -1,8 +1,21 @@
 ---
 title: "Camera management"
-description: ""
-helpx_description: "Painter > Interface > Viewport > Camera management"
+description: "Learn how to manage camera views in Substance 3D Painter viewport to navigate and frame your 3D models effectively."
+helpx_description: Painter > Interface > Viewport > Camera management
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/viewport/camera-management.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - camera
+  - 3d
+  - views
 ---
+
+
+
 
 # Camera management
 

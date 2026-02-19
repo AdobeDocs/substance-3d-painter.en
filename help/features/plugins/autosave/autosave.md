@@ -1,8 +1,21 @@
 ---
 title: "Autosave"
-description: ""
-helpx_description: "Painter > Features > Plugins > Autosave"
+description: "Learn how to use the Autosave plugin in Substance 3D Painter to automatically save your projects at regular intervals."
+helpx_description: Painter > Features > Plugins > Autosave
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/plugins/autosave.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - save
+  - creative-cloud
+  - presets
 ---
+
+
+
 
 # Autosave
 

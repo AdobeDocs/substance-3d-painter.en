@@ -1,8 +1,16 @@
 ---
 title: "System requirements"
-description: ""
-helpx_description: "Painter > Getting Started > System requirements"
+description: "Review system requirements for Substance 3D Painter to ensure your computer meets hardware and software specifications."
+helpx_description: Painter > Getting Started > System requirements
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/system-requirements.html"
+helpx_creative_field:
+  - 3d
+helpx_tags:
+  - SG_SUBSTANCE_PAINTER
 ---
+
+
+
 
 # Supported systems
 
@@ -49,7 +57,7 @@ Miscellaneous:
 * For working in comfortable conditions we recommend a monitor with a vertical resolution greater than 1000 Pixels and wider than 1280 pixels.
 * Exporting at <b>8K</b> (8192\*8192 pixels) requires a GPU with <b>more than</b> 2GB of VRam.
 * Only versions 2019.x and above have been notarized in order to run on MacOS 10.15 (Catalina).
-* To use the software via RDP (Remote Desktop) see the dedicated [documentation page](../../pipeline-and-integration/configuration/remote-desktop/remote-desktop.md).
+* To use the software via RDP (Remote Desktop) see the dedicated [documentation page](../../help/pipeline-and-integration/configuration/remote-desktop/remote-desktop.md).
 * Crash on Ryzen CPU when baking, can be fixed by updating the BIOS.
 
 ## Unsupported configurations
@@ -76,7 +84,7 @@ Miscellaneous:
 
 Below is a list of the minimum GPU driver versions required for the application to run without issue. This list is subject to change as new versions are released.
 
-To download new drivers, see: [GPU has outdated drivers](../../technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers/gpu-has-outdated-drivers.md).
+To download new drivers, see: [GPU has outdated drivers](../../help/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers/gpu-has-outdated-drivers.md).
 
 | OS | NVIDIA | AMD | Intel |
 | --- | --- | --- | --- |
@@ -89,7 +97,7 @@ To download new drivers, see: [GPU has outdated drivers](../../technical-support
 
 ### Drivers compatibility issues
 
-For a detailed list of GPU drivers issues per constructor please take a look a the [ dedicated documentation page](../../technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility/gpu-drivers-compatibility.md).
+For a detailed list of GPU drivers issues per constructor please take a look a the [ dedicated documentation page](../../help/technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility/gpu-drivers-compatibility.md).
 
 ## GPU raytracing for baking
 

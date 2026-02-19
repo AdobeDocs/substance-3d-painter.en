@@ -1,8 +1,21 @@
 ---
 title: "Adding resources via the import window"
-description: ""
-helpx_description: "Painter > Content > Importing assets > Adding resources via the import window"
+description: "Learn how to add resources via the import window in Substance 3D Painter to expand your asset library with external files."
+helpx_description: Painter > Content > Importing assets > Adding resources via the import window
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/importing-assets/adding-resources-via-the-import-window.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - import
+  - cross-product-workflows
+  - interior-design
 ---
+
+
+
 
 # Adding resources via the import window
 
@@ -35,6 +48,6 @@ There are three different ways to open the import window in Substance 3D Painter
 * **7 - Import location**  : Can be either -
   * **Current session**  : Into a temporary session, resources will be lost after a restart of the application.
   * **Project "project name"**  : Into the currently opened project file. Resources are embedded in the  **spp**  file.
-  * **Shelf "shelf name"**  : Into the current library defined as writable. See this page for more information : [Libraries configuration](../../../interface/settings/libraries-configuration/libraries-configuration.md).
+  * **Shelf "shelf name"**  : Into the current library defined as writable. See this page for more information : [Libraries configuration](../../../help/interface/settings/libraries-configuration/libraries-configuration.md).
 
 You can multi-select resources in the import window (using the usual system shortcuts) to quickly edit their usage.

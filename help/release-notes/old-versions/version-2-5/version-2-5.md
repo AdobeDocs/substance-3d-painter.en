@@ -1,8 +1,21 @@
 ---
 title: "Version 2.5"
-description: ""
-helpx_description: "Painter > Release notes > Old versions > Version 2.5"
+description: "Review release notes for Substance 3D Painter version 2.5 to learn about new features, improvements, and bug fixes."
+helpx_description: Painter > Release notes > Old versions > Version 2.5
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2-5.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - painting
+  - creating-color-palettes
+  - illustration
 ---
+
+
+
 
 # Version 2.5
 
@@ -34,7 +47,7 @@ We also added support for **non-square** resolutions. It is now possible possibl
 
 ![](lut-example.jpg)
 
-We added the support of **LUT** (textures) to control the rendering of the **viewport** in Substance Painter. To apply a profile, simply enable the "**Color Profile**" setting in the "**Display settings**" window and load the LUT in the dedicated slot. It work both with the **OpenGL** viewport (painting) and the **IRay** renderer. A few examples are available by default from common **Camera presets** to more **Artistic effects**. For more information, see the dedicated page of the documentation : [Color Profile](../../../features/post-processing/color-profile/color-profile.md)
+We added the support of **LUT** (textures) to control the rendering of the **viewport** in Substance Painter. To apply a profile, simply enable the "**Color Profile**" setting in the "**Display settings**" window and load the LUT in the dedicated slot. It work both with the **OpenGL** viewport (painting) and the **IRay** renderer. A few examples are available by default from common **Camera presets** to more **Artistic effects**. For more information, see the dedicated page of the documentation : [Color Profile](../../../help/features/post-processing/color-profile/color-profile.md)
 
 ### New Substance engine compatible with Substance Designer 6
 

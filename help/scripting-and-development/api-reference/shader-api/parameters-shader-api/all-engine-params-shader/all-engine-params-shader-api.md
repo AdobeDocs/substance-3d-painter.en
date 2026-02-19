@@ -1,8 +1,21 @@
 ---
 title: "All Engine Params - Shader API"
-description: ""
-helpx_description: "Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Engine Params - Shader API"
+description: "Access the All Engine Params shader API reference for Substance 3D Painter to control engine-level shader parameters."
+helpx_description: Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Engine Params - Shader API
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader-api.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - rendering
+  - shading
+  - projection
 ---
+
+
+
 
 # All Engine Params - Shader API
 
@@ -12,9 +25,9 @@ helpx_description: "Painter > Scripting and development > API Reference > Shader
 
 Substance Painter uses a Sparse Virtual Texture (SVT) system to display textures in the viewport.
 
-For more information about this system, go to the [online documentation](../../../../../features/sparse-virtual-textures/sparse-virtual-textures.md).
+For more information about this system, go to the [online documentation](../../../../../help/features/sparse-virtual-textures/sparse-virtual-textures.md).
 
-This system has repercussions on how to write shader code. We are providing helpers to simplify its use with the *SamplerSparse* structure and texture lookup functions (see [lib-sparse.glsl](../../libraries-shader-api/lib-sparse-shader-api/lib-sparse-shader-api.md)).
+This system has repercussions on how to write shader code. We are providing helpers to simplify its use with the *SamplerSparse* structure and texture lookup functions (see [lib-sparse.glsl](../../../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api/lib-sparse-shader-api.md)).
 
 Basic usage:
 
@@ -103,7 +116,7 @@ uniform vec4 uniform_tex_size; // if TEX_TAG_1 exists then TEX_TAG_1_size else T
 Where *TEXTURE\_TAG* is one of the described tags below.
 
 *texture\_blue\_noise* : A blue noise texture  
-*texture\_environment* : Environment map, **mip-mapped**, use [lib-env.glsl](../../libraries-shader-api/lib-env-shader-api/lib-env-shader-api.md) to use this one
+*texture\_environment* : Environment map, **mip-mapped**, use [lib-env.glsl](../../../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api/lib-env-shader-api.md) to use this one
 
 ## Other parameters
 

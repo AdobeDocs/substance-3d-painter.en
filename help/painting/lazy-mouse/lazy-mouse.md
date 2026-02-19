@@ -1,8 +1,21 @@
 ---
 title: "Lazy mouse"
-description: ""
-helpx_description: "Painter > Painting > Lazy mouse"
+description: "Learn how to use lazy mouse in Substance 3D Painter to create smooth, fluid brush strokes with delayed cursor response."
+helpx_description: Painter > Painting > Lazy mouse
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/lazy-mouse.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - brushes
+  - painting
+  - drawing
 ---
+
+
+
 
 # Lazy mouse
 
@@ -10,7 +23,7 @@ helpx_description: "Painter > Painting > Lazy mouse"
 
 The Lazy Mouse is a distance offset between the mouse cursor and the actual painting which allows to paint more precise or smooth strokes.
 
-It can be enabled via the [contextual toolbar](../../interface/toolbars/toolbars.md). It makes painting clean and continuous line easier.
+It can be enabled via the [contextual toolbar](../../help/interface/toolbars/toolbars.md). It makes painting clean and continuous line easier.
 
 ## Enabling Lazy Mouse
 

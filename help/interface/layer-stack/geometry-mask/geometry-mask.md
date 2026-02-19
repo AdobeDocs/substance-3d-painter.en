@@ -1,8 +1,22 @@
 ---
 title: "Geometry mask"
-description: ""
-helpx_description: "Painter > Interface > Layer stack > Geometry mask"
+description: "Learn how to use geometry masks in Substance 3D Painter to mask layers based on mesh geometry and surface properties."
+helpx_description: Painter > Interface > Layer stack > Geometry mask
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/geometry-mask.html"
+helpx_creative_field:
+  - painting-illustration
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - masking
+  - add-objects-to-images
+  - removing-backgrounds
 ---
+
+
+
 
 # Geometry mask
 

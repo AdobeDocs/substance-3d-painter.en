@@ -1,8 +1,23 @@
 ---
 title: "Application failed to start because of Qt"
-description: ""
-helpx_description: "Painter > Technical support > Technical Issues > Startup Issues > Application failed to start because of Qt"
+description: "Learn how to fix Substance 3D Painter startup failures caused by Qt framework issues for proper application launch."
+helpx_description: Painter > Technical support > Technical Issues > Startup Issues > Application failed to start because of Qt
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/startup-issues/application-failed-to-start-because-of-qt.html"
+helpx_creative_field:
+  - video
+  - web
+  - 3d-immersive
+  - graphic-design
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - troubleshooting
+  - system-requirements
+  - gradient-mesh
 ---
+
+
+
 
 # Application failed to start because of Qt
 

@@ -1,8 +1,22 @@
 ---
 title: "Layer management"
-description: ""
-helpx_description: "Painter > Technical support > Performances guidelines > Layer management"
+description: "Learn best practices for layer management in Substance 3D Painter to optimize performance and maintain organized projects."
+helpx_description: Painter > Technical support > Performances guidelines > Layer management
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/performances-guidelines/layer-management.html"
+helpx_creative_field:
+  - painting-illustration
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - layers
+  - painting
+  - replacing-backgrounds
 ---
+
+
+
 
 # Layer management
 
@@ -13,7 +27,7 @@ There are various options you can use to decrease the performance cost of making
 +++Use Geometry masks
 Geometry masks are your best optimization tool. Whenever you can isolate a part of your mesh to work on, do so, either by masking layers or folders. Geometry masks work by isolating either by UDIM or by mesh part, so areas that are not in the mask are not processed, improving performance. As a bonus, you can also isolate those parts visually in the viewport for easier texturing.
 
-You can [learn more about geometry masks with this tutorial](https://www.youtube.com/watch?v=TGASuIGSUns), or by [referring to the documentation](../../../interface/layer-stack/geometry-mask/geometry-mask.md).
+You can [learn more about geometry masks with this tutorial](https://www.youtube.com/watch?v=TGASuIGSUns), or by [referring to the documentation](../../../help/interface/layer-stack/geometry-mask/geometry-mask.md).
 
 +++
 
@@ -50,7 +64,7 @@ With any tool or mode that has a Projection depth setting (warp, planar, path, e
 +++Be careful with brushes that have dynamic strokes
 Brushes and tools with an orange tag have a dynamic parameter. This dynamic parameter can be set to "Unlimited", which means that every stamp in a stroke will be unique. This can have a substantial performance impact if using hundreds or thousands of brush strokes. In most cases, it's difficult to tell the difference after 16-32 variations, so generally speaking going beyond that is unlikely to have much visual impact.
 
-[Learn more about dynamic strokes in the documentation.](../../../painting/dynamic-strokes/dynamic-strokes.md)
+[Learn more about dynamic strokes in the documentation.](../../../help/painting/dynamic-strokes/dynamic-strokes.md)
 
 +++
 

@@ -1,8 +1,22 @@
 ---
 title: "Normal Map Painting"
-description: ""
-helpx_description: "Painter > Painting > Advanced channel painting > Normal Map Painting"
+description: "Learn how to paint normal maps directly in Substance 3D Painter to add surface detail and depth to your textures."
+helpx_description: Painter > Painting > Advanced channel painting > Normal Map Painting
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/advanced-channel-painting/normal-map-painting.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - painting-illustration
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - painting
+  - normal-maps
+  - appearance
 ---
+
+
+
 
 # Normal Map Painting
 
@@ -16,7 +30,7 @@ To paint normal map details:
 1. Enable the normal channel in the current painting tool
 1. Load a Normal resource in the Normal slot of the Material section of the current painting tool.
 
-From there, painting with a normal map is very similar to [Height Map Painting](../height-map-painting/height-map-painting.md) , with the added precision of a baked normal.
+From there, painting with a normal map is very similar to [Height Map Painting](../../../help/painting/advanced-channel-painting/height-map-painting/height-map-painting.md) , with the added precision of a baked normal.
 
 ![](normal-painting.gif)
 
@@ -28,7 +42,7 @@ Normal maps have their own blending modes in the layer stack:
 * **Normal map Inverse Detail**
 * **Normal map Combine**
 
-To learn about them see the [Blending modes](../../../interface/layer-stack/blending-modes/blending-modes.md) page.
+To learn about them see the [Blending modes](../../../help/interface/layer-stack/blending-modes/blending-modes.md) page.
 
 ## Normal Color Space
 
@@ -41,7 +55,7 @@ This setting can be used to specify the Normal map format since by default a Dir
 ## Painting over a baked normal map
 
 In some situations, it can be useful to be able to paint over the baked normal map in order to hide details (or even fix baking issues).   
-The default setup of a project in Substance 3D Painter doesn't allow that, as it computes the normal channel and the baked normal separately. This behavior can be changed via the [Texture Set settings](../../../interface/texture-set/texture-set-settings/texture-set-settings.md) .
+The default setup of a project in Substance 3D Painter doesn't allow that, as it computes the normal channel and the baked normal separately. This behavior can be changed via the [Texture Set settings](../../../help/interface/texture-set/texture-set-settings/texture-set-settings.md) .
 
 ### 1 - Changing the Texture Set blending mode
 

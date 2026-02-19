@@ -1,8 +1,21 @@
 ---
 title: "Custom Shaders"
-description: ""
-helpx_description: "Painter > Features > Custom Shaders"
+description: "Learn how to create and use custom shaders in Substance 3D Painter to extend material rendering capabilities."
+helpx_description: Painter > Features > Custom Shaders
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/custom-shaders.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - creating-color-palettes
+  - shading
+  - gradients
 ---
+
+
+
 
 # Custom Shaders
 

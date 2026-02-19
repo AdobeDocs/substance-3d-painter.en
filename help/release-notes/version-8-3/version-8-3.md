@@ -1,8 +1,21 @@
 ---
 title: "Version 8.3"
-description: ""
-helpx_description: "Painter > Release notes > Version 8.3"
+description: "Review release notes for Substance 3D Painter version 8.3 to learn about new features, improvements, and bug fixes."
+helpx_description: Painter > Release notes > Version 8.3
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-8-3.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - baking
+  - printing
+  - 3d
 ---
+
+
+
 
 # Version 8.3
 
@@ -19,7 +32,7 @@ Release date: *10 January 2023*
 The old baking window has been replaced by a dedicated mode with several new features, notably with viewport visualization such as the display of the cage and matching errors.
 
 * **Accessing and switching between modes**   
-  Baking is now a new and separate mode in addition to the already existing painting and rendering modes of the application. To get to the baking mode, simply use the little croissant icon in the contextual toolbar. Switching between modes can also be done otherwise: by using the mode menu or the keyboard shortcuts. To get back to another mode, simply use the dedicated icon of the mode (Additionally, the **Bake Mesh maps** button inside the [Texture Set settings](../../interface/texture-set/texture-set-settings/texture-set-settings.md) can still be used to get into the new mode).
+  Baking is now a new and separate mode in addition to the already existing painting and rendering modes of the application. To get to the baking mode, simply use the little croissant icon in the contextual toolbar. Switching between modes can also be done otherwise: by using the mode menu or the keyboard shortcuts. To get back to another mode, simply use the dedicated icon of the mode (Additionally, the **Bake Mesh maps** button inside the [Texture Set settings](../../help/interface/texture-set/texture-set-settings/texture-set-settings.md) can still be used to get into the new mode).
 
   ![](baking-mode-switch-menu.png)
 
@@ -84,7 +97,7 @@ The old baking window has been replaced by a dedicated mode with several new fea
 
 >[!NOTE]
 >
-> There are many more new settings in this new mode. To learn more about see the [dedicated documentation page](../../baking/baking.md).
+> There are many more new settings in this new mode. To learn more about see the [dedicated documentation page](../../help/baking/baking.md).
 
 ### New import and export of USD files
 

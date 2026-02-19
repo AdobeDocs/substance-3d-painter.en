@@ -1,8 +1,21 @@
 ---
 title: "Output templates"
-description: ""
-helpx_description: "Painter > Getting Started > Export > Export window > Output templates"
+description: "Learn how to use output templates in Substance 3D Painter export window to configure texture export formats and naming."
+helpx_description: Painter > Getting Started > Export > Export window > Output templates
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window/output-templates.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - presets
+  - export
+  - texture
 ---
+
+
+
 
 # Output templates
 
@@ -14,7 +27,7 @@ The Output template tab allows you to manage and create new Output templates. Yo
 
 ![](export-preset-list.png)
 
-The Presets list show all the available Output templates. This list includes a collection of [Default Output templates](../../export-presets/default-presets/default-presets.md), as well as any custom templates that you have created.
+The Presets list show all the available Output templates. This list includes a collection of [Default Output templates](../../../../help/getting-started/export/export-presets/default-presets/default-presets.md), as well as any custom templates that you have created.
 
 From this list, templates can be <b>created</b>, <b>renamed</b>, <b>duplicated,</b> or <b>deleted</b>.
 
@@ -70,7 +83,7 @@ Each texture can be named using a custom naming convention. A few keywords can b
 
 The first dropdown can be used to specify the file format of the current output map.
 
-The second dropdown is sued to specify the bit depth of the output map. The bit depth depends on the file format selected. See [Export settings](../export-settings/export-settings.md) for more details.
+The second dropdown is sued to specify the bit depth of the output map. The bit depth depends on the file format selected. See [Export settings](../../../../help/getting-started/export/export-window/export-settings/export-settings.md) for more details.
 
 >[!NOTE]
 >
@@ -82,7 +95,7 @@ The second dropdown is sued to specify the bit depth of the output map. The bit 
 
 ### Input maps
 
-The input map list regroups all the channels that can be added via the [Texture Set settings](../../../../interface/texture-set/texture-set-settings/texture-set-settings.md).
+The input map list regroups all the channels that can be added via the [Texture Set settings](../../../../help/interface/texture-set/texture-set-settings/texture-set-settings.md).
 
 >[!NOTE]
 >

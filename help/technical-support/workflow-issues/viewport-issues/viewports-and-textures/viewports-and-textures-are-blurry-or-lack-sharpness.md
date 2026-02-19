@@ -1,8 +1,22 @@
 ---
 title: "Viewports and textures are blurry or lack sharpness"
-description: ""
-helpx_description: "Painter > Technical support > Workflow Issues > Viewport Issues > Viewports and textures are blurry or lack sharpness"
+description: "Learn how to fix blurry viewports and textures in Substance 3D Painter to ensure sharp, clear visual quality."
+helpx_description: Painter > Technical support > Workflow Issues > Viewport Issues > Viewports and textures are blurry or lack sharpness
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/viewport-issues/viewports-and-textures-are-blurry-or-lack-sharpness.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - resolution
+  - image-quality
+  - views
 ---
+
+
+
 
 # Viewports and textures are blurry or lack sharpness
 
@@ -16,6 +30,6 @@ This behavior can be changed in the  [main settings](https://helpx.adobe.com/sub
 
 ## Texture filtering
 
-The viewports use mipmaps and texture filtering to be able to stream in and out [ Sparse Virtual Textures ](../../../../features/sparse-virtual-textures/sparse-virtual-textures.md) to improve performances. This can lead to blurry textures in some cases.
+The viewports use mipmaps and texture filtering to be able to stream in and out [ Sparse Virtual Textures ](../../../../help/features/sparse-virtual-textures/sparse-virtual-textures.md) to improve performances. This can lead to blurry textures in some cases.
 
-The texture filtering can be adjusted via the Display Settings window under the [ Viewport Settings](../../../../interface/display-settings/viewport-settings/viewport-settings.md) parameters.
+The texture filtering can be adjusted via the Display Settings window under the [ Viewport Settings](../../../../help/interface/display-settings/viewport-settings/viewport-settings.md) parameters.

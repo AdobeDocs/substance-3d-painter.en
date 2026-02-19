@@ -1,8 +1,21 @@
 ---
 title: "Projection"
-description: ""
-helpx_description: "Painter > Painting > Tool list > Projection"
+description: "Use the Projection tool in Substance 3D Painter to project 2D images onto 3D surfaces for texture painting workflows."
+helpx_description: Painter > Painting > Tool list > Projection
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/projection.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - intermediate-advanced
+helpx_learn_topic:
+  - projection
+  - perspective
+  - 3d
 ---
+
+
+
 
 # Projection
 

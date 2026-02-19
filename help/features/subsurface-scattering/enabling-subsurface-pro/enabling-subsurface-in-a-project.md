@@ -1,8 +1,22 @@
 ---
 title: "Enabling Subsurface in a Project"
-description: ""
-helpx_description: "Painter > Features > Subsurface Scattering > Enabling Subsurface in a Project"
+description: "Learn how to enable subsurface scattering in Substance 3D Painter projects to create realistic translucent material effects."
+helpx_description: Painter > Features > Subsurface Scattering > Enabling Subsurface in a Project
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering/enabling-subsurface-in-a-project.html"
+helpx_creative_field:
+  - painting-illustration
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - reflections
+  - channels
+  - effects
 ---
+
+
+
 
 # Enabling Subsurface in a Project
 
@@ -11,7 +25,7 @@ This page provide a guide on which parameters to enable.
 
 ## 1 - Texture Set Settings
 
-In the [Texture Set](../../../interface/texture-set/texture-set.md) add a  **Scattering**  channel if not already present :
+In the [Texture Set](../../../help/interface/texture-set/texture-set.md) add a  **Scattering**  channel if not already present :
 
 ![](add-channel.png)
 
@@ -21,7 +35,7 @@ In the [Texture Set](../../../interface/texture-set/texture-set.md) add a  **Sca
 
 ## 2 - Global Subsurface Setting
 
-Enable the main Subsurface scattering setting in the [Display settings](../../../interface/display-settings/display-settings.md) (below the Post-Effects settings) :
+Enable the main Subsurface scattering setting in the [Display settings](../../../help/interface/display-settings/display-settings.md) (below the Post-Effects settings) :
 
 ![](enable-subsurface.png)
 
@@ -33,14 +47,14 @@ Enable the main Subsurface scattering setting in the [Display settings](../../..
 
 ![](shader-parameters.png)
 
-In the [Shader settings](../../../interface/shader-settings/shader-settings.md) window with default shaders can be found a "  **SSS Parameters**  " group with two settings.   
-Change the scale and the color to fit the target material. For more details on these settings see: [Subsurface Parameters](../subsurface-parameters/subsurface-parameters.md)
+In the [Shader settings](../../../help/interface/shader-settings/shader-settings.md) window with default shaders can be found a "  **SSS Parameters**  " group with two settings.   
+Change the scale and the color to fit the target material. For more details on these settings see: [Subsurface Parameters](../../../help/features/subsurface-scattering/subsurface-parameters/subsurface-parameters.md)
 
 ## Bonus : Enabling shadows
 
 The Subsurface scattering effect works well but may look strange if alone.   
 Enabling shadow can help the final look in the viewport and improve the realism of the final material.
 
-In the [Environment settings](../../../interface/display-settings/environment-settings/environment-settings.md) window, enable the "  **Shadows**  " setting:
+In the [Environment settings](../../../help/interface/display-settings/environment-settings/environment-settings.md) window, enable the "  **Shadows**  " setting:
 
 ![](shadow-2.png)

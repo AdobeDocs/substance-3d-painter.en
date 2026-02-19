@@ -1,8 +1,21 @@
 ---
 title: "Automatic UV Unwrapping"
-description: ""
-helpx_description: "Painter > Features > Automatic UV Unwrapping"
+description: "Learn how to use automatic UV unwrapping in Substance 3D Painter to generate UV layouts for your 3D models automatically."
+helpx_description: Painter > Features > Automatic UV Unwrapping
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/automatic-uv-unwrapping.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - panorama
+  - baking
+  - projection
 ---
+
+
+
 
 # Automatic UV Unwrapping
 

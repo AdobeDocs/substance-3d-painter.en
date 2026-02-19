@@ -1,8 +1,21 @@
 ---
 title: "Plugins menu"
-description: ""
-helpx_description: "Painter > Interface > Main menu > Plugins menu"
+description: "Learn how to use the Plugins menu in Substance 3D Painter to access and manage installed plugins and extensions."
+helpx_description: Painter > Interface > Main menu > Plugins menu
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/plugins-menu.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - automation
+  - workspace
+  - cross-product-workflows
 ---
+
+
+
 
 # Plugins menu
 
@@ -15,4 +28,4 @@ Each plugin discovered by the application will add an entry in the menu to acces
 * **configure**: if supported by the plugin, displays the function/window to configure the plugin.
 * **about**: if supported by the plugin, displays an informative window about the plugin.
 
-To find more information about the default plugins provided with the application or how to create a new one, see the dedicated [Plugins](../../../features/plugins/plugins.md) page.
+To find more information about the default plugins provided with the application or how to create a new one, see the dedicated [Plugins](../../../help/features/plugins/plugins.md) page.

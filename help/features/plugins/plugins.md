@@ -1,8 +1,22 @@
 ---
 title: "Plugins"
-description: ""
-helpx_description: "Painter > Features > Plugins"
+description: "Learn how to use plugins in Substance 3D Painter to extend functionality and customize your texture painting workflow."
+helpx_description: Painter > Features > Plugins
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/plugins.html"
+helpx_creative_field:
+  - video
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - painting
+  - illustration
+  - 3d
 ---
+
+
+
 
 # Plugins
 
@@ -13,5 +27,5 @@ The plugin are wrote in Javascript and can be combined with the QML language to 
 
 Substance 3D Painter has two default plugins showcasing different.
 
-* [Autosave](autosave/autosave.md)
-* [Resources Updater](resources-updater/resources-updater.md)
+* [Autosave](../../help/features/plugins/autosave/autosave.md)
+* [Resources Updater](../../help/features/plugins/resources-updater/resources-updater.md)

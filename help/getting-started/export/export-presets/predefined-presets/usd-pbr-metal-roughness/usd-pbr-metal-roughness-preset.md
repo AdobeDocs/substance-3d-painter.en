@@ -1,8 +1,21 @@
 ---
 title: "USDz (Apple AR)"
-description: ""
-helpx_description: "Painter > Getting Started > Export > Export presets > Predefined Presets > USDz (Apple AR) Preset"
+description: "Learn how to use the USDz (Apple AR) export preset in Substance 3D Painter to export textures for Apple AR workflows."
+helpx_description: Painter > Getting Started > Export > Export presets > Predefined Presets > USDz (Apple AR) Preset
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-presets/predefined-presets/usd-pbr-metal-roughness-preset.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - texture
+  - export
+  - reflections
 ---
+
+
+
 
 # USDz (Apple AR) predefined template
 

@@ -1,8 +1,21 @@
 ---
 title: "Sub-library tab"
-description: ""
-helpx_description: "Painter > Interface > Assets > Sub-library tab"
+description: "Learn how to use the sub-library tab in Substance 3D Painter to organize and access nested resource libraries."
+helpx_description: Painter > Interface > Assets > Sub-library tab
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/sub-library-tab.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - creative-cloud-libraries
+  - libraries
+  - interface
 ---
+
+
+
 
 # Sub-library tab
 

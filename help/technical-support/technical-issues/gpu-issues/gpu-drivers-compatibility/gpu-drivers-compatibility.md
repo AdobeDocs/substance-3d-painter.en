@@ -1,8 +1,22 @@
 ---
 title: "GPU drivers compatibility"
-description: ""
-helpx_description: "Painter > Technical support > Technical Issues > GPU Issues > GPU drivers compatibility"
+description: "Learn about GPU driver compatibility requirements for Substance 3D Painter to ensure stable rendering and performance."
+helpx_description: Painter > Technical support > Technical Issues > GPU Issues > GPU drivers compatibility
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - painting-illustration
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - known-issues
+  - system-requirements
+  - troubleshooting
 ---
+
+
+
 
 # GPU drivers compatibility
 

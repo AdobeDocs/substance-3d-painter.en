@@ -1,8 +1,21 @@
 ---
 title: "Shortcuts"
-description: ""
-helpx_description: "Painter > Interface > Settings > Shortcuts"
+description: "Learn how to customize keyboard shortcuts in Substance 3D Painter to streamline your workflow and improve efficiency."
+helpx_description: Painter > Interface > Settings > Shortcuts
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/settings/shortcuts.html"
+helpx_creative_field:
+  - painting-illustration
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - shortcuts
+  - workspace
+  - preferences
 ---
+
+
+
 
 # Shortcuts
 

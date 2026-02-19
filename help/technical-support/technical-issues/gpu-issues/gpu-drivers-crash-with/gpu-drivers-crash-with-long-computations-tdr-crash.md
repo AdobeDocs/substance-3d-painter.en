@@ -1,8 +1,25 @@
 ---
 title: "GPU drivers crash with long computations (TDR crash)"
-description: ""
-helpx_description: "Painter > Technical support > Technical Issues > GPU Issues > GPU drivers crash with long computations (TDR crash)"
+description: "Learn how to fix GPU driver crashes during long computations in Substance 3D Painter to prevent TDR timeout errors."
+helpx_description: Painter > Technical support > Technical Issues > GPU Issues > GPU drivers crash with long computations (TDR crash)
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html"
+helpx_creative_field:
+  - video
+  - painting-illustration
+  - graphic-design
+  - social-media
+  - 3d-immersive
+  - publishing
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - download-and-install
+  - troubleshooting
+  - preferences
 ---
+
+
+
 
 # GPU drivers crash with long computations (TDR crash)
 

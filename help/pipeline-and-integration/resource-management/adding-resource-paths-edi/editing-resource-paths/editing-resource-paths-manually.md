@@ -1,8 +1,21 @@
 ---
 title: "Editing resource paths manually"
-description: ""
-helpx_description: "Painter > Pipeline and integration > Resource management > Adding resource paths by editing preferences manually > Editing resource paths manually"
+description: "Learn how to edit resource paths manually in Substance 3D Painter preferences to customize your shelf resource locations."
+helpx_description: Painter > Pipeline and integration > Resource management > Adding resource paths by editing preferences manually > Editing resource paths manually
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually/editing-resource-paths-manually.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - paths
+  - open
+  - preferences
 ---
+
+
+
 
 # Editing resource paths manually
 

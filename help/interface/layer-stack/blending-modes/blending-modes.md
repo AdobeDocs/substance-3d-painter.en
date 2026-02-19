@@ -1,8 +1,22 @@
 ---
 title: "Blending modes"
-description: ""
-helpx_description: "Painter > Interface > Layer stack > Blending modes"
+description: "Learn how to use blending modes in Substance 3D Painter to combine layers and create various texture blending effects."
+helpx_description: Painter > Interface > Layer stack > Blending modes
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/blending-modes.html"
+helpx_creative_field:
+  - painting-illustration
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - replacing-backgrounds
+  - effects
+  - blending
 ---
+
+
+
 
 # Blending modes
 
@@ -76,8 +90,8 @@ Below is the list of all the Blending Modes available in Substance 3D Painter la
 | Color | Performs the operation with the HSV model. Keeps only the Hue and Saturation of the Top Layer and uses the Value of the Bottom Layer. Black and very dark colors don't have any Hue and are desaturated, therefore colors of the Bottom layer will become grayscale values. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r33-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="blending-color.jpg"/></div> |
 | Value | Performs the operation with the HSV model. Keeps only the Value of the Top Layer and uses the Hue and Saturation of the Bottom Layer. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r34-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="blending-value.jpg"/></div> |
 |  |  |
-| Normal Map Combine | Whiteout Blending operation. Preserve details while making sure flat normals still operate properly. See [ Normal Map Painting ](../../../painting/advanced-channel-painting/normal-map-painting/normal-map-painting.md) for more information. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r36-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="blending-normal-combine.jpg"/></div> |
-| Normal Map Detail | Detail Oriented Blending operation (Reoriented Normal Mapping), more precise than Normal Map Combine. Preserve flat normal maps and the intensity of the two sources. To ensure that result the Top layer normal is reoriented to follow the surface of the bottom layer. See [ Normal Map Painting ](../../../painting/advanced-channel-painting/normal-map-painting/normal-map-painting.md) for more information. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r37-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="blending-normal-detail.jpg"/></div> |
-| Normal Map Inverse Detail | Same behavior as for the Normal Map Detail blending operation, however it is the Bottom layer that is transformed to fit the surface of the Top layer. See [ Normal Map Painting ](../../../painting/advanced-channel-painting/normal-map-painting/normal-map-painting.md) for more information. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r38-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="blending-normal-inverse-detail.jpg"/></div> |
+| Normal Map Combine | Whiteout Blending operation. Preserve details while making sure flat normals still operate properly. See [ Normal Map Painting ](../../../help/painting/advanced-channel-painting/normal-map-painting/normal-map-painting.md) for more information. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r36-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="blending-normal-combine.jpg"/></div> |
+| Normal Map Detail | Detail Oriented Blending operation (Reoriented Normal Mapping), more precise than Normal Map Combine. Preserve flat normal maps and the intensity of the two sources. To ensure that result the Top layer normal is reoriented to follow the surface of the bottom layer. See [ Normal Map Painting ](../../../help/painting/advanced-channel-painting/normal-map-painting/normal-map-painting.md) for more information. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r37-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="blending-normal-detail.jpg"/></div> |
+| Normal Map Inverse Detail | Same behavior as for the Normal Map Detail blending operation, however it is the Bottom layer that is transformed to fit the surface of the Top layer. See [ Normal Map Painting ](../../../help/painting/advanced-channel-painting/normal-map-painting/normal-map-painting.md) for more information. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r38-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="blending-normal-inverse-detail.jpg"/></div> |
 
 >

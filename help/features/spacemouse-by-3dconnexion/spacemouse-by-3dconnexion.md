@@ -1,8 +1,21 @@
 ---
 title: "SpaceMouse by 3Dconnexion"
-description: ""
-helpx_description: "Painter > Features > SpaceMouse by 3Dconnexion"
+description: "Learn how to use SpaceMouse by 3Dconnexion with Substance 3D Painter for enhanced 3D navigation and viewport control."
+helpx_description: Painter > Features > SpaceMouse by 3Dconnexion
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/spacemouse-by-3dconnexion.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - intermediate-advanced
+helpx_learn_topic:
+  - workspace
+  - preferences
+  - interface
 ---
+
+
+
 
 # SpaceMouse® by 3Dconnexion
 

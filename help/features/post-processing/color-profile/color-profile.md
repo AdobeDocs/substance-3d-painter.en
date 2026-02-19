@@ -1,8 +1,21 @@
 ---
 title: "Color Profile"
-description: ""
-helpx_description: "Painter > Features > Post Processing > Color Profile"
+description: "Learn how to use color profile post-processing in Substance 3D Painter to apply color grading and LUT transformations."
+helpx_description: Painter > Features > Post Processing > Color Profile
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/color-profile.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - creating-color-palettes
+  - color
+  - swatches
 ---
+
+
+
 
 # Color Profile
 
@@ -42,7 +55,7 @@ float3 Output = clamp( HDR.rgb * Value, 0.0f, 1.0f );
 ```
 
 
-It is possible to apply a specific tone-mapping before using a the Color Profile. See the functions available in the [Tone Mapping](../tone-mapping/tone-mapping.md).  
+It is possible to apply a specific tone-mapping before using a the Color Profile. See the functions available in the [Tone Mapping](../../../help/features/post-processing/tone-mapping/tone-mapping.md).  
  Substance 3D Painter doesn't process the input color other than via the white point setting. There are no Shaper LUT applied for example.
 
 ## Creating Color Profiles

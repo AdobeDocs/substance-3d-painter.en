@@ -1,8 +1,21 @@
 ---
 title: "Corrupted project file"
-description: ""
-helpx_description: "Painter > Technical support > Workflow Issues > Project Issues > Corrupted project file"
+description: "Learn how to recover corrupted Substance 3D Painter project files that have been processed as text files."
+helpx_description: Painter > Technical support > Workflow Issues > Project Issues > Corrupted project file
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/project-issues/a-project-has-been-processed-as-a-text-file-and-is-now-corrupted.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - collaboration
+  - import
+  - projects
 ---
+
+
+
 
 # A project has been processed as a text file and is now corrupted
 

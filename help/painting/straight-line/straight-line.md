@@ -1,8 +1,21 @@
 ---
 title: "Straight line"
-description: ""
-helpx_description: "Painter > Painting > Straight line"
+description: "Use the straight line tool in Substance 3D Painter to create precise straight paint strokes for texture painting."
+helpx_description: Painter > Painting > Straight line
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/straight-line.html"
+helpx_creative_field:
+  - painting-illustration
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - drawing
+  - brushes
+  - illustration
 ---
+
+
+
 
 # Straight line
 

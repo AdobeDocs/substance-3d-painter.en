@@ -1,8 +1,21 @@
 ---
 title: "Version 7.2"
-description: ""
-helpx_description: "Painter > Release notes > Old versions > Version 7.2"
+description: "Review release notes for Substance 3D Painter version 7.2 to learn about new features, improvements, and bug fixes."
+helpx_description: Painter > Release notes > Old versions > Version 7.2
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-7-2.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - xr
+  - product-design
+  - materials
 ---
+
+
+
 
 # Version 7.2
 
@@ -20,7 +33,7 @@ The old Shelf window has been improved and renamed as the Assets window. This re
 
 >[!NOTE]
 >
-> This release introduces changes in the way we manage the application preferences and the Shelf/Assets content. To know how to migrate your data please take a look a [the dedicated page](../../../pipeline-and-integration/resource-management/preferences-and-content/preferences-and-content-migration.md).
+> This release introduces changes in the way we manage the application preferences and the Shelf/Assets content. To know how to migrate your data please take a look a [the dedicated page](../../../help/pipeline-and-integration/resource-management/preferences-and-content/preferences-and-content-migration.md).
 
 * **New design and layout**  
   The new design focus on simplicity but as well on easier organization of the window. The window can now be docked vertically without wasting space. A new "list" display mode allows to search assets by name much more easily.
@@ -48,7 +61,7 @@ The old Shelf window has been improved and renamed as the Assets window. This re
 * **Improved performances**The loading and generation time of thumbnails has been improved on several aspects and should now be much faster.
 
 * **Increase preview memory budget to load more thumbnails**  
-  By default a limited amount of memory is allocated to the display of thumbnails to save on performances. Having a library with many resources however can lead to loading and unloading thumbnails constantly which make navigation and searching for resources difficult. There is now a new [environment variable](../../../pipeline-and-integration/configuration/environment-variables/environment-variables.md) to override the default budget value.
+  By default a limited amount of memory is allocated to the display of thumbnails to save on performances. Having a library with many resources however can lead to loading and unloading thumbnails constantly which make navigation and searching for resources difficult. There is now a new [environment variable](../../../help/pipeline-and-integration/configuration/environment-variables/environment-variables.md) to override the default budget value.
 
 ### New Adobe Standard Material workflow
 

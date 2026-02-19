@@ -1,8 +1,21 @@
 ---
 title: "Color management"
-description: ""
-helpx_description: "Painter > Features > Color management"
+description: "Learn how to configure color management in Substance 3D Painter to ensure consistent color accuracy across your workflow."
+helpx_description: Painter > Features > Color management
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/color-management.html"
+helpx_creative_field:
+  - 3d-immersive
+  - video
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - color
+  - export
+  - workspace
 ---
+
+
+
 
 # Color management
 
@@ -20,8 +33,8 @@ In the application color management is handled via the integration of [OpenColor
 
 Color management settings:
 
-* [Color management with Adobe ACE - ICC](color-management-with-ado/color-management-with-adobe-ace-icc.md)
-* [Color management with OpenColorIO](color-management-with-ope/color-management-with-opencolorio.md)
+* [Color management with Adobe ACE - ICC](../../help/features/color-management/color-management-with-ado/color-management-with-adobe-ace-icc.md)
+* [Color management with OpenColorIO](../../help/features/color-management/color-management-with-ope/color-management-with-opencolorio.md)
 
 ## Vocabulary
 
@@ -72,16 +85,16 @@ Inside the application, which channels are color managed or not (data/passthroug
 | **Specular level** | No |
 | **Translucency** | No |
 | **Transmissive** | **Yes** |
-| **UserX (0-15)** | Depends on [Texture Set settings](../../interface/texture-set/texture-set-settings/texture-set-settings.md). By default user channels are not color managed. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r31-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="user-demo.png"/></div> |
+| **UserX (0-15)** | Depends on [Texture Set settings](../../help/interface/texture-set/texture-set-settings/texture-set-settings.md). By default user channels are not color managed. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r31-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="user-demo.png"/></div> |
 
 ## Color picker
 
-When color management is enabled, the [color picker](../../interface/color-picker/color-picker.md) behavior change slightly:
+When color management is enabled, the [color picker](../../help/interface/color-picker/color-picker.md) behavior change slightly:
 
 * Colors are edited based on the current Display selected.
 * A few additional information are added to the interface.
 
-For more information, see the color picker [documentation page](../../interface/color-picker/color-picker.md).
+For more information, see the color picker [documentation page](../../help/interface/color-picker/color-picker.md).
 
 ## Viewport controls
 
@@ -100,7 +113,7 @@ Both the 2D and 3D views are color managed and have a dedicated settings availab
 
 The main export settings are driven by the project configuration (see above).
 
-Inside the [export textures](../../getting-started/export/export.md) window there is a keyword that can be used to append to the filenames the color space used per texture: **$colorSpace**.
+Inside the [export textures](../../help/getting-started/export/export.md) window there is a keyword that can be used to append to the filenames the color space used per texture: **$colorSpace**.
 
 <table>
 <tr style="border: 0;">
@@ -123,7 +136,7 @@ It may be necessary to specify an alternate color space for a resource to differ
 
 ### Changing the color space of a resource
 
-Inside the [properties window](../../interface/properties/properties.md) is it possible to override the color space of a specific resource (where it is currently used).
+Inside the [properties window](../../help/interface/properties/properties.md) is it possible to override the color space of a specific resource (where it is currently used).
 
 To do so, expand the color space section and use the dropdown to specify the new color space:
 
@@ -131,6 +144,6 @@ To do so, expand the color space section and use the dropdown to specify the new
 
 ### Changing the color space of the environment map
 
-Inside the [display settings](../../interface/display-settings/display-settings.md), enable the **Override environment map color space** then choose a color space in the list that matches your resource.
+Inside the [display settings](../../help/interface/display-settings/display-settings.md), enable the **Override environment map color space** then choose a color space in the list that matches your resource.
 
 ![](color-sace-menu-env.png)

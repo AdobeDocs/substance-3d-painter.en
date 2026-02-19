@@ -1,8 +1,22 @@
 ---
 title: "Dynamic Material Layering"
-description: ""
-helpx_description: "Painter > Features > Dynamic Material Layering"
+description: "Learn how to use dynamic material layering in Substance 3D Painter to blend and combine materials with procedural masks."
+helpx_description: Painter > Features > Dynamic Material Layering
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/dynamic-material-layering.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - painting-illustration
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - layers
+  - materials
+  - replacing-backgrounds
 ---
+
+
+
 
 # Dynamic Material Layering
 

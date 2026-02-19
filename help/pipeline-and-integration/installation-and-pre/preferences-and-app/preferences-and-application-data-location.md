@@ -1,8 +1,21 @@
 ---
 title: "Preferences and application data location"
-description: ""
-helpx_description: "Painter > Pipeline and integration > Installation and preferences > Preferences and application data location"
+description: "Learn about preferences and application data locations for Substance 3D Painter to manage settings and user data."
+helpx_description: Painter > Pipeline and integration > Installation and preferences > Preferences and application data location
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/installation-and-preferences/preferences-and-application-data-location.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - preferences
+  - paths
+  - geospatial-data
 ---
+
+
+
 
 # Preferences and application data location
 
