@@ -1,20 +1,16 @@
 ---
-title: "Adding saved searches manually"
-description: "Learn how to add saved searches manually in Substance 3D Painter to quickly access frequently used resource filters."
-helpx_description: Painter > Pipeline and integration > Resource management > Adding saved searches manually
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/adding-saved-searches-manually.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - presets
-  - preferences
-  - automation
+breadcrumb-title: ""
+description: Learn how to add saved searches manually in Substance 3D Painter to quickly access frequently used resource filters.
+helpx_creative_field: ""
+helpx_description: Painter > Pipeline and integration > Resource management > Adding saved searches manually
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Adding saved searches manually
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Adding saved searches manually
@@ -59,5 +55,5 @@ Here is how the syntax works:
 
 * **Size**: is determines the number of custom presets that need to be read and loaded by the application.
 * **Number**: at the start of the line defines the current preset it targets (ex:  **1/**).
-* **Query**: (after the number) defines the actual search terms used. In the example it uses  **u:**  for usages,  **p:**  for paths, or a string for a search term. The query content has to be wrapped in quotes. To learn about the terms that can be used, [see this page](../../../help/interface/assets/advanced-search-queries/advanced-search-queries.md).
+* **Query**: (after the number) defines the actual search terms used. In the example it uses  **u:**  for usages,  **p:**  for paths, or a string for a search term. The query content has to be wrapped in quotes. To learn about the terms that can be used, [see this page](../../../interface/assets/advanced-search-queries/advanced-search-queries.md).
 * **Name**: the named of the preset.

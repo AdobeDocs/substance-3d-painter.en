@@ -1,21 +1,16 @@
 ---
-title: "Dynamic Stroke Performances"
-description: "Learn about dynamic stroke performance considerations in Substance 3D Painter to optimize brush stroke rendering and responsiveness."
-helpx_description: Painter > Painting > Dynamic strokes > Dynamic Stroke Performances
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes/dynamic-stroke-performances.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - painting-illustration
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - painting
-  - brushes
-  - drawing
+breadcrumb-title: ""
+description: Learn about dynamic stroke performance considerations in Substance 3D Painter to optimize brush stroke rendering and responsiveness.
+helpx_creative_field: ""
+helpx_description: Painter > Painting > Dynamic strokes > Dynamic Stroke Performances
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Dynamic Stroke Performances
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Dynamic Stroke Performances

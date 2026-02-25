@@ -1,9 +1,17 @@
 ---
-title: "Send to"
-description: "Learn how to use the Send to feature in Substance 3D Painter to transfer projects and assets to other Substance 3D applications."
-helpx_description: "Substance 3D Painter"
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/send-to.html"
+breadcrumb-title: ""
+description: Learn how to use the Send to feature in Substance 3D Painter to transfer projects and assets to other Substance 3D applications.
+helpx_creative_field: ""
+helpx_description: Substance 3D Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Send to
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Send to
 
@@ -24,7 +32,7 @@ Painter can also recieve resources from other applications, such as:
 * <b>Substance 3D Designer</b>
 * <b>Substance 3D Sampler</b>
 
-For more information on recieving resources, see the [dedicated documentation page](../../help/content/importing-assets/receiving-assets-from-oth/receiving-assets-from-other-substance-3d-applications.md).
+For more information on recieving resources, see the [dedicated documentation page](../../content/importing-assets/receiving-assets-from-oth/receiving-assets-from-other-substance-3d-applications.md).
 
 >[!NOTE]
 >

@@ -1,20 +1,16 @@
 ---
-title: "Generic filter"
-description: "Learn how to create generic filter effects for Substance 3D Painter to apply custom image processing and texture filters."
-helpx_description: Painter > Content > Creating custom effects > Generic filter
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/generic-filter.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - effects
-  - creative-effects
-  - appearance
+breadcrumb-title: ""
+description: Learn how to create generic filter effects for Substance 3D Painter to apply custom image processing and texture filters.
+helpx_creative_field: ""
+helpx_description: Painter > Content > Creating custom effects > Generic filter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Generic filter
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Generic filter

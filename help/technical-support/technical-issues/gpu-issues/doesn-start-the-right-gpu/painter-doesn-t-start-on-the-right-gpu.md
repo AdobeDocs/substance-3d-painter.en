@@ -1,29 +1,23 @@
 ---
-title: "Painter doesnt start on the right GPU"
-description: "Learn how to configure Substance 3D Painter to start on the correct GPU for optimal performance and compatibility."
-helpx_description: Painter > Technical support > Technical Issues > GPU Issues > Painter doesnt start on the right GPU
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/painter-doesn-t-start-on-the-right-gpu.html"
-helpx_creative_field:
-  - painting-illustration
-  - video
-  - 3d-immersive
-  - motion
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - known-issues
-  - troubleshooting
-  - system-requirements
+breadcrumb-title: ""
+description: Learn how to configure Substance 3D Painter to start on the correct GPU for optimal performance and compatibility.
+helpx_creative_field: ""
+helpx_description: Painter > Technical support > Technical Issues > GPU Issues > Painter doesnt start on the right GPU
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Painter doesnt start on the right GPU
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Painter doesn't start on the right GPU
 
 On Windows, the application may not use the right GPU when starting up which can lead to performance and stability issues. Below is a list of of common issues and their solutions to make sure the software works with the right GPU.
 
-To know which GPU is used, you can check the [log file](../../../../help/technical-support/exporting-the-log-file/exporting-the-log-file.md).
+To know which GPU is used, you can check the [log file](../../../../technical-support/exporting-the-log-file/exporting-the-log-file.md).
 
 ## Windows
 
@@ -74,7 +68,7 @@ Windows may have set the wrong GPU setting for the application because of the de
 
 ## Linux
 
-### Disable "Prefers Non Default GPU"
+### Disable "Prefers Non Default GPU"
 
 When running Painter from a desktop shortcut or when running it via Steam, make sure the setting <b>PrefersNonDefaultGPU</b> inside the <b>\*.desktop</b> file is set to <b>false</b>.
 

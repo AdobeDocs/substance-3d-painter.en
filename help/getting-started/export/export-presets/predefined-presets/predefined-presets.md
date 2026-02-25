@@ -1,20 +1,16 @@
 ---
-title: "Predefined Output templates"
-description: "Learn about predefined output templates in Substance 3D Painter to use ready-made export configurations for common workflows."
-helpx_description: Painter > Getting Started > Export > Export presets > Predefined Output templates
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-presets/predefined-presets.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - presets
-  - patterns
-  - raw
+breadcrumb-title: ""
+description: Learn about predefined output templates in Substance 3D Painter to use ready-made export configurations for common workflows.
+helpx_creative_field: ""
+helpx_description: Painter > Getting Started > Export > Export presets > Predefined Output templates
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Predefined Output templates
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Predefined Output templates
@@ -28,6 +24,6 @@ Below is a list of the non-editable presets available :
 * Document channels + Normal + AO (With Alpha)
 * Sketchfab
 * Substance 3D Stager
-* [USDz (Apple AR)](../../../../help/getting-started/export/export-presets/predefined-presets/usd-pbr-metal-roughness/usd-pbr-metal-roughness-preset.md)
+* [USDz (Apple AR)](../../../../getting-started/export/export-presets/predefined-presets/usd-pbr-metal-roughness/usd-pbr-metal-roughness-preset.md)
 * glTF PBR Metal Roughness
 * glTF PBR Metal Roughness + Displacement texture (experimental)

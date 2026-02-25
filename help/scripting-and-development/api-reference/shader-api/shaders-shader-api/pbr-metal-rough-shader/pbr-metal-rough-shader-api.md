@@ -1,21 +1,16 @@
 ---
-title: "PBR Metal Rough - Shader API"
-description: "Access the PBR Metal Rough shader API reference for Substance 3D Painter to create physically-based materials."
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > PBR Metal Rough - Shader API
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-metal-rough-shader-api.html"
-helpx_creative_field:
-  - painting-illustration
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - reflections
-  - materials
-  - pbr
+breadcrumb-title: ""
+description: Access the PBR Metal Rough shader API reference for Substance 3D Painter to create physically-based materials.
+helpx_creative_field: ""
+helpx_description: Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > PBR Metal Rough - Shader API
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: PBR Metal Rough - Shader API
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # PBR Metal Rough - Shader API

@@ -1,20 +1,16 @@
 ---
-title: "General preferences"
-description: "Learn how to configure general preferences in Substance 3D Painter to customize application behavior and user experience."
-helpx_description: Painter > Interface > Settings > General preferences
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/settings/general-preferences.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - views
-  - preview
-  - rendering
+breadcrumb-title: ""
+description: Learn how to configure general preferences in Substance 3D Painter to customize application behavior and user experience.
+helpx_creative_field: ""
+helpx_description: Painter > Interface > Settings > General preferences
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: General preferences
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # General preferences
@@ -33,7 +29,7 @@ This page explains the main settings of the application.
 | **Show keyboard helper** | If enabled, displays the keyboard shortcuts at the bottom left of the viewports when pressing a key (like CTRL or SHIFT). |
 | **Show world axes** | If enabled, shows the world axis in the bottom right of the 3D view. |
 | **Background color** | Chooses the colors used as a background for the viewports. Two colors are available to create a gradient. |
-| **Only display the selected material when painting** | If enabled, only the Texture Set currently selected will be displayed in the 3D view when painting (hiding temporarily the other Texture Sets).  **Note:**  It is recommended to keep this setting off as quickly changing the visibily in the viewport can impact performance of the [Sparse Virtual Textures](../../../help/features/sparse-virtual-textures/sparse-virtual-textures.md). |
+| **Only display the selected material when painting** | If enabled, only the Texture Set currently selected will be displayed in the 3D view when painting (hiding temporarily the other Texture Sets).  **Note:**  It is recommended to keep this setting off as quickly changing the visibily in the viewport can impact performance of the [Sparse Virtual Textures](../../../features/sparse-virtual-textures/sparse-virtual-textures.md). |
 | **Viewport Scaling** | Allows to reduce the resolution of the viewport for HDPI/Retina screens to improve performances.Possible value:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>None</strong>: no scaling, viewport is rendered at the native screen resolution.</li><li data-preserve-html="true"><strong>Auto</strong>: divide the screen resolution by two (on HDPI screens only).</li></ul> |
 
 ## Layer stack options
@@ -63,7 +59,7 @@ This page explains the main settings of the application.
 | --- | --- |
 | **Save preprocessed scene files** | If enabled, pre-processed high-poly meshes used by the bakers will be saved on disk for future re-use. This setting allows to re-bake more quickly. |
 | **Enable live preview baking process** | If enabled, the 3D and 2D viewport will display the current baker texture being computed on the mesh. |
-| **Enable GPU Raytracing** | If enabled, the Bakers will try to use the GPU for performing raytracing instead of the CPU. The feature allows bakers to perform faster in general.This can only be enabled on compatible hardware. See the [System requirements](../../../help/getting-started/system-requirements/system-requirements.md) for more details. |
+| **Enable GPU Raytracing** | If enabled, the Bakers will try to use the GPU for performing raytracing instead of the CPU. The feature allows bakers to perform faster in general.This can only be enabled on compatible hardware. See the [System requirements](../../../getting-started/system-requirements/system-requirements.md) for more details. |
 
 ## Preview options
 
@@ -81,7 +77,7 @@ This page explains the main settings of the application.
 
 | Setting | Description |
 | --- | --- |
-| **Cache directory** | Defines the location where temporary files are written. This includes the [Sparse Virtual Textures](../../../help/features/sparse-virtual-textures/sparse-virtual-textures.md) cache. This setting can be overridden by an [Environment variables](../../../help/pipeline-and-integration/configuration/environment-variables/environment-variables.md). |
+| **Cache directory** | Defines the location where temporary files are written. This includes the [Sparse Virtual Textures](../../../features/sparse-virtual-textures/sparse-virtual-textures.md) cache. This setting can be overridden by an [Environment variables](../../../pipeline-and-integration/configuration/environment-variables/environment-variables.md). |
 
 ## Sparse virtual textures
 
@@ -89,7 +85,7 @@ This page explains the main settings of the application.
 
 | Setting | Description |
 | --- | --- |
-| **Hardware support acceleration** | If enabled, the application will try to use the Sparse textures with the GPU. For more details see the [Sparse Virtual Textures](../../../help/features/sparse-virtual-textures/sparse-virtual-textures.md) page. This setting can be overridden by an [Environment variables](../../../help/pipeline-and-integration/configuration/environment-variables/environment-variables.md). |
+| **Hardware support acceleration** | If enabled, the application will try to use the Sparse textures with the GPU. For more details see the [Sparse Virtual Textures](../../../features/sparse-virtual-textures/sparse-virtual-textures.md) page. This setting can be overridden by an [Environment variables](../../../pipeline-and-integration/configuration/environment-variables/environment-variables.md). |
 
 ## Iray hardware
 

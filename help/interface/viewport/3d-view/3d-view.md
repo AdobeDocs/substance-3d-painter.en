@@ -1,20 +1,16 @@
 ---
-title: "3D view"
-description: "Learn how to use the 3D view in Substance 3D Painter to visualize and interact with your 3D models during texture painting."
-helpx_description: Painter > Interface > Viewport > 3D view
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/viewport/3d-view.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - views
-  - camera
-  - 3d
+breadcrumb-title: ""
+description: Learn how to use the 3D view in Substance 3D Painter to visualize and interact with your 3D models during texture painting.
+helpx_creative_field: ""
+helpx_description: Painter > Interface > Viewport > 3D view
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: 3D view
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # 3D view
@@ -25,7 +21,7 @@ The 3D View shows the 3D model under lighting conditions which helps look at how
 
 ## Profile
 
-At the top left of the viewport may appear a text indicating the currently loaded profile. For more information see the [Color Profile](../../../help/features/post-processing/color-profile/color-profile.md) page.
+At the top left of the viewport may appear a text indicating the currently loaded profile. For more information see the [Color Profile](../../../features/post-processing/color-profile/color-profile.md) page.
 
 ## Camera selection
 
@@ -33,7 +29,7 @@ At the top left of the viewport may appear a text indicating the currently loade
 
 If the 3D model file used to create the project or import the mesh has cameras defined, they can be imported into the project and used to change the Camera location and orientation. This dropdown allows to switch between the camera available in the project. If there is no other camera than the default, the dropdown won't be displayed.
 
-Switched between camera can be quickly done by using the dedicated [keyboard shortcut](../../../help/interface/settings/shortcuts/shortcuts.md). For more information see the [Camera management](../../../help/interface/viewport/camera-management/camera-management.md) page.
+Switched between camera can be quickly done by using the dedicated [keyboard shortcut](../../../interface/settings/shortcuts/shortcuts.md). For more information see the [Camera management](../../../interface/viewport/camera-management/camera-management.md) page.
 
 ## Display mode
 
@@ -41,7 +37,7 @@ Switched between camera can be quickly done by using the dedicated [keyboard sho
 
 By default the viewport display mode is set to material to show the environment lighting. The dropdown allow to switch the display mode to solo which isolate channels and mesh maps individually.
 
-This lighting can be controlled via the [Display settings](../../../help/interface/display-settings/display-settings.md) as well as other rendering settings. The lighting orientation can be changed with the help of [keyboard shortcut](../../../help/interface/settings/shortcuts/shortcuts.md) as well.
+This lighting can be controlled via the [Display settings](../../../interface/display-settings/display-settings.md) as well as other rendering settings. The lighting orientation can be changed with the help of [keyboard shortcut](../../../interface/settings/shortcuts/shortcuts.md) as well.
 
 ## Axis
 
@@ -53,5 +49,5 @@ At the bottom right of the viewport is the 3D view axis which indicates how the 
 
 The viewport display can be affected by other settings:
 
-* [Shader settings](../../../help/interface/shader-settings/shader-settings.md)
-* [Post Processing](../../../help/features/post-processing/post-processing.md)
+* [Shader settings](../../../interface/shader-settings/shader-settings.md)
+* [Post Processing](../../../features/post-processing/post-processing.md)

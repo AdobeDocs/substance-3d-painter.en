@@ -1,9 +1,17 @@
 ---
-title: "Known issues"
-description: "Review known issues for Substance 3D Painter to stay informed about current limitations and workarounds in the latest version."
-helpx_description: "Substance 3D Painter"
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/know-issues.html"
+breadcrumb-title: ""
+description: Review known issues for Substance 3D Painter to stay informed about current limitations and workarounds in the latest version.
+helpx_creative_field: ""
+helpx_description: Substance 3D Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Known issues
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Known issues
 

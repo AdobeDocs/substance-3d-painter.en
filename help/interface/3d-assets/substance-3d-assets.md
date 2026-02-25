@@ -1,9 +1,17 @@
 ---
-title: "Substance 3D Assets"
-description: "Learn how to access and use Substance 3D Assets in Substance 3D Painter to browse and import 3D models and materials."
-helpx_description: "Substance 3D Painter"
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/substance-3d-assets.html"
+breadcrumb-title: ""
+description: Learn how to access and use Substance 3D Assets in Substance 3D Painter to browse and import 3D models and materials.
+helpx_creative_field: ""
+helpx_description: Substance 3D Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Substance 3D Assets
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Substance 3D Assets
 
@@ -41,7 +49,7 @@ Once an asset has been downloaded successfully it will appears within the regula
 
 >[!NOTE]
 >
-> The location where resource are downloaded depends on the default library. This location can be changed in the preferences, see the dedicated [documentation page](../../help/interface/assets/adding-a-new-library/adding-a-new-library.md).
+> The location where resource are downloaded depends on the default library. This location can be changed in the preferences, see the dedicated [documentation page](../../interface/assets/adding-a-new-library/adding-a-new-library.md).
 
 ### Control menu
 

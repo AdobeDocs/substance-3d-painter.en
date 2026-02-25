@@ -1,20 +1,16 @@
 ---
-title: "UV projection"
-description: "Use UV projection in Substance 3D Painter to project textures based on UV coordinates for precise texture placement."
-helpx_description: Painter > Painting > Fill projections > UV projection
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/uv-projection.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - beginner
-helpx_learn_topic:
-  - perspective
-  - tiling
-  - transform
+breadcrumb-title: ""
+description: Use UV projection in Substance 3D Painter to project textures based on UV coordinates for precise texture placement.
+helpx_creative_field: ""
+helpx_description: Painter > Painting > Fill projections > UV projection
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: UV projection
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # UV projection
@@ -38,7 +34,7 @@ The UV transformation settings control the texture/material within the projectio
 
 ## Contextual Toolbar
 
-Several settings and tools are available from the [Contextual toolbar](../../../help/interface/toolbars/toolbars.md) sitting at the top of the viewport which give control over the manipulator and the projection:
+Several settings and tools are available from the [Contextual toolbar](../../../interface/toolbars/toolbars.md) sitting at the top of the viewport which give control over the manipulator and the projection:
 
 | Icon | Name | Description |
 | --- | --- | --- |
@@ -51,7 +47,7 @@ Several settings and tools are available from the [Contextual toolbar](../../../
 
 ## Manipulator
 
-The UV Projection uses a manipulator that is only available in the [2D view](../../../help/interface/viewport/2d-view/2d-view.md).
+The UV Projection uses a manipulator that is only available in the [2D view](../../../interface/viewport/2d-view/2d-view.md).
 
 | Action | Shortcut | Description |
 | --- | --- | --- |

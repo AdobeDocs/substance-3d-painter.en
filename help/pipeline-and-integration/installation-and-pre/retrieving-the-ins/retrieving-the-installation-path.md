@@ -1,20 +1,16 @@
 ---
-title: "Retrieving the installation path"
-description: "Learn how to retrieve the installation path for Substance 3D Painter for scripting and pipeline integration purposes."
-helpx_description: Painter > Pipeline and integration > Installation and preferences > Retrieving the installation path
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/installation-and-preferences/retrieving-the-installation-path.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - download-and-install
-  - paths
-  - geospatial-data
+breadcrumb-title: ""
+description: Learn how to retrieve the installation path for Substance 3D Painter for scripting and pipeline integration purposes.
+helpx_creative_field: ""
+helpx_description: Painter > Pipeline and integration > Installation and preferences > Retrieving the installation path
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Retrieving the installation path
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Retrieving the installation path

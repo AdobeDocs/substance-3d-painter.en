@@ -1,20 +1,16 @@
 ---
-title: "Sparse Virtual Textures"
-description: "Learn how to use sparse virtual textures in Substance 3D Painter to work with ultra-high resolution textures efficiently."
-helpx_description: Painter > Features > Sparse Virtual Textures
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/sparse-virtual-textures.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - texture
-  - pbr
-  - painting
+breadcrumb-title: ""
+description: Learn how to use sparse virtual textures in Substance 3D Painter to work with ultra-high resolution textures efficiently.
+helpx_creative_field: ""
+helpx_description: Painter > Features > Sparse Virtual Textures
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Sparse Virtual Textures
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Sparse Virtual Textures
@@ -29,7 +25,7 @@ Starting with version  **2018.3**  Substance 3D Painter use  **Sparse Virtual Te
 
 Sparse textures rely on a specific hardware configuration in order to be fully performant. If the current configuration doesn't support it properly, Substance 3D Painter will  **fallback**  to a software implementation instead (which will be less precise and less performant).
 
-It is possible to force Substance 3D Painter to use the software fallback instead of the Hardware acceleration by going in the [Settings](../../help/interface/settings/settings.md) .
+It is possible to force Substance 3D Painter to use the software fallback instead of the Hardware acceleration by going in the [Settings](../../interface/settings/settings.md) .
 
 Here are the configuration that support the hardware accelerated Sparse Virtual Textures :
 
@@ -40,7 +36,7 @@ Here are the configuration that support the hardware accelerated Sparse Virtual 
 | **Linux** | <ul data-preserve-html="true"><li data-preserve-html="true">Nvidia GeForce (Drivers 410.73 or higher)</li><li data-preserve-html="true">Nvidia Quadro (Drivers 410.73 or higher)</li><li data-preserve-html="true">AMD FirePro &amp; Radeon Pro (Drivers 18.9.3 or higher) <strong> &#42; </strong></li><li data-preserve-html="true">AMD Radeon (Drivers 18.9.3 or higher)&#42;</li></ul> | <ul data-preserve-html="true"><li data-preserve-html="true">Intel GPU</li></ul> |
 
 
-* **\*** : Hardware acceleration disabled by default, can be enabled manually in the [Settings](../../help/interface/settings/settings.md) .
+* **\*** : Hardware acceleration disabled by default, can be enabled manually in the [Settings](../../interface/settings/settings.md) .
 
 ## Why is Substance 3D Painter using Sparse Virtual Textures ?
 
@@ -67,9 +63,9 @@ In order to take full advantage of the SVT, Shaders have to request and read tex
 
 To update your Shaders :
 
-* For  **Default Substance 3D Painter shader**  : Follow the step by step procedure from the [Updating a shader](../../help/interface/shader-settings/updating-a-shader/updating-a-shader.md) page.
+* For  **Default Substance 3D Painter shader**  : Follow the step by step procedure from the [Updating a shader](../../interface/shader-settings/updating-a-shader/updating-a-shader.md) page.
 * For  **Custom shader**  : take a look at the error message(s) in the log as well as the [Shader API](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html) page.
 
 >[!WARNING]
 >
-> Older projects may display white flashes if their shaders are not up to date. See this page for more information : [Mesh flash to white when moving camera](../../help/technical-support/technical-issues/rendering-issues/mesh-flash-white-when-mov/mesh-flash-to-white-when-moving-camera.md).
+> Older projects may display white flashes if their shaders are not up to date. See this page for more information : [Mesh flash to white when moving camera](../../technical-support/technical-issues/rendering-issues/mesh-flash-white-when-mov/mesh-flash-to-white-when-moving-camera.md).

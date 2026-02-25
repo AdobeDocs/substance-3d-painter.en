@@ -1,15 +1,16 @@
 ---
-title: "Path tool overview"
-description: "Use the Path tool in Substance 3D Painter to create and edit paths for precise texture painting and stroke placement."
-helpx_description: Painting > Path tools list > Path tool
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/path.html"
-helpx_creative_field:
-  - 3d
-helpx_experience_level:
-  - all-skill-levels
+breadcrumb-title: ""
+description: Use the Path tool in Substance 3D Painter to create and edit paths for precise texture painting and stroke placement.
+helpx_creative_field: ""
+helpx_description: Painting > Path tools list > Path tool
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Path tool overview
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Path tool overview
@@ -32,8 +33,8 @@ Once the tool is selected, points can be placed by clicking on the surface of th
 The Path tool has different modes, which can be similar to the other paint tools available in the application:
 
 * Paint along path: Draw a regular brush stroke along a defined path.
-* [Ribbon path](../../../help/painting/tool-list/ribbon-tool/ribbon-tool.md): Draws a repeated or stretched image along a path.
-* [Filled path](../../../help/painting/tool-list/filled-path/filled-path.md): Fill the interior of a path with a uniform color.
+* [Ribbon path](../../../painting/tool-list/ribbon-tool/ribbon-tool.md): Draws a repeated or stretched image along a path.
+* [Filled path](../../../painting/tool-list/filled-path/filled-path.md): Fill the interior of a path with a uniform color.
 * Erase along path: Draw a stroke that erase/remove information along a defined path.
 * Smudge along path: Draw a stroke that smudges/blurs information along a defined path.
 
@@ -57,7 +58,7 @@ Path points (or vertices) adhere automatically to the surface of the mesh. They 
 
 ![Gif showing the addition of new points and move of existing points on a path](path_edit_move_points.gif)
 
-Some properties are specific to a path as a whole. This is the case for options found in the <b>Properties </b>window. Just like with a regular stroke (see the [Paint tool documentation](../../../help/painting/tool-list/paint-brush/paint-brush.md)), it is possible to define the following properties for a path:
+Some properties are specific to a path as a whole. This is the case for options found in the <b>Properties </b>window. Just like with a regular stroke (see the [Paint tool documentation](../../../painting/tool-list/paint-brush/paint-brush.md)), it is possible to define the following properties for a path:
 
 * <b>Brush</b>
 * <b>Alpha</b>
@@ -109,8 +110,8 @@ The <b>contextual toolbar</b> when the <b>Path</b> tool is selected provides sev
 | <b>Custom tangents</b>  <div><img alt="Paht tool icon for custom tangents" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_row-r302zw8-column-xc227lz_image" src="path_icon_custom_tangents.png"/></div> | If enabled, allow to manually control the tangents of a given point on the path.  <div><img alt="Image showing custom path tangents" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_row-r302zw8-column-vo327hy_image" src="paht_cutom_tangents_demo.png"/></div> |
 | <b>Open / close path</b>  <div><img alt="Icon of open close path" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_row-7ve27oq-column-xc227lz_image" src="path_contextual_toolbar_close.png"/></div> | Open or close the current path. To close a path, one of the two end points of the current path need to be selected first.  <div><img alt="Gif showing a path being open then closed" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_row-7ve27oq-column-vo327hy_image" src="v90_path_open_close.gif"/></div> |
 | <b>Delete vertex</b>  <div><img alt="Icon of delete path vertex" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_row-v0f273z-column-xc227lz_image" src="path_contextual_toolbar_delete.png"/></div> | Remove the currently selected vertices on a path. |
-| <b>Symmetry</b>  <div><img alt="Icon of symmetry feature" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_row-hkg27qa-column-xc227lz_image" src="path_contextual_toolbar_symmetry.png"/></div> | Enable or disable symmetry for the current path. See the [symmetry documentation](../../../help/painting/symmetry/symmetry.md) for more information.  <div><img alt="Gif showing a path being drawn in symmetry" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_row-hkg27qa-column-vo327hy_image" src="v90_path_symmetry.gif"/></div> |
-| <b>Hide / ignore excluded geometry</b>  <div><img alt="Icon of geometry mask exclude feature" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_row-52h27be-column-xc227lz_image" src="path_contextual_toolbar_exclude.png"/></div> | If enabled, make the current path paint through the hidden geometry. See the [Geometry mask documentation](../../../help/interface/layer-stack/geometry-mask/geometry-mask.md) for more information. |
+| <b>Symmetry</b>  <div><img alt="Icon of symmetry feature" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_row-hkg27qa-column-xc227lz_image" src="path_contextual_toolbar_symmetry.png"/></div> | Enable or disable symmetry for the current path. See the [symmetry documentation](../../../painting/symmetry/symmetry.md) for more information.  <div><img alt="Gif showing a path being drawn in symmetry" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_row-hkg27qa-column-vo327hy_image" src="v90_path_symmetry.gif"/></div> |
+| <b>Hide / ignore excluded geometry</b>  <div><img alt="Icon of geometry mask exclude feature" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_row-52h27be-column-xc227lz_image" src="path_contextual_toolbar_exclude.png"/></div> | If enabled, make the current path paint through the hidden geometry. See the [Geometry mask documentation](../../../interface/layer-stack/geometry-mask/geometry-mask.md) for more information. |
 
 ### Paths panel
 

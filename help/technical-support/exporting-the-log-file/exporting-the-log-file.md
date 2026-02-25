@@ -1,21 +1,16 @@
 ---
-title: "Exporting the log file"
-description: "Learn how to export log files from Substance 3D Painter for troubleshooting and technical support purposes."
-helpx_description: Painter > Technical support > Exporting the log file
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/exporting-the-log-file.html"
-helpx_creative_field:
-  - video
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - export
-  - save
-  - files
+breadcrumb-title: ""
+description: Learn how to export log files from Substance 3D Painter for troubleshooting and technical support purposes.
+helpx_creative_field: ""
+helpx_description: Painter > Technical support > Exporting the log file
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Exporting the log file
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Exporting the log file

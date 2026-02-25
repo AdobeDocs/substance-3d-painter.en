@@ -1,21 +1,16 @@
 ---
-title: "GPU VRAM and Drivers"
-description: "Learn about GPU VRAM and driver requirements for Substance 3D Painter to optimize rendering performance and stability."
-helpx_description: Painter > Technical support > Performances guidelines > GPU Drivers
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/performances-guidelines/gpu-drivers.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - painting-illustration
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - known-issues
-  - system-requirements
-  - troubleshooting
+breadcrumb-title: ""
+description: Learn about GPU VRAM and driver requirements for Substance 3D Painter to optimize rendering performance and stability.
+helpx_creative_field: ""
+helpx_description: Painter > Technical support > Performances guidelines > GPU Drivers
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: GPU VRAM and Drivers
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # GPU Drivers
@@ -38,7 +33,7 @@ In general, the more VRAM Painter has access to, the faster it will run, so try 
 
 ## GPU VRAM amount and bandwidth
 
-Substance 3D Painter relies a lot on the GPU to perform most of its computations. This is why it is important to have a GPU that follows the [System requirements](../../../help/getting-started/system-requirements/system-requirements.md).
+Substance 3D Painter relies a lot on the GPU to perform most of its computations. This is why it is important to have a GPU that follows the [System requirements](../../../getting-started/system-requirements/system-requirements.md).
 
 Painter works by transferring textures into the GPU memory (VRAM) in order to do the computations (like blending operations to create the final textures). However, if the VRAM is starting to get full, the unused textures will be transferred back to the RAM of the computer to free VRAM space. Substance 3D Painter writes and reads GBs of data when working. This means that both the capacity of the VRAM (amount) and the bandwidth speed when doing transfers are important. You can use tools such as [MSI AfterBurner](https://www.msi.com/page/afterburner) to monitor this behavior.
 

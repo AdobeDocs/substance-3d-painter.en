@@ -1,20 +1,16 @@
 ---
-title: "Creating layers"
-description: "Learn how to create new layers in Substance 3D Painter to build complex textures with multiple painting layers."
-helpx_description: Painter > Interface > Layer stack > Creating layers
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/creating-layers.html"
-helpx_creative_field:
-  - painting-illustration
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - layers
-  - replacing-backgrounds
-  - compositing
+breadcrumb-title: ""
+description: Learn how to create new layers in Substance 3D Painter to build complex textures with multiple painting layers.
+helpx_creative_field: ""
+helpx_description: Painter > Interface > Layer stack > Creating layers
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Creating layers
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Creating layers
@@ -31,12 +27,12 @@ There are multiple ways of adding/creating layers in the Layer Stack :
 
 >[!NOTE]
 >
-> Some of these actions have an associated keyboard shortcut which can be consulted on the [dedicated page](../../../help/interface/settings/shortcuts/shortcuts.md).
+> Some of these actions have an associated keyboard shortcut which can be consulted on the [dedicated page](../../../interface/settings/shortcuts/shortcuts.md).
 
 Drag and dropping resources from the shelf can be a way of creating layers as well :
 
 | *Action* | *Demonstration* |
 | --- | --- |
-| Drag and Drop a **Material** from the [Assets](../../../help/interface/assets/assets.md) into the Layer Stack | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="dragdrop-material.gif"/></div> |
-| Drag and Drop a **Smart Material** from the [Assets](../../../help/interface/assets/assets.md) into the Layer Stack | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="dragdrop-smartmaterial.gif"/></div> |
-| Drag and Drop a **Effects** from the [Assets](../../../help/interface/assets/assets.md) into the Layer Stack | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="dragdrop-filter.gif"/></div> |
+| Drag and Drop a **Material** from the [Assets](../../../interface/assets/assets.md) into the Layer Stack | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="dragdrop-material.gif"/></div> |
+| Drag and Drop a **Smart Material** from the [Assets](../../../interface/assets/assets.md) into the Layer Stack | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="dragdrop-smartmaterial.gif"/></div> |
+| Drag and Drop a **Effects** from the [Assets](../../../interface/assets/assets.md) into the Layer Stack | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="dragdrop-filter.gif"/></div> |

@@ -1,21 +1,16 @@
 ---
-title: "Version 2.2"
-description: "Review release notes for Substance 3D Painter version 2.2 to learn about new features, improvements, and bug fixes."
-helpx_description: Painter > Release notes > Old versions > Version 2.2
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2-2.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - painting-illustration
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - layers
-  - materials
-  - replacing-backgrounds
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Painter version 2.2 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Painter > Release notes > Old versions > Version 2.2
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 2.2
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Version 2.2
@@ -47,7 +42,7 @@ We also have a special shader for Unity 5 and Unreal Engine 4 available on Share
 * [Unity 5](https://share.allegorithmic.com/libraries/2126)
 * [Unreal Engine 4](https://share.allegorithmic.com/libraries/2125)
 
-For more details, see the dedicated page of the documentation : [Dynamic Material Layering](../../../help/features/dynamic-material-layering/dynamic-material-layering.md)
+For more details, see the dedicated page of the documentation : [Dynamic Material Layering](../../../features/dynamic-material-layering/dynamic-material-layering.md)
 
 ### New mini-shelf search field
 

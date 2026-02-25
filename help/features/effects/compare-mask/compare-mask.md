@@ -1,21 +1,16 @@
 ---
-title: "Compare Mask"
-description: "Learn how to use the Compare Mask effect in Substance 3D Painter to create masks based on texture comparison operations."
-helpx_description: Painter > Features > Effects > Compare Mask
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/compare-mask.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - painting-illustration
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - masking
-  - add-objects-to-images
-  - replacing-backgrounds
+breadcrumb-title: ""
+description: Learn how to use the Compare Mask effect in Substance 3D Painter to create masks based on texture comparison operations.
+helpx_creative_field: ""
+helpx_description: Painter > Features > Effects > Compare Mask
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Compare Mask
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Compare Mask
@@ -28,7 +23,7 @@ Below are the available settings for this effect :
 
 | Setting | Description |
 | --- | --- |
-| **Channel** | The channel to compare between the source and the target to create a mask from. This lis is based on the channel available in the [Texture Set settings](../../../help/interface/texture-set/texture-set-settings/texture-set-settings.md). |
+| **Channel** | The channel to compare between the source and the target to create a mask from. This lis is based on the channel available in the [Texture Set settings](../../../interface/texture-set/texture-set-settings/texture-set-settings.md). |
 | **Compare** | Three parameters are available here to chose how the mask should be computed. The dropdown in the middle define the comparison operation (lesser than, within tolerance, greater than). <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="compare-mode.png"/></div> Source and Target mode are :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Layers Below</strong> : Take into account the flattened version of all the layers below the current one.</li><li data-preserve-html="true"><strong>This Layer</strong> : Take into account this layer only.</li><li data-preserve-html="true"><strong>This Mask</strong> : Take into account the existing content of the Mask (for example if a Fill effect or a Generator effect are already present).</li><li data-preserve-html="true"><strong>Constant</strong> : Uniform value.</li></ul>Operations are :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Lesser than</strong> : If the Source (left dropdown) has lower values than the Target (right dropdown) it will output white values in the mask.</li><li data-preserve-html="true"><strong>Within tolerance</strong> : If the Source (left dropdown) has similar values than the Target (right dropdown) it will output white values in the mask.</li><li data-preserve-html="true"><strong>Greater than</strong> : If the Source (left dropdown) has higher values than the Target (right dropdown) it will output white values in the mask.</li></ul> |
 | **Constant** | Value to compare against when the compare setting is set to "constant". |
 | **Hardness** | Controls the smoothness/hardness of the resulting mask comparison. |

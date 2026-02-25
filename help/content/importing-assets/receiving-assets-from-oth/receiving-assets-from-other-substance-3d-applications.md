@@ -1,20 +1,16 @@
 ---
-title: "Receiving assets from other Substance 3D applications"
-description: "Learn how to receive and import assets from other Substance 3D applications into Substance 3D Painter for seamless workflows."
-helpx_description: Painter > Content > Importing assets > Receiving assets from other Substance 3D applications
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/importing-assets/receiving-assets-from-other-substance-3d-applications.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - cross-product-workflows
-  - painting
-  - import
+breadcrumb-title: ""
+description: Learn how to receive and import assets from other Substance 3D applications into Substance 3D Painter for seamless workflows.
+helpx_creative_field: ""
+helpx_description: Painter > Content > Importing assets > Receiving assets from other Substance 3D applications
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Receiving assets from other Substance 3D applications
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Receiving assets from other Substance 3D applications

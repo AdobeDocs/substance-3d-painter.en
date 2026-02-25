@@ -1,9 +1,17 @@
 ---
-title: "Vector graphic (SVG)"
-description: "Learn how to use vector graphics (SVG and AI files) in Substance 3D Painter to add scalable vector artwork to textures."
-helpx_description: "Substance 3D Painter"
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/vector-graphic-svg.html"
+breadcrumb-title: ""
+description: Learn how to use vector graphics (SVG and AI files) in Substance 3D Painter to add scalable vector artwork to textures.
+helpx_creative_field: ""
+helpx_description: Substance 3D Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Vector graphic (SVG)
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Vector graphic (.svg &amp; .ai)
 
@@ -14,7 +22,7 @@ Vector graphic files (both <b>.svg</b> and Illustrator <b>.ai</b>) can be import
 * For more information about SVG files, [see this page](https://www.adobe.com/creativecloud/file-types/image/vector/svg-file.html).
 * For more information about AI files, [see this page](https://www.adobe.com/ie/creativecloud/file-types/image/vector/ai-file.html).
 
-SVG and AI files are automatically converted into pixel images when used inside the [Layer Stack](../../help/interface/layer-stack/layer-stack.md) (depending on the setting selected). This is a non destructive process, changing the resolution or updating the source file will update the final result accordingly.
+SVG and AI files are automatically converted into pixel images when used inside the [Layer Stack](../../interface/layer-stack/layer-stack.md) (depending on the setting selected). This is a non destructive process, changing the resolution or updating the source file will update the final result accordingly.
 
 ## Properties
 

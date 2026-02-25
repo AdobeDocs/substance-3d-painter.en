@@ -1,20 +1,16 @@
 ---
-title: "Spherical projection"
-description: "Use spherical projection in Substance 3D Painter to project textures from a sphere for wrapping textures around objects."
-helpx_description: Painter > Painting > Fill projections > Spherical projection
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/spherical-projection.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate-advanced
-helpx_learn_topic:
-  - perspective
-  - tiling
-  - projection
+breadcrumb-title: ""
+description: Use spherical projection in Substance 3D Painter to project textures from a sphere for wrapping textures around objects.
+helpx_creative_field: ""
+helpx_description: Painter > Painting > Fill projections > Spherical projection
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Spherical projection
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Spherical projection
@@ -53,7 +49,7 @@ The 3D projection settings control the transformation of the projection in 3D sp
 
 ## Contextual Toolbar
 
-Several settings and tools are available from the [Contextual toolbar](../../../help/interface/toolbars/toolbars.md) sitting at the top of the viewport which give controls over the manipulator and the projection:
+Several settings and tools are available from the [Contextual toolbar](../../../interface/toolbars/toolbars.md) sitting at the top of the viewport which give controls over the manipulator and the projection:
 
 | Icon | Name | Description |
 | --- | --- | --- |
@@ -71,7 +67,7 @@ Several settings and tools are available from the [Contextual toolbar](../../../
 
 ## Manipulator
 
-This projection manipulator is only available in the [3D viewport](../../../help/interface/viewport/3d-view/3d-view.md).
+This projection manipulator is only available in the [3D viewport](../../../interface/viewport/3d-view/3d-view.md).
 
 | Action | Shortcut | Description |
 | --- | --- | --- |

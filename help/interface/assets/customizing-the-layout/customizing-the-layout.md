@@ -1,20 +1,16 @@
 ---
-title: "Customizing the layout"
-description: "Learn how to customize the Assets panel layout in Substance 3D Painter to optimize your resource browsing experience."
-helpx_description: Painter > Interface > Assets > Customizing the layout
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/customizing-the-layout.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - workspace
-  - resize
-  - artboards
+breadcrumb-title: ""
+description: Learn how to customize the Assets panel layout in Substance 3D Painter to optimize your resource browsing experience.
+helpx_creative_field: ""
+helpx_description: Painter > Interface > Assets > Customizing the layout
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Customizing the layout
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Customizing the layout
@@ -27,7 +23,7 @@ There are a few interface options, such as sub-libraries, reduced width and thum
 
 Docking and Orientation
 
-When you first open Painter after installation, you will find the Asset window docked vertically on the left of the app. However it can undocked and placed horizontally. And if you use additional [sub-library](../../../help/interface/assets/sub-library-tab/sub-library-tab.md) windows, they too can be docked and undocked at will.
+When you first open Painter after installation, you will find the Asset window docked vertically on the left of the app. However it can undocked and placed horizontally. And if you use additional [sub-library](../../../interface/assets/sub-library-tab/sub-library-tab.md) windows, they too can be docked and undocked at will.
 
 ![](00-02-docking.gif){width="600px"}
 

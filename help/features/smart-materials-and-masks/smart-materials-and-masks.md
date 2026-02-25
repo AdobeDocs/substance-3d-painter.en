@@ -1,22 +1,16 @@
 ---
-title: "Smart Materials and Masks"
-description: "Learn how to use smart materials and masks in Substance 3D Painter to create procedural textures that adapt to geometry."
-helpx_description: Painter > Features > Smart Materials and Masks
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/smart-materials-and-masks.html"
-helpx_creative_field:
-  - painting-illustration
-  - video
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - smart-object
-  - layers
-  - replacing-backgrounds
+breadcrumb-title: ""
+description: Learn how to use smart materials and masks in Substance 3D Painter to create procedural textures that adapt to geometry.
+helpx_creative_field: ""
+helpx_description: Painter > Features > Smart Materials and Masks
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Smart Materials and Masks
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Smart Materials and Masks
@@ -26,12 +20,12 @@ Substance 3D Painter supports the use of advanced  **layer presets**  . These pr
 >[!NOTE]
 >
 > Note that once added in the layer stack, there is no way to retrieve which smart material was used. In the case a smart material need to updated, the process will have to be done manually.   
-> However individual resources can be updated with the [Resources Updater](../../help/features/plugins/resources-updater/resources-updater.md) .
+> However individual resources can be updated with the [Resources Updater](../../features/plugins/resources-updater/resources-updater.md) .
 
 ## How to use Smart Materials/Masks ?
 
 Smart Materials can be used anywhere in the layer stack, while smart masks can only be used in the effect stack.   
-To know more about the differences, see : [Layer stack](../../help/interface/layer-stack/layer-stack.md) and [Effects](../../help/features/effects/effects.md)
+To know more about the differences, see : [Layer stack](../../interface/layer-stack/layer-stack.md) and [Effects](../../features/effects/effects.md)
 
 ### Adding a Smart Material
 
@@ -67,6 +61,6 @@ To create a Smart Mask, simply right-click over a layer and choose "  **Create s
 ## How to share/retrieve a smart material/mask ?
 
 The presets are saved  **on the disk**  and can be retrieved from their dedicated folder.   
-To find the  **shelf location**  , see : [Adding content on the hard drive](../../help/content/importing-assets/adding-content-the-hard/adding-content-on-the-hard-drive.md) .
+To find the  **shelf location**  , see : [Adding content on the hard drive](../../content/importing-assets/adding-content-the-hard/adding-content-on-the-hard-drive.md) .
 
 Then anybody can simply  **import**  the file into their Substance 3D Painter shelf to use the preset.

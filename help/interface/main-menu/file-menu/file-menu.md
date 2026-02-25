@@ -1,20 +1,16 @@
 ---
-title: "File menu"
-description: "Learn how to use the File menu in Substance 3D Painter to manage projects, import assets, and export textures."
-helpx_description: Painter > Interface > Main menu > File menu
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/file-menu.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate-advanced
-helpx_learn_topic:
-  - projects
-  - collaboration
-  - cross-product-workflows
+breadcrumb-title: ""
+description: Learn how to use the File menu in Substance 3D Painter to manage projects, import assets, and export textures.
+helpx_creative_field: ""
+helpx_description: Painter > Interface > Main menu > File menu
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: File menu
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # File menu
@@ -25,7 +21,7 @@ The file menu contains the actions for creating and saving the projects and as w
 
 | Action | Description |
 | --- | --- |
-| **New** | Open the new project creation window. See: [ Project Creation ](../../../help/getting-started/project-creation/project-creation.md)for more information. |
+| **New** | Open the new project creation window. See: [ Project Creation ](../../../getting-started/project-creation/project-creation.md)for more information. |
 | **Open** | Open an existing project file on the disk. |
 | **Recent files** | List all the projects recently opened. |
 | **Open sample** | Open one of the sample projects provided with the application. |
@@ -47,4 +43,4 @@ The file menu contains the actions for creating and saving the projects and as w
 > Saving a project can be done in two manners:
 > 
 > * **Incremental**  : Default method, used when doing a regular save. Only the information that changed will be updated in the project file on the disk. This method allows to save very quickly the project without having to rewrite the project file entirely.
-> * **Full / Compact**  : If a Clean operation is performed or if the project is saved with the action "Save And Compact", the method will rewrite the project on the disk entirely. This method allows to get rid of project fragmentation and reduce the footprint. See: [ Projects are really big](../../../help/technical-support/workflow-issues/project-issues/projects-are-really-big/projects-are-really-big.md).
+> * **Full / Compact**  : If a Clean operation is performed or if the project is saved with the action "Save And Compact", the method will rewrite the project on the disk entirely. This method allows to get rid of project fragmentation and reduce the footprint. See: [ Projects are really big](../../../technical-support/workflow-issues/project-issues/projects-are-really-big/projects-are-really-big.md).

@@ -1,22 +1,16 @@
 ---
-title: "Mesh map settings"
-description: "Learn how to configure mesh map settings in Substance 3D Painter to control baking parameters and output quality."
-helpx_description: Substance 3D Painter
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/baking/mesh-map-settings.html"
-helpx_creative_field:
-  - 3d
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate
-  - intermediate-advanced
-  - experienced
-helpx_learn_topic:
-  - baking
-helpx_tags:
-  - SG_SUBSTANCE_PAINTER
+breadcrumb-title: ""
+description: Learn how to configure mesh map settings in Substance 3D Painter to control baking parameters and output quality.
+helpx_creative_field: ""
+helpx_description: Substance 3D Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Mesh map settings
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Mesh map settings

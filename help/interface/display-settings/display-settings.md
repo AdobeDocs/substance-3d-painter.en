@@ -1,20 +1,16 @@
 ---
-title: "Display settings"
-description: "Learn how to configure display settings in Substance 3D Painter to customize viewport rendering and visual quality."
-helpx_description: Painter > Interface > Display settings
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/display-settings.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - views
-  - workspace
-  - preferences
+breadcrumb-title: ""
+description: Learn how to configure display settings in Substance 3D Painter to customize viewport rendering and visual quality.
+helpx_creative_field: ""
+helpx_description: Painter > Interface > Display settings
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Display settings
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Display settings
@@ -37,12 +33,12 @@ The view mode controls how the viewport will look. The dropdown is divided into 
 
 >[!NOTE]
 >
-> The view mode can also be changed by using the <b>dropdown</b> available in the corners of the [viewports](../../help/interface/viewport/viewport.md). There are also [shortcuts](../../help/interface/settings/shortcuts/shortcuts.md) available to quickly cycle between channels, mesh maps and even go back to the material mode.
+> The view mode can also be changed by using the <b>dropdown</b> available in the corners of the [viewports](../../interface/viewport/viewport.md). There are also [shortcuts](../../interface/settings/shortcuts/shortcuts.md) available to quickly cycle between channels, mesh maps and even go back to the material mode.
 
 ## Display Settings sections
 
 For more details about each section see the dedicated page :
 
-* [Environment settings](../../help/interface/display-settings/environment-settings/environment-settings.md)
-* [Camera settings](../../help/interface/display-settings/camera-settings/camera-settings.md)
-* [Viewport settings](../../help/interface/display-settings/viewport-settings/viewport-settings.md)
+* [Environment settings](../../interface/display-settings/environment-settings/environment-settings.md)
+* [Camera settings](../../interface/display-settings/camera-settings/camera-settings.md)
+* [Viewport settings](../../interface/display-settings/viewport-settings/viewport-settings.md)

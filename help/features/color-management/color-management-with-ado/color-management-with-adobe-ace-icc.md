@@ -1,20 +1,16 @@
 ---
-title: "Color management with Adobe ACE - ICC"
-description: "Learn how to use Adobe ACE and ICC color management in Substance 3D Painter for consistent color workflows."
-helpx_description: Painter > Features > Color management > Color management with Adobe ACE - ICC
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/color-management/color-management-with-adobe-ace-icc.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - creating-color-palettes
-  - swatches
-  - color
+breadcrumb-title: ""
+description: Learn how to use Adobe ACE and ICC color management in Substance 3D Painter for consistent color workflows.
+helpx_creative_field: ""
+helpx_description: Painter > Features > Color management > Color management with Adobe ACE - ICC
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Color management with Adobe ACE - ICC
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Color management with Adobe ACE - ICC
@@ -25,7 +21,7 @@ This page lists the color management settings related to the Adobe Color Engine 
 
 ![](cm-ace.png)
 
-The project settings can be set when creating a new project via the [new project](../../../help/getting-started/project-creation/project-creation.md) window or by using the [project configuration](../../../help/interface/project-configuration/project-configuration.md) window.
+The project settings can be set when creating a new project via the [new project](../../../getting-started/project-creation/project-creation.md) window or by using the [project configuration](../../../interface/project-configuration/project-configuration.md) window.
 
 >[!NOTE]
 >
@@ -63,7 +59,7 @@ It  possible to use a preset file (in json format) to drive the ACE settings wh
 
 The environment variable **PAINTER\_ACE\_CONFIG** can be used to specify the path of a preset file. If present, the application will always use a preset file to drive the Color management settings. The settings will be disabled in the interface.
 
-For more details see the [Environment variables](../../../help/pipeline-and-integration/configuration/environment-variables/environment-variables.md) page.
+For more details see the [Environment variables](../../../pipeline-and-integration/configuration/environment-variables/environment-variables.md) page.
 
 ### Preset example
 

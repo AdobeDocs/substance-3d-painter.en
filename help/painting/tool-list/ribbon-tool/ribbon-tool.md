@@ -1,17 +1,16 @@
 ---
-title: "Ribbon path"
-description: "Use the Ribbon tool in Substance 3D Painter to create ribbon-like paint strokes along paths for decorative texture painting."
-helpx_description: Substance 3D Painter
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/ribbon-tool.html"
-helpx_creative_field:
-  - 3d
-helpx_experience_level:
-  - all-skill-levels
-helpx_tags:
-  - SG_SUBSTANCE_PAINTER
+breadcrumb-title: ""
+description: Use the Ribbon tool in Substance 3D Painter to create ribbon-like paint strokes along paths for decorative texture painting.
+helpx_creative_field: ""
+helpx_description: Substance 3D Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Ribbon path
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Ribbon path
@@ -86,7 +85,7 @@ The Ribbon path can use two different modes to control how an image is repeated 
 | <b>Mirror every 2nd tile</b> | Flip the image used along the length of the path every second repetition. |
 | <b>Aspect ratio factor</b> | Stretch or squeeze the current image aspect ratio. |
 
-#### <b>Keep aspect ratio</b>
+#### Keep aspect ratio
 
 ![](ribbon_ui_ratio.png)
 
@@ -117,7 +116,7 @@ Example of what the blending mode with the height channel can look like:
 
 ## Text and non-square images
 
-When using a [Text resource](../../../help/painting/text-resource/text-resource.md) or an image with an aspect ratio that isn't square, it will be automatically scaled to fit the Ribbon path.
+When using a [Text resource](../../../painting/text-resource/text-resource.md) or an image with an aspect ratio that isn't square, it will be automatically scaled to fit the Ribbon path.
 
 This behavior makes it possible to write text or repeat images like trim patterns along a path.
 

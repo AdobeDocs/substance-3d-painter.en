@@ -1,20 +1,16 @@
 ---
-title: "Texture Set reassignment"
-description: "Learn how to reassign texture sets in Substance 3D Painter to reorganize mesh assignments and texture mapping."
-helpx_description: Painter > Interface > Texture Set > Texture Set reassignment
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set/texture-set-reassignment.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - texture
-  - presets
-  - replacing-backgrounds
+breadcrumb-title: ""
+description: Learn how to reassign texture sets in Substance 3D Painter to reorganize mesh assignments and texture mapping.
+helpx_creative_field: ""
+helpx_description: Painter > Interface > Texture Set > Texture Set reassignment
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Texture Set reassignment
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Texture Set reassignment
@@ -23,7 +19,7 @@ helpx_learn_topic:
 
 The Texture Set Reassignment window allows to change the layer stack assignation to a different part of the scene mesh. This is useful for example when after importing a new mesh into an existing project where some Texture Sets become disabled. This happens because the layer stack was assigned to a Material that doesn't exist anymore. With the reassignment window it is possible to bring back that layer stack (see "Restoring Disabled Texture Sets" below).
 
-To access the Texture Set Reassignment window go into the [Texture Set list](../../../help/interface/texture-set/texture-set-list/texture-set-list.md) window and choose **Settings &gt; Reassign Texture Sets**.
+To access the Texture Set Reassignment window go into the [Texture Set list](../../../interface/texture-set/texture-set-list/texture-set-list.md) window and choose **Settings &gt; Reassign Texture Sets**.
 
 The window is divided in three sections :
 

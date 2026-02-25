@@ -1,20 +1,16 @@
 ---
-title: "Post Processing"
-description: "Learn how to use post-processing effects in Substance 3D Painter to enhance viewport rendering with color grading and visual effects."
-helpx_description: Painter > Features > Post Processing
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - effects
-  - painting
-  - creative-effects
+breadcrumb-title: ""
+description: Learn how to use post-processing effects in Substance 3D Painter to enhance viewport rendering with color grading and visual effects.
+helpx_creative_field: ""
+helpx_description: Painter > Features > Post Processing
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Post Processing
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Post Processing
@@ -50,10 +46,10 @@ The Post-Process effects of Substance 3D Painter are powered by the middleware  
 
 The following pages describes the various post process effects supported by Substance 3D Painter:
 
-* [Color correction](../../help/features/post-processing/color-correction/color-correction.md)
-* [Depth of Field](../../help/features/post-processing/depth-of-field/depth-of-field.md)
-* [Glare](../../help/features/post-processing/glare/glare.md)
-* [Lens Distortion](../../help/features/post-processing/lens-distortion/lens-distortion.md)
-* [Tone Mapping](../../help/features/post-processing/tone-mapping/tone-mapping.md)
-* [Vignette](../../help/features/post-processing/vignette/vignette.md)
-* [Color Profile](../../help/features/post-processing/color-profile/color-profile.md)
+* [Color correction](../../features/post-processing/color-correction/color-correction.md)
+* [Depth of Field](../../features/post-processing/depth-of-field/depth-of-field.md)
+* [Glare](../../features/post-processing/glare/glare.md)
+* [Lens Distortion](../../features/post-processing/lens-distortion/lens-distortion.md)
+* [Tone Mapping](../../features/post-processing/tone-mapping/tone-mapping.md)
+* [Vignette](../../features/post-processing/vignette/vignette.md)
+* [Color Profile](../../features/post-processing/color-profile/color-profile.md)

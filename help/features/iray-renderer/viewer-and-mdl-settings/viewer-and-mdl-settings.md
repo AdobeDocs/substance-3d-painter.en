@@ -1,21 +1,16 @@
 ---
-title: "Viewer and MDL Settings"
-description: "Learn how to configure viewer and MDL settings for Iray renderer in Substance 3D Painter to customize material rendering."
-helpx_description: Painter > Features > Iray Renderer > Viewer and MDL Settings
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/iray-renderer/viewer-and-mdl-settings.html"
-helpx_creative_field:
-  - video
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - shading
-  - hdri
-  - lighting
+breadcrumb-title: ""
+description: Learn how to configure viewer and MDL settings for Iray renderer in Substance 3D Painter to customize material rendering.
+helpx_creative_field: ""
+helpx_description: Painter > Features > Iray Renderer > Viewer and MDL Settings
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Viewer and MDL Settings
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Viewer and MDL Settings

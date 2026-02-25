@@ -1,22 +1,16 @@
 ---
-title: "Running on integrated GPU"
-description: "Learn how to configure Substance 3D Painter to use dedicated GPU instead of integrated graphics for better performance."
-helpx_description: Painter > Technical support > Technical Issues > GPU Issues > Running on integrated GPU
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/running-on-integrated-gpu.html"
-helpx_creative_field:
-  - painting-illustration
-  - video
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - known-issues
-  - system-requirements
-  - rendering
+breadcrumb-title: ""
+description: Learn how to configure Substance 3D Painter to use dedicated GPU instead of integrated graphics for better performance.
+helpx_creative_field: ""
+helpx_description: Painter > Technical support > Technical Issues > GPU Issues > Running on integrated GPU
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Running on integrated GPU
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Running on integrated GPU

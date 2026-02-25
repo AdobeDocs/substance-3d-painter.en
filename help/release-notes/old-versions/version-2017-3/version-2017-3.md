@@ -1,20 +1,16 @@
 ---
-title: "Version 2017.3"
-description: "Review release notes for Substance 3D Painter version 2017.3 to learn about new features, improvements, and bug fixes."
-helpx_description: Painter > Release notes > Old versions > Version 2017.3
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate-advanced
-helpx_learn_topic:
-  - texture
-  - export
-  - materials
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Painter version 2017.3 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Painter > Release notes > Old versions > Version 2017.3
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 2017.3
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Version 2017.3
@@ -70,7 +66,7 @@ In this release the **tabs** of the different docks of the application are now l
 
 It is now also possible to **open projects** by simply drag and dropping them **into the viewport** from the file explorer. This also works with **mesh** files : drag and dropping a mesh file in an **empty viewport** will open the **new project window**, but doing it on an **already open project** will open the **project configuration dialog**, allowing to quickly **update a mesh**.
 
-**Note** : if you have issus with the drag and drop, be sure to[ check our FAQ on the subject](../../../help/technical-support/technical-issues/miscellaneous-issues/impossible-drag-and-drop/impossible-to-drag-and-drop-files-into-the-shelf.md).
+**Note** : if you have issus with the drag and drop, be sure to[ check our FAQ on the subject](../../../technical-support/technical-issues/miscellaneous-issues/impossible-drag-and-drop/impossible-to-drag-and-drop-files-into-the-shelf.md).
 
 ### Performance improvements
 

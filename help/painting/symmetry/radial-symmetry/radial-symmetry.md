@@ -1,17 +1,16 @@
 ---
-title: "Radial symmetry"
-description: "Use radial symmetry in Substance 3D Painter to paint symmetrically around a center point for creating circular patterns."
-helpx_description: Substance 3D Painter
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/symmetry/radial-symmetry.html"
-helpx_creative_field:
-  - 3d
-helpx_experience_level:
-  - all-skill-levels
-helpx_tags:
-  - SG_SUBSTANCE_PAINTER
+breadcrumb-title: ""
+description: Use radial symmetry in Substance 3D Painter to paint symmetrically around a center point for creating circular patterns.
+helpx_creative_field: ""
+helpx_description: Substance 3D Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Radial symmetry
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Radial Symmetry

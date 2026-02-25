@@ -1,20 +1,16 @@
 ---
-title: "Configuring Pens and Tablets"
-description: "Learn how to configure pens and tablets in Substance 3D Painter for optimal pressure sensitivity and drawing experience."
-helpx_description: Painter > Technical support > Configuring Pens and Tablets
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/configuring-pens-and-tablets.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - printing
-  - workspace
-  - preferences
+breadcrumb-title: ""
+description: Learn how to configure pens and tablets in Substance 3D Painter for optimal pressure sensitivity and drawing experience.
+helpx_creative_field: ""
+helpx_description: Painter > Technical support > Configuring Pens and Tablets
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Configuring Pens and Tablets
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Configuring Pens and Tablets

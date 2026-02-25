@@ -1,21 +1,16 @@
 ---
-title: "GPU has outdated drivers"
-description: "Learn how to update GPU drivers for Substance 3D Painter to ensure compatibility and optimal rendering performance."
-helpx_description: Painter > Technical support > Technical Issues > GPU Issues > GPU has outdated drivers
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - painting-illustration
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - known-issues
-  - system-requirements
-  - troubleshooting
+breadcrumb-title: ""
+description: Learn how to update GPU drivers for Substance 3D Painter to ensure compatibility and optimal rendering performance.
+helpx_creative_field: ""
+helpx_description: Painter > Technical support > Technical Issues > GPU Issues > GPU has outdated drivers
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: GPU has outdated drivers
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # GPU has outdated drivers

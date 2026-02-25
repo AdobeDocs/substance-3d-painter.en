@@ -1,20 +1,16 @@
 ---
-title: "Window menu"
-description: "Learn how to use the Window menu in Substance 3D Painter to manage interface panels and customize your workspace layout."
-helpx_description: Painter > Interface > Main menu > Window menu
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/window-menu.html"
-helpx_creative_field:
-  - 3d-immersive
-  - motion
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - interface
-  - workspace
-  - preview
+breadcrumb-title: ""
+description: Learn how to use the Window menu in Substance 3D Painter to manage interface panels and customize your workspace layout.
+helpx_creative_field: ""
+helpx_description: Painter > Interface > Main menu > Window menu
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Window menu
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Window menu

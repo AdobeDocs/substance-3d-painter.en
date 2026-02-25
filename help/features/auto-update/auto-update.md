@@ -1,15 +1,23 @@
 ---
-title: "Automatic resource update"
-description: "Learn how to use automatic resource update in Substance 3D Painter to keep your resource libraries synchronized and up to date."
-helpx_description: "Substance 3D Painter"
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/auto-update.html"
+breadcrumb-title: ""
+description: Learn how to use automatic resource update in Substance 3D Painter to keep your resource libraries synchronized and up to date.
+helpx_creative_field: ""
+helpx_description: Substance 3D Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Automatic resource update
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Automatic resource update
 
 ![](banner_autoupdate.jpg)
 
-The automatic resource update, or <b>auto-update</b>, is a feature of the [Assets window](../../help/interface/assets/assets.md) that allows to reload and updates resources when new versions are available. This process can be triggered automatically or manually in the interface, or via Python scripting.
+The automatic resource update, or <b>auto-update</b>, is a feature of the [Assets window](../../interface/assets/assets.md) that allows to reload and updates resources when new versions are available. This process can be triggered automatically or manually in the interface, or via Python scripting.
 
 ![](auto_update_menu.png)
 

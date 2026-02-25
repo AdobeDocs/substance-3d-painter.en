@@ -1,9 +1,17 @@
 ---
-title: "Version 10.0"
-description: "Review release notes for Substance 3D Painter version 10.0 to learn about new features, improvements, and bug fixes."
-helpx_description: "Substance 3D Painter 10.0 brings support of Fonts via Text resources, layer stack functionalities in the Python API, support of Illustrator (.ai) files and several quality of life improvements."
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-10-0.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Painter version 10.0 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Substance 3D Painter 10.0 brings support of Fonts via Text resources, layer stack functionalities in the Python API, support of Illustrator (.ai) files and several quality of life improvements.
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 10.0
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Version 10.0
 
@@ -36,11 +44,11 @@ This new version introduces the <b>Text resource</b> which is a way to load fo
 
   ![](v10_font_hello.jpg)
 * <b>Import custom fonts like regular resource</b>  
-  You can import your own fonts files directly into your Library or project like any other resources. Some types of fonts are not supported however, for more information see this [documentation page](../../help/technical-support/workflow-issues/shelf-issues/font-import/font-import.md).
+  You can import your own fonts files directly into your Library or project like any other resources. Some types of fonts are not supported however, for more information see this [documentation page](../../technical-support/workflow-issues/shelf-issues/font-import/font-import.md).
 
 >[!NOTE]
 >
-> For more information about the <b>Text resource</b>, see the [dedicated documentation page](../../help/painting/text-resource/text-resource.md).
+> For more information about the <b>Text resource</b>, see the [dedicated documentation page](../../painting/text-resource/text-resource.md).
 
 ### New import of Illustrator files (.Ai)
 
@@ -149,7 +157,7 @@ In this release we reworked the normal map painting workflow. We notably changed
 
 >[!NOTE]
 >
-> For more information on painting flow map, see the [documentation page](../../help/painting/advanced-channel-painting/flow-map-painting/flow-map-painting.md).
+> For more information on painting flow map, see the [documentation page](../../painting/advanced-channel-painting/flow-map-painting/flow-map-painting.md).
 
 ### Improved transform manipulators
 
@@ -190,7 +198,7 @@ A few other improvements have been added, notably:
 * <b>Color space in SBSAR output</b>  
   When the Legacy or OCIO color management workflow is enabled, the SBSAR export will now reference the color space names used in the project on the respective outputs.
 * <b>Faster resource discovery</b>  
-  With the introduction of the <b>Text resource</b> we added a new cache to make crawling of resources on the disk faster on next startup. This is quite notable when resources are installed on a HDD or when a library has gigabytes of resources. This new cache can be disabled with a command line, see the dedicated [documentation page](../../help/pipeline-and-integration/configuration/command-lines/command-lines.md) for more information.
+  With the introduction of the <b>Text resource</b> we added a new cache to make crawling of resources on the disk faster on next startup. This is quite notable when resources are installed on a HDD or when a library has gigabytes of resources. This new cache can be disabled with a command line, see the dedicated [documentation page](../../pipeline-and-integration/configuration/command-lines/command-lines.md) for more information.
 
 Many thanks to the website [is this arabic ?](https://isthisarabic.com/) which was of great help during the development of this version.
 
@@ -205,7 +213,7 @@ Reference to artworks used in the medias above:
 
 ## Release notes
 
-### <b>10.0.0</b>
+### 10.0.0
 
 Release date: <b>2024/05/16</b>  
 Summary: <b>Major release, edition of the layer stack with Python API, read native Illustrator files, integration of 3D Assets and new text resource</b>

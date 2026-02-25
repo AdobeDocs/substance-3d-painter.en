@@ -1,24 +1,16 @@
 ---
-title: "GPU drivers crash with long computations (TDR crash)"
-description: "Learn how to fix GPU driver crashes during long computations in Substance 3D Painter to prevent TDR timeout errors."
-helpx_description: Painter > Technical support > Technical Issues > GPU Issues > GPU drivers crash with long computations (TDR crash)
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html"
-helpx_creative_field:
-  - video
-  - painting-illustration
-  - graphic-design
-  - social-media
-  - 3d-immersive
-  - publishing
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - download-and-install
-  - troubleshooting
-  - preferences
+breadcrumb-title: ""
+description: Learn how to fix GPU driver crashes during long computations in Substance 3D Painter to prevent TDR timeout errors.
+helpx_creative_field: ""
+helpx_description: Painter > Technical support > Technical Issues > GPU Issues > GPU drivers crash with long computations (TDR crash)
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: GPU drivers crash with long computations (TDR crash)
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # GPU drivers crash with long computations (TDR crash)
@@ -31,17 +23,17 @@ On Windows, this window will appear if Substance 3D Painter detects that the cur
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+## Why does the GPU driver crash?
 
 </td>
 <td style="border: 0;" valign="top">
 
+### How to edit the TDR values
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Revert TDR values to defaults
 
 </td>
 </tr>

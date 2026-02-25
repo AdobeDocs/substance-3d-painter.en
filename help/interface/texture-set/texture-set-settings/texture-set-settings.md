@@ -1,20 +1,16 @@
 ---
-title: "Texture Set settings"
-description: "Learn how to configure texture set settings in Substance 3D Painter to control texture resolution and channel properties."
-helpx_description: Painter > Interface > Texture Set > Texture Set settings
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set/texture-set-settings.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - channels
-  - adjustments
-  - landscape-photography
+breadcrumb-title: ""
+description: Learn how to configure texture set settings in Substance 3D Painter to control texture resolution and channel properties.
+helpx_creative_field: ""
+helpx_description: Painter > Interface > Texture Set > Texture Set settings
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Texture Set settings
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Texture Set settings
@@ -30,9 +26,9 @@ The **Texture Set settings** control the parameters of the currently selected Te
 | Setting | Description |
 | --- | --- |
 | **Name** | Name of the Texture Set. Inherited for the material name assigned on the 3D model. |
-| **Description** | Text field that allows to add information about a Texture Set. This text is displayed in the [Texture Set list](../../../help/interface/texture-set/texture-set-list/texture-set-list.md) and [Baking](../../../help/baking/baking.md) windows. |
+| **Description** | Text field that allows to add information about a Texture Set. This text is displayed in the [Texture Set list](../../../interface/texture-set/texture-set-list/texture-set-list.md) and [Baking](../../../baking/baking.md) windows. |
 | **Size** | Controls the channels resolution in pixels inside a Texture Set. To use  **non-square**  resolutions (for example 2048x1024) disable the  **lock button**  between the two dropdowns.Texture Set resolutions are  **dynamic**  because of the  **non-destructive workflow**. This means it is possible to work at a low resolution to get good performances and then use an higher resolution later to get better quality. Inside the application the maximum resolution of a channel is 4096x4096 pixels, while when exporting the maximum is instead 8192x8192 (if supported by the GPU). Changing the resolution may trigger a long computation of the engine. |
-| **Shader instance** | Define which [Shader](../../../help/interface/shader-settings/shader-settings.md) to use to render the given Texture Set in the [viewport](../../../help/interface/viewport/viewport.md). |
+| **Shader instance** | Define which [Shader](../../../interface/shader-settings/shader-settings.md) to use to render the given Texture Set in the [viewport](../../../interface/viewport/viewport.md). |
 
 ## Channels
 
@@ -40,15 +36,15 @@ The **Texture Set settings** control the parameters of the currently selected Te
 
 ![](txtset-channels.png)
 
-The list can be modified at any timeby adding or removing channels (unless overridden by the [ Material Layering ](../../../help/features/dynamic-material-layering/dynamic-material-layering.md)workflow).
+The list can be modified at any timeby adding or removing channels (unless overridden by the [ Material Layering ](../../../features/dynamic-material-layering/dynamic-material-layering.md)workflow).
 
 | Button / Icon | Description |
 | --- | --- |
 | <b>Add channel</b>  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="channel-add.png" width="40px"/></div> | Click on this button to add a new channel to the list.The pop-up menu that opens is split into three categories:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Supported channels</strong>: these channels can be used by the current shader in the viewport.</li><li data-preserve-html="true"><strong>Unsupported channels</strong>: these channels are ignored by the current shader in the viewport.</li><li data-preserve-html="true"><strong>User channels</strong>: additional channels for painting more informaiton, usually unsupported by the shaders.</li></ul>  **Note:**  There is not limit in how many channels can be added, however too many channels can severely impact performances and will require more memory. |
 | <b>Remove channel</b>  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_image" src="channel-remove.png" width="40px"/></div> | Remove a channel from the list.  **Note:**  The painting information inside the project is not deleted with the channel, so the channel can be added back later if needed to recover the texturing (after a recomputation). |
 | <b>Channel name</b>  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c0_image" src="channel-name.png" width="100px"/></div> | The name of a given channel.User channels can be renamed by double-clicking on the current name: <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="user-channel-rename.gif"/></div> |
-| <b>Channel Settings</b>  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c0_image_79857878" src="channel-settings-1.png" width="40px"/></div> | This button opens the channel's settings menu with several actions.The first list of action control the storage type and precision of the channel:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>sRGB8</strong>: RGB colors, gamma corrected values, stored on 8bits.</li><li data-preserve-html="true"><strong>L8</strong>: Grayscale values, stored on 8bits.</li><li data-preserve-html="true"><strong>RGB8</strong>: RGB colors, stored on 8bits.</li><li data-preserve-html="true"><strong>L16</strong>: Grayscale values, stored on 16bits.</li><li data-preserve-html="true"><strong>RGB16</strong>: RGB colors, stored on 16bits.</li><li data-preserve-html="true"><strong>L16F</strong>: Grayscale values - positive and negatives, stored on 16bits floating.</li><li data-preserve-html="true"><strong>RGB16F</strong>: RGB colors - positive and negatives, stored on 16bits floating.</li><li data-preserve-html="true"><strong>L32F</strong>: Grayscale values - positive and negatives, stored on 32bits floating.</li><li data-preserve-html="true"><strong>RGB32F</strong>: RGB colors - positive and negatives, stored on 32bits floating.</li></ul>  **Note:**  The storage type  **is not**  a color space/gamma control. The data used for storing the information of a channel (for example sRGB8 or L32F) has no effect on the way the application will read them. For example the Roughness channel will still be considered as data/raw, and the Base Color will still be considered as gamma corrected.  The last action of the menu can be used to enable or disable [color management](../../../help/features/color-management/color-management.md) on the channel:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Color channel</strong>: if enabled, the channel is color managed. This option can only be manually modified for User channels.</li></ul> |
-| <b>Color managed</b>  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r5-column-c0_image" src="icon-cm.png" width="40px"/></div> | If present, indicates the channel is color managed. Only user channels can be marked as color managed or not, other channels behavior is fixed.For a detailed list of which channels are color managed or not, see: [Color management](../../../help/features/color-management/color-management.md). |
+| <b>Channel Settings</b>  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c0_image_79857878" src="channel-settings-1.png" width="40px"/></div> | This button opens the channel's settings menu with several actions.The first list of action control the storage type and precision of the channel:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>sRGB8</strong>: RGB colors, gamma corrected values, stored on 8bits.</li><li data-preserve-html="true"><strong>L8</strong>: Grayscale values, stored on 8bits.</li><li data-preserve-html="true"><strong>RGB8</strong>: RGB colors, stored on 8bits.</li><li data-preserve-html="true"><strong>L16</strong>: Grayscale values, stored on 16bits.</li><li data-preserve-html="true"><strong>RGB16</strong>: RGB colors, stored on 16bits.</li><li data-preserve-html="true"><strong>L16F</strong>: Grayscale values - positive and negatives, stored on 16bits floating.</li><li data-preserve-html="true"><strong>RGB16F</strong>: RGB colors - positive and negatives, stored on 16bits floating.</li><li data-preserve-html="true"><strong>L32F</strong>: Grayscale values - positive and negatives, stored on 32bits floating.</li><li data-preserve-html="true"><strong>RGB32F</strong>: RGB colors - positive and negatives, stored on 32bits floating.</li></ul>  **Note:**  The storage type  **is not**  a color space/gamma control. The data used for storing the information of a channel (for example sRGB8 or L32F) has no effect on the way the application will read them. For example the Roughness channel will still be considered as data/raw, and the Base Color will still be considered as gamma corrected.  The last action of the menu can be used to enable or disable [color management](../../../features/color-management/color-management.md) on the channel:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Color channel</strong>: if enabled, the channel is color managed. This option can only be manually modified for User channels.</li></ul> |
+| <b>Color managed</b>  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r5-column-c0_image" src="icon-cm.png" width="40px"/></div> | If present, indicates the channel is color managed. Only user channels can be marked as color managed or not, other channels behavior is fixed.For a detailed list of which channels are color managed or not, see: [Color management](../../../features/color-management/color-management.md). |
 
 ### Mixing settings
 
@@ -67,4 +63,4 @@ These settings control various behavior on how channels are generated, notably h
 
 ![](mesh-maps.png)
 
-The Mesh maps are baked textures specific to the mesh and Texture Set used to augment the quality of the texturing with the help of filters, Smart Materials and Smart Masks. For more details see the [ baking ](../../../help/baking/baking.md)documentation.
+The Mesh maps are baked textures specific to the mesh and Texture Set used to augment the quality of the texturing with the help of filters, Smart Materials and Smart Masks. For more details see the [ baking ](../../../baking/baking.md)documentation.

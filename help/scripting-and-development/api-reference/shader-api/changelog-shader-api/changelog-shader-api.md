@@ -1,20 +1,16 @@
 ---
-title: "Changelog - Shader API"
-description: "Review the changelog for Substance 3D Painter Shader API to track updates, new features, and changes over time."
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Changelog - Shader API
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/changelog-shader-api.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - shading
-  - texture
-  - gradients
+breadcrumb-title: ""
+description: Review the changelog for Substance 3D Painter Shader API to track updates, new features, and changes over time.
+helpx_creative_field: ""
+helpx_description: Painter > Scripting and development > API Reference > Shader API > Changelog - Shader API
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Changelog - Shader API
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Changelog - Shader API
@@ -23,38 +19,38 @@ helpx_learn_topic:
 
 ## 2018.3.2
 
-* [lib-sparse.glsl](../../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api/lib-sparse-shader-api.md): Sampling functions uses texture derivatives instead simple mipmap level. It's a requirement for the support of anisotropy sampling. Sampling functions signatures are not modified.
-* [lib-pom.glsl](../../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pom-shader-api/lib-pom-shader-api.md): the *getParallaxOffset* function signature has changed in order to uses texture derivatives
+* [lib-sparse.glsl](../../../../scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api/lib-sparse-shader-api.md): Sampling functions uses texture derivatives instead simple mipmap level. It's a requirement for the support of anisotropy sampling. Sampling functions signatures are not modified.
+* [lib-pom.glsl](../../../../scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pom-shader-api/lib-pom-shader-api.md): the *getParallaxOffset* function signature has changed in order to uses texture derivatives
 
 ## 2018.3.0
 
-* Add a new [lib-pbr-aniso.glsl](../../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pbr-aniso-shader-api/lib-pbr-aniso-shader-api.md) library to help visualizing anisotropic specular highlight
-* Add a new [lib-sparse.glsl](../../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api/lib-sparse-shader-api.md) library to help channel sampling by taking care of mipmaps availability
+* Add a new [lib-pbr-aniso.glsl](../../../../scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pbr-aniso-shader-api/lib-pbr-aniso-shader-api.md) library to help visualizing anisotropic specular highlight
+* Add a new [lib-sparse.glsl](../../../../scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api/lib-sparse-shader-api.md) library to help channel sampling by taking care of mipmaps availability
 * Update shader libraries interfaces to take care of this safe sampling
 * **Deprecation**: The previous functions based on the vec2 texture coordinates and the texture sampler have been deprecated (please use new signatures)
-* [lib-pom.glsl](../../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pom-shader-api/lib-pom-shader-api.md): Add a *applyParallaxOffset* function to simplify to use of parallax occlusion effect
-* [lib-random.glsl](../../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-random-shader-api/lib-random-shader-api.md): Add a Blue Noise random value generator and temporal alternatives
-* [lib-sampler.glsl](../../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sampler-shader-api/lib-sampler-shader-api.md): Split all channel sampling helpers to have both value interpretation and sampling helpers
+* [lib-pom.glsl](../../../../scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pom-shader-api/lib-pom-shader-api.md): Add a *applyParallaxOffset* function to simplify to use of parallax occlusion effect
+* [lib-random.glsl](../../../../scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-random-shader-api/lib-random-shader-api.md): Add a Blue Noise random value generator and temporal alternatives
+* [lib-sampler.glsl](../../../../scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sampler-shader-api/lib-sampler-shader-api.md): Split all channel sampling helpers to have both value interpretation and sampling helpers
 
 ## 2018.2.0
 
-* **Surface shader API change**: the *shade* function signature has changed, see [surface-shader.glsl](../../../../help/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api/surface-shader-shader-api.md)
+* **Surface shader API change**: the *shade* function signature has changed, see [surface-shader.glsl](../../../../scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api/surface-shader-shader-api.md)
 * The *shadeShadow* function is no longer used and can safely be removed from custom surface shaders
-* Add Subsurface Scattering support, see [surface-shader.glsl](../../../../help/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api/surface-shader-shader-api.md) and [lib-sss.glsl](../../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sss-shader-api/lib-sss-shader-api.md) for details
-* [lib-pbr.glsl](../../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pbr-shader-api/lib-pbr-shader-api.md): the *pbrComputeBRDF* function has been removed. See [pbr-metal-rough.glsl](../../../../help/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-metal-rough-shader/pbr-metal-rough-shader-api.md) example to know how to use the library now
-* New engine parameters have been added: *texture\_blue\_noise*, *aspect\_ratio*, *camera\_vp\_matrix\_inverse*, *environment\_exposure*, *environment\_rotation*, *fovy*, *main\_light* and *screen\_size*. See [all-engine-params.glsl](../../../../help/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader/all-engine-params-shader-api.md) for details
+* Add Subsurface Scattering support, see [surface-shader.glsl](../../../../scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api/surface-shader-shader-api.md) and [lib-sss.glsl](../../../../scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sss-shader-api/lib-sss-shader-api.md) for details
+* [lib-pbr.glsl](../../../../scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pbr-shader-api/lib-pbr-shader-api.md): the *pbrComputeBRDF* function has been removed. See [pbr-metal-rough.glsl](../../../../scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-metal-rough-shader/pbr-metal-rough-shader-api.md) example to know how to use the library now
+* New engine parameters have been added: *texture\_blue\_noise*, *aspect\_ratio*, *camera\_vp\_matrix\_inverse*, *environment\_exposure*, *environment\_rotation*, *fovy*, *main\_light* and *screen\_size*. See [all-engine-params.glsl](../../../../scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader/all-engine-params-shader-api.md) for details
 * Add the *description* metadata to provide tooltips for custom shader parameters
 
 ## 2017.4.2
 
 * Fix missing shaders in documentation samples (pixelated and toon shaders)
 * Fix dithering for high resolution
-  * [lib-bayer.glsl](../../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-bayer-shader-api/lib-bayer-shader-api.md): **bayerMatrix8()** return valid values for coords &gt; 4k
+  * [lib-bayer.glsl](../../../../scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-bayer-shader-api/lib-bayer-shader-api.md): **bayerMatrix8()** return valid values for coords &gt; 4k
 
 ## 2017.4.1
 
 * Fix pbr-coated shader
-  * [lib-vectors.glsl](../../../../help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-vectors-shader-api/lib-vectors-shader-api.md): **tangentSpaceToWorldSpace()** and **worldSpaceToTangentSpace()** outputs are now normalized
+  * [lib-vectors.glsl](../../../../scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-vectors-shader-api/lib-vectors-shader-api.md): **tangentSpaceToWorldSpace()** and **worldSpaceToTangentSpace()** outputs are now normalized
 
 ## 2017.4.0
 

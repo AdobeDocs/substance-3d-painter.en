@@ -1,9 +1,17 @@
 ---
-title: "Version 9.0"
-description: "Review release notes for Substance 3D Painter version 9.0 to learn about new features, improvements, and bug fixes."
-helpx_description: "Substance 3D Painter"
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-9-0.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Painter version 9.0 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Substance 3D Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 9.0
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Version 9.0
 
@@ -58,7 +66,7 @@ The <b>Paint along Path</b> tool is a new way to paint strokes in the 3D viewpor
 
 >[!NOTE]
 >
-> For more information, see the [dedicated documentation](../../help/painting/tool-list/path/path.md).
+> For more information, see the [dedicated documentation](../../painting/tool-list/path/path.md).
 
 ### New content to use with paint along path feature
 
@@ -95,7 +103,7 @@ We took to opportunity of the new path tool to add new properties to the dynamic
 
 >[!NOTE]
 >
-> For more information, see the [dedicated documentation](../../help/painting/dynamic-strokes/creating-custom-dynamic/creating-custom-dynamic-strokes.md).
+> For more information, see the [dedicated documentation](../../painting/dynamic-strokes/creating-custom-dynamic/creating-custom-dynamic-strokes.md).
 
 ### Refreshed default materials
 

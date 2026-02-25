@@ -1,20 +1,16 @@
 ---
-title: "Activation and licenses"
-description: "Learn how to activate Substance 3D Painter and manage licenses to start using the application for texture painting."
-helpx_description: Painter > Getting Started > Activation and licenses
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/activation-and-licenses.html"
-helpx_creative_field:
-  - painting-illustration
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - cross-product-workflows
-  - painting
-  - import
+breadcrumb-title: ""
+description: Learn how to activate Substance 3D Painter and manage licenses to start using the application for texture painting.
+helpx_creative_field: ""
+helpx_description: Painter > Getting Started > Activation and licenses
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Activation and licenses
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Activation and licenses
@@ -67,4 +63,4 @@ You can manually activate Substance Painter by putting the license.key file in t
 
 ### Environment variable
 
-You can override the location that Painter checks for the **license.key** file with an [Environment Variable](../../help/pipeline-and-integration/configuration/environment-variables/environment-variables.md).
+You can override the location that Painter checks for the **license.key** file with an [Environment Variable](../../pipeline-and-integration/configuration/environment-variables/environment-variables.md).

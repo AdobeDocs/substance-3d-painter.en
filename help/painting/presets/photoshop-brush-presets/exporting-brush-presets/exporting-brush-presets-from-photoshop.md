@@ -1,20 +1,16 @@
 ---
-title: "Exporting Brush Presets from Photoshop"
-description: "Learn how to export brush presets from Photoshop as ABR files for use in Substance 3D Painter texture painting workflows."
-helpx_description: Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Exporting Brush Presets from Photoshop
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/exporting-brush-presets-from-photoshop.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - presets
-  - brushes
-  - export
+breadcrumb-title: ""
+description: Learn how to export brush presets from Photoshop as ABR files for use in Substance 3D Painter texture painting workflows.
+helpx_creative_field: ""
+helpx_description: Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Exporting Brush Presets from Photoshop
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Exporting Brush Presets from Photoshop
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Exporting Brush Presets from Photoshop

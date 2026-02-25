@@ -1,27 +1,23 @@
 ---
-title: "2D view"
-description: "Learn how to use the 2D view in Substance 3D Painter to view and edit textures in UV space for precise texture painting."
-helpx_description: Painter > Interface > Viewport > 2D view
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/viewport/2d-view.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - views
-  - painting
-  - illustration
+breadcrumb-title: ""
+description: Learn how to use the 2D view in Substance 3D Painter to view and edit textures in UV space for precise texture painting.
+helpx_creative_field: ""
+helpx_description: Painter > Interface > Viewport > 2D view
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: 2D view
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # 2D view
 
 ![](2d-view.jpg){width="450px"}
 
-The 2D View displays the mesh UV islands from the currently selected [Texture Set](../../../help/interface/texture-set/texture-set.md). It allows to see the textures from the Layer Stack but also to paint on the mesh UV islands.
+The 2D View displays the mesh UV islands from the currently selected [Texture Set](../../../interface/texture-set/texture-set.md). It allows to see the textures from the Layer Stack but also to paint on the mesh UV islands.
 
 ## Display Mode
 

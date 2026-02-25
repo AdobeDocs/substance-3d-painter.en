@@ -1,21 +1,16 @@
 ---
-title: "Automated installation"
-description: "Learn how to automate Substance 3D Painter installation for enterprise deployment and pipeline integration workflows."
-helpx_description: Painter > Pipeline and integration > Installation and preferences > Automated installation
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/installation-and-preferences/automated-installation.html"
-helpx_creative_field:
-  - video
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - download-and-install
-  - preparing-source-files
-  - preflight
+breadcrumb-title: ""
+description: Learn how to automate Substance 3D Painter installation for enterprise deployment and pipeline integration workflows.
+helpx_creative_field: ""
+helpx_description: Painter > Pipeline and integration > Installation and preferences > Automated installation
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Automated installation
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Automated installation

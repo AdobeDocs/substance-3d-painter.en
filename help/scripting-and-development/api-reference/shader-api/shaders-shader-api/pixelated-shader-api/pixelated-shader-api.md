@@ -1,20 +1,16 @@
 ---
-title: "Pixelated - Shader API"
-description: "Access the Pixelated shader API reference for Substance 3D Painter to create custom pixelated rendering effects."
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > Pixelated - Shader API
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pixelated-shader-api.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - shading
-  - appearance
-  - adjustments
+breadcrumb-title: ""
+description: Access the Pixelated shader API reference for Substance 3D Painter to create custom pixelated rendering effects.
+helpx_creative_field: ""
+helpx_description: Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > Pixelated - Shader API
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Pixelated - Shader API
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Pixelated - Shader API

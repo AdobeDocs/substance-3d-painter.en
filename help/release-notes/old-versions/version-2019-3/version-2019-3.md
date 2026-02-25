@@ -1,20 +1,16 @@
 ---
-title: "Version 2019.3"
-description: "Review release notes for Substance 3D Painter version 2019.3 to learn about new features, improvements, and bug fixes."
-helpx_description: Painter > Release notes > Old versions > Version 2019.3
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - brushes
-  - painting
-  - illustration
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Painter version 2019.3 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Painter > Release notes > Old versions > Version 2019.3
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 2019.3
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Version 2019.3
@@ -66,11 +62,11 @@ In order to support Photoshop brushes, various new features have been added to t
   * **Spacing**: maximum can now be set to 1000.
   * **Position Jitter**: maximum can now be set to 1000.
 
-For more information, such as how to export ABR files and import them, take a look at the [Photoshop Brush Presets](../../../help/painting/presets/photoshop-brush-presets/photoshop-brush-presets-abr.md) documentation.
+For more information, such as how to export ABR files and import them, take a look at the [Photoshop Brush Presets](../../../painting/presets/photoshop-brush-presets/photoshop-brush-presets-abr.md) documentation.
 
 >[!NOTE]
 >
-> Not all Photoshop brush parameters are supported at the moment, refer to the [compatibility list](../../../help/painting/presets/photoshop-brush-presets/photoshop-brush-par/photoshop-brush-parameters-compatibility.md) for more information.
+> Not all Photoshop brush parameters are supported at the moment, refer to the [compatibility list](../../../painting/presets/photoshop-brush-presets/photoshop-brush-par/photoshop-brush-parameters-compatibility.md) for more information.
 
 ### Painting and Graphic Tablet Support Improvements
 
@@ -148,9 +144,9 @@ We continue improving the integration of the Substance format by supporting some
 
   ![](dynamic-stroke-random-seed.png)
 * **New user data Static Dynamic Strokes**   
-  A new optimization has been added which allows to specify when a Substance can be considered a dynamic stroke. Similar to the Visible If, it is now possible to add conditions in the userdata field to specify under which condition Substance Painter should generate new Substance variations with the Dynamic Stroke feature. See the [userdata documentation](../../../help/content/creating-custom-effects/user-data/user-data.md) for more information.
+  A new optimization has been added which allows to specify when a Substance can be considered a dynamic stroke. Similar to the Visible If, it is now possible to add conditions in the userdata field to specify under which condition Substance Painter should generate new Substance variations with the Dynamic Stroke feature. See the [userdata documentation](../../../content/creating-custom-effects/user-data/user-data.md) for more information.
 * **New user data to designate an output node as mask for all channels**   
-  A new userdata can now be added on an output node to use it an alpha mask for all the other channels. This is similar to the existing **channels\_Alpha** system, but without the need to create a new dedicated output in the Substance graph. See the [userdata documentation](../../../help/content/creating-custom-effects/user-data/user-data.md) for more information.
+  A new userdata can now be added on an output node to use it an alpha mask for all the other channels. This is similar to the existing **channels\_Alpha** system, but without the need to create a new dedicated output in the Substance graph. See the [userdata documentation](../../../content/creating-custom-effects/user-data/user-data.md) for more information.
 
 ### Miscellaneous Improvements
 
@@ -255,7 +251,7 @@ In this release a lot of new content has been added:
 
     ![](icon-brush-maker-photoshop.png)
   * **Brush Maker Paint Roller**  
-    This new Substance graph simulates a Paint Roller (or simple Ribbon tool) to paint continuous patterns with turns without breaking. To make the setup easier take a look at existing presets or refer to the graph description. We recommend enabling the [Lazy mouse](../../../help/painting/lazy-mouse/lazy-mouse.md) to make the roll brush draw properly without creating break-ups.
+    This new Substance graph simulates a Paint Roller (or simple Ribbon tool) to paint continuous patterns with turns without breaking. To make the setup easier take a look at existing presets or refer to the graph description. We recommend enabling the [Lazy mouse](../../../painting/lazy-mouse/lazy-mouse.md) to make the roll brush draw properly without creating break-ups.
 
     ![](icon-brush-maker-paint-roller.png)
 

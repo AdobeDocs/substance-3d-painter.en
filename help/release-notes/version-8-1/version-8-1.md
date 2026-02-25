@@ -1,21 +1,16 @@
 ---
-title: "Version 8.1"
-description: "Review release notes for Substance 3D Painter version 8.1 to learn about new features, improvements, and bug fixes."
-helpx_description: Painter > Release notes > Version 8.1
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-8-1.html"
-helpx_creative_field:
-  - video
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - creating-color-palettes
-  - color
-  - swatches
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Painter version 8.1 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Painter > Release notes > Version 8.1
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 8.1
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Version 8.1
@@ -53,11 +48,11 @@ In this new version, the color management system has been expanded with the supp
 
   ![](export-icc.png){width="400px"}
 
-* **New json template settings** To share and re-use settings across projects it is possible to specify a preset file. To know more about the preset specifications, see the [dedicated documentation](../../help/features/color-management/color-management-with-ado/color-management-with-adobe-ace-icc.md).
+* **New json template settings** To share and re-use settings across projects it is possible to specify a preset file. To know more about the preset specifications, see the [dedicated documentation](../../features/color-management/color-management-with-ado/color-management-with-adobe-ace-icc.md).
 
 >[!NOTE]
 >
-> For more information, see the [color management](../../help/features/color-management/color-management.md) documentation.
+> For more information, see the [color management](../../features/color-management/color-management.md) documentation.
 
 ### New physical size support for Substance materials
 
@@ -71,7 +66,7 @@ The size inside Substance materials can now be used to drive their scale and til
   ![](physical-size-settings-fill.png){width="400px"}
 
 * **New viewport grid**   
-  To make the physical size easier to understand and visualize, it is now possible to activate a grid in the 3D viewport via the [Display settings](../../help/interface/display-settings/display-settings.md) window.  
+  To make the physical size easier to understand and visualize, it is now possible to activate a grid in the 3D viewport via the [Display settings](../../interface/display-settings/display-settings.md) window.  
   Once enabled the grid will be automatically subdived based on the level of zoom. The grid unit is indicated in the bottom left of the viewport.
 
   ![](physical-size-viewport-3d.png){width="400px"}
@@ -80,7 +75,7 @@ The size inside Substance materials can now be used to drive their scale and til
 
 >[!NOTE]
 >
-> For more information, see the [dedicated documentation](../../help/features/physical-size/physical-size.md).
+> For more information, see the [dedicated documentation](../../features/physical-size/physical-size.md).
 
 ### New bakers
 
@@ -94,7 +89,7 @@ They have been added to the baker list, however they are disabled by default:
 
 The new bakers are:
 
-* **Bent Normals baker**The Bent Normals baker allows to bake an occlusion direction (as a vector, similar to normal maps). This texture can be used to improve the shading in the viewport by enabling the **Bent Normal** setting in the [Shader settings](../../help/interface/shader-settings/shader-settings.md) window. Bent Normals greatly improve the accuracy of the real-time viewport shading.   
+* **Bent Normals baker**The Bent Normals baker allows to bake an occlusion direction (as a vector, similar to normal maps). This texture can be used to improve the shading in the viewport by enabling the **Bent Normal** setting in the [Shader settings](../../interface/shader-settings/shader-settings.md) window. Bent Normals greatly improve the accuracy of the real-time viewport shading.   
   For **diffuse shading**, it gives a more accurate occlusion and can even look like an approximate global illumination (first example below).  
   For **specular reflections**, it allows to simulate self-shadowing and reduce the amount of light leaking, making the object feel much more grounded especially with metallic surfaces (second example below).
 

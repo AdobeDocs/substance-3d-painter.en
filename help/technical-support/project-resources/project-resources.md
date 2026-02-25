@@ -1,15 +1,16 @@
 ---
-title: "Project resources"
-description: "Access project resources and technical documentation for Substance 3D Painter to enhance your workflow and troubleshooting."
-helpx_description: Substance 3D Painter
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/project-resources.html"
-helpx_creative_field:
-  - 3d
-helpx_experience_level:
-  - all-skill-levels
+breadcrumb-title: ""
+description: Access project resources and technical documentation for Substance 3D Painter to enhance your workflow and troubleshooting.
+helpx_creative_field: ""
+helpx_description: Substance 3D Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Project resources
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Project resources and settings

@@ -1,20 +1,16 @@
 ---
-title: "Effects"
-description: "Learn how to use effects in Substance 3D Painter to apply filters, generators, and adjustments to texture layers."
-helpx_description: Painter > Features > Effects
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - effects
-  - creative-effects
-  - appearance
+breadcrumb-title: ""
+description: Learn how to use effects in Substance 3D Painter to apply filters, generators, and adjustments to texture layers.
+helpx_creative_field: ""
+helpx_description: Painter > Features > Effects
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Effects
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Effects
@@ -33,10 +29,10 @@ Most effects have a blending mode and opacity, like regular layers and can be re
 
 These are the different types of Effects you will find in Substance 3D Painter :
 
-* [Generator](../../help/features/effects/generator/generator.md)
-* [Paint](../../help/features/effects/paint/paint.md)
-* [Fill](../../help/features/effects/fill/fill.md)
-* [Levels](../../help/features/effects/levels/levels.md)
-* [Compare Mask](../../help/features/effects/compare-mask/compare-mask.md)
-* [Filter](../../help/features/effects/filter/filter.md)
-* [Anchor Point](../../help/features/effects/anchor-point/anchor-point.md)
+* [Generator](../../features/effects/generator/generator.md)
+* [Paint](../../features/effects/paint/paint.md)
+* [Fill](../../features/effects/fill/fill.md)
+* [Levels](../../features/effects/levels/levels.md)
+* [Compare Mask](../../features/effects/compare-mask/compare-mask.md)
+* [Filter](../../features/effects/filter/filter.md)
+* [Anchor Point](../../features/effects/anchor-point/anchor-point.md)

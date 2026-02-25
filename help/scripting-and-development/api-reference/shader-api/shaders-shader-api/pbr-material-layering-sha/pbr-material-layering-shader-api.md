@@ -1,20 +1,16 @@
 ---
-title: "PBR Material Layering - Shader API"
-description: "Access the PBR Material Layering shader API reference for Substance 3D Painter to create layered material effects."
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > PBR Material Layering - Shader API
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-material-layering-shader-api.html"
-helpx_creative_field:
-  - painting-illustration
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - pbr
-  - materials
-  - layers
+breadcrumb-title: ""
+description: Access the PBR Material Layering shader API reference for Substance 3D Painter to create layered material effects.
+helpx_creative_field: ""
+helpx_description: Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > PBR Material Layering - Shader API
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: PBR Material Layering - Shader API
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # PBR Material Layering - Shader API

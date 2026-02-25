@@ -1,21 +1,16 @@
 ---
-title: "Lib Pom - Shader API"
-description: "Access the Lib POM shader API reference for Substance 3D Painter to create parallax occlusion mapping effects in custom shaders."
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Pom - Shader API
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pom-shader-api.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - motion
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - pbr
-  - shading
-  - projection
+breadcrumb-title: ""
+description: Access the Lib POM shader API reference for Substance 3D Painter to create parallax occlusion mapping effects in custom shaders.
+helpx_creative_field: ""
+helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Pom - Shader API
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Lib Pom - Shader API
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Lib Pom - Shader API

@@ -1,20 +1,16 @@
 ---
-title: "Substance Source plugin doesnt load"
-description: "Learn how to fix Substance Source plugin loading issues in Substance 3D Painter to access resource library."
-helpx_description: Painter > Technical support > Workflow Issues > Plugins Issues > Substance Source plugin doesnt load
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/plugins-issues/substance-source-plugin-doesn-t-load.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - cross-product-workflows
-  - import
-  - preparing-source-files
+breadcrumb-title: ""
+description: Learn how to fix Substance Source plugin loading issues in Substance 3D Painter to access resource library.
+helpx_creative_field: ""
+helpx_description: Painter > Technical support > Workflow Issues > Plugins Issues > Substance Source plugin doesnt load
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Substance Source plugin doesnt load
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Substance Source plugin doesn't load

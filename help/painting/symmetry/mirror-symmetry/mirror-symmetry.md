@@ -1,20 +1,16 @@
 ---
-title: "Mirror Symmetry"
-description: "Use mirror symmetry in Substance 3D Painter to paint symmetrically across an axis for creating balanced textures."
-helpx_description: Painter > Painting > Symmetry > Mirror Symmetry
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/symmetry/mirror-symmetry.html"
-helpx_creative_field:
-  - painting-illustration
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - perspective
-  - reflect
-  - transform
+breadcrumb-title: ""
+description: Use mirror symmetry in Substance 3D Painter to paint symmetrically across an axis for creating balanced textures.
+helpx_creative_field: ""
+helpx_description: Painter > Painting > Symmetry > Mirror Symmetry
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Mirror Symmetry
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Mirror Symmetry

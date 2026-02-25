@@ -1,21 +1,16 @@
 ---
-title: "Command lines"
-description: "Learn how to use command line arguments with Substance 3D Painter for automation, scripting, and pipeline integration."
-helpx_description: Painter > Pipeline and integration > Configuration > Command lines
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/configuration/command-lines.html"
-helpx_creative_field:
-  - video
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - 3d
-  - projects
-  - automation
+breadcrumb-title: ""
+description: Learn how to use command line arguments with Substance 3D Painter for automation, scripting, and pipeline integration.
+helpx_creative_field: ""
+helpx_description: Painter > Pipeline and integration > Configuration > Command lines
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Command lines
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Command lines
@@ -41,4 +36,4 @@ This page list several command lines that can be used when launching the applica
 | **--export-path** | Default export path where the outputs of the project will be exported. |
 | **--vram-budget** | Override the video memory (VRAM) budget defined by Substance 3D Painter engine. "Amount" is in megabytes.    Example:  ``` // Set the VRam budget to 2GB   "Adobe Substance 3D Painter.exe" --vram-budget 2048  ``` |
 | **--disable-version-checking** | Don't check if a new version of the application is available when starting up |
-| **--enable-remote-scripting** | Allow to run scripting commands from outside the application. See [Remote control with scripting](../../../help/scripting-and-development/scripts-and-plugins/remote-control-with-scr/remote-control-with-scripting.md) for more information. |
+| **--enable-remote-scripting** | Allow to run scripting commands from outside the application. See [Remote control with scripting](../../../scripting-and-development/scripts-and-plugins/remote-control-with-scr/remote-control-with-scripting.md) for more information. |

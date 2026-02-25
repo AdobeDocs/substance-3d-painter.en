@@ -1,20 +1,16 @@
 ---
-title: "Edit Shelf Preferences with Python"
-description: "Learn how to edit shelf preferences using Python scripting in Substance 3D Painter for automated resource path management."
-helpx_description: Painter > Pipeline and integration > Resource management > Adding resource paths by editing preferences manually > Edit Shelf Preferences with Python
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually/editing-the-shelf-preferences-with-python.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - paths
-  - preferences
-  - download-and-install
+breadcrumb-title: ""
+description: Learn how to edit shelf preferences using Python scripting in Substance 3D Painter for automated resource path management.
+helpx_creative_field: ""
+helpx_description: Painter > Pipeline and integration > Resource management > Adding resource paths by editing preferences manually > Edit Shelf Preferences with Python
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Edit Shelf Preferences with Python
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Editing the Shelf Preferences with Python

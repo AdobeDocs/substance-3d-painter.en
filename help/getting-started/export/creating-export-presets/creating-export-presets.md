@@ -1,20 +1,16 @@
 ---
-title: "Creating Output templates"
-description: "Learn how to create custom output templates in Substance 3D Painter to define your own texture export configurations."
-helpx_description: Painter > Getting Started > Export > Creating Output templates
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/creating-export-presets.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - presets
-  - export
-  - texture
+breadcrumb-title: ""
+description: Learn how to create custom output templates in Substance 3D Painter to define your own texture export configurations.
+helpx_creative_field: ""
+helpx_description: Painter > Getting Started > Export > Creating Output templates
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Creating Output templates
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Creating Output templates
@@ -32,7 +28,7 @@ The configuration tab of the export window is divided into three main parts:
 >[!NOTE]
 >
 > Output templates are saved on the disk as <b>individual files</b> and can be shared with any other user of Substance 3D Painter.  
-> You can find the local files for custom templates you have created in the assets/export-presets folder of your [Substance 3D Painter files](../../../help/pipeline-and-integration/resource-management/shelf-and-assets-location/shelf-and-assets-location.md).
+> You can find the local files for custom templates you have created in the assets/export-presets folder of your [Substance 3D Painter files](../../../pipeline-and-integration/resource-management/shelf-and-assets-location/shelf-and-assets-location.md).
 
 >[!NOTE]
 >

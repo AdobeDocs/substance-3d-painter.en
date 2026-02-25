@@ -1,20 +1,16 @@
 ---
-title: "Corrupted texture error message"
-description: "Learn how to fix corrupted texture error messages in Substance 3D Painter to restore texture functionality."
-helpx_description: Painter > Technical support > Technical Issues > Miscellaneous Issues > Corrupted texture error message
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/corrupted-texture-error-message.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate-advanced
-helpx_learn_topic:
-  - troubleshooting
-  - texture
-  - gradient-mesh
+breadcrumb-title: ""
+description: Learn how to fix corrupted texture error messages in Substance 3D Painter to restore texture functionality.
+helpx_creative_field: ""
+helpx_description: Painter > Technical support > Technical Issues > Miscellaneous Issues > Corrupted texture error message
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Corrupted texture error message
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Corrupted texture error message
@@ -43,11 +39,11 @@ Corrupted resources will look like this:
 ### 2 - Replacing the resource
 
 To replace a corrupted resource, all the references to it must be removed first. If the current is relatively small, this can be done manually.   
-However if the project spans across multiple texture sets or lots of layers, the [Resource Updater ](../../../../help/features/plugins/resources-updater/resources-updater.md)can be helpful to locate the corrupted resource and replace it temporarily with another one.
+However if the project spans across multiple texture sets or lots of layers, the [Resource Updater ](../../../../features/plugins/resources-updater/resources-updater.md)can be helpful to locate the corrupted resource and replace it temporarily with another one.
 
 >[!NOTE]
 >
-> * In the cased of the baked textures, don't forget to also clear the Mesh Maps slots in the [Texture Set settings](../../../../help/interface/texture-set/texture-set-settings/texture-set-settings.md) window.
+> * In the cased of the baked textures, don't forget to also clear the Mesh Maps slots in the [Texture Set settings](../../../../interface/texture-set/texture-set-settings/texture-set-settings.md) window.
 > * Bakes that are only used in the Texture Set Settings like the normal map could also be corrupted. Try removing them as well if errors persist.
 
 ### 3 - Cleanup

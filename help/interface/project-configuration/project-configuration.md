@@ -1,20 +1,16 @@
 ---
-title: "Project configuration"
-description: "Learn how to configure project settings in Substance 3D Painter to set up texture resolution, channels, and project properties."
-helpx_description: Painter > Interface > Project configuration
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/project-configuration.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate-advanced
-helpx_learn_topic:
-  - interior-design
-  - product-design
-  - xr
+breadcrumb-title: ""
+description: Learn how to configure project settings in Substance 3D Painter to set up texture resolution, channels, and project properties.
+helpx_creative_field: ""
+helpx_description: Painter > Interface > Project configuration
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Project configuration
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Project configuration
@@ -29,11 +25,11 @@ The File and Select button allows to update the current project's 3D model at an
 
 * Update the 3D model topology
 * Update the UVs
-* Add or Remove [Texture Sets](../../help/interface/texture-set/texture-set.md)
+* Add or Remove [Texture Sets](../../interface/texture-set/texture-set.md)
 
 >[!NOTE]
 >
-> If the materials changed or have been renamed when loading a new 3D model, the previous Texture Sets in the project can become disabled. This can be fixed with the [Reassignment Window](../../help/interface/texture-set/texture-set-reassignment/texture-set-reassignment.md) from the **Texture Set List**.
+> If the materials changed or have been renamed when loading a new 3D model, the previous Texture Sets in the project can become disabled. This can be fixed with the [Reassignment Window](../../interface/texture-set/texture-set-reassignment/texture-set-reassignment.md) from the **Texture Set List**.
 
 ## Project Settings
 
@@ -41,7 +37,7 @@ This sections control several settings related to the project:
 
 | *Setting* | *Description* |
 | --- | --- |
-| **Normal Map Format** | Defines the format of the normal map used for the mesh in the viewport.  This parameter only affects the [shaders](../../help/interface/shader-settings/shader-settings.md) in the viewport and mesh maps in the [bakers](../../help/baking/baking.md). The layer stack is independent.Recommended value for common applications:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Unity</strong>: OpenGL</li><li data-preserve-html="true"><strong>Unreal Engine</strong>: DirectX</li><li data-preserve-html="true"><strong>Maya</strong>: OpenGL</li><li data-preserve-html="true"><strong>3DS Max</strong>: DirectX</li><li data-preserve-html="true"><strong>Blender</strong>: OpenGL</li></ul> |
+| **Normal Map Format** | Defines the format of the normal map used for the mesh in the viewport.  This parameter only affects the [shaders](../../interface/shader-settings/shader-settings.md) in the viewport and mesh maps in the [bakers](../../baking/baking.md). The layer stack is independent.Recommended value for common applications:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Unity</strong>: OpenGL</li><li data-preserve-html="true"><strong>Unreal Engine</strong>: DirectX</li><li data-preserve-html="true"><strong>Maya</strong>: OpenGL</li><li data-preserve-html="true"><strong>3DS Max</strong>: DirectX</li><li data-preserve-html="true"><strong>Blender</strong>: OpenGL</li></ul> |
 | **Compute Tangent Space Per Fragment** | Determines how to compute and display normal maps in the viewport for shading and lighting. If enabled, the tangent and binormals of the mesh will be computed per pixels instead of per vertex.Recommended value for common applications:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Unity</strong>: Disabled (Enabled if using HDRP)</li><li data-preserve-html="true"><strong>Unreal Engine</strong>: Enabled</li></ul> |
 
 >[!NOTE]
@@ -62,7 +58,7 @@ When a USD mesh format is selected, other file type-specific settings become ava
 
 ## UV Tiles settings
 
-This section indicates if the current project is using any of the UV Tiles/UDIM texture workflow in the current project. For more information see the [UV Tiles documentation](../../help/features/uv-tiles/uv-tiles.md).
+This section indicates if the current project is using any of the UV Tiles/UDIM texture workflow in the current project. For more information see the [UV Tiles documentation](../../features/uv-tiles/uv-tiles.md).
 
 ## Import settings
 
@@ -71,9 +67,9 @@ These settings control how the selected mesh will be imported:
 | *Setting* | *Description* |
 | --- | --- |
 | **Import Cameras** | If enabled, cameras present in the mesh file will also be imported and available in the 3D viewport as new point of view. |
-| **Preserve strokes positions on mesh** | This setting controls how brush strokes will be recomputed after importing a new 3D mesh. It is recommended to keep this setting enabled in most cases. For more details see the [UV Reprojection](../../help/features/uv-reprojection/uv-reprojection.md) documentation. |
+| **Preserve strokes positions on mesh** | This setting controls how brush strokes will be recomputed after importing a new 3D mesh. It is recommended to keep this setting enabled in most cases. For more details see the [UV Reprojection](../../features/uv-reprojection/uv-reprojection.md) documentation. |
 | **Auto-Unwrap** | Automatic UV Unwrapping. Click on the Option button to configure the process. For more information see the dedicated documentation. |
 
 ### Color management settings
 
-This section controls the settings regarding how to convert colors. For more information see the [Color management](../../help/features/color-management/color-management.md) documentation.
+This section controls the settings regarding how to convert colors. For more information see the [Color management](../../features/color-management/color-management.md) documentation.

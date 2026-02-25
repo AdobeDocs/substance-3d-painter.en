@@ -1,20 +1,16 @@
 ---
-title: "Version 2.4"
-description: "Review release notes for Substance 3D Painter version 2.4 to learn about new features, improvements, and bug fixes."
-helpx_description: Painter > Release notes > Old versions > Version 2.4
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2-4.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate-advanced
-helpx_learn_topic:
-  - catalogs
-  - branding
-  - preferences
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Painter version 2.4 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Painter > Release notes > Old versions > Version 2.4
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 2.4
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Version 2.4
@@ -31,7 +27,7 @@ Release Date : *27 October 2016*
 
 The new shelf window provide a **better organisation** of resources alongside **new ways of filtering content**. We added the possibility to create **custom presets** where each preset has its own filtering (allowing to quickly switch between different queries). These presets can also be i**solated into a new window**, offering a way to have **multiple views** of the shelf and not only one like before. The filtering also offer a way to **browse the hierarchy of folders on the disk**, becoming handy when refining a more general query. We also improved the **context menu** (when right-clicking on a resource) to provide **more useful information**.
 
-For creating advanced queries, see the dedicated part of the documentation : [Advanced search queries](../../../help/interface/assets/advanced-search-queries/advanced-search-queries.md)
+For creating advanced queries, see the dedicated part of the documentation : [Advanced search queries](../../../interface/assets/advanced-search-queries/advanced-search-queries.md)
 
 ### New import resource window
 

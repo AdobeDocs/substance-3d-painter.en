@@ -1,20 +1,16 @@
 ---
-title: "Ambient Occlusion Painting"
-description: "Learn how to paint ambient occlusion maps directly in Substance 3D Painter to add realistic shadowing and depth to textures."
-helpx_description: Painter > Painting > Advanced channel painting > Ambient Occlusion Painting
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/advanced-channel-painting/ambient-occlusion-painting.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - creative-effects
-  - painting
-  - appearance
+breadcrumb-title: ""
+description: Learn how to paint ambient occlusion maps directly in Substance 3D Painter to add realistic shadowing and depth to textures.
+helpx_creative_field: ""
+helpx_description: Painter > Painting > Advanced channel painting > Ambient Occlusion Painting
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Ambient Occlusion Painting
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Ambient Occlusion Painting
@@ -26,17 +22,17 @@ The ambient occlusion channel allow to paint details in the ambient shadows of a
 In computer graphics, ambient occlusion is a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting&#46; The interior of a tube is typically more occluded &#40;and hence darker&#41; than the exposed outer surfaces, and the deeper you go inside the tube, the more occluded &#40;and darker&#41; the lighting becomes&#46; Ambient occlusion can be seen as an accessibility value that is calculated for each surface point&#46;  
 Source: &lt;https://en&#46;wikipedia&#46;org/wiki/Ambient&#95;occlusion&gt;
 
-The  **result**  of this computation is stored in a bitmap named the "Ambient Occlusion" map. This map can be baked in the application directly, see: [Baking](../../../help/baking/baking.md).
+The  **result**  of this computation is stored in a bitmap named the "Ambient Occlusion" map. This map can be baked in the application directly, see: [Baking](../../../baking/baking.md).
 
 ## Painting Ambient Occlusion
 
-To paint custom occlusion details, an Ambient Occlusion channel is required. It can be added via the [Texture Set settings](../../../help/interface/texture-set/texture-set-settings/texture-set-settings.md):
+To paint custom occlusion details, an Ambient Occlusion channel is required. It can be added via the [Texture Set settings](../../../interface/texture-set/texture-set-settings/texture-set-settings.md):
 
 ![](add-ao-channel.png)
 
 Once the channel has been added to a Texture Set, any layer can be used to paint new information. Since the AO channel contains only grayscale information, recommended blending mode are **Normal** (paint over) and **Multiply** (combine).
 
-To know more about them and how to change them per channel, see: [Blending modes](../../../help/interface/layer-stack/blending-modes/blending-modes.md).
+To know more about them and how to change them per channel, see: [Blending modes](../../../interface/layer-stack/blending-modes/blending-modes.md).
 
 ## Painting over the Ambient Occlusion additional map
 

@@ -1,25 +1,21 @@
 ---
-title: "Subsurface Material Type"
-description: "Learn how to use subsurface material types in Substance 3D Painter to create realistic skin, wax, and organic materials."
-helpx_description: Painter > Features > Subsurface Scattering > Subsurface Material Type
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering/subsurface-material-type.html"
-helpx_creative_field:
-  - painting-illustration
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - materials
-  - metal
-  - blending
+breadcrumb-title: ""
+description: Learn how to use subsurface material types in Substance 3D Painter to create realistic skin, wax, and organic materials.
+helpx_creative_field: ""
+helpx_description: Painter > Features > Subsurface Scattering > Subsurface Material Type
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Subsurface Material Type
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Subsurface Material Type
 
-This page list the various type of materials that can be created with the Subsurface scattering feature and how to configure Substance 3D Painter to create them. For each type of material is given a scale and color which can be set in the [Subsurface Parameters](../../../help/features/subsurface-scattering/subsurface-parameters/subsurface-parameters.md).
+This page list the various type of materials that can be created with the Subsurface scattering feature and how to configure Substance 3D Painter to create them. For each type of material is given a scale and color which can be set in the [Subsurface Parameters](../../../features/subsurface-scattering/subsurface-parameters/subsurface-parameters.md).
 
 >[!NOTE]
 >

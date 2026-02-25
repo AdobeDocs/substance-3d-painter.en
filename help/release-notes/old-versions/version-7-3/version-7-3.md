@@ -1,22 +1,16 @@
 ---
-title: "Version 7.3"
-description: "Review release notes for Substance 3D Painter version 7.3 to learn about new features, improvements, and bug fixes."
-helpx_description: Painter > Release notes > Old versions > Version 7.3
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-7-3.html"
-helpx_creative_field:
-  - video
-  - graphic-design
-  - 3d-immersive
-  - painting-illustration
-helpx_experience_level:
-  - beginner
-helpx_learn_topic:
-  - asset-warp
-  - illustration
-  - 3d
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Painter version 7.3 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Painter > Release notes > Old versions > Version 7.3
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 7.3
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Version 7.3
@@ -50,7 +44,7 @@ This release introduces the new 3D warp projection for fill layers and fill effe
 
   ![](warp-tangent-adjustment.gif)
 
-For more information on the Warp projection's settings and properties, see the [dedicated documentation page](../../../help/painting/fill-projections/warp-projection/warp-projection.md).
+For more information on the Warp projection's settings and properties, see the [dedicated documentation page](../../../painting/fill-projections/warp-projection/warp-projection.md).
 
 ### New cylinder projection
 
@@ -66,7 +60,7 @@ This release adds a cylindrical projection method for fill layers and fill effec
 
   ![](cylindrical-angle.gif)
 
-For more information, see the [dedicated documentation page](../../../help/painting/fill-projections/cylindrical-projection/cylindrical-projection.md).
+For more information, see the [dedicated documentation page](../../../painting/fill-projections/cylindrical-projection/cylindrical-projection.md).
 
 ### Improved color picker
 
@@ -96,7 +90,7 @@ This release brings several quality of life improvements to the color picker.
 
   ![](eyedropper-5.jpg)
 
-For more information, see the [dedicated documentation page](../../../help/interface/color-picker/color-picker.md).
+For more information, see the [dedicated documentation page](../../../interface/color-picker/color-picker.md).
 
 ### Other features and improvements
 

@@ -1,9 +1,17 @@
 ---
-title: "Version 11.0"
-description: "Review release notes for Substance 3D Painter version 11.0 to learn about new features, improvements, and bug fixes."
-helpx_description: "Substance 3D Painter"
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-11-0.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Painter version 11.0 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Substance 3D Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 11.0
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Version 11.0
 
@@ -17,7 +25,7 @@ Release date: <b>11 March 2025</b>
 > 
 > This version also raises the minimum supported version of Windows 10 to 22H2.
 > 
-> For more information check out our [system requirements page](../../help/getting-started/system-requirements/system-requirements.md).
+> For more information check out our [system requirements page](../../getting-started/system-requirements/system-requirements.md).
 
 ## Major features
 
@@ -54,7 +62,7 @@ Keeping libraries and projects up to date with the latest versions of your resou
 
 >[!NOTE]
 >
-> For more information, see the [dedicated documentation page](../../help/features/auto-update/auto-update.md).
+> For more information, see the [dedicated documentation page](../../features/auto-update/auto-update.md).
 
 ### New filled path tool
 

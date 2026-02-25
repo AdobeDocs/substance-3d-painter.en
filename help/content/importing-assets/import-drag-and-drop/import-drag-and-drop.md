@@ -1,9 +1,17 @@
 ---
-title: "Adding resources via drag and drop"
-description: "Learn how to add resources via drag and drop in Substance 3D Painter to quickly import assets into your project."
-helpx_description: "Substance 3D Painter"
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/importing-assets/import-drag-and-drop.html"
+breadcrumb-title: ""
+description: Learn how to add resources via drag and drop in Substance 3D Painter to quickly import assets into your project.
+helpx_creative_field: ""
+helpx_description: Substance 3D Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Adding resources via drag and drop
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Adding resources via drag and drop
 

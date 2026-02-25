@@ -1,20 +1,16 @@
 ---
-title: "All Changes"
-description: "Review all changes and updates across Substance 3D Painter versions to track feature evolution and improvements over time."
-helpx_description: Painter > Release notes > All Changes
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/all-changes.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - promotional-video
-  - whats-new
-  - cinema4d
+breadcrumb-title: ""
+description: Review all changes and updates across Substance 3D Painter versions to track feature evolution and improvements over time.
+helpx_creative_field: ""
+helpx_description: Painter > Release notes > All Changes
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: All Changes
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # All Changes
@@ -23,7 +19,7 @@ This page contains release notes for all previous releases of Substance 3D Paint
 
 >[!NOTE]
 >
-> To view known issues that may affect Painter, see the [dedicated documentation page](../../help/release-notes/know-issues/know-issues.md).
+> To view known issues that may affect Painter, see the [dedicated documentation page](../../release-notes/know-issues/know-issues.md).
 
 ## Version 11
 

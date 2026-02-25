@@ -1,20 +1,16 @@
 ---
-title: "Importing Photoshop Brush Presets"
-description: "Learn how to import Photoshop brush presets (ABR files) into Substance 3D Painter to expand your brush library."
-helpx_description: Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Importing Photoshop Brush Presets
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/importing-photoshop-brush-presets.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - import
-  - cross-product-workflows
-  - presets
+breadcrumb-title: ""
+description: Learn how to import Photoshop brush presets (ABR files) into Substance 3D Painter to expand your brush library.
+helpx_creative_field: ""
+helpx_description: Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Importing Photoshop Brush Presets
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Importing Photoshop Brush Presets
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Importing Photoshop Brush Presets
@@ -43,7 +39,7 @@ This page gives a step by step on how to import an ABR file into Substance 3D Pa
    > 
    > A warning icon can appear next to the ABR file if there are some issues with it. Such as:
    > 
-   > * No compatible preset found. See the [Photoshop Brush Parameters Compatibility](../../../../help/painting/presets/photoshop-brush-presets/photoshop-brush-par/photoshop-brush-parameters-compatibility.md) list for more information.
+   > * No compatible preset found. See the [Photoshop Brush Parameters Compatibility](../../../../painting/presets/photoshop-brush-presets/photoshop-brush-par/photoshop-brush-parameters-compatibility.md) list for more information.
    > * The file cannot be read (ex: it is corrupted).
 1. <b>Select how to import the ABR file.</b>
 
@@ -58,7 +54,7 @@ This page gives a step by step on how to import an ABR file into Substance 3D Pa
 
    ![](shelf-demo.png)
 
-   If there were no issues importing the Brush Presets, they will appear in the [Assets](../../../../help/interface/assets/assets.md) window.
+   If there were no issues importing the Brush Presets, they will appear in the [Assets](../../../../interface/assets/assets.md) window.
 
    >[!NOTE]
    >

@@ -1,21 +1,16 @@
 ---
-title: "All Rendering States Params - Shader API"
-description: "Access the All Rendering States Params shader API reference for Substance 3D Painter to control rendering state parameters."
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Rendering States Params - Shader API
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-rendering-states-params-shader-api.html"
-helpx_creative_field:
-  - painting-illustration
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - appearance
-  - painting
-  - shading
+breadcrumb-title: ""
+description: Access the All Rendering States Params shader API reference for Substance 3D Painter to control rendering state parameters.
+helpx_creative_field: ""
+helpx_description: Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Rendering States Params - Shader API
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: All Rendering States Params - Shader API
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # All Rendering States Params - Shader API

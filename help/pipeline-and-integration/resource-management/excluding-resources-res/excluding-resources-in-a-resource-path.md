@@ -1,25 +1,21 @@
 ---
-title: "Excluding resources in a resource path"
-description: "Learn how to exclude specific resources from resource paths in Substance 3D Painter for better shelf organization."
-helpx_description: Painter > Pipeline and integration > Resource management > Excluding resources in a resource path
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/excluding-resources-in-a-resource-path.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - preparing-source-files
-  - paths
-  - files
+breadcrumb-title: ""
+description: Learn how to exclude specific resources from resource paths in Substance 3D Painter for better shelf organization.
+helpx_creative_field: ""
+helpx_description: Painter > Pipeline and integration > Resource management > Excluding resources in a resource path
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Excluding resources in a resource path
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Excluding resources in a resource path
 
-This page explains how to setup an ignore file to specify resources and folders that will be ignored during the crawling process of the the [Assets](../../../help/interface/assets/assets.md) window. It allows to avoid unwanted resources from being displayed.
+This page explains how to setup an ignore file to specify resources and folders that will be ignored during the crawling process of the the [Assets](../../../interface/assets/assets.md) window. It allows to avoid unwanted resources from being displayed.
 
 >[!NOTE]
 >

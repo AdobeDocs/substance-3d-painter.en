@@ -1,20 +1,16 @@
 ---
-title: "Anchor Point"
-description: "Learn how to use anchor point effects in Substance 3D Painter to reference textures from other layers for advanced compositing."
-helpx_description: Painter > Features > Effects > Anchor Point
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/anchor-point.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - anchors
-  - links
-  - markers
+breadcrumb-title: ""
+description: Learn how to use anchor point effects in Substance 3D Painter to reference textures from other layers for advanced compositing.
+helpx_creative_field: ""
+helpx_description: Painter > Features > Effects > Anchor Point
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Anchor Point
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Anchor Point
