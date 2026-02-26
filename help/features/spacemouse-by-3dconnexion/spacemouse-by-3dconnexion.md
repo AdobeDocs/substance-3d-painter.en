@@ -1,12 +1,20 @@
 ---
-title: "SpaceMouse by 3Dconnexion"
-description: ""
-helpx_description: "Painter > Features > SpaceMouse by 3Dconnexion"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/spacemouse-by-3dconnexion.html"
+breadcrumb-title: ""
+description: Learn how to use SpaceMouse by 3Dconnexion with Substance 3D Painter for enhanced 3D navigation and viewport control.
+helpx_creative_field: ""
+helpx_description: Painter > Features > SpaceMouse by 3Dconnexion
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: SpaceMouse by 3Dconnexion
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # SpaceMouse® by 3Dconnexion
 
-![](spacemouse-banner.jpg)
+![](../../assets/spacemouse-banner.jpg)
 
 The SpaceMouse® by 3Dconnexion is a device that allows to easily navigate in 3D. It can be used to manipulate the camera/3d model in the application viewport.
 
@@ -27,9 +35,9 @@ All models and versions should be compatible with the application:
 
 | Model | Description | Visual |
 | --- | --- | --- |
-| **Compact Model** | Base model with the Knob control. | <div><img class="confluence-embedded-image" data-preserve-html="true" src="3Dconnexion_SpaceMouse-Wireless-400x400.png" width="200"/></div> |
-| **Pro Model** | Knob control and additional buttons for keyboard shortcut. | <div><img class="confluence-embedded-image" data-preserve-html="true" src="3Dconnexion_SpaceMouse-Pro-400x400.png" width="200"/></div> |
-| **Enterprise Model** | Knob control, additional buttons and contextual display. | <div><img class="confluence-embedded-image" data-preserve-html="true" src="3Dconnexion_SpaceMouse-Enterprise-400x400.png" width="200"/></div> |
+| **Compact Model** | Base model with the Knob control. | <div><img class="confluence-embedded-image" data-preserve-html="true" src="../../assets/3Dconnexion_SpaceMouse-Wireless-400x400.png" width="200"/></div> |
+| **Pro Model** | Knob control and additional buttons for keyboard shortcut. | <div><img class="confluence-embedded-image" data-preserve-html="true" src="../../assets/3Dconnexion_SpaceMouse-Pro-400x400.png" width="200"/></div> |
+| **Enterprise Model** | Knob control, additional buttons and contextual display. | <div><img class="confluence-embedded-image" data-preserve-html="true" src="../../assets/3Dconnexion_SpaceMouse-Enterprise-400x400.png" width="200"/></div> |
 
 >[!NOTE]
 >
@@ -41,14 +49,14 @@ The menu can be accessed directly from the device:
 
 * On the Compact model by clicking on the left button and choosing properties from the radial menu:
 
-  ![](image2022-3-3-15-14-41.png){width="250px"}
+  ![](../../assets/image2022-3-3-15-14-41.png){width="250px"}
 * On the Pro and Enterprise models, the properties menu can be accessed by pressing the Menu button.
 
 Alternatively, right click on the 3Dconnexion icon in the system tray (next to the system clock) and choose **Open 3Dconnexion Settings**. This menu is context sensitive based on the last active window. Its title bar indicates to which program it corresponds, if it is not Adobe Substance 3D Painter, switch to the Painter window and then go back to the settings window:
 
 ## Default settings
 
-![](image2022-3-3-10-23-48.png){width="400px"}
+![](../../assets/image2022-3-3-10-23-48.png){width="400px"}
 
 In the settings panel of the SpaceMouse®, default settings for Painter are available in the latest version of the drivers. No additional configuration is needed, simply connect the device and it will be plug and play.
 
@@ -64,7 +72,7 @@ Any default setting can be modified. There are two important sections with the t
 
 #### Navigation modes
 
-![](image2022-3-3-15-5-18.png){width="400px"}
+![](../../assets/image2022-3-3-15-5-18.png){width="400px"}
 
 Define the behavior how behaves the knob in 3D:
 
@@ -78,7 +86,7 @@ Define the behavior how behaves the knob in 3D:
 
 #### Rotation center
 
-![](image2022-3-3-10-25-26.png){width="400px"}
+![](../../assets/image2022-3-3-10-25-26.png){width="400px"}
 
 Define the small pivot icon behavior:
 
@@ -95,6 +103,6 @@ Define the small pivot icon behavior:
 
 ### Buttons
 
-![](image2022-3-3-10-23-48.png){width="400px"}
+![](../../assets/image2022-3-3-10-23-48.png){width="400px"}
 
 By clicking on **Buttons**, it is possible to assign commands, macros or radial menus. See the [3Dconnexion documentation](https://3dconnexion.com/uk/support/faq/) for more details.

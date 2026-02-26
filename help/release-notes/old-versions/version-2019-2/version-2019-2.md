@@ -1,7 +1,15 @@
 ---
-title: "Version 2019.2"
-description: ""
-helpx_description: "Painter > Release notes > Old versions > Version 2019.2"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2019-2.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Painter version 2019.2 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Painter > Release notes > Old versions > Version 2019.2
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 2019.2
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Version 2019.2
@@ -14,25 +22,25 @@ Release date : *25 July 2019*
 
 ### Workflow improvements for Bakers
 
-![](header-image-vizu.jpg)
+![](../../../assets/header-image-vizu.jpg)
 
 The baking workflow has been improved with this release with some new features. These improvements will speed up and ease day-to-day work with Substance Painter.
 
 * **Baking process visualization**   
   By default with this new version any baking process will now be visible in the viewport. It allows to preview the result of the bakers in realtime and even cancel it if needed without waiting until the end of the process to offer quicker iterations. This behavior can be disabled by going into the main settings and unchecking the "**Enable live preview baking process**" setting under the "**Baking Options**" section.
 
-  ![](baking-options-v2.png)
+  ![](../../../assets/baking-options-v2.png)
 
-  ![](bake-process.gif){width="500px"}
+  ![](../../../assets/bake-process.gif){width="500px"}
 * **Improved baking dialog**   
   The baking dialog has been reworked and now displays a better status of the current baking process. There is now a counter to indicate how many textures will be computed as well as an explicit list per baker and Texture Set of what is being computed. In case of an error a red cross is displayed next to the baker name. At the end of the process a new button allows to quickly open the log window to learn more about the issue.  
-   ![](baking-dialog.png)
+   ![](../../../assets/baking-dialog.png)
 * **Canceling in-progress baking** The baking process doesn't lock the application anymore. Substance Painter is now more responsive, meaning it is possible to cancel a bake that is currently in progress without waiting for it to end. Cancellation is not immediate however and may require a few seconds to take effect. This is because internally the baking process works on textures in chunks and cannot stop while a chunk is being computed. When canceling the baking process, the Baking window automatically reopens.  
-   ![](baking-cancel-optim.gif)
+   ![](../../../assets/baking-cancel-optim.gif)
 
 ### Performance improvements for Bakers
 
-![](header-image-baker.jpg)
+![](../../../assets/header-image-baker.jpg)
 
 With the workflow improvement we also took the opportunity to update our Bakers and improve their performances. We also added the support of DXR and Optix to enable GPU Raytracing which allows to bake much faster than before. Note however that GPU Raytracing only affect the Ambient Occlusion and Thickness baker.
 
@@ -41,12 +49,12 @@ With the workflow improvement we also took the opportunity to update our Bakers 
 * **GPU Raytracing support with DXR and Optix**   
   With compatible hardware the bakers can now compute directly on the GPU which drastically reduces computation time, especially when anti-aliasing is enabled and lots of rays are defined. DXR is the default option when available, otherwise Optix will be used. It is possible to disable GPU Raytracing by going into the [main settings](../../../interface/settings/settings.md) and looking for "**Baking Options**" :
 
-  ![](baking-options-v2.png)
+  ![](../../../assets/baking-options-v2.png)
 
 >[!NOTE]
 >
 > To enable the GPU Raytracing feature make sure to update to the following drivers : **Nvidia drivers 430.86**.  
-> DXR is available on RTX GPUs and [GeForce GTX 10xx GPUs](https://www.nvidia.com/en-us/geforce/news/geforce-gtx-dxr-ray-tracing-available-now/). DXR also requires Windows 10 to be up to date to be accessible (version 1809), see for more information.
+> DXR is available on RTX GPUs and [GeForce GTX 10xx GPUs](https://www.nvidia.com/en-us/geforce/news/geforce-gtx-dxr-ray-tracing-available-now/). DXR also requires Windows 10 to be up to date to be accessible (version 1809), see this page for more information.
 
 >[!WARNING]
 >
@@ -54,7 +62,7 @@ With the workflow improvement we also took the opportunity to update our Bakers 
 
 ### Miscellaneous new features and improvements
 
-![](header-image-misc.jpg)
+![](../../../assets/header-image-misc.jpg)
 
 In this release we also added and reworked a few things to improve the quality of life inside Substance Painter.
 
@@ -63,15 +71,15 @@ In this release we also added and reworked a few things to improve the quality o
 * **Improved performances on High DPI screens with viewport downscaling**  
   In the [main settings](../../../interface/settings/settings.md) there is now a new parameter named "Viewport Scaling" with the value "**None**" and "**Auto**" (default). When Substance Painter detects that a screen uses HDPI scaling (such as Retina screens on MacOS) it will automatically divide the viewport resolution by 2. This behavior avoids drawing the viewport too big and improves general performances without any noticeable loss of quality.
 
-  ![](settings-viewport-downscale.png)
+  ![](../../../assets/settings-viewport-downscale.png)
 * **New Console plugin for Scripting**  
   We created a new plugin to easily run commands from our Scripting API. It is available on Github : <https://github.com/AllegorithmicSAS/painter-plugin-console>. The console also supports auto-completion.
 
-  ![](console-plugin.png)
+  ![](../../../assets/console-plugin.png)
 
 ### New content
 
-![](header-image-content.jpg)
+![](../../../assets/header-image-content.jpg)
 
 A new set of Smart Materials and Smart Masks has been added to the default Shelf to cover various usages. Here is the full list of assets that have been added :
 

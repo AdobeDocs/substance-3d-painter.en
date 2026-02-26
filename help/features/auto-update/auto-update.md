@@ -1,16 +1,24 @@
 ---
-title: "Automatic resource update"
-description: ""
-helpx_description: "Substance 3D Painter"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/auto-update.html"
+breadcrumb-title: ""
+description: Learn how to use automatic resource update in Substance 3D Painter to keep your resource libraries synchronized and up to date.
+helpx_creative_field: ""
+helpx_description: Substance 3D Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Automatic resource update
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Automatic resource update
 
-![](banner_autoupdate.jpg)
+![](../../assets/banner_autoupdate.jpg)
 
 The automatic resource update, or <b>auto-update</b>, is a feature of the [Assets window](../../interface/assets/assets.md) that allows to reload and updates resources when new versions are available. This process can be triggered automatically or manually in the interface, or via Python scripting.
 
-![](auto_update_menu.png)
+![](../../assets/auto_update_menu.png)
 
 ## Tutorial
 
@@ -18,13 +26,13 @@ You can watch a quick tutorial to get an overview of the feature:
 
 ## Enabling auto-update
 
-![](auto_update_red_icon.png)
+![](../../assets/auto_update_red_icon.png)
 
 To enable the <b>auto-update</b> simply go to the bottom of the Assets window and click on the double arrows icon. This will open the auto-update menu with all its setting. Then enable one of the option available under the <b>automatic updates</b> section.
 
 ### Automatic updates
 
-![](auto-update_auto_settings.png)
+![](../../assets/auto-update_auto_settings.png)
 
 The automatic update settings control how often the application should look for updates and where.
 
@@ -40,7 +48,7 @@ The automatic update settings control how often the application should look for 
 
 ### Manual updates
 
-![](auto-update_manual.png)
+![](../../assets/auto-update_manual.png)
 
 The manual update actions are a convenient way to trigger the update system when desired. They can be used either with or without automatic update settings enabled.
 
@@ -51,7 +59,7 @@ The manual update actions are a convenient way to trigger the update system when
 
 ## Advanced settings
 
-![](auto-update_mismatch.png)
+![](../../assets/auto-update_mismatch.png)
 
 The advanced settings allow to control the behavior of the update process.
 
@@ -65,13 +73,13 @@ The advanced settings allow to control the behavior of the update process.
 
 ## Update status and log
 
-![](auto-update_log.png)
+![](../../assets/auto-update_log.png)
 
 After an update of resources happened (automatic or manual) the result of the process will appear inside the <b>Assets</b> tab in the <b>Log</b> window, reporting both successful updates and issues. In case of a resource mismatch (see above), the details of the issue we be provided per resource.
 
 The log can be quickly opened by clicking on the dedicated icon at the top right of the auto-update menu:
 
-![](auto_update_log_icon.png)
+![](../../assets/auto_update_log_icon.png)
 
 >[!NOTE]
 >
@@ -86,6 +94,6 @@ Depending how the update process goes, several type of issues can appear:
 
 ## Old project message
 
-![](auto_update_old_project_dialog.png.img.png)
+![](../../assets/auto_update_old_project_dialog.png.img.png)
 
 When opening an old project, an option will be available inside the popup message warning to inform about the auto-update process. This is a convenient way to quickly disable the auto-update process in case it stayed enabled before opening the old project.

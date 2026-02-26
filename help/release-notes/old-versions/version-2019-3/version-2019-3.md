@@ -1,7 +1,15 @@
 ---
-title: "Version 2019.3"
-description: ""
-helpx_description: "Painter > Release notes > Old versions > Version 2019.3"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Painter version 2019.3 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Painter > Release notes > Old versions > Version 2019.3
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 2019.3
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Version 2019.3
@@ -14,7 +22,7 @@ Release date: *December 17, 2019*
 
 ### Photoshop Brush Presets Support (ABR)
 
-![](banner-abr.png)
+![](../../../assets/banner-abr.png)
 
 You can now use your Photoshop brushes in Substance Painter. By simply exporting your presets as an ABR file, you can now import them as regular brush presets. Presets contained inside an ABR files will appear in the Shelf as individual brush presets.
 
@@ -29,24 +37,24 @@ In order to support Photoshop brushes, various new features have been added to t
 
 * **New Size and Flow Minimum parameters**   
   You can now specify the minimum size and the minimum flow of the tool when Pen Pressure is enabled. This parameter works as a percentage based on the current maximum size/flow defined. These settings are automatically calibrated when using a Photoshop brush preset.  
-   ![](size-minimum.png)
+   ![](../../../assets/size-minimum.png)
 * **New Position Jitter parameters**   
   In order to match Photoshop brush behavior, we added a few new settings. It is now possible to define which axis the jitter is applied to and how random positions are distributed (choose **Uniform** to match Photoshop).  
-   ![](position-jitter-settings.png)   
-   ![](gaussian-vs-uniform.png)
+   ![](../../../assets/position-jitter-settings.png)   
+   ![](../../../assets/gaussian-vs-uniform.png)
 * **New alpha blending mode**   
   Photoshop doesn't composite its brush strokes the same way as Substance Painter does, therefore we added a new blending mode (Lighten) to better match the painting result. This blending mode doesn't over-accumulate when stamps overlap, which can improve the feeling of pressure when painting with a low Flow/Opacity value.  
-   ![](alpha-blend-mode.png)   
-   ![](lighten-vs-normal-demo.png)
+   ![](../../../assets/alpha-blend-mode.png)   
+   ![](../../../assets/lighten-vs-normal-demo.png)
 * **Support for Roundness and Flip**   
   A new Substance Alpha named **Brush Maker Photoshop** has been added to support parameters such as Roundness (scale the height of the Alpha) and Flip (mirror an image on both axes). This Substance Alpha is automatically loaded when clicking on a brush preset coming from an ABR file.  
-   ![](brush-maker-photoshop.png)   
-   ![](brush-maker-photoshop-settings.png)
+   ![](../../../assets/brush-maker-photoshop.png)   
+   ![](../../../assets/brush-maker-photoshop-settings.png)
 * **New gamma correction for alpha channel of layers**   
   Photoshop doesn't blend its brush strokes in Linear Gamma space, which means blending and opacity may look wrong when painting with a Photoshop brush preset. A new setting can be enabled on layers to match that behavior and apply a gamma correction. This will affect the alpha used to paint brush strokes, as well as how the layer's mask is used to blend with other layers, however layer's blending modes will still operate in Linear gamma space.  
   To **activate this setting**, simply right-click on a layer and choose **Gamma corrected alpha/mask**. A new icon will appear next to the layer to indicate when this setting is enabled.  
-   ![](layer-menu.png) ![](layer-icon.png)   
-   ![](gamma-correction-demo.png)
+   ![](../../../assets/layer-menu.png) ![](../../../assets/layer-icon.png)   
+   ![](../../../assets/gamma-correction-demo.png)
 * **Increased maximum value for Spacing and Position Jitter**   
   In order to match properly Photoshop brush presets parameters, the maximum value of the following parameters has been increased:
 
@@ -61,20 +69,20 @@ For more information, such as how to export ABR files and import them, take a lo
 
 ### Painting and Graphic Tablet Support Improvements
 
-![](banner-painting-improvements.png)
+![](../../../assets/banner-painting-improvements.png)
 
 In addition to the support of Photoshop brush presets, numerous improvements and fixes have been made related to the use of graphic tablets.
 
 * **Straight Line first stamp is not doubled anymore**  
   When painting a Straight Line, the first stamp is not duplicated anymore (no need to Undo your stamp just to place the Straight Line in position).  
-   ![](straight-line-double-stamp.png)
+   ![](../../../assets/straight-line-double-stamp.png)
 * **Straight Line pressure interpolation**   
   Straights Lines now support pressure. The pressure value will be interpolated between the first stamp and the last stamp.  
-   ![](straight-line-pressure.png)
+   ![](../../../assets/straight-line-pressure.png)
 * **New brush preview modes**   
   The brush preview in the viewport can now be changed to different visualization modes. To change the mode, simply click on the new dropdown button in the contextual toolbar.
 
-  ![](brush-outline.png)
+  ![](../../../assets/brush-outline.png)
 * **Pen pressure curves**   
   In the contextual toolbar it is now possible to define how the pen pressure should be interpreted. These new settings control how fast the pressure build-up which allow different painting styles.
 
@@ -82,11 +90,11 @@ In addition to the support of Photoshop brush presets, numerous improvements and
   * **Ease In** (default): Slow down the beginning of the pressure, making it easier to paint thin or faint strokes.
   * **Ease In Out**: Slow down the beginning of the pressure and speed up its ending, making it easier to paint soft or strong strokes.
 
-  ![](pressure-curve.png)
+  ![](../../../assets/pressure-curve.png)
 * **Pressure button is not a dropdown anymore**   
   We changed the Pen pressure controls to be simple on/off buttons. This makes enabling and disabling the pressure much easier and quicker.
 
-  ![](contextual-toolbar-pen-pressure-button.png)
+  ![](../../../assets/contextual-toolbar-pen-pressure-button.png)
 * **Improved support of graphic tablets and switch to Windows Ink**   
   We reworked the way we handle graphic tablets. This should improve compatibility in general with recent models of graphic tablets and reduce the number of issues we had in the past. On Windows we also switched to Windows Ink instead of Wintab to improve the compatibility.
 
@@ -96,18 +104,18 @@ In addition to the support of Photoshop brush presets, numerous improvements and
 
 ### Automatic UV Unwrapping (Beta)
 
-![](banner-uv-unwrap.jpg)
+![](../../../assets/banner-uv-unwrap.jpg)
 
 Substance Painter will now automatically unwrap meshes which have missing UV coordinates. This make possible to import any kind of geometry and immediately start to paint. Our UV Unwrapping system will generate one UV island per sub-mesh while still following the material assignation to create Texture Sets. This feature is currently in beta and will evolve in future versions. The Automatic Unwrapping will be only applied to projects that **don't use the UDIM workflow**.
 
 * **Automatic UV Unwrapping**   
   By default Substance Painter will now automatically generate UV coordinates for meshes which are missing them. This apply to both project creation and mesh reimport. It is however possible to disable this behavior by going into the [main settings](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) and disabling **Enable automatic UV unwrapping** under **Import Options**.
 
-  ![](uv-unwrap-setting.png)
+  ![](../../../assets/uv-unwrap-setting.png)
 * **UV Unwrapping Progress Bar**   
   When importing a mesh there is a now a progress bar to indicate the current state of the process. This also include the UV Unwrapping process.
 
-  ![](uv-unwrapping-progress.png)
+  ![](../../../assets/uv-unwrapping-progress.png)
 * **Currently Known Issues**   
   Since this new feature is currently in beta, some issues are expected. Refer to the release notes below to get a list of the currently known issues. If the application crash and produce incorrect results, we suggest sending us a crash or bug report via the application to help us investigate the problem and improve the process.
 
@@ -117,14 +125,14 @@ Substance Painter will now automatically unwrap meshes which have missing UV coo
 
 ### Substance Integration Improvements
 
-![](banner.png)
+![](../../../assets/banner.png)
 
 We continue improving the integration of the Substance format by supporting some long awaited features but also by improving existing system such as the Dynamic Stroke feature.
 
 * **Non-clamped with soft ranges sliders**   
   Until now, exposed sliders from Substance graph always behaved like they were clamped. Meaning the values that could be input couldn't go beyond the default minimum and maximum values defined by the parameter.
 
-  ![](slider-soft-range.gif)
+  ![](../../../assets/slider-soft-range.gif)
 * **Support of the Step defined in parameters**   
   Substance graph that have parameters with a defined step will now be taken into account when tweaking the slider.
 * **Increased digit precision for float sliders**   
@@ -133,7 +141,7 @@ We continue improving the integration of the Substance format by supporting some
   It is now possible to request multiple random seed values withing a defined range. This allows to create unique and random Substance variations while still getting good performances by benefiting from the cache recycling.  
   Under the Dynamic Stroke group switch the **Random Seed Type** parameter to **Random Per Stroke** or **Random Per Stamp** to access the new parameter. The **Random Sample Amount** defines how many Substance variations will be generated in total. A random variations will be pick within the set already once the amount selected has been generated.
 
-  ![](dynamic-stroke-random-seed.png)
+  ![](../../../assets/dynamic-stroke-random-seed.png)
 * **New user data Static Dynamic Strokes**   
   A new optimization has been added which allows to specify when a Substance can be considered a dynamic stroke. Similar to the Visible If, it is now possible to add conditions in the userdata field to specify under which condition Substance Painter should generate new Substance variations with the Dynamic Stroke feature. See the [userdata documentation](../../../content/creating-custom-effects/user-data/user-data.md) for more information.
 * **New user data to designate an output node as mask for all channels**   
@@ -141,7 +149,7 @@ We continue improving the integration of the Substance format by supporting some
 
 ### Miscellaneous Improvements
 
-![](banner-baking-1.jpg)
+![](../../../assets/banner-baking-1.jpg)
 
 Various improvements have been made in the rest of the application which should help for the day to day work within Substance Painter.
 
@@ -152,48 +160,48 @@ Various improvements have been made in the rest of the application which should 
   * **Mouse over the 3D view**: pressing F will only focus the 3D view.
   * **Mouse outside the viewports**: pressing F will focus both the 2D and 3D view.
 
-  ![](viewport-focus.gif){width="400px"}
+  ![](../../../assets/viewport-focus.gif){width="400px"}
 * **Baking Window keyboard and menu shortcut**   
   The baking window can be open by two new different ways:
 
   * By pressing **Ctrl+Shift+B**.
   * By going in the Edit menu and clicking on **Bake Mesh Maps**.
 
-  ![](bake-mesh-maps-menu.png)
+  ![](../../../assets/bake-mesh-maps-menu.png)
 * **Scroll Docks and Windows with Ctrl+Alt+Left Click shortcut**   
   A new shortcut has been added that allows to scroll windows and docks without the need of the mouse wheel. Which this shortcut it is now possible to scroll with the pen of the graphic tablet.
 
-  ![](scroll-shortcut.gif)
+  ![](../../../assets/scroll-shortcut.gif)
 * **Performance improvements**  
   In the background many optimizations have been put in place which should improve the general performances of Substance Painter (from openings projects to painting).
 
 ### New Content
 
-![](banner-content-2.jpg)
+![](../../../assets/banner-content-2.jpg)
 
 In this release a lot of new content has been added:
 
 * **Updated "Meet Mat" sample project**  
   Mat has been updated with a new topology, making it more friendly with displacement. The ID map has been reworked to offer more masking possibilities and a new set of Cameras is available in the project to offer new viewing angles.
 
-  ![](meet-mat-2019.jpg){width="500px"}
+  ![](../../../assets/meet-mat-2019.jpg){width="500px"}
 * **New filters**  
   3 new new filters have been added to make stylized content easier:
 
   * **MatFx Comic Book**  
     This filter simulate hatching and edge lines based on the input provided (from the base color/diffuse to the curvature).
 
-    ![](icon-matfx-comic-book.png)
+    ![](../../../assets/icon-matfx-comic-book.png)
   * **MatFx Watercolor**  
     This filter simulate watercolor painting with color bleeding and paper absorption by reading the input color.
 
-    ![](icon-matfx-watercolor.png)
+    ![](../../../assets/icon-matfx-watercolor.png)
   * **MatFx Oil Paint**  
     Inspired by [Emrecan Cubukcu](https://www.artstation.com/emrecancubukcu) work, this filter read the color information from the input and translate it into brush strokes based on various parameters. Multiple presets are available to easily try out variations. We recommend combining it with the **Baked Lighting Environment** filter or to manually bake/paint shadows in your textures to maximize its effect.
 
-    ![](icon-matfx-oil-paint.png)
+    ![](../../../assets/icon-matfx-oil-paint.png)
 
-    ![](oil-paint-demo.jpg)
+    ![](../../../assets/oil-paint-demo.jpg)
 
     >[!NOTE]
     >
@@ -203,7 +211,7 @@ In this release a lot of new content has been added:
   * **102 Photoshop brush presets**  
     With the introduction of the photoshop brush support a new set of presets has been included to showcase it. Those presets are been selected from Kyle T. Webster's packs available on [Adobe website](https://www.adobe.com/products/photoshop/brushes.html).
 
-    ![](shelf-abr-demo.jpg){width="500px"}
+    ![](../../../assets/shelf-abr-demo.jpg){width="500px"}
   * **18 new brush presets**  
     In addition to the Photoshop brush presets, new more regular presets have been added:
 
@@ -226,31 +234,31 @@ In this release a lot of new content has been added:
     * Paint Roller Vein Long Narrow
     * Paint Roller Warning Text
 
-    ![](shelf-presets-demo.jpg){width="500px"}
+    ![](../../../assets/shelf-presets-demo.jpg){width="500px"}
 * **New tool presets**  
   2 new tool presets have been added which simulate gouache paint.
 
   * Gouache Dense.
   * Gouache Faded.
 
-  ![](shelf-gouache.jpg)
+  ![](../../../assets/shelf-gouache.jpg)
 * **New alphas**  
   In addition to the alphas used to create the new brush presets (see above) two new important Alpha have been integrated:
 
   * **Brush Maker Photoshop**  
     This new Substance graph replicates some specific brush parameters available in Photoshop via the Dynamic Stroke feature. With it is possible to control the Roundness and the Flip or an input image. Some jitter parameter are also available to create more variations. This Substance graph is automatically inserted in the Alpha section when clicking on a Photoshop brush preset coming from an ABR file.
 
-    ![](icon-brush-maker-photoshop.png)
+    ![](../../../assets/icon-brush-maker-photoshop.png)
   * **Brush Maker Paint Roller**  
     This new Substance graph simulates a Paint Roller (or simple Ribbon tool) to paint continuous patterns with turns without breaking. To make the setup easier take a look at existing presets or refer to the graph description. We recommend enabling the [Lazy mouse](../../../painting/lazy-mouse/lazy-mouse.md) to make the roll brush draw properly without creating break-ups.
 
-    ![](icon-brush-maker-paint-roller.png)
+    ![](../../../assets/icon-brush-maker-paint-roller.png)
 
-    ![](paint-roller-text-warning2-optim.gif){width="290px"}
+    ![](../../../assets/paint-roller-text-warning2-optim.gif){width="290px"}
 * **New "UV Checker" generator**  
   A new generator named "UV checker" has been integrated to help analyze the mesh UV coordinates. This make the UVs generated by our Automatic UV Unwrapping easier to understand.
 
-  ![](icon-uv-checker.png)
+  ![](../../../assets/icon-uv-checker.png)
 * **New template and export presets**
 
   * **Keyshot 9+**  

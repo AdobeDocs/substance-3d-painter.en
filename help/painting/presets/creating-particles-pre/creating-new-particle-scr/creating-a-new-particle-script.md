@@ -1,7 +1,15 @@
 ---
-title: "Creating A New Particle Script"
-description: ""
-helpx_description: "Painter > Painting > Presets > Creating particles presets > Creating A New Particle Script"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-particles-presets/creating-a-new-particle-script.html"
+breadcrumb-title: ""
+description: Learn how to create a new particle script in Substance 3D Painter to define custom particle brush behavior and effects.
+helpx_creative_field: ""
+helpx_description: Painter > Painting > Presets > Creating particles presets > Creating A New Particle Script
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Creating A New Particle Script
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Creating A New Particle Script

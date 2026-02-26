@@ -1,7 +1,15 @@
 ---
-title: "Adding content on the hard drive"
-description: ""
-helpx_description: "Painter > Content > Importing assets > Adding content on the hard drive"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/importing-assets/adding-content-on-the-hard-drive.html"
+breadcrumb-title: ""
+description: Learn how to add content from your hard drive to Substance 3D Painter to expand your resource library with local files.
+helpx_creative_field: ""
+helpx_description: Painter > Content > Importing assets > Adding content on the hard drive
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Adding content on the hard drive
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Adding content on the hard drive

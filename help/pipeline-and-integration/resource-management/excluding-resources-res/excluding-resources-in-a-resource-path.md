@@ -1,7 +1,15 @@
 ---
-title: "Excluding resources in a resource path"
-description: ""
-helpx_description: "Painter > Pipeline and integration > Resource management > Excluding resources in a resource path"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/excluding-resources-in-a-resource-path.html"
+breadcrumb-title: ""
+description: Learn how to exclude specific resources from resource paths in Substance 3D Painter for better shelf organization.
+helpx_creative_field: ""
+helpx_description: Painter > Pipeline and integration > Resource management > Excluding resources in a resource path
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Excluding resources in a resource path
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Excluding resources in a resource path
@@ -28,7 +36,7 @@ Navigate to the location of the resource folder in which you want to hide resour
 
 It should look like this once created:
 
-![](ignore-file-location.png)
+![](../../../assets/ignore-file-location.png)
 
 ## Example
 

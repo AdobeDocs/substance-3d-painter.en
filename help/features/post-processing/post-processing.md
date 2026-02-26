@@ -1,12 +1,20 @@
 ---
-title: "Post Processing"
-description: ""
-helpx_description: "Painter > Features > Post Processing"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing.html"
+breadcrumb-title: ""
+description: Learn how to use post-processing effects in Substance 3D Painter to enhance viewport rendering with color grading and visual effects.
+helpx_creative_field: ""
+helpx_description: Painter > Features > Post Processing
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Post Processing
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Post Processing
 
-![](post-effects-demos.jpg)
+![](../../assets/post-effects-demos.jpg)
 
 Post-Effects are filters than can be applied to the images rendered in the viewport of Substance 3D Painter to simulate common camera effects.
 
@@ -20,7 +28,7 @@ The Post-Process effects of Substance 3D Painter are powered by the middleware  
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](post-list.png)
+![](../../assets/post-list.png)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -37,10 +45,10 @@ The Post-Process effects of Substance 3D Painter are powered by the middleware  
 
 The following pages describes the various post process effects supported by Substance 3D Painter:
 
-* [Color correction](color-correction/color-correction.md)
-* [Depth of Field](depth-of-field/depth-of-field.md)
-* [Glare](glare/glare.md)
-* [Lens Distortion](lens-distortion/lens-distortion.md)
-* [Tone Mapping](tone-mapping/tone-mapping.md)
-* [Vignette](vignette/vignette.md)
-* [Color Profile](color-profile/color-profile.md)
+* [Color correction](../../features/post-processing/color-correction/color-correction.md)
+* [Depth of Field](../../features/post-processing/depth-of-field/depth-of-field.md)
+* [Glare](../../features/post-processing/glare/glare.md)
+* [Lens Distortion](../../features/post-processing/lens-distortion/lens-distortion.md)
+* [Tone Mapping](../../features/post-processing/tone-mapping/tone-mapping.md)
+* [Vignette](../../features/post-processing/vignette/vignette.md)
+* [Color Profile](../../features/post-processing/color-profile/color-profile.md)

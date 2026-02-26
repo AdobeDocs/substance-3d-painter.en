@@ -1,22 +1,30 @@
 ---
-title: "Ribbon path"
-description: ""
-helpx_description: "Substance 3D Painter"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/ribbon-tool.html"
+breadcrumb-title: ""
+description: Use the Ribbon tool in Substance 3D Painter to create ribbon-like paint strokes along paths for decorative texture painting.
+helpx_creative_field: ""
+helpx_description: Substance 3D Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Ribbon path
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Ribbon path
 
-![](banner_ribbon.jpg)
+![](../../../assets/banner_ribbon.jpg)
 
 The <b>Ribbon </b>path tool allows you to create patterns that deform along a curve defined by points on the surface of the 3D model. The Ribbon can also be used to write text along a curve.
 
 The Ribbon tool can be selected from the Path tool menu in the toolbar:
 
-![](ribbon_menu.png)
+![](../../../assets/ribbon_menu.png)
 
 Or via the <b>Path type</b> button:
 
-![](ribbon_path_type.png)
+![](../../../assets/ribbon_path_type.png)
 
 ## Overview
 
@@ -24,13 +32,13 @@ The Ribbon path tool differ from the Paint along path tool in how it draw images
 
 While with the Paint/Brush based tool an image is repeated multiple times on a path, with the Ribbon the image is repeated along the path and deformed to follow its curves. Individual component of a Paint brush are called <b>stamps</b>, while those in the Ribbon are called <b>patches</b>.
 
-![](ribbon_comparison.jpg)
+![](../../../assets/ribbon_comparison.jpg)
 
 ## Settings
 
 ### Size
 
-![](ribbon_ui_size.png)
+![](../../../assets/ribbon_ui_size.png)
 
 | Parameter | Description |
 | --- | --- |
@@ -38,7 +46,7 @@ While with the Paint/Brush based tool an image is repeated multiple times on a p
 
 ### Opacity
 
-![](ribobn_ui_opacity.png)
+![](../../../assets/ribobn_ui_opacity.png)
 
 | Parameter | Description |
 | --- | --- |
@@ -46,18 +54,18 @@ While with the Paint/Brush based tool an image is repeated multiple times on a p
 
 ### Stroke
 
-![](ribbon_ui_stroke.png)
+![](../../../assets/ribbon_ui_stroke.png)
 
 | Parameter | Description |
 | --- | --- |
 | <b>Image orientation</b> | Define the direction of the input image. This direction control how the image is placed on the path. |
 | <b>Flip image</b> | Flip the image along the axis/width of the path. |
-| <b>Corner</b> | Define how sharp corners (split tangents) should appear on the path. Possible behaviors are:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Miter join</b>: sharp/pointy corner</li> <li data-preserve-html="true"><b>Round join</b>: smooth/round corner</li> <li data-preserve-html="true"><b>Bevel join</b>: square/flat corner</li> <li data-preserve-html="true"><b>Cut join</b>: start the path again. This mode will create a new path with dedicated start/end sections.</li> </ul>Below are what the corners look like, in order:  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_1489087363_row-1k52rbi-column-6c32r7q_image" src="ribbon_corners_small.jpg"/></div> |
+| <b>Corner</b> | Define how sharp corners (split tangents) should appear on the path. Possible behaviors are:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Miter join</b>: sharp/pointy corner</li> <li data-preserve-html="true"><b>Round join</b>: smooth/round corner</li> <li data-preserve-html="true"><b>Bevel join</b>: square/flat corner</li> <li data-preserve-html="true"><b>Cut join</b>: start the path again. This mode will create a new path with dedicated start/end sections.</li> </ul>Below are what the corners look like, in order:  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_1489087363_row-1k52rbi-column-6c32r7q_image" src="../../../assets/ribbon_corners_small.jpg"/></div> |
 | <b>Omit ends when closed</b> | If enabled, the start/end sections will be removed when a path is closed to make a continous loop. This applies to both stretch offsets and dynamic strokes. |
 
 ### Stretching &amp; Tiling
 
-![](ribbon_ui_stretch.png)
+![](../../../assets/ribbon_ui_stretch.png)
 
 The Ribbon path can use two different modes to control how an image is repeated and stretched along a path:
 
@@ -66,19 +74,19 @@ The Ribbon path can use two different modes to control how an image is repeated 
 
 #### Stretch along path
 
-![](ribbon_ui_stretch_along.png)
+![](../../../assets/ribbon_ui_stretch_along.png)
 
 | Parameter | Description |
 | --- | --- |
-| <b>Stretch between offsets only</b> | If enabled, keeps the start and the end sections of an image intact while stretching the middle. Use the <b>Start offset</b> and <b>End offset</b> parameters to defined the size of these sections. The middle section will be automatically computed based on the start/end.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_122891642_row-3t12rpd-column-6c32r7q_image" src="ribbon_stretch_guides_path.png"/></div> |
+| <b>Stretch between offsets only</b> | If enabled, keeps the start and the end sections of an image intact while stretching the middle. Use the <b>Start offset</b> and <b>End offset</b> parameters to defined the size of these sections. The middle section will be automatically computed based on the start/end.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_122891642_row-3t12rpd-column-6c32r7q_image" src="../../../assets/ribbon_stretch_guides_path.png"/></div> |
 | <b>Tiling mode</b> | Define how an image is repeated along the path. Possible values are:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>None</b>: the image will not be repeated. It will be stretched along the whole path.</li> <li data-preserve-html="true"><b>Auto</b>: (default) the image is automatically repeated a certain number of times based on its size and the stroke width.</li> <li data-preserve-html="true"><b>Custom</b>: the imaged is repeated by the number of times defined by the <b>Tiling amount</b> parameter.</li> </ul> |
 | <b>Tiling amount</b> | Specify how many times an image is repeated in <b>Custom</b> tiling mode. |
 | <b>Mirror every 2nd tile</b> | Flip the image used along the length of the path every second repetition. |
 | <b>Aspect ratio factor</b> | Stretch or squeeze the current image aspect ratio. |
 
-#### <b>Keep aspect ratio</b>
+#### Keep aspect ratio
 
-![](ribbon_ui_ratio.png)
+![](../../../assets/ribbon_ui_ratio.png)
 
 | Parameter | Description |
 | --- | --- |
@@ -91,7 +99,7 @@ The Ribbon path can use two different modes to control how an image is repeated 
 
 ### Channel blending
 
-![](ribobn_ui_blending.png)
+![](../../../assets/ribobn_ui_blending.png)
 
 This section controls the blending result for when the path overlaps itself.
 
@@ -103,14 +111,14 @@ This section controls the blending result for when the path overlaps itself.
 
 Example of what the blending mode with the height channel can look like:
 
-![](ribbon_blend_modes_height.jpg)
+![](../../../assets/ribbon_blend_modes_height.jpg)
 
 ## Text and non-square images
 
-When using a [Text resource](../../text-resource/text-resource.md) or an image with an aspect ratio that isn't square, it will be automatically scaled to fit the Ribbon path.
+When using a [Text resource](../../../painting/text-resource/text-resource.md) or an image with an aspect ratio that isn't square, it will be automatically scaled to fit the Ribbon path.
 
 This behavior makes it possible to write text or repeat images like trim patterns along a path.
 
-![](ribbon_text_along_path.gif)
+![](../../../assets/ribbon_text_along_path.gif)
 
-![](ribbon_non-square.jpg)
+![](../../../assets/ribbon_non-square.jpg)

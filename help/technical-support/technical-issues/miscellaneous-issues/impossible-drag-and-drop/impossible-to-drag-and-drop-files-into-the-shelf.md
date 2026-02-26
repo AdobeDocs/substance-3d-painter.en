@@ -1,7 +1,15 @@
 ---
-title: "Impossible to drag and drop files into the shelf"
-description: ""
-helpx_description: "Painter > Technical support > Technical Issues > Miscellaneous Issues > Impossible to drag and drop files into the shelf"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/impossible-to-drag-and-drop-files-into-the-shelf.html"
+breadcrumb-title: ""
+description: Learn how to fix drag and drop issues when adding files to the shelf in Substance 3D Painter for efficient resource management.
+helpx_creative_field: ""
+helpx_description: Painter > Technical support > Technical Issues > Miscellaneous Issues > Impossible to drag and drop files into the shelf
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Impossible to drag and drop files into the shelf
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Impossible to drag and drop files into the shelf

@@ -1,7 +1,15 @@
 ---
-title: "UV Reprojection"
-description: ""
-helpx_description: "Painter > Features > UV Reprojection"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/uv-reprojection.html"
+breadcrumb-title: ""
+description: Learn how to use UV reprojection in Substance 3D Painter to transfer textures between different UV layouts.
+helpx_creative_field: ""
+helpx_description: Painter > Features > UV Reprojection
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: UV Reprojection
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # UV Reprojection

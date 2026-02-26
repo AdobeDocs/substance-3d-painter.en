@@ -1,7 +1,15 @@
 ---
-title: "MultiBi-GPU"
-description: ""
-helpx_description: "Painter > Technical support > Technical Issues > GPU Issues > MultiBi-GPU"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/multi-bi-gpu.html"
+breadcrumb-title: ""
+description: Learn how to configure Substance 3D Painter for multi-GPU and Bi-GPU systems to optimize rendering performance.
+helpx_creative_field: ""
+helpx_description: Painter > Technical support > Technical Issues > GPU Issues > MultiBi-GPU
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: MultiBi-GPU
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Multi/Bi-GPU

@@ -1,7 +1,15 @@
 ---
-title: "Preferences and content migration"
-description: ""
-helpx_description: "Painter > Pipeline and integration > Resource management > Preferences and content migration"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/preferences-and-content-migration.html"
+breadcrumb-title: ""
+description: Learn how to migrate preferences and content in Substance 3D Painter when upgrading or moving to a new system.
+helpx_creative_field: ""
+helpx_description: Painter > Pipeline and integration > Resource management > Preferences and content migration
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Preferences and content migration
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Preferences and content migration

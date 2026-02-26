@@ -1,18 +1,26 @@
 ---
-title: "Levels"
-description: ""
-helpx_description: "Painter > Features > Effects > Levels"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/levels.html"
+breadcrumb-title: ""
+description: Learn how to use the Levels effect in Substance 3D Painter to adjust brightness, contrast, and tonal range of textures.
+helpx_creative_field: ""
+helpx_description: Painter > Features > Effects > Levels
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Levels
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Levels
 
 The level is an effect used to adjust the color ranges of an image. It allows to balance and tone colors and/or graycales values. You can add it by opening the effect menu :
 
-![](level-menu.png)
+![](../../../assets/level-menu.png)
 
 The main interface display a histogram (the mountain of colors in the middle of the interface) which is the representation of how pixels are distributed in an image at each color intensity level. The histogram shows details in the shadows (left part), midtones (middle part) and the highlights (right part). The histogram also give a quick look at the tonal range of the colors, allowing to determine how dark or bright the image is.
 
-![](image2015-3-20-11-24-24.png)
+![](../../../assets/image2015-3-20-11-24-24.png)
 
 To adjust the color range of the image, two sets of controls are available at the top and the bottom of the histogram :
 

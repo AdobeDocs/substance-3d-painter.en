@@ -1,12 +1,20 @@
 ---
-title: "Iray Renderer"
-description: ""
-helpx_description: "Painter > Features > Iray Renderer"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/iray-renderer.html"
+breadcrumb-title: ""
+description: Learn how to use the Iray renderer in Substance 3D Painter to create photorealistic material previews and renders.
+helpx_creative_field: ""
+helpx_description: Painter > Features > Iray Renderer
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Iray Renderer
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Iray Renderer
 
-![](iray-mode.jpg){width="600px"}
+![](../../assets/iray-mode.jpg){width="600px"}
 
 **Iray**  is a GPU accelerated path-traced renderer developed by  [Nvidia](http://www.nvidia.com/object/nvidia-iray.html)  .   
 With Iray it is possible to create image with a great accuracy of lighting in the scene and in high-definition (large resolution).
@@ -24,12 +32,12 @@ This can be done by pressing in various ways :
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](toolbar-14.png)
+![](../../assets/toolbar-14.png)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](mode-4.png)
+![](../../assets/mode-4.png)
 
 </td>
 </tr>
@@ -39,8 +47,8 @@ This can be done by pressing in various ways :
 
 Iray use a specific set of parameters but also common properties shared by the regular viewport of Substance 3D Painter.
 
-* [Iray Settings](iray-settings/iray-settings.md)
-* [Viewer and MDL Settings](viewer-and-mdl-settings/viewer-and-mdl-settings.md)
+* [Iray Settings](../../features/iray-renderer/iray-settings/iray-settings.md)
+* [Viewer and MDL Settings](../../features/iray-renderer/viewer-and-mdl-settings/viewer-and-mdl-settings.md)
 
 ## Display Settings
 

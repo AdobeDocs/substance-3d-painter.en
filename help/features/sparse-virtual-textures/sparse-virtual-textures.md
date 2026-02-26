@@ -1,18 +1,26 @@
 ---
-title: "Sparse Virtual Textures"
-description: ""
-helpx_description: "Painter > Features > Sparse Virtual Textures"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/sparse-virtual-textures.html"
+breadcrumb-title: ""
+description: Learn how to use sparse virtual textures in Substance 3D Painter to work with ultra-high resolution textures efficiently.
+helpx_creative_field: ""
+helpx_description: Painter > Features > Sparse Virtual Textures
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Sparse Virtual Textures
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Sparse Virtual Textures
 
-![](svt-header.jpg)
+![](../../assets/svt-header.jpg)
 
 Starting with version  **2018.3**  Substance 3D Painter use  **Sparse Virtual Textures**  (  **SVT**  ) in its realtime viewport to manage large amount of textures. This technology allows to stream in and out textures that are only necessary from a given point of view in order to maintain a specific footprint on the GPU memory. It improves performances on projects with a large amount of Texture Sets (or UDIMs).
 
 ## Supported Platforms
 
-![](sparse-settings.png)
+![](../../assets/sparse-settings.png)
 
 Sparse textures rely on a specific hardware configuration in order to be fully performant. If the current configuration doesn't support it properly, Substance 3D Painter will  **fallback**  to a software implementation instead (which will be less precise and less performant).
 
@@ -43,7 +51,7 @@ For more technical knowledge, see :  [Sparse Virtual Textures](https://silverspa
 
 ## Cache Location
 
-![](settings-temp.png)
+![](../../assets/settings-temp.png)
 
 When there isn't enough system memory (Ram) available to store the SVT cache Substance 3D Painter will switch to the computer hard drive instead to store the cache.   
 The location of this cache is by default into the Operating System Temporary Files folder. This location can be changed by going into the main settings of the application, see the [General preferences](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) .

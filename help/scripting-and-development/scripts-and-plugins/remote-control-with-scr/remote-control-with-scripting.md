@@ -1,7 +1,15 @@
 ---
-title: "Remote control with scripting"
-description: ""
-helpx_description: "Painter > Scripting and development > Scripts and plugins > Remote control with scripting"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/scripts-and-plugins/remote-control-with-scripting.html"
+breadcrumb-title: ""
+description: Learn how to use remote control scripting in Substance 3D Painter to automate workflows and control the application programmatically.
+helpx_creative_field: ""
+helpx_description: Painter > Scripting and development > Scripts and plugins > Remote control with scripting
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Remote control with scripting
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Remote control with scripting

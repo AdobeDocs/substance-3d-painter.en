@@ -1,12 +1,20 @@
 ---
-title: "Iray Settings"
-description: ""
-helpx_description: "Painter > Features > Iray Renderer > Iray Settings"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/iray-renderer/iray-settings.html"
+breadcrumb-title: ""
+description: Learn how to configure Iray renderer settings in Substance 3D Painter to control rendering quality and performance.
+helpx_creative_field: ""
+helpx_description: Painter > Features > Iray Renderer > Iray Settings
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Iray Settings
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Iray Settings
 
-![](iray-settings.png)
+![](../../../assets/iray-settings.png)
 
 The Iray settings control the rendering of the IRay viewport, how long it will run and the quality of it.
 
@@ -32,7 +40,7 @@ The top section of the window display the status of Iray alongside other informa
 As soon as a setting has been modifier, Iray will start computing the rendering.  
 It is possible to pause Iray to avoid this behavior with the dedicated button :
 
-![](pause-2.png)
+![](../../../assets/pause-2.png)
 
 | *Setting* | *Description* |
 | --- | --- |

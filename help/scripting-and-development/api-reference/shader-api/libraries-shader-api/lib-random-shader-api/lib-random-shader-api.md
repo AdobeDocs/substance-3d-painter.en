@@ -1,7 +1,15 @@
 ---
-title: "Lib Random - Shader API"
-description: ""
-helpx_description: "Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Random - Shader API"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-random-shader-api.html"
+breadcrumb-title: ""
+description: Access the Lib Random shader API reference for Substance 3D Painter to generate random values in custom shader development.
+helpx_creative_field: ""
+helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Random - Shader API
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Lib Random - Shader API
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Lib Random - Shader API

@@ -1,7 +1,15 @@
 ---
-title: "Corrupted texture error message"
-description: ""
-helpx_description: "Painter > Technical support > Technical Issues > Miscellaneous Issues > Corrupted texture error message"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/corrupted-texture-error-message.html"
+breadcrumb-title: ""
+description: Learn how to fix corrupted texture error messages in Substance 3D Painter to restore texture functionality.
+helpx_creative_field: ""
+helpx_description: Painter > Technical support > Technical Issues > Miscellaneous Issues > Corrupted texture error message
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Corrupted texture error message
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Corrupted texture error message
@@ -9,7 +17,7 @@ helpx_description: "Painter > Technical support > Technical Issues > Miscellaneo
 Corrupted textures in a project will cause failures during the saving process and can lead to projects being entirely corrupted and non-salvageable. However this can be manually fixed.  
 A corrupted resource manifests itself in the log when opening a project with an error message similar to this one in the log window :
 
-![](corrupt1.png)
+![](../../../../assets/corrupt1.png)
 
 ## Fixing a corrupted resource reference
 
@@ -20,7 +28,7 @@ In most cases the culprit is from the **Mesh maps** (baked textures). A quick wa
 
 Corrupted resources will look like this:
 
-![](corrupt2.png)
+![](../../../../assets/corrupt2.png)
 
 >[!NOTE]
 >

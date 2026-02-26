@@ -1,12 +1,20 @@
 ---
-title: "GPU has outdated drivers"
-description: ""
-helpx_description: "Painter > Technical support > Technical Issues > GPU Issues > GPU has outdated drivers"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers.html"
+breadcrumb-title: ""
+description: Learn how to update GPU drivers for Substance 3D Painter to ensure compatibility and optimal rendering performance.
+helpx_creative_field: ""
+helpx_description: Painter > Technical support > Technical Issues > GPU Issues > GPU has outdated drivers
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: GPU has outdated drivers
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # GPU has outdated drivers
 
-![](driver-outdated.png){width="500px"}
+![](../../../../assets/driver-outdated.png){width="500px"}
 
 When launching Substance 3D Painter a pop-up window can appear mentioning that the GPU drivers are outdated. This message simply means the software requires a minimum version of the GPU drivers to be installed. We recommended updating the GPU drivers to the latest version available when possible to get the best working experience.
 

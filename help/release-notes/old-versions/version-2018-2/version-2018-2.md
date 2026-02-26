@@ -1,7 +1,15 @@
 ---
-title: "Version 2018.2"
-description: ""
-helpx_description: "Painter > Release notes > Old versions > Version 2018.2"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2018-2.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Painter version 2018.2 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Painter > Release notes > Old versions > Version 2018.2
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 2018.2
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Version 2018.2
@@ -14,14 +22,14 @@ Release date : *2 August 2018*
 
 ### Subsurface scattering
 
-![](changelog-sss.jpg)
+![](../../../assets/changelog-sss.jpg)
 
 **Subsurface scattering** is now supported in the **realtime** viewport and with the **Iray renderer**.  
 Subsurface scattering is a mechanism of light when penetrating an object or a surface. Instead of being reflected, like with metallic surfaces, a portion of the light is absorbed by the material and then **scattered inside**. Many materials in real life have subsurface scattering such as skin or wax.
 
 Our Subsurface effect implementation match very closely both real-time implementations from other game engines as well as other offline renderers. Making it very easy to author scattering textures to use in other applications.
 
-![](comparison-1.jpg){width="650px"}
+![](../../../assets/comparison-1.jpg){width="650px"}
 
 Above is an example with the well know Digital Emily 2 asset. Thanks to the USC Institute for Creative Technologies and members of the Wikihuman project for allowing us to demonstrate our renders with the Digital Emily 2 assets.  
 (Please note this comparison was made under similar but not exact lighting conditions which may explains visual differences.)
@@ -41,7 +49,7 @@ A more detailed procedure can be found in the [Subsurface Scattering documentati
 
 ### Manipulators for fill layers
 
-![](changelog-manipulator.png)
+![](../../../assets/changelog-manipulator.png)
 
 Fill layers controls have been improved to offer manipulators. It is now easier to precisely place and control fill projections.
 
@@ -52,7 +60,7 @@ When using the **UV projection** a manipulator will appear in the **2D View** :
 * Clicking **inside** the manipulator will **translate** it.
 * Use **CTRL** to affect multiple corner in **symmetry**.
 * Use **SHIFT** to **constraint** a transformation (translate, rotation or scale).  
-   ![](manipulator-uv.gif)
+   ![](../../../assets/manipulator-uv.gif)
 
 When using the **Tri-Planar projection** a manipulator will appear in the **3D View** :
 
@@ -61,23 +69,23 @@ When using the **Tri-Planar projection** a manipulator will appear in the **3D V
 * Use the **T** keyboard shortcut to switch between Local and World orientation for the manipulator.
 * Use **SHIFT** to **constraint** the transformation.
 * The Tri-Planar cube projection can also be modified in the advanced fill layer properties :  
-   ![](fill-properties-triplanar.png)   
-   ![](manipulator-3d-optim.gif)
+   ![](../../../assets/fill-properties-triplanar.png)   
+   ![](../../../assets/manipulator-3d-optim.gif)
 
 The contextual toolbar at the top of the viewport will also adapt depending of the current projection mode, offering additional tools and controls :
 
-![](contextual-toolbar-manipulator.png)
+![](../../../assets/contextual-toolbar-manipulator.png)
 
 For more details, see the [Fill Layer documentation](../../../painting/fill-projections/fill-projections.md).
 
 ### Non-square and non-tilling support for Stencil and Projection tool
 
-![](non-square-stencil.jpg)
+![](../../../assets/non-square-stencil.jpg)
 
 The stencil parameter and projection tool have been improved to support non-square resolutions and non-tilling behaviors.   
 The default parameter is now set to non-tilling by default. This parameter can be changed in the tool properties :
 
-![](tilling-parameter-stencil.png)
+![](../../../assets/tilling-parameter-stencil.png)
 
 The tilling mode can be set as follow :
 
@@ -95,7 +103,7 @@ This new parameter can be saved in a tool or brush preset, making it easy to sha
 
 ### Camera import and management
 
-![](camera-import.png)
+![](../../../assets/camera-import.png)
 
 It is now possible to **import custom cameras** inside Substance Painter alongside the mesh import.  
 Cameras can be selected **to look through** them in the **3D viewport** and used **to render in Iray**.
@@ -106,33 +114,33 @@ To **import cameras** into a project :
 
 1. Export the mesh for the project with cameras in the same file (with a supported format such as FBX, Alembic or glTF)
 1. Select the "import cameras" settings in the [new project window](../../../getting-started/project-creation/project-creation.md) (or [project configuration](../../../interface/project-configuration/project-configuration.md)).  
-    ![](new-project-cameras.png)
+    ![](../../../assets/new-project-cameras.png)
 1. Switch to the desired camera with the dropdown in the viewport or by using the settings in the [Display Settings](../../../interface/display-settings/camera-settings/camera-settings.md).  
-    ![](cmaera-select-viewport.png)
+    ![](../../../assets/cmaera-select-viewport.png)
 
 The Camera Settings in the Display Settings window have been extended to control the Camera's properties.   
 It is possible to **switch** between cameras, see its **ratio** and **lock** its properties to avoid modifying it. A restore button can be used to revert the camera to its initial values.
 
-![](camera-properties-2.png)
+![](../../../assets/camera-properties-2.png)
 
 The camera frame (and it's gate) is also taken into account, making it possible to view and paint via a very specific point of view. The frame and gate are displayed over the 3D Viewport and its opacity can be controlled in the **Viewport Settings** from the [Display Settings](../../../interface/display-settings/camera-settings/camera-settings.md) window :
 
-![](camera-gate.png)
+![](../../../assets/camera-gate.png)
 
 ### Layer stack behavior improvements
 
 * **Drag and Drop Materials and Smart Materials onto the ID map :**   
   The drag and drop of content from the shelf into the viewport has been improved. By pressing **CTRL** while drag and dropping a material it is now possible to choose the ID color that will be used as a mask.  
   A black mask with a color selection effect will be added to the new layer created in the layer stack. If the same material is drag and dropped onto an other ID color, the already existing layer will be updated and the ID colors will be combined..  
-   ![](id-drop.gif)
+   ![](../../../assets/id-drop.gif)
 * **Layer stack drag and drop scroll :**   
   Dragging layers around the layer stack is now with a small window.   
   When a resource or a layer is dragged near the borders of the layer stack window, it will automatically start to scroll its content.   
-   ![](layer-drag.gif)
+   ![](../../../assets/layer-drag.gif)
 
 ### glTF and Alembic mesh import
 
-![](logo-mesh-import.png)
+![](../../../assets/logo-mesh-import.png)
 
 New file formats are now supported for importing meshes and creating new projects :
 
@@ -146,7 +154,7 @@ New file formats are now supported for importing meshes and creating new project
 
 ### Substance integration improvements
 
-![](integration.png)
+![](../../../assets/integration.png)
 
 The Substance integration inside Substance Painter has been improved with long awaited requests :
 
@@ -154,18 +162,18 @@ The Substance integration inside Substance Painter has been improved with long a
   The "Visible if" is a great feature of the Substance file format which allows to hide parameters based on conditions.  
   This feature provides a more clear list of parameters and contextual settings, giving overall more easy to use materials and filters.  
   For more details see the [Substance Designer documentation](https://helpx.adobe.com/substance-3d-designer/home.html).  
-  ![](visible-if.gif)
+  ![](../../../assets/visible-if.gif)
 * **Substance Presets** Substance presets are an easy way to provide advanced tweaks and variations of materials. Many materials on [Substance Source](https://source.allegorithmic.com) have presets, so give it a try !  
   If a Substance file contains one or more presets, a new dropdown in the parameter list will be available. Select which preset to apply to update the parameters.  
-   ![](presets.png)
+   ![](../../../assets/presets.png)
 * **Substance Attributes**   
   Substance attributes are now displayed in the interface, making it easier to retrieve information about a specific file.  
   Attributes can be viewed in two different location : above the parameters in the properties window or by right-clicking on an asset in the shelf.  
-   ![](attributes.png) ![](attributes-shelf.png)
+   ![](../../../assets/attributes.png) ![](../../../assets/attributes-shelf.png)
 
 ### New sample project "Jade Toad"
 
-![](toad-samle.jpg)
+![](../../../assets/toad-samle.jpg)
 
 A new sample project named "**JadeToad**" is now included with Substance Painter. This sample project has the **Subsurface Scattering** effect enabled by default.  
 To find the project, use the **File** &gt; **Open Sample...** menu entry.

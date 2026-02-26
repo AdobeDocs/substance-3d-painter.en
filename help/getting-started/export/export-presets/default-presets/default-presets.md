@@ -1,7 +1,15 @@
 ---
-title: "Default Output templates"
-description: ""
-helpx_description: "Painter > Getting Started > Export > Export presets > Default Output templates"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-presets/default-presets.html"
+breadcrumb-title: ""
+description: Learn about default output templates in Substance 3D Painter to understand standard export configurations and formats.
+helpx_creative_field: ""
+helpx_description: Painter > Getting Started > Export > Export presets > Default Output templates
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Default Output templates
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Default Output templates

@@ -1,12 +1,20 @@
 ---
-title: "Geometry mask"
-description: ""
-helpx_description: "Painter > Interface > Layer stack > Geometry mask"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/geometry-mask.html"
+breadcrumb-title: ""
+description: Learn how to use geometry masks in Substance 3D Painter to mask layers based on mesh geometry and surface properties.
+helpx_creative_field: ""
+helpx_description: Painter > Interface > Layer stack > Geometry mask
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Geometry mask
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Geometry mask
 
-![](geometry-mask.png)   
+![](../../../assets/geometry-mask.png)   
 The Geometry mask is a secondary mask on layers that allows to mask a layer based on the 3D model geometry of the associated Texture Set. It can mask by mesh names or by UV Tiles.
 
 ## Overview
@@ -27,16 +35,16 @@ The geometry mask icon can indicates in which state it is:
 
 | Icon | Description |
 | --- | --- |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="geo-mask-icon-default.png"/></div> | No geometry has been excluded, the layer is applied on the whole mesh of the associated Texture Set.This is the default state of any new layer or folder. |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="geo-mask-icon-selection.png"/></div> | One or more mesh names have been excluded. The numbed indicates the amount of remaining elements still being affected by the layer. |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="geo-mask-icon-uvtiles.png"/></div> | One or more UV Tiles have been excluded. The numbed indicates the amount of remaining elements still being affected by the layer. |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="geo-mask-icon-empty.png"/></div> | No mesh names are included, the layer won't have any actual effect. |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/geo-mask-icon-default.png"/></div> | No geometry has been excluded, the layer is applied on the whole mesh of the associated Texture Set.This is the default state of any new layer or folder. |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/geo-mask-icon-selection.png"/></div> | One or more mesh names have been excluded. The numbed indicates the amount of remaining elements still being affected by the layer. |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/geo-mask-icon-uvtiles.png"/></div> | One or more UV Tiles have been excluded. The numbed indicates the amount of remaining elements still being affected by the layer. |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/geo-mask-icon-empty.png"/></div> | No mesh names are included, the layer won't have any actual effect. |
 
 ## Editing the Geometry mask
 
 To modify the Geometry mask of a given layer, simply click on the dedicated icon. To exit the editing mode, simply click on another part of the layer such as the content or the paint mask:
 
-![](geo-mask-editing.gif)
+![](../../../assets/geo-mask-editing.gif)
 
 ### Masking types
 
@@ -49,7 +57,7 @@ The geometry mask support two types of masking:
 
 ### Layer stack actions
 
-![](geo-mask-actions.png)
+![](../../../assets/geo-mask-actions.png)
 
 The Geometry mask state can be quickly modified from the layer stack directly by right-clicking on the icon.
 
@@ -68,7 +76,7 @@ When parts of the geometry have been excluded, then can be hidden in the viewpor
 
 To hide the excluded geometry, use the button at the top of the viewport in the contextual toolbar:
 
-![](hide-excluded-geo-button.png)
+![](../../../assets/hide-excluded-geo-button.png)
 
 In the example below, the 3D model has been split in two objects: a top and bottom part. By default brush strokes collide with all the objects. by excluding the top part it is now possible to only paint on the bottom part exclusively.
 
@@ -78,6 +86,6 @@ In the example below, the 3D model has been split in two objects: a top and bott
 
 | Visual | Description |
 | --- | --- |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="no-geo-excluded.jpg" width="420px"/></div> | No geometry has been excluded in the Geometry mask, the paint layer on which the white brush stroke has been done collides will all the geometry.The **Hide excluded geometry** button is disabled. |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="geo-excluded-hidden.jpg" width="420px"/></div> | The top part has been excluded in the geometry mask and the white brush stroke only collides with the bottom part of the geometry.The **Hide excluded geometry** button is enabled. |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="geo-excluded-visible.jpg" width="420px"/></div> | The top part has been excluded in the geometry mask and the white brush stroke only collides with the bottom part of the geometry.The **Hide excluded geometry** button is disabled. |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/no-geo-excluded.jpg" width="420px"/></div> | No geometry has been excluded in the Geometry mask, the paint layer on which the white brush stroke has been done collides will all the geometry.The **Hide excluded geometry** button is disabled. |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/geo-excluded-hidden.jpg" width="420px"/></div> | The top part has been excluded in the geometry mask and the white brush stroke only collides with the bottom part of the geometry.The **Hide excluded geometry** button is enabled. |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/geo-excluded-visible.jpg" width="420px"/></div> | The top part has been excluded in the geometry mask and the white brush stroke only collides with the bottom part of the geometry.The **Hide excluded geometry** button is disabled. |

@@ -1,7 +1,15 @@
 ---
-title: "Crash when working with overclocked GPU"
-description: ""
-helpx_description: "Painter > Technical support > Technical Issues > GPU Issues > Crash when working with overclocked GPU"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/crash-when-working-with-overclocked-gpu.html"
+breadcrumb-title: ""
+description: Learn how to fix Substance 3D Painter crashes when working with overclocked GPUs for stable application performance.
+helpx_creative_field: ""
+helpx_description: Painter > Technical support > Technical Issues > GPU Issues > Crash when working with overclocked GPU
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Crash when working with overclocked GPU
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Crash when working with overclocked GPU

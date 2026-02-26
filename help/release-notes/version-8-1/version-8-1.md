@@ -1,7 +1,15 @@
 ---
-title: "Version 8.1"
-description: ""
-helpx_description: "Painter > Release notes > Version 8.1"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-8-1.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Painter version 8.1 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Painter > Release notes > Version 8.1
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 8.1
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Version 8.1
@@ -14,14 +22,14 @@ Release date: *7 June 2022*
 
 ### New color management with Adobe Color Engine (ICC support)
 
-![](banner-ace.jpg)
+![](../../assets/banner-ace.jpg)
 
 In this new version, the color management system has been expanded with the support of the Adobe Color Engine (ACE) which unlocks the use of ICC profiles. This new system allows to match colors across a wide range of applications, including Photoshop.
 
 * **New project settings**   
   When creating a new project, it is now possible to specify the color management engine with the newly added **Adobe Color Engine** (ACE).
 
-  ![](cm-icc-ace-settings.png){width="400px"}
+  ![](../../assets/cm-icc-ace-settings.png){width="400px"}
 
   ACE comes with the following working color space:
 
@@ -31,13 +39,13 @@ In this new version, the color management system has been expanded with the supp
 * **Monitor ICC profile support**   
   You can use your ICC profile to adjust the viewport look and make your colors match your monitor.
 
-  ![](viewport-icc.jpg){width="400px"}
+  ![](../../assets/viewport-icc.jpg){width="400px"}
 
 * **Import and export of images with ICC profiles embedded**   
   When importing bitmaps, the ICC profile can be automatically extracted. It also possible to override that profile in the layer properties.  
   When exporting it is possible to specify the intended ICC profile that will be embedded in the texture files.
 
-  ![](export-icc.png){width="400px"}
+  ![](../../assets/export-icc.png){width="400px"}
 
 * **New json template settings** To share and re-use settings across projects it is possible to specify a preset file. To know more about the preset specifications, see the [dedicated documentation](../../features/color-management/color-management-with-ado/color-management-with-adobe-ace-icc.md).
 
@@ -47,22 +55,22 @@ In this new version, the color management system has been expanded with the supp
 
 ### New physical size support for Substance materials
 
-![](banner-physicalsize.jpg)
+![](../../assets/banner-physicalsize.jpg)
 
 The size inside Substance materials can now be used to drive their scale and tiling inside fill layer projections. This is a useful tool to match properly materials on surfaces according to their real size without the need to guess.
 
 * **New fill layer parameters**   
   A fill layer (or effect) there are new parameters to control the tiling/repetition of a material if it has a physical size defined. These new parameters are only available with 3D projections.
 
-  ![](physical-size-settings-fill.png){width="400px"}
+  ![](../../assets/physical-size-settings-fill.png){width="400px"}
 
 * **New viewport grid**   
   To make the physical size easier to understand and visualize, it is now possible to activate a grid in the 3D viewport via the [Display settings](../../interface/display-settings/display-settings.md) window.  
   Once enabled the grid will be automatically subdived based on the level of zoom. The grid unit is indicated in the bottom left of the viewport.
 
-  ![](physical-size-viewport-3d.png){width="400px"}
+  ![](../../assets/physical-size-viewport-3d.png){width="400px"}
 
-  ![](display-settings-grid.png){width="400px"}
+  ![](../../assets/display-settings-grid.png){width="400px"}
 
 >[!NOTE]
 >
@@ -70,13 +78,13 @@ The size inside Substance materials can now be used to drive their scale and til
 
 ### New bakers
 
-![](banner-baker.jpg)
+![](../../assets/banner-baker.jpg)
 
 These three new additions close the gap between Designer and Painter to extend the texturing and rendering possibilities.
 
 They have been added to the baker list, however they are disabled by default:
 
-![](baker-list.png)
+![](../../assets/baker-list.png)
 
 The new bakers are:
 
@@ -84,21 +92,21 @@ The new bakers are:
   For **diffuse shading**, it gives a more accurate occlusion and can even look like an approximate global illumination (first example below).  
   For **specular reflections**, it allows to simulate self-shadowing and reduce the amount of light leaking, making the object feel much more grounded especially with metallic surfaces (second example below).
 
-  ![](bent-normal-haussmann-compressed.gif){width="350px"}
+  ![](../../assets/bent-normal-haussmann-compressed.gif){width="350px"}
 
-  ![](bent-normal-car-compressed.gif){width="400px"}
+  ![](../../assets/bent-normal-car-compressed.gif){width="400px"}
 
 * **Height baker**   
   The Height baker allows to bake the difference between the low and high-poly mesh as a grayscale texture which could then be used to produce displacement on tessellated meshes. For example when baking scan information against a plane.
 
-  ![](disp-demo.jpg){width="400px"}
+  ![](../../assets/disp-demo.jpg){width="400px"}
 
 * **Opacity baker**   
   The Opacity baker produces a black and white map that shows holes from a high-poly mesh. For example it can be used to bake fences or even holes inside a fabric surface.
 
 ### New content
 
-![](banner-content-1.jpg)
+![](../../assets/banner-content-1.jpg)
 
 A variety of new content has been added in this release, including:
 
@@ -107,17 +115,17 @@ A variety of new content has been added in this release, including:
     
   To find the 3D noises, simply go to the procedurals section of the Asset panel:
 
-  ![](3s-noise-shelf.jpg){width="400px"}
+  ![](../../assets/3s-noise-shelf.jpg){width="400px"}
 
   The noises provide a very wide range of possibilities, here are for example the presets available with the **3D Voronoi Fractal**:
 
-  ![](3d-voronoi-fractal.jpg){width="300px"}
+  ![](../../assets/3d-voronoi-fractal.jpg){width="300px"}
 
 * **20 new grunge bitmaps and 2 cloth patterns**   
   A new set of grunges has been added with the default content to expand the existing range of patterns. They can be found under **Procedurals &gt; Grunges Bitmap**.   
   Two cloth patterns are also available under **Procedurals &gt; Fabric**.
 
-  ![](grunges.jpg){width="400px"}
+  ![](../../assets/grunges.jpg){width="400px"}
 
 >[!NOTE]
 >
@@ -125,7 +133,7 @@ A variety of new content has been added in this release, including:
 
 ### Improved eyedropper and material picker
 
-![](picker-banner.jpg)
+![](../../assets/picker-banner.jpg)
 
 Several improvements have been made to the eyedropper to make extracting and managing colors easier.
 
@@ -135,7 +143,7 @@ Several improvements have been made to the eyedropper to make extracting and man
 * **New eyedropper buttons**   
   Next to color buttons there is a new eyedropper icon that can be used to capture colors without having to open the color picker first.
 
-  ![](peek-color-shortcut.gif){width="400px"}
+  ![](../../assets/peek-color-shortcut.gif){width="400px"}
 
 * **New eyedropper keyboard shortcut**   
   When the color picker window is open, you can also press **I** to enter the eyedropper mode without needing to click the dedicated icon, which makes it easier to quickly iterate between picking and painting.
@@ -143,26 +151,26 @@ Several improvements have been made to the eyedropper to make extracting and man
 * **New preview while eyedropping**   
   When using the eyedropper to pick a color, a new preview is not visible next to the mouse. This preview is also color managed.
 
-  ![](eyedropper-preview.png)
+  ![](../../assets/eyedropper-preview.png)
 
 * **New picking directly into a channel**   
   With the new eyedropper behavior it is now possible to directly pick into a channel on the mesh. To do so simply press and maintain SHIFT to pick a color directly form the channel. The channel is determined from where the eyedropper has been started. This method bypass any color transformation which is important with color management to retrieve accurate colors. A tooltip will appear to indicate from which channel the color is captured.
 
-  ![](eyedropper-channel-pick.png)
+  ![](../../assets/eyedropper-channel-pick.png)
 
 * **New color space settings when capturing a color**   
   When color management is enabled, a new setting is available in the color picker to specify the color space used when capturing colors. This setting is global to the session of Painter and will apply as well to the eyedropper button next to the color buttons in the properties window.
 
-  ![](eyedropper-color-space.png)
+  ![](../../assets/eyedropper-color-space.png)
 
 * **Improved material picker behavior**   
   The material picker from the Tools toolbar (keyboard shortcut P) now respects the channel selection inside the properties window. It will no longer enable by channels itself.
 
-  ![](material-picker.gif){width="400px"}
+  ![](../../assets/material-picker.gif){width="400px"}
 
 ### Improved automatic unwrapping
 
-![](unwrap-banner.jpg)
+![](../../assets/unwrap-banner.jpg)
 
 The automatic UV unwrapping process now provides a more natural segmentation.
 

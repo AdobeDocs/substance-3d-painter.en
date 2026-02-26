@@ -1,7 +1,15 @@
 ---
-title: "User data"
-description: ""
-helpx_description: "Painter > Content > Creating custom effects > User data"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/user-data.html"
+breadcrumb-title: ""
+description: Learn how to use user data in custom effects for Substance 3D Painter to pass custom information to shader effects.
+helpx_creative_field: ""
+helpx_description: Painter > Content > Creating custom effects > User data
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: User data
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # User data

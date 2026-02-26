@@ -1,7 +1,15 @@
 ---
-title: "Lib Alpha - Shader API"
-description: ""
-helpx_description: "Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Alpha - Shader API"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-alpha-shader-api.html"
+breadcrumb-title: ""
+description: Access the Lib Alpha shader API reference for Substance 3D Painter to work with alpha channels and transparency in custom shaders.
+helpx_creative_field: ""
+helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Alpha - Shader API
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Lib Alpha - Shader API
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Lib Alpha - Shader API

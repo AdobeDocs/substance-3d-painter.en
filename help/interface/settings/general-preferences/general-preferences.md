@@ -1,18 +1,26 @@
 ---
-title: "General preferences"
-description: ""
-helpx_description: "Painter > Interface > Settings > General preferences"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/settings/general-preferences.html"
+breadcrumb-title: ""
+description: Learn how to configure general preferences in Substance 3D Painter to customize application behavior and user experience.
+helpx_creative_field: ""
+helpx_description: Painter > Interface > Settings > General preferences
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: General preferences
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # General preferences
 
-![](settings-general.png)   
+![](../../../assets/settings-general(1).png)   
   
 This page explains the main settings of the application.
 
 ## Interface options
 
-![](settings-interface.png)
+![](../../../assets/settings-interface.png)
 
 | Setting | Description |
 | --- | --- |
@@ -25,7 +33,7 @@ This page explains the main settings of the application.
 
 ## Layer stack options
 
-![](settings-layerstack.png)
+![](../../../assets/settings-layerstack.png)
 
 | Setting | Description |
 | --- | --- |
@@ -34,7 +42,7 @@ This page explains the main settings of the application.
 
 ## Camera options
 
-![](settings-camera.png)
+![](../../../assets/settings-camera.png)
 
 | Setting | Description |
 | --- | --- |
@@ -44,7 +52,7 @@ This page explains the main settings of the application.
 
 ## Baking options
 
-![](settings-baking.png)
+![](../../../assets/settings-baking.png)
 
 | Setting | Description |
 | --- | --- |
@@ -54,7 +62,7 @@ This page explains the main settings of the application.
 
 ## Preview options
 
-![](settings-preview.png)
+![](../../../assets/settings-preview.png)
 
 | Setting | Description |
 | --- | --- |
@@ -64,7 +72,7 @@ This page explains the main settings of the application.
 
 ## Temporary Files
 
-![](settings-temp-1.png)
+![](../../../assets/settings-temp-1.png)
 
 | Setting | Description |
 | --- | --- |
@@ -72,7 +80,7 @@ This page explains the main settings of the application.
 
 ## Sparse virtual textures
 
-![](settings-sparse.png)
+![](../../../assets/settings-sparse.png)
 
 | Setting | Description |
 | --- | --- |
@@ -80,7 +88,7 @@ This page explains the main settings of the application.
 
 ## Iray hardware
 
-![](settings-iray.png)
+![](../../../assets/settings-iray.png)
 
 This section lists all the compatible hardware available that can be used when rendering with Iray.
 
@@ -92,7 +100,7 @@ The CPU setting is available on all computers. If the computer has a  **Nvidia G
 
 ## Privacy
 
-![](settings-privacy.png)
+![](../../../assets/settings-privacy.png)
 
 | Setting | Description |
 | --- | --- |

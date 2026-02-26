@@ -1,7 +1,15 @@
 ---
-title: "Remote Desktop"
-description: ""
-helpx_description: "Painter > Pipeline and integration > Configuration > Remote Desktop"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/configuration/remote-desktop.html"
+breadcrumb-title: ""
+description: Learn how to configure Substance 3D Painter for remote desktop access to enable remote workflows and collaboration.
+helpx_creative_field: ""
+helpx_description: Painter > Pipeline and integration > Configuration > Remote Desktop
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Remote Desktop
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Remote Desktop

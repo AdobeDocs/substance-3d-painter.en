@@ -1,7 +1,15 @@
 ---
-title: "System requirements"
-description: ""
-helpx_description: "Painter > Getting Started > System requirements"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/system-requirements.html"
+breadcrumb-title: ""
+description: Review system requirements for Substance 3D Painter to ensure your computer meets hardware and software specifications.
+helpx_creative_field: ""
+helpx_description: Painter > Getting Started > System requirements
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: System requirements
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Supported systems

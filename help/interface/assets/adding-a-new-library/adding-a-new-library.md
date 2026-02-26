@@ -1,7 +1,15 @@
 ---
-title: "Adding a new library"
-description: ""
-helpx_description: "Painter > Interface > Assets > Adding a new library"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/adding-a-new-library.html"
+breadcrumb-title: ""
+description: Learn how to add a new library to Substance 3D Painter to expand your resource collection and access additional assets.
+helpx_creative_field: ""
+helpx_description: Painter > Interface > Assets > Adding a new library
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Adding a new library
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Adding a new library
@@ -18,4 +26,4 @@ To add a new library -
 1. Your library should appear in the list.
 1. *Optional:* if you would like your new library to be the default import location, select the Default button.
 
-![](04-01-addlibrary.gif){width="600px"}
+![](../../../assets/04-01-addlibrary.gif){width="600px"}

@@ -1,7 +1,15 @@
 ---
-title: "Overview of the particle editor"
-description: ""
-helpx_description: "Painter > Painting > Presets > Creating particles presets > Overview of the particle editor"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-particles-presets/overview-of-the-particle-editor.html"
+breadcrumb-title: ""
+description: Learn about the particle editor in Substance 3D Painter to create custom particle brush presets for texture painting.
+helpx_creative_field: ""
+helpx_description: Painter > Painting > Presets > Creating particles presets > Overview of the particle editor
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Overview of the particle editor
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Overview of the particle editor

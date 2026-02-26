@@ -1,7 +1,15 @@
 ---
-title: "Mesh Based Input"
-description: ""
-helpx_description: "Painter > Content > Creating custom effects > Mesh Based Input"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/mesh-based-input.html"
+breadcrumb-title: ""
+description: Learn how to use mesh-based inputs in custom effects for Substance 3D Painter to create geometry-aware texture effects.
+helpx_creative_field: ""
+helpx_description: Painter > Content > Creating custom effects > Mesh Based Input
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Mesh Based Input
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Mesh Based Input

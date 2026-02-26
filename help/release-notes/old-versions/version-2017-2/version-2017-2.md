@@ -1,7 +1,15 @@
 ---
-title: "Version 2017.2"
-description: ""
-helpx_description: "Painter > Release notes > Old versions > Version 2017.2"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-2.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Painter version 2017.2 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Painter > Release notes > Old versions > Version 2017.2
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 2017.2
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Version 2017.2
@@ -14,7 +22,7 @@ Release date : *27 July 2017*
 
 ### New Anchor point effect
 
-![](anchor-height-blend-optim.gif)
+![](../../../assets/anchor-height-blend-optim.gif)
 
 **A new effect type** has been added to Substance Painter, next to the already existing such as **Filter** and **Level** you can now find the new **Anchor point**. This new effect allow to define a **location** in the **layer stack** that can then be **referenced** across the rest of the project in any other layers. This allow for example to use the height information from a layer into the mask of a layer just above this one, allowing a more natural blending (as illustrated by the gif above).
 

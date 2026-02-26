@@ -1,7 +1,15 @@
 ---
-title: "Image Sequence"
-description: ""
-helpx_description: "Painter > Features > UV Tiles > Image Sequence"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/uv-tiles/image-sequence.html"
+breadcrumb-title: ""
+description: Learn how to use image sequences with UV tiles in Substance 3D Painter for animated texture workflows.
+helpx_creative_field: ""
+helpx_description: Painter > Features > UV Tiles > Image Sequence
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Image Sequence
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Image Sequence
@@ -40,4 +48,4 @@ The filename matching is based on the following regular expression:
 
 Image Sequences can be loaded into any resource slot in the interface like any other resource. However in some cases they may require additional settings to be used properly.
 
-In [Fill layers](../../../painting/fill-projections/fill-projections.md) (and fill effects), make sure that the projection mode is set to **Fill (Match Per UV Tile)** to ensure that each image from the sequence is assigned to the right [UV Tile](../uv-tiles.md) in the Texture Set.
+In [Fill layers](../../../painting/fill-projections/fill-projections.md) (and fill effects), make sure that the projection mode is set to **Fill (Match Per UV Tile)** to ensure that each image from the sequence is assigned to the right [UV Tile](../../../features/uv-tiles/uv-tiles.md) in the Texture Set.

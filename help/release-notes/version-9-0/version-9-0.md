@@ -1,7 +1,15 @@
 ---
-title: "Version 9.0"
-description: ""
-helpx_description: "Substance 3D Painter"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-9-0.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Painter version 9.0 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Substance 3D Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 9.0
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Version 9.0
@@ -14,43 +22,43 @@ Release date: *20 June 2023*
 
 ### New paint along path in 3D viewport
 
-![Close up of a leather shoe with a path dranw on top with its helper UI](v90_banner_path.jpg)
+![Close up of a leather shoe with a path dranw on top with its helper UI](../../assets/v90_banner_path.jpg)
 
 The <b>Paint along Path</b> tool is a new way to paint strokes in the 3D viewport. Similar to other applications, you can create bezier based curves driven by points on the surface of your 3D object to draw patterns. Combined with Substance materials this new tool can open a lot of new possibilities.
 
 * <b>New tool to create paint strokes driven by a path with points</b>  
   Inside the tool's toolbar is a new icon dedicated to the Path tool. This new tool allows to draw curves on the surface of the 3D model to create paint strokes. These strokes can always be re-edited. When the tool is active, simply click on the mesh surface to add a point. Click on an existing point and press delete to remove it.
 
-  ![Screenshot of the toolbar itnerface showing the 3 types of path tools.](v90_path_toolbar.png)
+  ![Screenshot of the toolbar itnerface showing the 3 types of path tools.](../../assets/v90_path_toolbar.png)
 
-  ![Gif showing addition and removal of points on a path](v90_path_add_remove_points.gif)
+  ![Gif showing addition and removal of points on a path](../../assets/v90_path_add_remove_points.gif)
 * <b>Drag and move points on mesh surface</b>  
   To edit the shape of a path, simply click and drag a point to move along the 3D modle surface.
 
-  ![Gif showing how to move points](v90_path_move_points.gif)
+  ![Gif showing how to move points](../../assets/v90_path_move_points.gif)
 * <b>Close path to create seamless patterns</b>  
   Path can also be closed to create loops, which can be useful for both creating repeating patterns around specific areas for example.
 
-  ![Gif showing a path open or closed](v90_path_open_close.gif)
+  ![Gif showing a path open or closed](../../assets/v90_path_open_close.gif)
 
-  ![Gif showing a closed path to draw rivets on a mechnical surface](v90_path_closed_loop_demo.gif)
+  ![Gif showing a closed path to draw rivets on a mechnical surface](../../assets/v90_path_closed_loop_demo.gif)
 * <b>Re-edit paths (and their properties) with the Path panel</b>  
   When the Paht tool is selected, the path made within the current paint layer are listed in the dedicated Paht panel at the top of the 3D viewport. This panel allows to select, delete or rename path to
 
-  ![Gif showing the path panel in action](v90_path_panel_demo.gif)
+  ![Gif showing the path panel in action](../../assets/v90_path_panel_demo.gif)
 
-  ![Gid showing path properties being modified](v90_path_edit_properties.gif)
+  ![Gid showing path properties being modified](../../assets/v90_path_edit_properties.gif)
 * <b>Compatible with other paint feature like symmetry, geometry mask, dynamic strokes, etc.</b>  
   Many settings from regular paint strokes can be used with the path tool:
 
   * Enabling symmetry allows to draw a path multiple time while only managing one.
   * Path that are on a layer with a geometry mask enabled can paint under hidden geometry
 
-  ![Gif showing a path being drown twice with the help of the symmetry property](v90_path_symmetry.gif)
+  ![Gif showing a path being drown twice with the help of the symmetry property](../../assets/v90_path_symmetry.gif)
 * <b>Paint with other tools like Eraser or Smudge</b>  
   The path tool is also compatible with the eraser and the smudge tool, unlocking more advanced ways of painting and combining strokes with the easy and re-editable way of manipulating path points.
 
-  ![Gid showing a path point being moved and updating the smudge effect](v90_path_smudge.gif)
+  ![Gid showing a path point being moved and updating the smudge effect](../../assets/v90_path_smudge.gif)
 
 * <b>Save and re-use path properties with presets</b>  
   When using the Path tool, you can also save the brush properties as presets. This allows to save tool presets which will automatically switch to the Path tool when selected from the Assets window.
@@ -61,7 +69,7 @@ The <b>Paint along Path</b> tool is a new way to paint strokes in the 3D viewpor
 
 ### New content to use with paint along path feature
 
-![Image showing a hoodie with different type of stitch brush strokes used on it.](v90_banner_content_path.jpg)
+![Image showing a hoodie with different type of stitch brush strokes used on it.](../../assets/v90_banner_content_path.jpg)
 
 A few new tool presets have been included in this version to take advantage of the new paint along path feature:
 
@@ -72,13 +80,13 @@ A few new tool presets have been included in this version to take advantage of t
 * Welding metal
 * Zipper Tape
 
-![Image of the Assets window showing the new tool presets](v90_path_presets_list.png)
+![Image of the Assets window showing the new tool presets](../../assets/v90_path_presets_list.png)
 
-![Image showing an example of the new welding preset](v90_path_welding_demo.jpg)
+![Image showing an example of the new welding preset](../../assets/v90_path_welding_demo.jpg)
 
 ### Improved dynamic strokes for paint along path feature
 
-![Image showing a path stroke looking like an arrown with a round shape as the start and the arrow head as the end.](v90_banner_dyn_strokes.jpg)
+![Image showing a path stroke looking like an arrown with a round shape as the start and the arrow head as the end.](../../assets/v90_banner_dyn_strokes.jpg)
 
 We took to opportunity of the new path tool to add new properties to the dynamic stroke system. These new properties unlock new kind of strokes which weren't possible before, like the arrow on the image above which features a different start and end visual.
 
@@ -90,7 +98,7 @@ We took to opportunity of the new path tool to add new properties to the dynamic
   Having the distance along the path and the maximum distance of a path allows to better control when some effects repeat, instead of providing a normalized valued directly.  
   It makes it possible to build both a growing stroke  for exmaple but also a stroke with a repeating pattern based on the distance drawn (and not the total number of stamps drawn).
 
-![Gif showing a path with a dynamic stroke](v90_path_dyn_stroke_wave_demo.gif)
+![Gif showing a path with a dynamic stroke](../../assets/v90_path_dyn_stroke_wave_demo.gif)
 
 >[!NOTE]
 >
@@ -98,7 +106,7 @@ We took to opportunity of the new path tool to add new properties to the dynamic
 
 ### Refreshed default materials
 
-![A list spheres displaying side by side, showcasing the different new materials](v90_banner_materials.jpg)
+![A list spheres displaying side by side, showcasing the different new materials](../../assets/v90_banner_materials.jpg)
 
 With this release we decided to do a bit of cleanup in our library and therefore changed our default base materials to make them more useful to everybody. These materials have been crafted by the same team delivering content on [Substance 3D Assets](https://substance3d.adobe.com/assets).
 

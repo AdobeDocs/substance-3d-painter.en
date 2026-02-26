@@ -1,7 +1,15 @@
 ---
-title: "Creating a Javascript plugin"
-description: ""
-helpx_description: "Painter > Scripting and development > Scripts and plugins > Creating a Javascript plugin"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/scripts-and-plugins/creating-a-javascript-plugin.html"
+breadcrumb-title: ""
+description: Learn how to create JavaScript plugins for Substance 3D Painter to extend functionality and automate custom workflows.
+helpx_creative_field: ""
+helpx_description: Painter > Scripting and development > Scripts and plugins > Creating a Javascript plugin
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Creating a Javascript plugin
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Creating a Javascript plugin
@@ -317,8 +325,8 @@ Start Substance 3D Painter, by default new plugins are automatically loaded and 
 
 Open a project then click on the UI button created by the plugin to export the channels of the currently selected Texture Set:
 
-![](button-plugin.png)
+![](../../../assets/button-plugin.png)
 
 To enable or disable a plugin, use the Javascript menu at the top of the interface:
 
-![](disable-plugin.png)
+![](../../../assets/disable-plugin.png)

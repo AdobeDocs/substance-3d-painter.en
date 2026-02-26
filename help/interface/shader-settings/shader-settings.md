@@ -1,12 +1,20 @@
 ---
-title: "Shader settings"
-description: ""
-helpx_description: "Painter > Interface > Shader settings"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/shader-settings.html"
+breadcrumb-title: ""
+description: Learn how to configure shader settings in Substance 3D Painter to customize material rendering and visual appearance.
+helpx_creative_field: ""
+helpx_description: Painter > Interface > Shader settings
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Shader settings
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Shader settings
 
-![](shader-settings.png)
+![](../../assets/shader-settings.png)
 
 The **Shaders Settings** window allows to control the shader (and Iray mdl) parameters and the geometry displacement parameters.
 
@@ -14,7 +22,7 @@ A shader is a function that defines how an object should look when interacting w
 
 ## Undo stack and shader file
 
-![](shader-undo.png)
+![](../../assets/shader-undo.png)
 
 This section of the Shader Settings window controls the main parameters when manipulating shaders.   
 The Undo/Redo stack for the shader is independent from the main  [History](https://substance3d.adobe.com/display/DRAFTPAINTER/History)  to not create conflicts when painting.
@@ -35,17 +43,17 @@ A Shader Instance is a shader based on an original shader file but with customiz
 
 **For example:**  a project can use a base shader, while one texture set uses a custom shader to support opacity.
 
-To create and manage Shader Instances, see the [Texture Set list](../texture-set/texture-set-list/texture-set-list.md) window.
+To create and manage Shader Instances, see the [Texture Set list](../../interface/texture-set/texture-set-list/texture-set-list.md) window.
 
 ## Shader parameters
 
-![](shader-parameters-1.png)
+![](../../assets/shader-parameters-1.png)
 
 Shader parameters are dependent of the shader file currently loaded.
 
 ## Displacement and tesselation
 
-![](disp-parameters.png)
+![](../../assets/disp-parameters.png)
 
 Displacement and Tesselation are two functionalities that can be used to modify the shape of an object to add further details.
 

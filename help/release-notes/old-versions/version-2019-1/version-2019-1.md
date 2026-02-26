@@ -1,7 +1,15 @@
 ---
-title: "Version 2019.1"
-description: ""
-helpx_description: "Painter > Release notes > Old versions > Version 2019.1"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2019-1.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Painter version 2019.1 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Painter > Release notes > Old versions > Version 2019.1
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 2019.1
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Version 2019.1
@@ -14,13 +22,13 @@ Release date : *23 April 2019*
 
 ### Dynamic Strokes
 
-![](dyanmic-strokes-hue.gif)
+![](../../../assets/dyanmic-strokes-hue.gif)
 
 With this release our brush engine now supports what we call Dynamic Strokes. These type of strokes create variations and new effects thanks to the generation of new Substance versions on the fly. Having a new Substance material or alpha for each new brush stroke painted on your asset is now possible.
 
 When a Dynamic Stroke compatible resource is loaded in your Paint tool (Paint, Eraser, Smudge or Clone) a new parameter group will appear :
 
-![](dynamic-stroke-ui.png)
+![](../../../assets/dynamic-stroke-ui.png)
 
 Dynamic Strokes supports the following properties (if exposed in the Substance graph) :
 
@@ -35,13 +43,13 @@ The Stamp Index comes with two other parameters :
 
 You can find resources compatible with this new feature simply by browsing the shelf and looking at the new icons which are now sitting next to them :
 
-![](shelf-icon.png)
+![](../../../assets/shelf-icon.png)
 
 Resources compatible with the feature also get automatically a new tag named "**dynamicstroke**" to make them easy to filter by keywords in the Shelf.
 
 We also added a lot of new **tool presets** to play with :
 
-![](tools-presets.jpg){width="450px"}
+![](../../../assets/tools-presets.jpg){width="450px"}
 
 >[!NOTE]
 >
@@ -49,16 +57,16 @@ We also added a lot of new **tool presets** to play with :
 
 ### Displacement And Tesselation
 
-![](displacement-demo.gif)
+![](../../../assets/displacement-demo.gif)
 
 Substance Painter now supports **Displacement** and **mesh Tesselation** in both its realtime viewport and in Iray. They can both be controlled in the **Shader Settings** window below the shader parameters.
 
-![](disp-settings-1.png)
+![](../../../assets/disp-settings-1.png)
 
 * **Source Channel** : Channel from which the mesh deformation is based on. Default is Height but can be set to Displacement as well.
 * **Scale** : Controls the amount of deformation applied to the mesh in the project.
 
-![](tesselation-settings.png)
+![](../../../assets/tesselation-settings.png)
 
 * **Subdivision Mode** : Uniform or Edge Length. Determines how the amount of subdivision is computed.
 * **Subdivision Count** : (Mode Uniform) From 1 to 32. A high value produce more polygons which gives more details but can introduce performance issues.
@@ -66,7 +74,7 @@ Substance Painter now supports **Displacement** and **mesh Tesselation** in both
 
 Load the "**Tiling Material**" sample project (via **File &gt; Load Sample**) to quickly give a try at this new feature :
 
-![](height-sculp.gif){width="450px"}![](cracks-demo.jpg){width="450px"}
+![](../../../assets/height-sculp.gif){width="450px"}![](../../../assets/cracks-demo.jpg){width="450px"}
 
 >[!NOTE]
 >
@@ -74,7 +82,7 @@ Load the "**Tiling Material**" sample project (via **File &gt; Load Sample**) to
 
 ### Compare Mask Effect
 
-![](compare-mask.png)
+![](../../../assets/compare-mask.png)
 
 Creating and blending materials can be a bit tough sometimes which is why we created a new effect named "**Compare Mask**". This effect allows to quickly and easily compare two channels and produce a mask as a result.
 
@@ -86,14 +94,14 @@ The Compare Mask effect has the following properties :
 * **Hardness** : Control the smoothness/hardness of the resulting mask comparison.
 * **Histogram** : Provide an histogram view of the source and the target. Useful to know if they overlap a bit or not at all (if they don't overlap the mask will be empty).
 
-![](compare-mode.png)
+![](../../../assets/compare-mode.png)
 
 To make things even more easier to setup, you can right-click on a layer and choose the shortcut "**Add mask with height combination**" to quickly add this new mask on your layer. This shortcut will also switch your Height channel blending mode to "Normal" instead of the default "Linear Dodge (Add)".  
- ![](compare-shortcut.png)
+ ![](../../../assets/compare-shortcut.png)
 
 ### Radial Symmetry
 
-![](radial-demo.gif)
+![](../../../assets/radial-demo.gif)
 
 We expanded the capabilities of our symmetry tool to handle radial symmetry. There is now a new mode in the symmetry settings menu to enable it (available in the contextual toolbar).
 
@@ -105,50 +113,50 @@ The following settings are available :
 
 We also added a little preview to make it easier to tweak the settings before starting to paint :
 
-![](radial-settings.png)
+![](../../../assets/radial-settings.png)
 
 ### New Fill Layer Projection Modes
 
-![](fill-proj.jpg)
+![](../../../assets/fill-proj.jpg)
 
 Two new projection modes have been added with fill layers and fill effects : **Planar** and **Spherical**. We also added a lot of new parameters to control further the behaviors of the 3D projections.
 
 * **New Planar Projection mode**  
   Projecting a plane is now possible with this new mode. It can be useful for creating stripes on vehicles or placing decals at a specific location.
 
-  ![](planar-proj.png)
+  ![](../../../assets/planar-proj.png)
 * **Surface Tool for Planar Projection**  
   To make the planar projection easy to manipulate we also added a new control for the 3D Manipulator that we call **Surface Tool** which can be accessed with the shortcut "**Shift+W**". It can also be accessed from the Contextual Toolbar. Note that this new mode is only available with the Planar Projection.
 
-  ![](surface-tool-toolbar.png)
+  ![](../../../assets/surface-tool-toolbar.png)
 
-  ![](surface-tool-optim.gif)
+  ![](../../../assets/surface-tool-optim.gif)
 * **Planar Projection Culling / Fading**  
   Multiple settings are available to make the planar projection either continuous or finite. When a culling setting is enabled, the doted box around the manipulator indicates the bounding box for the projection and the middle line is where the projection starts. Scaling the projection allows to control how far it goes and when it starts to fade.
 
-  ![](planar-culling.gif){width="500px"}
+  ![](../../../assets/planar-culling.gif){width="500px"}
 
-  ![](planar-fade-optim.gif)
+  ![](../../../assets/planar-fade-optim.gif)
 * **New Spherical projection mode**  
   Spherical projections are now doable with this new mode. With it you can achieve advanced patterns or follow more easily curved surfaces.
 
-  ![](spherical-projection.jpg){width="350px"}
+  ![](../../../assets/spherical-projection.jpg){width="350px"}
 * **New Shape Crop settings**  
   3D projections now have a setting that controls the repetition of the projection. Very useful for example for a decal to repeat only on a specific area without having to mask it manually.
 
-  ![](shape-crop-toggle.gif){width="500px"}
+  ![](../../../assets/shape-crop-toggle.gif){width="500px"}
 * **Moved and Renamed existing settings**  
   Because of these new projections we reworked a bit how some settings work. For example "**Tiling**" has been renamed has "**UV Wrap**". The tiling now can be set only vertically or horizontally. The Scale, Rotation and Offset are now part of a new parameter group named "**UV Transformations**" to be more consistent across projection modes.
 
-  ![](repeat-mode.png)
+  ![](../../../assets/repeat-mode.png)
 
-  ![](uv-transform.png)
+  ![](../../../assets/uv-transform.png)
 * **Improved Rotation Manipulator all-axis mode** Instead of drawing an explicit sphere, it is now hidden to avoid hiding the texturing below. Clicking in-between the axes will select the sphere which allows to rotate all the axes at once.  
-   ![](manip-rotation-optim.gif)
+   ![](../../../assets/manip-rotation-optim.gif)
 
 ### Various Improvements
 
-![](txtset-resolution-optim.gif)
+![](../../../assets/txtset-resolution-optim.gif)
 
 * **Multi-Selection for Texture Set**   
   Selecting multiple Texture Sets to change their resolution all at once via the Texture Set settings is now possible.  
@@ -157,23 +165,23 @@ Two new projection modes have been added with fill layers and fill effects : **P
   You can now click and drag (like in the layer stack) to hide or show Texture Sets.
 * **Improved UI for Layer Stack**   
   We changed the icon for the hidden/show state of a layer to be more consistent and easier to understand. We also changed the way selected layers are displayed to be easier to compare with the selection of their effects and other layers.  
-   ![](layer-stack-selection-ui.gif)
+   ![](../../../assets/layer-stack-selection-ui.gif)
 * **New effect position based on current selection** Any new effect added on a layer will now be put just above the currently selected one.  
-   ![](filter-insert.gif)
+   ![](../../../assets/filter-insert.gif)
 * **Quick toggle of Material channel buttons**   
   You can now press ALT and click on a channel button to isolate it. Clicking again will enable back all the channels.  
-   ![](channels-toggle.gif)
+   ![](../../../assets/channels-toggle.gif)
 * **Dithering at export** Dithering can now be disabled via a dedicated setting in the export window next to the file format and bit depth. For more information about how and when dithering is applied [see the export documentation](../../../getting-started/export/export-window/export-window.md).  
-   ![](dithering.png)
+   ![](../../../assets/dithering.png)
 * **Better Histograms**   
   We reworked our histogram generator. Histograms should now display more accurate information and update properly after a change in the layer stack.  
-   ![](histogram.png)
+   ![](../../../assets/histogram.png)
 * **Better Instancing of layers**   
   Instanced layers now have their blending mode set to "Pass Through" instead of the default blending mode. This blending mode will improve the compatibility of some effects when layers are instanced across Texture Sets.
 
 ### New Content
 
-![](shelf-alphas.png)
+![](../../../assets/shelf-alphas.png)
 
 In this release we also added a lot of new content : from presets to alphas and even new powerful filters.
 
@@ -234,7 +242,7 @@ In this release we also added a lot of new content : from presets to alphas and 
   * Autumn Forest
   * Canopus Ground
 
-    ![](env-map.jpg)
+    ![](../../../assets/env-map.jpg)
 * **5 new Procedurals**
 
   * Gradient Hue
@@ -243,7 +251,7 @@ In this release we also added a lot of new content : from presets to alphas and 
   * Color Jitter By Seed
   * Feather Stylized
 
-    ![](procedurals.png)
+    ![](../../../assets/procedurals.png)
 
 ## Tutorials
 

@@ -1,7 +1,15 @@
 ---
-title: "Version 2018.1"
-description: ""
-helpx_description: "Painter > Release notes > Old versions > Version 2018.1"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2018-1.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Painter version 2018.1 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Painter > Release notes > Old versions > Version 2018.1
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 2018.1
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Version 2018.1
@@ -14,58 +22,58 @@ Release date : *15 March 2018*
 
 ### New interface and behaviors
 
-![](2018-03-15-16-34-59-greenshot.jpg){width="650px"}
+![](../../../assets/2018-03-15-16-34-59-greenshot.jpg){width="650px"}
 
 Substance Painter 2018.1 introduces a **complete rework of the interface**, ranging from color and icons to widget behaviors.
 
 * The **new interface** focus on bringing a brand new design, making it easier to read and less cumbersome to navigate.   
   We reworked all our icons to be more explicit. We also reworked our color scheme which should now be more consistent.  
-   ![](flat-design.png)
+   ![](../../../assets/flat-design.png)
 * We improved many widgets, especially our **sliders**, to be more **easy to use** with a **Tablet Pen**.   
   You can click on the bar to move the slider or use the value field to more precisely edit the numbers.   
-   ![](sliders.gif) ![](grayscale-slider.gif)
+   ![](../../../assets/sliders.gif) ![](../../../assets/grayscale-slider.gif)
 * We have a **new toolbar** that allows to open **Docks** on the fly.   
   Clicking on one of the buttons in the toolbar will display the Dock next to its button and floating above the rest of the interface, re-clicking on the button will close it.  
   If the dock move away from its button, it becomes a regular floating window which can be docked in the interface. If closed, the button will be available again in the Dock Toolbar.  
   This new dock system works more easily with fullscreen. There is no need to have every dock always present in the interface anymore.   
-   ![](ui-dock-collapse-recall-optim.gif)
+   ![](../../../assets/ui-dock-collapse-recall-optim.gif)
 * Docks now use our new **Tab layout** which organise items into sections while still being able quickly scroll inside it.   
   This Tab layout allows **big windows** and can present **all the information** at the same time, contrary to regular Tab systems that hide information.  
-   ![](tab-layout.gif) ![](tab-layout-display.gif) ![](full-window.png)
+   ![](../../../assets/tab-layout.gif) ![](../../../assets/tab-layout-display.gif) ![](../../../assets/full-window.png)
 * There is now a **Quick Menu**, which makes **Tool properties** available **directly in the viewport**.  
   To open the quick menu, simply **right-click in the viewport**. To **close** the quick menu, **click again in the viewport**.  
   The menu will only close when clicking into the viewport, allowing the drag and dropping of resources from the shelf directly into the quick menu.  
-   ![](quick-menu-optim.gif)
+   ![](../../../assets/quick-menu-optim.gif)
 * There is now a new **Contextual Toolbar** at the top for the viewport.  
   This toolbar change its parameters depending of the current tool used. It's a way to quickly access basic tool features (like the brush size).  
-   ![](contextual-toolbar.png)
+   ![](../../../assets/contextual-toolbar(1).png)
 * It is now possible to **reorder effects** using **drag and drop** in the **layer stack**.   
-   ![](re-order-effects.gif)
+   ![](../../../assets/re-order-effects.gif)
 * While the shortcuts "**C**" and "**B**" allow you to quickly vizualise the **Channel** and **Baked textures** into the **viewport**, it is now possible to use the **unified dropdown** to change the viewport display.  
   At the **top right** of the **viewport** there is now a dropdown listing **all the Channels and Mesh maps** (previously Additional maps). This unified dropdown is also available in the **Display Settings** dock.   
-   ![](dropdown-viewport.gif)
+   ![](../../../assets/dropdown-viewport.gif)
 * The **Display Settings** and **Viewer Settings** have been **merged** into a singleDock.  
    **Environment**, **Camera** and **Viewport** settings are now grouped **together**, while **Shaders** parameters have been **moved** into a **dedicated Dock** instead.  
   The Display Settings now takes advantage of the new **Tab layout** to quickly navigate the window.   
-   ![](display-shader-settings.png)
+   ![](../../../assets/display-shader-settings.png)
 
 ### Drag and drop of Materials and Smart-Materials into the Viewport
 
-![](drag-drop-material-resize.gif){width="650px"}
+![](../../../assets/drag-drop-material-resize.gif){width="650px"}
 
 You can now **drag and drop** Materials and Smart Materials **directly into the viewport**.   
 This new action will **highlight the geometry** of the of the **target Texture Set** at the same time. This action will create the new layers at the top of the layer stack of the Texture Set.
 
 ### Improved tablet pen behavior
 
-![](tablet-pen-events.png)
+![](../../../assets/tablet-pen-events.png)
 
 In this version we improved the way we handle Graphics tablet pen movements and inputs, especially when Substance Painter is under a heavy load.   
 We no longer lose the inputs anymore while we are doing consecutive computations. This should allow precise brush strokes in any situations.
 
 ### Improved seam padding
 
-![](seam-3.png)
+![](../../../assets/seam-3.png)
 
 We reworked the way we generate our padding outside the UV islands. Instead of taking the current pixel and dilating it on a certain distance we now look for the neighboring pixel on the other side of the UV seam and interpolate the two values.   
 This gives a much better end result and reduce the visibility of the split between UV islands even when the textel ratios don't match.
@@ -74,12 +82,12 @@ This gives a much better end result and reduce the visibility of the split betwe
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](seam-2.png){width="200px"}
+![](../../../assets/seam-2.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](seam-1.png){width="200px"}
+![](../../../assets/seam-1.png){width="200px"}
 
 </td>
 </tr>
@@ -89,7 +97,7 @@ This new padding is automatically generated after each brush stroke, resolution 
 
 ### Improved performances
 
-![](painting-viewport-optim.gif){width="650px"}
+![](../../../assets/painting-viewport-optim.gif){width="650px"}
 
 We also improved performances in this version on multiple levels :
 
@@ -105,18 +113,18 @@ We also improved performances in this version on multiple levels :
 
 ### Global scene position baker
 
-![](position-baker.jpg)
+![](../../../assets/position-baker.jpg)
 
 We now have a new setting that allows to bake a position map per Texture Set that take into account the full scene size.   
 This new behavior allows to use triplanar projections in Mask Generators that will match across the whole scene instead of creating seams like before. This is really usefull with projects that have a lot of Texture Sets (like UDIM based projects).
 
 In the position baker settings, change the the parameter "**Normalization Scale**" from "**Per Material**" to "**Full Scene**" to enable this new behavior.
 
-![](position-baker-example.png)
+![](../../../assets/position-baker-example.png)
 
 ### New content
 
-![](3d-noises.png)
+![](../../../assets/3d-noises.png)
 
 We also added some new content in this release :
 
@@ -136,7 +144,7 @@ We also added some new content in this release :
    1. **Pick a color** on your mesh **in the viewport**
    1. Repeat the process for the second parameter "**3D Position End**"   
          
-       ![](3d-gradient.jpg)
+       ![](../../../assets/3d-gradient.jpg)
 
 * New template **Lens-studio** (Snap Chat 3D app).  
   We have a new template to easily create projects that target the Lens-Studio application created by Snap.  
@@ -146,12 +154,12 @@ We also added some new content in this release :
 
 ### New sample project
 
-![](seamless-paint-material-optim.gif){width="650px"}
+![](../../../assets/seamless-paint-material-optim.gif){width="650px"}
 
 There is now a new sample project named "**TilingMaterial**" that you can open via the "**File &gt; Open Sample**" menu action.   
 This project use a simple plane mesh with overlapping UVs which allows to **paint seamlessly** materials and brush strokes to **create tiling materials**.
 
-![](seamless-paint-optim.gif){width="400px"}
+![](../../../assets/seamless-paint-optim.gif){width="400px"}
 
 ## Tutorial
 

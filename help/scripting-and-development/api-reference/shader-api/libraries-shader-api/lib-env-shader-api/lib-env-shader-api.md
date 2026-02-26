@@ -1,7 +1,15 @@
 ---
-title: "Lib Env - Shader API"
-description: ""
-helpx_description: "Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Env - Shader API"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api.html"
+breadcrumb-title: ""
+description: Access the Lib Env shader API reference for Substance 3D Painter to work with environment maps and lighting in custom shaders.
+helpx_creative_field: ""
+helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Env - Shader API
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Lib Env - Shader API
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Lib Env - Shader API

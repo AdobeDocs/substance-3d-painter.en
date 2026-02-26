@@ -1,7 +1,15 @@
 ---
-title: "Version 10.1"
-description: ""
-helpx_description: "Substance 3D Painter"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-10-1.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Painter version 10.1 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Substance 3D Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 10.1
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Version 10.1
@@ -18,50 +26,50 @@ Release date: *17 September 2024*
 
 ### New default filters
 
-![](v101_banner_filters.jpg)
+![](../../assets/v101_banner_filters.jpg)
 
 In this release several new filters have been added to greatly expand the texturing process:
 
 * <b>New embroidery decal material</b>  
   Inside the materials section of the Assets window you can find a new Embroidery decal materials. Drag and drop it anywhere over you mesh, plug in any resource (like a texture or even a font) and you will be able to easily create new fabric details.
 
-  ![](v101_filter_embroidery.jpg)
+  ![](../../assets/v101_filter_embroidery.jpg)
 * <b>New fill area color/mask filter</b>  
   These two new filters allow to fill any closed paths or outlines. This is useful to quickly fill 3D paths for example. Because they are filters they can also be used for manual brush strokes or in other situations.
 
-  ![](v101_filter_fill_area_demo.gif)
+  ![](../../assets/v101_filter_fill_area_demo.gif)
 * <b>New FXAA filter</b>  
   This new filter can quickly reduce the aliasing, especially on hard edges that can appear after a level for example or on masks made with the color selection effect.
 
-  ![](v101_filter_fxaa.gif)
+  ![](../../assets/v101_filter_fxaa.gif)
 * <b>New highpass filter</b>  
   With this generic filter you can generate a grayscale texture to use it for more advanced effects (like softening, blurring or sharpening details).
 
-  ![](v101_filter_highpass.jpg)
+  ![](../../assets/v101_filter_highpass.jpg)
 * <b>New pixelate filter</b>  
   The pixelate filter can simulate a reduction in resolution which can be useful to stylize colors and patterns.
 
-  ![](v101_filter_pixelate.jpg)
+  ![](../../assets/v101_filter_pixelate.jpg)
 * <b>New posterize filter</b>  
   This filter can be useful to reduce the number of colors in an image which can help create contrasts in shapes and build stylized effects.
 
-  ![](v101_filter_posterize.jpg)
+  ![](../../assets/v101_filter_posterize.jpg)
 * <b>New threshold filter</b>  
   The threshold filter is a quick way to create sharp binary black and white masks from a grayscale input.
 
-  ![](v101_filter_threshold.gif)
+  ![](../../assets/v101_filter_threshold.gif)
 * <b>New smoothstep filter</b>  
   The smoothstep filter is another way of doing a level or contrast to refine grayscale information. This filter also applies an exponential curve to the result, making it possible to convert linear gradients into smooth curves.
 
-  ![](v101_filter_smoothstep.jpg)
+  ![](../../assets/v101_filter_smoothstep.jpg)
 * <b>Improved Transform and Mirror filters</b>  
   The transform filter has been updated to support non-uniform scaling, flipping horizontally or vertically, and simpler to use parameters. The mirror filter has also been refreshed with more straightforward parameters.
 
-  ![](v101_filter_transform.jpg)
+  ![](../../assets/v101_filter_transform.jpg)
 * <b>Improved icons</b>  
   To make standard filters more visible and easier to find, their icons have been remade. Icons tinted yellow are meant to be used on the content of a layer, while grayscale icons are generic and can be used both in layers content and mask.
 
-  ![](v101_filter_icons.png)
+  ![](../../assets/v101_filter_icons.png)
 * <b>Minor fixes on filters</b>  
   A few other filters has been adjusted to fix some issues:
 
@@ -70,7 +78,7 @@ In this release several new filters have been added to greatly expand the textur
 
 ### USD and VFX Platform support update
 
-![](v101_banner_usd.jpg)
+![](../../assets/v101_banner_usd.jpg)
 
 In this version of Painter many third party components have been improved and updated:
 
@@ -82,7 +90,7 @@ In this version of Painter many third party components have been improved and up
   </b>Following the USD update, some change of behavior for the GLTF format were required to ensure parity. When importing a gltf file Painter will now presume that the normal map will be in OpenGL format.  
   Some gltf files may use the DirectX format instead. Therefore a new setting has been added in the new project window to take it into account (note that the normal format can also be overriden from the layer stack).
 
-  ![](v101_import_gltf.png)
+  ![](../../assets/v101_import_gltf.png)
 * <b>Updated dependencies</b>  
   Several libraries used by Painter have been updated, notably to match the VFX platform reference. Here are the new versions used in Painter 10.1:
 
@@ -97,7 +105,7 @@ In this version of Painter many third party components have been improved and up
 
 ### Improved performance
 
-![](v101_banner_performance.jpg)
+![](../../assets/v101_banner_performance.jpg)
 
 A few areas of the application have received some performance improvements:
 
@@ -111,7 +119,7 @@ A few areas of the application have received some performance improvements:
   In version 6.2 we introduced the simplified thumbnails for UV Tiles projects to improve performance, but regular projects could still use the old way of computing layers thumbnails. This behavior was controlled via an application setting.  
   This setting now defaults to the optimized thumbnails by default to help performance on any projects. It can be reverted in the main preferences if desired.
 
-  ![](v101_perf_icons.png)
+  ![](../../assets/v101_perf_icons.png)
 
 ### Painter 10.1 migration notes
 

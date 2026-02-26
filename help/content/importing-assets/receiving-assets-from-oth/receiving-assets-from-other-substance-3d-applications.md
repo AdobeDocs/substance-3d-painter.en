@@ -1,7 +1,15 @@
 ---
-title: "Receiving assets from other Substance 3D applications"
-description: ""
-helpx_description: "Painter > Content > Importing assets > Receiving assets from other Substance 3D applications"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/importing-assets/receiving-assets-from-other-substance-3d-applications.html"
+breadcrumb-title: ""
+description: Learn how to receive and import assets from other Substance 3D applications into Substance 3D Painter for seamless workflows.
+helpx_creative_field: ""
+helpx_description: Painter > Content > Importing assets > Receiving assets from other Substance 3D applications
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Receiving assets from other Substance 3D applications
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Receiving assets from other Substance 3D applications
@@ -17,7 +25,7 @@ Once the asset is sent, it will appear in Painter's Assets panel, imported to th
 1. Select option **Send to Substance 3D Painter** (this will automatically launch Painter if it is not already open).
 1. The sent asset will appear in the Assets window.
 
-![](05-06-fromdesigner.jpg)
+![](../../../assets/05-06-fromdesigner.jpg)
 
 ## Sending an asset from Sampler to Painter
 
@@ -25,4 +33,4 @@ Once the asset is sent, it will appear in Painter's Assets panel, imported to th
 1. Click on **Send to Substance 3D Painter** (this will automatically launch Painter if it is not already open).
 1. The sent asset will appear in the Asset window.
 
-![](05-07-fromsampler.jpg)
+![](../../../assets/05-07-fromsampler.jpg)

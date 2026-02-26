@@ -1,12 +1,20 @@
 ---
-title: "Symmetry"
-description: ""
-helpx_description: "Painter > Painting > Symmetry"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/symmetry.html"
+breadcrumb-title: ""
+description: Learn how to use symmetry tools in Substance 3D Painter to create balanced and mirrored texture painting effects.
+helpx_creative_field: ""
+helpx_description: Painter > Painting > Symmetry
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Symmetry
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Symmetry
 
-![](radial-demo.gif)
+![](../../assets/radial-demo.gif)
 
 Symmetry is a helpful setting that you can use on brush and fill layers to easily and precisely duplicate content based on geometric constraints:
 
@@ -15,18 +23,18 @@ Symmetry is a helpful setting that you can use on brush and fill layers to easil
 
 Learn more about the types of symmetry you can use in Painter:
 
-* [Mirror Symmetry](mirror-symmetry/mirror-symmetry.md)
-* [Radial Symmetry](radial-symmetry/radial-symmetry.md)
+* [Mirror Symmetry](../../painting/symmetry/mirror-symmetry/mirror-symmetry.md)
+* [Radial Symmetry](../../painting/symmetry/radial-symmetry/radial-symmetry.md)
 
 ## Use Symmetry with the Paint tool
 
 You can enable symmetry with the<b> Symmetry button</b> in the contextual toolbar.
 
-![](SymmetryToggle.png)
+![](../../assets/SymmetryToggle.png)
 
 Adjust Symmetry options with the <b>Symmetry settings button</b> in the contextual toolbar.
 
-![](BrushSymmetrySettings.png)
+![](../../assets/BrushSymmetrySettings.png)
 
 >[!NOTE]
 >
@@ -53,7 +61,7 @@ If an unsupported projection method is selected, the <b>Enable symmetry</b> opt
 </td>
 <td style="border: 0;" valign="top">
 
-![A screenshot of the Symmetry section of the properties panel](FillSymmetry.png){width="400px"}
+![A screenshot of the Symmetry section of the properties panel](../../assets/FillSymmetry.png){width="400px"}
 
 </td>
 </tr>

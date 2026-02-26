@@ -1,7 +1,15 @@
 ---
-title: "All Changes"
-description: ""
-helpx_description: "Painter > Release notes > All Changes"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/all-changes.html"
+breadcrumb-title: ""
+description: Review all changes and updates across Substance 3D Painter versions to track feature evolution and improvements over time.
+helpx_creative_field: ""
+helpx_description: Painter > Release notes > All Changes
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: All Changes
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # All Changes
@@ -10,9 +18,22 @@ This page contains release notes for all previous releases of Substance 3D Paint
 
 >[!NOTE]
 >
-> To view known issues that may affect Painter, see the [dedicated documentation page](../know-issues/know-issues.md).
+> To view known issues that may affect Painter, see the [dedicated documentation page](../../release-notes/know-issues/know-issues.md).
 
 ## Version 11
+
+### 11.1.3
+
+Release date: <b>2026/02/12</b>  
+Summary: <b>Minor release</b>  
+  
+<b>Fixed</b>:
+
+* &#91;Paint&#93; Stencil and symmetry do not work in some cases
+* &#91;Path&#93; No update when changing smudge stroke opacity slider
+* &#91;Project&#93; Unable to paint on some geometry
+* &#91;Ribbon&#93; Instantiated path disappears when changing Texture Set resolution
+* &#91;UI&#93; Color picker can shrink and disappear in some cases
 
 ### 11.1.2
 

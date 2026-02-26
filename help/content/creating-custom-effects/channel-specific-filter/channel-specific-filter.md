@@ -1,7 +1,15 @@
 ---
-title: "Channel specific filter"
-description: ""
-helpx_description: "Painter > Content > Creating custom effects > Channel specific filter"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/channel-specific-filter.html"
+breadcrumb-title: ""
+description: Learn how to create channel-specific filter effects for Substance 3D Painter to process individual texture channels.
+helpx_creative_field: ""
+helpx_description: Painter > Content > Creating custom effects > Channel specific filter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Channel specific filter
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Channel specific filter
@@ -10,7 +18,7 @@ An effect can be specific to a particular channel. In that case, if you want to 
 
 Example of a filter affecting the **basecolor** channel only :
 
-![](specific-filter-basecolor.png)
+![](../../../assets/specific-filter-basecolor.png)
 
 >[!NOTE]
 >
@@ -67,10 +75,10 @@ To output this alpha component, create an output node with the same name convent
 
 ## Examples
 
-![](single-channel.png){width="650px"}
+![](../../../assets/single-channel.png){width="650px"}
 
 In this example the Base Color alpha channel is extracted via a grayscale node to overwrite the **Roughness** channel.
 
-![](mix-channel.png){width="650px"}
+![](../../../assets/mix-channel.png){width="650px"}
 
 In this example the **Roughness** channel is multiplied over the **Base Color**.

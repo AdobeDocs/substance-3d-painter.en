@@ -1,12 +1,20 @@
 ---
-title: "Shortcuts"
-description: ""
-helpx_description: "Painter > Interface > Settings > Shortcuts"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/settings/shortcuts.html"
+breadcrumb-title: ""
+description: Learn how to customize keyboard shortcuts in Substance 3D Painter to streamline your workflow and improve efficiency.
+helpx_creative_field: ""
+helpx_description: Painter > Interface > Settings > Shortcuts
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Shortcuts
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Shortcuts
 
-![](settings-shortcuts.png){width="400px"}
+![](../../../assets/settings-shortcuts.png){width="400px"}
 
 This page list all the keyboard and mouse shortcuts available.
 
@@ -16,7 +24,7 @@ For a quick overview of all the Shortcuts available, take a look at our graphic 
 
 ## How to change a shortcut
 
-![](shortcut-edit.gif)   
+![](../../../assets/shortcut-edit.gif)   
 Click on the "pen" icon next to a shortcut to edit it and enter the new combination.Pressing the last key will automatically exit the edit mode and change the shortcut.
 
 ### List of editable shortcuts

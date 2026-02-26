@@ -1,7 +1,15 @@
 ---
-title: "Shelf resources are gone after 7.2 update"
-description: ""
-helpx_description: "Painter > Technical support > Technical Issues > Miscellaneous Issues > Shelf resources are gone after 7.2 update"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/shelf-resources-are-gone-after-7-2-update.html"
+breadcrumb-title: ""
+description: Learn how to recover shelf resources that disappeared after Substance 3D Painter 7.2 update to restore your resource library.
+helpx_creative_field: ""
+helpx_description: Painter > Technical support > Technical Issues > Miscellaneous Issues > Shelf resources are gone after 7.2 update
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Shelf resources are gone after 7.2 update
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Shelf resources are gone after 7.2 update

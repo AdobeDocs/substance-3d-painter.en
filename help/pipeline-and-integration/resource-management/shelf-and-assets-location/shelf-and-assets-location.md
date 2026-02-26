@@ -1,7 +1,15 @@
 ---
-title: "Shelf and Assets location"
-description: ""
-helpx_description: "Painter > Pipeline and integration > Resource management > Shelf and Assets location"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/shelf-and-assets-location.html"
+breadcrumb-title: ""
+description: Learn how to configure shelf and assets location in Substance 3D Painter for organizing and accessing your resource library.
+helpx_creative_field: ""
+helpx_description: Painter > Pipeline and integration > Resource management > Shelf and Assets location
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Shelf and Assets location
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Shelf and Assets location

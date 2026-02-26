@@ -1,7 +1,15 @@
 ---
-title: "Command lines"
-description: ""
-helpx_description: "Painter > Pipeline and integration > Configuration > Command lines"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/configuration/command-lines.html"
+breadcrumb-title: ""
+description: Learn how to use command line arguments with Substance 3D Painter for automation, scripting, and pipeline integration.
+helpx_creative_field: ""
+helpx_description: Painter > Pipeline and integration > Configuration > Command lines
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Command lines
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Command lines

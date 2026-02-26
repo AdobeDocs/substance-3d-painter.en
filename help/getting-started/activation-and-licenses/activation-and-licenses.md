@@ -1,7 +1,15 @@
 ---
-title: "Activation and licenses"
-description: ""
-helpx_description: "Painter > Getting Started > Activation and licenses"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/activation-and-licenses.html"
+breadcrumb-title: ""
+description: Learn how to activate Substance 3D Painter and manage licenses to start using the application for texture painting.
+helpx_creative_field: ""
+helpx_description: Painter > Getting Started > Activation and licenses
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Activation and licenses
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Activation and licenses
@@ -26,7 +34,7 @@ The Activation wizard appears in certain legacy version of Substance 3D Painter.
 
 If you have a perpetual license file downloaded from the Substance 3D website prior to 30 Sep 2022, you can still use it to activate eligible versions of Substance 3D Painter through the Activation wizard. [More information about legacy Substance licenses and accounts is available here.](https://substance3d.adobe.com/faq-end-of-life-accounts/)
 
-![](activation-wizard.png){width="350px"}
+![](../../assets/activation-wizard.png){width="350px"}
 
 The Activation wizard has 3 options:
 

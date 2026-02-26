@@ -1,7 +1,15 @@
 ---
-title: "Layer management"
-description: ""
-helpx_description: "Painter > Technical support > Performances guidelines > Layer management"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/performances-guidelines/layer-management.html"
+breadcrumb-title: ""
+description: Learn best practices for layer management in Substance 3D Painter to optimize performance and maintain organized projects.
+helpx_creative_field: ""
+helpx_description: Painter > Technical support > Performances guidelines > Layer management
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Layer management
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Layer management

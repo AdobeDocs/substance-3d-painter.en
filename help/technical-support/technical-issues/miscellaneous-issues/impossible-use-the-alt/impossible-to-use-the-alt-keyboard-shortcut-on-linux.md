@@ -1,7 +1,15 @@
 ---
-title: "Impossible to use the ALT keyboard shortcut on Linux"
-description: ""
-helpx_description: "Painter > Technical support > Technical Issues > Miscellaneous Issues > Impossible to use the ALT keyboard shortcut on Linux"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/impossible-to-use-the-alt-keyboard-shortcut-on-linux.html"
+breadcrumb-title: ""
+description: Learn how to fix ALT keyboard shortcut issues on Linux in Substance 3D Painter for proper keyboard navigation.
+helpx_creative_field: ""
+helpx_description: Painter > Technical support > Technical Issues > Miscellaneous Issues > Impossible to use the ALT keyboard shortcut on Linux
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Impossible to use the ALT keyboard shortcut on Linux
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Impossible to use the ALT keyboard shortcut on Linux
@@ -12,11 +20,11 @@ If you are running a Linux distribution (**Ubuntu**  or  **CentOS**) which use  
 
 1 - Go to  **System &gt; Windows**
 
-![](centos-window.png){width="250px"}
+![](../../../../assets/centos-window.png){width="250px"}
 
 2 - Change the "movement key" setting to something else than "  **Alt**  ". For example use "  **Super**  " (to choose the "Windows" key of your keyboard).
 
-![](centos-setting.png){width="350px"}
+![](../../../../assets/centos-setting.png){width="350px"}
 
 ## Ubuntu
 
@@ -36,4 +44,4 @@ This will install an advanced configuration tool, you might have to allow additi
 
 4 - Edit the "mouse-button-modifier" and change it value. Set it  or  instead, but  *don't leave it empty*  . Super is an equivalent to the "Windows" key.
 
-![](ubuntu-setting.png){width="500px"}
+![](../../../../assets/ubuntu-setting.png){width="500px"}

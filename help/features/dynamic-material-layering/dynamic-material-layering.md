@@ -1,16 +1,24 @@
 ---
-title: "Dynamic Material Layering"
-description: ""
-helpx_description: "Painter > Features > Dynamic Material Layering"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/dynamic-material-layering.html"
+breadcrumb-title: ""
+description: Learn how to use dynamic material layering in Substance 3D Painter to blend and combine materials with procedural masks.
+helpx_creative_field: ""
+helpx_description: Painter > Features > Dynamic Material Layering
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Dynamic Material Layering
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Dynamic Material Layering
 
-![](dynamic-material-blending-materials.jpg){width="450px"}
+![](../../assets/dynamic-material-blending-materials.jpg){width="450px"}
 
 **Dynamic Material Layering**  is a specific workflow where generic materials are mixed together inside a shader instead of into a single texture. The main advantage of this workflow is that the blending is dynamic and allow to control and preserve a certain level of quality by tilling generic materials inside the shader. While materials are generic, the masks used to blend the materials are specific to mesh and therefore don't repeat.
 
-![](tilling-mat-layer.gif){width="400px"}
+![](../../assets/tilling-mat-layer.gif){width="400px"}
 
 To enable the material layering workflow, a specific shader is required.   
  The shader "  **pbr-material-layering**  " shipped by default with Substance 3D Painter allow to blend 4 materials with 3 masks.
@@ -41,7 +49,7 @@ In this shader sub-stacks can be defined and be sampled directly by the shader. 
 ```
 
 
-![](sub-stacks.png) In this example, the shader will create 3 sub-stacks on a given texture set with an "opacity" channel in each. Sub-stacks can be accessed in the TextureSet list window :
+![](../../assets/sub-stacks.png) In this example, the shader will create 3 sub-stacks on a given texture set with an "opacity" channel in each. Sub-stacks can be accessed in the TextureSet list window :
 
 Because the  **channels**  of the sub-layer stacks are defined  **in the shader**  , it is impossible to add new channels in the texture set settings. To add or remove a channel an update of the shader file is required.
 
@@ -76,7 +84,7 @@ While it is possible to setup sub-stacks to define Materials in addition to Mask
 ```
 
 
-![](materials.png) Here is the result when some materials (substance materials or material presets) have been loaded :
+![](../../assets/materials.png) Here is the result when some materials (substance materials or material presets) have been loaded :
 
 The material resolution can be defined with the "size" parameter. It is also possible to load materials by default when the shader is created with the "default" parameter (by using the name/label of the ressource that need to be loaded).
 
@@ -100,9 +108,9 @@ In this specific workflow the most important part are the mask and the shader pa
 
 At the moment the packing of masks into a single texture is not supported during export. However a simple workaround to that would be to use the scripting features and call the Substance Batch Tools to do the packing with a Substance instead.
 
-![](export-window-shader.png)
+![](../../assets/export-window-shader.png)
 
 This JSON file can then be used to setup the layer stacks and shaders of a project.   
  This allow to do back and forth between multiple application easily by sharing common parameters.
 
-![](import-jsons.png)
+![](../../assets/import-jsons.png)

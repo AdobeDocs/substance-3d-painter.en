@@ -1,12 +1,20 @@
 ---
-title: "Color Profile"
-description: ""
-helpx_description: "Painter > Features > Post Processing > Color Profile"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/color-profile.html"
+breadcrumb-title: ""
+description: Learn how to use color profile post-processing in Substance 3D Painter to apply color grading and LUT transformations.
+helpx_creative_field: ""
+helpx_description: Painter > Features > Post Processing > Color Profile
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Color Profile
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Color Profile
 
-![](doc-lut-example.jpg){width="700px"}
+![](../../../assets/doc-lut-example.jpg){width="700px"}
 
 Substance 3D Painter allows to assign  **Color Profiles**  to the  **viewports**  by loading  **LUT**  textures.   
  A color profile can be used to calibrate the final color of the screen to match a target, such as a specific camera. Often a profile will manipulate colors by changing the brightness, the gamma, the contrast or even the color balance.
@@ -21,7 +29,7 @@ Substance 3D Painter allows to assign  **Color Profiles**  to the  **viewports**
 A Color Profile can be loaded via the Display Settings window.   
  Check the "  **Activate Color Profile**  " checkbox to affect the viewport and enable a Color Profile.
 
-![](color-profile-ui.png)
+![](../../../assets/color-profile-ui.png)
 
 * When "Activate Color Profile" is  **disabled**  the rendering of the viewport is done in  **sRGB**  for the Material view (and Linear for some specific channels)
 * When "Activate Color Profile" is  **enabled**  the rendering of the viewport is done in  **Linear/Raw**  for every view (including solo channels)
@@ -42,7 +50,7 @@ float3 Output = clamp( HDR.rgb * Value, 0.0f, 1.0f );
 ```
 
 
-It is possible to apply a specific tone-mapping before using a the Color Profile. See the functions available in the [Tone Mapping](../tone-mapping/tone-mapping.md).  
+It is possible to apply a specific tone-mapping before using a the Color Profile. See the functions available in the [Tone Mapping](../../../features/post-processing/tone-mapping/tone-mapping.md).  
  Substance 3D Painter doesn't process the input color other than via the white point setting. There are no Shaper LUT applied for example.
 
 ## Creating Color Profiles

@@ -1,7 +1,15 @@
 ---
-title: "Quick mask"
-description: ""
-helpx_description: "Painter > Painting > Tool list > Quick mask"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/quick-mask.html"
+breadcrumb-title: ""
+description: Use the Quick Mask tool in Substance 3D Painter to quickly create and edit masks for precise texture painting control.
+helpx_creative_field: ""
+helpx_description: Painter > Painting > Tool list > Quick mask
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Quick mask
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Quick mask

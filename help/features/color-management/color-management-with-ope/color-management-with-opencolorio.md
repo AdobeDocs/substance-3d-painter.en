@@ -1,7 +1,15 @@
 ---
-title: "Color management with OpenColorIO"
-description: ""
-helpx_description: "Painter > Features > Color management > Color management with OpenColorIO"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/color-management/color-management-with-opencolorio.html"
+breadcrumb-title: ""
+description: Learn how to use OpenColorIO color management in Substance 3D Painter for consistent color workflows across pipelines.
+helpx_creative_field: ""
+helpx_description: Painter > Features > Color management > Color management with OpenColorIO
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Color management with OpenColorIO
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Color management with OpenColorIO
@@ -10,7 +18,7 @@ This page lists the color management settings related to OpenColorIO (OCIO).
 
 ## Project settings
 
-![](project-settings-3.png)
+![](../../../assets/project-settings-3.png)
 
 The project settings can be set when creating a new project via the [new project](../../../getting-started/project-creation/project-creation.md) window or by using the [project configuration](../../../interface/project-configuration/project-configuration.md) window.
 

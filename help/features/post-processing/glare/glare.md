@@ -1,12 +1,20 @@
 ---
-title: "Glare"
-description: ""
-helpx_description: "Painter > Features > Post Processing > Glare"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/glare.html"
+breadcrumb-title: ""
+description: Learn how to use the glare post-processing effect in Substance 3D Painter to add lens flare and bloom effects to bright areas.
+helpx_creative_field: ""
+helpx_description: Painter > Features > Post Processing > Glare
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Glare
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Glare
 
-![](glare-example.jpg)![](glare.png)
+![](../../../assets/glare-example.jpg)![](../../../assets/glare.png)
 
 Description of the parameters :
 
@@ -19,4 +27,4 @@ Description of the parameters :
 
 ## Shape examples
 
-![](bloom-examples-bloom.jpg)![](bloom-examples-standard.jpg)![](bloom-examples-cross.jpg)![](bloom-examples-snow.jpg)![](bloom-examples-sunny.jpg)![](bloom-examples-streak.jpg)
+![](../../../assets/bloom-examples-bloom.jpg)![](../../../assets/bloom-examples-standard.jpg)![](../../../assets/bloom-examples-cross.jpg)![](../../../assets/bloom-examples-snow.jpg)![](../../../assets/bloom-examples-sunny.jpg)![](../../../assets/bloom-examples-streak.jpg)

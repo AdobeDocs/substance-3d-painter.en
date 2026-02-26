@@ -1,7 +1,15 @@
 ---
-title: "Filter"
-description: ""
-helpx_description: "Painter > Features > Effects > Filter"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/filter.html"
+breadcrumb-title: ""
+description: Learn how to use filter effects in Substance 3D Painter to apply image processing filters and texture adjustments.
+helpx_creative_field: ""
+helpx_description: Painter > Features > Effects > Filter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Filter
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Filter
@@ -22,14 +30,14 @@ In the following example a blur filter is applied on the content of a layer, but
 Start by selecting the content of a layer (left thumbnail) then click on the effect button (or right click to open the context menu).   
 Select the option "  **add filter**  " in the list.
 
-![](add-filter.gif)
+![](../../../assets/add-filter.gif)
 
 ### 2 - Select the filter in the properties window
 
 In the properties window, the parameters or the filter are currently empty. Only the selection button is available.   
 Click on the button to open the mini-shelf and select the desired filter, here we choose the blur filter.
 
-![](filter-select-shelf.gif)
+![](../../../assets/filter-select-shelf.gif)
 
 ## Drag-and-Drop a Filter from the Shelf
 
@@ -39,13 +47,13 @@ This method is only intended for filters that should apply to the whole Layersta
 
 In the Shelf, click the "Filters" section to the left.
 
-![](shelf-filters.gif)
+![](../../../assets/shelf-filters.gif)
 
 ## 2 - Drag-and-Drop the Filter
 
 Select the filter you want to use in the shelf. Drag and Drop it into your layerstack, ensuring it is placed at the correct location (avoid dropping it into unwanted groups for example).
 
-![](filter-dragdrop.gif)
+![](../../../assets/filter-dragdrop.gif)
 
 Note how in the above example the dropped filter already has a Passthrough Blending mode. This is true for all channels of the document.
 

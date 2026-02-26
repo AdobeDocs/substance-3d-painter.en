@@ -1,7 +1,15 @@
 ---
-title: "Lib SSS - Shader API"
-description: ""
-helpx_description: "Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib SSS - Shader API"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sss-shader-api.html"
+breadcrumb-title: ""
+description: Access the Lib SSS shader API reference for Substance 3D Painter to create subsurface scattering effects in custom shaders.
+helpx_creative_field: ""
+helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib SSS - Shader API
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Lib SSS - Shader API
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Lib SSS - Shader API

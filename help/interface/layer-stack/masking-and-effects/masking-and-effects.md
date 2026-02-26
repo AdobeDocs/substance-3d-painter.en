@@ -1,7 +1,15 @@
 ---
-title: "Masking and effects"
-description: ""
-helpx_description: "Painter > Interface > Layer stack > Masking and effects"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/masking-and-effects.html"
+breadcrumb-title: ""
+description: Learn how to use masking and effects in Substance 3D Painter layer stack to control layer visibility and apply layer effects.
+helpx_creative_field: ""
+helpx_description: Painter > Interface > Layer stack > Masking and effects
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Masking and effects
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Masking and effects
@@ -12,7 +20,7 @@ Layers can be masked in order to display/apply their content only on specific pa
 
 You can add a mask by using the right click menu or by using the dedicated button :
 
-![](layer-mask.gif)
+![](../../../assets/layer-mask.gif)
 
 Possible operations on masks :
 
@@ -27,7 +35,7 @@ Possible operations on masks :
 
 It is possible to immediately create a mask when creating a fill layer (via drag and drop) if the **CTRL** key is pressed :
 
-![](mask-material-optimized.gif)
+![](../../../assets/mask-material-optimized.gif)
 
 ## Effects
 
@@ -36,7 +44,7 @@ However so effects are more appropriate for on for the other. For example the "g
 
 The line under each thumbnail on a layer indicate if effects exist. Grey equals no effects, red equals at least one effect. There is an effect stack is per mask and per content.
 
-![](effect.gif)
+![](../../../assets/effect.gif)
 
 For more information, [see the dedicated page](../../../features/effects/effects.md).
 
@@ -45,18 +53,18 @@ For more information, [see the dedicated page](../../../features/effects/effects
 The smart masks are a way to save a mask and its effect to easily re-use them on other layers or other projects. To create a smart mask, simply right click over a mask and choose "**Create smart mask**".  
 When drag and dropping a smart mask onto a layer, a black mask will be created if it doesn't already exist, otherwise the effects list will be merged with the existing one. It is possible to overwrite completely the effect list by keeping "**CTRL**" pressed when dropping the smart mask.
 
-![](smart-mask-new-optimized.gif)
+![](../../../assets/smart-mask-new-optimized.gif)
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](smart-mask-add-optimized.gif)
+![](../../../assets/smart-mask-add-optimized.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](smart-mask-overwrite-optimized.gif)
+![](../../../assets/smart-mask-overwrite-optimized.gif)
 
 </td>
 </tr>

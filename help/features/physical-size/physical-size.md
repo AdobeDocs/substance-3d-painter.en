@@ -1,12 +1,20 @@
 ---
-title: "Physical size"
-description: ""
-helpx_description: "Painter > Features > Physical size"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/physical-size.html"
+breadcrumb-title: ""
+description: Learn how to set physical size in Substance 3D Painter to define real-world dimensions for accurate texture scaling.
+helpx_creative_field: ""
+helpx_description: Painter > Features > Physical size
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Physical size
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Physical size
 
-![](banner-physicalsize-2.png)
+![](../../assets/banner-physicalsize-2.png)
 
 The physical size is a property inside Substance materials that defines their real size. It can be used to accurately match the size and look of materials over 3D surfaces. Painter uses centimeters as the default internal unit.
 

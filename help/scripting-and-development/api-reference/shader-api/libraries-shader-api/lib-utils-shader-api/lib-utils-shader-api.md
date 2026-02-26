@@ -1,7 +1,15 @@
 ---
-title: "Lib Utils - Shader API"
-description: ""
-helpx_description: "Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Utils - Shader API"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-utils-shader-api.html"
+breadcrumb-title: ""
+description: Access the Lib Utils shader API reference for Substance 3D Painter to use utility functions in custom shader development.
+helpx_creative_field: ""
+helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Utils - Shader API
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Lib Utils - Shader API
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Lib Utils - Shader API

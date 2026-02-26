@@ -1,7 +1,15 @@
 ---
-title: "Exporting the log file"
-description: ""
-helpx_description: "Painter > Technical support > Exporting the log file"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/exporting-the-log-file.html"
+breadcrumb-title: ""
+description: Learn how to export log files from Substance 3D Painter for troubleshooting and technical support purposes.
+helpx_creative_field: ""
+helpx_description: Painter > Technical support > Exporting the log file
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Exporting the log file
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Exporting the log file
@@ -16,7 +24,7 @@ There are two ways of obtaining the log file:
 
 The log file can be directly exported from the application by going into the **Help** menu and selecting the **Export log** action.
 
-![](screenshot-20210622-195334.png)
+![](../../assets/screenshot-20210622-195334.png)
 
 ### Retrieving the log file manually on the disk
 
@@ -32,4 +40,4 @@ If the application doesn't launch it will not be possible to export the log file
 
 When writing a message, use the attachment area to insert your log file:
 
-![](screenshot-20210708-113456.png)
+![](../../assets/screenshot-20210708-113456.png)

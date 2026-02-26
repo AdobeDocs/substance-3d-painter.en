@@ -1,16 +1,24 @@
 ---
-title: "Smudge tool"
-description: ""
-helpx_description: "Painter > Painting > Tool list > Smudge tool"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/smudge-tool.html"
+breadcrumb-title: ""
+description: Use the Smudge tool in Substance 3D Painter to blend and smudge paint strokes for creating smooth texture transitions.
+helpx_creative_field: ""
+helpx_description: Painter > Painting > Tool list > Smudge tool
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Smudge tool
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Smudge tool
 
-![](image2018-6-12-18-14-12.png)
+![](../../../assets/image2018-6-12-18-14-12.png)
 
 Introduced in Substance 3D Painter 2 the smudge tool shares the same type of parameters as as the  [paint tool](https://support.allegorithmic.com/documentation/display/SPDOC/Paint+brush)  .
 
-![](smudge.gif)
+![](../../../assets/smudge.gif)
 
 ## Usage
 

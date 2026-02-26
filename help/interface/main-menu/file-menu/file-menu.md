@@ -1,12 +1,20 @@
 ---
-title: "File menu"
-description: ""
-helpx_description: "Painter > Interface > Main menu > File menu"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/file-menu.html"
+breadcrumb-title: ""
+description: Learn how to use the File menu in Substance 3D Painter to manage projects, import assets, and export textures.
+helpx_creative_field: ""
+helpx_description: Painter > Interface > Main menu > File menu
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: File menu
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # File menu
 
-![](file-menu.png){width="150px"}
+![](../../../assets/file-menu.png){width="150px"}
 
 The file menu contains the actions for creating and saving the projects and as well the actions for exporting and importing resources into a project.
 

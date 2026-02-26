@@ -1,7 +1,15 @@
 ---
-title: "Export"
-description: ""
-helpx_description: "Painter > Getting Started > Export"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export.html"
+breadcrumb-title: ""
+description: Learn how to export textures from Substance 3D Painter in various formats for use in other applications and game engines.
+helpx_creative_field: ""
+helpx_description: Painter > Getting Started > Export
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Export
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Export
@@ -12,9 +20,9 @@ Textures are exported as a collection of bitmaps. Painter offers a lot of flexib
 
 You open the <b>Export window</b> and start exporting textures with <b>File &gt; Export Textures</b>, or use keyboard shortcut <b>CTRL + SHIFT + E</b>. Use the following links to learn more about Exporting textures:
 
-* [Export window](export-window/export-window.md)
-* [Output templates](export-presets/export-presets.md)
-* [Modify or create Output templates](creating-export-presets/creating-export-presets.md)
+* [Export window](../../getting-started/export/export-window/export-window.md)
+* [Output templates](../../getting-started/export/export-presets/export-presets.md)
+* [Modify or create Output templates](../../getting-started/export/creating-export-presets/creating-export-presets.md)
 
 ### Export your mesh
 
@@ -27,4 +35,4 @@ When exporting a mesh you will have a few options:
 * <b>With displacement/tessellation</b>: Painter tessellates the mesh, adding more polygons, and uses displacement or height to change the surface geometry of the mesh.
   * <b>Recompute vertex normals</b>: modifying the surface of the mesh can result in incorrect normals of pre-existing vertices. By enabling this option, Painter will automatically update vertex normals to the correct value for the new surface.
 
-![](export-render.jpg){width="500px"}
+![](../../assets/export-render.jpg){width="500px"}

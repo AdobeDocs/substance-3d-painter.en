@@ -1,7 +1,15 @@
 ---
-title: "Windows Blue Screens"
-description: ""
-helpx_description: "Painter > Technical support > Technical Issues > Stability Issues > Windows Blue Screens"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/windows-blue-screens.html"
+breadcrumb-title: ""
+description: Learn how to prevent Windows blue screen errors when using Substance 3D Painter for stable system operation.
+helpx_creative_field: ""
+helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Windows Blue Screens
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Windows Blue Screens
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Windows Blue Screens
@@ -10,7 +18,7 @@ On Windows  [Blue Screens Of Death (BSOD)](https://en.wikipedia.org/wiki/Blue_sc
 
 ## Unstable GPU drivers
 
-Substance 3D Painter relies a lot on the GPU to perform its various computation. GPU drivers can sometimes be unstable or have regressions. We recommend to keep the GPU up to date to get the latest fixes and performance improvements. See: [GPU has outdated drivers](../../gpu-issues/gpu-has-outdated-drivers/gpu-has-outdated-drivers.md).
+Substance 3D Painter relies a lot on the GPU to perform its various computation. GPU drivers can sometimes be unstable or have regressions. We recommend to keep the GPU up to date to get the latest fixes and performance improvements. See: [GPU has outdated drivers](../../../../technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers/gpu-has-outdated-drivers.md).
 
 ### Unstable Windows installation
 

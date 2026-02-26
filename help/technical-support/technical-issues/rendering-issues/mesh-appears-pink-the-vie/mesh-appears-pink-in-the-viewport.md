@@ -1,12 +1,20 @@
 ---
-title: "Mesh appears pink in the viewport"
-description: ""
-helpx_description: "Painter > Technical support > Technical Issues > Rendering Issues > Mesh appears pink in the viewport"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/rendering-issues/mesh-appears-pink-in-the-viewport.html"
+breadcrumb-title: ""
+description: Learn how to fix pink mesh appearance in Substance 3D Painter viewport to restore proper material rendering.
+helpx_creative_field: ""
+helpx_description: Painter > Technical support > Technical Issues > Rendering Issues > Mesh appears pink in the viewport
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Mesh appears pink in the viewport
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Mesh appears pink in the viewport
 
-![](pink-mesh.jpg){width="400px"}
+![](../../../../assets/pink-mesh.jpg){width="400px"}
 
 The mesh can appear  **pink**  inside the viewport because the  **shader**  used to draw it  **doesn't compile anymore**  (as mentioned by the  **log window**  ). This can be caused by an outdated shader which doesn't support the latest version of the shader API.
 

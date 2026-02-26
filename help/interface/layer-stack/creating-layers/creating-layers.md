@@ -1,7 +1,15 @@
 ---
-title: "Creating layers"
-description: ""
-helpx_description: "Painter > Interface > Layer stack > Creating layers"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/creating-layers.html"
+breadcrumb-title: ""
+description: Learn how to create new layers in Substance 3D Painter to build complex textures with multiple painting layers.
+helpx_creative_field: ""
+helpx_description: Painter > Interface > Layer stack > Creating layers
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Creating layers
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Creating layers
@@ -10,20 +18,20 @@ There are multiple ways of adding/creating layers in the Layer Stack :
 
 | *Action* | *Demonstration* |
 | --- | --- |
-| Create a **paint layer** by clicking on the dedicated button <div><img data-preserve-html="true" height="25" src="image2020-9-30-11-57-18.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="create-layer.gif"/></div> |
-| Create a **fill layer** by clicking on the dedicated button <div><img data-preserve-html="true" height="25" src="image2020-9-30-11-57-32.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="fill-layer.gif"/></div> |
-| Create a **folder** by clicking on the dedicated button <div><img data-preserve-html="true" height="25" src="image2020-9-30-11-57-47.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="create-folder.gif"/></div> |
-| **Duplicate** a layer by using one of the following method :<ul data-preserve-html="true"><li data-preserve-html="true">Right-click &gt; Duplicate</li><li data-preserve-html="true">Shortcut CTRL+D or COMMAND+D</li><li data-preserve-html="true">Press and maintain CTRL or COMMAND and drag and drop the layer(s)</li></ul> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="duplicate.gif"/></div> |
-| Delete a layer by clicking on the dedicated button <div><img data-preserve-html="true" height="25" src="image2020-9-30-11-59-57.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r5-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="delete-layer.gif"/></div> |
+| Create a **paint layer** by clicking on the dedicated button <div><img data-preserve-html="true" height="25" src="../../../assets/image2020-9-30-11-57-18.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/create-layer.gif"/></div> |
+| Create a **fill layer** by clicking on the dedicated button <div><img data-preserve-html="true" height="25" src="../../../assets/image2020-9-30-11-57-32.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/fill-layer.gif"/></div> |
+| Create a **folder** by clicking on the dedicated button <div><img data-preserve-html="true" height="25" src="../../../assets/image2020-9-30-11-57-47.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/create-folder.gif"/></div> |
+| **Duplicate** a layer by using one of the following method :<ul data-preserve-html="true"><li data-preserve-html="true">Right-click &gt; Duplicate</li><li data-preserve-html="true">Shortcut CTRL+D or COMMAND+D</li><li data-preserve-html="true">Press and maintain CTRL or COMMAND and drag and drop the layer(s)</li></ul> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/duplicate.gif"/></div> |
+| Delete a layer by clicking on the dedicated button <div><img data-preserve-html="true" height="25" src="../../../assets/image2020-9-30-11-59-57.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r5-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/delete-layer.gif"/></div> |
 
 >[!NOTE]
 >
-> Some of these actions have an associated keyboard shortcut which can be consulted on the [dedicated page](../../settings/shortcuts/shortcuts.md).
+> Some of these actions have an associated keyboard shortcut which can be consulted on the [dedicated page](../../../interface/settings/shortcuts/shortcuts.md).
 
 Drag and dropping resources from the shelf can be a way of creating layers as well :
 
 | *Action* | *Demonstration* |
 | --- | --- |
-| Drag and Drop a **Material** from the [Assets](../../assets/assets.md) into the Layer Stack | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="dragdrop-material.gif"/></div> |
-| Drag and Drop a **Smart Material** from the [Assets](../../assets/assets.md) into the Layer Stack | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="dragdrop-smartmaterial.gif"/></div> |
-| Drag and Drop a **Effects** from the [Assets](../../assets/assets.md) into the Layer Stack | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="dragdrop-filter.gif"/></div> |
+| Drag and Drop a **Material** from the [Assets](../../../interface/assets/assets.md) into the Layer Stack | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/dragdrop-material.gif"/></div> |
+| Drag and Drop a **Smart Material** from the [Assets](../../../interface/assets/assets.md) into the Layer Stack | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/dragdrop-smartmaterial.gif"/></div> |
+| Drag and Drop a **Effects** from the [Assets](../../../interface/assets/assets.md) into the Layer Stack | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/dragdrop-filter.gif"/></div> |

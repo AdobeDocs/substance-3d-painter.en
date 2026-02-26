@@ -1,7 +1,15 @@
 ---
-title: "Sub-library tab"
-description: ""
-helpx_description: "Painter > Interface > Assets > Sub-library tab"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/sub-library-tab.html"
+breadcrumb-title: ""
+description: Learn how to use the sub-library tab in Substance 3D Painter to organize and access nested resource libraries.
+helpx_creative_field: ""
+helpx_description: Painter > Interface > Assets > Sub-library tab
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Sub-library tab
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Sub-library tab
@@ -11,11 +19,11 @@ There is no sub-library tab open by default, only the main Assets window. You ca
 
 * By  **right-clicking**  on one of the saved searches and choosing **Create new tab.**
 
-![](08-01-sublibrary.jpg)
+![](../../../assets/08-01-sublibrary.jpg)
 
 * By  **choosing or entering a search query** (via asset types, breadcrumbs, text query or Filter by path) and then using the dedicated  **button**  at the bottom of the Assets window.
 
-![](08-02-sublibrary.jpg)
+![](../../../assets/08-02-sublibrary.jpg)
 
 Creating a sub-library will automatically create a new tab and  **dock it**  in the interface within the same space as the main Assets window.
 

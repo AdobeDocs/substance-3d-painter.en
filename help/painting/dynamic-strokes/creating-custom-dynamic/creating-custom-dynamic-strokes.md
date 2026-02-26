@@ -1,7 +1,15 @@
 ---
-title: "Creating Custom Dynamic Strokes"
-description: ""
-helpx_description: "Painter > Painting > Dynamic strokes > Creating Custom Dynamic Strokes"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes/creating-custom-dynamic-strokes.html"
+breadcrumb-title: ""
+description: Learn how to create custom dynamic strokes in Substance 3D Painter to design unique brush stroke behaviors and effects.
+helpx_creative_field: ""
+helpx_description: Painter > Painting > Dynamic strokes > Creating Custom Dynamic Strokes
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Creating Custom Dynamic Strokes
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Creating Custom Dynamic Strokes
@@ -11,13 +19,13 @@ In order to create custom Dynamic Strokes, two options are available:
 * Using an existing Substance resource to create a new brush/tool preset
 * Create a new Substance resource from scratch (requires  [Substance 3D Designer](https://substance3d.adobe.com/display/SDDOC/Substance+Designer)  ).
 
-It is also recommended to read the [Dynamic Stroke Performances](../dynamic-stroke-per/dynamic-stroke-performances.md) before creating custom Substance files to avoid any culprits.
+It is also recommended to read the [Dynamic Stroke Performances](../../../painting/dynamic-strokes/dynamic-stroke-per/dynamic-stroke-performances.md) before creating custom Substance files to avoid any culprits.
 
 ## Reusing existing resource
 
 Creating new Dynamic Strokes from scratch can be difficult. Using existing resources, tweaking them, and then saving them as new presets can be a good enough starting point.
 
-Find compatible resources in the Shelf that may fit your needs, then check out our page about [Presets](../../presets/presets.md).
+Find compatible resources in the Shelf that may fit your needs, then check out our page about [Presets](../../../painting/presets/presets.md).
 
 ## Creating custom Substance files for Dynamic Strokes
 

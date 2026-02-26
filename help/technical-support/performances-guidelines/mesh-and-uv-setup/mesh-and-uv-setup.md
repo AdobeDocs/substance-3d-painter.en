@@ -1,7 +1,15 @@
 ---
-title: "Mesh and UV setup"
-description: ""
-helpx_description: "Painter > Technical support > Performances guidelines > Mesh and UV setup"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/performances-guidelines/mesh-and-uv-setup.html"
+breadcrumb-title: ""
+description: Learn best practices for mesh and UV setup in Substance 3D Painter to optimize performance and texture quality.
+helpx_creative_field: ""
+helpx_description: Painter > Technical support > Performances guidelines > Mesh and UV setup
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Mesh and UV setup
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Mesh and UV setup

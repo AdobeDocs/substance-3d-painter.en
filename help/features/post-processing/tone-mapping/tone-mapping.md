@@ -1,12 +1,20 @@
 ---
-title: "Tone Mapping"
-description: ""
-helpx_description: "Painter > Features > Post Processing > Tone Mapping"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/tone-mapping.html"
+breadcrumb-title: ""
+description: Learn how to use tone mapping post-processing in Substance 3D Painter to adjust exposure and color grading in the viewport.
+helpx_creative_field: ""
+helpx_description: Painter > Features > Post Processing > Tone Mapping
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Tone Mapping
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Tone Mapping
 
-![](tone-mapping.png)
+![](../../../assets/tone-mapping.png)
 
 The Tone Mapping parameters allow to control how the colors will be scaled to be displayed on the screen. Those settings can be useful to redistribute colors because of their wide range of values (which can exceed what the current screen is capable of displaying).
 

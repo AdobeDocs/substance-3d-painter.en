@@ -1,7 +1,15 @@
 ---
-title: "Environment variables"
-description: ""
-helpx_description: "Painter > Pipeline and integration > Configuration > Environment variables"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/configuration/environment-variables.html"
+breadcrumb-title: ""
+description: Learn how to use environment variables in Substance 3D Painter to configure application behavior and pipeline integration.
+helpx_creative_field: ""
+helpx_description: Painter > Pipeline and integration > Configuration > Environment variables
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Environment variables
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Environment variables
@@ -22,4 +30,4 @@ This page list environment variables that can be used to override the default be
 | **PAINTER\_ACE\_CONFIG** | Path to a json file which will be used to drive the [Color management](../../../features/color-management/color-management.md) settings with Adobe ACE. | <ol data-preserve-html="true"><li data-preserve-html="true">1</li></ol> |
 | **SUBSTANCE\_DISABLE\_SPECIFIC\_FEATURES** | Disable several functionalities inside the applications:<ul data-preserve-html="true"><li data-preserve-html="true">Links to external resources (help, webpages, samples, etc)</li><li data-preserve-html="true">Disable checks for updates</li><li data-preserve-html="true">Disable sending of usage statistics</li><li data-preserve-html="true">Disable export to Substance Share</li><li data-preserve-html="true">Disable Welcome and What's new panels</li></ul> | <ol data-preserve-html="true"><li data-preserve-html="true">1</li></ol> |
 | **ALG\_PAINTER\_DEBUG\_FPS** | Display inside the viewport a counter of how many frames per second are rendered by the viewport. | <ol data-preserve-html="true"><li data-preserve-html="true">1</li></ol> |
-| **SUBSTANCE\_PAINTER\_VRAM\_BUDGET** | Specify how much GPU memory Painter can uses. This define a global budget in MB. For example to define a limit of 4GB use the value 4000.A command line argument can also be used to perform the same action. See [Command lines](../command-lines/command-lines.md). | <ol data-preserve-html="true"><li data-preserve-html="true">2.1</li></ol> |
+| **SUBSTANCE\_PAINTER\_VRAM\_BUDGET** | Specify how much GPU memory Painter can uses. This define a global budget in MB. For example to define a limit of 4GB use the value 4000.A command line argument can also be used to perform the same action. See [Command lines](../../../pipeline-and-integration/configuration/command-lines/command-lines.md). | <ol data-preserve-html="true"><li data-preserve-html="true">2.1</li></ol> |

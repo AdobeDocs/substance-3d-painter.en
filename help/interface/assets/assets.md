@@ -1,7 +1,15 @@
 ---
-title: "Assets"
-description: ""
-helpx_description: "Painter > Interface > Assets"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets.html"
+breadcrumb-title: ""
+description: Learn how to use the Assets panel in Substance 3D Painter to browse, search, and manage your resource library.
+helpx_creative_field: ""
+helpx_description: Painter > Interface > Assets
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Assets
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Assets
@@ -10,7 +18,7 @@ The Asset window allows you to access the default resources that come with the a
 
 * On disk, the **Starter assets** library is stored within the application's installation folder, whereas assets imported to **Your assets** library by default are located in the Documents folder.
 * For more information on where your assets are stored on disk, see [Adding content on the hard drive](../../content/importing-assets/adding-content-the-hard/adding-content-on-the-hard-drive.md).
-* It is also possible to add a different library location. For that, please take a look at [Adding a new library](adding-a-new-library/adding-a-new-library.md).
+* It is also possible to add a different library location. For that, please take a look at [Adding a new library](../../interface/assets/adding-a-new-library/adding-a-new-library.md).
 
 ## Overview
 
@@ -22,14 +30,14 @@ The Assets window is divided into three main sections by default:
 
 ### Filter area
 
-For more information see the [Navigation page](navigation/navigation.md).
+For more information see the [Navigation page](../../interface/assets/navigation/navigation.md).
 
-![](v10_assets_overview_1.png)
+![](../../assets/v10_assets_overview_1.png)
 
 #### Assets list
 
-![](v10_assets_list.png)
+![](../../assets/v10_assets_list.png)
 
 #### Bottom bar
 
-![](v10_assets_overview_2.png)
+![](../../assets/v10_assets_overview_2.png)

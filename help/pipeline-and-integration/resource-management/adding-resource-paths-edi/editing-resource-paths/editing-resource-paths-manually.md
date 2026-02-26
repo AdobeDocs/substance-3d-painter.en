@@ -1,7 +1,15 @@
 ---
-title: "Editing resource paths manually"
-description: ""
-helpx_description: "Painter > Pipeline and integration > Resource management > Adding resource paths by editing preferences manually > Editing resource paths manually"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually/editing-resource-paths-manually.html"
+breadcrumb-title: ""
+description: Learn how to edit resource paths manually in Substance 3D Painter preferences to customize your shelf resource locations.
+helpx_creative_field: ""
+helpx_description: Painter > Pipeline and integration > Resource management > Adding resource paths by editing preferences manually > Editing resource paths manually
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Editing resource paths manually
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Editing resource paths manually
@@ -22,12 +30,12 @@ On Windows paths can be managed via the Windows Registry:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](reg-shelf-pathinfos.png)
+![](../../../../assets/reg-shelf-pathinfos.png)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](reg-content.png)
+![](../../../../assets/reg-content.png)
 
 </td>
 </tr>
@@ -46,7 +54,7 @@ On Windows paths can be managed via the Windows Registry:
 
 It is possible to define the new path as the default one (were new resources are created, like presets) by changing the value of the entry **writableShelf** to the name of the new location.
 
-![](default-shelf.png)
+![](../../../../assets/default-shelf.png)
 
 ## Adding a path on Linux
 

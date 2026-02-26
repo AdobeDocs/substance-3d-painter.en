@@ -1,7 +1,15 @@
 ---
-title: "Version 2.2"
-description: ""
-helpx_description: "Painter > Release notes > Old versions > Version 2.2"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2-2.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Painter version 2.2 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Painter > Release notes > Old versions > Version 2.2
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 2.2
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Version 2.2
@@ -14,13 +22,13 @@ Release date : *21 July 2016*
 
 ### New Dynamic Material Layering workflow
 
-![](dynamic-material-blending-materials-preview.jpg)
+![](../../../assets/dynamic-material-blending-materials-preview.jpg)
 
 With this new version we add a new **workflow** called the **Material Layering**. Traditional texturing workflows rely on creating textures at **high resolution** to **preserve details** but this is **not convenient** for the use case. A more interesting approach instead is to **create small tilling material** and **repeat them inside a shader**. It allows to preserve a certain quality and the ability to **zoom really close** to the object using this shader **without losing details**. The only problem is that to preview the end result it was previously mandatory to go to the game engine/renderer that display the final shader. That's not true anymore since in this new version it is now possible to use a similar shader inside Substance Painter, which let you **visualize the end result and paint at the same time**.
 
 A **new sample project** named "**FireHydrant**" has been added to showcase the new workflow.
 
-![](layer-stacks.png)
+![](../../../assets/layer-stacks.png)
 
 This new workflow opens two ways of working :
 
@@ -37,7 +45,7 @@ For more details, see the dedicated page of the documentation : [Dynamic Materia
 
 ### New mini-shelf search field
 
-![](mini-shelf-search.gif)
+![](../../../assets/mini-shelf-search.gif)
 
 We improved the **mini shelf** that appear in various place of the application with a dedicated search field. This improvement makes the search for ressources much more convneient and pleasant to use. The custom search is preserved during the current session of the application. For example, if you use a lot grunge noises, using this keyword will makes
 

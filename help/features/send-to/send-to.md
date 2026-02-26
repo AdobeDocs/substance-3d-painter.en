@@ -1,12 +1,20 @@
 ---
-title: "Send to"
-description: ""
-helpx_description: "Substance 3D Painter"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/send-to.html"
+breadcrumb-title: ""
+description: Learn how to use the Send to feature in Substance 3D Painter to transfer projects and assets to other Substance 3D applications.
+helpx_creative_field: ""
+helpx_description: Substance 3D Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Send to
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Send to
 
-![Banner image](sendto_banner.jpg)
+![Banner image](../../assets/sendto_banner.jpg)
 
 <b>Send to</b> are actions to easily export and import resources from a project into another application, avoiding the need to do it manually. Send to can be used to export the 3D model and its textures into another rendering application, or to recieve Substance materials from Substance 3D Designer.
 

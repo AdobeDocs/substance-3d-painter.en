@@ -1,7 +1,15 @@
 ---
-title: "Version 7.2"
-description: ""
-helpx_description: "Painter > Release notes > Old versions > Version 7.2"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-7-2.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Painter version 7.2 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Painter > Release notes > Old versions > Version 7.2
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 7.2
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Version 7.2
@@ -14,7 +22,7 @@ Release date: *23 June 2021*
 
 ### New Assets window
 
-![](banner-assets.jpg)
+![](../../../assets/banner-assets.jpg)
 
 The old Shelf window has been improved and renamed as the Assets window. This redesign focus on making content more quickly accessible and easier to filter with the new dedicated icons. It also comes with an easier navigation system with the breadcrumbs. This redesign also focus on making the experience similar to other Substance 3D software so that managing content across applications is easier.
 
@@ -25,22 +33,22 @@ The old Shelf window has been improved and renamed as the Assets window. This re
 * **New design and layout**  
   The new design focus on simplicity but as well on easier organization of the window. The window can now be docked vertically without wasting space. A new "list" display mode allows to search assets by name much more easily.
 
-  ![](assets-vertical.png)
+  ![](../../../assets/assets-vertical.png)
 
 * **New breadcrumb navigation**  
   Navigation resource can be hard sometimes in a tiny UI. With the breadcrumb is not now easier to jump between folders without having to display the full folder hierarchy.
 
-  ![](breadcrumbs-2.png)
+  ![](../../../assets/breadcrumbs-2.png)
 
 * **New usage filters**  
   There is a lot of different content in the Assets window and the usages are a good way to filter content isolate specific resources. To select a specific usage simply click on the dedicated button. To add or remove multiple usages, press and maintain CTRL while clicking on a button.
 
-  ![](demo-filters.gif)
+  ![](../../../assets/demo-filters.gif)
 
 * **Improved thumbnail rendering**  
   We took the time to rework our thumbnail generation system to improve their quality and make them look more consistent across the the Substance 3D ecosystem. We also added the support of displacement.
 
-  ![](cropped-icons-before-after.jpg){width="500px"}
+  ![](../../../assets/cropped-icons-before-after.jpg){width="500px"}
 
 * **Loading thumbnails from Substance Archives (sbsar)**  
   Custom thumbnails embedded inside Substance files are not loaded and displayed in the Assets window. Sharing custom resources is now easier as there is no need to include the resource metadata for custom icons.
@@ -52,7 +60,7 @@ The old Shelf window has been improved and renamed as the Assets window. This re
 
 ### New Adobe Standard Material workflow
 
-![](banner-asm.jpg)
+![](../../../assets/banner-asm.jpg)
 
 A new shader has been added, named **Adobe Standard Material** (ASM), which supports several features at once allowing to build more complex and accurate materials within a single Texture Set. With this new shader we also took the opportunity to add new channels to make the creation of materials easier as well.
 
@@ -82,7 +90,7 @@ A new shader has been added, named **Adobe Standard Material** (ASM), which supp
 * **Improved Texture Set settings**  
   The channel list menu in the Texture Set settings now groups channels base don their compatibility with the current shader. This helps identify which channels will have an effect in the viewport.
 
-  ![](channel-list-grouping.png)
+  ![](../../../assets/channel-list-grouping.png)
 
 * **New Shader API features with visible if and recompilation**  
   With the development of the ASM shader some changes in the API have been made with two notable features:  
@@ -91,7 +99,7 @@ A new shader has been added, named **Adobe Standard Material** (ASM), which supp
 
 ### New Substance 3D ecosystem exchange
 
-![](banner-send-to.jpg)
+![](../../../assets/banner-send-to.jpg)
 
 Sending resources and assets between Substance 3D applications is now much easier and accessible in one click with this new workflow. It is now possible to receive Substance files from Substance 3D Designer or Substance 3D Sampler or to send a project into Substance 3D Stager very easily to quickly iterate on content.
 
@@ -116,7 +124,7 @@ Sending resources and assets between Substance 3D applications is now much easie
 
 ### New content
 
-![](banner-content-5.jpg)
+![](../../../assets/banner-content-5.jpg)
 
 New content has been added in this release:
 
@@ -141,7 +149,7 @@ New content has been added in this release:
 
 ### Improved Automatic UV Unwrapping
 
-![](banner-uv.jpg)
+![](../../../assets/banner-uv.jpg)
 
 A new update of the automatic UV unwrapping has been added which brings the support of UV Tiles and additional control on the UV generation:
 
@@ -156,7 +164,7 @@ A new update of the automatic UV unwrapping has been added which brings the supp
 
 ### General Improvements
 
-![](banner-misc-2.jpg)
+![](../../../assets/banner-misc-2.jpg)
 
 This new version adds several quality of life improvements:
 
@@ -172,7 +180,7 @@ This new version adds several quality of life improvements:
 * **Sharp normal method**  
   There is a new Height to Normal method parameter in the Texture Set settings which allows to control how the Height channel is converted into a normal map. This new parameter is useful to improve the quality of surfaces with lot of varying details, such as fabric materials.
 
-  ![](normal-mode.jpg){width="450px"}
+  ![](../../../assets/normal-mode.jpg){width="450px"}
 
 * **New interface style**  
   The general interface has been slightly adjusted to align better with the general Substance 3D ecosystem. This make jumping from one application to the other less surprising and easier to navigate.

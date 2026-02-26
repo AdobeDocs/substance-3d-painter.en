@@ -1,7 +1,15 @@
 ---
-title: "Adding saved searches manually"
-description: ""
-helpx_description: "Painter > Pipeline and integration > Resource management > Adding saved searches manually"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/adding-saved-searches-manually.html"
+breadcrumb-title: ""
+description: Learn how to add saved searches manually in Substance 3D Painter to quickly access frequently used resource filters.
+helpx_creative_field: ""
+helpx_description: Painter > Pipeline and integration > Resource management > Adding saved searches manually
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Adding saved searches manually
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Adding saved searches manually

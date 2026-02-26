@@ -1,7 +1,15 @@
 ---
-title: "Installing the particle editor"
-description: ""
-helpx_description: "Painter > Painting > Presets > Creating particles presets > Installing the particle editor"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-particles-presets/installing-the-particle-editor.html"
+breadcrumb-title: ""
+description: Learn how to install the particle editor plugin for Substance 3D Painter to create custom particle brush presets.
+helpx_creative_field: ""
+helpx_description: Painter > Painting > Presets > Creating particles presets > Installing the particle editor
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Installing the particle editor
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Installing the particle editor

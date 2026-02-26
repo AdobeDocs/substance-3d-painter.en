@@ -1,7 +1,15 @@
 ---
-title: "Smart Materials and Masks"
-description: ""
-helpx_description: "Painter > Features > Smart Materials and Masks"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/smart-materials-and-masks.html"
+breadcrumb-title: ""
+description: Learn how to use smart materials and masks in Substance 3D Painter to create procedural textures that adapt to geometry.
+helpx_creative_field: ""
+helpx_description: Painter > Features > Smart Materials and Masks
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Smart Materials and Masks
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Smart Materials and Masks
@@ -11,43 +19,43 @@ Substance 3D Painter supports the use of advanced  **layer presets**  . These pr
 >[!NOTE]
 >
 > Note that once added in the layer stack, there is no way to retrieve which smart material was used. In the case a smart material need to updated, the process will have to be done manually.   
-> However individual resources can be updated with the [Resources Updater](../plugins/resources-updater/resources-updater.md) .
+> However individual resources can be updated with the [Resources Updater](../../features/plugins/resources-updater/resources-updater.md) .
 
 ## How to use Smart Materials/Masks ?
 
 Smart Materials can be used anywhere in the layer stack, while smart masks can only be used in the effect stack.   
-To know more about the differences, see : [Layer stack](../../interface/layer-stack/layer-stack.md) and [Effects](../effects/effects.md)
+To know more about the differences, see : [Layer stack](../../interface/layer-stack/layer-stack.md) and [Effects](../../features/effects/effects.md)
 
 ### Adding a Smart Material
 
 Smart Materials can be added in two different ways :
 
 * By drag and dropping a smart materials from the shelf into the layer stack :   
-   ![](sm-drop.gif)
+   ![](../../assets/sm-drop.gif)
 * By clicking on the Smart Material button to open a mini-shelf :   
-   ![](sm-button.gif)
+   ![](../../assets/sm-button.gif)
 
 ### Adding a Smart Mask
 
 Because Smart Masks are presets of effects, they can therefor only be added to effect stacks (for mask specifically).
 
 * To add a Smart Masks, simply  **drag and drop**  one from the Shelf onto the  **target**  layer :   
-   ![](smm-drop.gif)
+   ![](../../assets/smm-drop.gif)
 * Drag and dropping  **multiple**  Smart Masks will accumulate them :   
-   ![](smm-drop-accum.gif)
+   ![](../../assets/smm-drop-accum.gif)
 * It is possible however to  **replace**  the whole effect stack by pressing  **CTRL**  during the drag and drop :   
-   ![](smm-drop-replace.gif)
+   ![](../../assets/smm-drop-replace.gif)
 
 ### How to create Smart Materials/Masks ?
 
 To create a Smart Materials, a  **folder**  is required.   
 The content of the Smart Materials will be contained in the folder. Then simply right-click on the folder and select "  **Create smart material**  ". The Smart Material will then be added to the current shelf and will be named accoridng to the folder selected.
 
-![](create-sm.png)
+![](../../assets/create-sm.png)
 
 To create a Smart Mask, simply right-click over a layer and choose "  **Create smart mask**  ".
 
-![](create-smm.png)
+![](../../assets/create-smm.png)
 
 ## How to share/retrieve a smart material/mask ?
 

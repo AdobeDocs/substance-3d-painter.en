@@ -1,12 +1,20 @@
 ---
-title: "Project Creation"
-description: ""
-helpx_description: "Painter > Getting Started > Project Creation"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/project-creation.html"
+breadcrumb-title: ""
+description: Learn how to create a new project in Substance 3D Painter to start painting textures on your 3D models.
+helpx_creative_field: ""
+helpx_description: Painter > Getting Started > Project Creation
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Project Creation
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Project Creation
 
-![](new-project-window.png)
+![](../../assets/new-project-window.png)
 
 The <b>New project window </b>allows you to create a project file to store your 3D model and its texturing information.
 
@@ -20,7 +28,7 @@ Below is an explanation of all the parameters available in the New Project windo
 
 ### Base Settings
 
-![](project-base.png)
+![](../../assets/project-base.png)
 
 | *Parameter* | *Description* |
 | --- | --- |
@@ -31,7 +39,7 @@ Below is an explanation of all the parameters available in the New Project windo
 
 When a USD is selected, other file type-specific settings become available.
 
-![](image2023-1-30-11-16-6.png){width="473px"}
+![](../../assets/image2023-1-30-11-16-6.png){width="473px"}
 
 | *Parameter* | *Description* |
 | --- | --- |
@@ -41,7 +49,7 @@ When a USD is selected, other file type-specific settings become available.
 
 ### Project Settings
 
-![](project-settings-4.png)
+![](../../assets/project-settings-4.png)
 
 | *Parameter* | *Description* |
 | --- | --- |
@@ -51,7 +59,7 @@ When a USD is selected, other file type-specific settings become available.
 
 ### UV Tile Settings (UDIMs)
 
-![](project-uvtiles.png)
+![](../../assets/project-uvtiles.png)
 
 >[!NOTE]
 >
@@ -60,12 +68,12 @@ When a USD is selected, other file type-specific settings become available.
 | *Parameter* | *Description* |
 | --- | --- |
 | **Use UV Tile workflow** | If checked, the imported mesh will be processed differently to allow painting outside the regular UV range (0-1). Projects using UDIM should enable this setting. The processing of the mesh may differ depending on the setting.   For more information, see the [UV Tile documentation](../../features/uv-tiles/uv-tiles.md). |
-| <b>Preserve UV Tile layout per materials and enable painting across tiles</b> | UV Tiles (UDIMs) are imported and grouped per material assignment on the mesh. This means a single Texture Set can contain multiple UV Tiles visible side by side in the 2D View. UV Tiles that are within the same Texture Set can be painted across seamlessly.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r2-column-c1_image_copy" src="uvtiles-paintacross.jpg" width="500px"/></div> |
-| <b>Convert UV Tiles into individual Textures Sets (legacy)</b> | UV Tiles (UDIMs) are separated into individual Texture Sets and renamed, ignoring any material assignments. Each UV Tile is moved to the UV &#91;0-1&#93; range to be paintable.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r3-column-c1_image" src="uvtiles-legacy.jpg" width="500px"/></div> |
+| <b>Preserve UV Tile layout per materials and enable painting across tiles</b> | UV Tiles (UDIMs) are imported and grouped per material assignment on the mesh. This means a single Texture Set can contain multiple UV Tiles visible side by side in the 2D View. UV Tiles that are within the same Texture Set can be painted across seamlessly.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r2-column-c1_image_copy" src="../../assets/uvtiles-paintacross.jpg" width="500px"/></div> |
+| <b>Convert UV Tiles into individual Textures Sets (legacy)</b> | UV Tiles (UDIMs) are separated into individual Texture Sets and renamed, ignoring any material assignments. Each UV Tile is moved to the UV &#91;0-1&#93; range to be paintable.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r3-column-c1_image" src="../../assets/uvtiles-legacy.jpg" width="500px"/></div> |
 
 ### Import Settings
 
-![](project-import.png)
+![](../../assets/project-import.png)
 
 | ***Parameter*** | ***Description*** |
 | --- | --- |
@@ -74,7 +82,7 @@ When a USD is selected, other file type-specific settings become available.
 
 ### Import baked maps
 
-![](newproj-mesh-maps.png)
+![](../../assets/newproj-mesh-maps.png)
 
 Use the <b>Add</b> button to load texture files as Mesh maps and automatically assign them in the [Texture Set settings](../../interface/texture-set/texture-set-settings/texture-set-settings.md). A specific naming convention must be followed for the mesh maps to be automatically assigned to their Texture Sets. Mesh maps can also be baked directly inside the application; see the Baking documentation.
 
@@ -104,7 +112,7 @@ Physical size settings allow you to adjust how Painter determines the physical s
 
 ### Color management
 
-![](newproj-cm.png)
+![](../../assets/newproj-cm.png)
 
 This section controls the project's color management settings. By default, it is set to Legacy (sRGB / linear workflow).
 

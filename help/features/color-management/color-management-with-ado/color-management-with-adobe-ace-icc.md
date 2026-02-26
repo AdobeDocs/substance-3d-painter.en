@@ -1,7 +1,15 @@
 ---
-title: "Color management with Adobe ACE - ICC"
-description: ""
-helpx_description: "Painter > Features > Color management > Color management with Adobe ACE - ICC"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/color-management/color-management-with-adobe-ace-icc.html"
+breadcrumb-title: ""
+description: Learn how to use Adobe ACE and ICC color management in Substance 3D Painter for consistent color workflows.
+helpx_creative_field: ""
+helpx_description: Painter > Features > Color management > Color management with Adobe ACE - ICC
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Color management with Adobe ACE - ICC
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Color management with Adobe ACE - ICC
@@ -10,7 +18,7 @@ This page lists the color management settings related to the Adobe Color Engine 
 
 ## Project settings
 
-![](cm-ace.png)
+![](../../../assets/cm-ace.png)
 
 The project settings can be set when creating a new project via the [new project](../../../getting-started/project-creation/project-creation.md) window or by using the [project configuration](../../../interface/project-configuration/project-configuration.md) window.
 
@@ -42,7 +50,7 @@ The available settings are:
 
 ## Using a preset file
 
-![](cm-ace-env-var.png)
+![](../../../assets/cm-ace-env-var.png)
 
 It  possible to use a preset file (in json format) to drive the ACE settings when creating new projects.
 

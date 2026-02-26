@@ -1,7 +1,15 @@
 ---
-title: "Texture dilation or Padding"
-description: ""
-helpx_description: "Painter > Technical support > Workflow Issues > Export Issues > Texture dilation or Padding"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.html"
+breadcrumb-title: ""
+description: Learn how to use texture dilation and padding in Substance 3D Painter to prevent edge artifacts in exported textures.
+helpx_creative_field: ""
+helpx_description: Painter > Technical support > Workflow Issues > Export Issues > Texture dilation or Padding
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Texture dilation or Padding
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Texture dilation or Padding
@@ -19,12 +27,12 @@ Here is an example of how the infinite padding works :
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](padding.gif){width="512px"}
+![](../../../../assets/padding.gif){width="512px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](padding-zoom.gif)
+![](../../../../assets/padding-zoom.gif)
 
 </td>
 </tr>
@@ -40,12 +48,12 @@ Padding is very important for mipmaps as it avoids incorrect colors to bleed ins
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](mipmap-padding.gif){width="400px"}
+![](../../../../assets/mipmap-padding.gif){width="400px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](mipmap-nopadding.gif){width="400px"}
+![](../../../../assets/mipmap-nopadding.gif){width="400px"}
 
 </td>
 </tr>
@@ -55,7 +63,7 @@ On the example above the gray background bleeds into the UVs (right image), whil
 
 Inside a 3D application this is the result :
 
-![](padding-toggle.gif)
+![](../../../../assets/padding-toggle.gif)
 
 ## Padding controls
 

@@ -1,7 +1,15 @@
 ---
-title: "Toon - Shader API"
-description: ""
-helpx_description: "Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > Toon - Shader API"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/toon-shader-api.html"
+breadcrumb-title: ""
+description: Access the Toon shader API reference for Substance 3D Painter to create custom toon-style rendering effects.
+helpx_creative_field: ""
+helpx_description: Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > Toon - Shader API
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Toon - Shader API
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Toon - Shader API

@@ -1,7 +1,15 @@
 ---
-title: "Preferences and application data location"
-description: ""
-helpx_description: "Painter > Pipeline and integration > Installation and preferences > Preferences and application data location"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/installation-and-preferences/preferences-and-application-data-location.html"
+breadcrumb-title: ""
+description: Learn about preferences and application data locations for Substance 3D Painter to manage settings and user data.
+helpx_creative_field: ""
+helpx_description: Painter > Pipeline and integration > Installation and preferences > Preferences and application data location
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Preferences and application data location
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Preferences and application data location

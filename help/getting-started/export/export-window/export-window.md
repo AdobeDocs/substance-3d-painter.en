@@ -1,20 +1,28 @@
 ---
-title: "Export window"
-description: ""
-helpx_description: "Painter > Getting Started > Export > Export window"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window.html"
+breadcrumb-title: ""
+description: Learn how to use the export window in Substance 3D Painter to configure and export your textures in various formats.
+helpx_creative_field: ""
+helpx_description: Painter > Getting Started > Export > Export window
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Export window
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Export window
 
-![](export-textures-window.png){width="500px"}
+![](../../../assets/export-textures-window.png){width="500px"}
 
 Open the <b>Export window </b>with <b>File &gt; Export textures </b>or keyboard shortcut <b>Ctrl + Shift + E</b>.
 
 The <b>Export window </b>is divided into three tabs:
 
-* [Export settings](export-settings/export-settings.md)
-* [Output templates](output-templates/output-templates.md)
-* [List of exports](list-of-exports/list-of-exports.md)
+* [Export settings](../../../getting-started/export/export-window/export-settings/export-settings.md)
+* [Output templates](../../../getting-started/export/export-window/output-templates/output-templates.md)
+* [List of exports](../../../getting-started/export/export-window/list-of-exports/list-of-exports.md)
 
 The bottom of the window has several buttons:
 
