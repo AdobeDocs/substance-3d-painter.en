@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Lib SSS - Shader API
 
 ## lib-sss.glsl

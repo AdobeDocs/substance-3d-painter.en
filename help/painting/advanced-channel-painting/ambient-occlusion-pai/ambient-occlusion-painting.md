@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Ambient Occlusion Painting
 
 The ambient occlusion channel allow to paint details in the ambient shadows of an object. It can be used to add AO details coming from Materials, or simply fix manually baking errors when needed.
@@ -28,7 +27,7 @@ The  **result**  of this computation is stored in a bitmap named the "Ambient Oc
 
 To paint custom occlusion details, an Ambient Occlusion channel is required. It can be added via the [Texture Set settings](../../../interface/texture-set/texture-set-settings/texture-set-settings.md):
 
-![](add-ao-channel.png)
+![](../../../assets/add-ao-channel.png)
 
 Once the channel has been added to a Texture Set, any layer can be used to paint new information. Since the AO channel contains only grayscale information, recommended blending mode are **Normal** (paint over) and **Multiply** (combine).
 
@@ -43,22 +42,22 @@ The default setup of a project in Substance 3D Painter will combine the Ambient 
 ### 1 - Add an Ambient Occlusion channel
 
 Add an ambient occlusion channel in the current texture set :   
- ![](edit-ao-channel-optimized.gif)
+ ![](../../../assets/edit-ao-channel-optimized.gif)
 
 Set its mixing mode to "  **replace**  " instead of "  **multiply**  " :   
- ![](ao-mix-mode.gif)
+ ![](../../../assets/ao-mix-mode.gif)
 
 ### 2 - Setting a fill layer with the baked ambient occlusion
 
 Create a new fill layer and put the baked ambient occlusion inside the "ambient occlusion" slot, via the properties panel. Don't forget to change the default tilling of the fill layer if it not already set to 1.   
- ![](ao-stack.png)
+ ![](../../../assets/ao-stack.png)
 
 ### 3 - Changing the fill layer blending mode
 
 By default the blending mode of the AO channel on any new layer is set to "  **Multiply**  ". Since it is preferable to use the fill layer as the base, we chose the "normal" blending mode since the bitmap don't have any alpha, it will replace everything below (including the default color of the shader).   
- ![](ao-blend-mode.gif)
+ ![](../../../assets/ao-blend-mode.gif)
 
 ### 4 - Creating a layer to paint over the baked ambient occlusion map
 
 Create a new layer (regular or fill) and change its blending mode to "normal" for the AO channel. Once this setup is done, anything painted on the AO channel will take over the baked AO map that is on the layer below.   
- ![](paint-over-ao-optimized.gif)
+ ![](../../../assets/paint-over-ao-optimized.gif)

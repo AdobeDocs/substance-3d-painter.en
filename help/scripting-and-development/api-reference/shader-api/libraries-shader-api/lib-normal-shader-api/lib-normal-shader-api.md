@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Lib Normal - Shader API
 
 ## lib-normal.glsl

@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Known issues
 
 This page regroups all the currently active known issues currently present in the latest version of Substance 3D Painter.

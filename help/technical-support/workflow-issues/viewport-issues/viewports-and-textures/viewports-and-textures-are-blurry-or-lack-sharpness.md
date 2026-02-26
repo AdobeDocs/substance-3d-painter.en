@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Viewports and textures are blurry or lack sharpness
 
 The viewports may appear blurry for different reasons.

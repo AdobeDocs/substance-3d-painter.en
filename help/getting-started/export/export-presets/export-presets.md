@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Output templates
 
-![](preset-list.png)
+![](../../../assets/preset-list.png)
 
 Substance 3D Painter has two types of Output template that can be used to control the behavior of the export process.
 

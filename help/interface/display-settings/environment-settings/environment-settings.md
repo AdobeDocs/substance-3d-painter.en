@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Environment settings
 
 This section of the  **Display Settings**  controls the lighting in the viewport.
 
 ## Environment
 
-![](env-settings.png)
+![](../../../assets/env-settings.png)
 
 | *Setting* | *Description* |
 | --- | --- |
@@ -33,7 +32,7 @@ This section of the  **Display Settings**  controls the lighting in the viewport
 
 ## Shadows
 
-![](shadow-2.png)
+![](../../../assets/shadow-2.png)
 
 | *Setting* | *Description* |
 | --- | --- |

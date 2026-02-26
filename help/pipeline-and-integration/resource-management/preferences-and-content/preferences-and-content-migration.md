@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Preferences and content migration
 
 This page describes how to migrate data from the preferences and Shelf/Assets to use them in the new versions.

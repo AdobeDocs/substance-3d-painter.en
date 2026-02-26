@@ -12,22 +12,21 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Radial Symmetry
 
 Radial symmetry duplicates strokes or fill layer content radially around an axis:
 
-![](radial-demo.gif)
+![](../../../assets/radial-demo.gif)
 
 ## Use the manipulator to position the axis of symmetry
 
 You can access the Symmetry display settings from the <b>Symmetry settings button</b> in the Contextual toolbar at the top of the 3D view. Under the display settings, you can enable and customize the manipulator. Drag the manipulator handles in the 3D view to change the position of the axis of symmetry.
 
-![A screenshot of the radial symmetry settings panel with the manipulator visible in the viewport.](RadialSymmetryManip.png){width="600px"}
+![A screenshot of the radial symmetry settings panel with the manipulator visible in the viewport.](../../../assets/RadialSymmetryManip.png){width="600px"}
 
 ## Radial symmetry parameters
 
-![A screenshot of the Symmetry section of the properties panel](FillSymmetry.png){width="300px"}
+![A screenshot of the Symmetry section of the properties panel](../../../assets/FillSymmetry(1).png){width="300px"}
 
 | *Parameter* | *Description* |
 | --- | --- |

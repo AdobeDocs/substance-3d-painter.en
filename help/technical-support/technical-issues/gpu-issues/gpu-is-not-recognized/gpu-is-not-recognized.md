@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # GPU is not recognized
 
-![](not-recognized-gpu.png){width="500px"}
+![](../../../../assets/not-recognized-gpu.png){width="500px"}
 
 Some  **NVIDIA Optimus**  users can have troubles getting Substance 3D Painter to run on the right GPU. A workaround is to set the following keys in the Registry of Windows to 0:
 

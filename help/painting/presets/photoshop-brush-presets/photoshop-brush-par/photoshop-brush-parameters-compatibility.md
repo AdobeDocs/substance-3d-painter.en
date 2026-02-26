@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Photoshop Brush Parameters Compatibility
 
 This page list all the Photoshop brush parameters and their compatibility with Substance 3D Painter brush engine.

@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Release notes
 
 Discover everything that has been added, changed or fixed for each version:

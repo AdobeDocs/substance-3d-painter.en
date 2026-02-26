@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Interface
 
 The interface is divided in several panels, that can be reordered, resized and even hidden.

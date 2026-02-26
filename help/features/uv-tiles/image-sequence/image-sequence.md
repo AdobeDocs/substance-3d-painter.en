@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Image Sequence
 
 Image sequences are a collection of images that are grouped as a single resource in the Shelf. Images are grouped together based on a specific pattern in their filenames.

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Error there is no disk in the drive
 
 On Windows, you can sometimes encounter this error:
 
 "There is no disk in the drive. Please insert a disk into drive X."
 
-![](disk-drive-error.png)
+![](../../../../assets/disk-drive-error.png)
 
 There are a few things to check to get rid of this error:
 

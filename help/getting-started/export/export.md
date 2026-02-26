@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Export
 
 ## Export Textures
@@ -36,4 +35,4 @@ When exporting a mesh you will have a few options:
 * <b>With displacement/tessellation</b>: Painter tessellates the mesh, adding more polygons, and uses displacement or height to change the surface geometry of the mesh.
   * <b>Recompute vertex normals</b>: modifying the surface of the mesh can result in incorrect normals of pre-existing vertices. By enabling this option, Painter will automatically update vertex normals to the correct value for the new surface.
 
-![](export-render.jpg){width="500px"}
+![](../../assets/export-render.jpg){width="500px"}

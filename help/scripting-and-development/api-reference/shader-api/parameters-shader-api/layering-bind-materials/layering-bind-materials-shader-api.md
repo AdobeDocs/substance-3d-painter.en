@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Layering Bind Materials - Shader API
 
 ## Material layering: bind materials as shader parameters

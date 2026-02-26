@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Retrieving the installation path
 
 This page regroups information on ways to retrieve the installation path of the application depending on the version and platform.

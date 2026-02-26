@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Lib Pom - Shader API
 
 ## lib-pom.glsl

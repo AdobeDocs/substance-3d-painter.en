@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Configuring Pens and Tablets
 
 This page list multiple recommendations to configure a graphic tablet pen on Windows in order to improve its compatibility with the application.
@@ -36,17 +35,17 @@ To make sure the pen pressure is properly recognized, Windows Ink has to be enab
 1. Open the  **Start**  menu.
 1. Type  **Wacom Tablet Properties**  and click on the first search result.
 1. In the  **Wacom Tablet Properties**  Window click on the  **Pen**  in the tool list.   
-    ![](wacom-tool-pen.png)
+    ![](../../assets/wacom-tool-pen.png)
 1. Click on the plus  **"+"**  button to add an application profile.   
-    ![](wacom-profile-plus.png)
+    ![](../../assets/wacom-profile-plus.png)
 1. Click on the  **Browse**  button in the new window to locate Substance 3D Painter executable.   
-    ![](wacom-profile-browse.png)
+    ![](../../assets/wacom-profile-browse.png)
 1. Click on  **OK**  to validate and create the profile.   
-    ![](wacom-profile-sp.png)
+    ![](../../assets/wacom-profile-sp.png)
 1. Click on the  **Mapping**  tab.   
-    ![](wacom-tab-mapping.png)
+    ![](../../assets/wacom-tab-mapping.png)
 1. In the bottom left of the window, make sure  **Use Windows Ink**  is enabled.   
-    ![](wacom-use-windows-ink.png)
+    ![](../../assets/wacom-use-windows-ink.png)
 
 >[!NOTE]
 >
@@ -57,9 +56,9 @@ To make sure the pen pressure is properly recognized, Windows Ink has to be enab
 1. Open the  **Start**  menu.
 1. Type  **Huion Tablet**  and click on the first search result
 1. In the  **Huion Tablet**  window click on  **Digital Pen**  .   
-    ![](huion-pen-settings.png)
+    ![](../../assets/huion-pen-settings.png)
 1. In the bottom left of the window, make sure  **Enable Windows Ink**  is enabled.   
-    ![](huion-pen-winink.png)
+    ![](../../assets/huion-pen-winink.png)
 
 ## How to access Windows Ink settings
 
@@ -67,11 +66,11 @@ Windows Ink settings can be accessed in the general Windows settings:
 
 1. Open the  **Start**  menu.
 1. Click on the  **Settings**  icon.   
-    ![](setting-menu-start.png)
+    ![](../../assets/setting-menu-start.png)
 1. In the Settings window, click on  **Devices**  .   
-    ![](settings-device.png)
+    ![](../../assets/settings-device.png)
 1. In the  **Devices**  window, click on  **Pen &amp; Windows Ink**  (only available if a graphic tablet is connected).   
-    ![](setting-pen-windows-ink.png)
+    ![](../../assets/setting-pen-windows-ink.png)
 
 ## Recommended Windows Ink settings
 
@@ -88,18 +87,18 @@ Below are the Windows Ink settings and the recommended configuration for each of
 
 ### Pen Settings
 
-![](ink-settings-main.png)
+![](../../assets/ink-settings-main.png)
 
 | ***Setting*** | ***Description*** |
 | --- | --- |
 | **Choose which hand to write with** | Recommended:  **Right hand** This settings control how the pen orientation is recognized. Setting this setting to Left Hand can lead to some UI freeze when tweaking parameters. |
-| **Show visual effects** | Recommended:  **Disabled** This settings controls visual effects that are displayed during various Pen interaction. Disabling it allow to hide the ripple circle effect when clicking: <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="windows-pen-ripple-circle.jpg"/></div> |
+| **Show visual effects** | Recommended:  **Disabled** This settings controls visual effects that are displayed during various Pen interaction. Disabling it allow to hide the ripple circle effect when clicking: <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/windows-pen-ripple-circle.jpg"/></div> |
 | **Show cursors** | Recommended:  **Disabled** |
 | **Let me use my pen as a mouse in some desktop apps** | Recommended:  **Enabled** This settings allow the graphic tablet pen to send regular mouse inputs. If disabled, this setting can lead to some interaction issues with UI parameters. |
 
 ### Handwriting Settings
 
-![](ink-settings-handwriting.png)
+![](../../assets/ink-settings-handwriting.png)
 
 | ***Setting*** | ***Description*** |
 | --- | --- |
@@ -111,7 +110,7 @@ Below are the Windows Ink settings and the recommended configuration for each of
 
 ### Pen Shortcuts Settings
 
-![](ink-settings-pen.png)
+![](../../assets/ink-settings-pen.png)
 
 | ***Setting*** | ***Description*** |
 | --- | --- |
@@ -128,9 +127,9 @@ Pen and Touch settings can be accessed in the Control Panel:
 1. Open the  **Start**  menu.
 1. Type  **Control Panel**  and click on the first search result.
 1. Switch the Control Panel  **display mode**  to  **small icon**  .   
-    ![](control-panel-display-mode.png)
+    ![](../../assets/control-panel-display-mode.png)
 1. Click on  **Pen and Touch**  settings.   
-    ![](control-panel-pen-touch-settings.png)
+    ![](../../assets/control-panel-pen-touch-settings.png)
 
 ## Recommended Pen and Touch settings
 
@@ -138,12 +137,12 @@ The following settings are recommended to improve the painting behavior and came
 
 To access the settings, click on one of the  **pen action**  in the window and then click on the  **settings**  button.
 
-![](control-panel-settings.png)
+![](../../assets/control-panel-settings.png)
 
 | ***Setting*** | ***Description*** |
 | --- | --- |
 | **Single-tap** | No parameters. |
 | **Double-tap** | Recommended:  **Default values.** |
-| **Press and hold** | Recommended:  **Disable the setting"Enable press and hold for right-clicking"**  Disabling this setting will allow to drag any element normally without activating the Windows drag circle: <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="windows-pen-drag-circle.jpg"/></div> |
+| **Press and hold** | Recommended:  **Disable the setting"Enable press and hold for right-clicking"**  Disabling this setting will allow to drag any element normally without activating the Windows drag circle: <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/windows-pen-drag-circle.jpg"/></div> |
 | **Use the pen button as a right-click equivalent** | Recommended:  **Enabled** |
 | **Use the top of the pen to erase ink (where available)** | Recommended:  **Enabled** |

@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Performances guidelines
 
 Substance 3D Painter can be very demanding depending on your project needs (for example, when working with very high texture resolutions, or very high polycount meshes). Each of the articles below has tips and tricks to ensure the best experience:

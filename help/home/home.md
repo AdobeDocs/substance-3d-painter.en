@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Substance 3D Painter
 
 <table>
@@ -28,7 +27,7 @@ If you have any question that is not answered in this manual feel free to ask on
 </td>
 <td width="58.30%" style="border: 0;" valign="top">
 
-![](2021.jpg){width="600px"}
+![](../assets/2021.jpg){width="600px"}
 
 </td>
 </tr>

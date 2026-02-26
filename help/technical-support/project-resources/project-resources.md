@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Project resources and settings
 
 Managing project resources can help set a good foundation for your project's performance in Painter.

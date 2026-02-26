@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Vector graphic (.svg &amp; .ai)
 
-![Image showing an svg file projected on a mesh next to a list of parameters](svg_overview.png)
+![Image showing an svg file projected on a mesh next to a list of parameters](../../assets/svg_overview.png)
 
 Vector graphic files (both <b>.svg</b> and Illustrator <b>.ai</b>) can be imported like regular images inside Painter. A few settings are available to adjust the look of the graphic and make it fit better the rest of the texturing.
 
@@ -31,7 +30,7 @@ After importing an vectorial file and loading it inside a layer or tool properti
 | Section | Setting | Description |
 | --- | --- | --- |
 | <b>Artboard</b> | <b>Artboard</b> | Select which artboard included in the file is used.  **Note:**  This setting is only available with Illustrator (.ai) files. |
-| <b>Resolution</b> | Resolution | Define at which size the svg will be converted into a bitmap image (pixels) when used for the texturing inside the Layer Stack.   Possible values:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Auto</b>: the resolution is determined by the resolution of the current Texture Set (when used in fill layer/effect) or to 512 pixels when using in a brush tool.<br/> </li> <li data-preserve-html="true"><b>Asset</b>: the resolution is determined by the pixel size defined inside the SVG file itself.<br/> </li> <li data-preserve-html="true"><b>Custom</b>: the resolution is determined by the resolution setting just under in the interface.</li> </ul>  <div><img alt="svg resolution setting" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_row-ad42696-column-7212622_image" src="svg_resolution_custom.png" title="svg resolution setting"/></div> |
+| <b>Resolution</b> | Resolution | Define at which size the svg will be converted into a bitmap image (pixels) when used for the texturing inside the Layer Stack.   Possible values:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Auto</b>: the resolution is determined by the resolution of the current Texture Set (when used in fill layer/effect) or to 512 pixels when using in a brush tool.<br/> </li> <li data-preserve-html="true"><b>Asset</b>: the resolution is determined by the pixel size defined inside the SVG file itself.<br/> </li> <li data-preserve-html="true"><b>Custom</b>: the resolution is determined by the resolution setting just under in the interface.</li> </ul>  <div><img alt="svg resolution setting" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_row-ad42696-column-7212622_image" src="../../assets/svg_resolution_custom.png" title="svg resolution setting"/></div> |
 |  |  |  |
 | <b>Crop area</b> | Crop to | Define how the SVG shapes will be limited to the rendered area.   Possible values:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Asset bounds</b>: the area is defined by the bounds defined inside the SVG file.</li> <li data-preserve-html="true"><b>Custom</b>: the area is defined by explicit values via the settings of the interface just below.<br/> </li> </ul> |
 |  | Square aspect ratio | If the crop area is defined by <b>Asset bounds</b>, this setting ensure the original ratio is preserved, avoiding any incorrect stretching when rendering the SVG as a square image.   This setting can make some elements unexpectedly visible. To avoid this issue, disable this setting and instead adjust the UV settings manually when inside a fill layer/effect. |
@@ -45,4 +44,4 @@ When editing the scope of a vector graphic (see the setting above) a window will
 
 Use the <b>Show thumbnails</b> checbox to display an image for each element.
 
-![](v10_ai_thumbs.jpg)
+![](../../assets/v10_ai_thumbs.jpg)

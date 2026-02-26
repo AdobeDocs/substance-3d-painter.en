@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Crash during export
 
 Some specific cases can lead to Substance 3D Painter crashing while exporting, especially at very high resolution (such as 4K or 8K). Below is a list of the most common sources of this issue.

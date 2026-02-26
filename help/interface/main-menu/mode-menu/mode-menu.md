@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Mode menu
 
-![](image2018-5-28-16-58-24.png)   
+![](../../../assets/image2018-5-28-16-58-24.png)   
 The mode menu allows to switch the interface of Substance 3D Painter between different modes, each one having a dedicated purpose.
 
 | Action | Description |

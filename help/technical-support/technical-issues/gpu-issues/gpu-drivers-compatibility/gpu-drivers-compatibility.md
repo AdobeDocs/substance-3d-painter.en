@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # GPU drivers compatibility
 
 This page regroups information about GPU drivers that may lead to issues with Substance 3D Painter.

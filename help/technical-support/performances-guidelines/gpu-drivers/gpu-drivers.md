@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # GPU Drivers
 
 We cannot guarantee performance without the use of recommended drivers. Non-WHQL drivers must be avoided.  

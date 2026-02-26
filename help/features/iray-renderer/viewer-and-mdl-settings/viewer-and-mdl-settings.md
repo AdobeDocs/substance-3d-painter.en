@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Viewer and MDL Settings
 
-![](display-settings-iray.png){width="400px"}
+![](../../../assets/display-settings-iray.png){width="400px"}
 
 ## Environment
 
@@ -34,7 +33,7 @@ Identical to the regular viewport, the environment map used in Iray will control
 The dome is the shape on which will be projected the environnement map in the background.   
  3 types of dome are available, to use depending of the scene :
 
-![](dome-type.png)
+![](../../../assets/dome-type.png)
 
 * **Infinite Sphere**  : The environnement is project in the background on a sphere to simulate the horizon, so always far from the scene
 * **Sphere**  : The environnement is projected on a regular sphere, that can be scaled
@@ -61,8 +60,8 @@ The ground settings allow to specify where a floor is located.
 | ***Setting*** | ***Description*** |
 | --- | --- |
 | **X, Y, Z value** | Define the location of the floor on the three axes.   The 0,0,0 value corresponds to the middle of the scene's bounding box. |
-| **Reflectivity** | Defines the intensity and the color of the ground reflection.   A white brightness value means that the ground is 100% reflective while black means not reflective at all. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="reflectivity-optim.gif"/></div> |
-| **Glossiness** | Defines how glossy (or rough) is the reflection. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="glossiness-optim.gif"/></div> |
+| **Reflectivity** | Defines the intensity and the color of the ground reflection.   A white brightness value means that the ground is 100% reflective while black means not reflective at all. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/reflectivity-optim.gif"/></div> |
+| **Glossiness** | Defines how glossy (or rough) is the reflection. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/glossiness-optim.gif"/></div> |
 | **Shadow Intensity** | This parameter defines the final opacity of the shadow after the lighting has been computed. |
 | **Visible from below** | Defines if the ground is visible from below or not. If checked, it means that the ground will occlude any element above it. |
 
@@ -86,13 +85,13 @@ By default in Substance 3D Painter, an MDL is associated with a GLSL shader, all
 >
 > For each Material Instance in a project a MDL will be set. Therefor to separate the materials properties between Texture Set, set new Materials instance to configure spearately the MDLs.
 
-![](mdl.png)
+![](../../../assets/mdl.png)
 
 The default MDL of Substance 3D Painter supports the following properties:
 
 | *Setting* | *Description* |
 | --- | --- |
-| **Emissive Intensity** | Multiplier of the Emissive channel. A high value will start to emit light. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="emissive-optim.gif"/></div> |
+| **Emissive Intensity** | Multiplier of the Emissive channel. A high value will start to emit light. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/emissive-optim.gif"/></div> |
 | **Refraction** | Controls the amount of Refraction. |
 | **IOR** | Defines the index of refraction of the material.   Note : Air = 1.0, Water = 1.2, Glass = 1.5. |
 | **Scattering** | Controls how much light is scattered through the surface. |

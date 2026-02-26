@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Updating a shader
 
 It can be necessary sometimes to update the shader used by a project in order to fix issues or take advantage of the latest features. This page describes how to do so.
@@ -30,19 +29,19 @@ If a project use a  **custom shader**  (not shipped by default with Substance 3D
 
 The  **Shader settings**  window is available on the right by default in the Dock toolbar.
 
-![](shader-settings-window.png)
+![](../../../assets/shader-settings-window.png)
 
 ### 2 - Click on the shader button and select the updated shader
 
 Click on the shader button (below the undo/redo button) and find the shader that match the one that was already used.
 
-![](shader-mini-shelf.png)
+![](../../../assets/shader-mini-shelf.png)
 
 ### 3 - Shader is updated
 
 Once the new shader is loaded the mention **outdated** should be removed and the 3D model should appear normally in the viewport.
 
-![](updated-shader.png)
+![](../../../assets/updated-shader.png)
 
 ## Update a Shader via the Resource Updater plugin
 
@@ -50,16 +49,16 @@ Once the new shader is loaded the mention **outdated** should be removed and the
 
 Go toward the left of the interface to find the  **Plugins toolbar**  and click on the  **Resource Updater**  icon.
 
-![](resource-icon.png)
+![](../../../assets/resource-icon.png)
 
 ### 2 - Switch to the Shader Tab
 
 In the new window that appeared, click on the "Shader" tab to display the shader present in the current project.
 
-![](shader-tab.png)
+![](../../../assets/shader-tab.png)
 
 ### 3 - Find the Shader and update it
 
 In the Shader tab should appear a list of all the Shader resources user by the current project. **Outdated**  Shader are visible with a  **red background**  . Click on the "update" button next to a resource to update it.
 
-![](update-shader-click.gif)
+![](../../../assets/update-shader-click.gif)

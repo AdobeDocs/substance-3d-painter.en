@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Viewport settings
 
 This section of the **Display Settings** controls various settings related to the display of the viewport such as the texture filtering and the mesh wireframe.
 
 ## Texture filtering
 
-![](texture-filtering.png)
+![](../../../assets/texture-filtering.png)
 
 The Anisotropic Filtering and MipMap Bias allow to control the display of textures in the viewport. These settings don't affect the textures directly and won't be applied at export, they just refine the rendering process in the viewport. The MipMap Bias setting allows to force to use very sharp textures for pixels that are far away or at oblique angles, however in some cases they can create Moiré patterns or jittering.
 
@@ -27,18 +26,18 @@ Default settings are a compromise of quality and performances and should only be
 
 | *Setting* | *Description* |
 | --- | --- |
-| **Anisotropic Filtering** | Anisotropic Filtering improves the texture quality when viewing at oblique angles. High quality values provide a better filtering but can result in a loss of performances. This setting controls the amount of samples per pixel (spp) used for the filtering :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Disabled</strong> : No filtering</li><li data-preserve-html="true"><strong>Low</strong> (2spp)</li><li data-preserve-html="true"><strong>Medium</strong> (4spp) : Default value</li><li data-preserve-html="true"><strong>High</strong> (8spp)</li><li data-preserve-html="true"><strong>Very High</strong> (16spp)</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="quality-anisotropic-filtering.jpg"/></div> |
+| **Anisotropic Filtering** | Anisotropic Filtering improves the texture quality when viewing at oblique angles. High quality values provide a better filtering but can result in a loss of performances. This setting controls the amount of samples per pixel (spp) used for the filtering :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Disabled</strong> : No filtering</li><li data-preserve-html="true"><strong>Low</strong> (2spp)</li><li data-preserve-html="true"><strong>Medium</strong> (4spp) : Default value</li><li data-preserve-html="true"><strong>High</strong> (8spp)</li><li data-preserve-html="true"><strong>Very High</strong> (16spp)</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/quality-anisotropic-filtering.jpg"/></div> |
 | **MipMap bias** | Offset the MipMap level of detail to improve the texture quality. Sharp values can result in loss of performances and jagged textures.<ul data-preserve-html="true"><li data-preserve-html="true"><strong>0 - Soft</strong> (Lightweight Performance) : Default value</li><li data-preserve-html="true"><strong>1 - Medium Soft</strong></li><li data-preserve-html="true"><strong>2 - Sharp</strong></li><li data-preserve-html="true"><strong>3 - Very Sharp</strong> (Intensive Performance)</li></ul>(From 0 to -3) |
 
 ## Camera frame
 
-![](camera-frame.png)
+![](../../../assets/camera-frame.png)
 
 For more information regarding Camera Management see : [Camera management](../../../interface/viewport/camera-management/camera-management.md)
 
 ## Tool display
 
-![](viewport-tool.png)
+![](../../../assets/viewport-tool.png)
 
 | *Setting* | *Description* |
 | --- | --- |
@@ -48,7 +47,7 @@ For more information regarding Camera Management see : [Camera management](../..
 
 ## Mesh wireframe
 
-![](viewport-mesh.png)
+![](../../../assets/viewport-mesh.png)
 
 | *Setting* | *Description* |
 | --- | --- |
@@ -58,7 +57,7 @@ For more information regarding Camera Management see : [Camera management](../..
 
 ## Channel display
 
-![](viewport-channel.png)
+![](../../../assets/viewport-channel.png)
 
 >[!NOTE]
 >
@@ -67,13 +66,13 @@ For more information regarding Camera Management see : [Camera management](../..
 | *Setting* | *Description* |
 | --- | --- |
 | **Display solo view without lighting (unlit)** | When viewing in single channel mode, enabling this setting will remove the lighting and display the channel as flat colors. If disabled, a shadowing will be applied to the border of the mesh. |
-| **Scale HDR values** | When viewing in single channel mode an **HDR** texture (such as the height) this setting will scale the total values. This is useful for viewing values that go over 1 or below -1. The result equals **Channel dived by scale**.With the example below, the height channel has values up to 3. However by default they cannot be viewed unless the scale value is changed : <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="scale-hdr.jpg"/></div> |
-| **Use +/- color for HDR values** | This setting allows to view more easily HDR texture by replacing positive values by the first color and negative values by the second color. Neutral values (0) are black.Example : <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="colored-hdr.jpg"/></div> |
-| **Color channels** | Modify the viewport viewmode to only display individually the R, G, B or Alpha component of the current channel. This setting is not available in Material display mode. When enabled, the name of the selected color channel is displayed in the viewport:  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r4-column-c1_image" src="color-channel.png"/></div>  Possible values:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>RGBA</strong> (default): on Color channels, display all the components with the transparency.</li><li data-preserve-html="true"><strong>Grayscale+Alpha</strong> (default): on Grayscale channel, display the grayscale values with the transparency.</li><li data-preserve-html="true"><strong>R</strong>: on Color channels, only display the Red component.</li><li data-preserve-html="true"><strong>G</strong>: on Color channels, only display the Green component.</li><li data-preserve-html="true"><strong>B</strong>: on Color channels, only display the Blue component.</li><li data-preserve-html="true"><strong>Alpha</strong>: on any channels, only display the transparency of the texture.</li></ul> |
+| **Scale HDR values** | When viewing in single channel mode an **HDR** texture (such as the height) this setting will scale the total values. This is useful for viewing values that go over 1 or below -1. The result equals **Channel dived by scale**.With the example below, the height channel has values up to 3. However by default they cannot be viewed unless the scale value is changed : <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/scale-hdr.jpg"/></div> |
+| **Use +/- color for HDR values** | This setting allows to view more easily HDR texture by replacing positive values by the first color and negative values by the second color. Neutral values (0) are black.Example : <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/colored-hdr.jpg"/></div> |
+| **Color channels** | Modify the viewport viewmode to only display individually the R, G, B or Alpha component of the current channel. This setting is not available in Material display mode. When enabled, the name of the selected color channel is displayed in the viewport:  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r4-column-c1_image" src="../../../assets/color-channel.png"/></div>  Possible values:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>RGBA</strong> (default): on Color channels, display all the components with the transparency.</li><li data-preserve-html="true"><strong>Grayscale+Alpha</strong> (default): on Grayscale channel, display the grayscale values with the transparency.</li><li data-preserve-html="true"><strong>R</strong>: on Color channels, only display the Red component.</li><li data-preserve-html="true"><strong>G</strong>: on Color channels, only display the Green component.</li><li data-preserve-html="true"><strong>B</strong>: on Color channels, only display the Blue component.</li><li data-preserve-html="true"><strong>Alpha</strong>: on any channels, only display the transparency of the texture.</li></ul> |
 
 ## Grid
 
-![](display-settings-grid.png)
+![](../../../assets/display-settings-grid.png)
 
 The grid settings allow to display and control the drawing of a 3D grid inside the 3D viewport.
 

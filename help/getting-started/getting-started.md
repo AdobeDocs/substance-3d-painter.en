@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Getting Started
 
 From the <b>Welcome screen</b> window, you can access the following pages:
@@ -37,4 +36,4 @@ To accelerate your workflow, take a look at the list of shortcuts:
 
 * [Shortcuts ](../interface/settings/shortcuts/shortcuts.md)
 
-![](welcome-screen-2021.png){width="500px"}
+![](../assets/welcome-screen-2021.png){width="500px"}

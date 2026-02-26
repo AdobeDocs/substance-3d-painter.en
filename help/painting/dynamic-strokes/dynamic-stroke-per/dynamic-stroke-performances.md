@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Dynamic Stroke Performances
 
 For Dynamic Strokes the performances of the Substance graph matters a lot because the Substance can be regenerated many time in a very short period. If a Substance computation is too heavy, it can create latency and therefore stutters and freezes when painting. All of that can end-up creating a bad painting experience. This page regroups information and recommendations on the use of the Dynamic Stroke feature.

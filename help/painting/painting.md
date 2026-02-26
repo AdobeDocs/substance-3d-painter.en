@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Painting
 
 Painting in Substance 3D Painter can be achieved in many ways with manual tools or automatic actions.

@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Multi/Bi-GPU
 
 Some GPU configurations and/or GPU models are incompatible with Substance 3D Painter and will lead to instabilities and crashes. Below is a list of the incompatible configurations :

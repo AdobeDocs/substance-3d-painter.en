@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Crash with low virtual memory
 
 Substance 3D Painter can be unstable if the  **paging**  file (  **swap**  memory/  **virtual**  memory) is set with a value  **too low**  .   
@@ -42,8 +41,8 @@ Now it is possible to either:
 
 **Automatic:**
 
-![](virtual-memory-default.png)
+![](../../../../assets/virtual-memory-default.png)
 
 **Manual:**
 
-![](virtual-memory-settings.png)
+![](../../../../assets/virtual-memory-settings.png)

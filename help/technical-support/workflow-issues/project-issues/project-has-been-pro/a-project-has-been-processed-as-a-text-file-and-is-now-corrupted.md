@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # A project has been processed as a text file and is now corrupted
 
 Sometimes the following error can appear when loading a project :

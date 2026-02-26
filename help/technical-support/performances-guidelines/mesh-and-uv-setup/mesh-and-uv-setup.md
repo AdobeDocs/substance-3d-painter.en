@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Mesh and UV setup
 
 Taking a few minutes to prepare your mesh for Painter can make the texturing process faster and easier.

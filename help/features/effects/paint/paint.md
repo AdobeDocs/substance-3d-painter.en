@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Paint
 
 This effect allow to paint over other effects. It behaves like a layer which means you have access to the various blending mode and an opacity control.

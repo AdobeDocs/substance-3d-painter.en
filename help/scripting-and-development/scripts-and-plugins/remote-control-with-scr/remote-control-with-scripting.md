@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Remote control with scripting
 
 This page describes how to control the application remotely to execute Javascript or Python commands.  

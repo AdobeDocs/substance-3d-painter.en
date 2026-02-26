@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Shortcuts
 
-![](settings-shortcuts.png){width="400px"}
+![](../../../assets/settings-shortcuts.png){width="400px"}
 
 This page list all the keyboard and mouse shortcuts available.
 
@@ -25,7 +24,7 @@ For a quick overview of all the Shortcuts available, take a look at our graphic 
 
 ## How to change a shortcut
 
-![](shortcut-edit.gif)   
+![](../../../assets/shortcut-edit.gif)   
 Click on the "pen" icon next to a shortcut to edit it and enter the new combination.Pressing the last key will automatically exit the edit mode and change the shortcut.
 
 ### List of editable shortcuts

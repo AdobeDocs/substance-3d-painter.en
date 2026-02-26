@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Maintenance is expired dialog on startup
 
-![](expired-mainteance-message.png)
+![](../../../../assets/expired-mainteance-message.png)
 
 When starting the application, a dialog with the message "Your current maintenance has expired" may appear. This page list solutions on how to avoid this dialog.
 

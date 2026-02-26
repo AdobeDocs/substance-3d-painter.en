@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Color management with Adobe ACE - ICC
 
 This page lists the color management settings related to the Adobe Color Engine (ACE) to use image with ICC profiles.
 
 ## Project settings
 
-![](cm-ace.png)
+![](../../../assets/cm-ace.png)
 
 The project settings can be set when creating a new project via the [new project](../../../getting-started/project-creation/project-creation.md) window or by using the [project configuration](../../../interface/project-configuration/project-configuration.md) window.
 
@@ -51,7 +50,7 @@ The available settings are:
 
 ## Using a preset file
 
-![](cm-ace-env-var.png)
+![](../../../assets/cm-ace-env-var.png)
 
 It  possible to use a preset file (in json format) to drive the ACE settings when creating new projects.
 

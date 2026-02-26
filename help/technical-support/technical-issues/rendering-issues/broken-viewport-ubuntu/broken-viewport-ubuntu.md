@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Viewport appears broken or unresponsive on Ubuntu
 
 When running Painter from Steam on Ubuntu starting with version 11.1, the viewport can appear broken or unresponsive.

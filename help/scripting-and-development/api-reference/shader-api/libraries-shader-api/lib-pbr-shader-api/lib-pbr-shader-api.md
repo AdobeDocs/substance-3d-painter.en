@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Lib PBR - Shader API
 
 ## lib-pbr.glsl

@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Shelf and Assets location
 
 This page list the location of the Assets (or Shelf for old versions) for each platform.This path is where the user content - such as saving presets in the Asset window - and plugins are located by default.

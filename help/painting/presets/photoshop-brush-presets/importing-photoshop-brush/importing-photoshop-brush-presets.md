@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Importing Photoshop Brush Presets
 
 This page gives a step by step on how to import an ABR file into Substance 3D Painter.
@@ -35,7 +34,7 @@ This page gives a step by step on how to import an ABR file into Substance 3D Pa
 
    >[!NOTE]
    >
-   > ![](shelf-import-error.png)
+   > ![](../../../../assets/shelf-import-error.png)
    > 
    > A warning icon can appear next to the ABR file if there are some issues with it. Such as:
    > 
@@ -49,10 +48,10 @@ This page gives a step by step on how to import an ABR file into Substance 3D Pa
    * <b> Session</b>: the ABR file will be loaded into memory. The brush presets will be available until the application is closed.
    * <b> Library</b>: the ABR file will be copied to the Shelf on the disk. Brush presets will be available whenever Painter is opened, for all projects.
 
-   ![](import-location.png)
+   ![](../../../../assets/import-location.png)
 1. <b>Access the brush presets from the Shelf.</b>
 
-   ![](shelf-demo.png)
+   ![](../../../../assets/shelf-demo.png)
 
    If there were no issues importing the Brush Presets, they will appear in the [Assets](../../../../interface/assets/assets.md) window.
 

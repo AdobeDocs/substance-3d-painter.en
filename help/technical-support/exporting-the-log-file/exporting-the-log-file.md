@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Exporting the log file
 
 This page explains how to find the application log file and how to share it to ask for support.
@@ -25,7 +24,7 @@ There are two ways of obtaining the log file:
 
 The log file can be directly exported from the application by going into the **Help** menu and selecting the **Export log** action.
 
-![](screenshot-20210622-195334.png)
+![](../../assets/screenshot-20210622-195334.png)
 
 ### Retrieving the log file manually on the disk
 
@@ -41,4 +40,4 @@ If the application doesn't launch it will not be possible to export the log file
 
 When writing a message, use the attachment area to insert your log file:
 
-![](screenshot-20210708-113456.png)
+![](../../assets/screenshot-20210708-113456.png)

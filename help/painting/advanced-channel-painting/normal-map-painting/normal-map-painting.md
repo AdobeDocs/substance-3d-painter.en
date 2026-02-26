@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Normal Map Painting
 
 Painting details can be done by painting directly Normal map data directly on the mesh. This page regroups different way to manage normal map painting.
@@ -27,7 +26,7 @@ To paint normal map details:
 
 From there, painting with a normal map is very similar to [Height Map Painting](../../../painting/advanced-channel-painting/height-map-painting/height-map-painting.md) , with the added precision of a baked normal.
 
-![](normal-painting.gif)
+![](../../../assets/normal-painting.gif)
 
 ## Normal blending modes
 
@@ -45,7 +44,7 @@ When loading a normal map into the slot of a material (tool properties or fill l
 
 This setting can be used to specify the Normal map format since by default a DirectX (Y-) normal map is expected (it is not affected by the project setting). Therefore when using an OpenGL (Y+) normal map, it is required to click on the little arrow to open the color space menu and then change the color space of the bitmap.
 
-![](normal-color-space.png)
+![](../../../assets/normal-color-space.png)
 
 ## Painting over a baked normal map
 
@@ -58,22 +57,22 @@ By default a Texture Set is created with the  **normal mixing**  setting set to 
 
 In order to override/paint the normal map it is important to set this setting to  **replace**  instead. The normal map will disappear from the viewport, but that is expected. Changing this mode to  **replace**  indicates to Substance 3D Painter to only take into account the normal channel and the height channel when generating the final normal map.
 
-![](normal-mixing.png)
+![](../../../assets/normal-mixing.png)
 
 ### 2 - Setting a fill layer with the baked normal map
 
 Create a new fill layer and put the baked normal inside the "normal" slot, via the properties panel. Don't forget to change the default tilling of the fill layer if it not set to 1.
 
-![](fill-layer.gif)
+![](../../../assets/fill-layer(1).gif)
 
 ### 3 - Changing the fill layer blending mode
 
 By default, the blending mode of the normal channel on any new layer is set to "Normal map details". Since it is preferable to use the fill layer as the base, we chose the "normal" blending mode since the bitmap don't have any alpha, it will replace everything below (including the default color of the shader).
 
-![](blending-mode.gif)
+![](../../../assets/blending-mode.gif)
 
 ### 4 - Creating a layer to paint over the baked normal map
 
 Create a new layer (regular or fill) and change its blending mode to "normal" for the normal channel. Once this setup is done, anything painted on the normal channel will take over the baked normal map that is on the layer below.
 
-![](normal-painting-over.gif)
+![](../../../assets/normal-painting-over.gif)

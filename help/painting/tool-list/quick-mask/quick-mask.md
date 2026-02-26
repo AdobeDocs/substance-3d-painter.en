@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Quick mask
 
 Quick masking allows you to mask parts of your mesh you don't want to paint on.

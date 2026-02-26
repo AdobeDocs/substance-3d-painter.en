@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Shelf resources are gone after 7.2 update
 
 This page explains why resources may have disappeared and how to restore them.

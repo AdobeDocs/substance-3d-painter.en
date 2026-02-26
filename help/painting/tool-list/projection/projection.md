@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Projection
 
-![](image2015-3-19-17-56-54.png){width="50px"}
+![](../../../assets/image2015-3-19-17-56-54.png){width="50px"}
 
 The projection is a tool that allow to paint a material by projecting it in screen/viewport space. It shares similar controls to the stencil.
 
@@ -30,17 +29,17 @@ It is possible to edit the projection transformation by pressing the **shortcut 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](2018-06-11-16-06-04.png)
+![](../../../assets/2018-06-11-16-06-04.png)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](paint-proj.gif)
+![](../../../assets/paint-proj.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](paint-proj-phys.gif)
+![](../../../assets/paint-proj-phys.gif)
 
 </td>
 </tr>

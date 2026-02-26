@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Environment variables
 
 This page list environment variables that can be used to override the default behavior of the application.

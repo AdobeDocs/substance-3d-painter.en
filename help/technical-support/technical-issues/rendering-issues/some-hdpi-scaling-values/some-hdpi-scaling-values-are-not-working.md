@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Some HDPI scaling values are not working
 
 On Windows, some HDPI scale values (used to scale the interface on monitors with high resolutions) may not work properly.   

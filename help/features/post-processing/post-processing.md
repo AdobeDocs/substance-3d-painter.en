@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Post Processing
 
-![](post-effects-demos.jpg)
+![](../../assets/post-effects-demos.jpg)
 
 Post-Effects are filters than can be applied to the images rendered in the viewport of Substance 3D Painter to simulate common camera effects.
 
@@ -29,7 +28,7 @@ The Post-Process effects of Substance 3D Painter are powered by the middleware  
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](post-list.png)
+![](../../assets/post-list.png)
 
 </td>
 <td style="border: 0;" valign="top">

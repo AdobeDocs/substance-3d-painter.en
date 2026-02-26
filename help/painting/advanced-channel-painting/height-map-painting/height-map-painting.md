@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Height Map Painting
 
 ## General Idea
@@ -49,12 +48,12 @@ The **Scale** setting allows to modify the visible range of that HDR map in case
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](height1.png)
+![](../../../assets/height1.png)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](height2.png)
+![](../../../assets/height2.png)
 
 </td>
 </tr>

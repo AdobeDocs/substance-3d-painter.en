@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Version 10.0
 
 <b>Substance 3D Painter 10.0</b> brings support of Illustrator (.ai) files, integrates Substance 3D Assets, imports Fonts via the Text resources, adds layer stack functionalities in the Python API, and several quality of life improvements.
@@ -23,26 +22,26 @@ Release date: *16 May 2024*
 
 ### New text resource
 
-![](v10_banner_text-1.jpg)
+![](../../assets/v10_banner_text-1.jpg)
 
 This new version introduces the <b>Text resource</b> which is a way to load font files to write text in different contexts (brush, fill projection, Substance image inputs, etc.) to embellish your textures.
 
 * <b>Browse your fonts in the Assets window</b>  
   Fonts are now listed in the Assets window under their own filter. They are gathered from different locations on the operating system (and also from the Libraries).
 
-  ![](v10_text_assets-1.png)
+  ![](../../assets/v10_text_assets-1.png)
 * <b>Drag and drop fonts like any other resources</b>  
   Fonts can be used as text resources like any other kind of resource. Drag and drop them to automatically create fill projection. They can also be used in brushes or as input in Substance filters.
 
-  ![](v10_text_drag_drop.gif)
+  ![](../../assets/v10_text_drag_drop.gif)
 * <b>Text resource parameters</b>  
   When creating a text resource, you can tweak a few parameters to adjust the look of your text: vertical and horizontal alignment, automatic or manual size, line and character spacing, color, etc.
 
-  ![](v10_text_features.gif)
+  ![](../../assets/v10_text_features.gif)
 * <b>Wide range of characters and feature supported</b>  
   The Text resource supports right to left writing as well as [ligatures](https://en.wikipedia.org/wiki/Ligature_(writing)). (To be able to write non latin characters a compatible font is required.)
 
-  ![](v10_font_hello.jpg)
+  ![](../../assets/v10_font_hello.jpg)
 * <b>Import custom fonts like regular resource</b>  
   You can import your own fonts files directly into your Library or project like any other resources. Some types of fonts are not supported however, for more information see this [documentation page](../../technical-support/workflow-issues/shelf-issues/font-import/font-import.md).
 
@@ -52,7 +51,7 @@ This new version introduces the <b>Text resource</b> which is a way to load fo
 
 ### New import of Illustrator files (.Ai)
 
-![](v10_banner_ai-1.jpg)
+![](../../assets/v10_banner_ai-1.jpg)
 
 Following the support for <b>.svg</b> files, this new version also adds the ability to import Illustrator files (<b>.ai</b>).
 
@@ -61,16 +60,16 @@ Following the support for <b>.svg</b> files, this new version also adds the abil
 * <b>.svg and .ai files share common settings</b>  
   SVG and Illustrator documents share similar settings, notably the resolution, crop area and scope selection parameters. This means that vectorial resource can be managed in a similar way.
 
-  ![](v10_ai_demo.jpg)
+  ![](../../assets/v10_ai_demo.jpg)
 * <b>Artboard selection</b>  
   Illustrator documents support artboards, when using an .ai file you can also choose between different artboards available via the dedicated setting.
 
-  ![](v10_ai_artboard.png)
+  ![](../../assets/v10_ai_artboard.png)
 * <b>Improved scope selection</b>  
   The scope selection window has been improved with the support of thumbnails, making it easier to browse and select only specific elements.  
   For performance reasons thumbnails are off by default and can be enabled with the <b>Show thumbnails</b> checkbox.
 
-  ![](v10_ai_thumbs.jpg)
+  ![](../../assets/v10_ai_thumbs.jpg)
 
 >[!NOTE]
 >
@@ -78,22 +77,22 @@ Following the support for <b>.svg</b> files, this new version also adds the abil
 
 ### New Substance 3D Assets integration
 
-![](v10_banner_3d_assets_2.jpg)
+![](../../assets/v10_banner_3d_assets_2.jpg)
 
 A new window is available which embeds the Substance 3D Assets website directly inside Painter. This integration makes it easier to browse and download resources directly in your own library.
 
 * <b>New Substance 3D Assets window</b>  
   A new dock is available in the interface to browse Substance 3D Assets. If the dock is not visible and closed it can be found again in the dock toolbar on the right of the interface.
 
-  ![](v10_3d_dock-1.jpg)
+  ![](../../assets/v10_3d_dock-1.jpg)
 * <b>Download manager</b>  
   You can see the assets currently being downloaded via the dedicated manager using the bottom left button of the window. Assets that may fail to download can be started again from this list.
 
-  ![](v10_3d_assets_download.png)
+  ![](../../assets/v10_3d_assets_download.png)
 * <b>Find your downloaded assets easily</b>  
   The button in the bottom right of the window opens a menu with a few actions to help navigate the website but also to shows were assets have been donwloaded.
 
-  ![](v10_3d_assets_menu-1.png)
+  ![](../../assets/v10_3d_assets_menu-1.png)
 
 >[!NOTE]
 >
@@ -105,7 +104,7 @@ A new window is available which embeds the Substance 3D Assets website directly 
 
 ### New layer stack module in Python API
 
-![](v10_banner_python-1.jpg)
+![](../../assets/v10_banner_python-1.jpg)
 
 This release sees the addition of the new layer stack module in our Python API. This API allows to control the layer stack of a project, opening the door to the creation of advanced layer stack plugins and custom tools.
 
@@ -126,7 +125,7 @@ This release sees the addition of the new layer stack module in our Python API. 
 * <b>New possibilities ahead!  
   </b> This new part of the API allows to do a lot of new things, like saving and restoring a selection of layers or changing the random seed of all the resources in a project for example:
 
-  ![](v10_api_random_randomseed.gif)
+  ![](../../assets/v10_api_random_randomseed.gif)
 
 >[!NOTE]
 >
@@ -138,22 +137,22 @@ This release sees the addition of the new layer stack module in our Python API. 
 
 ### Improved normal map painting
 
-![](v10_banner_flow-1.jpg)
+![](../../assets/v10_banner_flow-1.jpg)
 
 In this release we reworked the normal map painting workflow. We notably changed the way we accumulate and blend normal brush stamps. This changes were made to address issues related to painting flow maps.
 
 * <b>Fixed accumulation issue</b>  
   Painting over and over an area in the normal channel will no longer saturate or clamp and create holes or artifacts. Switching the normal channel to RGB32F is also no longer needed.
 
-  ![](v10_normal_accumulation.jpg)
+  ![](../../assets/v10_normal_accumulation.jpg)
 * <b>Fixed undo breaking painted strokes</b>  
   Undoing a brush stroke no longer breaks other already painted strokes.
 
-  ![](v10_normal_stroke_undo.gif)
+  ![](../../assets/v10_normal_stroke_undo.gif)
 * <b>Transparency on zero alpha</b>  
   Brush stamps made with a texture with an alpha at zero will now draw as transparent. The example below shows a brush stamp (left) versus a planar projection (right).
 
-  ![](v10_normal_alpha.jpg)
+  ![](../../assets/v10_normal_alpha.jpg)
 
 >[!NOTE]
 >
@@ -161,7 +160,7 @@ In this release we reworked the normal map painting workflow. We notably changed
 
 ### Improved transform manipulators
 
-![](v10_banner_transform_v2-1.jpg)
+![](../../assets/v10_banner_transform_v2-1.jpg)
 
 Several improvements have been made to enhance the usage of the transform manipulators.
 
@@ -169,25 +168,25 @@ Several improvements have been made to enhance the usage of the transform manipu
   Pressing control while dragging on a manipulator will now enter into a new precision mode which allows more meticulous operations. This change applies to the translate, rotate and scale manipulators.  
   Here is an example before and after pressing CTRL while dragging:
 
-  ![](v10_ctrl_precise_mode.gif)
+  ![](../../assets/v10_ctrl_precise_mode.gif)
 * <b>New scale behavior</b>  
   The scale intensity is now based on the current scale value itself and not on the scene size anymore. This makes relative changes easier to do, especially at small values. Combined with the precise mode it makes scaling a lot more pleasant.  
   Another change is scaling down until 0 will no longer go into negative values. This avoid the issue of wanting to scale down a projection and flipping it by accident.
 
-  ![](v10_translate_new.gif)
+  ![](../../assets/v10_translate_new.gif)
 * <b>Improved surface manipulator rotation</b>  
   The surface decal manipulator is now a lot more stable when dragging around a surface. It doesn't increase its rotation when just doing back and forth translations.  
   Here is the <b>old</b> behavior compared to the <b>new</b> one:
 
-  ![](v10_decal_old.gif)
+  ![](../../assets/v10_decal_old.gif)
 
-  ![](v10_decal_new.gif)
+  ![](../../assets/v10_decal_new.gif)
 * <b>Camera aligned projection on drag and drop</b>  
   Drag and dropping a resource into the viewport allows to create a warp projection directly on the surface of the mesh. This projection was previously incorrectly rotated, it is now aligned to the camera.
 
-  ![](v10_projection_aligned_screen.gif)
+  ![](../../assets/v10_projection_aligned_screen.gif)
 
-![](v10_banner_misc-1.jpg)
+![](../../assets/v10_banner_misc-1.jpg)
 
 A few other improvements have been added, notably:
 

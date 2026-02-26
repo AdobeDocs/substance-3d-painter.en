@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # GPU drivers crash with long computations (TDR crash)
 
-![TDR warning in Substance 3D Painter](tdr-window-v2.png "TDR warning in Substance 3D Painter"){zoomable="yes"}
+![TDR warning in Substance 3D Painter](../../../../assets/tdr-window-v2.png "TDR warning in Substance 3D Painter"){zoomable="yes"}
 
 On Windows, this window will appear if Substance 3D Painter detects that the current TDR value is below a specific limit (10 seconds).
 
@@ -51,7 +50,7 @@ For more information consult the official documentation: <https://docs.microsoft
 
 To adjust the TDR simply increase the TDR Delay: change both **TdrDelay** and **TdrDdiDelay** to a higher value (like 60 seconds).
 
-![TDR keys in Windows Registry Editor](registry-example.png "TDR keys in Windows Registry Editor"){zoomable="yes"}
+![TDR keys in Windows Registry Editor](../../../../assets/registry-example.png "TDR keys in Windows Registry Editor"){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -73,13 +72,13 @@ Follow this procedure to change the TDR value.
 
 Click on **Start** then **Run** (or press the **Windows** and **R** key). It will open the **Run** window.
 
-![Windows Run dialog](run-window.png "Windows Run dialog"){zoomable="yes"}
+![Windows Run dialog](../../../../assets/run-window.png "Windows Run dialog"){zoomable="yes"}
 
 ### 2 - Launch the registry editor
 
 Type **regedit** in the text field and press **OK**.
 
-!['regedit' in Windows Run dialog](run-regedit-2.png "'regedit' in Windows Run dialog"){zoomable="yes"}
+!['regedit' in Windows Run dialog](../../../../assets/run-regedit-2.png "'regedit' in Windows Run dialog"){zoomable="yes"}
 
 ### 3 - Navigate to the GraphicsDrivers registry key
 
@@ -95,7 +94,7 @@ Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers
 Be sure to **stay on** "GraphicsDrivers" and **to not click** on the Registry **keys below** before going through the next steps.
 
 +++'GraphicsDrivers' in Windows Registry tree
-!['GraphicsDrivers' in Windows Registry tree](reg-left-pane.png "'GraphicsDrivers' in Windows Registry tree"){zoomable="yes"}
+!['GraphicsDrivers' in Windows Registry tree](../../../../assets/reg-left-pane.png "'GraphicsDrivers' in Windows Registry tree"){zoomable="yes"}
 
 
 
@@ -107,13 +106,13 @@ Be sure to **stay on** "GraphicsDrivers" and **to not click** on the Registry **
 >
 > If the <b>TdrDelay</b> value <b>doesn&#39;t exist yet</b>, right-click in the right pane and choose <b>New &gt; DWORD (32bit) Value</b> . Name it "<b>TdrDelay</b>". The case is important, be sure to follow it (and check that there are no other characters such as a trailing space).
 > 
-> ![](create-value.png)
+> ![](../../../../assets/create-value.png)
 
 In the **right pane**, double click on the value  **TdrDelay**. Change the **Base** setting to **Decimal** . Set the value to something else than the default **2** (we recommend **60**).
 
 This value indicates in seconds how long the operating system will wait before considering that the GPU is unresponsive during a computation.
 
-!['TdrDelay' DWORD value in Windows Registry Editor](tdrdelay-edit.png "'TdrDelay' DWORD value in Windows Registry Editor"){zoomable="yes"}
+!['TdrDelay' DWORD value in Windows Registry Editor](../../../../assets/tdrdelay-edit.png "'TdrDelay' DWORD value in Windows Registry Editor"){zoomable="yes"}
 
 ### 5 - Add or Edit the TdrDdiDelay value
 
@@ -121,7 +120,7 @@ This value indicates in seconds how long the operating system will wait before c
 >
 > If the <b>TdrDdiDelay</b> value <b>does not exist</b> , right-click in the right pane and choose <b>New &gt; DWORD (32bit) Value</b> . name it " <b>TdrDdiDelay</b> ". The case if important, be sure to follow it (and check that there are no other characters such as spaces).
 > 
-> ![](create-value.png)
+> ![](../../../../assets/create-value.png)
 
 In the **right pane** , double click on the value  **TdrDdiDelay**  . Change the **Base** setting to **Decimal** . Set the value to something else than the default **5** (we recommend **60** ).
 
@@ -133,7 +132,7 @@ This value indicates in seconds how long the operating system will wait before c
 
 The right pane should now looks like this:
 
-![TDR keys in Windows Registry Editor - Final](registry-example.png "TDR keys in Windows Registry Editor - Final"){zoomable="yes"}
+![TDR keys in Windows Registry Editor - Final](../../../../assets/registry-example.png "TDR keys in Windows Registry Editor - Final"){zoomable="yes"}
 
 **Close** the Registry editor. **Restart** the computer by using **Start** then **Restart** .
 

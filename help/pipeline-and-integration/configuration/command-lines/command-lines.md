@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Command lines
 
 This page list several command lines that can be used when launching the application to create or open projects for example.  

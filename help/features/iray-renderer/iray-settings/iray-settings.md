@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Iray Settings
 
-![](iray-settings.png)
+![](../../../assets/iray-settings.png)
 
 The Iray settings control the rendering of the IRay viewport, how long it will run and the quality of it.
 
@@ -41,7 +40,7 @@ The top section of the window display the status of Iray alongside other informa
 As soon as a setting has been modifier, Iray will start computing the rendering.  
 It is possible to pause Iray to avoid this behavior with the dedicated button :
 
-![](pause-2.png)
+![](../../../assets/pause-2.png)
 
 | *Setting* | *Description* |
 | --- | --- |

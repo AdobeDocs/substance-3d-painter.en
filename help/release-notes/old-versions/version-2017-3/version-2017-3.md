@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Version 2017.3
 
 **Substance Painter 2017.3** focus on new advanced export preset with the support of **Adobe Project Felix** and the open format **glTF**. This new release also focus on the user experience by improving the interface and adding an autosave plugin.
@@ -23,7 +22,7 @@ Release date : *28 September 2017*
 
 ### Adobe Standard Material export preset
 
-![](adobe-dimension-meetmat.jpg)
+![](../../../assets/adobe-dimension-meetmat.jpg)
 
 One of the new exporter we include in this release is the support of the Adobe Standard Material, to be used with Adobe Dimension (previously Adobe Project Felix). We let you export the scene mesh and its textures to be imported into Project Felix in one click. To access it, simply choose "**Adobe Standard Material**" in the export textures window. For more information, see : [http://www.adobe.com/products/dimension.html](https://www.adobe.com/products/dimension.html)
 
@@ -31,7 +30,7 @@ You can also check out our blog post about it : <https://www.allegorithmic.com/b
 
 ### glTF 2.0 export preset
 
-![](gltf-export.jpg)
+![](../../../assets/gltf-export.jpg)
 
 We also added support for the **glTF** file format, with the export of the **scene mesh** and the **PBR textures** (metallic/roughness). To access it, simply choose "**glTF PBR Metal Roughness**" in the export textures window. **glTF** is an open-source file format directed by the Khronos group. You can view your glTF file from within **Windows 10** or simply use a WebGL viewer such as [**Babylon**](http://sandbox.babylonjs.com/).
 
@@ -39,7 +38,7 @@ For more information, see : <https://github.com/KhronosGroup/glTF>
 
 ### Autosave plugin
 
-![](autosave-details.png)
+![](../../../assets/autosave-details.png)
 
 In this release we also included a new plug-in that has the possibility to **create backups** of the currently opened project. It creates a backup file on the side of the currently opened project.  
 Because of this, we also added a "**Save As Copy**" entry in the File menu. The **autosave** can be stopped by disabling the plugin itself, its **settings** can be accessed **via the configure panel**. When the delay of the warning time is reached, a **progress bar** will appear below the button in the main toolbar, allowing to snooze it for a few minutes if needed (handy if you want to finish something before the backup).
@@ -48,7 +47,7 @@ If a backup is created but the project has not been saved (aka Untilted), the ba
 
 ### Improved gradient filter
 
-![](gradient-rust.jpg)
+![](../../../assets/gradient-rust.jpg)
 
 The **gradient filter** has been completely revamped. Acting in a much more similar way to the **gradient map** node available in **Substance Designer**. It now supports up to **10 different colors**, with the possibility to specify **where the color is located inside **the gradient****, opening a lot of new doors. This allows to create more **advanced color patterns** but also to **remap heigh maps** and create **new shapes**.
 
@@ -56,11 +55,11 @@ The main slider (color quantity) defines the number of total color that are used
 
 The button on top allow to replace the result of the filter with the gradient itself, to visualize the gradient in the 2D view.
 
-![](gradient-height-demo.jpg)
+![](../../../assets/gradient-height-demo.jpg)
 
 ### Interface and behavior improvements
 
-![](tabs-top.png)
+![](../../../assets/tabs-top.png)
 
 In this release the **tabs** of the different docks of the application are now located **on the top instead of the bottom** of their respective windows. This choice was made to help the readability of the interface but also to be more consistant with other application. Following this change is the introduction of the **little cross** next to the tab title to **easily close it**. It is also possible to **right-click** on the tab to bring a **context menu** (that allow to close or undock the window). A shortcut to undock the window is to simply drag and drop the tab outside of the window area.
 

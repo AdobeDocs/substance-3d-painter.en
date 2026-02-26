@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Surface Shader - Shader API
 
 ## surface-shader.glsl

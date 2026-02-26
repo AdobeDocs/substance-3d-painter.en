@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Mesh Based Input
 
 Mesh Based Input are texture provided by the engine of Substance 3D Painter extracted from the mesh inside the current project. These textures can be used to create advanced effects based on the mesh topology.

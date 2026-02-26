@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # File menu
 
-![](file-menu.png){width="150px"}
+![](../../../assets/file-menu.png){width="150px"}
 
 The file menu contains the actions for creating and saving the projects and as well the actions for exporting and importing resources into a project.
 

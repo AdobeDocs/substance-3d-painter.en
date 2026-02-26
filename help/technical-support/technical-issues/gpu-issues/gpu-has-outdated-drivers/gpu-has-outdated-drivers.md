@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # GPU has outdated drivers
 
-![](driver-outdated.png){width="500px"}
+![](../../../../assets/driver-outdated.png){width="500px"}
 
 When launching Substance 3D Painter a pop-up window can appear mentioning that the GPU drivers are outdated. This message simply means the software requires a minimum version of the GPU drivers to be installed. We recommended updating the GPU drivers to the latest version available when possible to get the best working experience.
 

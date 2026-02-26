@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Shader settings
 
-![](shader-settings.png)
+![](../../assets/shader-settings.png)
 
 The **Shaders Settings** window allows to control the shader (and Iray mdl) parameters and the geometry displacement parameters.
 
@@ -23,7 +22,7 @@ A shader is a function that defines how an object should look when interacting w
 
 ## Undo stack and shader file
 
-![](shader-undo.png)
+![](../../assets/shader-undo.png)
 
 This section of the Shader Settings window controls the main parameters when manipulating shaders.   
 The Undo/Redo stack for the shader is independent from the main  [History](https://substance3d.adobe.com/display/DRAFTPAINTER/History)  to not create conflicts when painting.
@@ -48,13 +47,13 @@ To create and manage Shader Instances, see the [Texture Set list](../../interfac
 
 ## Shader parameters
 
-![](shader-parameters-1.png)
+![](../../assets/shader-parameters-1.png)
 
 Shader parameters are dependent of the shader file currently loaded.
 
 ## Displacement and tesselation
 
-![](disp-parameters.png)
+![](../../assets/disp-parameters.png)
 
 Displacement and Tesselation are two functionalities that can be used to modify the shape of an object to add further details.
 

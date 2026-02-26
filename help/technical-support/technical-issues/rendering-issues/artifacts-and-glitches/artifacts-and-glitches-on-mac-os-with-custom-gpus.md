@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Artifacts and glitches on Mac OS with Custom GPUs
 
 >[!WARNING]

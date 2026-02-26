@@ -12,19 +12,18 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Dynamic strokes
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](dynamic-brush-test1.gif){width="400px"}
+![](../../assets/dynamic-brush-test1.gif){width="400px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](colored-brush.gif){width="350px"}
+![](../../assets/colored-brush.gif){width="350px"}
 
 </td>
 </tr>

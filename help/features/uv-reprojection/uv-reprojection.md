@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # UV Reprojection
 
 UV Reprojection is an automatic process that happens when you changed the texture resolution or that you import a new mesh.   

@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Display settings
 
-![](display-settings-2.png){width="320px"}
+![](../../assets/display-settings-2.png){width="320px"}
 
 The **Display Settings** window regroups the environment, camera and viewport settings. These settings are global to the project and can affect the look of the viewport.
 
 ## View mode
 
-![](viewmode.png)
+![](../../assets/viewmode.png)
 
 The view mode controls how the viewport will look. The dropdown is divided into three sections:
 

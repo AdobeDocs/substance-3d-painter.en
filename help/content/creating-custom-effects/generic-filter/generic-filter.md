@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Generic filter
 
 A generic effect will be applied on all the document channels, including opacity. A generic filter can be :
@@ -28,4 +27,4 @@ The input node of the effect must have the **identifier** or **usage** defined *
 
 Example :
 
-![](generic-filter.png)![](generic-rgba.png){width="575px"}
+![](../../../assets/generic-filter.png)![](../../../assets/generic-rgba.png){width="575px"}

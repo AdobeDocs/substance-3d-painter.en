@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Eraser
 
 The Eraser is a paint tool that erase/hide what has been painted previously by other tools. This tool only affect one layer at a time.
@@ -38,11 +37,11 @@ When erasing information, it possible to only affect specific channels.
 
 * If all channels are enabled, the eraser will remove information inside all the channels:
 
-  ![](eraser-all-channels-selection.png)
+  ![](../../../assets/eraser-all-channels-selection.png)
 
-  ![](erase-all-channel-optim.gif){width="325px"}
+  ![](../../../assets/erase-all-channel-optim.gif){width="325px"}
 * If specific channels are selected, the eraser will remove information from those channels only:
 
-  ![](eraser-one-channel-selection.png)
+  ![](../../../assets/eraser-one-channel-selection.png)
 
-  ![](erase-one-channel-optim.gif){width="325px"}
+  ![](../../../assets/erase-one-channel-optim.gif){width="325px"}

@@ -12,13 +12,12 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Corrupted texture error message
 
 Corrupted textures in a project will cause failures during the saving process and can lead to projects being entirely corrupted and non-salvageable. However this can be manually fixed.  
 A corrupted resource manifests itself in the log when opening a project with an error message similar to this one in the log window :
 
-![](corrupt1.png)
+![](../../../../assets/corrupt1.png)
 
 ## Fixing a corrupted resource reference
 
@@ -29,7 +28,7 @@ In most cases the culprit is from the **Mesh maps** (baked textures). A quick wa
 
 Corrupted resources will look like this:
 
-![](corrupt2.png)
+![](../../../../assets/corrupt2.png)
 
 >[!NOTE]
 >

@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Creating a Javascript plugin
 
 This step by step guide describes how to create a simple plugin that allows to export the mask of the currently selected layer in a project.
@@ -326,8 +325,8 @@ Start Substance 3D Painter, by default new plugins are automatically loaded and 
 
 Open a project then click on the UI button created by the plugin to export the channels of the currently selected Texture Set:
 
-![](button-plugin.png)
+![](../../../assets/button-plugin.png)
 
 To enable or disable a plugin, use the Javascript menu at the top of the interface:
 
-![](disable-plugin.png)
+![](../../../assets/disable-plugin.png)

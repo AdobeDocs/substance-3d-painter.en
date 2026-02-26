@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Adding resources via the import window
 
 ## Opening the import window
@@ -21,19 +20,19 @@ There are three different ways to open the import window in Substance 3D Painter
 
 * Via the  **File &gt; Import resources...**  menu entry
 
-![](05-01-importfilemenu.jpg)
+![](../../../assets/05-01-importfilemenu.jpg)
 
 * Via the  **dedicated button**  in the Assets window
 
-![](05-03-importbutton.jpg)
+![](../../../assets/05-03-importbutton.jpg)
 
 * Via  **drag and drop**  of one or more files/folders into the Assets window
 
-![](05-02-importdnd.gif){width="700px"}
+![](../../../assets/05-02-importdnd.gif){width="700px"}
 
 ## Configuring the import window
 
-![](05-04-importwindow.jpg)
+![](../../../assets/05-04-importwindow.jpg)
 
 * **1 - Add resources**: Allows to select additional files to import, which will add them to the list display in the Import window.
 * **2 - Remove selected resources:** Removes files selected in the list.

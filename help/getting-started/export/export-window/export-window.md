@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Export window
 
-![](export-textures-window.png){width="500px"}
+![](../../../assets/export-textures-window.png){width="500px"}
 
 Open the <b>Export window </b>with <b>File &gt; Export textures </b>or keyboard shortcut <b>Ctrl + Shift + E</b>.
 

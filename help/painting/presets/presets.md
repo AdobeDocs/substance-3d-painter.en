@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Presets
 
 A Preset is a saved configuration of a [Painting Tools](../../painting/tool-list/tool-list.md). They can be one of three different kind:

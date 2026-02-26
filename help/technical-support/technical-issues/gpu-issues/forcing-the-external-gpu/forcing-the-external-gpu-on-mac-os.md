@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Forcing the external GPU on Mac OS
 
 On Mac OS Mojave, it is possible to specify per application to use the external GPU. Substance 3D Painter performances and stability may improve with this setting enabled.

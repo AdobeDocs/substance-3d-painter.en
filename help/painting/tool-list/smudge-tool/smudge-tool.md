@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Smudge tool
 
-![](image2018-6-12-18-14-12.png)
+![](../../../assets/image2018-6-12-18-14-12.png)
 
 Introduced in Substance 3D Painter 2 the smudge tool shares the same type of parameters as as the  [paint tool](https://support.allegorithmic.com/documentation/display/SPDOC/Paint+brush)  .
 
-![](smudge.gif)
+![](../../../assets/smudge.gif)
 
 ## Usage
 

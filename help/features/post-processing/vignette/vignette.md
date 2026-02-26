@@ -12,11 +12,10 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Vignette
 
-![](vignette-22.png)
+![](../../../assets/vignette-22.png)
 
 The Vignette effect darken the corners of the viewport to simulate a camera shadow.
 
-![](vignette-example-2.jpg)
+![](../../../assets/vignette-example-2.jpg)

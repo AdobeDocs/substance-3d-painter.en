@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # PBR Material Layering - Shader API
 
 Import from libraries.

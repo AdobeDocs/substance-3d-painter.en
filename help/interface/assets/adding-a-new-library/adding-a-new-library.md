@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Adding a new library
 
 It is possible to add a new library location in case you would like to change your import location to something other than the Documents folder, or there is an already existing collection of assets on your disk that you'd like to make accessible in Painter.You can manage your libraries via the Settings menu, however note that **no project should be open** in order to use this menu. Once you add a new library to Painter, it will automatically create the same (empty) folders as you see in the default asset location (*alphas*, *colorluts*, *effects*, etc.). Placing assets in a specific folder will assign them that exact usage (you can learn more [here](../../../content/importing-assets/adding-content-the-hard/adding-content-on-the-hard-drive.md)). So, for example, if you would like to see your custom grayscale images appear under the Alpha category in the Painter UI, you will have to place those images in the *alphas* folder.
@@ -27,4 +26,4 @@ To add a new library -
 1. Your library should appear in the list.
 1. *Optional:* if you would like your new library to be the default import location, select the Default button.
 
-![](04-01-addlibrary.gif){width="600px"}
+![](../../../assets/04-01-addlibrary.gif){width="600px"}

@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Texture dilation or Padding
 
 **Padding** (sometimes also called **dilation**) is a process that happens after the generation of a texture. Its purpose is to dilate the borders of the UV islands to fill empty areas with similar pixels.
@@ -28,12 +27,12 @@ Here is an example of how the infinite padding works :
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](padding.gif){width="512px"}
+![](../../../../assets/padding.gif){width="512px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](padding-zoom.gif)
+![](../../../../assets/padding-zoom.gif)
 
 </td>
 </tr>
@@ -49,12 +48,12 @@ Padding is very important for mipmaps as it avoids incorrect colors to bleed ins
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](mipmap-padding.gif){width="400px"}
+![](../../../../assets/mipmap-padding.gif){width="400px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](mipmap-nopadding.gif){width="400px"}
+![](../../../../assets/mipmap-nopadding.gif){width="400px"}
 
 </td>
 </tr>
@@ -64,7 +63,7 @@ On the example above the gray background bleeds into the UVs (right image), whil
 
 Inside a 3D application this is the result :
 
-![](padding-toggle.gif)
+![](../../../../assets/padding-toggle.gif)
 
 ## Padding controls
 

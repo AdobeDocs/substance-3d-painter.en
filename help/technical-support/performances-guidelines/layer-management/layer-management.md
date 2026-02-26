@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Layer management
 
 Painter computes the layer stack from the bottom to the top. So, if you make changes to the top layer on the stack, Painter only needs to compute the changes of that layer. However, if you make a change to a layer at the bottom of the stack, Painter needs to compute all of the layers above that layer to calculate the final result.

@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Mesh faces disappear when looking at them from behind
 
 By default, meshes in the viewport may not display the back of the mesh polygons (backface). This is because they are culled by the current shader.

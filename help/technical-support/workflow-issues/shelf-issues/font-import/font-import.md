@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Font file cannot be imported
 
 With the introduction of the [Text resource](../../../../painting/text-resource/text-resource.md), fonts file are automatically gathered on startup. Font files can also be manually imported.

@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Advanced search queries
 
 Advanced search queries allow you to construct complex searches and reuse them as [Saved searches](../../../interface/assets/saved-searches/saved-searches.md).

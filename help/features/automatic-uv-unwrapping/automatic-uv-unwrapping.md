@@ -12,21 +12,20 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Automatic UV Unwrapping
 
-![](auto-unwrap-update-810.jpg)   
+![](../../assets/auto-unwrap-update-810.jpg)   
 The automatic UV unwrapping allow to generate UV islands automatically when importing a 3D model. It can be used to paint on 3D model that don't have any existing UVs.
 
 ## Enabling the automatic UV unwrapping
 
-![](uv-new-project.png)
+![](../../assets/uv-new-project.png)
 
 When creating a new project or re-importing a mesh into an existing project, make sure the setting "Auto-unwrap" is checked. If disabled, the process will be skipped and mesh UVs will remain as-is.
 
 ## UV unwrapping settings
 
-![](unwrap-settings.png)
+![](../../assets/unwrap-settings.png)
 
 When importing a mesh and using the unwrapping process, the following settings are available. Some settings are available via the Options button in the interface.
 
@@ -41,7 +40,7 @@ When importing a mesh and using the unwrapping process, the following settings a
 |  |  |  |
 | **UV Tiles** | **Maximum number of UV Tiles** | If the UV Tiles workflow is enabled, this settings determine the maximum number of tiles to produce to distribute on the UV islands. |
 |  |  |  |
-| **Optimization** | **Avoid elongated UV islands** | If enabled, this process will split UV islands considered too long to improve the usage of the texture space.Example of before (top) and after (bottom): <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r10-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="uv-before-after.jpg" width="400px"/></div> |
+| **Optimization** | **Avoid elongated UV islands** | If enabled, this process will split UV islands considered too long to improve the usage of the texture space.Example of before (top) and after (bottom): <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r10-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/uv-before-after.jpg" width="400px"/></div> |
 
 ## Known limitations
 

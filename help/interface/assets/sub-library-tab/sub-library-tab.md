@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Sub-library tab
 
 A sub-library is a new tab or window in Substance 3D Painter dedicated to a specific search.   
@@ -20,11 +19,11 @@ There is no sub-library tab open by default, only the main Assets window. You ca
 
 * By  **right-clicking**  on one of the saved searches and choosing **Create new tab.**
 
-![](08-01-sublibrary.jpg)
+![](../../../assets/08-01-sublibrary.jpg)
 
 * By  **choosing or entering a search query** (via asset types, breadcrumbs, text query or Filter by path) and then using the dedicated  **button**  at the bottom of the Assets window.
 
-![](08-02-sublibrary.jpg)
+![](../../../assets/08-02-sublibrary.jpg)
 
 Creating a sub-library will automatically create a new tab and  **dock it**  in the interface within the same space as the main Assets window.
 

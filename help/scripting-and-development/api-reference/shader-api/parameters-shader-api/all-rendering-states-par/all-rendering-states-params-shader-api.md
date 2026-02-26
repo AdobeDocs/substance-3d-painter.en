@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # All Rendering States Params - Shader API
 
 ## Rendering states examples

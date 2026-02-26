@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Painter doesn't start on the right GPU
 
 On Windows, the application may not use the right GPU when starting up which can lead to performance and stability issues. Below is a list of of common issues and their solutions to make sure the software works with the right GPU.
@@ -52,19 +51,19 @@ Windows may have set the wrong GPU setting for the application because of the de
 
 1. Open the display settings by right-clicking on your desktop :
 
-   ![](settings-33.png)
+   ![](../../../../assets/settings-33.png)
 1. Navigate to the bottom of the window on the home and click on "Graphics Settings" :
 
-   ![](graphics-settings.png)
+   ![](../../../../assets/graphics-settings.png)
 1. Click on the "Browse" button and locate the Substance 3D Painter executable :
 
-   ![](browse-16.png)
+   ![](../../../../assets/browse-16.png)
 1. Once the application has been added, click on the button "Options" :
 
-   ![](options-19.png)
+   ![](../../../../assets/options-19.png)
 1. Choose the setting "High performance" and click on the "Save" button
 
-   ![](specs.png)
+   ![](../../../../assets/specs.png)
 
 ## Linux
 

@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Subsurface Scattering
 
-![](sss-sarah.jpg){width="500px"}
+![](../../assets/sss-sarah.jpg){width="500px"}
 
 > 
 

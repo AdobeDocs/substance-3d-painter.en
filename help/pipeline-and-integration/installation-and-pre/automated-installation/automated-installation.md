@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Automated installation
 
 When using the Substance 3D standalone installer, it is possible to install the application in silent mode for easier deployment.

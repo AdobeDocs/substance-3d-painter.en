@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Plugins menu
 
-![](javascript-menu.png) ![](python-menu.png)   
+![](../../../assets/javascript-menu.png) ![](../../../assets/python-menu.png)   
 The plugin menus lists all the available plugins that are loaded by the application at startup.  
 Each plugin discovered by the application will add an entry in the menu to access additional functions. Plugins are separated into two menus based on the scripting API they are using (Javascript of Python). Each plugin give access to the following action:
 

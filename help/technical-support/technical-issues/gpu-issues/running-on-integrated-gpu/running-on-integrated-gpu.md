@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Running on integrated GPU
 
-![](integrated-gpu.png){width="500px"}
+![](../../../../assets/integrated-gpu.png){width="500px"}
 
 It can happens that some computers are set by default to run on an integrated chipset rather than on a dedicated GPU.   
 Since performances on integrated chipset are very low, we recommend to use a dedicated GPU instead. A pop-up can appears and warns you about it.

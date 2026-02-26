@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # All Changes
 
 This page contains release notes for all previous releases of Substance 3D Painter, sorted from most recent to oldest.

@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Issues with Nvidia GPUs on recent Mac OS versions
 
 Under Mac OS Apple provides the GPU drivers by validating them after they have been provided by the GPU constructor. Since Mac OS Mojave, Apple hasn't validated yet any new drivers for recent Nvidia GPUs. Unfortunately Substance 3D Painter need an up to date GPU drivers to work properly.

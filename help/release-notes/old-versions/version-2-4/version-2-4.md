@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Version 2.4
 
 **Substance Painter 2.4** focus on improving the shelf window as well as the managements of resources.
@@ -23,7 +22,7 @@ Release Date : *27 October 2016*
 
 ### New shelf window with advanced filtering
 
-![](new-shelf-240.jpg)
+![](../../../assets/new-shelf-240.jpg)
 
 The new shelf window provide a **better organisation** of resources alongside **new ways of filtering content**. We added the possibility to create **custom presets** where each preset has its own filtering (allowing to quickly switch between different queries). These presets can also be i**solated into a new window**, offering a way to have **multiple views** of the shelf and not only one like before. The filtering also offer a way to **browse the hierarchy of folders on the disk**, becoming handy when refining a more general query. We also improved the **context menu** (when right-clicking on a resource) to provide **more useful information**.
 
@@ -31,7 +30,7 @@ For creating advanced queries, see the dedicated part of the documentation : [Ad
 
 ### New import resource window
 
-![](import-window-240.png)
+![](../../../assets/import-window-240.png)
 
 With the rework of the shelf we also **improved the resource import window**. The window is now more consistant and can be **called in three different ways** : via the file menu, via the button in the shelf window, or just like before by drag and dropping a resource into the shelf window. The new window allow to **quickly set the usage** for **multiple resources** at once, which means you don't have to drag and drop resources into the right location first anymore. We also added the possibility to **specify a custom path** to create sub-folders in order to take advantage of the new tree view.
 
@@ -39,7 +38,7 @@ For more details, see the dedicated part of the documentation : [Adding resource
 
 ### New particle presets
 
-![](particle-240.png)
+![](../../../assets/particle-240.png)
 
 We **reworked** the previous **particles preset** to be more ready to use (especially the **Rain** preset). We also took this opportunity to **add new presets** with new behaviors : take a look at **Electric Circuit, Electric Lines, Rococo and Veins Small** !
 

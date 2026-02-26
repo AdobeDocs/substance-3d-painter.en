@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Impossible to drag and drop files into the shelf
 
 On  **Windows 8 and Windows 10**  , if you run Substance 3D Painter in administrator mode, the security level of the software will be probably higher than the security level of Windows Explorer. Therefore Windows won't allow to drag and drop files between these applications.

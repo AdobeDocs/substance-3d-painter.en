@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Edit menu
 
-![](edit-menu.png)   
+![](../../../assets/edit-menu.png)   
 The edit menu allows to access quickly the undo/redo actions but also to access the project settings and the global settings.
 
 | Action | Description |

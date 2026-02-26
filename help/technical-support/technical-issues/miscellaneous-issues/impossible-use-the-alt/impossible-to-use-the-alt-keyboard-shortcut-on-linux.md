@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Impossible to use the ALT keyboard shortcut on Linux
 
 If you are running a Linux distribution (**Ubuntu**  or  **CentOS**) which use  **Gnome**  as user interface, you might want to disable the default behavior of the  **ALT**  key to be able to navigate in the viewport.
@@ -21,11 +20,11 @@ If you are running a Linux distribution (**Ubuntu**  or  **CentOS**) which use  
 
 1 - Go to  **System &gt; Windows**
 
-![](centos-window.png){width="250px"}
+![](../../../../assets/centos-window.png){width="250px"}
 
 2 - Change the "movement key" setting to something else than "  **Alt**  ". For example use "  **Super**  " (to choose the "Windows" key of your keyboard).
 
-![](centos-setting.png){width="350px"}
+![](../../../../assets/centos-setting.png){width="350px"}
 
 ## Ubuntu
 
@@ -45,4 +44,4 @@ This will install an advanced configuration tool, you might have to allow additi
 
 4 - Edit the "mouse-button-modifier" and change it value. Set it  or  instead, but  *don't leave it empty*  . Super is an equivalent to the "Windows" key.
 
-![](ubuntu-setting.png){width="500px"}
+![](../../../../assets/ubuntu-setting.png){width="500px"}

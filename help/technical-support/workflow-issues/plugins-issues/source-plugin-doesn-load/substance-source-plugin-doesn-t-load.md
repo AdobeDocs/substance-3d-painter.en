@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Substance Source plugin doesn't load
 
 The Substance Source plugin which was included with Substance 3D Painter is now deprecated, for technical and maintenance reasons. This page explains how to remove it and suggests alternative solutions.

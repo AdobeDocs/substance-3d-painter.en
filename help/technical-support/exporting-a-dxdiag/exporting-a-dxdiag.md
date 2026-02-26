@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Exporting a DXDiag
 
 This page explains what a DXDiag is and how to generate it.

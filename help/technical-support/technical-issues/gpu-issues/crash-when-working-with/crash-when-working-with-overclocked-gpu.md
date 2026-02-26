@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Crash when working with overclocked GPU
 
 Overclocked GPUs can often be more unstable because they run of frequencies that weren't initially designed by the GPU constructor. If your GPU is overclocked and you have stability issues we recommend going back to the factory default frequencies for a while.

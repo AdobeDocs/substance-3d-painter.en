@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Version 2017.2
 
 **Substance Painter 2017.2** introduces a new powerful feature via the Anchor point system. It allows to create more advanced configurations in the layer stack which opens up a lot of new possibilities.
@@ -23,7 +22,7 @@ Release date : *27 July 2017*
 
 ### New Anchor point effect
 
-![](anchor-height-blend-optim.gif)
+![](../../../assets/anchor-height-blend-optim.gif)
 
 **A new effect type** has been added to Substance Painter, next to the already existing such as **Filter** and **Level** you can now find the new **Anchor point**. This new effect allow to define a **location** in the **layer stack** that can then be **referenced** across the rest of the project in any other layers. This allow for example to use the height information from a layer into the mask of a layer just above this one, allowing a more natural blending (as illustrated by the gif above).
 

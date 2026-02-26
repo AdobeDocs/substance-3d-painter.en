@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Color management
 
-![](banner-cm-doc.jpg)
+![](../../assets/banner-cm-doc.jpg)
 
 Color management is the handling and conversion of colors. From importing resources to displaying colors on screen to finally exporting textures. Color calibration is important to ensure the same look across applications.
 
@@ -81,7 +80,7 @@ Inside the application, which channels are color managed or not (data/passthroug
 | **Specular level** | No |
 | **Translucency** | No |
 | **Transmissive** | **Yes** |
-| **UserX (0-15)** | Depends on [Texture Set settings](../../interface/texture-set/texture-set-settings/texture-set-settings.md). By default user channels are not color managed. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r31-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="user-demo.png"/></div> |
+| **UserX (0-15)** | Depends on [Texture Set settings](../../interface/texture-set/texture-set-settings/texture-set-settings.md). By default user channels are not color managed. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r31-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/user-demo.png"/></div> |
 
 ## Color picker
 
@@ -96,7 +95,7 @@ For more information, see the color picker [documentation page](../../interface/
 
 Both the 2D and 3D views are color managed and have a dedicated settings available at the top of the viewport to control which display transform to use:
 
-![](viewport-cm.png)
+![](../../assets/viewport-cm.png)
 
 * **Left button**: Enable/disable the display transform of the viewport. If disabled the viewport will display colors as raw/passthrough. This button is enabled by default.
 * **Right dropdown**: Specify which display transform to use to convert the colors to display them on screen. The default value is based on the OCIO configuration. This setting isn't saved with the project since it can be monitor dependent.
@@ -115,12 +114,12 @@ Inside the [export textures](../../getting-started/export/export.md) window ther
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](export-list-1.png){width="320px"}
+![](../../assets/export-list-1.png){width="320px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](export-list-2.png){width="500px"}
+![](../../assets/export-list-2.png){width="500px"}
 
 </td>
 </tr>
@@ -136,10 +135,10 @@ Inside the [properties window](../../interface/properties/properties.md) is it p
 
 To do so, expand the color space section and use the dropdown to specify the new color space:
 
-![](color-space-menu.png)
+![](../../assets/color-space-menu.png)
 
 ### Changing the color space of the environment map
 
 Inside the [display settings](../../interface/display-settings/display-settings.md), enable the **Override environment map color space** then choose a color space in the list that matches your resource.
 
-![](color-sace-menu-env.png)
+![](../../assets/color-sace-menu-env.png)

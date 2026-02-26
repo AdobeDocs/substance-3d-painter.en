@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Lib Emissive - Shader API
 
 ## lib-emissive.glsl

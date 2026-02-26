@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Windows Blue Screens
 
 On Windows  [Blue Screens Of Death (BSOD)](https://en.wikipedia.org/wiki/Blue_screen_of_death)  are usually related to drivers or hardware malfunctions. Substance 3D Painter itself is not responsible of those BSODs, but it can put some light on an issue with the computer itself because of how intensive the application is. In the case of Substance 3D Painter, a BSOD can be caused because of the following issues.

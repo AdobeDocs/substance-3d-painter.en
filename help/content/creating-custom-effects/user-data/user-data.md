@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # User data
 
 This page describes custom properties (user data) that can be added on Substance graph to execute specific behaviors.  

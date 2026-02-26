@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Assets
 
 The Asset window allows you to access the default resources that come with the application (referred to as **Starter assets**), as well as any [imported](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html) resources (which can be then found under **Your assets**).
@@ -33,12 +32,12 @@ The Assets window is divided into three main sections by default:
 
 For more information see the [Navigation page](../../interface/assets/navigation/navigation.md).
 
-![](v10_assets_overview_1.png)
+![](../../assets/v10_assets_overview_1.png)
 
 #### Assets list
 
-![](v10_assets_list.png)
+![](../../assets/v10_assets_list.png)
 
 #### Bottom bar
 
-![](v10_assets_overview_2.png)
+![](../../assets/v10_assets_overview_2.png)

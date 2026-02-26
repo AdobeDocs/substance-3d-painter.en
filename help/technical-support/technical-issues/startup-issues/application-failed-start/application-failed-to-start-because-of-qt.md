@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Application failed to start because of Qt
 
 The following error message may appear when starting the application:

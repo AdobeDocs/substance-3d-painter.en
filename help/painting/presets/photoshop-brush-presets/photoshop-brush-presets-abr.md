@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Photoshop Brush Presets (ABR)
 
 Substance 3D Painter can import brush presets made for Photoshop by importing ABR files. ABR files can contain multiple brush and tool presets.

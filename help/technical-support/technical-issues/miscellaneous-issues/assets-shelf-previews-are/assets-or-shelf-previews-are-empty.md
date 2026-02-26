@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Assets (or shelf) previews are empty
 
 This issue can be caused by other software, see: [Software conflicts](../../../../technical-support/technical-issues/startup-issues/software-conflicts/software-conflicts.md).

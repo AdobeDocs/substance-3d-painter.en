@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Software conflicts
 
 This page contains a list of known issues with other software that may crash or stop Substance 3D Painter from running correctly.

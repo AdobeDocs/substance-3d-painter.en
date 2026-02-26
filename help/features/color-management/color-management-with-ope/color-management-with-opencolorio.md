@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Color management with OpenColorIO
 
 This page lists the color management settings related to OpenColorIO (OCIO).
 
 ## Project settings
 
-![](project-settings-3.png)
+![](../../../assets/project-settings-3.png)
 
 The project settings can be set when creating a new project via the [new project](../../../getting-started/project-creation/project-creation.md) window or by using the [project configuration](../../../interface/project-configuration/project-configuration.md) window.
 

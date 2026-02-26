@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Editing the Shelf Preferences with Python
 
 Below are example Python scripts to modify Windows registry in order to manipulate resource paths.

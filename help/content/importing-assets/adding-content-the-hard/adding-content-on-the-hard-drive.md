@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Adding content on the hard drive
 
 It is possible to add resources to your libraries by placing new content directly on the hard drive at the right location.  

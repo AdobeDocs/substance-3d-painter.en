@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Mesh map settings
 
 <b>The Mesh map settings panel</b> is available in Baking mode, and has controls to prepare your mesh for baking. To adjust mesh map settings for a given map, select the map in the <b>Mesh map bakers panel</b>. Each Mesh map can have different settings available. A collection of <b>Common settings </b>shared by all mesh maps is available at the top of the Mesh Map Bakers panel.

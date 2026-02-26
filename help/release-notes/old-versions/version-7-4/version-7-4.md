@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Version 7.4
 
 **Substance 3D Painter 7.4** adds support for OpenColorIO with the introduction of the new Color Management workflow.
@@ -23,7 +22,7 @@ Release date: *24 November 2021*
 
 ### New color management
 
-![](banner-cm.jpg)
+![](../../../assets/banner-cm.jpg)
 
 This version introduces color management with the support of [OpenColorIO](https://opencolorio.org/) (OCIO for short) version 2.
 
@@ -33,35 +32,35 @@ This new workflow allows to manage and calibrate colors from import to export an
   When creating a new project it is now possible to enable color management. Existing project can also enable color management via the project settings.  
   To enable color management, switch from **Legacy** (default) to **OpenColorIO** and use one of the default configurations or a custom one.
 
-  ![](cm-settings.png){width="400px"}
+  ![](../../../assets/cm-settings.png){width="400px"}
 
 * **Viewport display settings**   
   At the top of the 2D and 3D views are two controls for color management:  
   **Color button**: enable or disable the color transformation of the viewport.  
   **Display transform dropdown**: select which display transform to use to convert the colors.
 
-  ![](cm-viewport.jpg){width="500px"}
+  ![](../../../assets/cm-viewport.jpg){width="500px"}
 
 * **Color picker settings**   
   When color management is enabled, the color pickers offers new controls. Color are edited in the working color space specified by the configuration.  
   Below the HSV/RGB sliders is displayed the final color value, transformed from the working space to the display color space.
 
-  ![](color-picker-demo.png)
+  ![](../../../assets/color-picker-demo.png)
 
-  ![](cm-picker-display-value.png)
+  ![](../../../assets/cm-picker-display-value.png)
 
 * **Import bitmaps and Substance materials with custom color space**   
   Dedicated settings are available to specify how resources should be handled, including how Substance materials output should be interpreted.  
   It is also possible to know which color space a resource is using by parsing its filename.
 
-  ![](auto-color-space.png)
+  ![](../../../assets/auto-color-space.png)
 
 * **Export settings**   
   When exporting textures, color managed channels will display in their filenames the name of the color space used with the help of the new keyword **$colorSpace**.
 
-  ![](export-list-1.png){width="250px"}
+  ![](../../../assets/export-list-1.png){width="250px"}
 
-  ![](export-list-2.png)
+  ![](../../../assets/export-list-2(1).png)
 
 >[!NOTE]
 >
@@ -69,7 +68,7 @@ This new workflow allows to manage and calibrate colors from import to export an
 
 ### New undock of 2D and 3D viewport
 
-![](banner-undock.jpg)
+![](../../../assets/banner-undock.jpg)
 
 The 2D and 3D view can now be undocked to be moved elsewhere. For example by having the 3D view on a main screen while the 2D view sits on another screen.
 
@@ -78,21 +77,21 @@ Working with an undocked view is easier to organize the layout of the applicatio
 * **Undock a view**   
   To undock a view, simply open the view menu and choose one of the two options. Each option opens a new window with the its view inside, while the other view remains docked inside the main interface.
 
-  ![](undock-menu.png)
+  ![](../../../assets/undock-menu.png)
 
 * **Swap even with an undocked view**   
   While a view is undocked, the swap action from the view menu can be used to exchanged them.
 
-  ![](swap-undock.gif){width="500px"}
+  ![](../../../assets/swap-undock.gif){width="500px"}
 
 * **Compatible with color management**   
   The undocked view has its own color management display transform, making it easier to manage in different monitors.
 
-  ![](false-colors-undock.jpg){width="500px"}
+  ![](../../../assets/false-colors-undock.jpg){width="500px"}
 
 ### New support for SpaceMouse® by 3Dconnexion
 
-![](spacemouse-banner.jpg)
+![](../../../assets/spacemouse-banner.jpg)
 
 The **SpaceMouse®** is a device by 3Dconnexion that allows to manipulate the 3D viewport camera in a more intuitive and friendly way. It is now supported natively and directly plug and play with Painter.
 
@@ -105,7 +104,7 @@ For more information, see the dedicated [documentation page](../../../features/s
 
 ### New content
 
-![](banner-content-4.jpg)
+![](../../../assets/banner-content-4.jpg)
 
 A new set of assets has been added to the default content available with the application:
 
@@ -140,7 +139,7 @@ A new set of assets has been added to the default content available with the app
 
 ### Improved automatic UV unwrapping
 
-![](banner-uv-1.jpg)
+![](../../../assets/banner-uv-1.jpg)
 
 The automatic UV unwrapping has been updated with a new option that to improve the support of 3D models with extended surfaces.
 
@@ -148,11 +147,11 @@ This new setting named **Avoid elongated UV islands** take better advantage of t
 
 Below is an example of this new settings without using it vs using it:
 
-![](uv-before-after.jpg){width="500px"}
+![](../../../assets/uv-before-after.jpg){width="500px"}
 
 ### Improved Python scripting
 
-![](banner-python-1.jpg)
+![](../../../assets/banner-python-1.jpg)
 
 The Python API has a new method which allows to call the Javascript API.
 

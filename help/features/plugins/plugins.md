@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Plugins
 
 Substance 3D Painter has a dedicated Scripting API that allow to create custom plugins to add custom functionalities and behavior.   

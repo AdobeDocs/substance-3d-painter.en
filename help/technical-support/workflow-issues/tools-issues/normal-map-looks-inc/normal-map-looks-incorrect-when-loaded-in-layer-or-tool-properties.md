@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Normal map looks incorrect when loaded in layer or tool properties
 
 When loading a normal into the current tool of fill layer, this one can appear incorrect if it's an OpenGL normal map.   
@@ -20,4 +19,4 @@ The reason is quite simple : the engine of Substance 3D Painter assume that load
 
 This behavior can easily be edited by clicking on the little arrow next to the substance material or the dedicated channel:
 
-![](channel-format-override.png)
+![](../../../../assets/channel-format-override.png)

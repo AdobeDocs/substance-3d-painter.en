@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # All Custom Params - Shader API
 
 ## Custom parameters sample shader

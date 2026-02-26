@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Receiving assets from other Substance 3D applications
 
 Starting with the 7.2.0 release, you can also receive and update assets sent from Designer and Sampler via the Send to feature. As you need to be able to access Sampler and Designer for this, this feature is only available if you are using Painter via Substance 3D Texturing or Substance 3D Collection.
@@ -26,7 +25,7 @@ Once the asset is sent, it will appear in Painter's Assets panel, imported to th
 1. Select option **Send to Substance 3D Painter** (this will automatically launch Painter if it is not already open).
 1. The sent asset will appear in the Assets window.
 
-![](05-06-fromdesigner.jpg)
+![](../../../assets/05-06-fromdesigner.jpg)
 
 ## Sending an asset from Sampler to Painter
 
@@ -34,4 +33,4 @@ Once the asset is sent, it will appear in Painter's Assets panel, imported to th
 1. Click on **Send to Substance 3D Painter** (this will automatically launch Painter if it is not already open).
 1. The sent asset will appear in the Asset window.
 
-![](05-07-fromsampler.jpg)
+![](../../../assets/05-07-fromsampler.jpg)

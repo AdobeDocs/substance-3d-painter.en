@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Layering Declare Stacks - Shader API
 
 ## Material layering: declare editable stacks

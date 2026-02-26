@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Create and save presets
 
 Use the [Properties window](../../../interface/properties/properties.md) to tweak brush parameters, then save the brush configuration as a preset for quick re-use in the future.
@@ -23,7 +22,7 @@ Use the [Properties window](../../../interface/properties/properties.md) to twe
 
 ## Create a new preset
 
-![](save-preset-1.png)
+![](../../../assets/save-preset-1.png)
 
 Presets can be created by right clicking in the Properties window when Tool properties are available (paint layer or paint effect).
 
@@ -35,6 +34,6 @@ Right-click in the Properties window to open a context menu with the following o
 
 ## Update an existing preset
 
-![](update-preset.png)
+![](../../../assets/update-preset.png)
 
 It is possible to update an existing preset based on the current values in the Properties window. Right-click on the asset in the [Assets](../../../interface/assets/assets.md) window and select "Update from current tool" to update the preset.

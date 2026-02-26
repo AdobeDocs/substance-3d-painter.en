@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Lib Alpha - Shader API
 
 ## lib-alpha.glsl

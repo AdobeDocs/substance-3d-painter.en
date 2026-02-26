@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Editing resource paths manually
 
 This page is a guide on how to edit the preferences to add or remove resource path without launching the application.
@@ -31,12 +30,12 @@ On Windows paths can be managed via the Windows Registry:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](reg-shelf-pathinfos.png)
+![](../../../../assets/reg-shelf-pathinfos.png)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](reg-content.png)
+![](../../../../assets/reg-content.png)
 
 </td>
 </tr>
@@ -55,7 +54,7 @@ On Windows paths can be managed via the Windows Registry:
 
 It is possible to define the new path as the default one (were new resources are created, like presets) by changing the value of the entry **writableShelf** to the name of the new location.
 
-![](default-shelf.png)
+![](../../../../assets/default-shelf.png)
 
 ## Adding a path on Linux
 

@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Texture Set
 
-![](texture-set.png)
+![](../../assets/texture-set.png)
 
 Substance 3D Painter will automatically create a new Texture Set each time it finds a material ID on an imported mesh ([unless a project use the UV Tile workflow](../../features/uv-tiles/uv-tiles.md)).
 

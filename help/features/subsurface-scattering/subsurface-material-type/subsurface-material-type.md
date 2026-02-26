@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Subsurface Material Type
 
 This page list the various type of materials that can be created with the Subsurface scattering feature and how to configure Substance 3D Painter to create them. For each type of material is given a scale and color which can be set in the [Subsurface Parameters](../../../features/subsurface-scattering/subsurface-parameters/subsurface-parameters.md).
@@ -23,7 +22,7 @@ This page list the various type of materials that can be created with the Subsur
 
 ## Human skin
 
-![](mat-skin.jpg)
+![](../../../assets/mat-skin.jpg)
 
 For a good skin material it requires:
 
@@ -33,7 +32,7 @@ For a good skin material it requires:
 | *Setting* | *Description* |
 | --- | --- |
 | **Scale** | <ol data-preserve-html="true"><li data-preserve-html="true">05 to 0.2</li></ol> |
-| **Color** | **R**  : 0.575   **G**  : 0.894   **B**  : 0.376 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="color-skin.png"/></div> **Note:**  This color is suited for Caucasian skin type. |
+| **Color** | **R**  : 0.575   **G**  : 0.894   **B**  : 0.376 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/color-skin.png"/></div> **Note:**  This color is suited for Caucasian skin type. |
 
 Examples of realistic humans can be found via 3D scans of real people:
 
@@ -42,40 +41,40 @@ Examples of realistic humans can be found via 3D scans of real people:
 
 ## Jade
 
-![](cover-jade.jpg)
+![](../../../assets/cover-jade.jpg)
 
 **Jade**  is an ornamental mineral, mostly known for its green varieties, which is featured prominently in ancient Asian art.
 
 | *Setting* | *Description* |
 | --- | --- |
 | **Scale** | <ol data-preserve-html="true"><li data-preserve-html="true">25</li></ol> |
-| **Color** | **R**  : 0.575   **G**  : 0.894   **B**  : 0.376 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="color-jade.png"/></div> |
+| **Color** | **R**  : 0.575   **G**  : 0.894   **B**  : 0.376 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/color-jade.png"/></div> |
 
 ## Marble
 
-![](cover-marble.jpg)
+![](../../../assets/cover-marble.jpg)
 
 | *Setting* | *Description* |
 | --- | --- |
 | **Scale** | <ol data-preserve-html="true"><li data-preserve-html="true">25</li></ol> |
-| **Color** | **R**  : 0.845   **G**  : 0.777   **B**  : 0.525 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="color-marble.png"/></div> |
+| **Color** | **R**  : 0.845   **G**  : 0.777   **B**  : 0.525 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/color-marble.png"/></div> |
 
 ## Wax
 
-![](mat-wax.jpg)
+![](../../../assets/mat-wax.jpg)
 
 Wax regroups a wide range or organic compounds. It exists naturally but can also be made in laboratory. Wax can be found in candles for example.
 
 | *Setting* | *Description* |
 | --- | --- |
 | **Scale** | <ol data-preserve-html="true"><li data-preserve-html="true">6 or more.</li></ol> |
-| **Color** | **R**  : 0.820   **G**  : 0.470   **B**  : 0.205 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="color-wax.png"/></div> |
+| **Color** | **R**  : 0.820   **G**  : 0.470   **B**  : 0.205 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/color-wax.png"/></div> |
 
 ## Milk
 
-![](cover-milk.jpg)
+![](../../../assets/cover-milk.jpg)
 
 | *Setting* | *Description* |
 | --- | --- |
 | **Scale** | <ol data-preserve-html="true"><li data-preserve-html="true">7</li></ol> |
-| **Color** | **R**  : 0.895   **G**  : 0.833   **B**  : 0.750 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table4_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="color-milk.png"/></div> |
+| **Color** | **R**  : 0.895   **G**  : 0.833   **B**  : 0.750 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table4_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/color-milk.png"/></div> |

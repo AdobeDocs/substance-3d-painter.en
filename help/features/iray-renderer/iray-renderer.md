@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Iray Renderer
 
-![](iray-mode.jpg){width="600px"}
+![](../../assets/iray-mode.jpg){width="600px"}
 
 **Iray**  is a GPU accelerated path-traced renderer developed by  [Nvidia](http://www.nvidia.com/object/nvidia-iray.html)  .   
 With Iray it is possible to create image with a great accuracy of lighting in the scene and in high-definition (large resolution).
@@ -33,12 +32,12 @@ This can be done by pressing in various ways :
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](toolbar-14.png)
+![](../../assets/toolbar-14.png)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](mode-4.png)
+![](../../assets/mode-4.png)
 
 </td>
 </tr>

@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Custom Shaders
 
-![](header-shader.jpg)
+![](../../assets/header-shader.jpg)
 
 Substance Painter uses shaders to render materials in its realtime viewport.
 

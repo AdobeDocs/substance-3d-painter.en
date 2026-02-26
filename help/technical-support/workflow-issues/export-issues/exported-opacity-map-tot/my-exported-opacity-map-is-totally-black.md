@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # My exported opacity map is totally black
 
 When you create a new project, the default color comes from the shader and not the textures. Therefore, when you export all the parts that you didn't paint they will be black with an alpha value set at 0 (because no data exist on these parts).

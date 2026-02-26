@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Creating custom effects
 
 Substance effects must be built in a specific way in  **Substance 3D Designer**  to work correctly once imported in Substance 3D Painter.

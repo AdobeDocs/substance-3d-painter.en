@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Baking visualization settings
 
-![](viewport-vizu.png)
+![](../../assets/viewport-vizu.png)
 
 The Baking visualization is a panel inside Painter's Viewport while in Baking mode. It allows you to adjust settings related to the display of meshes in the Viewport.
 
@@ -23,7 +22,7 @@ The Baking visualization is a panel inside Painter's Viewport while in Baking mo
 
 | Setting | Description |
 | --- | --- |
-| **Hide baking meshes** | If enabled, this icon will hide the high poly and cage mesh in the viewport. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="hide-baking-meshes.png"/></div> |
+| **Hide baking meshes** | If enabled, this icon will hide the high poly and cage mesh in the viewport. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/hide-baking-meshes.png"/></div> |
 | **Show for selected Texture Set only** | If enabled, only the cage and high-poly meshes of the currently active Texture Set will be visible in the viewport. |
 
 ### High definition mesh (HP)

@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Loading files from a network
 
 Substance 3D Painter doesn't support networked paths because this require an  **account authentification**  , which the software can't do.   

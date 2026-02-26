@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Physical size
 
-![](banner-physicalsize-2.png)
+![](../../assets/banner-physicalsize-2.png)
 
 The physical size is a property inside Substance materials that defines their real size. It can be used to accurately match the size and look of materials over 3D surfaces. Painter uses centimeters as the default internal unit.
 

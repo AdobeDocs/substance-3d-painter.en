@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Color correction
 
-![](color-correction-example.jpg)![](color-correction.png)
+![](../../../assets/color-correction-example.jpg)![](../../../assets/color-correction.png)
 
 Color correction parameters :
 

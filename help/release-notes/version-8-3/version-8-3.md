@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Version 8.3
 
 **Substance 3D Painter 8.3** introduces a brand new baking mode, USD files import and support for physical size in UV projection mode.
@@ -23,16 +22,16 @@ Release date: *10 January 2023*
 
 ### New baking mode
 
-![](banner-baking.jpg)
+![](../../assets/banner-baking(1).jpg)
 
 The old baking window has been replaced by a dedicated mode with several new features, notably with viewport visualization such as the display of the cage and matching errors.
 
 * **Accessing and switching between modes**   
   Baking is now a new and separate mode in addition to the already existing painting and rendering modes of the application. To get to the baking mode, simply use the little croissant icon in the contextual toolbar. Switching between modes can also be done otherwise: by using the mode menu or the keyboard shortcuts. To get back to another mode, simply use the dedicated icon of the mode (Additionally, the **Bake Mesh maps** button inside the [Texture Set settings](../../interface/texture-set/texture-set-settings/texture-set-settings.md) can still be used to get into the new mode).
 
-  ![](baking-mode-switch-menu.png)
+  ![](../../assets/baking-mode-switch-menu.png)
 
-  ![](baking-mode-switch-icon.png)
+  ![](../../assets/baking-mode-switch-icon.png)
 
 * **New mode interface**   
   The traditional baking window has been transformed into a mode with dedicated docks, notably:
@@ -43,53 +42,53 @@ The old baking window has been replaced by a dedicated mode with several new fea
   * **Baking Log** regroups different information about the baking process, notably error messages.
   * **Baking visualization**: this panel sits in the viewport and controls several options related to the display of the low and high poly meshes.
 
-  ![](baking-mode-overview.jpg){width="500px"}
+  ![](../../assets/baking-mode-overview.jpg){width="500px"}
 
 * **Start and cancel the baking process directly from the viewport**   
   The button to launch or cancel the baking process now sits at the bottom of the viewport. A little arrow can also be used to specify the baking mode: based on the Texture Set list selection or by using the currently active Texture Set.
 
-  ![](baking-button.png)
+  ![](../../assets/baking-button.png)
 
-  ![](baking-button-cancel.png)
+  ![](../../assets/baking-button-cancel.png)
 
 * **Display high-poly mesh in viewport**   
   When specifying a high-poly mesh in the baking settings, it will now be loaded in the viewport as well (unless the dedicated visualization setting is disabled). This allows to check whether the low and high poly mesh geometry match well.
 
-  ![](low-vs-high.jpg){width="400px"}
+  ![](../../assets/low-vs-high.jpg){width="400px"}
 
 * **Display cage mesh in viewport with missed areas as error**   
   The cage mesh can also be displayed in the viewport. When not using a dedicated mesh file, an implicit cage will be displayed instead and it will react to the Max Frontal Distance parameter. When adjusting the cage size, any part of the high-poly mesh that is outside the cage will be shown as red by default, allowing to easily find part of the mesh that will be missed by the baking process.
 
-  ![](cage-distance.gif)
+  ![](../../assets/cage-distance.gif)
 
 * **Look around mesh while loading and baking**   
   Loading meshes and baking no longer freezes the application, meaning it is possible to interact with the viewport during those operations. This can be useful to investigate the baking in progress, identify issues early and cancel the bake, helping save time in the end. Similarily, the most visible Texture Set in the viewport will now be baked first which will help check out results on specific areas in advance.
 
-  ![](interaction-while-baking.gif)
+  ![](../../assets/interaction-while-baking.gif)
 
 * **Neutral material and viewport settings**   
   To help focus on the baking results and look for issues if any arise, the baking mode doesn't display painted textures, instead using a neutral material. This neutral material's settings can be adjusted in the Baking visualization panel inside the viewport.
 
-  ![](neutral-material-demo.gif)
+  ![](../../assets/neutral-material-demo.gif)
 
 * **Display hard edges with missing UV seams**   
   One source of artifacts when baking is the presence of hard edges that don't have UV seams. This can lead to visible lines and break the smoothness of shading. For this purpose, a visualization settings has been added to highlight them both in the 3D and 2D view as they are very easy to miss otherwise.
 
-  ![](hard-edge-missing-seams.png){width="450px"}
+  ![](../../assets/hard-edge-missing-seams.png){width="450px"}
 
-  ![](hard-edge-missing-seams-2d.jpg){width="300px"}
+  ![](../../assets/hard-edge-missing-seams-2d.jpg){width="300px"}
 
 * **Synchronize and unsynchronize parameters**   
   The new sync action allows to specify which part of the Baking settings are synchronized across Texture Sets. Otherwise it would be tedious to configure settings multiple times in identical ways. Sometimes it is useful to have Texture Sets with dedicated settings and keeping them unsynchronized is preferred. For example, keeping the Common settings separated now allows to use a Max Frontal Distance, Resolution and/or list of high-poly meshes which would be different per Texture Set.
 
-  ![](sync-icon-1.png){width="400px"}
+  ![](../../assets/sync-icon-1.png){width="400px"}
 
-  ![](sync-ao-settings.png){width="400px"}
+  ![](../../assets/sync-ao-settings.png){width="400px"}
 
 * **Matching by name checker**   
   The **Matching by name** tab in the **Baking Log** can help find errors in the matching process before baking, making it easier to notice meshes that won't match. Meshes that match are grouped together while other will be isolated and displayed in red.
 
-  ![](matching-by-name-log.png){width="450px"}
+  ![](../../assets/matching-by-name-log.png){width="450px"}
 
 >[!NOTE]
 >
@@ -97,39 +96,39 @@ The old baking window has been replaced by a dedicated mode with several new fea
 
 ### New import and export of USD files
 
-![](banner-usd.jpg)
+![](../../assets/banner-usd.jpg)
 
 This new version adds the support of the [Universal Scene Description (USD)](https://graphics.pixar.com/usd/release/intro.html) file format. It is now possible to start a Painter project, exporting meshes and textures using a USD format, which makes for a more consistent workflow across applications.
 
 * **Import USD file with variants, skinning and at a specific frame**   
   A USD file format can be used when creating a project or re-importing a mesh inside a project. USD files can often be complex scenes, therefore a scope and variant selector is also available to only import a subset of the file.
 
-  ![](usd-import-settings.png){width="400px"}
+  ![](../../assets/usd-import-settings.png){width="400px"}
 
-  ![](usd-scope-variants.png){width="400px"}
+  ![](../../assets/usd-scope-variants.png){width="400px"}
 
 * **Export USD as a new file or linked to the original USD used in the project**  
   When your texturing is ready, you can use the **File &gt; Export textures** window to export your USD file alongside your texture files. Simply enable the setting **Export USD asset** to do so. This will generate several USD files that can be easily integrated into a pipeline afterward. If you used a non-USD file or a USD-file without UVs, this will export a new USD geometry file in addition to texture maps and USD material file.   
   Additionally, it is also possible to use the **File &gt; Export mesh** to export the project geometry as a USD file.
 
-  ![](usd-export-textures.png)
+  ![](../../assets/usd-export-textures.png)
 
-  ![](usd-export-mesh.png){width="400px"}
+  ![](../../assets/usd-export-mesh.png){width="400px"}
 
 ### Improved support of physical size in UV mode
 
-![](banner-physicalsize-1.jpg)
+![](../../assets/banner-physicalsize-1.jpg)
 
 Support of Substance materials with embedded physical sizes has been extended to UV based projections.
 
 * **Physical size in UV mode**   
   It is now possible to set the Scale mode to Physical size instead of Tiling in fill layer and fill effects using UV projection mode. The size of the UV is computed automatically based on the average size of the triangles from the UV unwrapping.
 
-  ![](physicalsize-uvmode.png){width="400px"}
+  ![](../../assets/physicalsize-uvmode.png){width="400px"}
 
 * **Automatically switch to physical size**A new project setting has been added to automatically set the scale setting to physical size when creating a material (when drag and dropping a resource for the Asset window, for example). This allows to use consistent sizing across a project without having to switch settings manually every time a new Fill layer is created. To enable it in an existing project, go to **Edit &gt; Project configuration** and enable **Switch fill layer scaling to Physical size when assigning materials**. This setting can also be enabled when creating a new project.
 
-  ![](physicalsize-settings.png)
+  ![](../../assets/physicalsize-settings.png)
 
 ## Platform support information
 

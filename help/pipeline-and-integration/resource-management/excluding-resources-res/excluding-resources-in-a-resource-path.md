@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Excluding resources in a resource path
 
 This page explains how to setup an ignore file to specify resources and folders that will be ignored during the crawling process of the the [Assets](../../../interface/assets/assets.md) window. It allows to avoid unwanted resources from being displayed.
@@ -37,7 +36,7 @@ Navigate to the location of the resource folder in which you want to hide resour
 
 It should look like this once created:
 
-![](ignore-file-location.png)
+![](../../../assets/ignore-file-location.png)
 
 ## Example
 

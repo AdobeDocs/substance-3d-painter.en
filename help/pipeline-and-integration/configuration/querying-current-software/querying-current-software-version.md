@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Querying Current Software Version
 
 Checking the current version of the application can be done in multiple manner depending fo the needs (without of without launching the software for example).

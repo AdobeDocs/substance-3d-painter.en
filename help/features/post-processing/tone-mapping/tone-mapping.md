@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Tone Mapping
 
-![](tone-mapping.png)
+![](../../../assets/tone-mapping.png)
 
 The Tone Mapping parameters allow to control how the colors will be scaled to be displayed on the screen. Those settings can be useful to redistribute colors because of their wide range of values (which can exceed what the current screen is capable of displaying).
 

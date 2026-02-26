@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Version 2017.4
 
 **Substance Painter 2017.4** add a new workflow feature with the **layer instancing** allowing to easily synchronize layers across different Texture Sets inside a project.
@@ -23,7 +22,7 @@ Release date : *23 November 2017*
 
 ### Layer Instancing
 
-![](instancing.jpg)
+![](../../../assets/instancing.jpg)
 
 The **layer instancing** is a new system that allows to keep **synchronized** layer **parameters** across **other layers and Texture Sets**. When creating a layer instance the original layer becomes the **source** and the instances will **stay updated** unless the link between them is broken. Instanced layers are a **great way** to **texture an asset in a few clicks** and avoid doing back and forth to update layers. To easily texture an asset, simply **instantiate a folder** across other Texture Sets and put a smart material or any other layer into it, it will be **replicated everywhere** instantly.
 
@@ -45,7 +44,7 @@ For more details and examples, see the dedicated page : [Layer instancing](../..
 
 ### DCC Live-link with Unreal Engine 4 support
 
-![](livelink.jpg)
+![](../../../assets/livelink.jpg)
 
 The previously beta version of our **live-link plugin** has now been **integrated** in Substance Painter. We took the occasion to support the Unreal Engine 4 which now allows to see the result of a project into the engine automatically.
 
@@ -53,17 +52,17 @@ To connect the application with the **Unreal Engine 4** (version **4.18** minimu
 
 ### New shelf content
 
-![](materials-1.jpg)
+![](../../../assets/materials-1.jpg)
 
 We added **20 new procedural materials** and also added **40 new grunge maps** (with some of them being procedural). The new materials can be found in the "**Materials**" section of the **shelf**, such as the 6 new metals, the 8 new plastics, a few fabrics and 2 new wood surfaces. The new grunge maps can be found directly in the "**Grunge**" section of the **shelf**.
 
-![](grunges-1.jpg)
+![](../../../assets/grunges-1.jpg)
 
 Many thanks to Clément Feuillet and Nicolas Longchamps for allowing us to license their content for this new version.
 
 ### Sketchfab export improved
 
-![](sketchfab.jpg)
+![](../../../assets/sketchfab.jpg)
 
 We updated our Sketchfab export and added the ability to publish your project as a draft and even update already uploaded projects. It should make project iterations much easier to do.
 

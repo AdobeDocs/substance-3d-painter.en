@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Creating Custom Dynamic Strokes
 
 In order to create custom Dynamic Strokes, two options are available:

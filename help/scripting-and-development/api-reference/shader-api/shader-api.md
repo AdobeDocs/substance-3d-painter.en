@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Shader API
 
-![](header-shader.jpg)
+![](../../../assets/header-shader.jpg)
 
 Substance Painter uses shaders to render materials in its realtime viewport. It is possible to write custom shaders to implement new behaviors or to simply make the viewport match other renderers.
 

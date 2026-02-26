@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Channel specific filter
 
 An effect can be specific to a particular channel. In that case, if you want to affect a specific channel, you need to create an input AND an output which identifies this channel. As a general rule, the input / output structure should always respect a 1:1 rule. If you want to input a specific channel, you have to output the same channel.
 
 Example of a filter affecting the **basecolor** channel only :
 
-![](specific-filter-basecolor.png)
+![](../../../assets/specific-filter-basecolor.png)
 
 >[!NOTE]
 >
@@ -76,10 +75,10 @@ To output this alpha component, create an output node with the same name convent
 
 ## Examples
 
-![](single-channel.png){width="650px"}
+![](../../../assets/single-channel.png){width="650px"}
 
 In this example the Base Color alpha channel is extracted via a grayscale node to overwrite the **Roughness** channel.
 
-![](mix-channel.png){width="650px"}
+![](../../../assets/mix-channel.png){width="650px"}
 
 In this example the **Roughness** channel is multiplied over the **Base Color**.

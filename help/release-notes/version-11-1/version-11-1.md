@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Version 11.1
 
 <b>Substance 3D Painter 11.1 </b>brings the new Ribbon path tool with dedicated content, symmetry on fill layers and effects, physics size for displacement and the support of Vulkan graphics API.
@@ -29,7 +28,7 @@ Release date: <b>November 18, 2025</b>
 
 ### new Ribbon tool
 
-![](banner_ribbon.jpg)
+![](../../assets/banner_ribbon.jpg)
 
 The <b>Ribbon path</b> is a new tool in the path tool family. A Ribbon will transform and repeat a texture along a path without any cuts, with extra control for the start and the end, as well as options for sharp corners.
 
@@ -39,61 +38,61 @@ In short, the ribbon is a cleaner tool for more precise drawing with paths.
 * <b>New Ribbon tool available next to the other path-like tools</b>  
   The new Ribbon tool is available next to the other path like tools in the interface. It can be selected either from the toolbar or from the path type shortcuts.
 
-  ![](ribbon_menu.png)
+  ![](../../assets/ribbon_menu.png)
 
-  ![](ribbon_path_type.png)
+  ![](../../assets/ribbon_path_type.png)
 * <b>The Ribbon is a continuous path that works across all kinds of surfaces</b>  
   ItThe Ribbon is a tool that allows to repeat or stretch a texture along a path. It works across any kind of surfaces and geometry, even when mesh parts are not connected.
 
-  ![](ribbon_robot_1.jpg)
+  ![](../../assets/ribbon_robot_1.jpg)
 * <b>Making repeating patterns and gradients</b>  
   This new tool can repeat images in various ways with no seams or cuts, which is suitable for gradients and clean patterns.
 
-  ![](ribbon_repeat_demo.png)
+  ![](../../assets/ribbon_repeat_demo.png)
 * <b>Stretch images with custom start and end</b>  
   The <b>stretch between offsets</b> setting allows to isolate parts of an image to use them as start and end sections on a path, while the middle section is stretched along the rest of the path. This can come in handy to quickly use simple bitmaps and place them along a path without distortions, like arrows.
 
-  ![](ribbon_stretch_guides_path.png)
+  ![](../../assets/ribbon_stretch_guides_path.png)
 * <b>Different corner types available</b>  
   When breaking tangents to create corners, several shapes are available depending on the needs - from classic break to smooth turning.
 
-  ![](ribbon_corners_small.jpg)
+  ![](../../assets/ribbon_corners_small.jpg)
 * <b>Stretching and tiling controls</b>  
   Images can easily be repeated or stretched along a Ribbon path, either automaticaly or manually.
 
-  ![](ribbon_tiling_mode.gif)
+  ![](../../assets/ribbon_tiling_mode.gif)
 * <b>Text along path</b>  
   Font resources can be used directly on a Ribbon path. Text automatically adjusts to the path to deform along it curves. Alignments settings can be used to better adapt text for any situations.
 
-  ![](ribbon_text_along_path.gif)
+  ![](../../assets/ribbon_text_along_path.gif)
 * <b>Aspect ratio and non-square resources</b>  
   Non-square resources are automatically adjusted to fit to the Ribbon path's length, which makes it ideal for elongated patterns, such as repeating decorations and trims.
 
-  ![](ribbon_non-square.jpg)
+  ![](../../assets/ribbon_non-square.jpg)
 * <b>Compatible with Substance dynamic strokes workflow</b>  
   Ribbon paths are also compatible with the Substance based dynamic stroke system, making it possible to create complex results. One notable example is the ability to have custom start/ends and left/right corners.  
   Two new tool presets named <b>Custom Ribbon Grayscale</b> and <b>Custom Ribbon Material</b> are also provided to make this functionality easily accessible.
 
-  ![](ribbon_custom_preset.gif)
+  ![](../../assets/ribbon_custom_preset.gif)
 * <b>Compatible with symmetry</b>  
   Like other types of tools, the Ribbon path is also compatible with the symmetry feature.
 
-  ![](ribbon_gradient_symmetry.jpg)
+  ![](../../assets/ribbon_gradient_symmetry.jpg)
 * <b>Blending modes when self-overlapping</b>  
   When a Ribbon path crosses over itself, it can lead to unexpected results. The dedicated blending mode for the Alpha, Normal and Height channel can help to achieve better results.
 
-  ![](ribbon_blend_modes_height.jpg)
+  ![](../../assets/ribbon_blend_modes_height.jpg)
 
 Additional improvements have been made across all path tools:
 
 * <b>Separate size and opacity per vertex on paths</b>  
   Adjusting the size and opacity per vertex on a path is now possible and not tied to the pressure parameter anymore. These two properties are now handled separately with dedicated sliders in the interface.
 
-  ![](vertex_separate_settings_demo.gif)
+  ![](../../assets/vertex_separate_settings_demo.gif)
 * <b>Parameters grouping in the Properties window </b>  
   Most tools in Painter now have collapsible groups for their parameters. This change makes it easier to hide parameters on the fly and reduce the length of the window.
 
-  ![](tools_ui_groups.png)
+  ![](../../assets/tools_ui_groups.png)
 
 >[!NOTE]
 >
@@ -103,22 +102,22 @@ Additional improvements have been made across all path tools:
 
 ### New content and categories for Ribbon tool
 
-![](banner_content.jpg)
+![](../../assets/banner_content.jpg)
 
 This release includes 75 new tool presets which take advantage of the new Ribbon capabilities. To make the presets easier to discover, new preset categories have been added in the <b>Properties</b> window.
 
 * <b>New preset categories shortcuts in Properties window</b>  
   A series of new buttons now sits at the top of the <b>Properties</b> window when using any path tools. Each button gives access to tool presets, sorted per categories. The favorites category regroups presets you chose.
 
-  ![](ribbon_presets_categories.png)
+  ![](../../assets/ribbon_presets_categories.png)
 
   Clicking on one of the buttons will give a quick access to some pre-selected presets. Clicking on <b>Show more in Assets</b> will reveal more path tool presets in the <b>Assets</b> window.
 
-  ![](ribbon_presets_mini_shelf.png)
+  ![](../../assets/ribbon_presets_mini_shelf.png)
 * <b>Quick switch between presets</b>  
   To make switching between presets easier, clicking on a preset no longer deselect the currently edited path.
 
-  ![](switch_presets_demo.gif)
+  ![](../../assets/switch_presets_demo.gif)
 * <b>New content</b>  
   75 new tool presets dedicated to the Ribbon tool have been added in this version as part of the default content. These presets are available directly inside the <b>Assets</b> window under the brush section or via the new categories shortcuts in the <b>Properties</b> window.  
   These presets include:
@@ -133,38 +132,38 @@ This release includes 75 new tool presets which take advantage of the new Ribbon
 * <b>New tool keyword for searching in Assets window</b>  
   Typing "ribbon", "paint", "path" or even "smudge" in the <b>Assets</b> window is now possible and can help find presets which will match the corresponding tool.
 
-  ![](ribbon_assets_search.png)
+  ![](../../assets/ribbon_assets_search.png)
 
 ### New symmetry for fill layers and effects
 
-![](banner_symmetry.jpg)
+![](../../assets/banner_symmetry.jpg)
 
 Fill layers and effects now support symmetry with their 3D projection modes. It can be enabled via the symmetry menu in the contextual toolbar or via the newly added symmetry section in the <b>Properties</b> window.
 
 * <b>Symmetry on fill layers </b>  
   When using 3D based projection modes in fill effects and layers, symmetry can now be enabled. Both mirror and radial symmetry are available.
 
-  ![](symmetry_fill.jpg)
+  ![](../../assets/symmetry_fill.jpg)
 * <b>Enable symmetry via the contextual toolbar or the Properties window</b>  
   Symmetry can be activated via the <b>contextual toolbar</b> menu, similar to paint tools, or via the <b>Properties</b> window with the new dedicated section.
 
-  ![](symmetry_contextual.png)
+  ![](../../assets/symmetry_contextual.png)
 
-  ![](symmetry_properties.png)
+  ![](../../assets/symmetry_properties.png)
 * <b>Flip input resource for Texts and Logos</b>  
   Fill layer and effects symmetry also benefit from a new options than allows to flip the input images or the X/Y axes. This allows to mirror a text for example but still make it readable on both sides.
 
-  ![](mirror_symmetry_flip.gif)
+  ![](../../assets/mirror_symmetry_flip.gif)
 * <b>Improved symmetry settings interface</b>  
   The interface of the symmetry settings has been reworked to be easier to read and quicker to use. Axes sliders each have their own line for example, which helps to be more precise. The radial display has also been downsized to occupy less space.
 
-  ![](symmetry_radial.png)
+  ![](../../assets/symmetry_radial.png)
 
 For more information about the <b>symmetry</b>, see the [dedicated documentation page](../../painting/symmetry/symmetry.md).
 
 ### Physical size for displacement
 
-![](banner_displacement.jpg)
+![](../../assets/banner_displacement.jpg)
 
 Displacement can now be defined with a specific unit. This change makes it easier to align and match the displaced geometry across other applications.
 
@@ -175,11 +174,11 @@ Displacement can now be defined with a specific unit. This change makes it easie
   * <b>Scene</b>: uses the units stored inside the mesh file as the reference point.
   * <b>Physical size (cm)</b>: uses the project's unit defined in the <b>Project configuration</b> window.
 
-  ![](displacement_ui.png)
+  ![](../../assets/displacement_ui.png)
 
 ### New Vulkan graphics backend for Windows and Linux
 
-![](banner_vulkan.jpg)
+![](../../assets/banner_vulkan.jpg)
 
 In continuation of the work started in our previous version, which switched from OpenGL to Metal on Mac OS, this new version now uses <b>Vulkan</b> on Windows and Linux platforms.
 
@@ -191,7 +190,7 @@ In continuation of the work started in our previous version, which switched from
 
 ### Miscellaneous
 
-![](banner_misc.jpg)
+![](../../assets/banner_misc.jpg)
 
 Additional features and improvements have been added in this version:
 
@@ -205,13 +204,13 @@ Additional features and improvements have been added in this version:
   * <b>Factor</b>: additional control over the resolution,  to create relative differences. For example: using half of the resolution of a given context.
   * <b>Output size</b>: the final resolution computed based on the previous settings.
 
-  ![](resolution.png)
+  ![](../../assets/resolution.png)
 * <b>Performance improvements on single big triangle</b>  
   Until now, Painter would struggle on very low poly meshes or meshes with very big and/or long triangles. This is no longer the case. Working with single quad meshes, for example to create tiling textures, should not be a problem anymore.
 * <b>Improved default brush shape</b>  
   The default brush shape has been updated with new settings to control its size and roundness while taking into account the hardness behavior.
 
-  ![](default_shape_demo2.gif)
+  ![](../../assets/default_shape_demo2.gif)
 
 ## Tutorials
 

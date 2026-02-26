@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Mesh flash to white when moving camera
 
-![](white-flash-svt-optim.gif){width="300px"}
+![](../../../../assets/white-flash-svt-optim.gif){width="300px"}
 
 With old projects moving around the camera in the viewport may briefly show white flashes created by white/empty textures. This is because the  [Sparse Virtual Textures](https://substance3d.adobe.com/display/DRAFTPAINTER/Sparse+Virtual+Textures)  (SVT) system relies on specific shader configurations which older shaders don't use.
 

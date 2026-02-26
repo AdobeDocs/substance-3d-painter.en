@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Pixelated - Shader API
 
 ## Basic pixelating shader

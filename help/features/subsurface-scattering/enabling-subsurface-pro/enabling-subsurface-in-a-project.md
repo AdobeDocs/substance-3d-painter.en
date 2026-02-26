@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Enabling Subsurface in a Project
 
 To activate properly the Subsurface scattering in Substance 3D Painter a few parameters have to be set first.   
@@ -22,7 +21,7 @@ This page provide a guide on which parameters to enable.
 
 In the [Texture Set](../../../interface/texture-set/texture-set.md) add a  **Scattering**  channel if not already present :
 
-![](add-channel.png)
+![](../../../assets/add-channel.png)
 
 >[!NOTE]
 >
@@ -32,7 +31,7 @@ In the [Texture Set](../../../interface/texture-set/texture-set.md) add a  **Sca
 
 Enable the main Subsurface scattering setting in the [Display settings](../../../interface/display-settings/display-settings.md) (below the Post-Effects settings) :
 
-![](enable-subsurface.png)
+![](../../../assets/enable-subsurface.png)
 
 >[!NOTE]
 >
@@ -40,7 +39,7 @@ Enable the main Subsurface scattering setting in the [Display settings](../../..
 
 ## 3 - Shader Settings
 
-![](shader-parameters.png)
+![](../../../assets/shader-parameters.png)
 
 In the [Shader settings](../../../interface/shader-settings/shader-settings.md) window with default shaders can be found a "  **SSS Parameters**  " group with two settings.   
 Change the scale and the color to fit the target material. For more details on these settings see: [Subsurface Parameters](../../../features/subsurface-scattering/subsurface-parameters/subsurface-parameters.md)
@@ -52,4 +51,4 @@ Enabling shadow can help the final look in the viewport and improve the realism 
 
 In the [Environment settings](../../../interface/display-settings/environment-settings/environment-settings.md) window, enable the "  **Shadows**  " setting:
 
-![](shadow-2.png)
+![](../../../assets/shadow-2.png)

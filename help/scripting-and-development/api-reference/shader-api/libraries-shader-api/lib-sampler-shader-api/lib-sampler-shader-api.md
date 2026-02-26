@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Lib Sampler - Shader API
 
 ## lib-sampler.glsl

@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Baking
 
-![](banner-baking.jpg)
+![](../assets/banner-baking.jpg)
 
 Baking refer to the action of **transferring mesh based information into textures**. These information are then read by shaders and/or Substance filters to perform advanced effects. For example Smart Materials and Smart Masks rely on them.
 

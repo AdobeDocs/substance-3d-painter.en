@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Overview of the particle editor
 
 This page covers several aspects of PopcornFX particle editor. Some of window titles and parameters may be subject to change depending on the version of the editor used.

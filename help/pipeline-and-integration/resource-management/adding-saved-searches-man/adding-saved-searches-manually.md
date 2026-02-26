@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Adding saved searches manually
 
 Assets search queries (or saved searches) can be defined by editing a configuration file. This page explains how.

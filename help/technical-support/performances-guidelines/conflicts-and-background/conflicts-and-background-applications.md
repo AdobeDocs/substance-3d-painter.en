@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Conflicts and background applications
 
 Some applications running in the background can interfere with Substance 3D Painter and create some issues. Anti-Spyware and Anti-Virus software can create some troubles for example, so disabling them can help.   

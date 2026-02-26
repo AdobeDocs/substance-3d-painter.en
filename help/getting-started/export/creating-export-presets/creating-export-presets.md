@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Creating Output templates
 
 This page explain how to create and modify custom Output templates. Output templates control the naming and configuration of exported textures. Creating a custom Output template gives you the power to configure your exports to perfectly match your workflow.
@@ -23,7 +22,7 @@ The configuration tab of the export window is divided into three main parts:
 * <b>Output texture list</b>: (middle) list the content of a selected preset and displays the naming convention and the channel packing options.
 * <b>List of Channels</b> and <b>Converted textures</b>: (right)list of channels and textures to use to composite the content of an exported texture.
 
-![](image2018-4-25-13-36-44.png){width="800px"}
+![](../../../assets/image2018-4-25-13-36-44.png){width="800px"}
 
 >[!NOTE]
 >
@@ -40,7 +39,7 @@ The configuration tab of the export window is divided into three main parts:
 
 On the top of the preset list, there are three buttons:
 
-![](image2018-4-25-13-39-6.png)
+![](../../../assets/image2018-4-25-13-39-6.png)
 
 * <b> Duplicate</b> : duplicate an existing template.
 * <b> Remove</b> : delete any selected template.
@@ -52,9 +51,9 @@ You can also double-click on a template or <b>right-click &gt; rename</b> to cha
 
 Once a template is selected, it is possible to add new output maps using the dedicated buttons, which are available at the top of the middle section of the window.
 
-![](output-buttons.png)
+![](../../../assets/output-buttons.png)
 
-![](output-map.gif)
+![](../../../assets/output-map.gif)
 
 Once a map has been created, it is possible to name it and then drag and drop input maps into one of the available channel slots.  
 Once an input map has been dropped into the output maps section, a menu will open asking which type of content is to be loaded in that slot.
@@ -76,7 +75,7 @@ The options range from <b>RGB</b> and <b>individual</b> channels, to the <b>Alph
 
 ## Naming output maps
 
-![](output-name.gif)
+![](../../../assets/output-name.gif)
 
 Some flags are available to automatically generate the name of the texture during the export process.
 
@@ -95,7 +94,7 @@ Some flags are available to automatically generate the name of the texture durin
 
 ## Assigning channels to output maps
 
-![](empty-channel.gif)
+![](../../../assets/empty-channel.gif)
 
 It is possible to leave some channels (of the output map) totally empty. In this case case a default color will be assigned.
 

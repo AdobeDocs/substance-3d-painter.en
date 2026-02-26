@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Symmetry
 
-![](radial-demo.gif)
+![](../../assets/radial-demo.gif)
 
 Symmetry is a helpful setting that you can use on brush and fill layers to easily and precisely duplicate content based on geometric constraints:
 
@@ -31,11 +30,11 @@ Learn more about the types of symmetry you can use in Painter:
 
 You can enable symmetry with the<b> Symmetry button</b> in the contextual toolbar.
 
-![](SymmetryToggle.png)
+![](../../assets/SymmetryToggle.png)
 
 Adjust Symmetry options with the <b>Symmetry settings button</b> in the contextual toolbar.
 
-![](BrushSymmetrySettings.png)
+![](../../assets/BrushSymmetrySettings.png)
 
 >[!NOTE]
 >
@@ -62,7 +61,7 @@ If an unsupported projection method is selected, the <b>Enable symmetry</b> opt
 </td>
 <td style="border: 0;" valign="top">
 
-![A screenshot of the Symmetry section of the properties panel](FillSymmetry.png){width="400px"}
+![A screenshot of the Symmetry section of the properties panel](../../assets/FillSymmetry.png){width="400px"}
 
 </td>
 </tr>

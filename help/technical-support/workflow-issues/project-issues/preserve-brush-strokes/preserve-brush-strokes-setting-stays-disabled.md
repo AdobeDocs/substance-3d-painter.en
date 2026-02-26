@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Preserve brush strokes setting stays disabled
 
 Because of an unfortunate bug introduced in Substance 3D Painter 1.5 (partially fixed in 1.7) some projects have lost metadata related to the mesh. This bug makes therefore the "Preserve strokes positions on mesh" setting in the [ Project Configuration ](../../../../interface/project-configuration/project-configuration.md) window to stay disabled.

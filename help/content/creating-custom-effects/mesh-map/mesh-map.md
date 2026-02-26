@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Mesh Map
 
 To automatically connect mesh maps (baked textures) when an effect is added on a layer, a specific naming convention must be followed.

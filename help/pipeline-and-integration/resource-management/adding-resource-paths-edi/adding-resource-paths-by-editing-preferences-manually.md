@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Add resource paths by editing preferences manually
 
 It is possible to add additional custom Shelf or Assets paths without opening the application.

@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Project configuration
 
-![](project-settings-2.png){width="400px"}
+![](../../assets/project-settings-2.png){width="400px"}
 
 The project setting window allows to modify a few properties related to the current project, such as the reloading of a new mesh.
 
@@ -48,7 +47,7 @@ This sections control several settings related to the project:
 
 When a USD mesh format is selected, other file type-specific settings become available.
 
-![](image2023-1-30-11-16-6.png){width="473px"}
+![](../../assets/image2023-1-30-11-16-6.png){width="473px"}
 
 | *Parameter* | *Description* |
 | --- | --- |

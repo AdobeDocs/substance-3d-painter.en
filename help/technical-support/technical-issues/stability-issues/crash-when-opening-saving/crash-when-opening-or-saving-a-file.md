@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Crash when opening or saving a file
 
 There are a few reasons why Substance 3D Painter would crash on Windows when opening a file dialog. This page regroups reasons and solutions to this issue.

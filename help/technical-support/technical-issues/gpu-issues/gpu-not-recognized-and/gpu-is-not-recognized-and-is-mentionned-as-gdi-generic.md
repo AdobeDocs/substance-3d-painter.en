@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # GPU is not recognized and is mentionned as GDI Generic
 
 This issue is a bit complicated to track and can be caused by multiple sources:

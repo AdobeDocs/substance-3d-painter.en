@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Enabling Dynamic Stroke Feature
 
 To enable the Dynamic Strokes feature a specific resource is required first.
@@ -23,8 +22,8 @@ When browsing the [Assets](../../../interface/assets/assets.md) window, a dedica
 
 | *Icon* | *Description* |
 | --- | --- |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="icon-dyn.png"/></div> | This resource can use one or more of the following behaviors :<ul data-preserve-html="true"><li data-preserve-html="true">Stamp Index</li><li data-preserve-html="true">Time</li><li data-preserve-html="true">Random Seed</li></ul> |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="icon-random.png"/></div> | This resource only exposes the Random Seed parameter. |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/icon-dyn.png"/></div> | This resource can use one or more of the following behaviors :<ul data-preserve-html="true"><li data-preserve-html="true">Stamp Index</li><li data-preserve-html="true">Time</li><li data-preserve-html="true">Random Seed</li></ul> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/icon-random.png"/></div> | This resource only exposes the Random Seed parameter. |
 
 It is also possible to search resources by using the search field in the Shelf with the following keywords :
 
@@ -33,7 +32,7 @@ It is also possible to search resources by using the search field in the Shelf w
 
 ## Dynamic Strokes parameters
 
-![](dynamic-strokes-settings.png)
+![](../../../assets/dynamic-strokes-settings.png)
 
 When a Dynamic Stroke resource has been loaded a new list of parameters is added just before the Substance parameter group.
 

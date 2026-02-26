@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Version 8.2
 
 **Substance 3D Painter 8.2** focuses on a lot of quality-of-life improvements with dedicated features in several areas of the application.
@@ -23,14 +22,14 @@ Release date: *6 October 2022*
 
 ### New options to apply blending modes and opacity
 
-![](banner-blend-mode-copy.jpg)
+![](../../assets/banner-blend-mode-copy.jpg)
 
 Several shortcuts and actions have been added to make it quick and easy to copy and apply blending modes and the opacity across multiple channels in the Layer Stack.
 
 * **Right-click on a blending mode or opacity control**   
   When right-clicking on a blend mode or an opacity, select the action **Apply to all channels** to use this blend mode on all the other channels of the layer. This action is also available on effects that have blend mode and opacity controls.
 
-  ![](apply-to-all-1.png)
+  ![](../../assets/apply-to-all-1.png)
 
 * **Right-click on a layer and choose Blending options**   
   It is also possible to right-click on a layer (or effect) and choose one of the following actions:
@@ -41,56 +40,56 @@ Several shortcuts and actions have been added to make it quick and easy to copy 
   * **Copy channel blending settings**: Copy all the blending modes and opacity values of the current layer/effect to clipboard.
   * **Paste channel blending settings**: Apply the blending modes and opacity values currently in the clipboard to targeted layer/effect.
 
-  ![](blending-actions.png)
+  ![](../../assets/blending-actions.png)
 
 ### New blending mode and opacity on filter and color selection effects
 
-![](banner-blend-color-selection.jpg)
+![](../../assets/banner-blend-color-selection.jpg)
 
 Filter and color selection effects now have the possibility to use blending modes and opacity controls.
 
 * **Blending mode and opacity on filters**   
   Filters can now use blending modes and opacity values. They default to **Replace** in order to retain the same behavior as before and avoid doubling the alpha component information. Blending modes on filters allow to compute effects and combine their results directly on layers, avoiding the need to use anchor points and fill effects to achieve the same result. This also avoid the need of manually implementing blending modes inside the filter itself.
 
-  ![](filters-blending-mode.png)
+  ![](../../assets/filters-blending-mode.png)
 
 * **Blending mode and opacity on color selection**   
   The color selection effect has been modified to support blending modes and opacity controls. Previously this effect was outputting an alpha result, and in order to make blending modes work as expected, a new setting has been added to specify the background color that is being output. It is set to black instead of transparent (which is the legacy behavior).
 
-  ![](color-selection-blendmode.png)
+  ![](../../assets/color-selection-blendmode.png)
 
-  ![](color-selection-background.png)
+  ![](../../assets/color-selection-background.png)
 
 * **Simplified effect stack**   
   Previously when there was a need to combine effects in a certain ways (with the help of blending modes, for example), using anchor points and fill effects was a necessity. Now with blending modes directly on filters, it is no longer necessarily which can significantly reduce the effect stack complexity.
 
-  ![](effect-stack.png){width="400px"}
+  ![](../../assets/effect-stack.png){width="400px"}
 
 ### New effects on folders
 
-![](banner-effect-folder.jpg)
+![](../../assets/banner-effect-folder.jpg)
 
 Folder content (the color part of a layer) can now receive effects of any kind. Before it was necessary to create complex layer configurations (like passthrough layers or anchor points) to achieve the same result.
 
 ### New Substance archive (SBSAR) export
 
-![](banner-sbsar.png)
+![](../../assets/banner-sbsar.png)
 
 Substance archive (SBSAR) file format is now available when exporting textures. An SBSAR is a container that can be opened in many applications with Substance integration, which can make it faster and easy to 'plug-and-play' custom textures.
 
 * **Exporting a Substance archive (SBSAR)**   
   It is now possible to specify the SBSAR file format from the list of file formats in the **Export Textures** window. This will export a single SBSAR file containing all specified textures. The naming of output nodes and their usages is defined from the selected export preset and its channel types.
 
-  ![](sbsar-export.png)
+  ![](../../assets/sbsar-export.png)
 
 * **Hybrid export presets with PSD and SBSAR file formats**   
   Export presets can now specify output maps as PSD or SBSAR in addition to all other image formats. PSD and SBSAR formats are considered as "containers", meaning that multiple textures can be stored inside. When an export preset specifies both container formats and standalone image formats then every output in the template that target an SBSAR file will be grouped together while the other outputs will be exported as individual files.
 
-  ![](export-preset-sbsar.png)
+  ![](../../assets/export-preset-sbsar.png)
 
 ### New environment option to light up underneath 3D models
 
-![](env-align-lighting2.gif)
+![](../../assets/env-align-lighting2.gif)
 
 A new setting inside [Display Settings](../../interface/display-settings/environment-settings/environment-settings.md) allows to align the environment map to the camera making it possible to adjust the lighting angle and light up parts below the 3D model.
 
@@ -103,35 +102,35 @@ Shadows will automatically adjust based on the configuration of this setting.
 
 ### New Favorites and delete/reload in Assets window
 
-![](banner-favorite.png)
+![](../../assets/banner-favorite.png)
 
 New actions have been added to the [Assets](../../interface/assets/assets.md) window to make management of resources more convenient.
 
 * **Favorite resources to quickly find them**   
   Right-click on any resource in the Assets window to favorite (or un-favorite) it. Favorite resources always appear first in line in search queries with a little star tag in the corner, making them stand out and accessible. A dedicated search query has been added as well, making it easy to view all your favorite resources.
 
-  ![](favorite-right-click.png){width="350px"}
+  ![](../../assets/favorite-right-click.png){width="350px"}
 
 * **Delete and reload resources on disk**   
   Resources located in user libraries can now be deleted, reloaded or renamed (except for resources part of a package, like Substance graphs or ABR brushes).
 
 ### Miscellaneous features and improvements
 
-![](banner-misc-1.jpg)
+![](../../assets/banner-misc-1.jpg)
 
 A lot of small additional improvements and features have been added in this new version:
 
 * **New Welcome and What's new window**   
   To stay informed about new features added to the application we now introduce a new Welcome and What's new window when launching the application. Those window can be easily closed and won't reappear upon next launches. It is always possible to re-open them via the **Help** menu.
 
-  ![](welcome-3.jpg){width="400px"}
+  ![](../../assets/welcome-3.jpg){width="400px"}
 
-  ![](whats-new-4.jpg){width="400px"}
+  ![](../../assets/whats-new-4.jpg){width="400px"}
 
 * **New action to quickly re-import a 3D model**   
   A new keyboard shortcut (**CTRL+SHIFT+R** by default) has been added and allows to quickly re-import the 3D model of the current project. This makes iteration on an asset easier and faster. If the source file cannot be found, an error message will be raised in the log. An action has also been added to the **Edit** menu.
 
-  ![](reimport-mesh.png)
+  ![](../../assets/reimport-mesh.png)
 
 * **Improved HDPI support**   
   Several fixes have been made regarding HDPI screens and system scaling. We now support intermediate scaling values (ex. 125%) which should avoid the interface being too big or too small on certain screens. Moving windows between HDPI screens with different scaling values should also behave correctly.
@@ -142,43 +141,43 @@ A lot of small additional improvements and features have been added in this new 
   * **Reset all parameters**: Use the restore defaults button below the list of parameters to reset the whole Substance resource.
   * **Right-click**: Right-click on a specific parameter to open a menu with a reset action specific to this parameter.
 
-  ![](restore-default.png) ![](restore-specific.png)
+  ![](../../assets/restore-default.png) ![](../../assets/restore-specific.png)
 
 * **View individual RGBA components in viewports**   
   When looking at a channel in the viewports, there is a new setting named **Color channels** under **Display Settings &gt; Channel display** that allows to look at RGBA componenst individually. This can be useful to analyze textures or isolate specific components within user channels.
 
-  ![](channels-display-component.png)
+  ![](../../assets/channels-display-component.png)
 
-  ![](viewport-channels.jpg){width="450px"}
+  ![](../../assets/viewport-channels.jpg){width="450px"}
 
 * **Tiling fill layers and effects beyond 128**   
   The tiling parameter of fill layers and effects has been modified to have a soft range. This makes it now possible to type any desired tiling value. The default range of the slider has also been reduced from &#91;-128,128&#93; to &#91;-32,32&#93; to make it easier to drag.
 
-  ![](fill-tiling.gif)
+  ![](../../assets/fill-tiling.gif)
 
 * **New 16f and 32f EXR texture export setting**   
   Previously, EXR texture export was forced to 32f bit in the interface but inside the actual file it would result in 16f bit data (half-float). It has now been fixed, and there is an explicit possibility to choose between 16f and 32f bits. Old projects and export presets using EXR as their file format will default to 16f bits to respect the old behavior (mostly to avoid producing heavier files than before).
 
-  ![](exr-export.png)
+  ![](../../assets/exr-export.png)
 
 * **Export and reload UI layouts**   
   New actions to save and reload the UI layout can be found inside the **Windows** menu. This makes it more convenient to switch between different layouts, or save and re-use a UI across computers. The two current Painter modes - Rendering and Painting - have their own layouts. A few functions are also available in Python to allow to save and reimport UI layout (see below).
 
-  ![](save-ui.png)
+  ![](../../assets/save-ui.png)
 
 * **Re-organized file menu**   
   We decluttered the file menu by grouping together several advanced save functionalities. Some of these actions have also been renamed to clarify their behavior.
 
-  ![](save-menu.png)
+  ![](../../assets/save-menu.png)
 
 * **Improved error message when opening projects that are too recent.**   
   A more helpful message is now displayed when opening projects made with a newer version of the application. The message now includes both project and application versions, which allows to be better informed about the required version.
 
-  ![](data-too-recent-resized.png){width="400px"}
+  ![](../../assets/data-too-recent-resized.png){width="400px"}
 
 ### Improved Python scripting
 
-![](banner-python.png)
+![](../../assets/banner-python.png)
 
 Several new functionalities have been added to the Python API. For full details, take a look at the documentation available in the Help menu of the application.
 

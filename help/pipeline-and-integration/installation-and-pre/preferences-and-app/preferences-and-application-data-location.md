@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Preferences and application data location
 
 This page regroups information on where the application preferences are stored per version and platform.  

@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # History
 
-![](history-list.png)  
+![](../../assets/history-list.png)  
 The History window lists all the actions and modifications that have been made in the currently open project.
 
 * Each element of the list can be clicked to go back to the state of the project when the action was created/applied.

@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Version 9.1
 
 <b>Substance 3D Painter 9.1</b> adds tangent control for the Path tool, support of the SVG file format, the ability to import and apply resources by drag and drop and support for translucency in the viewport.
@@ -23,7 +22,7 @@ Release date: *7 November 2023*
 
 ### New tangent controls and improvements for path tool
 
-![Banner Path tool](v91_banner_tangents.jpg)
+![Banner Path tool](../../assets/v91_banner_tangents.jpg)
 
 In this new version we continue the development of the Path tool (introduced in version 9.0) to add missing bits and features requested by the community.
 
@@ -31,24 +30,24 @@ In this new version we continue the development of the Path tool (introduced in 
 
   It is now possible to manually set the tangents of a specific point on a path. This allows to override the automatic behavior to create new shapes.
 
-  ![Custom tangents](path_control_tangents.gif)
+  ![Custom tangents](../../assets/path_control_tangents.gif)
 * <b>Edit path points via manipulators</b>
 
   Sometimes, just slidings points on the surface of the object is not enough. The manipulators allow to move points beyond the surface. This can be very helptful to move several points at once for example in case they were too far from a surface after a mesh re-import.
 
-  ![Path tangents translate manipulator](path_tangents_translate.gif)
+  ![Path tangents translate manipulator](../../assets/path_tangents_translate.gif)
 * <b>Toggle paths visibility individually</b>
 
   Paths visibility can now be changed per path via the dedicated viewport panel. Disabling a path will remove its contributions from final textures without having to delete it.
 
-  ![Path panel visibility](path_panel_visibility.png)
+  ![Path panel visibility](../../assets/path_panel_visibility.png)
 * <b>Copy and paste path positions and properties</b>
 
   Copy and pasting paths has been extended to be able to only copy a path point positions or its properties. Syncing paths in different ways is now possible, making it easier to create complex effects (via the positions) or to share a specific look across different locations (via the properties).
 
-  ![Gif showing how to copy and paste path properties](path_copy_paste_properties.gif)
+  ![Gif showing how to copy and paste path properties](../../assets/path_copy_paste_properties.gif)
 
-  ![Gif showing how to copy and paste path positions](path_copy_paste_vertices.gif)
+  ![Gif showing how to copy and paste path positions](../../assets/path_copy_paste_vertices.gif)
 
 >[!NOTE]
 >
@@ -56,7 +55,7 @@ In this new version we continue the development of the Path tool (introduced in 
 
 ### New support for translucency, transparency and absorption in viewport
 
-![Banner ASM](v91_banner_asm.jpg)
+![Banner ASM](../../assets/v91_banner_asm.jpg)
 
 The <b>Adobe Standard Material</b> (ASM) shader, which is the default when creating a new project, has been updated to support <b>Translucency</b>, <b>Transparency</b> and <b>Absorption</b> properties. This means it is now possible to view the result of those rendering behaviors in the real-time viewport (as well as inside Iray renderer).
 
@@ -75,14 +74,14 @@ So authoring materials like <b>glass</b>, <b>foliage</b> or <b>plastics</b> with
 
   The order of parameters should also match better other Substance 3D software, making it easier to do back and forth when trying out settings.
 
-  ![ASM tooltips](v91_asm_tooltips.png)
+  ![ASM tooltips](../../assets/v91_asm_tooltips.png)
 * <b>New sample project to demo the Adobe Standard Material</b>
 
   Manipulating the new ASM properties can be difficult at first, so a new sample project demonstrating several features of the shader has been added to make it easier to learn them.
 
   This project is called <b>French Restaurant Table</b> and can be found via the <b>File &gt; Open sample</b> menu. It also uses a lot of little tricks, so it can be a great learning resource to discover new ways of texturing.
 
-  ![Demo sample project](v91_asm_demo_project.png)
+  ![Demo sample project](../../assets/v91_asm_demo_project.png)
 * <b>Translucency channel now defaults to a black color</b>
 
   In order to make the new shader properties easier to use and avoid unexpected results in the viewport, the default color of the channel Translucency has been changed to black (instead of white).
@@ -91,7 +90,7 @@ So authoring materials like <b>glass</b>, <b>foliage</b> or <b>plastics</b> with
 
 ### New support for vector graphic files (SVG)
 
-![Banner SVG](v91_banner_svg.jpg)
+![Banner SVG](../../assets/v91_banner_svg.jpg)
 
 This release adds the support of SVG files as resources that can be used in layers, paint tools, etc.
 
@@ -108,7 +107,7 @@ SVG file are quite handy to represent logos or shapes precisely while being very
   * <b>Crop area</b>: to define the specific region of the SVG canvas to use.
   * <b>Scope</b>: to select the whole content of the SVG or only some elements.
 
-  ![SVG settings](v91_svg_settings.png)
+  ![SVG settings](../../assets/v91_svg_settings.png)
 * <b>New SVG tailored materials</b>
 
   3 new resources have been added to help the use of SVG files when texturing:
@@ -117,9 +116,9 @@ SVG file are quite handy to represent logos or shapes precisely while being very
   * <b>Custom Sticker</b>: to create a plastic sticker on a surface. It features several settings to simulate damage and folding.
   * <b>Graphic to Material</b>: allows to create several material properties from a single image input. This resource is automatically inserted when drag and dropping an SVG file into the viewport. This resource offers an easy way to share the transparency of its input across multiple channels, making it perfect for simple decals.
 
-  ![SVG resources icons](v91_svg_resources.png)
+  ![SVG resources icons](../../assets/v91_svg_resources.png)
 
-  ![Graphic to material demo](v91_graphic_to_material_demo.png)
+  ![Graphic to material demo](../../assets/v91_graphic_to_material_demo.png)
 
 >[!NOTE]
 >
@@ -127,7 +126,7 @@ SVG file are quite handy to represent logos or shapes precisely while being very
 
 ### New import of resources via drag and drop
 
-![Banner import drag and drop](v91_banner_drag_import.jpg)
+![Banner import drag and drop](../../assets/v91_banner_drag_import.jpg)
 
 This release make it possible to drag and drop an external file into different contexts of the application to automatically import a resource and use it. This new process allows to skip tedious steps related to importing files.
 
@@ -146,7 +145,7 @@ This release make it possible to drag and drop an external file into different c
 
 ### New resource drag and drop behaviors
 
-![Banner drag and drop](v91_banner_drag_resources.jpg)
+![Banner drag and drop](../../assets/v91_banner_drag_resources.jpg)
 
 Drag and drop improvements are not limited to importing resources. Drag and dropping a resource from the Assets window can now be used to create new layers, effects and even masks on the fly.
 
@@ -167,25 +166,25 @@ Drag and drop improvements are not limited to importing resources. Drag and drop
 
   By choosing where a resource is dropped, Painter will automatically create a new layer or a new effect:
 
-  ![Drag drop in layer stack](v91_drop_filter_stack.gif)
+  ![Drag drop in layer stack](../../assets/v91_drop_filter_stack.gif)
 * <b>Choose between Content or Mask effect stack while dragging  
   </b>
 
   When dragging a resource over a thumbnail Painter will automatically switch to the associated effect stacks. After that it becomes very easy to just drop the resource in a precise location inside that stack. This avoid the need to switch to the right stack beforehand.
 
-  ![Effect stack switch](v91_drop_stack_switch.gif)
+  ![Effect stack switch](../../assets/v91_drop_stack_switch.gif)
 * <b>Create a new black mask on the fly</b>
 
   A new icon appears on any layer without a mask while dragging a resource. When a resource is dropped on this ghost mask it will automatically create a new mask and add the new resource. It is a quick way to setup a new mask and avoid to cancel the drag and drop to add it manually.
 
-  ![Drag and drop to create new mask](v91_drop_new_mask.gif)
+  ![Drag and drop to create new mask](../../assets/v91_drop_new_mask.gif)
 * <b>Drop in the viewport to create new layers</b>
 
   Drag and dropping resources can also be done in the viewport to create new layers. Depending on the type of the resource, the result may change. A filter will create a paint layer in passthrough mode, while a smart mask will create a fill layer with a new mask.
 
-  ![Drag and drop smart mask](v91_drop_smart_mask.gif)
+  ![Drag and drop smart mask](../../assets/v91_drop_smart_mask.gif)
 
-  ![Drag and drop filter](v91_drop_filter.gif)
+  ![Drag and drop filter](../../assets/v91_drop_filter.gif)
 * <b>Use keyboard modifiers for advanced behaviors</b>
 
   When dropping a resource, maintaining the keyboard modifier CTRL or ALT can enable additional behaviors:
@@ -197,7 +196,7 @@ Drag and drop improvements are not limited to importing resources. Drag and drop
 
 ### Miscellaneous improvements
 
-![Banner misc](v91_banner_misc.jpg)
+![Banner misc](../../assets/v91_banner_misc.jpg)
 
 Several minor features and improvements have also been added in this release.
 
@@ -214,7 +213,7 @@ Several minor features and improvements have also been added in this release.
 
   <b>UV set 0</b> is the default UV used for painting by Painter. If additional UV sets are available, they will be available inside the dropdown from the setting <b>Source</b>:
 
-  ![UV set projection](v91_uv_set_proj.png)
+  ![UV set projection](../../assets/v91_uv_set_proj.png)
 * <b>Temporal Anti-Aliasing is enabled by default on any new project</b>
 
   When creating a new project, the <b>Temporal Anti-Aliasing</b> setting available in the Display Settings window is now enabled by default in order to improve the quality of the rendering in the viewport.

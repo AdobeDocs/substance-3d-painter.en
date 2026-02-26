@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Creating particles presets
 
 The particle system that allows to paint particles uses  **PopcornFX** which relies on **.pkfx** files to define the behaviors.

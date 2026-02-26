@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Window menu
 
-![](window-menu.png)  
+![](../../../assets/window-menu.png)  
 The window menu allows to display a list of the windows and if they are visible in the interface. You can also use the toolbar menu to hide some toolbars.
 
 | Action | Description |

@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # UV Tiles
 
-![](banner-uvtiles.jpg)
+![](../../assets/banner-uvtiles.jpg)
 
 UV Tiles are a way to texture more than one set of textures, across several UV ranges, inside a Texture Set.
 

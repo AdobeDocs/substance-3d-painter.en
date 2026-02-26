@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Update checker
 
-![](update-checker.png){width="450px"}
+![](../../../assets/update-checker.png){width="450px"}
 
 The update window indicates if a new version of the application is available and display as well the latest [Release notes](../../../release-notes/release-notes.md).
 

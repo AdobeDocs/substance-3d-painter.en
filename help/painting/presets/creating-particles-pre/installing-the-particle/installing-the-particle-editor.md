@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Installing the particle editor
 
 To create and edit particle system behavior, the PopcornFX editor need to be used.  

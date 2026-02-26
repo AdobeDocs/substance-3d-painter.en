@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # PBR Metal Rough - Shader API
 
 ## Allegorithmic Metal/Rough PBR shader

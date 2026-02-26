@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Color Profile
 
-![](doc-lut-example.jpg){width="700px"}
+![](../../../assets/doc-lut-example.jpg){width="700px"}
 
 Substance 3D Painter allows to assign  **Color Profiles**  to the  **viewports**  by loading  **LUT**  textures.   
  A color profile can be used to calibrate the final color of the screen to match a target, such as a specific camera. Often a profile will manipulate colors by changing the brightness, the gamma, the contrast or even the color balance.
@@ -30,7 +29,7 @@ Substance 3D Painter allows to assign  **Color Profiles**  to the  **viewports**
 A Color Profile can be loaded via the Display Settings window.   
  Check the "  **Activate Color Profile**  " checkbox to affect the viewport and enable a Color Profile.
 
-![](color-profile-ui.png)
+![](../../../assets/color-profile-ui.png)
 
 * When "Activate Color Profile" is  **disabled**  the rendering of the viewport is done in  **sRGB**  for the Material view (and Linear for some specific channels)
 * When "Activate Color Profile" is  **enabled**  the rendering of the viewport is done in  **Linear/Raw**  for every view (including solo channels)

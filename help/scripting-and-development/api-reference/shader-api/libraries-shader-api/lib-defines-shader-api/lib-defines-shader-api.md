@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Lib Defines - Shader API
 
 ## lib-defines.glsl

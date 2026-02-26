@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Firewall Configuration
 
 Substance 3D Painter sometimes need to communicate externally some information which can require some white-listing in Firewall software.

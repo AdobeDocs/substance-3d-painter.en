@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Projects are really big
 
 Substance 3D Painter project can be really big and use a lot of disk space. This page explains why and how to mitigate it.

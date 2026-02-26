@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Help menu
 
-![](help-menu.png)   
+![](../../../assets/help-menu.png)   
 The help menu regroups various actions from links to the documentation to the about window.
 
 | Action | Description |

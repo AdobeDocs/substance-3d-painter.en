@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Crash or freeze during startup
 
 This page list known issues and their solutions related to the application not starting up properly.

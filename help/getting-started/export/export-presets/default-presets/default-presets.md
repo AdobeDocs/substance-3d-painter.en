@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Default Output templates
 
 Below is a list of additional Output templates provided by default.  Default Output templates can be copied and modified in the <b>Output templates tab </b>of the <b>Export window</b>.

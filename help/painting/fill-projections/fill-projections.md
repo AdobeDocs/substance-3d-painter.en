@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Fill projections
 
-![](fill-properties.png)
+![](../../assets/fill-properties.png)
 
 Fill layer and fill effects project a texture directly onto the mesh based on a specific mode. This type of layer/effect avoid to manually paint textures on the 3D model. The settings of the projection can be edited via the Properties window.
 
@@ -37,6 +36,6 @@ The current projection modes available are:
 
 ## Material (and grayscale)
 
-![](properties-mat.png)
+![](../../assets/properties-mat.png)
 
 The Material / Grayscale controls are identical to the other tools. See the [Paint tool documentation](../../painting/tool-list/paint-brush/paint-brush.md) for more details.

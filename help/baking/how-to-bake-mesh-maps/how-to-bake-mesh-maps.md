@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # How to bake mesh maps
 
 Substance 3D Painter's dedicated baking mode makes it easy to bake mesh maps that can power awesome smart materials and other tools. Read on, or watch the video below to learn how to start baking with Substance 3D Painter.
@@ -23,7 +22,7 @@ By default, Painter starts in Painting mode when creating or opening a project. 
 
 * Use the <b>Baking mode button</b> (<b>Croissant icon</b>) in the contextual Toolbar at the top right of the Viewport
 
-  ![](croissant-icon.png)
+  ![](../../assets/croissant-icon.png)
 
   >[!NOTE]
   >
@@ -36,19 +35,19 @@ By default, Painter starts in Painting mode when creating or opening a project. 
 
 Inside the <b>Texture Set list</b>, use the checkbox next to each Texture set (and UV Tiles number if present) to select which parts to bake:
 
-![](texture-set-list-baking-selection.png)
+![](../../assets/texture-set-list-baking-selection.png)
 
 ### 3 - Select bakers
 
 Inside the Mesh Map Bakers window, use the check boxes to select the maps that you want to be baked:
 
-![](mesh-map-bakers-selection.png)
+![](../../assets/mesh-map-bakers-selection.png)
 
 ### 4 - Change common settings
 
 In the Mesh map bakers panel, click on the common settings to change the settings like baked map resolution, dilation width, and high poly parameters, that are shared across all maps:
 
-![](common-settings.png)
+![](../../assets/common-settings.png)
 
 In the common settings, you can define which files to be used as high definition meshes. Selecting high definition meshes allows you do define how the cage is generated for your meshes:
 
@@ -62,7 +61,7 @@ If you are not baking from a high-poly mesh, enable the <b>Use Low Poly Mesh as 
 
 Different options are available to adjust the cage based on which cage method you're using. With a distance-based cage, you can adjust the Frontal and Rear distances to minimise the amount of intersection between the cage and your mesh.
 
-![](cage-distance.gif)
+![](../../assets/cage-distance.gif)
 
 >[!NOTE]
 >
@@ -72,7 +71,7 @@ Different options are available to adjust the cage based on which cage method yo
 
 At the bottom of the viewport, click on the Bake button to start the baking process.
 
-![](bake-button.png)
+![](../../assets/bake-button.png)
 
 ### 7 - Inspect the Baking Log for errors
 
@@ -80,4 +79,4 @@ Once the baking process has finished, you can take a look at the Baking Log wind
 
 If there are any, use the arrow next to the error message to view the relevant baker settings:
 
-![](bake-failed.png)
+![](../../assets/bake-failed.png)

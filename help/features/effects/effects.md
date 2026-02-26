@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Effects
 
-![](new-filters.jpg){width="450px"}
+![](../../assets/new-filters.jpg){width="450px"}
 
 The Effects are a set of various  **actions**  that can be applied on  **the content**  or  **the mask**  of a  **layer**  in the layer stack of Substance 3D Painter.   
 They allow an infinite series of changes from simple color variations to complex mask creations. Multiple Effect are shipped with Substance 3D Painter by default, but you can also create your own in Substance 3D Designer.

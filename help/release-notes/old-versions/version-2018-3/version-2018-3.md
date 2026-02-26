@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Version 2018.3
 
 **Substance Painter 2018.3** is here and brings a lot of new workflows and rendering features !
@@ -23,33 +22,33 @@ Release date : *20 November 2018*
 
 ### 2D View Export
 
-![](export-2d-view.jpg)
+![](../../../assets/export-2d-view.jpg)
 
 It is now possible to **export the 2D view** rendering **as a texture**. This feature has been requested by many people and we finally made it available ! The export process will take the current state of the **2D view** to render a texture with the regular export settings (padding, file format, bit depth). This means if the view mode is set to **Solo** instead of the **Material** mode the 2D view will be exported as-is.
 
 Head over to the **Export window** and choose the new configuration named "**2D View**" :  
- ![](2d-view-export-config.png)
+ ![](../../../assets/2d-view-export-config.png)
 
 A new **Converted Map** named "**2D View**" is also available in the **Configuration** tab of the Export window in case you wish to create your own **export preset**.
 
 ### Improved Baked Lighting Filter
 
-![](baked-lighting.jpg)
+![](../../../assets/baked-lighting.jpg)
 
 The **Baked Lighting Environment** filter has been greatly improved and now properly supports **HDR environment maps**.  
 You can now replicate the lighting of the viewport (as seen in the 2D view) and bake it down into the Base Color channel. The new filter provides further controls such as **rotating** the **environment** map **vertically** and changing the **exposure**.
 
-![](shelf-baked-lighting.png)
+![](../../../assets/shelf-baked-lighting.png)
 
 ### Real-time Anisotropic Specular Reflections
 
-![](capture-optim.gif)
+![](../../../assets/capture-optim.gif)
 
 In this new version we introduce a new shader named "**pbr-metal-rough-anisotropy-angle**". This shader supports two channels named "**Anisotropy Angle**" and "**Anisotropy Level**" which can be used to create anisotropic specular reflections. This shader will also translate into Iray as-is without the need of any conversion.
 
 This new shader can be accessed through the [Shader Window](../../../interface/shader-settings/shader-settings.md) by clicking on the shader button and opening the mini-shelf :
 
-![](shader-anisotropy.png)
+![](../../../assets/shader-anisotropy.png)
 
 The default sample project "**Preview Sphere**" has been updated to take advantage of that new shader and showcase how to setup the different channels.
 
@@ -59,7 +58,7 @@ The default sample project "**Preview Sphere**" has been updated to take advanta
 
 ### Updated Clear Coat Shader
 
-![](coated.jpg)
+![](../../../assets/coated.jpg)
 
 The **Clear Coat** shader (**pbr-coated**) has been improved to offer more controls and rendering possibilities. We also took the opportunity to make it compatible with **Iray** with a dedicated **MDL**.
 
@@ -71,11 +70,11 @@ Here is a list of the changes :
 
 For convenience we also added a new project template ready for texturing this new shader named : **PBR - Metallic Roughness Coated**.
 
-![](shader-coated.png)
+![](../../../assets/shader-coated.png)
 
 ### New Viewport Anti-Aliasing
 
-![](temporal-anti-aliasing.gif)
+![](../../../assets/temporal-anti-aliasing.gif)
 
 We Anti-Aliasing post-process of Substance Painter has been reworked and changed to a new method called "**Temporal Anti-Aliasing**" (**TAA**).   
 This new technique offers much better results in every case for a very minimal cost. **TAA** works by accumulating information across multiple frames, allowing to produce very smooth edges without losing details.
@@ -84,13 +83,13 @@ Since it is no longer a post-effect, the setting has moved a bit inside the **Di
 
 This new Anti-Aliasing also offers new possibilities when combined with transparency. If a project is using the **Alpha-Test** shader, try enabling the "**Alpha Dithering**" setting :
 
-![](dithering-aa.gif)
+![](../../../assets/dithering-aa.gif)
 
 The new **TAA** will also filter nicely the Blue Noise pattern visible in the **Specular reflections** as well as in the **Subsurface Scattering** samples.
 
 ### Sparse Virtual Texturing (SVT)
 
-![](svt-header.jpg)
+![](../../../assets/svt-header.jpg)
 
 One big change in this new version is the introduction of the **Sparse Virtual Textures** or **SVT**.
 
@@ -100,7 +99,7 @@ Another benefit of the system is the introduction of **mipmaps** inside the **vi
 
 We exposed a few controls regarding this new system which can be edited in the main preferences (**Edit &gt; Settings**) :
 
-![](svt-settings.png)
+![](../../../assets/svt-settings.png)
 
 * **Cache directory** : this setting controls where Substance Painter will write its temporary files, including the SVT cache.
 * **Hardware support acceleration** : If enabled, Substance Painter will use the native support of Sparse Textures by the GPU (if disabled it will fallback on a software implementation)
@@ -115,7 +114,7 @@ For more information about the SVT take a look at our documentation page : [Spar
 
 ### New and Improved Symmetry tool
 
-![](symmetry-offset-optim.gif)
+![](../../../assets/symmetry-offset-optim.gif)
 
 The symmetry tool has been reworked and now allows to offset the point of origin. When a project is partially symmetrical or off-center the plan can now be adjusted. The offset will be saved inside the project per axis.
 
@@ -126,7 +125,7 @@ We also took the opportunity to give that feature some love and now have new vis
 
 All the new visuals can be tweaked via the new Symmetry menu in the Contextual Toolbar :
 
-![](symmetry-menu.png)
+![](../../../assets/symmetry-menu.png)
 
 * **Mirror X, Mirror Y, Mirror Z** : Define which direction is used for the symmetry
 * **Offset** : Controls the offset value per axis. The Cross Arrow icon allow to reset all the offsets back to 0.
@@ -140,17 +139,17 @@ The same **shortcuts** as for the Tri-Planar and UV manipulator can be used to h
 * **Shift** : Snap translation (discrete offset)
 * **+ / -** : Change Manipulator size
 
-![](symmetry-gizmo.gif)
+![](../../../assets/symmetry-gizmo.gif)
 
 ### Improved Tri-Planar manipulator
 
-![](trip-rotation-optim.gif)
+![](../../../assets/trip-rotation-optim.gif)
 
 In addition to the 3 orignal axes for controlling the rotation, we also added a new rotation sphere when controlling the Tri-planar manipulator. The sphere makes it easier to quickly try different angles when projecting noise patterns for example.
 
 ### Export 8bit Dithered Textures
 
-![](dither-1.jpg)
+![](../../../assets/dither-1.jpg)
 
 When exporting Normal and Height map textures to file formats in 8 bit mode Substance Painter will now automatically apply **dithering** to reduce **banding** **issues**.
 
@@ -160,7 +159,7 @@ When exporting Normal and Height map textures to file formats in 8 bit mode Subs
 
 ### Layer stack behavior improvements
 
-![](color-layers.gif)
+![](../../../assets/color-layers.gif)
 
 A few workflow improvements have been made to the layer stack and layer management :
 
@@ -170,19 +169,19 @@ A few workflow improvements have been made to the layer stack and layer manageme
   * Moving a layer without a color assigned inside a folder that has a color will inherit the folder color.
   * If a layer has a dedicated color it won't be overridden by the folder.This original behavior makes it easier to colorize and organize the layer stack without having to assign too many colors by hand.
 
-![](hide-slider.gif)
+![](../../../assets/hide-slider.gif)
 
 * Quickly **hide and unhide** multiple **layers** by **clicking and sliding** the mouse.  
   We also took this opportunity to refine a bit the behavior of un-hiding layers inside hidden folders which will now un-hide the folder as well.
 
-![](blend-mode.gif)
+![](../../../assets/blend-mode(1).gif)
 
 * Quickly **switch between blending modes** with the **Arrow** keyboard **shortcuts**.  
   After **closing** the blending pop-up menu the **focus** will **remain** on the layer which and can continue being changed with the same previous shortcut.
 
 ### New Substance Inputs for Filters and Generators
 
-![](uv-border-generator.gif)
+![](../../../assets/uv-border-generator.gif)
 
 New Substance inputs have been exposed for custom filters and generators. These new texture inputs allow the creation of more advanced effects thanks to new mesh related information.
 
@@ -199,7 +198,7 @@ For more details see the new documentation : [Mesh Based Input](../../../content
 
 As an example we now provide a new **mask generator** named "**UV Border Distance**" which creates a black and white mask from the border of the UV islands of the current Texture Set.
 
-![](uv-border.png)
+![](../../../assets/uv-border.png)
 
 >[!NOTE]
 >
@@ -207,7 +206,7 @@ As an example we now provide a new **mask generator** named "**UV Border Distanc
 
 ### New and Updated Content
 
-![](content-header.jpg)
+![](../../../assets/content-header.jpg)
 
 In this new version we included new content :
 
@@ -225,11 +224,11 @@ In this new version we included new content :
   * Gradient Weave Rotated
   * Gradient Weave Angle
   * Gradient Weave Angle Rotated   
-     ![](gradients.png)
+     ![](../../../assets/gradients.png)
 * New **environment** map :
 
   * Studio Automotive Neutral   
-     ![](envmap.png)
+     ![](../../../assets/envmap.png)
 * New **project**  **templates** :
 
   * PBR - Metallic Roughness Anisotropy Angle
@@ -238,7 +237,7 @@ In this new version we included new content :
 
   * Human Female 30s Face 06 (can be quickly found via the Skin preset in the shelf)  
     This new skin material has been provided by **Texturing.XYZ** and gives great surface details to paint realistic skin.  
-     ![](skin-face.png)
+     ![](../../../assets/skin-face.png)
 
 We also updated some of the existing content to refine it :
 

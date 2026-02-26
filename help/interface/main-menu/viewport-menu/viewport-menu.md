@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Viewport menu
 
-![](viewport-menu.png)
+![](../../../assets/viewport-menu.png)
 
 The viewport menu can be used to change the display mode of the [Viewports](https://substance3d.adobe.com/).
 

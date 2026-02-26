@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Glossary
 
 Substance 3D Painter is a 3D application that relies on a lot of techniques and technical keywords which can be difficult to understand at first.   

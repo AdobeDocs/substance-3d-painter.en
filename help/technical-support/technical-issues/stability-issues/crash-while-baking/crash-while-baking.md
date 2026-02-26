@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Crash while baking
 
 Substance 3D Painter may crash during the baking process on some configurations. This page regroups a list of know issues and how to mitigate them.

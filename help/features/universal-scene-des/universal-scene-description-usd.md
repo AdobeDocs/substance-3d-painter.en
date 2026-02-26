@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Universal Scene Description (USD)
 
-![](banner-usd.jpg)
+![](../../assets/banner-usd.jpg)
 
 USD workflow is available in Painter 8.3. [USD](https://graphics.pixar.com/usd/release/intro.html) was developped by Pixar as a collaboration-friendly interchangable format which allows to carry many different types of data.
 

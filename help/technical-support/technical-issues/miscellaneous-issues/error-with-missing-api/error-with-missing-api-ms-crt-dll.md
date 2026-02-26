@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Error with missing api-ms-crt dll
 
 Substance 3D Painter cannot start because  **api-ms-win-crt-runtime-l1-1-0.dll**  is missing from your computer.   

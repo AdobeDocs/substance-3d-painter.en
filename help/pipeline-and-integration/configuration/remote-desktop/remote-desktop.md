@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Remote Desktop
 
 This pages describes solutions and alternatives to make Substance 3D Painter able to run via Remote Desktop (RDP) on Windows.

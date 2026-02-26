@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Text resource
 
-![](v10_text_resource_banner-1.jpg)
+![](../../assets/v10_text_resource_banner-1.jpg)
 
 The <b>Text resource</b> in can be used to write text into textures with the use of specific <b>font files</b>. Several parameters are available to adjust the look of the final text drawn.
 
@@ -23,11 +22,11 @@ The <b>Text resource</b> in can be used to write text into textures with the use
 
 To browse the available font files, simply click on the font filter (the <b>T</b> button) in the [Assets window](../../interface/assets/assets.md):
 
-![](v10_text_assets.png)
+![](../../assets/v10_text_assets.png)
 
 Font can also be filtered by paths depending on where they are located on the system:
 
-![](v10_font_path.png)
+![](../../assets/v10_font_path.png)
 
 The font locations available depend on the current operating system:
 
@@ -53,13 +52,13 @@ A texture resource works like other resources (images or Substance materials for
 
 To create a text resource simply add a font into a resource slot. Drag and dropping a font in the viewport is also possible.
 
-![](v10_text_drag_drop.gif)
+![](../../assets/v10_text_drag_drop.gif)
 
 ### Text resource parameters
 
 A text resource has the following basic parameters:
 
-![](v10_text_params_base.png)
+![](../../assets/v10_text_params_base.png)
 
 | <b>Parameter</b> | <b>Description</b> |
 | --- | --- |
@@ -70,7 +69,7 @@ A text resource has the following basic parameters:
 
 More advanced parameters are also available:
 
-![](v10_text_params_advanced.png)
+![](../../assets/v10_text_params_advanced.png)
 
 | <b>Parameter</b> | <b>Description</b> |
 | --- | --- |

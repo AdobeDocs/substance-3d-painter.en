@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Advanced channel painting
 
 A few of the default channels used in shaders can be painted on to created advanced or complex effects. For example painting height information that get converted into a normal map.

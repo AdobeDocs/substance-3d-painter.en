@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Export settings
 
-![](image2023-1-30-13-22-30.png){width="500px"}
+![](../../../../assets/image2023-1-30-13-22-30.png){width="500px"}
 
 The <b>Export settings tab</b> of the <b>Export textures window</b> allows you to configure the composition, size, and location of exported textures.
 
 ## General and Texture Sets configuration
 
-![](texture-set-list-1.png)
+![](../../../../assets/texture-set-list-1.png)
 
 The first element of the window is the list of Texture Sets on the left. The Global settings section gives access to common parameters across all Texture Sets. This makes it easy to adjust a single set of settings to apply to all of the project's texture sets. Changes made to individual texture set settings will override the global settings for that texture set. For example, setting resolution to 2048 in the global settings and 1024 as an override for a specific Texture Set will result in all texture sets being exported at 2048 resolution except for the one set to 1024.
 
@@ -31,7 +30,7 @@ The dropdown menu is useful with projects that have a large number of texture se
 
 ## General export parameters
 
-![](image2023-1-30-13-23-7.png)
+![](../../../../assets/image2023-1-30-13-23-7.png)
 
 This section contains the shared settings for each textures that will be generated:
 
@@ -53,7 +52,7 @@ Exporting 8bit textures can lead to banding in gradients. This is especially not
 
 Higher precision (16 or 32 bit) is ideal, but this may not be compatible with all applications. Most notably, Game engines often compress to 8bit. Dithering introduces noise which helps to mitigate banding issues while still using 8 bits of information.
 
-![](dither-1.jpg)
+![](../../../../assets/dither-1.jpg)
 
 ### Texture file formats
 
@@ -87,13 +86,13 @@ Below is a list of all the export file format supported by Painter:
 
 When a specific texture set is selected, the Output maps section is visible for that texture set.
 
-![](export-output-maps.png)
+![](../../../../assets/export-output-maps.png)
 
 This section lists all the textures that will be generated based on the current export preset. It indicates the texture name template, the file format, and bit depth, and the color space as well if [Color management](../../../../features/color-management/color-management.md) is enabled.
 
 This section allows you to disable the export of specific files or to override the <b>file format</b> and <b>bit depth</b>.
 
-![](export-override.gif)
+![](../../../../assets/export-override.gif)
 
 ## Export USD asset
 

@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Settings
 
-![](settings-general.png){width="400px"}
+![](../../assets/settings-general.png){width="400px"}
 
 Open the <b>Settings </b>from the <b>Edit menu </b>to adjust your preferences around how you work with Painter.
 

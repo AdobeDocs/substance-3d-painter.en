@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Version 2.5
 
 **Substance Painter 2.5** introduces a lot of new features : from the support of the opacity in the brush settings (in addition to the flow) to the ability to bake additional map in 8K and much more.
@@ -23,46 +22,46 @@ Release date : *21 February 2017*
 
 ### New Brush opacity
 
-![](brush-combined.gif){width="650px"}
+![](../../../assets/brush-combined.gif){width="650px"}
 
 There is now a new setting in the **brush parameters** when Painting in Substance Painter which is the **opacity**.  
 The **opacity** control the **overall intensity of a brush stroke**, contrary to the **flow** setting which control the intensity of **each individual stamp** inside a brush stroke. This means that it is now possible to paint and repaint a same area **without creating overlapping values**. To do so, set the flow to 100 and the opacity value to the intensity you prefer. Because of how the opacity works, it is not possible to link it to the pen pressure. For that kind of control the flow is still the best choice.
 
 We also added a **new modifier** alongside this new parameter which is on the **"A"** key by default. Pressing this key will allow **to continue the previous brush stroke** instead of creating a new one. This means you can paint a uniform color with the opacity you want while keeping the possibly to move the camera for example. Another example would be to continue the copy that you were doing with the clone tool.
 
-![](stroke-opacity-parameter.png)
+![](../../../assets/stroke-opacity-parameter.png)
 
 ### New baking at 8K and non-square resolutions
 
-![](baking-250-8k.png)
+![](../../../assets/baking-250-8k.png)
 
 The baker have been improved to support resolutions up to **8192x8192** (8K plus anti-aliasing), meaning you can now export at 8K with 1:1 ratio with the additional maps.  
 We also added support for **non-square** resolutions. It is now possible possible to bake a texture of **4096x2048** for example. To do so, simply click on the "**lock**" icon next to the dropdown to select the resolution.
 
 ### New support for Color Profile in the viewport
 
-![](lut-example.jpg)
+![](../../../assets/lut-example.jpg)
 
 We added the support of **LUT** (textures) to control the rendering of the **viewport** in Substance Painter. To apply a profile, simply enable the "**Color Profile**" setting in the "**Display settings**" window and load the LUT in the dedicated slot. It work both with the **OpenGL** viewport (painting) and the **IRay** renderer. A few examples are available by default from common **Camera presets** to more **Artistic effects**. For more information, see the dedicated page of the documentation : [Color Profile](../../../features/post-processing/color-profile/color-profile.md)
 
 ### New Substance engine compatible with Substance Designer 6
 
-![](font-shelf.png)
+![](../../../assets/font-shelf.png)
 
 We added the support for **Substance Designer 6**, this means resources created with **SD6** can be opened and used in **Substance Painter 2.5** !  
 A good example is the ability to use the **new text node** of SD6 and integrate it into a substance. This way it is possible to create **dynamic text** and paint them directly without the need to leave the application. **We included 10 fonts** with each a different style by default to cover the most common use. You can find them in the "**procedural**" section of the **shelf**.
 
-![](text-sp250-optim.gif){width="400px"}
+![](../../../assets/text-sp250-optim.gif){width="400px"}
 
 ### New content in the shelf
 
-![](new-filters.jpg)
+![](../../../assets/new-filters.jpg)
 
 Alongside a few fixes and improvements with the new shelf, we also added a bunch of **new filters** to improve the painting and texturing. We also **improved** the behavior of already existing filter (like the "**HSL**"). We also added new **templates** when creating **new projects** (such as **Unity 5** and **Unreal Engine 4**).
 
 ### New scripting improvements with support for custom shader UI
 
-![](ui-shader.jpg)
+![](../../../assets/ui-shader.jpg)
 
 With this release we added a way to **script and control** the **shader parameters**. We also added the support for using a **custom UI** instead of the default one, opening a lot of new possibilities such as **animated shader**.  
 For more details take a look at the scripting documentation available from the Help menu of the application.

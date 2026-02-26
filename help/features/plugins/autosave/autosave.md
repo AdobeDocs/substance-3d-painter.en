@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Autosave
 
-![](autosave-details.png){width="500px"}
+![](../../../assets/autosave-details.png){width="500px"}
 
 The autosave plugins allows to  **create backups**  of the currently opened project. It creates a file on the side while keeping the current project untouched.
 
