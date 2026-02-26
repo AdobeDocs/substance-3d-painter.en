@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-solution: Substance 3D
+solution: Substance 3D Painter
 type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/substance-3d-painter.en
