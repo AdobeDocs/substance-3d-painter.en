@@ -1,7 +1,7 @@
 ---
-user-guide-title: placeholder
-breadcrumb-title: placeholder
-user-guide-description: placeholder
+user-guide-title: Substance 3D Painter
+breadcrumb-title: Substance 3D Painter
+user-guide-description: Substance 3D Painter
 solution: Substance 3D Painter
 ---
 
@@ -211,7 +211,7 @@ solution: Substance 3D Painter
     + [Resources Updater](/help/features/plugins/resources-updater/resources-updater.md)
   + [Sparse Virtual Textures](/help/features/sparse-virtual-textures/sparse-virtual-textures.md)
   + [Custom Shaders](/help/features/custom-shaders/custom-shaders.md)
-  + [SpaceMouse® by 3Dconnexion](/help/features/spacemouse-by-3dconnexion/spacemouse-by-3dconnexion.md)
+  + [SpaceMouse&reg; by 3Dconnexion](/help/features/spacemouse-by-3dconnexion/spacemouse-by-3dconnexion.md)
   + [Universal Scene Description - USD](/help/features/universal-scene-des/universal-scene-description-usd.md)
   + [Send to](/help/features/send-to/send-to.md)
 + Technical Support{#technical-support}

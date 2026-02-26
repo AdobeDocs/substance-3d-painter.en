@@ -95,7 +95,7 @@ If you have any question that is not answered in this manual feel free to ask on
 * [Plugins](../features/plugins/plugins.md)
 * [Sparse Virtual Textures](../features/sparse-virtual-textures/sparse-virtual-textures.md)
 * [Custom Shaders](../features/custom-shaders/custom-shaders.md)
-* [SpaceMouse® by 3Dconnexion](../features/spacemouse-by-3dconnexion/spacemouse-by-3dconnexion.md)
+* [SpaceMouse&reg; by 3Dconnexion](../features/spacemouse-by-3dconnexion/spacemouse-by-3dconnexion.md)
 * [Universal Scene Description (USD)](../features/universal-scene-des/universal-scene-description-usd.md)
 
 ### Pipeline and integration
@@ -121,3 +121,4 @@ If you have any question that is not answered in this manual feel free to ask on
 * [Version 11.1](../release-notes/version-11-1/version-11-1.md)
 * [Version 11.0](../release-notes/version-11-0/version-11-0.md)
 * [Version 10.1](../release-notes/version-10-1/version-10-1.md)
+
