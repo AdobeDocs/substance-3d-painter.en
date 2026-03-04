@@ -161,7 +161,7 @@ The Substance integration inside Substance Painter has been improved with long a
 * <b>Visible If :</b>  
   The "Visible if" is a great feature of the Substance file format which allows to hide parameters based on conditions.  
   This feature provides a more clear list of parameters and contextual settings, giving overall more easy to use materials and filters.  
-  For more details see the [Substance Designer documentation](https://helpx.adobe.com/substance-3d-designer/home.html).  
+  For more details see the [Substance Designer documentation](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/home).  
   ![](../../../assets/visible-if.gif)
 * **Substance Presets** Substance presets are an easy way to provide advanced tweaks and variations of materials. Many materials on [Substance Source](https://source.allegorithmic.com) have presets, so give it a try !  
   If a Substance file contains one or more presets, a new dropdown in the parameter list will be available. Select which preset to apply to update the parameters.  
