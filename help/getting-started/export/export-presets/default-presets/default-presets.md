@@ -18,7 +18,7 @@ Below is a list of additional Output templates provided by default.  Default Ou
 
 >[!NOTE]
 >
-> Some other software not listed here may also be supported (such as  **Octane**). For more information see the [ecosystem and plug-ins](https://helpx.adobe.com/substance-3d-integrations/home.html).
+> Some other software not listed here may also be supported (such as  **Octane**). For more information see the [ecosystem and plug-ins](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home).
 
 | *Preset* | *Description* |
 | --- | --- |
