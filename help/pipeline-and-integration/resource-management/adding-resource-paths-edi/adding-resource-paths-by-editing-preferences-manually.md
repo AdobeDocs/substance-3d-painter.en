@@ -21,6 +21,3 @@ To do so, it requires to edit the application preferences (which are stored diff
 >[!NOTE]
 >
 > Network path are not supported, be sure to use a mounted path to avoid any issues. See : [ Loading files from a network](../../../technical-support/workflow-issues/project-issues/loading-files-from-net/loading-files-from-a-network.md).
-
-* [Editing resource paths manually](../../../pipeline-and-integration/resource-management/adding-resource-paths-edi/editing-resource-paths/editing-resource-paths-manually.md)
-* [Editing the Shelf Preferences with Python](../../../pipeline-and-integration/resource-management/adding-resource-paths-edi/editing-the-shelf-pre/editing-the-shelf-preferences-with-python.md)

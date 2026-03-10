@@ -12,7 +12,7 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-# Conflicts and background applications
+# Conflict with background applications
 
-Some applications running in the background can interfere with Substance 3D Painter and create some issues. Anti-Spyware and Anti-Virus software can create some troubles for example, so disabling them can help.   
-We also have a page listing know application that could either crash Substance 3D Painter or at least slowing it down: [Software conflicts](../../../technical-support/technical-issues/startup-issues/software-conflicts/software-conflicts.md).
+Some applications running in the background can interfere with Substance 3D Painter and create issues. Anti-Spyware and Anti-Virus software often analyze low level processes which can cause slowdowns, so disabling this software can help improve performance while using Painter.  
+A list of known known applications that can either crash Painter or at least slow it down [is available here](../../../technical-support/technical-issues/startup-issues/software-conflicts/software-conflicts.md).

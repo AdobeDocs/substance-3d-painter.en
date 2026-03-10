@@ -22,8 +22,9 @@ To use physical size, apply a material that has this property with a value other
 
 For more information, see:
 
-* **Physical size** parameters in [Fill projections](../../painting/fill-projections/fill-projections.md)
-* **Grid** parameters in [Viewport settings](../../interface/display-settings/viewport-settings/viewport-settings.md)
+* <b>Physical size</b> parameters in [Fill projections](../../painting/fill-projections/fill-projections.md)
+* <b>Grid</b> parameters in [Viewport settings](../../interface/display-settings/viewport-settings/viewport-settings.md)
+* <b>Displacement based on physical size</b> in [Shader settings](../../interface/shader-settings/shader-settings.md)
 
 >[!NOTE]
 >

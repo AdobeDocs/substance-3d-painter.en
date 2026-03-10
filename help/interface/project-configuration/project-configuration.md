@@ -14,17 +14,23 @@ user-guide-title: ""
 
 # Project configuration
 
-![](../../assets/project-settings-2.png){width="400px"}
+![](../../assets/v12_project_settings.png)
 
 The project setting window allows to modify a few properties related to the current project, such as the reloading of a new mesh.
 
-## 3D model path
+## 3D mesh
 
 The File and Select button allows to update the current project's 3D model at any moment. This allows to:
 
 * Update the 3D model topology
 * Update the UVs
 * Add or Remove [Texture Sets](../../interface/texture-set/texture-set.md)
+
+|  |  |
+| --- | --- |
+| <b>Parameter</b> | <b>Description</b> |
+| <b>3D mesh</b> | Indicates the path to the 3D model file. The select button allows to change the mesh of the project. |
+| <b>Reimport mesh</b> | If enabled, the mesh file will be re-imported when clicking OK at the bottom of the interface. This parameter is disabled if the Select button is used to specify a mesh file. |
 
 >[!NOTE]
 >
