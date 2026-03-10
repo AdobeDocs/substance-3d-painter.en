@@ -16,6 +16,28 @@ user-guide-title: ""
 
 ![Image showing the path tool used on a shoe](../../../assets/v90_banner_path.jpg)
 
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+<b>Audio</b>
+
+Adjust or add audio to your project.
+
+
+* Adjust the source video volume if it has audio.
+* Add, remove, or replace an external audio file.
+* Adjust the external audio file volume.
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../assets/image_180.png)
+
+</td>
+</tr>
+</table>
+
 The <b>Path tools</b> allows you to define a curve with points on the surface of your mesh. Once the curve is created, the different Path tools allow you to create different effects along the curve.
 
 ## Creating a path
@@ -145,7 +167,7 @@ The right-click menu also open actions to copy the properties or position of a p
 
 ## Tool presets
 
-![A screenshot of the presets section of the properties panel when a path tool is selected](../../../assets/path-presets.png){width="400px"}
+![A screenshot of the presets section of the properties panel when a path tool is selected](../../../assets/path_presets.png){width="400px"}
 
 When a path tool is selected, a Presets section is available at the top of the Properties panel. From here you can quickly access presets for the various path tools.
 

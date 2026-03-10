@@ -20,6 +20,42 @@ This page contains release notes for all previous releases of Substance 3D Paint
 >
 > To view known issues that may affect Painter, see the [dedicated documentation page](../../release-notes/know-issues/know-issues.md).
 
+## Version 12
+
+### 12.0.0
+
+Release date: <b>2026/03/09</b>  
+Summary: <b>This is a major release. This release contains the features flatten layers, warp on geometry, new post effects, improvement to the new project window and other improvements.</b>  
+  
+<b>Added</b>:
+
+* &#91;Flatten Layers&#93; Flatten layers inside the layer stack
+* &#91;Flatten Layers&#93; Export flattened layers to disk
+* &#91;Warp to geometry&#93; Add new auto-warping functionality to Warp projections
+* &#91;Post-effects&#93; Replace post effects with addition of new ones
+* &#91;Post-effects&#93; Update tone mapper
+* &#91;Post-effects&#93; Add new usage for Post-effects assets
+* &#91;Content&#93;&#91;Post-effects&#93; Integrate default post-effects assets in library
+* &#91;New Project&#93; Improve UI for Project Creation
+* &#91;New project&#93; Changes to reimport mesh functionality
+* &#91;New project&#93; Allow for \*.geo.usd files to be opened
+* &#91;Project Configuration&#93; Improve UI for Project Configuration
+* Update USD library to version 25.05
+* Update Substance Engine to version 9.3.4
+* Raise minimum drivers to 25.3.1/25.Q2 for AMD GPUs
+* Update Qt to 6.8.6
+* &#91;Scripting&#93; Update JavaScript API to version 1.1.20
+* Update Python to 3.13
+
+<b>Fixed:</b>
+
+* &#91;Crash&#93; Changing a material channel output in a mask can crash
+* &#91;Import&#93; EXR textures are forced into sRGB instead of linear when importing USD files
+* &#91;UV Tiles&#93; Image sequence with a single image also fills other UV Tiles
+* &#91;Baking&#93; AO is different between CPU and GPU baking
+* &#91;Color Management&#93;&#91;MacOS&#93; Viewport BaseColor does not match colorpicker
+* &#91;USD&#93; Uniform values are not imported in some cases
+
 ## Version 11
 
 ### 11.1.3

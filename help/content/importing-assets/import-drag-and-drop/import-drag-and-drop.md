@@ -38,7 +38,31 @@ It is also possible to import an SVG file by drag and dropping it into the viewp
 
 Drag and dropping a resource into the layer will create layers (or effects) when dropped. A menu may appears to ask in which channel to put the resource if it is not a Substance materials or filter.
 
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+<b>Audio</b>
+
+Adjust or add audio to your project.
+
+
+* Adjust the source video volume if it has audio.
+* Add, remove, or replace an external audio file.
+* Adjust the external audio file volume.
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../assets/image_180.png)
+
+</td>
+</tr>
+</table>
+
 ![Gid showing drag and drop of a resource into the layer stack](../../../assets/import_dragdrop_layerstack.gif)
+
+![](../../../assets/120-0-comparison.png)
 
 ### Importing into a resource slot
 

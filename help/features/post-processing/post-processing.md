@@ -14,41 +14,27 @@ user-guide-title: ""
 
 # Post Processing
 
-![](../../assets/post-effects-demos.jpg)
+![](../../assets/v12_banner_post_effects2.jpg)
 
 Post-Effects are filters than can be applied to the images rendered in the viewport of Substance 3D Painter to simulate common camera effects.
 
-The Post-Process effects of Substance 3D Painter are powered by the middleware  [Yebis](http://www.siliconstudio.co.jp/middleware/yebis/en/)  . Effects can be enabled individually, but the main post-process system has to be enabled first.
+Post-effects can be activated in any projetc via the [Display Settings](../../interface/display-settings/display-settings.md) window.
 
 >[!NOTE]
 >
 > These post effects are not applied to the 2D view for convenience. Only the 3D view show the image result with the effects.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+The following pages describes the various post process effects currently supported:
 
-![](../../assets/post-list.png)
-
-</td>
-<td style="border: 0;" valign="top">
-
-1. Step text
-1. Step text
-1. Step text
-1. Step text
-1. Step text
-
-</td>
-</tr>
-</table>
-
-The following pages describes the various post process effects supported by Substance 3D Painter:
-
-* [Color correction](../../features/post-processing/color-correction/color-correction.md)
 * [Depth of Field](../../features/post-processing/depth-of-field/depth-of-field.md)
+* [Bloom](../../features/post-processing/bloom/bloom.md)
 * [Glare](../../features/post-processing/glare/glare.md)
-* [Lens Distortion](../../features/post-processing/lens-distortion/lens-distortion.md)
-* [Tone Mapping](../../features/post-processing/tone-mapping/tone-mapping.md)
+* [Lens flare](../../features/post-processing/lens-flare/lens-flare.md)
+* [Lateral aberration](../../features/post-processing/lateral-aberration/lateral-aberration.md)
 * [Vignette](../../features/post-processing/vignette/vignette.md)
-* [Color Profile](../../features/post-processing/color-profile/color-profile.md)
+* [Sharpen](../../features/post-processing/sharpen/sharpen.md)
+* [Film grain](../../features/post-processing/film-grain/film-grain.md)
+* [Tone mapping](../../features/post-processing/tone-mapping/tone-mapping.md)
+* [Color correction](../../features/post-processing/color-correction/color-correction.md)
+
+Lookup texture table can also be used to fine-tune the final image result. For more information see the [Color profile](../../features/post-processing/color-profile/color-profile.md) documentation.
