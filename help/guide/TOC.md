@@ -2,7 +2,6 @@
 user-guide-title: Substance 3D Painter
 breadcrumb-title: Substance 3D Painter
 user-guide-description: Substance 3D Painter
-solution: Substance 3D Painter
 ---
 
 # Substance 3D Painter {#using}
