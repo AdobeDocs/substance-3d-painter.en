@@ -26,7 +26,7 @@ To create a new project, click on <b>File &gt; New</b> or use keyboard shortcut 
 
 Below is an explanation of all the parameters available in the New Project window.
 
-### BasIC Settings
+### Basic Settings
 
 | *Parameter* | *Description* |
 | --- | --- |
