@@ -22,6 +22,16 @@ This page contains release notes for all previous releases of Substance 3D Paint
 
 ## Version 12
 
+### 12.0.1
+
+Release date: **2026/03/18**
+
+Summary: **Minor release**
+
+**Fixed:**
+    
+- \[Crash\]\[Freeze\] Export from specific projects
+
 ### 12.0.0
 
 Release date: <b>2026/03/09</b>  
