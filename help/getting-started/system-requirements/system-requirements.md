@@ -41,7 +41,7 @@ Below is a list of hardware and systems supported by the application:
 
 | Enterprise | Steam |
 | --- | --- |
-| RHEL 8 or 8.10 </br> RHEL 9 or 9.6 | Ubuntu 22.04 or Ubuntu 22.04.05 LTS |
+| RHEL 8</br>RHEL 9 | Ubuntu 22.04 |
 
 ## General recommendations
 
