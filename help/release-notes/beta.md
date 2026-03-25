@@ -14,17 +14,21 @@ Release date: **26 March 2026**
 
 ## New baking features
 
-### Paint skew correction when baking
+![alt text](<../assets/12.1.0 baking - promotional.jpeg>)
 
-New Skew correction options are available when in Baking mode that allow you to directly fix distortion problems when baking.
+Enable automatic rebaking to save time while tweaking baking parameters.
 
-![alt text](<../assets/12.1.0 skew painting - comparison.png>)
+### Fix distortion with a skew correction map
+
+New Skew correction options are available when in Baking mode that allow you to directly fix distortion.
+
+![alt text](<../assets/12.1.0 skew painting - promotional.jpg>)
 
 With Cage set to **Distance-based**, under Skew correction, select **Paint skew correction** to start painting on your low-poly mesh.
 
-![alt text](<../assets/12.1.0 skew painting - enter painting mode.png>){width="300"}
+![alt text](<../assets/12.1.0 skew painting - enter painting mode.png>)
 
-While in skew painting mode, you can paint on the surface of your mesh to control how the surface normals impact the bake. 
+While in skew painting mode, you can paint on the surface of your mesh to control the direction of surface normals for baking.
 
 >[!NOTE]
 >
@@ -32,31 +36,60 @@ While in skew painting mode, you can paint on the surface of your mesh to contro
 
 Turn on **Edge protection** to ensure the baker still projects high-poly softness onto low-poly hard edges. You can adjust the **Edge distance** and **Edge contrast** for finer control over the edge protection.
 
+![alt text](<../assets/12.1.0 skew painting - comparison.png>)
+Above, the mesh on the left displays visible distortion due to surface normal misalignment near hard edges. The same mesh on the right with a painted skew map shows no more distortion, and normals are perpendicular to the surface, except near the edges thanks to edge protection.
+
 ### Updated Mesh map bakers panel
 
 Instead of appearing like another channel, **Common settings** now has a dedicated button.
 
 Additionally, new controls are available next to each channel so you can:
 
-1. View the map in the viewport.
-1. Rebake the map.
+1. View the channel in the viewport.
+1. Rebake the channel.
 1. Toggle auto-rebake for the channel.
-1. Sync settings (available when the project has multiple texturesets).
+1. Sync settings across texture sets for the channel.
 
 ![alt text](<../assets/12.1.0 baking - mesh map bakers.png>)
 
 ## OpenPBR support
 
-Use the new industry standard for your projects. Import shader settings and textures from other apps and export your work witht he USD format to preserve material consistency throughout your workflow.
+Use the new industry standard for your projects. Import shader settings and textures from other apps and export your work with the USD format to ensure material consistency across your workflow.
 
-* new post processing = improved visuals in viewport
-* matching visuals across multiple OpenPBR applications
-* USD for portability
+![alt text](<../assets/12.1.0 OpenPBR.jpeg>)
+
+You can find the new OpenPBR shader in the **Shader settings panel**. Painter still defaults to the **Adobe Standard Material - PBR Metallic Roughness** shader.
 
 ## Automatic unwrapping for hard surface models
 
-Hard-surface has been added as an Unwrap mode when using Auto-Unwrap. 
+Hard-surface has been added as an optional **Unwrap mode** when using Auto-Unwrap. With hard surface mode selected, the unwrapper focuses on minimizing distortion of UV islands and creating an orthographically aligned UV map.  
 
-With hard-surface mode selected, the unwrapper focuses on minimizing distortion of UV islands, and creating an orthographically aligned UV map. 
+![alt text](<../assets/12.1.0 auto unwrap - example.png>)
 
 [image]
+
+## Changelog
+
+Release date: 2026/03/09
+
+### Added
+
+* [Skew baking] Skew Painting Tools
+* [Skew baking] Change Polygon Fill behaviour to work on first channel of the current stack instead of basecolor or mask only
+* [Skew Baking] Add Skew Preview shader and Skew Direction Vector visuals when painting skew map
+* [Auto Unwrap] Integrate Hard Surface option
+* [OpenPBR] Add support for OpenPBR 1.1
+* [Substance] Add new "mesh_hard_edges" engine map input
+* [Substance] Add new "mesh_hard_edges_triangle" engine map input
+* [UI] Add warning in the viewport when trying to paint on another Texture Set
+
+
+### Fixed
+
+* [Crash] [Baking] crash when .assbin file can't be written in folder
+* [Crash] Saving with insufficient disk space can crash or corrupt projects
+* [UI] Updated ID map color source tooltip
+* [Stencil] Preview has lower resolution than painted result
+* [Display] Shadows appear inverted
+
+
