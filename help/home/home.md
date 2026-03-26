@@ -38,7 +38,7 @@ If you have any question that is not answered in this manual feel free to ask on
 * [Activation and licenses](../getting-started/activation-and-licenses/activation-and-licenses.md) — This page has information on how to activate and manage your licenses so you can start using Painter.
 * [System requirements](../getting-started/system-requirements/system-requirements.md) — This page regroups system requirements and hardware compatibility information.
 * [Project Creation](../getting-started/project-creation/project-creation.md) — The new project creation window allows to create a project file to store the 3D model and its texturing information.
-* [Export](../getting-started/export/export.md) — A project can be exported into bitmap textures to be used with other software. It is also possible to export the geometry of the 3D model.
+* [Export](../export/export.md) — A project can be exported into bitmap textures to be used with other software. It is also possible to export the geometry of the 3D model.
 * [Glossary](../getting-started/glossary/glossary.md) — This page lists the most common keywords used by the application alongside a short explanation of the concept behind it.
 * [Performance](../technical-support/performances-guidelines/performances-guidelines.md) — This page regroups tips and tricks on how to maximize performances and make things run smoothly.
 
