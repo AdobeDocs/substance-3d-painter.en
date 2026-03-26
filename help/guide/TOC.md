@@ -12,20 +12,6 @@ user-guide-description: Substance 3D Painter
   + [Activation and licenses](/help/getting-started/activation-and-licenses/activation-and-licenses.md)
   + [System requirements](/help/getting-started/system-requirements/system-requirements.md)
   + [Project creation](/help/getting-started/project-creation/project-creation.md)
-  + Export{#export}
-    + [Export overview](/help/getting-started/export/export.md)
-    + Export window{#export-window}
-      + [Export window overview](/help/getting-started/export/export-window/export-window.md)
-      + [Export settings](/help/getting-started/export/export-window/export-settings/export-settings.md)
-      + [Output templates](/help/getting-started/export/export-window/output-templates/output-templates.md)
-      + [List of exports](/help/getting-started/export/export-window/list-of-exports/list-of-exports.md)
-    + Output templates{#output-templates}
-      + [Output templates overview](/help/getting-started/export/export-presets/export-presets.md)
-      + Default Output templates{#default-output-templates}
-        + [Default output templates](/help/getting-started/export/export-presets/default-presets/default-presets.md)
-        + [Predefined output templates](/help/getting-started/export/export-presets/predefined-presets/predefined-presets.md)
-        + [USD PBR Metal Roughness Preset](/help/getting-started/export/export-presets/predefined-presets/usd-pbr-metal-roughness/usd-pbr-metal-roughness-preset.md)
-      + [Creating Output templates](/help/getting-started/export/creating-export-presets/creating-export-presets.md)
   + [Glossary](/help/getting-started/glossary/glossary.md)
 + Interface{#interface}
   + [Interface overview](/help/interface/interface.md)
@@ -218,6 +204,20 @@ user-guide-description: Substance 3D Painter
   + [SpaceMouse&reg; by 3Dconnexion](/help/features/spacemouse-by-3dconnexion/spacemouse-by-3dconnexion.md)
   + [Universal Scene Description - USD](/help/features/universal-scene-des/universal-scene-description-usd.md)
   + [Send to](/help/features/send-to/send-to.md)
++ Export{#export}
+  + [Export overview](../export/export.md)
+  + Export window{#export-window}
+    + [Export window overview](/help/export/export-window/export-window.md)
+    + [Export settings](/help/export/export-window/export-settings/export-settings.md)
+    + [Output templates](/help/export/export-window/output-templates/output-templates.md)
+    + [List of exports](/help/export/export-window/list-of-exports/list-of-exports.md)
+  + Output templates{#output-templates}
+    + [Output templates overview](/help/export/export-presets/export-presets.md)
+    + Default Output templates{#default-output-templates}
+      + [Default output templates](/help/export/export-presets/default-presets/default-presets.md)
+      + [Predefined output templates](/help/export/export-presets/predefined-presets/predefined-presets.md)
+      + [USD PBR Metal Roughness Preset](/help/export/export-presets/predefined-presets/usd-pbr-metal-roughness/usd-pbr-metal-roughness-preset.md)
+    + [Creating Output templates](/help/export/creating-export-presets/creating-export-presets.md)
 + Technical Support{#technical-support}
   + Performance Guidelines{#performance-guidelines}
     + [Performance guidelines overview](/help/technical-support/performances-guidelines/performances-guidelines.md)
