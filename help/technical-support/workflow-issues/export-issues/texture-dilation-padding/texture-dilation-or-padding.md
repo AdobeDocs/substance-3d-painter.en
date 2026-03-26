@@ -71,4 +71,4 @@ Substance 3D Painter allows to change the behavior of the padding generation (su
 
 * **When baking** : see the [baking documentation](../../../../baking/baking.md) for more information.
 * **When generating textures for a Texture Set** : see the [Texture Set settings](../../../../interface/texture-set/texture-set-settings/texture-set-settings.md) documentation for more information.
-* **When exporting textures** : see the "Padding settings" section of the [export settings](../../../../getting-started/export/export-window/export-window.md) documentation for more information.
+* **When exporting textures** : see the "Padding settings" section of the [export settings](../../../../export/export-window/export-window.md) documentation for more information.

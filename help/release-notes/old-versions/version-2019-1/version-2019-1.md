@@ -171,7 +171,7 @@ Two new projection modes have been added with fill layers and fill effects : **P
 * **Quick toggle of Material channel buttons**   
   You can now press ALT and click on a channel button to isolate it. Clicking again will enable back all the channels.  
    ![](../../../assets/channels-toggle.gif)
-* **Dithering at export** Dithering can now be disabled via a dedicated setting in the export window next to the file format and bit depth. For more information about how and when dithering is applied [see the export documentation](../../../getting-started/export/export-window/export-window.md).  
+* **Dithering at export** Dithering can now be disabled via a dedicated setting in the export window next to the file format and bit depth. For more information about how and when dithering is applied [see the export documentation](../../../export/export-window/export-window.md).  
    ![](../../../assets/dithering.png)
 * **Better Histograms**   
   We reworked our histogram generator. Histograms should now display more accurate information and update properly after a change in the layer stack.  
