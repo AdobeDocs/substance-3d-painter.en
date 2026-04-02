@@ -16,7 +16,7 @@ Release date: **31 March 2026**
 
 ## New baking features
 
-![](</help/assets/1210_baking_promotional.jpeg>)
+![](/help/assets/1210_baking_promotional.jpeg)
 
 Enable automatic rebaking to save time while tweaking baking parameters.
 
@@ -24,11 +24,11 @@ Enable automatic rebaking to save time while tweaking baking parameters.
 
 New Skew correction options are available when in Baking mode that allow you to directly fix distortion.
 
-![](</help/assets/1210_skewpainting_promotional.jpg>)
+![](/help/assets/1210_skewpainting_promotional.jpg)
 
 With Cage set to **Distance-based**, under Skew correction, select **Paint skew correction** to start painting on your low-poly mesh.
 
-![](</help/assets/1210_skewpainting_enterpaintingmode.png>)
+![](/help/assets/1210_skewpainting_enterpaintingmode.png)
 
 While in skew painting mode, you can paint on the surface of your mesh to control the direction of surface normals for baking.
 
@@ -38,7 +38,7 @@ While in skew painting mode, you can paint on the surface of your mesh to contro
 
 Turn on **Edge protection** to ensure the baker still projects high-poly softness onto low-poly hard edges. You can adjust the **Edge distance** and **Edge contrast** for finer control over the edge protection.
 
-![](</help/assets/1210_skewpainting_comparison.png>)
+![](/help/assets/1210_skewpainting_comparison.png)
 Above, the mesh on the left displays visible distortion due to surface normal misalignment near hard edges. The same mesh on the right with a painted skew map shows no more distortion, and normals are perpendicular to the surface, except near the edges thanks to edge protection.
 
 ### Updated Mesh map bakers panel
@@ -52,13 +52,13 @@ Additionally, new controls are available next to each channel so you can:
 1. Toggle auto-rebake for the channel.
 1. Sync settings across texture sets for the channel.
 
-![](</help/assets/1210_baking_meshmapbakers.png>)
+![](/help/assets/1210_baking_meshmapbakers.png)
 
 ## OpenPBR support
 
 Use the new industry standard for your projects. Import shader settings and textures from other apps and export your work with the USD format to ensure material consistency across your workflow.
 
-![](</help/assets/1210_OpenPBR.jpeg>)
+![](/help/assets/1210_OpenPBR.jpeg)
 
 You can find the new OpenPBR shader in the **Shader settings panel**. Painter still defaults to the **Adobe Standard Material - PBR Metallic Roughness** shader.
 
@@ -66,7 +66,7 @@ You can find the new OpenPBR shader in the **Shader settings panel**. Painter st
 
 Hard-surface has been added as an optional **Unwrap mode** when using Auto-Unwrap. With hard surface mode selected, the unwrapper focuses on minimizing distortion of UV islands and creating an orthographically aligned UV map.  
 
-![Hard surface unwrap produces cleaner, orthographic UVs for your hardsurface assets.](</help/assets/1210_autounwrap_example.png>)
+![Hard surface unwrap produces cleaner, orthographic UVs for your hardsurface assets.](/help/assets/1210_autounwrap_example.png)
 
 ## Changelog
 
