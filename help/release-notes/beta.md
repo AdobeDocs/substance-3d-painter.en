@@ -1,9 +1,6 @@
 ---
-breadcrumb-title: ""
 description: Learn about the current Substance 3D Painter beta including new features and a full changelog.
 title: Beta release
-user-guide-description: ""
-user-guide-title: ""
 ---
 
 # Version 12.1.0 (Beta)
