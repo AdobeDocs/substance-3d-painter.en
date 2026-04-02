@@ -108,7 +108,7 @@ Both the 2D and 3D views are color managed and have a dedicated settings availab
 
 The main export settings are driven by the project configuration (see above).
 
-Inside the [export textures](../../getting-started/export/export.md) window there is a keyword that can be used to append to the filenames the color space used per texture: **$colorSpace**.
+Inside the [export textures](../../export/export.md) window there is a keyword that can be used to append to the filenames the color space used per texture: **$colorSpace**.
 
 <table>
 <tr style="border: 0;">

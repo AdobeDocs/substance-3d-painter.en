@@ -14,15 +14,15 @@ user-guide-title: ""
 
 # Export window
 
-![](../../../assets/export-textures-window.png){width="500px"}
+![](../../assets/export-textures-window.png){width="500px"}
 
 Open the <b>Export window </b>with <b>File &gt; Export textures </b>or keyboard shortcut <b>Ctrl + Shift + E</b>.
 
 The <b>Export window </b>is divided into three tabs:
 
-* [Export settings](../../../getting-started/export/export-window/export-settings/export-settings.md)
-* [Output templates](../../../getting-started/export/export-window/output-templates/output-templates.md)
-* [List of exports](../../../getting-started/export/export-window/list-of-exports/list-of-exports.md)
+* [Export settings](export-settings/export-settings.md)
+* [Output templates](output-templates/output-templates.md)
+* [List of exports](list-of-exports/list-of-exports.md)
 
 The bottom of the window has several buttons:
 

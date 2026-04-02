@@ -26,7 +26,7 @@ From the <b>Welcome screen</b> window, you can access the following pages:
 Otherwise, get started with the basics of project creation and texture exports:
 
 * [Project Creation](../getting-started/project-creation/project-creation.md)
-* [Export](../getting-started/export/export.md)
+* [Export](../export/export.md)
 * [Glossary](../getting-started/glossary/glossary.md)
 * [Performance](../technical-support/performances-guidelines/performances-guidelines.md)
 * [Activation and licenses](../getting-started/activation-and-licenses/activation-and-licenses.md)
