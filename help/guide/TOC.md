@@ -351,6 +351,7 @@ user-guide-description: Substance 3D Painter
   + [Version 11.1](/help/release-notes/version-11-1/version-11-1.md)
   + [Version 11.0](/help/release-notes/version-11-0/version-11-0.md)
   + [Known issues](/help/release-notes/known-issues/known-issues.md)
+  + [Current beta](/help/release-notes/beta.md)
   + Old versions{#old-versions}
     + [Version 10.1](/help/release-notes/version-10-1/version-10-1.md)
     + [Version 10.0](/help/release-notes/version-10-0/version-10-0.md)
