@@ -74,22 +74,22 @@ Release date: 2026/03/31
 
 ### Added
 
-* [Skew baking] Skew Painting Tools
-* [Skew baking] Change Polygon Fill behaviour to work on first channel of the current stack instead of basecolor or mask only
-* [Skew Baking] Add Skew Preview shader and Skew Direction Vector visuals when painting skew map
-* [Auto Unwrap] Integrate Hard Surface option
-* [OpenPBR] Add support for OpenPBR 1.1
-* [Substance] Add new "mesh_hard_edges" engine map input
-* [Substance] Add new "mesh_hard_edges_triangle" engine map input
-* [UI] Add warning in the viewport when trying to paint on another Texture Set
+* `[Skew baking]` Skew Painting Tools
+* `[Skew baking]` Change Polygon Fill behaviour to work on first channel of the current stack instead of basecolor or mask only
+* `[Skew Baking]` Add Skew Preview shader and Skew Direction Vector visuals when painting skew map
+* `[Auto Unwrap]` Integrate Hard Surface option
+* `[OpenPBR]` Add support for OpenPBR 1.1
+* `[Substance]` Add new "mesh_hard_edges" engine map input
+* `[Substance]` Add new "mesh_hard_edges_triangle" engine map input
+* `[UI]` Add warning in the viewport when trying to paint on another Texture Set
 
 
 ### Fixed
 
-* [Crash] [Baking] crash when .assbin file can't be written in folder
-* [Crash] Saving with insufficient disk space can crash or corrupt projects
-* [UI] Updated ID map color source tooltip
-* [Stencil] Preview has lower resolution than painted result
-* [Display] Shadows appear inverted
+* `[Crash]` `[Baking]` crash when .assbin file can't be written in folder
+* `[Crash]` Saving with insufficient disk space can crash or corrupt projects
+* `[UI]` Updated ID map color source tooltip
+* `[Stencil]` Preview has lower resolution than painted result
+* `[Display]` Shadows appear inverted
 
 
