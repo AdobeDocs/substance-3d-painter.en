@@ -60,7 +60,7 @@ This new workflow allows to manage and calibrate colors from import to export an
 
   ![](../../../assets/export-list-1.png){width="250px"}
 
-  ![](../../../assets/export-list-2(1).png)
+  ![](../../../assets/export-list-2_1.png)
 
 >[!NOTE]
 >
@@ -89,18 +89,18 @@ Working with an undocked view is easier to organize the layout of the applicatio
 
   ![](../../../assets/false-colors-undock.jpg){width="500px"}
 
-### New support for SpaceMouse® by 3Dconnexion
+### New support for SpaceMouse&reg; by 3Dconnexion
 
 ![](../../../assets/spacemouse-banner.jpg)
 
-The **SpaceMouse®** is a device by 3Dconnexion that allows to manipulate the 3D viewport camera in a more intuitive and friendly way. It is now supported natively and directly plug and play with Painter.
+The **SpaceMouse&reg;** is a device by 3Dconnexion that allows to manipulate the 3D viewport camera in a more intuitive and friendly way. It is now supported natively and directly plug and play with Painter.
 
 For more information, see the dedicated [documentation page](../../../features/spacemouse-by-3dconnexion/spacemouse-by-3dconnexion.md).
 
 >[!NOTE]
 >
 > * Available with version 7.4.2 and above.
-> * Make sure to install the latest SpaceMouse® drivers to benefit from the Painter control scheme.
+> * Make sure to install the latest SpaceMouse&reg; drivers to benefit from the Painter control scheme.
 
 ### New content
 

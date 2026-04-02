@@ -26,7 +26,7 @@ You can access the Symmetry display settings from the <b>Symmetry settings butto
 
 ## Radial symmetry parameters
 
-![A screenshot of the Symmetry section of the properties panel](../../../assets/FillSymmetry(1).png){width="300px"}
+![A screenshot of the Symmetry section of the properties panel](../../../assets/FillSymmetry_1.png){width="300px"}
 
 | *Parameter* | *Description* |
 | --- | --- |

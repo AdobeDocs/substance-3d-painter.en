@@ -22,7 +22,7 @@ Release date: *10 January 2023*
 
 ### New baking mode
 
-![](../../assets/banner-baking(1).jpg)
+![](../../assets/banner-baking_1.jpg)
 
 The old baking window has been replaced by a dedicated mode with several new features, notably with viewport visualization such as the display of the cage and matching errors.
 

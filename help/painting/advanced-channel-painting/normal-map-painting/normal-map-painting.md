@@ -63,7 +63,7 @@ In order to override/paint the normal map it is important to set this setting to
 
 Create a new fill layer and put the baked normal inside the "normal" slot, via the properties panel. Don't forget to change the default tilling of the fill layer if it not set to 1.
 
-![](../../../assets/fill-layer(1).gif)
+![](../../../assets/fill-layer_1.gif)
 
 ### 3 - Changing the fill layer blending mode
 
