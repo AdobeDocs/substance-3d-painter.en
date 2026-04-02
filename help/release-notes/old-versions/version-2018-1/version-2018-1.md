@@ -46,7 +46,7 @@ Substance Painter 2018.1 introduces a **complete rework of the interface**, rang
    ![](../../../assets/quick-menu-optim.gif)
 * There is now a new **Contextual Toolbar** at the top for the viewport.  
   This toolbar change its parameters depending of the current tool used. It's a way to quickly access basic tool features (like the brush size).  
-   ![](../../../assets/contextual-toolbar(1).png)
+   ![](../../../assets/contextual-toolbar_1.png)
 * It is now possible to **reorder effects** using **drag and drop** in the **layer stack**.   
    ![](../../../assets/re-order-effects.gif)
 * While the shortcuts "**C**" and "**B**" allow you to quickly vizualise the **Channel** and **Baked textures** into the **viewport**, it is now possible to use the **unified dropdown** to change the viewport display.  

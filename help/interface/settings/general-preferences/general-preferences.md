@@ -14,7 +14,7 @@ user-guide-title: ""
 
 # General preferences
 
-![](../../../assets/settings-general(1).png)   
+![](../../../assets/settings-general_1.png)   
   
 This page explains the main settings of the application.
 

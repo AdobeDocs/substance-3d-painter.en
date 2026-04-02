@@ -174,7 +174,7 @@ A few workflow improvements have been made to the layer stack and layer manageme
 * Quickly **hide and unhide** multiple **layers** by **clicking and sliding** the mouse.  
   We also took this opportunity to refine a bit the behavior of un-hiding layers inside hidden folders which will now un-hide the folder as well.
 
-![](../../../assets/blend-mode(1).gif)
+![](../../../assets/blend-mode_1.gif)
 
 * Quickly **switch between blending modes** with the **Arrow** keyboard **shortcuts**.  
   After **closing** the blending pop-up menu the **focus** will **remain** on the layer which and can continue being changed with the same previous shortcut.
@@ -303,7 +303,7 @@ We also updated some of the existing content to refine it :
 * Renamed Texture Sets are not saved after closing project
 * Wireframe artefacts when drag and dropping materials on ID maps
 * &#91;Scripting&#93; File path creation not forced when saving a project
-* &#91;Scripting&#93; Callback “onProjectAboutToSave()” doesn’t work anymore
+* &#91;Scripting&#93; Callback "onProjectAboutToSave()" doesn't work anymore
 * Forum links broken in report bug window
 
 **Known Issues:**
