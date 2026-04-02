@@ -67,9 +67,6 @@ Use the new industry standard for your projects. Import shader settings and text
 
 You can find the new OpenPBR shader in the **Shader settings panel**. Painter still defaults to the **Adobe Standard Material - PBR Metallic Roughness** shader.
 
->[!NOTE]
->
->New File Templates are not yet avaiable for OpenPBR.
 
 ## Automatic unwrapping for hard surface models
 
