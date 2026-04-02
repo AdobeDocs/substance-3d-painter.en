@@ -1,9 +1,6 @@
 ---
-breadcrumb-title: ""
 description: Learn about the current Substance 3D Painter beta including new features and a full changelog.
 title: Beta release
-user-guide-description: ""
-user-guide-title: ""
 ---
 
 # Version 12.1.0 (Beta)
@@ -41,6 +38,7 @@ While in skew painting mode, you can paint on the surface of your mesh to contro
 Turn on **Edge protection** to ensure the baker still projects high-poly softness onto low-poly hard edges. You can adjust the **Edge distance** and **Edge contrast** for finer control over the edge protection.
 
 ![](../assets/v1210_skewpainting_comparison.png)
+
 Above, the mesh on the left displays visible distortion due to surface normal misalignment near hard edges. The same mesh on the right with a painted skew map shows no more distortion, and normals are perpendicular to the surface, except near the edges thanks to edge protection.
 
 ### Updated Mesh map bakers panel
