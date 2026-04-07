@@ -20,7 +20,33 @@ This page contains release notes for all previous releases of Substance 3D Paint
 >
 > To view known issues that may affect Painter, see the [dedicated documentation page](../../release-notes/known-issues/known-issues.md).
 
-## Version 12
+## Version 12.0.2
+
+Release date: **2026/04/07**
+
+Summary: **Minor release**
+
+
+**Added:**
+    
+- &#91;Color management&#93; Add new OCIO to specify the default color space of color picker
+- &#91;Python&#93; Expose auto-unwrap settings in Python API
+
+**Fixed:**
+    
+- &#91;Crash&#93; Saving with insufficient disk space can crash or corrupt projects
+- &#91;Crash&#93; &#91;Ribbon&#93; Using ribbon can cause crashes for some projects
+- &#91;Crash&#93; &#91;Baking&#93; crash when .assbin file can't be written in folder
+- &#91;Import&#93; OBJ meshes from Stager can fail at project creation
+- &#91;Import&#93; OBJ has missing face in some cases
+- &#91;Import&#93; USD mesh with no material assigned can crash at import
+- &#91;Filled Path&#93; Not affected by symmetry
+- &#91;Stencil&#93; Preview has lower resolution than painted result
+- &#91;UI&#93; 'uv island' is still mentioned in ID map color source tooltip
+- &#91;Display&#93; Shadows appear inverted
+- &#91;Viewport&#93; Warp projection transform remains after switching to baking mode
+- &#91;Warp&#93; Grid disappears when scale is set to 0 on Z axis with Warp to geometry enabled
+- &#91;Python&#93; Unexpected error when adding a channel with scoped modification
 
 ### 12.0.1
 
