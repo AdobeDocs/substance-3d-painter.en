@@ -47,7 +47,6 @@ This page lists all the currently active known issues currently present in the l
 * `[Crash]` Clicking on Texture Set list after failed project creation causes a crash
 * `[Crash]` Critical error crash when same project is open twice
 * `[Crash]` Returning to painting mode after device lost in baking
-* `[Crash]` Saving with insufficient disk space can crash or corrupt projects
 </br>
 * `[Displacement]` Glitch when painting
 </br>
@@ -59,13 +58,10 @@ This page lists all the currently active known issues currently present in the l
 </br>
 * `[Export mesh]` Displacement not exported with specific UV tiles set up
 </br>
-* `[Filled Path]` Not affected by symmetry
-</br>
 * `[Geometry mask]` Issue when reimporting mesh and instanced layer
 </br>
 * `[gltf]` Can not open files exported through Babylon Exporter
 </br>
-* `[Import]` OBJ has missing faces in some cases
 * `[Import]` Cannot import obj file with "nan" values
 </br>
 * `[Instancing]` `[Projection]` When selecting an instance in planar proj, another planar proj is selected on another texture set
@@ -102,8 +98,6 @@ This page lists all the currently active known issues currently present in the l
 </br>
 * `[Slider]` Numerical inputs are deselected when cursor leaves the window
 </br>
-* `[Stencil]` Preview has lower resolution than painted result
-</br>
 * `[Substance]` Presets for some materials take too long to load
 * `[Substance]` Blank space breaks condition for visibility
 * `[Substance]`Several misspell in resources
@@ -112,7 +106,6 @@ This page lists all the currently active known issues currently present in the l
 * `[Texture Set]` Name can be empty
 </br>
 * `[UI]` Typo in brush maker settings
-* `[UI]` 'uv island' is still mentioned in ID map color source tooltip
 * ``[Regression]``[UI]`` Right Click Menu is too small on HD screens
 </br>
 * `[User Channels]` Color mixing space preview is wrong
