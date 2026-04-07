@@ -18,12 +18,12 @@ user-guide-title: ""
 
 Baking refers to the action of <b>transferring mesh-based information into textures</b>. This information is then read by shaders and/or Substance filters to create advanced effects. For example, Smart Materials and Smart Masks rely on baked curvature and normal maps, alongside other baked information.
 
-In Painter baking is done via the dedicated Baking Mode. This mode can be accessed via the dedicated icon (little croissant in the contextual toolbar), by using the [mode menu](../interface/main-menu/mode-menu/mode-menu.md), or with the [keyboard shortcut](../interface/settings/shortcuts/shortcuts.md).
+In Painter baking is done via the dedicated Baking Mode. This mode can be accessed via the dedicated icon (little croissant in the contextual toolbar), by using the [mode menu](../interface/main-menu/mode-menu.md), or with the [keyboard shortcut](../interface/settings/shortcuts.md).
 
 To learn more about the baking process in Painter, see the following pages:
 
-* [How to bake mesh maps](../baking/how-to-bake-mesh-maps/how-to-bake-mesh-maps.md)
-* [Baking visualization settings](../baking/baking-visualization-set/baking-visualization-settings.md)
+* [How to bake mesh maps](how-to-bake-mesh-maps.md)
+* [Baking visualization settings](baking-visualization-settings.md)
 
 For a quick overview of the Baking mode, check out our video tutorial:
 

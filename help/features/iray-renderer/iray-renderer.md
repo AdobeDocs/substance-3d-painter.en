@@ -47,8 +47,8 @@ This can be done by pressing in various ways :
 
 Iray use a specific set of parameters but also common properties shared by the regular viewport of Substance 3D Painter.
 
-* [Iray Settings](../../features/iray-renderer/iray-settings/iray-settings.md)
-* [Viewer and MDL Settings](../../features/iray-renderer/viewer-and-mdl-settings/viewer-and-mdl-settings.md)
+* [Iray Settings](iray-settings.md)
+* [Viewer and MDL Settings](viewer-and-mdl-settings.md)
 
 ## Display Settings
 

@@ -16,9 +16,9 @@ user-guide-title: ""
 
 Discover everything that has been added, changed or fixed for each version:
 
-* [All Changes](../release-notes/all-changes/all-changes.md)
-* [Version 12.0](../release-notes/version-12-0/version-12-0.md)
-* [Version 11.1](../release-notes/version-11-1/version-11-1.md)
-* [Version 11.0](../release-notes/version-11-0/version-11-0.md)
+* [All Changes](all-changes.md)
+* [Version 12.0](version-12-0.md)
+* [Version 11.1](version-11-1.md)
+* [Version 11.0](version-11-0.md)
 
-For a list of everything that happened in the software since its initial version take a look at the page [All Changes](../release-notes/all-changes/all-changes.md).
+For a list of everything that happened in the software since its initial version take a look at the page [All Changes](all-changes.md).

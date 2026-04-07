@@ -22,11 +22,11 @@ By default with a traditional workflow, a texture is repeated over each UV range
 
 To learn more about the UV Tile workflow, see the following pages:
 
-* [Project creation](../../getting-started/project-creation/project-creation.md) with the UV Tile workflow.
-* Viewing UV Tiles in the [2D view](../../interface/viewport/2d-view/2d-view.md).
-* [UV Tile mask](../../interface/layer-stack/geometry-mask/geometry-mask.md) to improve performances.
-* Importing and using [image sequences](../../features/uv-tiles/image-sequence/image-sequence.md).
-* Adjusting the resolution per UV Tiles in the [Texture Set settings](../../interface/texture-set/texture-set-settings/texture-set-settings.md).
+* [Project creation](../../getting-started/project-creation.md) with the UV Tile workflow.
+* Viewing UV Tiles in the [2D view](../../interface/viewport/2d-view.md).
+* [UV Tile mask](../../interface/layer-stack/geometry-mask.md) to improve performances.
+* Importing and using [image sequences](image-sequence.md).
+* Adjusting the resolution per UV Tiles in the [Texture Set settings](../../interface/texture-set/texture-set-settings.md).
 
 >[!NOTE]
 >

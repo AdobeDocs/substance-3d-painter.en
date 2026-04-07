@@ -25,15 +25,15 @@ From the <b>Welcome screen</b> window, you can access the following pages:
 
 Otherwise, get started with the basics of project creation and texture exports:
 
-* [Project Creation](../getting-started/project-creation/project-creation.md)
+* [Project Creation](project-creation.md)
 * [Export](../export/export.md)
-* [Glossary](../getting-started/glossary/glossary.md)
+* [Glossary](glossary.md)
 * [Performance](../technical-support/performances-guidelines/performances-guidelines.md)
-* [Activation and licenses](../getting-started/activation-and-licenses/activation-and-licenses.md)
-* [System requirements](../getting-started/system-requirements/system-requirements.md)
+* [Activation and licenses](activation-and-licenses.md)
+* [System requirements](system-requirements.md)
 
 To accelerate your workflow, take a look at the list of shortcuts:
 
-* [Shortcuts ](../interface/settings/shortcuts/shortcuts.md)
+* [Shortcuts ](../interface/settings/shortcuts.md)
 
 ![](../assets/welcome-screen-2021.png){width="500px"}

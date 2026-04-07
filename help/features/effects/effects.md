@@ -28,10 +28,10 @@ Most effects have a blending mode and opacity, like regular layers and can be re
 
 These are the different types of Effects you will find in Substance 3D Painter :
 
-* [Generator](../../features/effects/generator/generator.md)
-* [Paint](../../features/effects/paint/paint.md)
-* [Fill](../../features/effects/fill/fill.md)
-* [Levels](../../features/effects/levels/levels.md)
-* [Compare Mask](../../features/effects/compare-mask/compare-mask.md)
-* [Filter](../../features/effects/filter/filter.md)
-* [Anchor Point](../../features/effects/anchor-point/anchor-point.md)
+* [Generator](generator.md)
+* [Paint](paint.md)
+* [Fill](fill.md)
+* [Levels](levels.md)
+* [Compare Mask](compare-mask.md)
+* [Filter](filter.md)
+* [Anchor Point](anchor-point.md)

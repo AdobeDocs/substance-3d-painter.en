@@ -20,9 +20,9 @@ Open the <b>Export window </b>with <b>File &gt; Export textures </b>or keyboard
 
 The <b>Export window </b>is divided into three tabs:
 
-* [Export settings](export-settings/export-settings.md)
-* [Output templates](output-templates/output-templates.md)
-* [List of exports](list-of-exports/list-of-exports.md)
+* [Export settings](export-settings.md)
+* [Output templates](output-templates.md)
+* [List of exports](list-of-exports.md)
 
 The bottom of the window has several buttons:
 

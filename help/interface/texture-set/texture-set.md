@@ -22,6 +22,6 @@ Each Material ID is expected to have unique UVs (or logical overlapping for mirr
 
 For more details about the  **Texture Set**  properties and manipulations see:
 
-* [Texture Set list](../../interface/texture-set/texture-set-list/texture-set-list.md)
-* [Texture Set settings](../../interface/texture-set/texture-set-settings/texture-set-settings.md)
-* [Texture Set reassignment](../../interface/texture-set/texture-set-reassignment/texture-set-reassignment.md)
+* [Texture Set list](texture-set-list.md)
+* [Texture Set settings](texture-set-settings.md)
+* [Texture Set reassignment](texture-set-reassignment.md)

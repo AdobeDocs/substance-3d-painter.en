@@ -26,6 +26,6 @@ Subsurface scattering is a mechanism of light when penetrating an object or a su
 
 For further details, see the following pages:
 
-* [Enabling Subsurface in a Project](../../features/subsurface-scattering/enabling-subsurface-pro/enabling-subsurface-in-a-project.md)
-* [Subsurface Parameters](../../features/subsurface-scattering/subsurface-parameters/subsurface-parameters.md)
-* [Subsurface Material Type](../../features/subsurface-scattering/subsurface-material-type/subsurface-material-type.md)
+* [Enabling Subsurface in a Project](enabling-subsurface-in-a-project.md)
+* [Subsurface Parameters](subsurface-parameters.md)
+* [Subsurface Material Type](subsurface-material-type.md)

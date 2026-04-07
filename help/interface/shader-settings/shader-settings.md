@@ -43,7 +43,7 @@ A Shader Instance is a shader based on an original shader file but with customiz
 
 **For example:**  a project can use a base shader, while one texture set uses a custom shader to support opacity.
 
-To create and manage Shader Instances, see the [Texture Set list](../../interface/texture-set/texture-set-list/texture-set-list.md) window.
+To create and manage Shader Instances, see the [Texture Set list](../texture-set/texture-set-list.md) window.
 
 ## Shader parameters
 
