@@ -22,4 +22,4 @@ For more information see the dedicated pages :
 
 * [Installing the particle editor](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/installation-of-the-editor-67403780.html)
 * [Overview of the particle editor](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/overview-of-popcornfx-particle-editor-67796996.html)
-* [Creating A New Particle Script](../../../painting/presets/creating-particles-pre/creating-new-particle-scr/creating-a-new-particle-script.md)
+* [Creating A New Particle Script](creating-a-new-particle-script.md)

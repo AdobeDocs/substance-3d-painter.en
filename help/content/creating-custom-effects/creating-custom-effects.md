@@ -22,9 +22,9 @@ Substance effects must be built in a specific way in  **Substance 3D Designer** 
 
 See the following pages for creating custom effects in details :
 
-* [Generic filter](../../content/creating-custom-effects/generic-filter/generic-filter.md)
-* [Channel specific filter](../../content/creating-custom-effects/channel-specific-filter/channel-specific-filter.md)
-* [Generators](../../content/creating-custom-effects/generators/generators.md)
+* [Generic filter](generic-filter.md)
+* [Channel specific filter](channel-specific-filter.md)
+* [Generators](generators.md)
 * [Mesh Map](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/additional-map-140902415.html)
-* [Mesh Based Input](../../content/creating-custom-effects/mesh-based-input/mesh-based-input.md)
-* [User data](../../content/creating-custom-effects/user-data/user-data.md)
+* [Mesh Based Input](mesh-based-input.md)
+* [User data](user-data.md)

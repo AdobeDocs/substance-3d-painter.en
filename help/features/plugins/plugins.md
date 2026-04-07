@@ -21,5 +21,5 @@ The plugin are wrote in Javascript and can be combined with the QML language to 
 
 Substance 3D Painter has two default plugins showcasing different.
 
-* [Autosave](../../features/plugins/autosave/autosave.md)
-* [Resources Updater](../../features/plugins/resources-updater/resources-updater.md)
+* [Autosave](autosave.md)
+* [Resources Updater](resources-updater.md)

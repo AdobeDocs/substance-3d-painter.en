@@ -26,15 +26,15 @@ Post-effects can be activated in any projetc via the [Display Settings](../../in
 
 The following pages describes the various post process effects currently supported:
 
-* [Depth of Field](../../features/post-processing/depth-of-field/depth-of-field.md)
-* [Bloom](../../features/post-processing/bloom/bloom.md)
-* [Glare](../../features/post-processing/glare/glare.md)
-* [Lens flare](../../features/post-processing/lens-flare/lens-flare.md)
-* [Lateral aberration](../../features/post-processing/lateral-aberration/lateral-aberration.md)
-* [Vignette](../../features/post-processing/vignette/vignette.md)
-* [Sharpen](../../features/post-processing/sharpen/sharpen.md)
-* [Film grain](../../features/post-processing/film-grain/film-grain.md)
-* [Tone mapping](../../features/post-processing/tone-mapping/tone-mapping.md)
-* [Color correction](../../features/post-processing/color-correction/color-correction.md)
+* [Depth of Field](depth-of-field.md)
+* [Bloom](bloom.md)
+* [Glare](glare.md)
+* [Lens flare](lens-flare.md)
+* [Lateral aberration](lateral-aberration.md)
+* [Vignette](vignette.md)
+* [Sharpen](sharpen.md)
+* [Film grain](film-grain.md)
+* [Tone mapping](tone-mapping.md)
+* [Color correction](color-correction.md)
 
-Lookup texture table can also be used to fine-tune the final image result. For more information see the [Color profile](../../features/post-processing/color-profile/color-profile.md) documentation.
+Lookup texture table can also be used to fine-tune the final image result. For more information see the [Color profile](color-profile.md) documentation.

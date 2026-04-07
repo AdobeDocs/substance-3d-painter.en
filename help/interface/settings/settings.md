@@ -20,6 +20,6 @@ Open the <b>Settings </b>from the <b>Edit menu </b>to adjust your preferences ar
 
 The <b>Settings </b>are divided into three sections:
 
-* [General preferences](../../interface/settings/general-preferences/general-preferences.md)
-* [Shortcuts](../../interface/settings/shortcuts/shortcuts.md)
-* [Libraries configuration](../../interface/settings/libraries-configuration/libraries-configuration.md)
+* [General preferences](general-preferences.md)
+* [Shortcuts](shortcuts.md)
+* [Libraries configuration](libraries-configuration.md)

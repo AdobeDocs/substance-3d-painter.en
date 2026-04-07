@@ -20,12 +20,12 @@ The **Layer Stack** lets you manipulate the layers of a Texture Set. A layer con
 
 See the following pages for additional information :
 
-* [Creating layers](../../interface/layer-stack/creating-layers/creating-layers.md)
-* [Managing layers](../../interface/layer-stack/managing-layers/managing-layers.md)
-* [Masking and effects](../../interface/layer-stack/masking-and-effects/masking-and-effects.md)
-* [Blending modes](../../interface/layer-stack/blending-modes/blending-modes.md)
-* [Layer instancing](../../interface/layer-stack/layer-instancing/layer-instancing.md)
-* [Geometry mask](../../interface/layer-stack/geometry-mask/geometry-mask.md)
+* [Creating layers](creating-layers.md)
+* [Managing layers](managing-layers.md)
+* [Masking and effects](masking-and-effects.md)
+* [Blending modes](blending-modes.md)
+* [Layer instancing](layer-instancing.md)
+* [Geometry mask](geometry-mask.md)
 
 ## Overview
 
@@ -52,7 +52,7 @@ You can either paint on the mask manually (in grayscale with a brush) or use fil
 
 The top left dropdown of the Layer Stack controls the view mode of the layer stack. Since a layer can cover multiple channels, it is not possible to display all of these properties at once. Therefore the viewmode can be used to defined the current display context. When using this dropdown it is possible to specify which channels should be used to display in the layer thumbnails as well as controlling the blending mode and the opacity for this channel only.
 
-The list in this dropdown is based on the list of channels available in the [Texture Set settings](../../interface/texture-set/texture-set-settings/texture-set-settings.md).
+The list in this dropdown is based on the list of channels available in the [Texture Set settings](../texture-set/texture-set-settings.md).
 
 ## Actions
 

@@ -23,6 +23,6 @@ Below is a list of the non-editable presets available :
 * Document channels + Normal + AO (With Alpha)
 * Sketchfab
 * Substance 3D Stager
-* [USDz (Apple AR)](../../../export/export-presets/predefined-presets/usd-pbr-metal-roughness/usd-pbr-metal-roughness-preset.md)
+* [USDz (Apple AR)](usd-pbr-metal-roughness-preset.md)
 * glTF PBR Metal Roughness
 * glTF PBR Metal Roughness + Displacement texture (experimental)

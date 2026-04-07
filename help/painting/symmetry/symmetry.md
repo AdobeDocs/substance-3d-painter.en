@@ -23,8 +23,8 @@ Symmetry is a helpful setting that you can use on brush and fill layers to easil
 
 Learn more about the types of symmetry you can use in Painter:
 
-* [Mirror Symmetry](../../painting/symmetry/mirror-symmetry/mirror-symmetry.md)
-* [Radial Symmetry](../../painting/symmetry/radial-symmetry/radial-symmetry.md)
+* [Mirror Symmetry](mirror-symmetry.md)
+* [Radial Symmetry](radial-symmetry.md)
 
 ## Use Symmetry with the Paint tool
 

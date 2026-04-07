@@ -22,7 +22,7 @@ You open the <b>Export window</b> and start exporting textures with <b>File &gt;
 
 * [Export window](../export/export-window/export-window.md)
 * [Output templates](../export/export-presets/export-presets.md)
-* [Modify or create Output templates](../export/creating-export-presets/creating-export-presets.md)
+* [Modify or create Output templates](creating-export-presets.md)
 
 ### Export your mesh
 

@@ -18,7 +18,7 @@ A few of the default channels used in shaders can be painted on to created advan
 
 The current channels available:
 
-* [Ambient Occlusion Painting](../../painting/advanced-channel-painting/ambient-occlusion-pai/ambient-occlusion-painting.md)
-* [Flow Map Painting](../../painting/advanced-channel-painting/flow-map-painting/flow-map-painting.md)
-* [Height Map Painting](../../painting/advanced-channel-painting/height-map-painting/height-map-painting.md)
-* [Normal Map Painting](../../painting/advanced-channel-painting/normal-map-painting/normal-map-painting.md)
+* [Ambient Occlusion Painting](ambient-occlusion-painting.md)
+* [Flow Map Painting](flow-map-painting.md)
+* [Height Map Painting](height-map-painting.md)
+* [Normal Map Painting](normal-map-painting.md)

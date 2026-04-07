@@ -35,6 +35,6 @@ Each individual element alongside a brush stroke can be modified based on specif
 
 For further details, see the following pages :
 
-* [Enabling Dynamic Stroke Feature](../../painting/dynamic-strokes/enabling-dynamic-stroke/enabling-dynamic-stroke-feature.md)
-* [Dynamic Stroke Performances](../../painting/dynamic-strokes/dynamic-stroke-per/dynamic-stroke-performances.md)
-* [Creating Custom Dynamic Strokes](../../painting/dynamic-strokes/creating-custom-dynamic/creating-custom-dynamic-strokes.md)
+* [Enabling Dynamic Stroke Feature](enabling-dynamic-stroke-feature.md)
+* [Dynamic Stroke Performances](dynamic-stroke-performances.md)
+* [Creating Custom Dynamic Strokes](creating-custom-dynamic-strokes.md)

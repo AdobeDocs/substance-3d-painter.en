@@ -24,14 +24,14 @@ The viewport is divided into fours parts:
 
 * **Contextual toolbar**: this toolbar sits at the top of the viewport and offer shortcut to various properties depending on the current context (brush parameters when painting for example).
 * **3D view**: this view shows the 3D mesh from a specific angle, defined by a camera.
-* **2D view**: this view shows UV unwrapping of the 3D mesh for the currently selected [Texture Set](../../interface/texture-set/texture-set-list/texture-set-list.md).
+* **2D view**: this view shows UV unwrapping of the 3D mesh for the currently selected [Texture Set](../texture-set/texture-set-list.md).
 * **Progress bar**: this gray/green bar at the bottom of the viewport appears when a computation is in progress (for example when the engine is generating textures).
 
 For more details, see the dedicated pages:
 
-* [2D view](../../interface/viewport/2d-view/2d-view.md)
-* [3D view](../../interface/viewport/3d-view/3d-view.md)
-* [Camera management](../../interface/viewport/camera-management/camera-management.md)
+* [2D view](2d-view.md)
+* [3D view](3d-view.md)
+* [Camera management](camera-management.md)
 
 The 3D and 2D views can be adjusted to display additional or different information via the [Display settings](../../interface/display-settings/display-settings.md).
 

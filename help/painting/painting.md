@@ -21,13 +21,13 @@ Manual painting tools are accessible directly via the toolbar (or their dedicate
 For information about each tool, see their dedicated page:
 
 * [Paint tool list](../painting/tool-list/tool-list.md)
-* [Path tool list](../painting/tool-list/path/path.md)
-* [Straight line](../painting/straight-line/straight-line.md)
-* [Lazy mouse](../painting/lazy-mouse/lazy-mouse.md)
+* [Path tool list](tool-list/path.md)
+* [Straight line](straight-line.md)
+* [Lazy mouse](lazy-mouse.md)
 * [Symmetry](../painting/symmetry/symmetry.md)
 * [Fill projections](../painting/fill-projections/fill-projections.md)
 * [Presets](../painting/presets/presets.md)
 * [Dynamic strokes](../painting/dynamic-strokes/dynamic-strokes.md)
 * [Advanced channel painting](../painting/advanced-channel-painting/advanced-channel-painting.md)
-* [Vector graphic (.svg &amp; .ai)](../painting/vector-graphic-svg/vector-graphic-svg.md)
-* [Text resource](../painting/text-resource/text-resource.md)
+* [Vector graphic (.svg &amp; .ai)](vector-graphic-svg.md)
+* [Text resource](text-resource.md)

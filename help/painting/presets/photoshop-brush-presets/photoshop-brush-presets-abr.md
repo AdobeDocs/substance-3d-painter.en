@@ -18,8 +18,8 @@ Substance 3D Painter can import brush presets made for Photoshop by importing AB
 
 To learn more about ABR Brush Presets and their support, take a look at the following pages:
 
-* [Exporting Brush Presets from Photoshop](../../../painting/presets/photoshop-brush-presets/exporting-brush-presets/exporting-brush-presets-from-photoshop.md)
-* [Importing Photoshop Brush Presets](../../../painting/presets/photoshop-brush-presets/importing-photoshop-brush/importing-photoshop-brush-presets.md)
-* [Photoshop Brush Parameters Compatibility](../../../painting/presets/photoshop-brush-presets/photoshop-brush-par/photoshop-brush-parameters-compatibility.md)
+* [Exporting Brush Presets from Photoshop](exporting-brush-presets-from-photoshop.md)
+* [Importing Photoshop Brush Presets](importing-photoshop-brush-presets.md)
+* [Photoshop Brush Parameters Compatibility](photoshop-brush-parameters-compatibility.md)
 
 ABR Brushes and brush packs are also commonly available on many other sites, including ArtStation, DeviantArt, and Cubebrush.
