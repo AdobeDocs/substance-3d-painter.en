@@ -20,7 +20,9 @@ This page contains release notes for all previous releases of Substance 3D Paint
 >
 > To view known issues that may affect Painter, see the [dedicated documentation page](../../release-notes/known-issues/known-issues.md).
 
-## Version 12.0.2
+## Version 12 
+
+### Version 12.0.2
 
 Release date: **2026/04/07**
 
