@@ -28,7 +28,6 @@ Release date: **2026/04/07**
 
 Summary: **Minor release**
 
-
 **Added:**
     
 - &#91;Color management&#93; Add new OCIO to specify the default color space of color picker
