@@ -18,7 +18,7 @@ Image sequences are a collection of images that are grouped as a single resource
 
 ## How to import images as a sequence
 
-When [importing an image file](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html), if the filename matches a specific pattern it will be imported automatically as a sequence. If additional images sit next to the imported file, they will be taken into account as well. It is therefore not necessary to import all the files from a sequence manually, picking the first file is enough.
+When importing an image file, if the filename matches a specific pattern it will be imported automatically as a sequence. If additional images sit next to the imported file, they will be taken into account as well. It is therefore not necessary to import all the files from a sequence manually, picking the first file is enough.
 
 Filename matching examples:
 
