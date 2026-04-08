@@ -129,4 +129,3 @@ This page lists all the currently active known issues currently present in the l
 * UI of channel button in Material/paint properties can be broken
 * Restore button behaviour does not interact with lock key in camera settings
 * Project with one texture set are reopen in Base Color solo mode
-
