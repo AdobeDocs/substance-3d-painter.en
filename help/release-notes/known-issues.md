@@ -21,23 +21,23 @@ This page lists all the currently active known issues currently present in the l
 * `[3D View]` Stencil does not work on duplicated objects
 </br>
 * `[Anchor Points]` Incorrect color when used in generator
-* `[Anchor point]` Broken references when copy and pasting Mask content
+* `[Anchor point]` Broken references when copying and pasting Mask content
 </br>
 * `[Baking]` Matching by name suffix interpretation is wrong
 * `[Baking]` Wrong AO on simple cubes
-* `[Baking]` Uv seams do not appear after mes reimport
+* `[Baking]` UV seams do not appear after mes reimport
 * ``[Regression]``[Baking]`` Baking is slower in some cases
 </br>
 * `[Bakers]` ID Map baker doesn't take into consideration 3ds Max 2021 Physical Material
 </br>
-* `[Blending]` Color and saturation blending mode change brightness as well
+* `[Blending]` Color and saturation blending modes change brightness as well
 </br>
 * `[Color Management]` Filter outputs are not properly taken into account
 * `[Color management]` Color space not found when tile 1001 is missing
-* `[Color Management]`Incompatible bindings with generator not used in mask
+* `[Color Management]` Incompatible bindings with generator not used in mask
 * `[Color Management]` HDR color space conversions with ACE on Linux produce clamped colors
 </br>
-* `[Console]` Symboles associated to shortcut are not possible to write
+* `[Console]` Symbols associated with shortcut are not possible to write
 </br>
 * `[Crash]` Select "Export mesh" when mesh failed to load
 * `[Crash]` Creating very long texts in Ribbon can crash
