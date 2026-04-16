@@ -30,24 +30,24 @@ Summary: **Minor release**
 
 **Added:**
     
-* &#91;Skew baking&#93; Skew Painting Tools
-* &#91;Skew baking&#93; Change Polygon Fill behaviour to work on first channel of the current stack instead of basecolor or mask only
-* &#91;Skew baking&#93; Add Skew Preview shader and Skew Direction Vector visuals when painting skew map
-* &#91;Skew baking&#93; Split Mesh Map / Common Baking settings + Move Common Settings out of mesh map list
-* &#91;Skew baking&#93; Auto rebake
-* &#91;Skew baking&#93; Add Edge Protection option
-* &#91;OpenPBR&#93; Add support for OpenPBR 1.1
-* &#91;OpenPBR&#93; Export OpenPBR materials and textures via USD
-* &#91;OpenPBR&#93; Import OpenPBR materials and textures via USD
-* &#91;Iray&#93; Add new MDL to support OpenPBR 1.1 in Iray
-* &#91;Auto Unwrap&#93; Integrate Hard Surface option
-* &#91;Substance&#93; Add new "mesh_hard_edges_triangle" engine map input
-* &#91;Substance&#93; Add new "mesh_hard_edges" engine map input
-* &#91;UI&#93; Add warning in the viewport when trying to paint on another Texture Set
+- &#91;Color management&#93; Add new OCIO to specify the default color space of color picker
+- &#91;Python&#93; Expose auto-unwrap settings in Python API
 
 **Fixed:**
-
-* &#91;Polygon Fill Tool&#93; Does not work with non-PBR
+    
+- &#91;Crash&#93; Saving with insufficient disk space can crash or corrupt projects
+- &#91;Crash&#93; &#91;Ribbon&#93; Using ribbon can cause crashes for some projects
+- &#91;Crash&#93; &#91;Baking&#93; crash when .assbin file can't be written in folder
+- &#91;Import&#93; OBJ meshes from Stager can fail at project creation
+- &#91;Import&#93; OBJ has missing face in some cases
+- &#91;Import&#93; USD mesh with no material assigned can crash at import
+- &#91;Filled Path&#93; Not affected by symmetry
+- &#91;Stencil&#93; Preview has lower resolution than painted result
+- &#91;UI&#93; 'uv island' is still mentioned in ID map color source tooltip
+- &#91;Display&#93; Shadows appear inverted
+- &#91;Viewport&#93; Warp projection transform remains after switching to baking mode
+- &#91;Warp&#93; Grid disappears when scale is set to 0 on Z axis with Warp to geometry enabled
+- &#91;Python&#93; Unexpected error when adding a channel with scoped modification
 
 ### 12.0.1
 

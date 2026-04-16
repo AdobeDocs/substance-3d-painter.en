@@ -72,24 +72,26 @@ Hard-surface has been added as an optional **Unwrap mode** when using Auto-Unwra
 
 Release date: 2026/03/31
 
-### Added
 
-* `[Skew baking]` Skew Painting Tools
-* `[Skew baking]` Change Polygon Fill behaviour to work on first channel of the current stack instead of basecolor or mask only
-* `[Skew Baking]` Add Skew Preview shader and Skew Direction Vector visuals when painting skew map
-* `[Auto Unwrap]` Integrate Hard Surface option
-* `[OpenPBR]` Add support for OpenPBR 1.1
-* `[Substance]` Add new "mesh_hard_edges" engine map input
-* `[Substance]` Add new "mesh_hard_edges_triangle" engine map input
-* `[UI]` Add warning in the viewport when trying to paint on another Texture Set
+### Added:
+    
+* &#91;Skew baking&#93; Skew Painting Tools
+* &#91;Skew baking&#93; Change Polygon Fill behaviour to work on first channel of the current stack instead of basecolor or mask only
+* &#91;Skew baking&#93; Add Skew Preview shader and Skew Direction Vector visuals when painting skew map
+* &#91;Skew baking&#93; Split Mesh Map / Common Baking settings + Move Common Settings out of mesh map list
+* &#91;Skew baking&#93; Auto rebake
+* &#91;Skew baking&#93; Add Edge Protection option
+* &#91;OpenPBR&#93; Add support for OpenPBR 1.1
+* &#91;OpenPBR&#93; Export OpenPBR materials and textures via USD
+* &#91;OpenPBR&#93; Import OpenPBR materials and textures via USD
+* &#91;Iray&#93; Add new MDL to support OpenPBR 1.1 in Iray
+* &#91;Auto Unwrap&#93; Integrate Hard Surface option
+* &#91;Substance&#93; Add new "mesh_hard_edges_triangle" engine map input
+* &#91;Substance&#93; Add new "mesh_hard_edges" engine map input
+* &#91;UI&#93; Add warning in the viewport when trying to paint on another Texture Set
 
+### Fixed:
 
-### Fixed
-
-* `[Crash]` `[Baking]` crash when .assbin file can't be written in folder
-* `[Crash]` Saving with insufficient disk space can crash or corrupt projects
-* `[UI]` Updated ID map color source tooltip
-* `[Stencil]` Preview has lower resolution than painted result
-* `[Display]` Shadows appear inverted
+* &#91;Polygon Fill Tool&#93; Does not work with non-PBR
 
 
