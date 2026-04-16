@@ -199,6 +199,7 @@ user-guide-description: Substance 3D Painter
     + [Plugins overview](/help/features/plugins/plugins.md)
     + [Autosave](/help/features/plugins/autosave.md)
     + [Resources Updater](/help/features/plugins/resources-updater.md)
+    + [ZBrush to Painter bridge](../features/plugins/zbrush-bridge.md)
   + [Sparse Virtual Textures](/help/features/sparse-virtual-textures.md)
   + [Custom Shaders](/help/features/custom-shaders.md)
   + [SpaceMouse&reg; by 3Dconnexion](/help/features/spacemouse-by-3dconnexion.md)
