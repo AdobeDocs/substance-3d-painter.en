@@ -12,7 +12,7 @@ Starting with ZBrush 2026.2.0 (the Maxon One April 2026 update) and Substance 3D
 
 ![A promotional image showing an asset rendered while overlayed by the same asset in Zbrush and in Painter.](../../assets/zbrush_painter.png)
 
-With the bridge, there is no need to go through the lengthy process of exporting separate low-poly and high-poly files, importing them into Painter, configuring and running bakes.
+With the Substance Bridge plugin, there is no need to go through the lengthy process of exporting separate low-poly and high-poly files, importing them into Painter, and configuring and running bakes.
 
 To start using the Zbrush to Painter bridge:
 
