@@ -4,7 +4,6 @@ description: Review all changes and updates across Substance 3D Painter versions
 title: ZBrush to Painter Bridge
 user-guide-description: ""
 user-guide-title: ""
-hold: true
 ---
 
 # ZBrush to Painter Bridge
@@ -44,7 +43,7 @@ You can configure the following settings for automatic project creation in Paint
 When Painter receives the model, if Auto-bake is enabled, baking will be launched. The lowest subdivision of the model is the mesh imported as the low-poly mesh, and the highest subdivison is used as the high-poly to bake details. ZBrush can handle a much higher number of polygons than Painter, so make sure that the low poly mesh has an optimal working size (this will depend on the machine, but under 1 million is best).
 
 Texture Sets in Painter represent material assignments. One Texture Set equals one UV space.
- 
+
 * Per SubTool creates one Texture Set for each SubTool (all subtool parts would share the same UV space), which is the simpler option. 
 * Per PolyGroup creates one Texture Set per PolyGroup within each SubTool, giving you finer control over material assignments.
 
