@@ -1,23 +1,26 @@
 ---
 breadcrumb-title: ""
 description: Review all changes and updates across Substance 3D Painter versions to track feature evolution and improvements over time.
-title: Zbrush to Painter Bridge
+title: ZBrush to Painter Bridge
 user-guide-description: ""
 user-guide-title: ""
-hold: true
 ---
 
-# Zbrush to Painter Bridge
+# ZBrush to Painter Bridge
 
 Starting with ZBrush 2026.2.0 (the Maxon One April 2026 update) and Substance 3D Painter 12.0.2 (Steam and CC version), it is possible to send models directly from ZBrush to Painter via a plugin installed automatically with the latest version of ZBrush.
+
+![A promotional image showing an asset rendered while overlayed by the same asset in Zbrush and in Painter.](../../assets/zbrush_painter.png)
 
 With the bridge, there is no need to go through the lengthy process of exporting separate low-poly and high-poly files, importing them into Painter, configuring and running bakes.
 
 To start using the Zbrush to Painter bridge:
 
-1. Ensure that you have at least version 2026.2.0 of Zbrush installed.
+1. Ensure that you have at least version 2026.2.0 of ZBrush installed.
 1. Enable the plugin inside Painter by ensuring that **Python > zbrush_painter_plugin** is checked.
-1. From Zbrush, **Send to Painter** is available inside **Texture > Substance Bridge**
+1. From ZBrush, **Send to Painter** is available inside **Texture > Substance Bridge**
+
+![A picture of the Substance Bridge plugin in ZBrush](../../assets/Zbrush_sendToPainter.png)
 
 ## Configuration
 
@@ -39,7 +42,8 @@ You can configure the following settings for automatic project creation in Paint
 
 When Painter receives the model, if Auto-bake is enabled, baking will be launched. The lowest subdivision of the model is the mesh imported as the low-poly mesh, and the highest subdivison is used as the high-poly to bake details. ZBrush can handle a much higher number of polygons than Painter, so make sure that the low poly mesh has an optimal working size (this will depend on the machine, but under 1 million is best).
 
-Texture Sets in Painter represent material assignments. One Texture Set equals one UV space. 
+Texture Sets in Painter represent material assignments. One Texture Set equals one UV space.
+
 * Per SubTool creates one Texture Set for each SubTool (all subtool parts would share the same UV space), which is the simpler option. 
 * Per PolyGroup creates one Texture Set per PolyGroup within each SubTool, giving you finer control over material assignments.
 
