@@ -4,6 +4,7 @@ description: Review all changes and updates across Substance 3D Painter versions
 title: Zbrush to Painter Bridge
 user-guide-description: ""
 user-guide-title: ""
+hold: true
 ---
 
 # Zbrush to Painter Bridge
