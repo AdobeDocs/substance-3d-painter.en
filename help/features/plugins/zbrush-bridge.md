@@ -10,7 +10,7 @@ user-guide-title: ""
 
 Starting with ZBrush 2026.2.0 (the Maxon One April 2026 update) and Substance 3D Painter 12.0.2 (Steam and CC version), it is possible to send models directly from ZBrush to Painter via a plugin installed automatically with the latest version of ZBrush.
 
-![A promotional image showing an asset rendered while overlayed by the same asset in Zbrush and in Painter.](../../assets/zbrush_painter.png)
+![A promotional image showing an asset rendered while overlayed by the same asset in Zbrush and in Painter.](../../assets/zbrush_promotional.png)
 
 With the Substance Bridge plugin, there is no need to go through the lengthy process of exporting separate low-poly and high-poly files, importing them into Painter, and configuring and running bakes.
 
@@ -20,7 +20,7 @@ To start using the Zbrush to Painter bridge:
 1. Enable the plugin inside Painter by ensuring that **Python > zbrush_painter_plugin** is checked.
 1. From ZBrush, **Send to Painter** is available inside **Texture > Substance Bridge**
 
-![A picture of the Substance Bridge plugin in ZBrush](../../assets/Zbrush_sendToPainter.png)
+![A picture of the Substance Bridge plugin in ZBrush](../../assets/zbrush_painterSendTo.png)
 
 ## Configuration
 
