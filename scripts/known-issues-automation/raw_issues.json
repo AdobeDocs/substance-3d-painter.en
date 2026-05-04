@@ -1,0 +1,704 @@
+[
+  {
+    "key": "SBSFOUR-4383",
+    "summary": "[gltf] Can not open files exported through Babylon Exporter",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4387",
+    "summary": "[Paint] Stencil and symmetry don't work in some cases",
+    "status": "Fixed",
+    "affectedVersions": [],
+    "fixVersions": [
+      "11.1.3"
+    ],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4424",
+    "summary": "Non-square resources are stretched when used in the brush channel's slots",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4463",
+    "summary": "[Displacement] Glitch when painting",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4495",
+    "summary": "[Polygon Fill Tool] Wrong selection with symmetry",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4496",
+    "summary": "[2D view] Strokes sometimes does not appear when painting",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4531",
+    "summary": "[Console] Symboles associated to shortcut are not possible to write",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4549",
+    "summary": "[Shelf] Resources get the wrong usage if placed in a folder with a specific name",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4623",
+    "summary": "[LOG] Error message is wrong when failing export",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4632",
+    "summary": "[3D View] Stencil does not work on duplicated objects",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4641",
+    "summary": "Failed to decode substance",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4779",
+    "summary": "[Resource updater] Different resources in the shelf with the same name are read as one resource",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4820",
+    "summary": "[Sample] Broken camera in Preview sample",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4837",
+    "summary": "[Instancing] [Projection] When selecting an instance in planar proj, another planar proj is selected on another texture set",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4839",
+    "summary": "Not perfectly superposed UVs can create artefacts",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4846",
+    "summary": "[Slider] Numerical inputs are deselected when cursor leaves the window",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4850",
+    "summary": "[Anchor point] Broken references when copy and pasting Mask content",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4871",
+    "summary": "[Shader] \"camera_vp_matrix_inverse\" parameter is not recognized",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4872",
+    "summary": "Invalid mesh normals with some fbx",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4924",
+    "summary": "[Mesh export] Do not take into account new texture set names",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4947",
+    "summary": "[Anchor Points] Incorrect color when used in generator",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4953",
+    "summary": "View is not updated when changing the channel affected by a level",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4956",
+    "summary": "Project with one texture set are reopen in Base Color solo mode",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4966",
+    "summary": "[Bakers] ID Map baker doesn't take into consideration 3ds Max 2021 Physical Material",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4967",
+    "summary": "[UV Tiles] No error message on overlapping UV spaces with a specific mesh",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4968",
+    "summary": "[Scripting][Javascript] \"Disbaled\" typo when specifying dithering parameter in export functions",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4969",
+    "summary": "UI of channel button in Material/paint properties can be broken",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4970",
+    "summary": "Order of channels in Properties can be broken",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-4971",
+    "summary": "[Scripting][Python] Various typos in substance_painter.project module",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5051",
+    "summary": "[Engine] Error when using Smart Materials if Texture Set has no tile 1001",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5076",
+    "summary": "[Crash] Clicking on Texture Set list after failed project creation causes a crash",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5083",
+    "summary": "[GLTF] [Crash] Creating project with compressed gltf file causes a crash",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5086",
+    "summary": "[Crash] Critical error crash when same project is open twice",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5098",
+    "summary": "[UV Tile sequence] Position maps are not imported correctly",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5120",
+    "summary": "[UVTiles] Height combination mask is not refresh with UV Tile mask",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5126",
+    "summary": "[Shelf] [Substance] Userdata not taken into account for shelf thumbnail generation",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5130",
+    "summary": "[Baking] Wrong AO on simple cubes",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5185",
+    "summary": "Strokes made in L16F and RBG16F can display artifacts",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5192",
+    "summary": "[Import] Cannot import obj file with \"nan\" values",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5201",
+    "summary": "[Crash] Select \"Export mesh\" when mesh failed to load",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5202",
+    "summary": "[Substance]Several misspell in resources",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5203",
+    "summary": "Restore button behaviour does not interact with lock key in camera settings",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5205",
+    "summary": "[Export]GLTF exports at the wrong size",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5207",
+    "summary": "[Crash] Clicking on \"Start painting\" after trying to open an old project",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5208",
+    "summary": "[Texture Set] Name can be empty",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5210",
+    "summary": "[Layer stack]Copy into mask switch to material mode",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5213",
+    "summary": "[UI] Typo in brush maker settings",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5294",
+    "summary": "Photoshop export ignores geometry mask selection",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5370",
+    "summary": "[Blending] Color and saturation blending mode change brightness as well",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5375",
+    "summary": "Blur Slope and warp filter depends on texture set resolution",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5376",
+    "summary": "[Librairies] Width of Saved searches and filter by path windows not saved when changed",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5428",
+    "summary": "[Substance] Blank space breaks condition for visibility",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5493",
+    "summary": "[Geometry mask] Issue when reimporting mesh and instanced layer",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5612",
+    "summary": "[Color Management]Incompatible bindings with generator not used in mask",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5618",
+    "summary": "[Substance] Presets for some materials take too long to load",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5735",
+    "summary": "[Color management] Color space not found when tile 1001 is missing",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5737",
+    "summary": "[Baking] Matching by name suffix interpretation is wrong",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5743",
+    "summary": "[Export mesh] Displacement not exported with specific UV tiles set up",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5752",
+    "summary": "[Shader] user0 channel always can not be read as sRGB with specific shader",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5773",
+    "summary": "AO Mixing doesn't work in 3D view",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5826",
+    "summary": "[Baking] Uv seams do not appear after mes reimport",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-5965",
+    "summary": "[RedHat] Color picker issues",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6005",
+    "summary": "Maps with no names are created outside export folder",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6032",
+    "summary": "[Color Management] Filter output are not properly taken into account",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6176",
+    "summary": "[USD] Shader instances are not all correctly detected",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6269",
+    "summary": "[Crash] Creating very long texts in Ribbon can crash",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6270",
+    "summary": "[Regression][UI] Right Click Menu is too small on hd screen",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6271",
+    "summary": "[Color Management] HDR color space conversions with ACE on Linux produce clamped colors",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6272",
+    "summary": "[Engine] Painting with Clone tool in normal channel shift colors incorrectly",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6289",
+    "summary": "[Engine] Geometry mask shows artifacts at UV borders with instanced layers",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6294",
+    "summary": "[Crash] Returning to painting mode after device lost in baking",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6298",
+    "summary": "[Resources] Imported mesh maps are ignored by auto-update",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6299",
+    "summary": "[User Channels] Color mixing space preview is wrong",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6300",
+    "summary": " [Mask] geometry selection is still active after switching to bake mode",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6359",
+    "summary": "[Sonoma] Icons do not appear in menus",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6363",
+    "summary": "[Substance] Only the first usage of an input/output node is taken into account ",
+    "status": "Fixed",
+    "affectedVersions": [],
+    "fixVersions": [
+      "12.1.0 - beta2"
+    ],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6365",
+    "summary": "[Baking] Baking is slower in some cases",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6377",
+    "summary": "[UV Tile] Anchor point's extracted alpha ignored by other tiles",
+    "status": "Dev In Progress",
+    "affectedVersions": [],
+    "fixVersions": [
+      "12.0.3"
+    ],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6382",
+    "summary": "[Path] Height blending many paths can cause artifacts",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6385",
+    "summary": "[Ubuntu] Crash when selecting material",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6400",
+    "summary": "[Shader Settings] Only one shader instance is defined at export when name is shared",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6401",
+    "summary": "[Crash] When baking curvature from map without world space normal",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6402",
+    "summary": "[Crash] Cancelling AO baking",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6403",
+    "summary": "[Python] Painter crash on exit with leftover Qt widgets",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6404",
+    "summary": "[Auto-Cage] Infinite load when high poly file path is invalid",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6405",
+    "summary": "[Warp to geometry] Warp to geometry gets disabled in some cases",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  },
+  {
+    "key": "SBSFOUR-6406",
+    "summary": "[Baking] Artifacts can appear on curvature map",
+    "status": "Backlog",
+    "affectedVersions": [],
+    "fixVersions": [],
+    "labels": []
+  }
+]
