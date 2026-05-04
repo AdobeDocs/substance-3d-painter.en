@@ -10,6 +10,7 @@ helpx_tags: ""
 title: All Changes
 user-guide-description: ""
 user-guide-title: ""
+hold: true
 ---
 
 # All Changes
@@ -21,6 +22,30 @@ This page contains release notes for all previous releases of Substance 3D Paint
 > To view known issues that may affect Painter, see the [dedicated documentation page](known-issues.md).
 
 ## Version 12 
+
+### Version 12.0.3 
+
+Release date: **2026/05/05**
+
+Summary: **Minor release**
+
+
+**Added:**
+    
+- Update bakers to version 3.22.2
+- Update Substance engine to version 9.4.3
+- \[Python\] Save a smart material into a specific location
+
+**Fixed:**
+    
+- \[Ubuntu\] Crash when selecting material
+- \[Mac\] Recurrent pop-up appears to ask access to other apps data
+- \[Baking\] Artifacts can appear on curvature map
+- \[Baking\] Baking is slower in some cases
+- \[Warp to geometry\] Warp to geometry gets disabled in some cases
+- \[UV Tile\] Anchor point's extracted alpha ignored by other tiles
+- \[Python\]\[Mac\] Exceptions in Python console with SSL
+- \[Python\] Painter crash on exit with leftover Qt widgets
 
 ### Version 12.0.2
 
