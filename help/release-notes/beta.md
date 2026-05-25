@@ -70,10 +70,39 @@ Hard-surface has been added as an optional **Unwrap mode** when using Auto-Unwra
 
 ## Changelog
 
+### V12.1.0 build 2795
+
+Release date: 2026/05/25
+
+#### Added:
+
+* Several minor improvements to USD exports
+* Update Adobe Color Engine to version 7.0
+* [Flatten] Allow to flatten all instanced layers across Texture Sets
+* [Skew Baking] Rework Mesh map List UI
+* [Skew Baking] Update baking mode icon
+* [Skew Baking] Change viewport toolbar buttons
+* [Skew Baking] Show Symmetry toggle for brush in top toolbar
+* [Skew Baking] Rename Options in mesh map List Sync menu
+* [Skew Baking] Create Grayscale color picker variant
+* [OpenPBR] Update Export Textures window to show OpenPBR naming convention
+* Make OpenPBR the default workflow and shader
+* [Shader] Add documentation about changes to support OpenPBR
+
+
+#### Fixed:
+
+* [Substance] Only the first usage of an input/output node is taken into account
+* [Shader] Ambient Occlusion is applied twice with Texture Sets using different mixing methods
+* [Crash] [Baking] Baking with custom cage enabled but no file selected crashes
+* [Engine] Normal textures with empty blue channel (black) can lead to wrong blend results
+
+
+### V12.1.0
+
 Release date: 2026/03/31
 
-
-### Added:
+#### Added:
     
 * &#91;Skew baking&#93; Skew Painting Tools
 * &#91;Skew baking&#93; Change Polygon Fill behaviour to work on first channel of the current stack instead of basecolor or mask only
@@ -90,7 +119,7 @@ Release date: 2026/03/31
 * &#91;Substance&#93; Add new "mesh_hard_edges" engine map input
 * &#91;UI&#93; Add warning in the viewport when trying to paint on another Texture Set
 
-### Fixed:
+#### Fixed:
 
 * &#91;Polygon Fill Tool&#93; Does not work with non-PBR
 
