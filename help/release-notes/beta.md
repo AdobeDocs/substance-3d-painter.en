@@ -7,7 +7,7 @@ title: Beta release
 
 Substance Painter 12.1.0 introduces major improvements to baking workflows, a new option to automatically unwrap hard surface models, and support for OpenPBR.
 
-Release date: **31 March 2026** 
+Release date: **May 25th 2026** 
 
 >[!NOTE]
 >

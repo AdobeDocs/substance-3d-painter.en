@@ -39,10 +39,10 @@ This page regroups information on ways to retrieve the installation path of the 
 
 | Version | AppId |
 | --- | --- |
-| **Version 1.x** | ``` {410F5B6E-A29C-4F43-9DE3-44A1357D6AF5} ``` |
-| **Version 2.x** | ``` {f42b7a996fa1d13a1d0a2e33eea2c0800bb5d1b8} ``` |
-| **3.x (2017.x) to 7.1** | ``` {33C3E9E2-0675-4196-9019-28AB9C5E9BB0} ``` |
-| **7.2 or newer** | ``` {2a8bbb68-725b-477c-9194-60efc5ece348} ``` |
+| **Version 1.x** | `{410F5B6E-A29C-4F43-9DE3-44A1357D6AF5}` |
+| **Version 2.x** | `{f42b7a996fa1d13a1d0a2e33eea2c0800bb5d1b8}` |
+| **3.x (2017.x) to 7.1** | `{33C3E9E2-0675-4196-9019-28AB9C5E9BB0}` |
+| **7.2 or newer** | `{2a8bbb68-725b-477c-9194-60efc5ece348}` |
 
 ### Steam
 
