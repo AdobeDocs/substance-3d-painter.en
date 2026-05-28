@@ -3,9 +3,10 @@ cloud: Experience Cloud
 solution: Substance 3D Painter, Substance 3D
 product_v2:
   - id: af8ad8dc-25aa-4180-b93f-92edb04e13d4
-    label: "Substance 3D Painter"
+    internal-label: "Substance 3D Painter"
   - id: b5c1b9d0-8765-43f4-b8ea-1aa286ab7892
-    label: "Substance 3D"
+    internal-label: "Substance 3D"
+usetq: true
 landing-page-name: substance-3d
 landing-page-breadcrumb-title: Substance 3D
 type: Documentation
