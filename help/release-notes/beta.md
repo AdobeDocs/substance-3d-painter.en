@@ -70,6 +70,41 @@ Hard-surface has been added as an optional **Unwrap mode** when using Auto-Unwra
 
 ## Changelog
 
+### V12.1.0 build 2836
+
+Release date: 2026/06/05
+
+#### Added:
+
+* [Samples] Subsurface scattering is not enabled in Display Settings for Meet Mat
+* [Content] New project templates for OpenPBR
+
+#### Fixed:
+
+* [USD] Shader instances are not all correctly detected
+* [Crash] When baking curvature from map without world space normal
+* [Crash] Cancelling AO baking
+* [GLTF Export] Alpha blending is always enabled at export
+* [GLTF Import] Alpha blending is enabled on every texture sets
+* [Export] Double sided geometry is always disabled when importing a GLTF file
+* [Javascript] Modification of shaders settings don't contribute to undo history
+
+### V12.1.0 build 2810
+
+Release date: 2026/06/01
+
+#### Added
+
+* [Skew Baking] Update Sync and Checked state dialogs
+* [Texture Set settings] Allow to select several channels at once via new window
+
+#### Fixed:
+
+* [Auto-Cage] Infinite load when high poly file path is invalid
+* [Crash] [Mesh Maps Settings] Apply settings to other texture sets
+* [Skew Baking] Default paint value is 0 with UV tile project
+* [Linux] [Windows] Color picker can sometimes be fully black or not appear
+
 ### V12.1.0 build 2795
 
 Release date: 2026/05/25
