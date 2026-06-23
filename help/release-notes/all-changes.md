@@ -23,6 +23,70 @@ This page contains release notes for all previous releases of Substance 3D Paint
 
 ## Version 12 
 
+### Version 12.1.0
+
+Release date: <b>2026/06/23</b>
+
+Summary: <b>This update is a major release, it contains bakers improvements with New baking default UI state, painting skew map, auto rebake, new option for Auto UV unwrap for hardsurface meshes and OpenPBR. For further details, see the complete release notes.</b>
+
+<b>Added</b>:
+
+* &#91;Skew baking&#93; Skew Painting Tools
+* &#91;Skew Baking&#93; Add Skew Preview shader and Skew Direction Vector visuals when painting skew map
+* &#91;Skew Baking&#93; Add Edge Protection option
+* &#91;Skew baking&#93; Auto rebake
+* &#91;Skew Baking&#93; Rework Mesh map List UI
+* &#91;Skew Baking&#93; Split Mesh Map / Common Baking settings + Move Common Settings out of mesh map list basecolor or mask only
+* &#91;Skew Baking&#93; Change viewport toolbar buttons
+* &#91;Skew Baking&#93; Show Symmetry toggle for brush in top toolbar
+* &#91;Skew Baking&#93; Rename Options in mesh map List Sync menu
+* &#91;Skew Baking&#93; Update Sync and Checked state dialogs
+* &#91;Skew Baking&#93; Create Grayscale color picker variant
+* &#91;Skew Baking&#93; Update baking mode icon
+* &#91;Auto Unwrap&#93; Integrate Hard Surface option
+* &#91;OpenPBR&#93; Add support for OpenPBR 1.1
+* &#91;OpenPBR&#93; Make OpenPBR the default workflow and shader
+* &#91;OpenPBR&#93; Import OpenPBR materials and textures via USD
+* &#91;OpenPBR&#93; Export OpenPBR materials and textures via USD
+* &#91;OpenPBR&#93; Update Export Textures window to show OpenPBR naming convention
+* &#91;OpenPBR&#93; Add documentation about changes to support OpenPBR
+* &#91;OpenPBR&#93;&#91;Iray&#93; Add new MDL to support OpenPBR 1.1 in Iray
+* Several minor improvements to USD exports
+* &#91;UI&#93; Add warning in the viewport when trying to paint on another Texture Set
+* &#91;Flatten&#93; Allow to flatten all instanced layers across Texture Sets
+* &#91;Texture Set settings&#93; Allow to select several channels at once via new window
+* &#91;History&#93; Update "value" Undo entry wording to reflect parameter name
+* &#91;Layer stack&#93; Make fill effects in masks default to white (1.0)
+* &#91;Substance&#93; Add new "mesh_hard_edges_triangle" engine map input
+* &#91;Substance&#93; Add new "mesh_hard_edges" engine map input
+* &#91;Shader&#93; Prevent shader instances to share the same names
+* &#91;Shader&#93; Use the shader from the project template when importing a USD or GLTF file
+* Update Adobe Color Engine to version 7.0
+* Upgrade minimum MacOSX version to 13.0 (Ventura)
+* &#91;Content&#93; New project templates for OpenPBR
+* &#91;Content&#93; Update sample projects to use the new OpenPBR shader
+* &#91;Python&#93; Expand Geometry Mask API to allow inclusion and exclusion modes like in UI
+
+<b>Fixed</b>:
+
+* &#91;Crash&#93;&#91;Mesh Maps Settings&#93; Apply settings to other texture sets
+* &#91;Crash&#93; When baking curvature from map without world space normal
+* &#91;Crash&#93;&#91;Baking&#93; Baking with custom cage enabled but no file selected crashes
+* &#91;Crash&#93; Cancelling AO baking
+* &#91;Auto-Cage&#93; Infinite load when high poly file path is invalid
+* &#91;Linux&#93;&#91;Windows&#93; Color picker can sometimes be fully black or not appear
+* &#91;Polygon Fill Tool&#93; The tool does not work with non-PBR
+* &#91;&#91;Paint&#93; Deleting base color channel does not delete previously painted color
+* &#91;USD&#93; Shader instances are not all correctly detected
+* &#91;Substance&#93; Only the first usage of an input/output node is taken into account
+* &#91;Shader&#93; Ambient Occlusion is applied twice with Texture Sets using different mixing methods
+* &#91;Engine&#93; Normal textures with empty blue channel (black) can lead to wrong blend results
+* &#91;GLTF Import&#93; Alpha blending is enabled on every texture sets
+* &#91;GLTF Export&#93; Alpha blending is always enabled at export
+* &#91;Export&#93; Double sided geometry is always disabled when importing a GLTF file
+* &#91;Javascript&#93; Modification of shaders settings don't contribute to undo history
+* &#91;Samples&#93; Subsurface scattering is not enabled in Display Settings for Meet Mat
+
 ### Version 12.0.3 
 
 Release date: **2026/05/05**
