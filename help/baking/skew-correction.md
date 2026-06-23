@@ -7,8 +7,8 @@ description: Learn how to use Skew correction to fix baking artifacts when using
 
 <table>
   <tr style="border: 0;">
-    <td style="border: 0;" valign="top"><img src="../assets/baking/skew-correction-example.png" alt=""/></td>
-    <td style="border: 0;" valign="top">Sometimes when baking to low-poly from a high-poly model, it's possible for details to appear warped or skewed. This usually happens when the cage normals and surface normals don't align well. Automatic baking projects the high-poly onto the low-poly based on these normal values, so if they are incorrect, baking produces poor results.<br>Fortunately, Skew correction (or Skew mapping) is available to help fix this type of artifact.<br>Skew correction allows you to paint values directly on the low-poly mesh to redirect the projection used during baking without needing to create a custom cage.</td>
+    <td style="border: 0; width: 35%" valign="top"><img src="../assets/baking/skew-correction-example.png" alt=""/></td>
+    <td style="border: 0; width: 65%" valign="top">Sometimes when baking to low-poly from a high-poly model, it's possible for details to appear warped or skewed. This usually happens when the cage normals and surface normals don't align well. Automatic baking projects the high-poly onto the low-poly based on these normal values, so if they are incorrect, baking produces poor results.<br>Fortunately, Skew correction (or Skew mapping) is available to help fix this type of artifact.<br>Skew correction allows you to paint values directly on the low-poly mesh to redirect the projection used during baking without needing to create a custom cage.</td>
   </tr>
 </table>
 
