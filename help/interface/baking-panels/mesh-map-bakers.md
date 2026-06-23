@@ -6,8 +6,8 @@ description: Learn how to use the mesh map bakers panel to control which mesh ma
 # Mesh map bakers panel
 
 <table>
-  <tr>
-    <td style="border: 0;" valign="top">![](../../assets/baking/mesh-map-bakers-panel.png)</td>
+  <tr style="border: 0;">
+    <td style="border: 0;" valign="top"><img src="../../assets/baking/mesh-map-bakers-panel.png" alt=""/></td>
     <td style="border: 0;" valign="top">The <strong>Mesh map bakers panel</strong> allows you to select which maps to bake and access settings for each map type.</td>
   </tr>
 </table>
@@ -81,7 +81,6 @@ Check status determines whether a given map is included when you bake mesh maps.
 >[!TIP]
 >
 > You can click and drag from a check box to check or uncheck multiple maps quickly (see the animation above).
-
 
 ![](../../assets/baking/invert-checked.gif)
 

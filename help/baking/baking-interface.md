@@ -42,7 +42,7 @@ There are 4 panels exclusive to Baking mode:
 Additional panels are available and behave the same way they do in **Painting mode**:
 
 <table>
-  <tr>
+  <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../assets/right-bar.png" alt=""/></td>
     <td style="border: 0;" valign="top"><ul><li><a href="../interface/texture-set/texture-set-list.md"><strong>Texture Set list</strong></a></li><li>Available from the right bar:<ul><li><a href="../interface/miscellaneous/log.md"><strong>Log</strong></a></li><li><a href="../interface/display-settings/display-settings.md"><strong>Display settings</strong></a></li><li><a href="../interface/history.md"><strong>History</strong></a></li></ul></li></ul></td>
   </tr>
