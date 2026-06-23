@@ -1,15 +1,15 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/baking/mesh-map-settings.html"
-breadcrumb-title: ""
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/baking/mesh-map-settings.html'
+breadcrumb-title: ''
 description: Learn how to configure mesh map settings in Substance 3D Painter to control baking parameters and output quality.
-helpx_creative_field: ""
+helpx_creative_field: ''
 helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+helpx_experience_level: ''
+helpx_learn_topic: ''
+helpx_tags: ''
 title: Mesh map settings
-user-guide-description: ""
-user-guide-title: ""
+user-guide-description: ''
+user-guide-title: ''
 ---
 
 # Mesh map settings
@@ -42,6 +42,15 @@ The Common settings page holds controls that affect how all mesh maps are baked.
 | Low poly mesh suffix | When using Match By mesh name, use this suffix to define low poly meshes. |
 | High poly mesh suffix | When using Match By mesh name, use this suffix to define high poly meshes and match them with the corresponding low poly mesh. |
 | Antialiasing | Adjust the amount of antialiasing in the generated maps. |
+
+#### Skew correction
+
+| Setting | Description |
+| --- | --- |
+| **Paint skew correction** | Enter skew correction painting mode. |
+| **Edge protection** | Toggle edge protection to mask out painted skew correction values close to hard edges. |
+| **Edge distance** | Control how far the edge protection extends from hard edges |
+| **Edge contrast** | Control how sharply the edge protection gradient transitions from full protection to no protection. |
 
 ## ID map settings
 

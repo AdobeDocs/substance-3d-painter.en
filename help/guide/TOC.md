@@ -75,6 +75,11 @@ user-guide-description: Substance 3D Painter
     + [Sliders](/help/interface/miscellaneous/sliders.md)
     + [Log](/help/interface/miscellaneous/log.md)
     + [Update checker](/help/interface/miscellaneous/update-checker.md)
+  + Baking mode{#baking-mode}
+    + [Mesh map bakers](/help/interface/baking-panels/mesh-map-bakers.md)
+    + [Common settings](/help/interface/baking-panels/common-mesh-map-settings.md)
+    + [Mesh map settings panel](/help/interface/baking-panels/mesh-map-settings.md)
+    + [Baking log](/help/interface/baking-panels/baking-log.md)
 + Painting{#painting}
   + [Painting overview](/help/painting/painting.md)
   + Paint tools{#paint-tools}
@@ -142,7 +147,9 @@ user-guide-description: Substance 3D Painter
   + [Anchor Point](/help/features/effects/anchor-point.md)
 + Baking{#baking}
   + [Baking overview](/help/baking/baking.md)
+  + [Baking interface](/help/baking/baking-interface.md)
   + [How to bake mesh maps](/help/baking/how-to-bake-mesh-maps.md)
+  + [Skew correction](/help/baking/skew-correction.md)
   + [Mesh map settings](/help/baking/mesh-map-settings.md)
   + [Baking visualization settings](/help/baking/baking-visualization-settings.md)
 + Content{#content}

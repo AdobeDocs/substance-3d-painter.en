@@ -1,15 +1,8 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/viewport.html"
-breadcrumb-title: ""
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/viewport.html'
 description: Learn how to use the viewport in Substance 3D Painter to visualize your 3D models and textures during the painting process.
-helpx_creative_field: ""
 helpx_description: Painter > Interface > Viewport
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Viewport
-user-guide-description: ""
-user-guide-title: ""
 ---
 
 # Viewport
@@ -35,13 +28,59 @@ For more details, see the dedicated pages:
 
 The 3D and 2D views can be adjusted to display additional or different information via the [Display settings](../../interface/display-settings/display-settings.md).
 
+## Viewport navigation controls
+
+Controls for moving around the viewport are similar in both 2D and 3D views.
+
+<table>
+  <tr>
+    <th>Movement type</th>
+    <th>Shortcut</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Orbit/rotate<br></td>
+    <td><strong>Alt + Left click</strong></td>
+    <td><ul><li>3D View: Orbit the camera around the cursor position.</li><li>2D View: Rotate the UV space around the cursor position.</li></ul></td>
+  </tr>
+  <tr>
+    <td>Pan</td>
+    <td><strong>Alt + Middle click</strong></td>
+    <td>Move the camera up, down, left, or right.</td>
+  </tr>
+  <tr>
+    <td>Zoom/dolly</td>
+    <td><strong>Alt + Right click</strong></td>
+    <td>Zoom closer to or further from the mesh/UVs.</td>
+  </tr>
+</table>
+
+>[!NOTE]
+> In both 2D and 3D views, you can snap to orthogonal angles when orbiting/rotating with **Alt + Shift + Left click**.
+
 ## Changing The Layout
 
 The default layout puts the 3D view on the left and the 2D view on the right. A few parameters are available from the **Contextual Toolbar** which allow to change the layout:
 
-| *Setting* | *Description* |
-| --- | --- |
-| **Viewport Mode** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/viewport-viewmode.png"/></div> | These settings control the layout of the viewport:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>3D/2D</strong> (default): display both the 3D and 2D views in the viewport</li><li data-preserve-html="true"><strong>3D only</strong>: maximize the 3D view and hide the 2D view.</li><li data-preserve-html="true"><strong>2D only</strong>: maximize the 2D view and hide the 3D view.</li><li data-preserve-html="true"><strong>Swap 3D/2D</strong>: exchange the order in which the views are displayed. If the 3D view was on the left it will be on the right after choosing this action.</li></ul> |
-| **Perspective Mode** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/viewport-camera-projection.png"/></div> | These setting control how the 3D mesh will appear in the 3D view:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Perspective view</strong> (default): displays the 3D mesh as it would be seen by the human eye or a camera.</li><li data-preserve-html="true"><strong>Orthographic view</strong>: displays the 3D mesh as every direction measure the same length.</li></ul> |
-| **Camera Rotation Mode** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/viewport-camera-axis.png"/></div> | This settings control on how many axes the viewport camera can rotate.<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Free rotation</strong>: the camera rotate on the X, Y and Z axes.</li><li data-preserve-html="true"><strong>Constrained rotation</strong> (default): the camera rotate only on the X and Y axes (no roll).</li></ul> |
-| **Rendering Mode** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/viewport-rendering.png"/></div> | Switch to the [rendering mode](../../features/iray-renderer/iray-renderer.md). |
+<table>
+  <tr>
+    <th><em>Setting</em></th>
+    <th><em>Description</em></th>
+  </tr>
+  <tr>
+    <td><strong>Viewport Mode</strong><br>![](../../assets/viewport-viewmode.png)</td>
+    <td>These settings control the layout of the viewport:<br><ul><li><strong>3D/2D</strong> (default): display both the 3D and 2D views in the viewport</li><li><strong>3D only</strong>: maximize the 3D view and hide the 2D view.</li><li><strong>2D only</strong>: maximize the 2D view and hide the 3D view.</li><li><strong>Swap 3D/2D</strong>: exchange the order in which the views are displayed. If the 3D view was on the left it will be on the right after choosing this action.</li></ul></td>
+  </tr>
+  <tr>
+    <td><strong>Perspective Mode</strong><br>![](../../assets/viewport-camera-projection.png)</td>
+    <td>These setting control how the 3D mesh will appear in the 3D view:<br><ul><li><strong>Perspective view</strong> (default): displays the 3D mesh as it would be seen by the human eye or a camera.</li><li><strong>Orthographic view</strong>: displays the 3D mesh as every direction measure the same length.</li></ul></td>
+  </tr>
+  <tr>
+    <td><strong>Camera Rotation Mode</strong><br>![](../../assets/viewport-camera-axis.png)</td>
+    <td>This settings control on how many axes the viewport camera can rotate.<br><ul><li><strong>Free rotation</strong>: the camera rotate on the X, Y and Z axes.</li><li><strong>Constrained rotation</strong> (default): the camera rotate only on the X and Y axes (no roll).</li></ul></td>
+  </tr>
+  <tr>
+    <td><strong>Rendering Mode</strong><br>![](../../assets/viewport-rendering.png)</td>
+    <td>Switch to the <a href="../../features/iray-renderer/iray-renderer.md">rendering mode</a>.</td>
+  </tr>
+</table>
