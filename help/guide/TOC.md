@@ -355,6 +355,7 @@ user-guide-description: Substance 3D Painter
 + Release notes{#release-notes}
   + [Release notes overview](/help/release-notes/release-notes.md)
   + [All Changes](/help/release-notes/all-changes.md)
+  + [Version 12.1](/help/release-notes/version-12-1.md)
   + [Version 12.0](/help/release-notes/version-12-0.md)
   + [Version 11.1](/help/release-notes/version-11-1.md)
   + [Version 11.0](/help/release-notes/version-11-0.md)
