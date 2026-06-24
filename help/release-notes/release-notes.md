@@ -20,5 +20,7 @@ Discover everything that has been added, changed or fixed for each version:
 * [Version 12.1](version-12-1.md)
 * [Version 12.0](version-12-0.md)
 * [Version 11.1](version-11-1.md)
+* [Latest beta version](beta.md)
+* [Know issues](known-issues.md)
 
 For a list of everything that happened in the software since its initial version take a look at the page [All Changes](all-changes.md).
