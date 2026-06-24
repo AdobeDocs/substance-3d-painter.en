@@ -12,7 +12,7 @@ Release date: <b>June 22, 2026</b>
 
 >[!NOTE]
 >
-> This version raises the minimum supported macOS version to 13.0 (Ventura). For more information check out our [system requirements page](https://helpx.adobe.com/substance-3d-painter/getting-started/system-requirements.html).
+> This version raises the minimum supported macOS version to 13.0 (Ventura). For more information check out our [system requirements page](../getting-started/system-requirements.md).
 
 ## Major features
 
@@ -45,7 +45,7 @@ The baking workflow has been reworked to support continuous rebaking, on-mesh sk
 
 >[!NOTE]
 >
-> For more information about baking, see the [dedicated documentation page](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/baking/baking).
+> For more information about baking, see the [dedicated documentation page](../baking/baking.md).
 
 ### OpenPBR support
 
@@ -85,7 +85,7 @@ A new automatic unwrapping mode tailored to hard-surface assets has been added.
 
 >[!NOTE]
 >
-> For more information about automatic unwrapping, see the [dedicated documentation page](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/automatic-uv-unwrapping).
+> For more information about automatic unwrapping, see the [dedicated documentation page](../features/automatic-uv-unwrapping.md).
 
 ### Miscellaneous
 
@@ -113,6 +113,8 @@ Additional features and improvements have been added in this version:
   Baking and painting modes now share the same undo history. Switching between Baking mode and Paint mode is recorded as an undoable step, so actions can be undone only in the mode where they happened.
 
 ## Tutorials
+
+Take a look at our latest tutorial on Youtube:
 
 [![](../assets/v12/v12_youtube_tutorial.jpg)](https://www.youtube.com/watch?v=WwyElRpiQgY)
 
