@@ -114,7 +114,7 @@ Additional features and improvements have been added in this version:
 
 ## Tutorials
 
-Coming soon.
+[![](../assets/v12/v12_youtube_tutorial.jpg)](https://www.youtube.com/watch?v=WwyElRpiQgY)
 
 ## Release Notes
 
