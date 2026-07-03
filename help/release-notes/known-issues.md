@@ -112,7 +112,7 @@ This page lists all the active known issues present in v12.1.0 of Substance 3D P
 * Brush parameters modifies from contextual toolbar do not appear in history
 * Can not rename or delete export presets if you already deleted and recreated it this session
 * Channel mapping does not work for projection tool preview in some cases
-* Opening and saving some projects can take longer than usual
+* Opening and saving some projects can take longer than usual.
 
 ## Stability
 
