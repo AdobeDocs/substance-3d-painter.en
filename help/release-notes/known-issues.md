@@ -14,7 +14,7 @@ user-guide-title: ''
 
 # Known issues
 
-This page lists the active known issues present in v12.1.0 of Substance 3D Painter:
+This page lists all the active known issues present in v12.1.0 of Substance 3D Painter:
 
 * `[Engine]` Error when using Smart Materials if Texture Set has no tile 1001
 * `[Engine]` Painting with Clone tool in normal channel shift colors incorrectly
