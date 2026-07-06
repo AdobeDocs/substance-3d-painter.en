@@ -37,7 +37,7 @@ This page lists all the active known issues present in v12.1.0 of Substance 3D P
 * `[Color Management]` HDR color space conversions with ACE on Linux produce clamped colors
 
 * `[Shelf]` Resources get the wrong usage if placed in a folder with a specific name
-* `[Shelf]` `[Substance]` Userdata not taken into account for shelf thumbnail generation
+* `[Shelf]` `[Substance]` Userdata not taken into account for shelf thumbnail generation.
 
 * `[Shader]` "camera_vp_matrix_inverse" parameter is not recognized
 * `[Shader]` user0 channel always can not be read as sRGB with specific shader
