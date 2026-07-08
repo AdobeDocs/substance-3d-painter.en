@@ -10,7 +10,7 @@ on:
 
 jobs:
   do-nothing:
-    if: github.repository == 'Adobe-Enterprise-Docs/substance-3d-painter.en'
+    if: github.repository_owner == 'Adobe-Enterprise-Docs'
     runs-on: ubuntu-latest
     steps:
       - name: Confirm run
