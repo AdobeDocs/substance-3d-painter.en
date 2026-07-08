@@ -1,0 +1,17 @@
+name: Nothing action (mirror guard test)
+
+# Temporary workflow used to verify that the repository guard correctly
+# lets this workflow run on the internal repo while no-op'ing on the
+# public mirror. Safe to delete once the guard is confirmed working.
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  do-nothing:
+    if: github.repository == 'Adobe-Enterprise-Docs/substance-3d-painter.en'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirm run
+        run: echo "nothing-action ran on ${{ github.repository }} (ref ${{ github.ref }}) — guard passed"
