@@ -1,7 +1,7 @@
 ---
-title: "Version 12.1"
-description: "Release notes of version 12.1"
-helpx_description: "Substance 3D Painter"
+title: Version 12.1
+description: Release notes of version 12.1
+helpx_description: Substance 3D Painter
 ---
 
 # Version 12.1
@@ -119,6 +119,30 @@ Take a look at our latest tutorial on Youtube:
 [![](../assets/v12/v12_youtube_tutorial.jpg)](https://www.youtube.com/watch?v=WwyElRpiQgY)
 
 ## Release Notes
+
+### 12.1.1
+
+Release date: <b>2026/07/09</b>
+
+Summary: Minor release
+
+Added:
+
+* [Skew Baking] Expose Skew Base Normal Mode: mesh or per-triangle
+* [Properties] Make uniform colors always reset to their channel's default value
+* [OpenPBR] Regroup channels by categories in Export Textures window for output templates creation
+* Update Substance engine to version 9.4.5
+
+Fixed:
+
+* [Project] Opening and saving some projects can take longer than usual
+* [Crash] Reload several meshes can lead to a crash
+* [Crash] Deleting a channel while in mask view mode leads to a crash
+* [Crash] Some Substances can lead to a crash when rendered
+* [Paint Skew] Selected tool in paint skew stays selected after switching to Painting Mode
+* [Baking Common Settings] Cage Distance settings don't update cage wireframe and shader visualization
+* [Engine] UV padding "3D Space Neighbor" mode doesn't work well on thin triangles
+* [Engine] Anchor point result doesn't render between a mask and a color channel
 
 ### 12.1.0
 
