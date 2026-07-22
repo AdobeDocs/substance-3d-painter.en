@@ -31,9 +31,9 @@ In the New project window, select the mesh file that includes the cameras, and v
 Then click **OK**:
 
 <table>
-  <tr>
-    <td><img src="../../assets/New-project-window-full.png" alt=""/></td>
-    <td><img src="../../assets/project-configuration-full.png" alt=""/></td>
+  <tr style="border: 0;">
+    <td style="border: 0;" valign="top"><img src="../../assets/New-project-window-full.png" alt=""/></td>
+    <td style="border: 0;" valign="top"><img src="../../assets/project-configuration-full.png" alt=""/></td>
   </tr>
 </table>
 

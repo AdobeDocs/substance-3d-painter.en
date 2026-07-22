@@ -14,10 +14,10 @@ user-guide-title: ''
 
 # Help menu
 
-<table>
+<table style="table-layout:auto">
   <tr style="border: 0;">
+    <td style="border: 0;" valign="top">The Help menu contains links and options for you to learn more about Substance 3D Painter. This includes helpful content like tutorials, release notes, and documentation, or places where you can solve problems with your local install of Painter, including access to the logs or a way to report bugs.</td>
     <td style="border: 0;" valign="top"><img src="../../assets/help-menu.png" alt=""/></td>
-    <td style="border: 0;" valign="top">The Help menu contains links and options for you to learn more about Substance 3D Painter. This includes helpful content like tutorials, release notes, and documentation, or places where you can solve problems with your local install of Painter ,including access to the logs or a way to report bugs.</td>
   </tr>
 </table>
 
