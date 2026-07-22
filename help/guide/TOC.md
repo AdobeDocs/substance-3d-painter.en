@@ -48,7 +48,7 @@ user-guide-description: Substance 3D Painter
     + [Mode menu](/help/interface/main-menu/mode-menu.md)
     + [Window menu](/help/interface/main-menu/window-menu.md)
     + [Viewport menu](/help/interface/main-menu/viewport-menu.md)
-    + [Plugins menu](/help/interface/main-menu/plugins-menu.md)
+    + [JavaScript and Python menus](/help/interface/main-menu/plugins-menu.md)
     + [Help menu](/help/interface/main-menu/help-menu.md)
   + [Project configuration](/help/interface/project-configuration.md)
   + [Properties](/help/interface/properties.md)

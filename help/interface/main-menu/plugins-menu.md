@@ -1,26 +1,28 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/plugins-menu.html"
-breadcrumb-title: ""
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/main-menu/plugins-menu.html'
+breadcrumb-title: ''
 description: Learn how to use the Plugins menu in Substance 3D Painter to access and manage installed plugins and extensions.
-helpx_creative_field: ""
+helpx_creative_field: ''
 helpx_description: Painter > Interface > Main menu > Plugins menu
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
-title: Plugins menu
-user-guide-description: ""
-user-guide-title: ""
+helpx_experience_level: ''
+helpx_learn_topic: ''
+helpx_tags: ''
+title: JavaScript and Python menus
+user-guide-description: ''
+user-guide-title: ''
 ---
 
-# Plugins menu
+# JavaScript and Python plugin menus
 
-![](../../assets/javascript-menu.png) ![](../../assets/python-menu.png)   
-The plugin menus lists all the available plugins that are loaded by the application at startup.  
-Each plugin discovered by the application will add an entry in the menu to access additional functions. Plugins are separated into two menus based on the scripting API they are using (Javascript of Python). Each plugin give access to the following action:
+![](../../assets/plugins-javascript.png)
+  
+The JavaScript and Python menus list all the plugins that are loaded by Painter at startup. Plugins are separated into two menus based on the scripting API they are using (Javascript or Python). 
 
-* **disable/enable**: changes the availability of the plugin.
-* **reload**: allows to reload the plugin in case the script changed while the application was running.
+Each plugin discovered by the application will add an entry in the respective menu to access additional functions. In the menus, each plugin has the following options:
+
+* **disable/enable**: toggle the plugin on or off.
+* **reload**: reload the plugin in case the script was updated while the application was running.
 * **configure**: if supported by the plugin, displays the function/window to configure the plugin.
-* **about**: if supported by the plugin, displays an informative window about the plugin.
+* **about**: if supported by the plugin, displays information about the plugin.
 
-To find more information about the default plugins provided with the application or how to create a new one, see the dedicated [Plugins](../../features/plugins/plugins.md) page.
+To learn about the default plugins provided with Painter or how to create new plugins yourself, see the dedicated [Plugins](../../features/plugins/plugins.md) page.
