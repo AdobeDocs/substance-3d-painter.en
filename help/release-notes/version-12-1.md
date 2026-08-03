@@ -23,22 +23,31 @@ Release date: <b>June 22, 2026</b>
 The baking workflow has been reworked to support continuous rebaking, on-mesh skew correction painting, edge protection, and a redesigned mesh map list.
 
 * <b>Automatic rebaking</b>
+
   A mesh map can be rebaked continuously as its baking parameters are adjusted, removing the need to manually trigger a bake after each change. Auto-rebake is toggled per map and applies to a single map at a time. This is particularly convenient for the skew painting workflow, but also when adjusting general bake settings.
 
   ![](../assets/v12/v12_auto_rebake.png)
+
 * <b>Skew correction painting</b>
+
   When the cage is set to <b>Distance-based</b> mode, skew corrections can be painted directly onto the low-poly mesh to control the projection direction used during baking. The brush, eraser, and polygon fill tools are available, with a compact grayscale value picker, symmetry, and the usual brush controls (<b>Ctrl + Right-click</b> to resize the brush, <b>X</b> to invert the painted value). Skew painting actions can be undone.
 
   ![](../assets/v12/v12_skew_fix_rebake.gif)
+
 * <b>Edge protection</b>
+
   When painting skew correction, a new edge protection option preserves the high-poly softness projected onto hard edges. Its result is controlled by the <b>Edge Distance</b> and <b>Edge Contrast</b> parameters.
 
   ![](../assets/v12/v12_skew_edge_distance.gif)
+
 * <b>Redesigned mesh map list</b>
+
   The mesh map list provides per-map controls: toggle a map as the viewport <b>preview</b>, <b>quick bake</b> a single map, toggle its <b>auto-rebake</b>, and <b>sync</b> its settings across Texture Sets (available when the project has several Texture Sets). Each control has a tooltip on hover.
 
   ![](../assets/v12/v12_quick_bake.png)
+
 * <b>Simplified bake button</b>
+
   The viewport bake button has been replaced with a single <b>Bake</b> button that displays the number of maps to bake (Texture Sets x UV Tiles x selected mesh maps).
 
   ![](../assets/v12/v12_bake_button.png)
@@ -54,18 +63,25 @@ The baking workflow has been reworked to support continuous rebaking, on-mesh sk
 The OpenPBR shading model is now supported in Painter and is used as the default workflow, providing a standardized material definition that can be carried across applications.
 
 * <b>New OpenPBR shader and default workflow</b>
+
   A shader implementing the OpenPBR 1.1 specification is available and used by default. A new project created without a template uses the OpenPBR shader, and the first entry of the new project window is now labeled <b>OpenPBR</b> instead of <b>ASM</b>. New project templates for OpenPBR are included, and the sample projects have been updated to use it.
 
   ![](../assets/v12/v12_openpbr_shader_icon.jpg)
+
 * <b>Shader selected from the project template on import</b>
+
   When importing a USD or GLTF file, the shader is now set from the project template rather than guessed from the file content. A message is reported in the log when a material and a template use mismatching workflows.
 
   ![](../assets/v12/v12_openpbr_template.png)
+
 * <b>OpenPBR naming convention on export</b>
+
   The <b>Export Textures</b> window has a new dropdown to choose the naming convention. It defaults to OpenPBR when at least one shader in the project uses it, and the selected scheme is reflected in each Texture Set's list of maps.
 
   ![](../assets/v12/v12_openpbr_export.png)
+
 * <b>USD and MDL support</b>
+
   OpenPBR materials are supported through the USD format. A new MDL has also been added to allow rendering OpenPBR materials in Iray, providing more accurate material representations.
 
 >[!NOTE]
@@ -79,6 +95,7 @@ The OpenPBR shading model is now supported in Painter and is used as the default
 A new automatic unwrapping mode tailored to hard-surface assets has been added.
 
 * <b>Hard surface unwrap mode</b>
+
   A <b>Hard surface</b> option is available in the automatic unwrap settings. It minimizes UV distortion and produces UV layouts aligned orthographically, which makes it better suited to mechanical and hard-surface meshes.
 
   ![](../assets/v12/v12_unwrap_mode.jpg)
@@ -94,22 +111,29 @@ A new automatic unwrapping mode tailored to hard-surface assets has been added.
 Additional features and improvements have been added in this version:
 
 * <b>Add or remove several channels at once</b>
+
   Following the introduction of OpenPBR, a new window accessible from the <b>Texture Set settings</b> allows selecting multiple channels at once, which is convenient when setting up the large channel list used by the OpenPBR workflow.
 
   * The new window is accessible in the Texture Set settings via the <b>Add or remove channels</b> button.
 
     ![](../assets/v12/v12_channel_add_remove_button.png)
+
   * The window gives an overview of all the channels that can be used in Painter.
 
     ![](../assets/v12/v12_channel_window_small.jpg)
+
   * The <b>Apply to all Texture Sets</b> button can be used to edit the channel configuration of all Texture Sets at once.
 
     ![](../assets/v12/v12_channel_apply_all.png)
+
 * <b>Flatten all instances across Texture Sets</b>
+
   A new <b>Flatten all instances</b> option is available on instanced layers and groups. It produces a flattened result across every Texture Set where the instance appears, going down the whole instance tree, and is recorded as a single undo step.
 
   ![](../assets/v12/v12_flatten_instances.png)
+
 * <b>Unified undo history</b>
+
   Baking and painting modes now share the same undo history. Switching between Baking mode and Paint mode is recorded as an undoable step, so actions can be undone only in the mode where they happened.
 
 ## Tutorials
@@ -119,6 +143,23 @@ Take a look at our latest tutorial on Youtube:
 [![](../assets/v12/v12_youtube_tutorial.jpg)](https://www.youtube.com/watch?v=WwyElRpiQgY)
 
 ## Release Notes
+
+### 12.1.2
+
+Release date: **2026/08/03**
+
+Summary: **Minor release**
+
+**Fixed:**
+
+* \[Crash\] Some Substances can lead to a crash when rendered
+* \[Crash\] Reimport mesh while in baking mode
+* \[Crash\] Failure to initialize graphics display can lead to a crash
+* \[Crash\] Exporting textures can crash in some cases while updating the log
+* \[Crash\] Crash in baking mode in some cases when loading/updating the environment map
+* \[Baking\] Relaunching bake after modifying high poly file can lead to a freeze
+* \[Send to Photoshop\] Fails to export layer's mask
+* \[Engine\] Anchor point result doesn't render between a mask and a color channel
 
 ### 12.1.1
 
@@ -207,4 +248,3 @@ Summary: <b>This update is a major release, it contains bakers improvements with
 * &#91;Export&#93; Double sided geometry is always disabled when importing a GLTF file
 * &#91;Javascript&#93; Modification of shaders settings don't contribute to undo history
 * &#91;Samples&#93; Subsurface scattering is not enabled in Display Settings for Meet Mat
-

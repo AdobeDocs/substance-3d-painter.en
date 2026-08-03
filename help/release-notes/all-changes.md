@@ -23,6 +23,23 @@ This page contains release notes for all previous releases of Substance 3D Paint
 
 ## Version 12
 
+### 12.1.2
+
+Release date: **2026/08/03**
+
+Summary: **Minor release**
+
+**Fixed:**
+
+* \[Crash\] Some Substances can lead to a crash when rendered
+* \[Crash\] Reimport mesh while in baking mode
+* \[Crash\] Failure to initialize graphics display can lead to a crash
+* \[Crash\] Exporting textures can crash in some cases while updating the log
+* \[Crash\] Crash in baking mode in some cases when loading/updating the environment map
+* \[Baking\] Relaunching bake after modifying high poly file can lead to a freeze
+* \[Send to Photoshop\] Fails to export layer's mask
+* \[Engine\] Anchor point result doesn't render between a mask and a color channel
+
 ### 12.1.1
 
 Release date: <b>2026/07/09</b>
