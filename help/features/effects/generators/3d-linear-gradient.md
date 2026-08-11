@@ -22,8 +22,8 @@ description: Learn how to use Substance 3D Painter's 3D Linear Gradient generato
 
 | Parameter name | Description |
 | --- | --- |
-| **Invert** | Inverts the linear gradient. |
-| **Balance** | Shifts the linear gradient midpoint position. |
-| **Contrast** | Adjusts the contrast of the linear gradient. |
-| **3D Position Start** | Defines the start point of the gradient based on colors from the position map. To easily define the start point, display the position map on screen in the viewport and use the color picker to pick the start point. |
-| **3D Position End** | Defines the end point of the gradient based on colors from the position map. To easily define the end point, display the position map on screen in the viewport and use the color picker to pick the end point. |
+| **Invert** | Invert the linear gradient. |
+| **Balance** | Shift the linear gradient midpoint position. |
+| **Contrast** | Adjust the contrast of the linear gradient. |
+| **3D Position Start** | Set the start point of the gradient based on colors from the position map. To easily define the start point, display the position map on screen in the viewport and use the color picker to pick the start point. |
+| **3D Position End** | Set the end point of the gradient based on colors from the position map. To easily define the end point, display the position map on screen in the viewport and use the color picker to pick the end point. |

@@ -27,10 +27,10 @@ description: Learn how to use Substance 3D Painter's Ambient Occlusion generator
 
 | Parameter name | Description |
 | --- | --- |
-| **Global Invert** | Inverts the final result after all effects are combined. |
-| **Global Blur** | Smooths the final mask uniformly after all effects are combined. |
-| **Global Balance** | Shifts the balance of the final mask after all effects are combined between black or white, like a brightness adjustment. |
-| **Global Contrast** | Adjusts the contrast of the final mask after all effects are combined. |
+| **Global Invert** | Invert the final result after all effects are combined. |
+| **Global Blur** | Smooth the final mask uniformly after all effects are combined. |
+| **Global Balance** | Shift the balance of the final mask after all effects are combined between black or white, like a brightness adjustment. |
+| **Global Contrast** | Adjust the contrast of the final mask after all effects are combined. |
 | **Use Texture** | Toggle usage of a custom texture map on or off. |
 | **Use Micro Details** | Toggle usage of custom micro details on or off. |
 
@@ -38,10 +38,10 @@ description: Learn how to use Substance 3D Painter's Ambient Occlusion generator
 
 | Parameter name | Description |
 | --- | --- |
-| **Invert** | Inverts just Ambient Occlusion and micro details. |
-| **Blur** | Smooths just Ambient Occlusion and micro details. |
-| **Balance** | Adjusts the balance of just the Ambient Occlusion and micro details, shifting midpoint toward black or white like a brightness control. |
-| **Contrast** | Adjusts the contrast/falloff of just the Ambient Occlusion and micro details. |
+| **Invert** | Invert just Ambient Occlusion and micro details. |
+| **Blur** | Smooth just Ambient Occlusion and micro details. |
+| **Balance** | Adjust the balance of just the Ambient Occlusion and micro details, shifting midpoint toward black or white like a brightness control. |
+| **Contrast** | Adjust the contrast/falloff of just the Ambient Occlusion and micro details. |
 
 ### Texture
 
@@ -52,31 +52,31 @@ description: Learn how to use Substance 3D Painter's Ambient Occlusion generator
   </tr>
   <tr>
     <td><strong>Texture Opacity</strong></td>
-    <td>Controls the visibility of the custom texture.</td>
+    <td>Adjust the visibility of the custom texture.</td>
   </tr>
   <tr>
     <td><strong>Invert</strong></td>
-    <td>Inverts just the custom texture.</td>
+    <td>Invert just the custom texture.</td>
   </tr>
   <tr>
     <td><strong>Grayscale Conversion</strong></td>
-    <td>Controls how a color input map is turned into a black and white mask before it’s used. See the dedicated page about grayscale conversion.</td>
+    <td>Set the method used to convert from full color into grayscale. The <a href="grayscale-conversion.md">Grayscale Conversion generator has more information about how each method works</a>.</td>
   </tr>
   <tr>
     <td><strong>Blending Mode</strong></td>
-    <td>Sets the blending operation to be used. See the dedicated page about blending modes.</td>
+    <td>Select which <a href="../../../interface/layer-stack/blending-modes.md">blending mode</a> to use for the current layer.</td>
   </tr>
   <tr>
     <td><strong>Scale</strong></td>
-    <td>Adjusts the size of the custom texture.</td>
+    <td>Adjust the size of the custom texture.</td>
   </tr>
   <tr>
     <td><strong>Contrast</strong></td>
-    <td>Adjusts the contrast/falloff of the custom texture.</td>
+    <td>Adjust the contrast/falloff of the custom texture.</td>
   </tr>
   <tr>
     <td><strong>Brightness</strong></td>
-    <td>Adjusts the luminosity of the custom texture.</td>
+    <td>Adjust the luminosity of the custom texture.</td>
   </tr>
   <tr>
     <td><strong>Triplanar</strong></td>
@@ -84,7 +84,7 @@ description: Learn how to use Substance 3D Painter's Ambient Occlusion generator
   </tr>
   <tr>
     <td><strong>Triplanar Contrast</strong></td>
-    <td>Controls how smoothly a texture blends when projected using triplanar mapping. It adjusts the softness of the blending between the projections from each direction.</td>
+    <td>Control how smoothly a texture blends when projected using triplanar mapping. This setting adjusts the softness of the blending between the projections from each direction.</td>
   </tr>
 </table>
 
@@ -94,5 +94,5 @@ description: Learn how to use Substance 3D Painter's Ambient Occlusion generator
 | --- | --- |
 | **Micro Height** | Toggle usage of a custom Micro Height map on or off. |
 | **Micro Normal** | Toggle usage of a custom Micro Normal map on or off. |
-| **AO Radius** | Controls the radius (range) of the Ambient Occlusion in micro details. |
-| **AO Depth** | Controls the depth (intensity) of the Ambient Occlusion in micro details. |
+| **AO Radius** | Adjust the radius (range) of the Ambient Occlusion in micro details. |
+| **AO Depth** | Adjust the depth (intensity) of the Ambient Occlusion in micro details. |

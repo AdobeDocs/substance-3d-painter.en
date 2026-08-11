@@ -104,7 +104,7 @@ description: Learn how to use Substance 3D Painter's Curvature generator.
   </tr>
   <tr>
     <td><strong>Grayscale Conversion</strong></td>
-    <td>Select the method used to convert from color input to black and white.</td>
+    <td>Select the method used to convert from color input to black and white. </td>
   </tr>
   <tr>
     <td><strong>Blending Mode</strong></td>

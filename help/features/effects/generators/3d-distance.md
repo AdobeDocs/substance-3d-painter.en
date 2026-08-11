@@ -16,16 +16,16 @@ description: Learn how to use Substance 3D Painter's 3D Distance generator.
 
 | Input name | Description |
 | --- | --- |
-| **Position** | Uses the baked Position map to calculate the distance. |
+| **Position** | Use the baked Position map to calculate the distance. |
 
 ## Parameters
 
 | Parameter name | Description |
 | --- | --- |
-| **Invert** | Inverts the gradient. |
+| **Invert** | Invert the gradient. |
 | **Position X** | Transform the source point along the x axis. |
 | **Position Y** | Transform the source point along the y axis. |
 | **Position Z** | Transform the source point along the z axis. |
-| **Radius** | Adjusts the size of the distance falloff. |
-| **Offset** | Shift the start and end positions of the gradient towards or away from the source point. Shifting away from the source point (increasing the offset) will result in a larger dark area near the source point. Shifting closer to the source point will lighten the gradient, potentially removing it altogether if Offset is set to 0. |
-| **Contrast** | Adjusts the contrast of the spherical gradient. |
+| **Radius** | Adjust the size of the distance falloff. |
+| **Offset** | Shift the start and end positions of the gradient towards or away from the source point. Shifting away from the source point (increasing the offset) results in a larger dark area near the source point. Shifting closer to the source point lightens the gradient, potentially removing it altogether if **Offset** is set to 0. |
+| **Contrast** | Adjust the contrast of the spherical gradient. |

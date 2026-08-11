@@ -23,9 +23,9 @@ description: Learn how to use Substance 3D Painter's Light generator.
 
 | Parameter name | Description |
 | --- | --- |
-| Invert: | Invert the output color map. |
-| Horizontal Angle: | Set the horizontal angle of the fake light. |
-| Vertical Angle: | Set the vertical angle of the fake light. |
-| Highlight Glossiness: | Adjust the falloff spread of the highlighted area. |
-| Highlight Level: | Adjust the contrast of the highlight. |
-| Light Attenuation: | Adjust the light falloff. |
+| **Invert** | Invert the output color map. |
+| **Horizontal Angle** | Set the horizontal angle of the fake light. |
+| **Vertical Angle** | Set the vertical angle of the fake light. |
+| **Highlight Glossiness** | Adjust the falloff spread of the highlighted area. |
+| **Highlight Level** | Adjust the contrast of the highlight. |
+| **Light Attenuation** | Adjust the light falloff. |
