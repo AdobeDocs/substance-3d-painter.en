@@ -68,19 +68,19 @@ The default layout puts the 3D view on the left and the 2D view on the right. A 
     <th><em>Description</em></th>
   </tr>
   <tr>
-    <td><strong>Viewport Mode</strong><br>![](../../assets/viewport-viewmode.png)</td>
+    <td><strong>Viewport Mode</strong><br><img src="../../assets/viewport-viewmode.png"/></td>
     <td>These settings control the layout of the viewport:<br><ul><li><strong>3D/2D</strong> (default): display both the 3D and 2D views in the viewport</li><li><strong>3D only</strong>: maximize the 3D view and hide the 2D view.</li><li><strong>2D only</strong>: maximize the 2D view and hide the 3D view.</li><li><strong>Swap 3D/2D</strong>: exchange the order in which the views are displayed. If the 3D view was on the left it will be on the right after choosing this action.</li></ul></td>
   </tr>
   <tr>
-    <td><strong>Perspective Mode</strong><br>![](../../assets/viewport-camera-projection.png)</td>
+    <td><strong>Perspective Mode</strong><br><img src="../../assets/viewport-camera-projection.png"/></td>
     <td>These setting control how the 3D mesh will appear in the 3D view:<br><ul><li><strong>Perspective view</strong> (default): displays the 3D mesh as it would be seen by the human eye or a camera.</li><li><strong>Orthographic view</strong>: displays the 3D mesh as every direction measure the same length.</li></ul></td>
   </tr>
   <tr>
-    <td><strong>Camera Rotation Mode</strong><br>![](../../assets/viewport-camera-axis.png)</td>
+    <td><strong>Camera Rotation Mode</strong><br><img src="../../assets/viewport-camera-axis.png"/></td>
     <td>This settings control on how many axes the viewport camera can rotate.<br><ul><li><strong>Free rotation</strong>: the camera rotate on the X, Y and Z axes.</li><li><strong>Constrained rotation</strong> (default): the camera rotate only on the X and Y axes (no roll).</li></ul></td>
   </tr>
   <tr>
-    <td><strong>Rendering Mode</strong><br>![](../../assets/viewport-rendering.png)</td>
+    <td><strong>Rendering Mode</strong><br><img src="../../assets/viewport-rendering.png"/></td>
     <td>Switch to the <a href="../../features/iray-renderer/iray-renderer.md">rendering mode</a>.</td>
   </tr>
 </table>
