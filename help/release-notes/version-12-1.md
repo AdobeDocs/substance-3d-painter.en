@@ -144,6 +144,24 @@ Take a look at our latest tutorial on Youtube:
 
 ## Release Notes
 
+### 12.1.3
+
+Release date: **2026/08/25**
+
+Summary: **Minor release**
+
+**Added:**
+
+* Update Substance engine to version 9.4.6v
+
+**Fixed:**
+
+* [Grayscale picker] Picker stays open after changing tool
+* [Skew Baking] Skew correction breaks when painting and undoing
+* [Projection Tool] Viewport interaction is blocked by projection tool
+* [Dynamic Stroke] Missing Dynamic Stroke parameters in brush properties
+* Export to a network does not work anymore
+
 ### 12.1.2
 
 Release date: **2026/08/03**
