@@ -14,23 +14,23 @@ user-guide-title: ""
 
 # Known issues
 
-This page lists all the active known issues present in v12.1.0 of Substance 3D Painter:
-
-* `[Engine]` Error when using Smart Materials if Texture Set has no tile 1001
-* `[Engine]` Painting with Clone tool in normal channel shift colors incorrectly
-* `[Engine]` Geometry mask shows artifacts at UV borders with instanced layers
-* `[Engine]` UV padding "3D Space Neighbor" mode doesn't work well on thin triangles
-* `[Engine]` Anchor point result doesn't render between a mask and a color channel
+This page lists all the active known issues present in v12.1.3 of Substance 3D Painter:
 
 * `[Baking]` Wrong AO on simple cubes
 * `[Baking]` Matching by name suffix interpretation is wrong
 * `[Baking]` Uv seams do not appear after mes reimport
 * `[Baking]` Grid-like artifacts with some settings
+* `[Baking]` Ambient Occlusion Ignore backface by mesh name doesn't work
+* `[Baking]` `[AMD]` Device lost when baking with a heavy high poly meshes
 
 * `[Substance]` Several misspell in resources
 * `[Substance]` Blank space breaks condition for visibility
 * `[Substance]` Presets for some materials take too long to load
 * `[Substance]` Can not import resource with mixed usages
+
+* `[Engine]` Error when using Smart Materials if Texture Set has no tile 1001
+* `[Engine]` Painting with Clone tool in normal channel shift colors incorrectly
+* `[Engine]` Geometry mask shows artifacts at UV borders with instanced layers
 
 * `[Color Management]` Incompatible bindings with generator not used in mask
 * `[Color Management]` Filter output are not properly taken into account
@@ -44,6 +44,9 @@ This page lists all the active known issues present in v12.1.0 of Substance 3D P
 
 * `[Scripting]` `[Javascript]` "Disbaled" typo when specifying dithering parameter in export functions
 * `[Scripting]` `[Python]` Various typos in substance_painter.project module
+
+* `[USD]` Wrong usda assignation in some cases
+* `[USD]` Exported USD geometry is slip along the UV borders
 
 * `[Single Channel View]` Project saved in base color view looks darker after Painter version update
 * `[Single Channel View]` Project saved in base color view looks darker after Painter version update
@@ -85,15 +88,10 @@ This page lists all the active known issues present in v12.1.0 of Substance 3D P
 * `[Mask]` geometry selection is still active after switching to bake mode
 * `[Sonoma]` Icons do not appear in menus
 * `[Path]` Height blending many paths can cause artifacts
-* `[USD]` Wrong usda assignation in some cases
 * `[Polygon Fill]` Changing base color's color space does not update color picker
-* `[Paint Skew]` Selected tool in paint skew stays selected  after switching to Painting Mode
-* `[Color Picker]` Picker stays open after changing tool
 * `[UV Padding]` Artefacts when upscaling texture from 4k to 8k at export
-* `[Baking Common Settings]` Cage Distance settings don't update cage wireframe and shader visualization
-* `[Send to Photoshop]` Fails to export layer's mask
-* `[Skew Baking]` Skew correction breaks when painting and undoing
-* `[Projection Tool]` Viewport interaction is blocked by projection tool
+* `[Performances]` Painter hogs VRAM usage
+* `[Generator]` Setting "use texture" to false doesn't disable the use of the texture input
 * Non-square resources are stretched when used in the brush channel's slots
 * Failed to decode substance
 * Not perfectly superposed UVs can create artefacts
@@ -112,7 +110,8 @@ This page lists all the active known issues present in v12.1.0 of Substance 3D P
 * Brush parameters modifies from contextual toolbar do not appear in history
 * Can not rename or delete export presets if you already deleted and recreated it this session
 * Channel mapping does not work for projection tool preview in some cases
-* Opening and saving some projects can take longer than usual
+* Viewport freeze when saving while editing 3d projection
+* Material layering resolution is too low
 
 ## Stability
 
@@ -124,7 +123,3 @@ This page lists all the active known issues present in v12.1.0 of Substance 3D P
 * `[Crash]` Returning to painting mode after device lost in baking
 * `[Crash]` Exit Painter after cancel maps export
 * `[Crash]` Exporting mesh with some special symbols in camera name
-* `[Crash]` Deleting a channel while in mask view mode leads to a crash
-* `[Crash]` Some Substances can lead to a crash when rendered
-* `[Crash]` Reimport mesh while in baking mode
-* `[Crash]` Reload several meshes can lead to a crash
