@@ -31,7 +31,7 @@ Summary: **Minor release**
 
 **Added:**
 
-* Update Substance engine to version 9.4.6v
+* Update Substance engine to version 9.4.6
 
 **Fixed:**
 
