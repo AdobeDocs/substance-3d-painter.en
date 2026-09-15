@@ -14,7 +14,7 @@ user-guide-title: ""
 
 # Known issues
 
-This page lists all the active known issues present in v12.1.3 of Substance 3D Painter:
+This page lists all the active known issues present in v12.1.5 of Substance 3D Painter:
 
 * `[Baking]` Wrong AO on simple cubes
 * `[Baking]` Matching by name suffix interpretation is wrong
@@ -36,6 +36,10 @@ This page lists all the active known issues present in v12.1.3 of Substance 3D P
 * `[Color Management]` Filter output are not properly taken into account
 * `[Color Management]` HDR color space conversions with ACE on Linux produce clamped colors
 
+* `[USD]` Wrong usda assignation in some cases
+* `[USD]` Exported USD geometry is slip along the UV borders
+* `[USD]` Freeze when loading malformed USDz
+
 * `[Shelf]` Resources get the wrong usage if placed in a folder with a specific name
 * `[Shelf]` `[Substance]` Userdata not taken into account for shelf thumbnail generation
 
@@ -45,8 +49,8 @@ This page lists all the active known issues present in v12.1.3 of Substance 3D P
 * `[Scripting]` `[Javascript]` "Disbaled" typo when specifying dithering parameter in export functions
 * `[Scripting]` `[Python]` Various typos in substance_painter.project module
 
-* `[USD]` Wrong usda assignation in some cases
-* `[USD]` Exported USD geometry is slip along the UV borders
+* `[Path]` Height blending many paths can cause artifacts
+* `[Path]` Blue square selection vibility issue
 
 * `[Single Channel View]` Project saved in base color view looks darker after Painter version update
 * `[Single Channel View]` Project saved in base color view looks darker after Painter version update
@@ -87,11 +91,12 @@ This page lists all the active known issues present in v12.1.3 of Substance 3D P
 * `[User Channels]` Color mixing space preview is wrong
 * `[Mask]` geometry selection is still active after switching to bake mode
 * `[Sonoma]` Icons do not appear in menus
-* `[Path]` Height blending many paths can cause artifacts
 * `[Polygon Fill]` Changing base color's color space does not update color picker
 * `[UV Padding]` Artefacts when upscaling texture from 4k to 8k at export
 * `[Performances]` Painter hogs VRAM usage
-* `[Generator]` Setting "use texture" to false doesn't disable the use of the texture input
+* `[FBX]` Scale issues
+* `[Texture set list]` UV Tiles can be selected at the same time as a texture set
+* `[Viewport]` Cursor lag at the bottom of baking mode viewport
 * Non-square resources are stretched when used in the brush channel's slots
 * Failed to decode substance
 * Not perfectly superposed UVs can create artefacts
@@ -110,8 +115,6 @@ This page lists all the active known issues present in v12.1.3 of Substance 3D P
 * Brush parameters modifies from contextual toolbar do not appear in history
 * Can not rename or delete export presets if you already deleted and recreated it this session
 * Channel mapping does not work for projection tool preview in some cases
-* Viewport freeze when saving while editing 3d projection
-* Material layering resolution is too low
 
 ## Stability
 

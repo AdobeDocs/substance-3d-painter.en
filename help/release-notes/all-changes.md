@@ -23,15 +23,28 @@ This page contains release notes for all previous releases of Substance 3D Paint
 
 ## Version 12
 
-### 12.1.4 
+### 12.1.5
+
+Release date: **2026/09/15**
+
+Summary: **Minor release**
+
+**Fixed:**
+
+* Export image from shelf to a network does not work anymore
+* [Generator] Setting “use texture” to false does not disable the use of the texture input
+* Viewport freeze when saving while editing 3d projection
+* Material layering resolution is too low
+
+### 12.1.4
 
 Release date: **2026/09/04**
 
 Summary: **Minor release**
 
 **Fixed:**
-	
-- \[Crash\] Crash when importing or exporting files whose filenames contain non-ASCII characters
+
+* \[Crash\] Crash when importing or exporting files whose filenames contain non-ASCII characters
 
 ### 12.1.3
 
