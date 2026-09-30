@@ -52,20 +52,11 @@ It is used on a texture layer or inside a mask to add tri-planar blending.
 
 ### Axis X
 
-<table>
-<tr>
-<td><b>Rotation X:</b></td>
-<td>Adjust the rotation of the X-axis texture projection.</td>
-</tr>
-<tr>
-<td><b>Offset X X:</b></td>
-<td>Adjust the X-axis projection offset along the X axis.</td>
-</tr>
-<tr>
-<td><b>Offset X Y:</b></td>
-<td>Adjust the X-axis projection offset along the Y axis.</td>
-</tr>
-</table>
+| Parameter name | Description |
+| --- | --- |
+| **Rotation X:** | Adjust the rotation of the X-axis texture projection. |
+| **Offset X X:** | Adjust the X-axis projection offset along the X axis. |
+| **Offset X Y:** | Adjust the X-axis projection offset along the Y axis. |
 
 >[!NOTE]
 >
@@ -75,20 +66,11 @@ It is used on a texture layer or inside a mask to add tri-planar blending.
 
 ### Axis Y
 
-<table>
-<tr>
-<td><b>Rotation X:</b></td>
-<td>Adjust the rotation of the Y-axis texture projection.</td>
-</tr>
-<tr>
-<td><b>Offset Y X:</b></td>
-<td>Adjust the Y-axis projection offset along the X axis.</td>
-</tr>
-<tr>
-<td><b>Offset Y Y:</b></td>
-<td>Adjust the Y-axis projection offset along the Y axis.</td>
-</tr>
-</table>
+| Parameter name | Description |
+| --- | --- |
+| **Rotation X:** | Adjust the rotation of the Y-axis texture projection. |
+| **Offset Y X:** | Adjust the Y-axis projection offset along the X axis. |
+| **Offset Y Y:** | Adjust the Y-axis projection offset along the Y axis. |
 
 >[!NOTE]
 >
@@ -98,20 +80,11 @@ It is used on a texture layer or inside a mask to add tri-planar blending.
 
 ### Axis Z
 
-<table>
-<tr>
-<td><b>Rotation X:</b></td>
-<td>Adjust the rotation of the Z-axis texture projection.</td>
-</tr>
-<tr>
-<td><b>Offset Z X:</b></td>
-<td>Adjust the Z-axis projection offset along the X axis.</td>
-</tr>
-<tr>
-<td><b>Offset Z Y:</b></td>
-<td>Adjust the Z-axis projection offset along the Y axis.</td>
-</tr>
-</table>
+| Parameter name | Description |
+| --- | --- |
+| **Rotation X:** | Adjust the rotation of the Z-axis texture projection. |
+| **Offset Z X:** | Adjust the Z-axis projection offset along the X axis. |
+| **Offset Z Y:** | Adjust the Z-axis projection offset along the Y axis. |
 
 >[!NOTE]
 >

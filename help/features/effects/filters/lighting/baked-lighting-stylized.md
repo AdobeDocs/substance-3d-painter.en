@@ -61,7 +61,7 @@ It is used on a paint layer set to passthrough mode and applied to all channels.
 | <b>Sky Color:</b> | Adjust the color of the sky light. |
 | <b>Horizon Color:</b> | Adjust the color of the horizon light. |
 | <b>Ground Color:</b> | Adjust the color of the ground light. |
-| <b>Horizontal Angle:</b> | Adjust the horizontal angle of the additional light. |
+| <b>Horizontal Angle:</b> | Adjust the intensity of the additional light. |
 | <b>Vertical Angle:</b> | Adjust the vertical angle of the additional light. |
 | <b>Intensity:</b> | Adjust the intensity of the additional light. |
 | <b>Color:</b> | Adjust the color of the additional light. |
@@ -72,124 +72,46 @@ It is used on a paint layer set to passthrough mode and applied to all channels.
 
 ### Material
 
-<table>
-<tr>
-<td><b>Dielectric Reflectance:</b></td>
-<td>Set the dielectric reflectance amount.</td>
-</tr>
-<tr>
-<td><b>Diffuse AO:</b></td>
-<td>Control how much ambient occlusion affects the diffuse details.</td>
-</tr>
-<tr>
-<td><b>Diffuse Cavity:</b></td>
-<td>Control how much cavity areas influence the diffuse details.</td>
-</tr>
-<tr>
-<td><b>Specular AO:</b></td>
-<td>Control how much ambient occlusion affects the specular details.</td>
-</tr>
-<tr>
-<td><b>Specular Cavity:</b></td>
-<td>Adjust how much cavity areas influence the specular details.</td>
-</tr>
-<tr>
-<td><b>Cavity Smoothness:</b></td>
-<td>Adjust how smooth the cavity areas appear.</td>
-</tr>
-<tr>
-<td><b>Edges Intensity:</b></td>
-<td>Set the strength of the edge details.</td>
-</tr>
-<tr>
-<td><b>Edges Smoothness:</b></td>
-<td>Adjust the smoothness of the edge areas.</td>
-</tr>
-<tr>
-<td><b>Normal Details Type:</b></td>
-<td>Select which details are used for the normals: Mesh only, or Mesh + Height + Normal.</td>
-</tr>
-<tr>
-<td><b>Height to Normal Intensity:</b></td>
-<td>Adjust the strength of the generated normal details.</td>
-</tr>
-</table>
+| Parameter name | Description |
+| --- | --- |
+| **Dielectric Reflectance:** | Set the dielectric reflectance amount. |
+| **Diffuse AO:** | Control how much ambient occlusion affects the diffuse details. |
+| **Diffuse Cavity:** | Control how much cavity areas influence the diffuse details. |
+| **Specular AO:** | Control how much ambient occlusion affects the specular details. |
+| **Specular Cavity:** | Adjust how much cavity areas influence the specular details. |
+| **Cavity Smoothness:** | Adjust how smooth the cavity areas appear. |
+| **Edges Intensity:** | Set the strength of the edge details. |
+| **Edges Smoothness:** | Adjust the smoothness of the edge areas. |
+| **Normal Details Type:** | Select which details are used for the normals: Mesh only, or Mesh + Height + Normal. |
+| **Height to Normal Intensity:** | Adjust the strength of the generated normal details. |
 
 ### Sun & Sky
 
-<table>
-<tr>
-<td><b>Sun Intensity:</b></td>
-<td>Control the strength of the sun.</td>
-</tr>
-<tr>
-<td><b>Sun Horizontal Angle:</b></td>
-<td>Adjust the horizontal angle of the sun.</td>
-</tr>
-<tr>
-<td><b>Sun Vertical Angle:</b></td>
-<td>Adjust the vertical angle of the sun.</td>
-</tr>
-<tr>
-<td><b>Sun Color:</b></td>
-<td>Control the color of the sun.</td>
-</tr>
-<tr>
-<td><b>Sky Intensity:</b></td>
-<td>Adjust the strength of the sky.</td>
-</tr>
-<tr>
-<td><b>Sky Color:</b></td>
-<td>Set the color of the sky.</td>
-</tr>
-<tr>
-<td><b>Horizon Color:</b></td>
-<td>Adjust the color of the horizon.</td>
-</tr>
-<tr>
-<td><b>Ground Color:</b></td>
-<td>Set the color of the ground.</td>
-</tr>
-</table>
+| Parameter name | Description |
+| --- | --- |
+| **Sun Intensity:** | Control the strength of the sun. |
+| **Sun Horizontal Angle:** | Adjust the horizontal angle of the sun. |
+| **Sun Vertical Angle:** | Adjust the vertical angle of the sun. |
+| **Sun Color:** | Control the color of the sun. |
+| **Sky Intensity:** | Adjust the strength of the sky. |
+| **Sky Color:** | Set the color of the sky. |
+| **Horizon Color:** | Adjust the color of the horizon. |
+| **Ground Color:** | Set the color of the ground. |
 
 ### Light 1
 
-<table>
-<tr>
-<td><b>Horizontal Angle:</b></td>
-<td>Adjust the horizontal angle of the additional light.</td>
-</tr>
-<tr>
-<td><b>Vertical Angle:</b></td>
-<td>Adjust the vertical angle of the additional light.</td>
-</tr>
-<tr>
-<td><b>Intensity:</b></td>
-<td>Adjust the strength of the additional light.</td>
-</tr>
-<tr>
-<td><b>Color:</b></td>
-<td>Set the color of the additional light.</td>
-</tr>
-</table>
+| Parameter name | Description |
+| --- | --- |
+| **Horizontal Angle:** | Adjust the horizontal angle of the additional light. |
+| **Vertical Angle:** | Adjust the vertical angle of the additional light. |
+| **Intensity:** | Adjust the strength of the additional light. |
+| **Color:** | Set the color of the additional light. |
 
 ### Light 2
 
-<table>
-<tr>
-<td><b>Horizontal Angle:</b></td>
-<td>Adjust the horizontal angle of the second additional light.</td>
-</tr>
-<tr>
-<td><b>Vertical Angle:</b></td>
-<td>Adjust the vertical angle of the second additional light.</td>
-</tr>
-<tr>
-<td><b>Intensity:</b></td>
-<td>Adjust the strength of the second additional light.</td>
-</tr>
-<tr>
-<td><b>Color:</b></td>
-<td>Set the color of the second additional light.</td>
-</tr>
-</table>
+| Parameter name | Description |
+| --- | --- |
+| **Horizontal Angle:** | Adjust the horizontal angle of the second additional light. |
+| **Vertical Angle:** | Adjust the vertical angle of the second additional light. |
+| **Intensity:** | Adjust the strength of the second additional light. |
+| **Color:** | Set the color of the second additional light. |

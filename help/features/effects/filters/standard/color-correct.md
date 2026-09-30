@@ -32,52 +32,24 @@ It is used on a fill layer to make subtle contrast, luminosity and saturation ad
 
 ### Shadows
 
-<table>
-<tr>
-<td><b>Contrast:</b></td>
-<td>Adjust the contrast of the shadows.</td>
-</tr>
-<tr>
-<td><b>Luminosity:</b></td>
-<td>Adjust the brightness of the shadows.</td>
-</tr>
-<tr>
-<td><b>Saturation:</b></td>
-<td>Adjust the saturation of the shadows.</td>
-</tr>
-</table>
+| Parameter name | Description |
+| --- | --- |
+| **Contrast:** | Adjust the contrast of the shadows. |
+| **Luminosity:** | Adjust the brightness of the shadows. |
+| **Saturation:** | Adjust the saturation of the shadows. |
 
 ### Midtones
 
-<table>
-<tr>
-<td><b>Contrast:</b></td>
-<td>Adjust the contrast of the midtones.</td>
-</tr>
-<tr>
-<td><b>Luminosity:</b></td>
-<td>Adjust the brightness of the midtones.</td>
-</tr>
-<tr>
-<td><b>Saturation:</b></td>
-<td>Adjust the saturation of the midtones.</td>
-</tr>
-</table>
+| Parameter name | Description |
+| --- | --- |
+| **Contrast:** | Adjust the contrast of the midtones. |
+| **Luminosity:** | Adjust the brightness of the midtones. |
+| **Saturation:** | Adjust the saturation of the midtones. |
 
 ### Highlights
 
-<table>
-<tr>
-<td><b>Contrast:</b></td>
-<td>Adjust the contrast of the highlights.</td>
-</tr>
-<tr>
-<td><b>Luminosity:</b></td>
-<td>Adjust the brightness of the highlights.</td>
-</tr>
-<tr>
-<td><b>Saturation:</b></td>
-<td>Adjust the saturation of the highlights.</td>
-</tr>
-</table>
-
+| Parameter name | Description |
+| --- | --- |
+| **Contrast:** | Adjust the contrast of the highlights. |
+| **Luminosity:** | Adjust the brightness of the highlights. |
+| **Saturation:** | Adjust the saturation of the highlights. |

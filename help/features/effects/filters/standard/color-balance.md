@@ -32,52 +32,24 @@ It is used on a fill layer to make subtle color adjustments.
 
 ### Highlights
 
-<table>
-<tr>
-<td><b>Cyan <-> Red:</b></td>
-<td>Shift the color towards cyan or red.</td>
-</tr>
-<tr>
-<td><b>Magenta <-> Green:</b></td>
-<td>Shift the color towards magenta or green.</td>
-</tr>
-<tr>
-<td><b>Yellow <-> Blue:</b></td>
-<td>Shift the color towards yellow or blue.</td>
-</tr>
-</table>
+| Parameter name | Description |
+| --- | --- |
+| **Cyan <-> Red:** | Shift the color towards cyan or red. |
+| **Magenta <-> Green:** | Shift the color towards magenta or green. |
+| **Yellow <-> Blue:** | Shift the color towards yellow or blue. |
 
 ### Midtones
 
-<table>
-<tr>
-<td><b>Cyan <-> Red:</b></td>
-<td>Shift the color towards cyan or red.</td>
-</tr>
-<tr>
-<td><b>Magenta <-> Green:</b></td>
-<td>Shift the color towards magenta or green.</td>
-</tr>
-<tr>
-<td><b>Yellow <-> Blue:</b></td>
-<td>Shift the color towards yellow or blue.</td>
-</tr>
-</table>
+| Parameter name | Description |
+| --- | --- |
+| **Cyan <-> Red:** | Shift the color towards cyan or red. |
+| **Magenta <-> Green:** | Shift the color towards magenta or green. |
+| **Yellow <-> Blue:** | Shift the color towards yellow or blue. |
 
 ### Shadows
 
-<table>
-<tr>
-<td><b>Cyan <-> Red:</b></td>
-<td>Shift the color towards cyan or red.</td>
-</tr>
-<tr>
-<td><b>Magenta <-> Green:</b></td>
-<td>Shift the color towards magenta or green.</td>
-</tr>
-<tr>
-<td><b>Yellow <-> Blue:</b></td>
-<td>Shift the color towards yellow or blue.</td>
-</tr>
-</table>
-
+| Parameter name | Description |
+| --- | --- |
+| **Cyan <-> Red:** | Shift the color towards cyan or red. |
+| **Magenta <-> Green:** | Shift the color towards magenta or green. |
+| **Yellow <-> Blue:** | Shift the color towards yellow or blue. |

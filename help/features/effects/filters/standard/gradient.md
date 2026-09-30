@@ -44,25 +44,10 @@ It can be used to tweak the values of a grayscale image or to colorize grayscale
 
 ### Input Transformation
 
-<table>
-<tr>
-<td><b>Grayscale Mode:</b></td>
-<td>Select the grayscale transformation mode. You can choose between Desaturation, Luma, Average, Max, and Min.</td>
-</tr>
-<tr>
-<td><b>Blur Intensity:</b></td>
-<td>Adjust how much the input is blurred.</td>
-</tr>
-<tr>
-<td><b>Balance:</b></td>
-<td>Adjust the balance of the input by shifting the midpoint toward black or white, similar to a brightness control.</td>
-</tr>
-<tr>
-<td><b>Contrast:</b></td>
-<td>Adjust the contrast of the input.</td>
-</tr>
-<tr>
-<td><b>Invert:</b></td>
-<td>Toggle inversion of the input colors.</td>
-</tr>
-</table>
+| Parameter name | Description |
+| --- | --- |
+| **Grayscale Mode:** | Select the grayscale transformation mode. You can choose between Desaturation, Luma, Average, Max, and Min. |
+| **Blur Intensity:** | Adjust how much the input is blurred. |
+| **Balance:** | Adjust the balance of the input by shifting the midpoint toward black or white, similar to a brightness control. |
+| **Contrast:** | Adjust the contrast of the input. |
+| **Invert:** | Toggle inversion of the input colors. |
