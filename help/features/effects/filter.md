@@ -1,9 +1,9 @@
 ---
-title: Filter
+title: Filters
 description: Learn how to use filter effects in Substance 3D Painter to apply image processing filters and texture adjustments.
 ---
 
-# Filter
+# Filters
 
 Filter Effects are substances that transform the contents of a layer or mask. With the Passthrough blend mode, a layer can modify the results of the layer stack; using a filter on a layer with the Passthrough blend mode thus allows you to use filters to modify the layer stack as a whole.
 
@@ -14,7 +14,7 @@ Depending of the filter type, a filter effect has to be created on the content o
 * The manual approach requires multiple steps to set up the filter but provides direct control over each step of the process.
 * The drag-and-drop approach allows you to add a filter quickly and automatically sets the blend mode to passthrough on all channels.
 
-### Manually apply a Filter
+### Manually add a Filter
 
 In the following example a blur filter is applied on the content of a layer, but it is more commonly used for applying Filters to Masks :
 
@@ -51,13 +51,17 @@ Select the filter you want to use in the shelf. Drag and Drop it into your layer
 
 Note, in the above example, that the dropped filter already has a Passthrough Blending mode. This is true for all channels of the document.
 
-## Add new filters
+## Add new filters to Painter
 
-All filters are Substances, which can be created with Substance 3D Designer. As a quick startup, Substance 3D Designer provide templates ready to use for Substance 3D Painter.
+If you have new filters to bring into Painter, you can add them just like you would add standard resources - just drag-and-drop the SBSAR file onto the **Assets Panel** and you will be able to manage the import of your new filters.
+
+## Create your own filters
+
+All filters are Substances, which can be created with Substance 3D Designer. Substance 3D Designer provides templates for Substance 3D Painter to help you get started quickly.
 
 For more information see this page : [Creating custom effects](../../content/creating-custom-effects/creating-custom-effects.md)
 
-## Available filters
+## Default filters in Painter
 
 ### Standard
 
