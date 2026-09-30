@@ -1,0 +1,390 @@
+{
+  "version": 1,
+  "display_name": "Painter default",
+  "parameters": {
+    "Normal Format": "Switch between different Normal Map formats (inverts the green channel)",
+    "Balance": "Shifts the balance of the result between black or white, like a brightness adjustment",
+    "Contrast": "Adjusts the contrast/falloff of the result.",
+    "Invert": "Inverts the result.",
+    "Tiling": "Sets the amount of times the result should tile.",
+    "Seed": "Assign a random value to create a different variation without changing the overall settings.",
+    "Global Invert": "Inverts the effect.",
+    "Global Blur": "",
+    "Global Contrast": "",
+    "Global Balance": "",
+    "Blur": "",
+    "Brightness": "",
+    "Blending Mode": "",
+    "Right to Left": "",
+    "Top To Bottom": "",
+    "Front to Back": "",
+    "Texture Opacity": "",
+    "Grayscale Conversion": "",
+    "Scale": "",
+    "Triplanar": "",
+    "Triplanar Contrast": "",
+    "Use Texture": ""
+  },
+  "blending_intensity_template": "Blending strength of the {key}.",
+  "channels_intro": "Toggle material channels on and off in this group, when using Specular/Glossiness maps instead of Metallic/Roughness for example.",
+  "input_rules": [
+    {
+      "id": "Texture",
+      "match_type": "contains",
+      "match_value": "Texture",
+      "match_values": [],
+      "text": "Use a custom texture.",
+      "append_boolean_toggle": false,
+      "toggle_lookup_param_names": [
+        "Mask",
+        "Use Mask",
+        "Alpha Blending"
+      ],
+      "toggle_template": " Can be toggled with the \"{mask_param}\" parameter.",
+      "append_pattern_dropdown": false,
+      "pattern_lookup_param_names": [
+        "Pattern Type",
+        "Pattern"
+      ],
+      "pattern_suffix_template": ", used when the \"{pattern_param}\" parameter is set to \"Image Input\"",
+      "append_period": false
+    },
+    {
+      "id": "Texture (Secondary)",
+      "match_type": "contains",
+      "match_value": "Texture (Secondary)",
+      "match_values": [],
+      "text": "Use a custom texture.",
+      "append_boolean_toggle": false,
+      "toggle_lookup_param_names": [
+        "Mask",
+        "Use Mask",
+        "Alpha Blending"
+      ],
+      "toggle_template": " Can be toggled with the \"{mask_param}\" parameter.",
+      "append_pattern_dropdown": false,
+      "pattern_lookup_param_names": [
+        "Pattern Type",
+        "Pattern"
+      ],
+      "pattern_suffix_template": ", used when the \"{pattern_param}\" parameter is set to \"Image Input\"",
+      "append_period": false
+    },
+    {
+      "id": "Custom grunge",
+      "match_type": "contains",
+      "match_value": "Custom grunge",
+      "match_values": [],
+      "text": "Use a custom texture.",
+      "append_boolean_toggle": false,
+      "toggle_lookup_param_names": [
+        "Mask",
+        "Use Mask",
+        "Alpha Blending"
+      ],
+      "toggle_template": " Can be toggled with the \"{mask_param}\" parameter.",
+      "append_pattern_dropdown": false,
+      "pattern_lookup_param_names": [
+        "Pattern Type",
+        "Pattern"
+      ],
+      "pattern_suffix_template": ", used when the \"{pattern_param}\" parameter is set to \"Image Input\"",
+      "append_period": false
+    },
+    {
+      "id": "Custom grunge 1",
+      "match_type": "contains",
+      "match_value": "Custom grunge 1",
+      "match_values": [],
+      "text": "Use a custom texture.",
+      "append_boolean_toggle": false,
+      "toggle_lookup_param_names": [
+        "Mask",
+        "Use Mask",
+        "Alpha Blending"
+      ],
+      "toggle_template": " Can be toggled with the \"{mask_param}\" parameter.",
+      "append_pattern_dropdown": false,
+      "pattern_lookup_param_names": [
+        "Pattern Type",
+        "Pattern"
+      ],
+      "pattern_suffix_template": ", used when the \"{pattern_param}\" parameter is set to \"Image Input\"",
+      "append_period": false
+    },
+    {
+      "id": "Custom grunge 2",
+      "match_type": "contains",
+      "match_value": "Custom grunge 2",
+      "match_values": [],
+      "text": "Use a custom texture.",
+      "append_boolean_toggle": false,
+      "toggle_lookup_param_names": [
+        "Mask",
+        "Use Mask",
+        "Alpha Blending"
+      ],
+      "toggle_template": " Can be toggled with the \"{mask_param}\" parameter.",
+      "append_pattern_dropdown": false,
+      "pattern_lookup_param_names": [
+        "Pattern Type",
+        "Pattern"
+      ],
+      "pattern_suffix_template": ", used when the \"{pattern_param}\" parameter is set to \"Image Input\"",
+      "append_period": false
+    },
+    {
+      "id": "Source",
+      "match_type": "contains",
+      "match_value": "Source",
+      "match_values": [],
+      "text": "Use a custom color map.",
+      "append_boolean_toggle": false,
+      "toggle_lookup_param_names": [
+        "Mask",
+        "Use Mask",
+        "Alpha Blending"
+      ],
+      "toggle_template": " Can be toggled with the \"{mask_param}\" parameter.",
+      "append_pattern_dropdown": false,
+      "pattern_lookup_param_names": [
+        "Pattern Type",
+        "Pattern"
+      ],
+      "pattern_suffix_template": ", used when the \"{pattern_param}\" parameter is set to \"Image Input\"",
+      "append_period": false
+    },
+    {
+      "id": "Custom Input",
+      "match_type": "contains",
+      "match_value": "Custom Input",
+      "match_values": [],
+      "text": "Use a custom texture.",
+      "append_boolean_toggle": false,
+      "toggle_lookup_param_names": [
+        "Mask",
+        "Use Mask",
+        "Alpha Blending"
+      ],
+      "toggle_template": " Can be toggled with the \"{mask_param}\" parameter.",
+      "append_pattern_dropdown": false,
+      "pattern_lookup_param_names": [
+        "Pattern Type",
+        "Pattern"
+      ],
+      "pattern_suffix_template": ", used when the \"{pattern_param}\" parameter is set to \"Image Input\"",
+      "append_period": false
+    },
+    {
+      "id": "Scatter input",
+      "match_type": "contains",
+      "match_value": "Scatter input",
+      "match_values": [],
+      "text": "",
+      "append_boolean_toggle": false,
+      "toggle_lookup_param_names": [
+        "Mask",
+        "Use Mask",
+        "Alpha Blending"
+      ],
+      "toggle_template": " Can be toggled with the \"{mask_param}\" parameter.",
+      "append_pattern_dropdown": false,
+      "pattern_lookup_param_names": [
+        "Pattern Type",
+        "Pattern"
+      ],
+      "pattern_suffix_template": ", used when the \"{pattern_param}\" parameter is set to \"Image Input\"",
+      "append_period": false
+    },
+    {
+      "id": "World Space Normals",
+      "match_type": "contains",
+      "match_value": "World Space Normals",
+      "match_values": [],
+      "text": "Use the baked world space normals map.",
+      "append_boolean_toggle": false,
+      "toggle_lookup_param_names": [
+        "Mask",
+        "Use Mask",
+        "Alpha Blending"
+      ],
+      "toggle_template": " Can be toggled with the \"{mask_param}\" parameter.",
+      "append_pattern_dropdown": false,
+      "pattern_lookup_param_names": [
+        "Pattern Type",
+        "Pattern"
+      ],
+      "pattern_suffix_template": ", used when the \"{pattern_param}\" parameter is set to \"Image Input\"",
+      "append_period": false
+    },
+    {
+      "id": "Position Gradient",
+      "match_type": "contains",
+      "match_value": "Position Gradient",
+      "match_values": [],
+      "text": "Use the baked position map.",
+      "append_boolean_toggle": false,
+      "toggle_lookup_param_names": [
+        "Mask",
+        "Use Mask",
+        "Alpha Blending"
+      ],
+      "toggle_template": " Can be toggled with the \"{mask_param}\" parameter.",
+      "append_pattern_dropdown": false,
+      "pattern_lookup_param_names": [
+        "Pattern Type",
+        "Pattern"
+      ],
+      "pattern_suffix_template": ", used when the \"{pattern_param}\" parameter is set to \"Image Input\"",
+      "append_period": false
+    },
+    {
+      "id": "Position",
+      "match_type": "contains",
+      "match_value": "Position",
+      "match_values": [],
+      "text": "Use the baked position map.",
+      "append_boolean_toggle": false,
+      "toggle_lookup_param_names": [
+        "Mask",
+        "Use Mask",
+        "Alpha Blending"
+      ],
+      "toggle_template": " Can be toggled with the \"{mask_param}\" parameter.",
+      "append_pattern_dropdown": false,
+      "pattern_lookup_param_names": [
+        "Pattern Type",
+        "Pattern"
+      ],
+      "pattern_suffix_template": ", used when the \"{pattern_param}\" parameter is set to \"Image Input\"",
+      "append_period": false
+    },
+    {
+      "id": "Thickness",
+      "match_type": "contains",
+      "match_value": "Thickness",
+      "match_values": [],
+      "text": "Use the baked thickness map.",
+      "append_boolean_toggle": false,
+      "toggle_lookup_param_names": [
+        "Mask",
+        "Use Mask",
+        "Alpha Blending"
+      ],
+      "toggle_template": " Can be toggled with the \"{mask_param}\" parameter.",
+      "append_pattern_dropdown": false,
+      "pattern_lookup_param_names": [
+        "Pattern Type",
+        "Pattern"
+      ],
+      "pattern_suffix_template": ", used when the \"{pattern_param}\" parameter is set to \"Image Input\"",
+      "append_period": false
+    },
+    {
+      "id": "Curvature",
+      "match_type": "contains",
+      "match_value": "Curvature",
+      "match_values": [],
+      "text": "Use the baked curvature map.",
+      "append_boolean_toggle": false,
+      "toggle_lookup_param_names": [
+        "Mask",
+        "Use Mask",
+        "Alpha Blending"
+      ],
+      "toggle_template": " Can be toggled with the \"{mask_param}\" parameter.",
+      "append_pattern_dropdown": false,
+      "pattern_lookup_param_names": [
+        "Pattern Type",
+        "Pattern"
+      ],
+      "pattern_suffix_template": ", used when the \"{pattern_param}\" parameter is set to \"Image Input\"",
+      "append_period": false
+    },
+    {
+      "id": "Ambient Occlusion",
+      "match_type": "contains",
+      "match_value": "Ambient Occlusion",
+      "match_values": [],
+      "text": "Use the baked ambient occlusion map.",
+      "append_boolean_toggle": false,
+      "toggle_lookup_param_names": [
+        "Mask",
+        "Use Mask",
+        "Alpha Blending"
+      ],
+      "toggle_template": " Can be toggled with the \"{mask_param}\" parameter.",
+      "append_pattern_dropdown": false,
+      "pattern_lookup_param_names": [
+        "Pattern Type",
+        "Pattern"
+      ],
+      "pattern_suffix_template": ", used when the \"{pattern_param}\" parameter is set to \"Image Input\"",
+      "append_period": false
+    },
+    {
+      "id": "Micro Normal",
+      "match_type": "contains",
+      "match_value": "Micro Normal",
+      "match_values": [],
+      "text": "",
+      "append_boolean_toggle": false,
+      "toggle_lookup_param_names": [
+        "Mask",
+        "Use Mask",
+        "Alpha Blending"
+      ],
+      "toggle_template": " Can be toggled with the \"{mask_param}\" parameter.",
+      "append_pattern_dropdown": false,
+      "pattern_lookup_param_names": [
+        "Pattern Type",
+        "Pattern"
+      ],
+      "pattern_suffix_template": ", used when the \"{pattern_param}\" parameter is set to \"Image Input\"",
+      "append_period": false
+    },
+    {
+      "id": "Micro Height",
+      "match_type": "contains",
+      "match_value": "Micro Height",
+      "match_values": [],
+      "text": "",
+      "append_boolean_toggle": false,
+      "toggle_lookup_param_names": [
+        "Mask",
+        "Use Mask",
+        "Alpha Blending"
+      ],
+      "toggle_template": " Can be toggled with the \"{mask_param}\" parameter.",
+      "append_pattern_dropdown": false,
+      "pattern_lookup_param_names": [
+        "Pattern Type",
+        "Pattern"
+      ],
+      "pattern_suffix_template": ", used when the \"{pattern_param}\" parameter is set to \"Image Input\"",
+      "append_period": false
+    }
+  ],
+  "markdown": {
+    "graph_title": "# {title}",
+    "location_line": "**In:** *{location}*",
+    "graph_description": "{description}",
+    "complexity_line": "{complexity}",
+    "complexity_simple": "**Simple**",
+    "complexity_intermediate": "**Intermediate**",
+    "complexity_complex": "**Complex**",
+    "complexity_unknown": "?",
+    "inputs_heading": "### Inputs",
+    "input_item": "- **{name}**: *{type} Input*",
+    "input_help_line": "  {help}",
+    "input_help_empty": "",
+    "parameters_heading": "## Parameters",
+    "param_group_item": "- **{group}**",
+    "param_row": "- **{name}**: *{range}*",
+    "param_body_line": "  {body}",
+    "nested_indent": "    ",
+    "channels_bullet": "- {text}",
+    "no_params": "*No parameters.{generator_note}*",
+    "no_params_generator_note": " Remember you can always change base parameters such as the Random Seed."
+  }
+}

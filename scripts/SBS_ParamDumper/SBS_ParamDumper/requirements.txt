@@ -1,0 +1,3 @@
+# Optional but recommended for the Export tab live preview (formatted HTML / rendered Markdown).
+tkinterweb>=3.23
+markdown>=3.4

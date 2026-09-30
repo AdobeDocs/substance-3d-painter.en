@@ -1,0 +1,13 @@
+{
+  "dump_config": {
+    "category_source": "xml",
+    "normalize_xml_category_names": true,
+    "remap_graph_tags": true,
+    "allow_graphs_without_tag": false,
+    "show_complexity_rating": true,
+    "hide_workflow_normal_params": false,
+    "show_graph_tag_in_header": true,
+    "check_tag_conflicts_for_output_layout": true,
+    "nest_output_subfolder_by_tag": true
+  }
+}
