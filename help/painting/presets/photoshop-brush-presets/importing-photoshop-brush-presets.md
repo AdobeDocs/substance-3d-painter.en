@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/importing-photoshop-brush-presets.html"
 breadcrumb-title: ""
 description: Learn how to import Photoshop brush presets (ABR files) into Substance 3D Painter to expand your brush library.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Importing Photoshop Brush Presets
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Importing Photoshop Brush Presets
 user-guide-description: ""
 user-guide-title: ""

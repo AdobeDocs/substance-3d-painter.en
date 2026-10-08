@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/plugins/resources-updater.html"
 breadcrumb-title: ""
 description: Learn how to use the Resources Updater plugin in Substance 3D Painter to automatically update resource libraries and assets.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Plugins > Resources Updater
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Resources Updater
 user-guide-description: ""
 user-guide-title: ""

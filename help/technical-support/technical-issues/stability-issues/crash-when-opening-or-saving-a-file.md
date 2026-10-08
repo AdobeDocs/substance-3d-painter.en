@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-when-opening-or-saving-a-file.html"
 breadcrumb-title: ""
 description: Learn how to fix Substance 3D Painter crashes when opening or saving files for reliable project management.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash when opening or saving a file
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Crash when opening or saving a file
 user-guide-description: ""
 user-guide-title: ""

@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/advanced-channel-painting/normal-map-painting.html"
 breadcrumb-title: ""
 description: Learn how to paint normal maps directly in Substance 3D Painter to add surface detail and depth to your textures.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Advanced channel painting > Normal Map Painting
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Normal Map Painting
 user-guide-description: ""
 user-guide-title: ""

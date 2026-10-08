@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/project-issues/preserve-brush-strokes-setting-stays-disabled.html"
 breadcrumb-title: ""
 description: Learn how to fix the preserve brush strokes setting staying disabled in Substance 3D Painter for proper brush stroke preservation.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Project Issues > Preserve brush strokes setting stays disabled
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Preserve brush strokes setting stays disabled
 user-guide-description: ""
 user-guide-title: ""

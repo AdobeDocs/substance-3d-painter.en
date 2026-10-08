@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list.html"
 breadcrumb-title: ""
 description: Explore the complete tool list for Substance 3D Painter to discover all available painting and texture creation tools.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Tool list
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Tool list
 user-guide-description: ""
 user-guide-title: ""

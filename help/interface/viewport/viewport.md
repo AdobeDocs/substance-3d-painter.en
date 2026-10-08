@@ -1,7 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/viewport.html'
 description: Learn how to use the viewport in Substance 3D Painter to visualize your 3D models and textures during the painting process.
-helpx_description: Painter > Interface > Viewport
 title: Viewport
 ---
 

@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/navigation.html"
 breadcrumb-title: ""
 description: Learn how to navigate the Assets panel in Substance 3D Painter to browse and access your resource library efficiently.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Assets > Navigation
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Navigation
 user-guide-description: ""
 user-guide-title: ""

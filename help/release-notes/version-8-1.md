@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-8-1.html"
 breadcrumb-title: ""
 description: Review release notes for Substance 3D Painter version 8.1 to learn about new features, improvements, and bug fixes.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Version 8.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 8.1
 user-guide-description: ""
 user-guide-title: ""

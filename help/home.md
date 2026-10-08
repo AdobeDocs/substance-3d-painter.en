@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/home.html"
 breadcrumb-title: ""
 description: Get started with Substance 3D Painter to paint textures directly onto 3D models and create realistic material surfaces.
-helpx_creative_field: ""
-helpx_description: Painter > Home
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Substance 3D Painter
 user-guide-description: ""
 user-guide-title: ""

@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set/texture-set-list.html"
 breadcrumb-title: ""
 description: Learn how to use the texture set list in Substance 3D Painter to manage and organize multiple texture sets in your project.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Texture Set > Texture Set list
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Texture Set list
 user-guide-description: ""
 user-guide-title: ""

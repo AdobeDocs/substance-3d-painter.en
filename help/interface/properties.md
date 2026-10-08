@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/properties.html"
 breadcrumb-title: ""
 description: Learn how to use the Properties panel in Substance 3D Painter to adjust layer, material, and tool parameters.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Properties
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Properties
 user-guide-description: ""
 user-guide-title: ""

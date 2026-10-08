@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/photoshop-brush-presets-abr.html"
 breadcrumb-title: ""
 description: Learn how to use Photoshop brush presets (ABR files) in Substance 3D Painter to leverage your existing brush collection.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets > Photoshop Brush Presets (ABR)
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Photoshop Brush Presets (ABR)
 user-guide-description: ""
 user-guide-title: ""

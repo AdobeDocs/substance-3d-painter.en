@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/shelf-issues/thumbnails-in-the-shelf-look-incorrect.html"
 breadcrumb-title: ""
 description: Learn how to fix incorrect thumbnail display in Substance 3D Painter shelf to ensure accurate resource previews.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Shelf Issues > Thumbnails in the shelf look incorrect
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Thumbnails in the shelf look incorrect
 user-guide-description: ""
 user-guide-title: ""

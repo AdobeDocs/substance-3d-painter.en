@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/creating-export-presets.html"
 breadcrumb-title: ""
 description: Learn how to create custom output templates in Substance 3D Painter to define your own texture export configurations.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Creating Output templates
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Creating Output templates
 user-guide-description: ""
 user-guide-title: ""

@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-10-1.html"
 breadcrumb-title: ""
 description: Review release notes for Substance 3D Painter version 10.1 to learn about new features, improvements, and bug fixes.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 10.1
 user-guide-description: ""
 user-guide-title: ""

@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects.html"
 breadcrumb-title: ""
 description: Learn how to use effects in Substance 3D Painter to apply filters, generators, and adjustments to texture layers.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Effects
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Effects
 user-guide-description: ""
 user-guide-title: ""

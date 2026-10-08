@@ -1,12 +1,6 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/project-configuration.html'
 breadcrumb-title: ''
 description: 'Learn how to configure project settings in Substance 3D Painter to set up texture resolution, channels, and project properties.'
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Project configuration
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Project configuration
 user-guide-description: ''
 user-guide-title: ''

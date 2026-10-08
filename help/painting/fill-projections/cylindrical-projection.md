@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/cylindrical-projection.html"
 breadcrumb-title: ""
 description: Use cylindrical projection in Substance 3D Painter to project textures from a cylinder for wrapping textures around cylindrical objects.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Fill projections > Cylindrical projection
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Cylindrical projection
 user-guide-description: ""
 user-guide-title: ""

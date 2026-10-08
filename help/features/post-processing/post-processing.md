@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing.html"
 breadcrumb-title: ""
 description: Learn how to use post-processing effects in Substance 3D Painter to enhance viewport rendering with color grading and visual effects.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Post Processing
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Post Processing
 user-guide-description: ""
 user-guide-title: ""

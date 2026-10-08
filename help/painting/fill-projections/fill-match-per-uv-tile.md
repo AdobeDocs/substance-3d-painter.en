@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/fill-match-per-uv-tile.html"
 breadcrumb-title: ""
 description: Use fill match per UV tile in Substance 3D Painter to match texture patterns across UV tiles for seamless tiling.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Fill projections > Fill (match per UV Tile)
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Fill (match per UV Tile)
 user-guide-description: ""
 user-guide-title: ""

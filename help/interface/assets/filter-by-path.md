@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/filter-by-path.html"
 breadcrumb-title: ""
 description: Learn how to filter assets by path in Substance 3D Painter to quickly locate resources in your library structure.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Assets > Filter by path
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Filter by path
 user-guide-description: ""
 user-guide-title: ""

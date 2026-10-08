@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/masking-and-effects.html"
 breadcrumb-title: ""
 description: Learn how to use masking and effects in Substance 3D Painter layer stack to control layer visibility and apply layer effects.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Masking and effects
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Masking and effects
 user-guide-description: ""
 user-guide-title: ""

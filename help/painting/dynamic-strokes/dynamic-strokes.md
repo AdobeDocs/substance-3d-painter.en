@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes.html"
 breadcrumb-title: ""
 description: Learn how to use dynamic strokes in Substance 3D Painter to create responsive brush strokes that adapt to painting speed and pressure.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Dynamic strokes
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Dynamic strokes
 user-guide-description: ""
 user-guide-title: ""

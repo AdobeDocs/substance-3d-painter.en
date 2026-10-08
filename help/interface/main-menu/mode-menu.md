@@ -1,12 +1,6 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/main-menu/mode-menu.html'
 breadcrumb-title: ''
 description: Learn how to use the Mode menu in Substance 3D Painter to switch between different application modes and workflows.
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Main menu > Mode menu
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Mode menu
 user-guide-description: ''
 user-guide-title: ''

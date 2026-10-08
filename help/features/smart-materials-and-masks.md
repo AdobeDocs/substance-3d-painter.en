@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/smart-materials-and-masks.html"
 breadcrumb-title: ""
 description: Learn how to use smart materials and masks in Substance 3D Painter to create procedural textures that adapt to geometry.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Smart Materials and Masks
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Smart Materials and Masks
 user-guide-description: ""
 user-guide-title: ""

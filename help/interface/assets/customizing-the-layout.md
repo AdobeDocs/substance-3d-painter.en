@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/customizing-the-layout.html"
 breadcrumb-title: ""
 description: Learn how to customize the Assets panel layout in Substance 3D Painter to optimize your resource browsing experience.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Assets > Customizing the layout
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Customizing the layout
 user-guide-description: ""
 user-guide-title: ""

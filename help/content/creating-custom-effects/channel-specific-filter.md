@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/channel-specific-filter.html"
 breadcrumb-title: ""
 description: Learn how to create channel-specific filter effects for Substance 3D Painter to process individual texture channels.
-helpx_creative_field: ""
-helpx_description: Painter > Content > Creating custom effects > Channel specific filter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Channel specific filter
 user-guide-description: ""
 user-guide-title: ""

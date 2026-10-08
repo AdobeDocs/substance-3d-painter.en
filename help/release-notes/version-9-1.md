@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-9-1.html"
 breadcrumb-title: ""
 description: Review release notes for Substance 3D Painter version 9.1 to learn about new features, improvements, and bug fixes.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter 9.1 adds tangent control for the Path tool, support of the SVG file format, the ability to import and apply resources by drag and drop and support for translucency in the viewport.
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 9.1
 user-guide-description: ""
 user-guide-title: ""

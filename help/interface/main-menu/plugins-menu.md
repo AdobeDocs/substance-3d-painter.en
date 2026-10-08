@@ -1,12 +1,6 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/main-menu/plugins-menu.html'
 breadcrumb-title: ''
 description: Learn how to use the Plugins menu in Substance 3D Painter to access and manage installed plugins and extensions.
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Main menu > Plugins menu
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: JavaScript and Python menus
 user-guide-description: ''
 user-guide-title: ''

@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/lens-distortion.html"
 breadcrumb-title: ""
 description: Learn how to use lens distortion post-processing in Substance 3D Painter to simulate camera lens effects in the viewport.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Post Processing > Lens Distortion
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Lens Distortion
 user-guide-description: ""
 user-guide-title: ""

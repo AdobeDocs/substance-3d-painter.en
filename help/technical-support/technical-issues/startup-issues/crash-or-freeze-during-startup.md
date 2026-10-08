@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
 breadcrumb-title: ""
 description: Learn how to fix crashes and freezes during Substance 3D Painter startup for stable application launch.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Startup Issues > Crash or freeze during startup
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Crash or freeze during startup
 user-guide-description: ""
 user-guide-title: ""

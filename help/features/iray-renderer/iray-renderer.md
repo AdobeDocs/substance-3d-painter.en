@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/iray-renderer.html"
 breadcrumb-title: ""
 description: Learn how to use the Iray renderer in Substance 3D Painter to create photorealistic material previews and renders.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Iray Renderer
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Iray Renderer
 user-guide-description: ""
 user-guide-title: ""

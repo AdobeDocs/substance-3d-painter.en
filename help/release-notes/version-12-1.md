@@ -1,7 +1,6 @@
 ---
 title: Version 12.1
 description: Release notes of version 12.1
-helpx_description: Substance 3D Painter
 ---
 
 # Version 12.1

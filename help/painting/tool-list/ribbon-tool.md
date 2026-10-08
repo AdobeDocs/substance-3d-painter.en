@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/ribbon-tool.html"
 breadcrumb-title: ""
 description: Use the Ribbon tool in Substance 3D Painter to create ribbon-like paint strokes along paths for decorative texture painting.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Ribbon path
 user-guide-description: ""
 user-guide-title: ""

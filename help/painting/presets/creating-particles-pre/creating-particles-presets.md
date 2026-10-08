@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-particles-presets.html"
 breadcrumb-title: ""
 description: Learn how to create particle brush presets in Substance 3D Painter to add dynamic texture painting effects to your workflow.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets > Creating particles presets
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Creating particles presets
 user-guide-description: ""
 user-guide-title: ""

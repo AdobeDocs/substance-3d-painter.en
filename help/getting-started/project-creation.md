@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/project-creation.html"
 breadcrumb-title: ""
 description: Learn how to create a new project in Substance 3D Painter to start painting textures on your 3D models.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Project Creation
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Project Creation
 user-guide-description: ""
 user-guide-title: ""

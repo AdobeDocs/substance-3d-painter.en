@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes/enabling-dynamic-stroke-feature.html"
 breadcrumb-title: ""
 description: Learn how to enable the dynamic stroke feature in Substance 3D Painter to create responsive brush strokes with variable effects.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Dynamic strokes > Enabling Dynamic Stroke Feature
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Enabling Dynamic Stroke Feature
 user-guide-description: ""
 user-guide-title: ""

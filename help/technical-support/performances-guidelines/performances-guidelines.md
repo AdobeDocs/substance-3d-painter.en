@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/performances-guidelines.html"
 breadcrumb-title: ""
 description: Access performance optimization guidelines for Substance 3D Painter to improve application speed and efficiency.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Performance guidelines
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Performance guidelines
 user-guide-description: ""
 user-guide-title: ""

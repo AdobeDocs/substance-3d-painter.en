@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-presets.html"
 breadcrumb-title: ""
 description: Learn how to use output templates in Substance 3D Painter to configure texture export formats and channel mappings.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Output templates
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Output templates
 user-guide-description: ""
 user-guide-title: ""

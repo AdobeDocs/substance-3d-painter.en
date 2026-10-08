@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/lazy-mouse.html"
 breadcrumb-title: ""
 description: Learn how to use lazy mouse in Substance 3D Painter to create smooth, fluid brush strokes with delayed cursor response.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Lazy mouse
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Lazy mouse
 user-guide-description: ""
 user-guide-title: ""

@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/activation-and-licenses.html"
 breadcrumb-title: ""
 description: Learn how to activate Substance 3D Painter and manage licenses to start using the application for texture painting.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Activation and licenses
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Activation and licenses
 user-guide-description: ""
 user-guide-title: ""

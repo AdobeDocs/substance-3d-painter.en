@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set.html"
 breadcrumb-title: ""
 description: Learn how to work with texture sets in Substance 3D Painter to organize textures and manage different material assignments.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Texture Set
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Texture Set
 user-guide-description: ""
 user-guide-title: ""

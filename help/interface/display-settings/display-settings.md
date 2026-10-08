@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/display-settings.html"
 breadcrumb-title: ""
 description: Learn how to configure display settings in Substance 3D Painter to customize viewport rendering and visual quality.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Display settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Display settings
 user-guide-description: ""
 user-guide-title: ""

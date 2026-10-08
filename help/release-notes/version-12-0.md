@@ -1,8 +1,6 @@
 ---
 title: "Version 12.0"
 description: ""
-helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-12-0.html"
 ---
 
 # Version 12.0

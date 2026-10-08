@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-7-3.html"
 breadcrumb-title: ""
 description: Review release notes for Substance 3D Painter version 7.3 to learn about new features, improvements, and bug fixes.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 7.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 7.3
 user-guide-description: ""
 user-guide-title: ""

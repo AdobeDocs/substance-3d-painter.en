@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/sparse-virtual-textures.html"
 breadcrumb-title: ""
 description: Learn how to use sparse virtual textures in Substance 3D Painter to work with ultra-high resolution textures efficiently.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Sparse Virtual Textures
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Sparse Virtual Textures
 user-guide-description: ""
 user-guide-title: ""

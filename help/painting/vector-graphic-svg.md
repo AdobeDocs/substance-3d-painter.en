@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/vector-graphic-svg.html"
 breadcrumb-title: ""
 description: Learn how to use vector graphics (SVG and AI files) in Substance 3D Painter to add scalable vector artwork to textures.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Vector graphic (SVG)
 user-guide-description: ""
 user-guide-title: ""

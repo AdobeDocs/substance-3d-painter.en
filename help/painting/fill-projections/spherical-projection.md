@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/spherical-projection.html"
 breadcrumb-title: ""
 description: Use spherical projection in Substance 3D Painter to project textures from a sphere for wrapping textures around objects.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Fill projections > Spherical projection
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Spherical projection
 user-guide-description: ""
 user-guide-title: ""

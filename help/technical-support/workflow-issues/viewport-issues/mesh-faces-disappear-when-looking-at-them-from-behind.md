@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.html"
 breadcrumb-title: ""
 description: Learn how to fix mesh faces disappearing when viewed from behind in Substance 3D Painter viewport for proper mesh visibility.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Viewport Issues > Mesh faces disappear when looking at them from behind
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Mesh faces disappear when looking at them from behind
 user-guide-description: ""
 user-guide-title: ""

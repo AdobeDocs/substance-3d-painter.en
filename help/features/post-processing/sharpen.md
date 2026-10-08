@@ -1,8 +1,6 @@
 ---
 title: "Sharpen"
 description: ""
-helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/sharpen.html"
 ---
 
 # Sharpen

@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets.html"
 breadcrumb-title: ""
 description: Learn how to use and manage brush presets in Substance 3D Painter to streamline your texture painting workflow.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Presets
 user-guide-description: ""
 user-guide-title: ""

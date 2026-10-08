@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/viewport-menu.html"
 breadcrumb-title: ""
 description: Learn how to use the Viewport menu in Substance 3D Painter to access viewport settings and display options.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Main menu > Viewport menu
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Viewport menu
 user-guide-description: ""
 user-guide-title: ""

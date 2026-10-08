@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/tri-planar-projection.html"
 breadcrumb-title: ""
 description: Use tri-planar projection in Substance 3D Painter to project textures from three orthogonal planes for seamless coverage.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Fill projections > Tri-planar projection
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Tri-planar projection
 user-guide-description: ""
 user-guide-title: ""

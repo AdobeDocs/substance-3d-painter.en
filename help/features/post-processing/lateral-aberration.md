@@ -1,8 +1,6 @@
 ---
 title: "Lateral aberration"
 description: ""
-helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/lateral-aberration.html"
 ---
 
 # Lateral aberration

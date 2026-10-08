@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections.html"
 breadcrumb-title: ""
 description: Learn how to use fill projections in Substance 3D Painter to apply textures using various projection methods for efficient painting.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Fill projections
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Fill projections
 user-guide-description: ""
 user-guide-title: ""
