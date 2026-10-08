@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.html"
 breadcrumb-title: ""
 description: Learn how to use texture dilation and padding in Substance 3D Painter to prevent edge artifacts in exported textures.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Export Issues > Texture dilation or Padding
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Texture dilation or Padding
 user-guide-description: ""
 user-guide-title: ""

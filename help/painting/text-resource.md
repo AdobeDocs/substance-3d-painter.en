@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/text-resource.html"
 breadcrumb-title: ""
 description: Learn how to use text resources in Substance 3D Painter to add text and typography to your texture painting workflows.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Text Resource
 user-guide-description: ""
 user-guide-title: ""

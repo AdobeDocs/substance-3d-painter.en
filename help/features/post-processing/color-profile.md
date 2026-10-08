@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/color-profile.html"
 breadcrumb-title: ""
 description: Learn how to use color profile post-processing in Substance 3D Painter to apply color grading and LUT transformations.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Post Processing > Color Profile
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Color Profile
 user-guide-description: ""
 user-guide-title: ""

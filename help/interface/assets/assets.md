@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets.html"
 breadcrumb-title: ""
 description: Learn how to use the Assets panel in Substance 3D Painter to browse, search, and manage your resource library.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Assets
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Assets
 user-guide-description: ""
 user-guide-title: ""

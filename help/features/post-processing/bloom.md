@@ -1,8 +1,6 @@
 ---
 title: "Bloom"
 description: ""
-helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/bloom.html"
 ---
 
 # Bloom

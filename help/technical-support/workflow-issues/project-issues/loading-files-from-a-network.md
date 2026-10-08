@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/project-issues/loading-files-from-a-network.html"
 breadcrumb-title: ""
 description: Learn how to load files from network drives in Substance 3D Painter for accessing shared resources and projects.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Project Issues > Loading files from a network
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Loading files from a network
 user-guide-description: ""
 user-guide-title: ""

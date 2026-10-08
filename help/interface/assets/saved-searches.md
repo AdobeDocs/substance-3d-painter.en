@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/saved-searches.html"
 breadcrumb-title: ""
 description: Learn how to create and use saved searches in Substance 3D Painter to quickly access frequently used asset filters.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Assets > Saved searches
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Saved searches
 user-guide-description: ""
 user-guide-title: ""

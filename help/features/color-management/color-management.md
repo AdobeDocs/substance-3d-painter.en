@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/color-management.html"
 breadcrumb-title: ""
 description: Learn how to configure color management in Substance 3D Painter to ensure consistent color accuracy across your workflow.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Color management
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Color management
 user-guide-description: ""
 user-guide-title: ""

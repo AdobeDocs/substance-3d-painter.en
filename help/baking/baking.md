@@ -1,12 +1,6 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/baking.html'
 breadcrumb-title: ''
 description: 'Learn how to bake mesh maps in Substance 3D Painter to generate ambient occlusion, curvature, and other geometry-based textures.'
-helpx_creative_field: ''
-helpx_description: Painter > Baking
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Baking
 user-guide-description: ''
 user-guide-title: ''

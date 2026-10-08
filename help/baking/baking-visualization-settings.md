@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/baking/baking-visualization-settings.html"
 breadcrumb-title: ""
 description: Learn how to configure baking visualization settings in Substance 3D Painter to preview and debug mesh map baking results.
-helpx_creative_field: ""
-helpx_description: Painter > Baking > Baking visualization settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Baking visualization settings
 user-guide-description: ""
 user-guide-title: ""

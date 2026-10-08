@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/physical-size.html"
 breadcrumb-title: ""
 description: Learn how to set physical size in Substance 3D Painter to define real-world dimensions for accurate texture scaling.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Physical size
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Physical size
 user-guide-description: ""
 user-guide-title: ""

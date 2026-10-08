@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu.html"
 breadcrumb-title: ""
 description: Learn how to use the main menu in Substance 3D Painter to access file operations, editing tools, and application settings.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Main menu
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Main menu
 user-guide-description: ""
 user-guide-title: ""

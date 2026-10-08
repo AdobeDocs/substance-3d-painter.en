@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2-6.html"
 breadcrumb-title: ""
 description: Review release notes for Substance 3D Painter version 2.6 to learn about new features, improvements, and bug fixes.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2.6
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 2.6
 user-guide-description: ""
 user-guide-title: ""

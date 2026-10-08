@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/paint-brush.html"
 breadcrumb-title: ""
 description: Use the Paint Brush tool in Substance 3D Painter to paint textures directly onto 3D models with customizable brush settings.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Tool list > Paint brush
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Paint brush
 user-guide-description: ""
 user-guide-title: ""

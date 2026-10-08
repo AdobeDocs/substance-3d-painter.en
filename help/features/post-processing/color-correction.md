@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/color-correction.html"
 breadcrumb-title: ""
 description: Learn how to use color correction post-processing in Substance 3D Painter to adjust brightness, contrast, and saturation.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Post Processing > Color correction
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Color correction
 user-guide-description: ""
 user-guide-title: ""

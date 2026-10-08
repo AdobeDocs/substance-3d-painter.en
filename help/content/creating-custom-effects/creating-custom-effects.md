@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects.html"
 breadcrumb-title: ""
 description: Learn how to create custom effects for Substance 3D Painter to extend functionality with custom filters, generators, and materials.
-helpx_creative_field: ""
-helpx_description: Painter > Content > Creating custom effects
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Creating custom effects
 user-guide-description: ""
 user-guide-title: ""

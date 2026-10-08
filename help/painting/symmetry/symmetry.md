@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/symmetry.html"
 breadcrumb-title: ""
 description: Learn how to use symmetry tools in Substance 3D Painter to create balanced and mirrored texture painting effects.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Symmetry
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Symmetry
 user-guide-description: ""
 user-guide-title: ""

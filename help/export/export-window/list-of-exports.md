@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window/list-of-exports.html"
 breadcrumb-title: ""
 description: Learn how to manage the list of exports in Substance 3D Painter export window to organize your texture exports.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Export window > List of exports
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: List of exports
 user-guide-description: ""
 user-guide-title: ""

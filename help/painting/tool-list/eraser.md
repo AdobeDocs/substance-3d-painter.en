@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/eraser.html"
 breadcrumb-title: ""
 description: Use the Eraser tool in Substance 3D Painter to remove paint and textures from your 3D models with precision control.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Tool list > Eraser
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Eraser
 user-guide-description: ""
 user-guide-title: ""

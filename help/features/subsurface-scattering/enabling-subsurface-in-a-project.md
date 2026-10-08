@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering/enabling-subsurface-in-a-project.html"
 breadcrumb-title: ""
 description: Learn how to enable subsurface scattering in Substance 3D Painter projects to create realistic translucent material effects.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Subsurface Scattering > Enabling Subsurface in a Project
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Enabling Subsurface in a Project
 user-guide-description: ""
 user-guide-title: ""

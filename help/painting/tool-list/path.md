@@ -1,12 +1,6 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/painting/tool-list/path.html'
 breadcrumb-title: ''
 description: Use the Path tool in Substance 3D Painter to create and edit paths for precise texture painting and stroke placement.
-helpx_creative_field: ''
-helpx_description: Painting > Path tools list > Path tool
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Path tool overview
 user-guide-description: ''
 user-guide-title: ''

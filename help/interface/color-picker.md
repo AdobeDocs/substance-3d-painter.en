@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/color-picker.html"
 breadcrumb-title: ""
 description: Learn how to use the color picker in Substance 3D Painter to select colors from your textures and materials.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Color picker
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Color picker
 user-guide-description: ""
 user-guide-title: ""

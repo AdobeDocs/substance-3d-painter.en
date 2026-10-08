@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering.html"
 breadcrumb-title: ""
 description: Learn how to use subsurface scattering in Substance 3D Painter to create realistic translucent materials like skin and wax.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Subsurface Scattering
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Subsurface Scattering
 user-guide-description: ""
 user-guide-title: ""

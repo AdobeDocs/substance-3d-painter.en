@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/warp-projection.html"
 breadcrumb-title: ""
 description: Use warp projection in Substance 3D Painter to project textures with distortion effects for creative texture painting.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Fill projections > Warp projection
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Warp projection
 user-guide-description: ""
 user-guide-title: ""

@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/shelf-issues/font-import.html"
 breadcrumb-title: ""
 description: Learn how to fix font file import issues in Substance 3D Painter to successfully import and use font resources.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Font file cannot be imported
 user-guide-description: ""
 user-guide-title: ""

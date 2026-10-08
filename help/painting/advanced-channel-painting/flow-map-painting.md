@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/advanced-channel-painting/flow-map-painting.html"
 breadcrumb-title: ""
 description: Learn how to paint flow maps in Substance 3D Painter to control material flow direction and anisotropic effects.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Advanced channel painting > Flow Map Painting
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Flow Map Painting
 user-guide-description: ""
 user-guide-title: ""

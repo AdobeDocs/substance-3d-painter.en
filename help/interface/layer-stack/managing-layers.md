@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/managing-layers.html"
 breadcrumb-title: ""
 description: Learn how to manage layers in Substance 3D Painter to organize, reorder, and control your texture painting workflow.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Managing layers
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Managing layers
 user-guide-description: ""
 user-guide-title: ""

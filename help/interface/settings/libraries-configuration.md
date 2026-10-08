@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/settings/libraries-configuration.html"
 breadcrumb-title: ""
 description: Learn how to configure libraries in Substance 3D Painter settings to manage resource paths and asset organization.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Settings > Libraries configuration
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Libraries configuration
 user-guide-description: ""
 user-guide-title: ""

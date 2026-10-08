@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/layer-instancing.html"
 breadcrumb-title: ""
 description: Learn how to use layer instancing in Substance 3D Painter to reuse layers across multiple texture sets efficiently.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Layer instancing
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Layer instancing
 user-guide-description: ""
 user-guide-title: ""

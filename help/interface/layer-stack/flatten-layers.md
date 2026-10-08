@@ -1,8 +1,6 @@
 ---
 title: "Flatten layers"
 description: ""
-helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/flatten-layers.html"
 ---
 
 # Flatten layers

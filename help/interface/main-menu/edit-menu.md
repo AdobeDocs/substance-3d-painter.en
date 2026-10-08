@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/edit-menu.html"
 breadcrumb-title: ""
 description: Learn how to use the Edit menu in Substance 3D Painter to access undo, redo, and editing operations.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Main menu > Edit menu
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Edit menu
 user-guide-description: ""
 user-guide-title: ""

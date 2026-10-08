@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/creating-layers.html"
 breadcrumb-title: ""
 description: Learn how to create new layers in Substance 3D Painter to build complex textures with multiple painting layers.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Creating layers
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Creating layers
 user-guide-description: ""
 user-guide-title: ""

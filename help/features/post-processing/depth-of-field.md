@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/depth-of-field.html"
 breadcrumb-title: ""
 description: Learn how to use depth of field post-processing in Substance 3D Painter to create realistic camera focus blur effects.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Post Processing > Depth of Field
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Depth of Field
 user-guide-description: ""
 user-guide-title: ""

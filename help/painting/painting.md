@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting.html"
 breadcrumb-title: ""
 description: Learn how to paint textures directly onto 3D models in Substance 3D Painter using various brushes, tools, and techniques.
-helpx_creative_field: ""
-helpx_description: Painter > Painting
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Painting
 user-guide-description: ""
 user-guide-title: ""

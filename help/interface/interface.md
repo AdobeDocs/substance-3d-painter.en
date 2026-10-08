@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface.html"
 breadcrumb-title: ""
 description: Learn about the Substance 3D Painter interface to understand panels, menus, and tools for efficient texture painting workflows.
-helpx_creative_field: ""
-helpx_description: Painter > Interface
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Interface
 user-guide-description: ""
 user-guide-title: ""

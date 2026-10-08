@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/planar-projection.html"
 breadcrumb-title: ""
 description: Use planar projection in Substance 3D Painter to project textures from a flat plane for straightforward texture application.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Fill projections > Planar projection
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Planar projection
 user-guide-description: ""
 user-guide-title: ""

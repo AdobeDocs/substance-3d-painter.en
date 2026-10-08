@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-and-saving-presets.html"
 breadcrumb-title: ""
 description: Learn how to create and save brush presets in Substance 3D Painter to build a reusable library of custom painting tools.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets > Creating and saving presets
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Create and save presets
 user-guide-description: ""
 user-guide-title: ""

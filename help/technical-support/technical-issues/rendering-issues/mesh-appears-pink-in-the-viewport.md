@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/rendering-issues/mesh-appears-pink-in-the-viewport.html"
 breadcrumb-title: ""
 description: Learn how to fix pink mesh appearance in Substance 3D Painter viewport to restore proper material rendering.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Rendering Issues > Mesh appears pink in the viewport
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Mesh appears pink in the viewport
 user-guide-description: ""
 user-guide-title: ""

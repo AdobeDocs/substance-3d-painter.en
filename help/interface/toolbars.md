@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/toolbars.html"
 breadcrumb-title: ""
 description: Learn how to use and customize toolbars in Substance 3D Painter to access tools and features efficiently.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Toolbars
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Toolbars
 user-guide-description: ""
 user-guide-title: ""

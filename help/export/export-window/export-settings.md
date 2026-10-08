@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window/export-settings.html"
 breadcrumb-title: ""
 description: Learn how to configure export settings in Substance 3D Painter to control texture resolution, format, and output options.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Export window > Export settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Export settings
 user-guide-description: ""
 user-guide-title: ""

@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes/creating-custom-dynamic-strokes.html"
 breadcrumb-title: ""
 description: Learn how to create custom dynamic strokes in Substance 3D Painter to design unique brush stroke behaviors and effects.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Dynamic strokes > Creating Custom Dynamic Strokes
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Creating Custom Dynamic Strokes
 user-guide-description: ""
 user-guide-title: ""

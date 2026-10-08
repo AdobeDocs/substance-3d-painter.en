@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/levels.html"
 breadcrumb-title: ""
 description: Learn how to use the Levels effect in Substance 3D Painter to adjust brightness, contrast, and tonal range of textures.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Effects > Levels
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Levels
 user-guide-description: ""
 user-guide-title: ""

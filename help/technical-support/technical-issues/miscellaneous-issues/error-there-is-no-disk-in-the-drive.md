@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/error-there-is-no-disk-in-the-drive.html"
 breadcrumb-title: ""
 description: Learn how to fix the 'no disk in the drive' error in Substance 3D Painter for proper file access and project loading.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Miscellaneous Issues > Error there is no disk in the drive
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Error there is no disk in the drive
 user-guide-description: ""
 user-guide-title: ""

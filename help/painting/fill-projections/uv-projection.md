@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/uv-projection.html"
 breadcrumb-title: ""
 description: Use UV projection in Substance 3D Painter to project textures based on UV coordinates for precise texture placement.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Fill projections > UV projection
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: UV projection
 user-guide-description: ""
 user-guide-title: ""

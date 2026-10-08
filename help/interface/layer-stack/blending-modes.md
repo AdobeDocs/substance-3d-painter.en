@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/blending-modes.html"
 breadcrumb-title: ""
 description: Learn how to use blending modes in Substance 3D Painter to combine layers and create various texture blending effects.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Blending modes
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Blending modes
 user-guide-description: ""
 user-guide-title: ""

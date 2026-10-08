@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set/texture-set-reassignment.html"
 breadcrumb-title: ""
 description: Learn how to reassign texture sets in Substance 3D Painter to reorganize mesh assignments and texture mapping.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Texture Set > Texture Set reassignment
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Texture Set reassignment
 user-guide-description: ""
 user-guide-title: ""

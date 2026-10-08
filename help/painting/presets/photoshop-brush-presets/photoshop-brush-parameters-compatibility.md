@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/photoshop-brush-parameters-compatibility.html"
 breadcrumb-title: ""
 description: Learn about Photoshop brush parameters compatibility in Substance 3D Painter when importing ABR brush presets.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Photoshop Brush Parameters Compatibility
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Photoshop Brush Parameters Compatibility
 user-guide-description: ""
 user-guide-title: ""

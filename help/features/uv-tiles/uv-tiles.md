@@ -1,12 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/uv-tiles.html"
 breadcrumb-title: ""
 description: Learn how to use UV tiles in Substance 3D Painter to work with tiled UV layouts and multiple texture sets.
-helpx_creative_field: ""
-helpx_description: Painter > Features > UV Tiles
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: UV Tiles
 user-guide-description: ""
 user-guide-title: ""
