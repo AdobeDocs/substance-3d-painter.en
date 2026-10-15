@@ -28,7 +28,7 @@ We recommend setting the **Max frontal distance** and **Relative to bounding box
 
 >[!TIP]
 >
-> If you want to start cage painting again from scratch, you can reset the cage painting parameters, cage painting strokes, or all baking settings.
+> If you want to start cage painting again from scratch, reset the cage painting parameters, cage painting strokes, or all baking settings.
 >
 > ![](../assets/baking/cage-painting/resetcage.png)
 
@@ -48,7 +48,7 @@ To start Cage painting:
 
 >[!NOTE]
 >
-> By default, **Auto-rebake** is turned on for the normal channel when you first enter **Cage painting**. This means that the normal map will automatically be rebaked each time you modify the cage. If you would prefer, you can turn off **Auto-rebake** in the [**Mesh map bakers panel**](../interface/baking-panels/mesh-map-bakers.md).
+> By default, **Auto-rebake** is turned on for the normal channel when you first enter **Cage painting**. This means that the normal map is automatically rebaked each time you modify the cage. Turn **Auto-rebake** on or off in the [**Mesh map bakers panel**](../interface/baking-panels/mesh-map-bakers.md).
 >
 > ![](../assets/baking/cage-painting/auto-rebake.png)
 
@@ -58,11 +58,11 @@ Once you enter Cage painting mode, the default visualization in the **Viewport**
 * Areas where the high poly intersects the cage in bright red.
 * Cage painted areas in green (positive) and blue (negative) on the low-poly mesh surface.
 
-While in Cage painting mode, you can use the [**Baking visualization menu**](baking-visualization-settings.md) in the **Viewport** to customize how each element is visualized.
+While in Cage painting mode, use the [**Baking visualization menu**](baking-visualization-settings.md) in the **Viewport** to customize how each element is visualized.
 
 >[!NOTE]
 >
-> The bright red visualization of high-poly intersections with the cage is an approximate preview and doesn’t exactly match the final bake results. In most cases, the visualization is quite accurate, but for low-poly meshes with long, thin polygons, it can be inaccurate, and it’s better to use **Quick Bake** or **Auto-Rebake** to check the final result.
+> The bright red visualization of high-poly intersections with the cage is an approximate preview and doesn’t exactly match the final bake results. In most cases, the visualization is quite accurate, but for low-poly meshes with long, thin polygons, it can be inaccurate. For these meshes, it’s better to use **Quick Bake** or **Auto-Rebake** to check the final result.
 
 ## Cage painting tools
 
@@ -73,7 +73,7 @@ When painting the cage, you can use many of the tools and shortcuts you're used 
 
 ### Paintbrush
 
-Using the **Paintbrush** at full **Strength**, **Flow** and **Opacity** will have a huge impact on the cage surface. We recommend setting a very low **Strength** value and using the Flow and Opacity parameters to control the strength of the brush.
+Using the **Paintbrush** at full **Strength**, **Flow** and **Opacity** has a huge impact on the cage surface. We recommend setting a very low **Strength** value and using the Flow and Opacity parameters to control the strength of the brush.
 
 ![](../assets/baking/cage-painting/brush-strength.gif)
 
@@ -87,13 +87,13 @@ The Eraser tool allows you to remove paint from the cage, effectively reverting 
 
 In **Cage painting** **mode**, the **Polygon fill tool** has an additional feature, a **Strength slider** appears in the **Viewport** when making changes that you can use to adjust the value for the last set of selected polygons.
 
-This is particularly useful for making per-element adjustments using **Mesh fill mode** in scenes with multiple separate meshes.
+This feature is particularly useful for making per-element adjustments using **Mesh fill mode** in scenes with multiple separate meshes.
 
 >[!NOTE]
 >
-> This feature works by redoing the last operation (applying the polygon fill) with a different strength value. As a result, performing a different operation or changing tools will cause the slider to disappear.
+> This feature re-performs the last operation (applying the polygon fill) with a different strength value. As a result, performing a different operation or changing tools causes the slider to disappear.
 
-It can often be useful to apply the same **Polygon fill** value to multiple areas of the mesh. To do this:
+It is often be useful to apply the same cage painted value to multiple areas of the mesh. To do so:
 
 1. Select the first set of polygons.
 1. Use the **Cage strength** slider to adjust the strength of the effect.
