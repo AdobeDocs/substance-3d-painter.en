@@ -8,6 +8,14 @@ hold: true
 
 **Cage painting** lets you paint areas to push the baking cage farther away or bring it closer to the low-poly surface. Cage painting helps prevent artifacts during baking while still capturing all the high-poly details of your mesh.
 
+![](../assets/baking/cage-painting/splash_example.png)
+
+*The left glove, baked with a Distance-based cage and a low Max frontal distance, shows baking artifacts including distortion and areas where the cage intersects the high-poly mesh, losing detail. The right glove was baked using the same settings, but with cage painting to control the cage size.*
+
+>[!NOTE]
+>
+> Cage painting automatically subdivides the cage mesh, which means that even with low resolution meshes, the cage can be pushed and pulled enough to cover all the details.
+
 ## Set up Cage painting
 
 For **Cage painting** to be available, the project must have at least one High-poly scene file to bake from, and the Cage type must be set to **Distance-based**.
@@ -34,9 +42,15 @@ To start Cage painting:
 1. Set the **Cage type** to **Distance-based**.
 1. Click **Paint cage**.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3504611?learn=on)
+
+*This video shows a new project being set up for cage painting. First we switch to baking mode, then select a high-poly scene. The Distance-based Cage type is selected by default, so we’re able to start cage painting immediately.*
+
 >[!NOTE]
 >
 > By default, **Auto-rebake** is turned on for the normal channel when you first enter **Cage painting**. This means that the normal map will automatically be rebaked each time you modify the cage. If you would prefer, you can turn off **Auto-rebake** in the [**Mesh map bakers panel**](../interface/baking-panels/mesh-map-bakers.md).
+>
+> ![](../assets/baking/cage-painting/auto-rebake.png)
 
 Once you enter Cage painting mode, the default visualization in the **Viewport** shows:
 
@@ -44,7 +58,7 @@ Once you enter Cage painting mode, the default visualization in the **Viewport**
 * Areas where the high poly intersects the cage in bright red.
 * Cage painted areas in green (positive) and blue (negative) on the low-poly mesh surface.
 
-While in Cage painting mode, you can use the [**Baking visualization menu**](baking-visualization-settings.md) in the **Viewport** to modify the visualization color and opacity for each element, or turn visualization on or off for specific elements.
+While in Cage painting mode, you can use the [**Baking visualization menu**](baking-visualization-settings.md) in the **Viewport** to customize how each element is visualized.
 
 >[!NOTE]
 >
@@ -61,7 +75,9 @@ When painting the cage, you can use many of the tools and shortcuts you're used 
 
 Using the **Paintbrush** at full **Strength**, **Flow** and **Opacity** will have a huge impact on the cage surface. We recommend setting a very low **Strength** value and using the Flow and Opacity parameters to control the strength of the brush.
 
-TODO: Animation/video showing the difference in strength effect
+![](../assets/baking/cage-painting/brush-strength.gif)
+
+*In this example, the first brush stroke is way too strong, even with a Strength value of 0.05. After decreasing the Strength, Flow, and Stroke opacity, we have much more control over the effect.*
 
 ### Eraser
 
@@ -87,7 +103,7 @@ It can often be useful to apply the same **Polygon fill** value to multiple area
 
 The video below shows this workflow in action, using the **Polygon fill** **tool** with **Mesh fill** selected.
 
-TODO: VIDEO
+>[!VIDEO](https://video.tv.adobe.com/v/3504621?learn=on)
 
 >[!NOTE]
 >
@@ -98,11 +114,11 @@ TODO: VIDEO
 By default, both the **Paintbrush** and **Polygon fill** tools default to the **Linear dodge (add) blend mode**, but you can also use the **Normal** and **Lighten (Max) blend modes**.
 
 * **Linear dodge (add)**
-  * Each stroke/stamp adds or subtracts the given strength value from the existing value. 
+  * Each stroke/stamp adds or subtracts the given strength value from the existing value.
   * This blend mode works similarly to 3D sculpting applications, where each stroke you paint adds to the mesh surface.
 * **Normal**
-  * Each stroke/stamp sets the value to the specified strength, overwriting the existing value. 
+  * Each stroke/stamp sets the value to the specified strength, overwriting the existing value.
   * This blend mode behaves like the default paintbrush in painting mode, allowing you to cover the existing surface with a different value.
-* **Lighten (Max)**: 
-  * Each stroke/stamp chooses the maximum value between the strength and the existing value. 
+* **Lighten (Max)**:
+  * Each stroke/stamp chooses the maximum value between the strength and the existing value.
   * With this blend mode, the edges of the brush take longer to build on subsequent strokes, helping to create a more gradual transition.
