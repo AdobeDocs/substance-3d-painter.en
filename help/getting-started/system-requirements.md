@@ -21,7 +21,7 @@ Below is a list of hardware and systems supported by the application:
 | **RAM** | 16 GB | 32 GB | 64 GB |
 | **Storage** | SSD with 30 GB of available space | SSD with 50 GB of available space | SSD with 70 GB of available space |
 
-### macos
+### macOS
 
 |  | Minimum | Recommended | Optimal |
 | --- | --- | --- | --- |
