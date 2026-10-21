@@ -5,6 +5,16 @@ title: Beta release
 
 # Beta release notes
 
->[!NOTE]
->
-> The current Beta matches the current release version of Substance 3D painter. Please refer to the [full release notes](version-12-1.md) to learn more about this version of Painter.
+## V12.2.1
+
+This Beta version of Substance 3D Painter adds native support for Windows on ARM (ARM64) systems. Expect more releases over the coming weeks as the team works to improve stability.
+
+Release date: **October 21, 2026**
+
+Added:
+
+* Substance 3D Painter now natively supports WinARM machines.
+
+Fixed:
+
+* &lbrack;Baking&rbrack; Performance issue in baking mode viewport on Mac with cage painting.
