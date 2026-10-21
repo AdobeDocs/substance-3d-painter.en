@@ -230,4 +230,52 @@ Additional features and improvements have been added in this version:
 
 ### 12.2.0
 
-Coming soon.
+Release date: **2026/10/21**
+
+Summary: **This update is a major release, it adds a new Cage Painting feature for baking, and makes improvements on Polygon fill functionality. For further details, see the complete release notes.**
+
+**Added:**
+
+* Baking, Cage painting
+* &lbrack;Cage Painting&rbrack; Create basic Cage Paint UI
+* &lbrack;Cage Painting&rbrack; New cage Visualization options
+* &lbrack;Cage Painting&rbrack; Editable Select / Fill Tool
+* &lbrack;Cage Painting&rbrack; Show Blend Mode in toolbar
+* &lbrack;Cage Painting&rbrack; HDR slider UI Changes
+* &lbrack;Cage Painting&rbrack; Visualization shader
+* &lbrack;Cage Painting&rbrack; Reset Stack options
+* Polygon Fill tool improvements
+* &lbrack;Polygon Fill&rbrack; Add polygon patch
+* &lbrack;Polygon Fill&rbrack; Add polygon loop
+* &lbrack;Polygon Fill&rbrack; Symmetry support with Loop/Patch
+* &lbrack;Polygon Fill&rbrack; Symmetry edge preview
+* &lbrack;Polygon Fill&rbrack; Remove Triangles with Loops and Partial Loops
+* &lbrack;Polygon Fill&rbrack; Wireframe visible for active Texture Set only
+* &lbrack;Polygon fill&rbrack; Red edge highlight on non-clickable triangles
+* &lbrack;Polygon fill&rbrack; Don't disable the fill mode options
+* &lbrack;Polygon Fill&rbrack; Allow to set all channel properties with Polygon Fill
+* &lbrack;Polygon Fill&rbrack; Resume previous stroke works with Polygon Fill
+* &lbrack;Polygon fill&rbrack; Show forbidden cursor on non-active Texture Sets
+* &lbrack;Polygon Fill&rbrack; ALT instant preview
+* &lbrack;Polygon Fill&rbrack; Shortcut for temporary switch to Polyloop (SHIFT+A)
+* &lbrack;Viewport&rbrack; Show Texture Set / UV Tile selection highlight
+* &lbrack;Viewport&rbrack; Add support for Order Independent Transparency in real-time viewport
+* &lbrack;Display Settings&rbrack; Re-organize display settings into new groups
+* &lbrack;Tool&rbrack; Add support for additive blending with brush strokes
+* &lbrack;Tool&rbrack; Add support for additive blending with Polygon Fill
+* &lbrack;USD&rbrack; Exported USD with opacity map renders all transparent in Arnold
+* &lbrack;Nvidia&rbrack; Add warning about latest Nvidia drivers (616.56 to 617.14)
+* Add new "mesh_uv_neighbor" engine map input
+* Update bakers to version 3.23.0
+* Update Substance engine to version 9.6.1
+
+**Fixed:**
+
+* &lbrack;Baking&rbrack; Ambient Occlusion Ignore backface by mesh name doesn't work
+* &lbrack;Baking&rbrack; &lbrack;AMD&rbrack; Device lost when baking with heavy high poly meshes
+* &lbrack;Performances&rbrack; Painter hogs VRAM usage
+* &lbrack;Viewport&rbrack; Missing textures when opening projects on HDPI screens
+* &lbrack;Tool&rbrack; Blending mode is grayed out when painting in a mask
+* Temporary folders not deleted after export on network
+* &lbrack;USD&rbrack; Exported USD geometry is split along the UV borders
+* &lbrack;USD&rbrack; Freeze when loading malformed USDz

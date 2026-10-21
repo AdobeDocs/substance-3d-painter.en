@@ -1,7 +1,6 @@
 ---
 title: Cage painting
 description: Learn how to avoid artifacts and customize the cage during the baking process with cage painting in Substance 3D Painter.
-hold: true
 ---
 
 # Cage painting

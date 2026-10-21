@@ -240,7 +240,7 @@ user-guide-description: Substance 3D Painter
   + [Baking interface](/help/baking/baking-interface.md)
   + [How to bake mesh maps](/help/baking/how-to-bake-mesh-maps.md)
   + [Skew correction](/help/baking/skew-correction.md)
-  + {hide-from-toc} [Cage painting](/help/baking/cage-painting.md)
+  + [Cage painting](/help/baking/cage-painting.md)
   + [Mesh map settings](/help/baking/mesh-map-settings.md)
   + [Baking visualization settings](/help/baking/baking-visualization-settings.md)
 + Content{#content}
@@ -446,6 +446,7 @@ user-guide-description: Substance 3D Painter
 + Release notes{#release-notes}
   + [Release notes overview](/help/release-notes/release-notes.md)
   + [All Changes](/help/release-notes/all-changes.md)
+  + [Version 12.2](/help/release-notes/version-12-2.md)
   + [Version 12.1](/help/release-notes/version-12-1.md)
   + [Version 12.0](/help/release-notes/version-12-0.md)
   + [Version 11.1](/help/release-notes/version-11-1.md)
