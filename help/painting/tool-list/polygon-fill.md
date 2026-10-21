@@ -4,7 +4,7 @@
 
 The **Polygon Fill** tool fills polygons with material channel values or grayscale mask values. It can be used on paint layers, effects and masks to quickly fill regions of the mesh.
 
-This tool is more of a painting tool rather than a selection tool: this is why after it has been used, it can only be erased via the eraser tool or by filling over it.
+This tool is more of a painting tool than a selection tool: this is why after it has been used, it can only be erased via the eraser tool or by filling over it.
 
 The tool can be accessed from the tool toolbar:
 
@@ -18,7 +18,7 @@ Below is the list of settings available with the **Polygon Fill** tool via the *
 
 ![](../assets/v12-2/doc_polygonfill_selection_mode.png)
 
-The selection mode control how triangles and quads of the mesh geometry are selected.
+The selection mode controls how triangles and quads of the mesh geometry are selected.
 
 | **Mode** | **Description** |
 |---|---|
@@ -30,7 +30,7 @@ The selection mode control how triangles and quads of the mesh geometry are sele
 
 ![](../assets/v12-2/doc_polygonfill_fill_mode.png)
 
-The fill mode, which can only be used with the **Rectangular marquee fill** mode, control which parts of the geometry are selected.
+The fill mode, which can only be used with the **Rectangular marquee fill** mode, controls which parts of the geometry are selected.
 
 | **Mode** | **Description** |
 |---|---|
@@ -55,7 +55,7 @@ The hit-test settings control how triangles and quads get selected by the **Rect
 
 ![](../assets/v12-2/v12_polyfill_blending.png)
 
-These settings control how the fill result is mixed with the underneath pixels.
+These settings control how the fill result is mixed with the underlying pixels.
 
 | **Parameter** | **Description** |
 |---|---|
@@ -64,7 +64,7 @@ These settings control how the fill result is mixed with the underneath pixels.
 
 > [!NOTE]
 >
-> The tool supports the same blending modes as available in the layer stack. For more information, see the [blending modes documentation page](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/interface/layer-stack/blending-modes).
+> The tool supports the same blending modes available in the layer stack. For more information, see the [blending modes documentation page](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/interface/layer-stack/blending-modes).
 
 ### Material
 
@@ -74,14 +74,14 @@ The material section controls which channels can be enabled to be painted on by 
 
 ## Shortcuts
 
-The Polygon fill tool can be used effectively with the helps of specific keyboard shortcuts:
+The Polygon fill tool can be used effectively with the help of specific keyboard shortcuts:
 
 |**Shortcut**|**Description**|
 |---|---|
 | **Alt** | With the **Polygon loop fill** and **Partial polygon loop fill**, this shortcut extends the selection on the other side of the initial click while dragging. <br data-preserve-html="true"> ![](../assets/v12-2/doc_polygon_fill_alt.gif) |
-| **Shift** | With the **Partial polygon loop fill**, this shortcut fill only the primary loop, ignoring the secondary loops. Example of toggling **Shift**: <br data-preserve-html="true"> ![](../assets/v12-2/v12_polyfill_partial_loop_400px_15fps.gif) |
+| **Shift** | With the **Partial polygon loop fill**, this shortcut fills only the primary loop, ignoring the secondary loops. Example of toggling **Shift**: <br data-preserve-html="true"> ![](../assets/v12-2/v12_polyfill_partial_loop_400px_15fps.gif) |
 | **Shift + A** | This shortcut temporarily switches to **Polygon loop fill** from any other selection mode. If the shortcut is released before the mouse button, the selection continues until the mouse button is released. |
-| **A** | If this shortcut is pressed while dragging, the current result is combined the previous result. This works across blending modes and opacities: <br data-preserve-html="true"> ![](../assets/v12-2/v12_polygon_fill_resume_a_shortcut.gif) |
+| **A** | If this shortcut is pressed while dragging, the current result is combined with the previous result. This works across blending modes and opacities: <br data-preserve-html="true"> ![](../assets/v12-2/v12_polygon_fill_resume_a_shortcut.gif) |
 
 ## Limitations
 
