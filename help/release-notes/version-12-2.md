@@ -120,7 +120,7 @@ The new **cage painting mode** is a per-pixel cage offset that can be painted on
 
 * **Visualize cage offsets in the viewport**
 
-  Entering the cage painting mode switches the viewport to the a new view mode. In this mode offset are visible as a green overlay over the cage. The cage is also deformed to represent the cage mesh used during the baking process.
+  Entering the cage painting mode switches the viewport to a new view mode. In this mode, offsets are visible as a green overlay over the cage. The cage is also deformed to represent the cage mesh used during the baking process.
 
   ![](../assets/v12-2/v12_cage_visualization.png)
 
@@ -144,11 +144,11 @@ The new **cage painting mode** is a per-pixel cage offset that can be painted on
 
 * **New reset menu for cage and skew painting**
 
-  The skew and cage painting mode both have now a new menu to reset settings. Available options are:
+  The skew and cage painting mode now both have a new menu to reset settings. Available options are:
 
-  * **Reset cage/skew parameters**: reset the UI parameter to their default values.
-  * **Clear all cage/skew paint strokes**: This erase the texture used for the cage or skew painting.
-  * **Reset and clear all**: Combine both resetting the Ui and erasing the cage/skew textures.
+  * **Reset cage/skew parameters**: reset the UI parameters to their default values.
+  * **Clear all cage/skew paint strokes**: erase the texture used for the cage or skew painting.
+  * **Reset and clear all**: combine both resetting the UI and erasing the cage/skew textures.
 
   ![](../assets/v12-2/v12_cage_reset_menu.png)
 
@@ -160,7 +160,7 @@ The new **cage painting mode** is a per-pixel cage offset that can be painted on
 
 ![](../assets/v12-2/v12_banner_texturesets.jpg)
 
-The new highlighting behavior can now help identify which geometries in the 3D viewport is associated with a **Texture Set** or a **UV Tile**.
+The new highlighting behavior can now help identify which geometries in the 3D viewport are associated with a **Texture Set** or a **UV Tile**.
 
 * **Highlight from the Texture Set list**
 
@@ -216,7 +216,7 @@ Additional features and improvements have been added in this version:
 
 * **Additive blending with brush strokes**
 
-  Brush settings now offer a new additive blending mode. With this mode, strokes add up on top of each other in the same layer, instead of replacing each other. This not limited to stamps inside a stroke. With this new mode color can be added additively, or the height channel can be sculpted by adding or removing values.
+  Brush settings now offer a new additive blending mode. With this mode, strokes add up on top of each other in the same layer, instead of replacing each other. This is not limited to stamps inside a stroke. With this new mode color can be added additively, or the height channel can be sculpted by adding or removing values.
 
   ![](../assets/v12-2/v12_stamps_blending.png)
 
@@ -224,7 +224,7 @@ Additional features and improvements have been added in this version:
 
   A new `mesh_uv_neighbor` engine map input is available for Substance materials and filters. It works as a UV advection texture to find the other side of a UV island seam. Its red and green channels store the UV advection used to reach the neighboring pixel across a UV seam.
 
-  For more information about those engine texture see the [dedicated documentation page](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-based-input).
+  For more information about those engine textures see the [dedicated documentation page](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-based-input).
 
 ## Release Notes
 
