@@ -1,6 +1,12 @@
 ---
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/know-issues.html"
 breadcrumb-title: ""
 description: Review known issues for Substance 3D Painter to stay informed about current limitations and workarounds in the latest version.
+helpx_creative_field: ""
+helpx_description: Substance 3D Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
 title: Known issues
 user-guide-description: ""
 user-guide-title: ""
@@ -8,14 +14,12 @@ user-guide-title: ""
 
 # Known issues
 
-This page lists all the active known issues present in v12.1.5 of Substance 3D Painter:
+This page lists all the active known issues present in v12.2.0 of Substance 3D Painter:
 
 * `[Baking]` Wrong AO on simple cubes
 * `[Baking]` Matching by name suffix interpretation is wrong
 * `[Baking]` Uv seams do not appear after mes reimport
 * `[Baking]` Grid-like artifacts with some settings
-* `[Baking]` Ambient Occlusion Ignore backface by mesh name doesn't work
-* `[Baking]` `[AMD]` Device lost when baking with a heavy high poly meshes
 
 * `[Substance]` Several misspell in resources
 * `[Substance]` Blank space breaks condition for visibility
@@ -29,10 +33,6 @@ This page lists all the active known issues present in v12.1.5 of Substance 3D P
 * `[Color Management]` Incompatible bindings with generator not used in mask
 * `[Color Management]` Filter output are not properly taken into account
 * `[Color Management]` HDR color space conversions with ACE on Linux produce clamped colors
-
-* `[USD]` Wrong usda assignation in some cases
-* `[USD]` Exported USD geometry is slip along the UV borders
-* `[USD]` Freeze when loading malformed USDz
 
 * `[Shelf]` Resources get the wrong usage if placed in a folder with a specific name
 * `[Shelf]` `[Substance]` Userdata not taken into account for shelf thumbnail generation
@@ -48,6 +48,12 @@ This page lists all the active known issues present in v12.1.5 of Substance 3D P
 
 * `[Single Channel View]` Project saved in base color view looks darker after Painter version update
 * `[Single Channel View]` Project saved in base color view looks darker after Painter version update
+
+* `[Viewport]` Cursor lag at the bottom of baking mode viewport
+* `[Viewport]` Dragging polygon fill selection from one window to another can cause viewport lags
+
+* `[Cage Painting]` Cage geometry holes when painting on one UV Island
+* `[Cage Painting]` performance issue in baking mode viewport on Mac
 
 * `[gltf]` Can not open files exported through Babylon Exporter
 * `[Displacement]` Glitch when painting
@@ -85,12 +91,17 @@ This page lists all the active known issues present in v12.1.5 of Substance 3D P
 * `[User Channels]` Color mixing space preview is wrong
 * `[Mask]` geometry selection is still active after switching to bake mode
 * `[Sonoma]` Icons do not appear in menus
+* `[USD]` Wrong usda assignation in some cases
 * `[Polygon Fill]` Changing base color's color space does not update color picker
 * `[UV Padding]` Artefacts when upscaling texture from 4k to 8k at export
-* `[Performances]` Painter hogs VRAM usage
 * `[FBX]` Scale issues
 * `[Texture set list]` UV Tiles can be selected at the same time as a texture set
-* `[Viewport]` Cursor lag at the bottom of baking mode viewport
+* `[Paint Properties]` Right click in paint properties window does not open preset pop-up menu
+* `[MACOS]` `[Subsurface Scattering]` Memory noise with some SS Radius Scale values
+* `[Mac]` Mipmap bias from Texture filtering in Display Settings has no effect
+* `[Project]` Save popup appears on closing even when project has not been modified
+* `[Library]` Painter can get stuck generating thumbnails of environment maps
+* `[Windows]` `[Nvidia]` Generation of brush and material previews can lead to a TDR
 * Non-square resources are stretched when used in the brush channel's slots
 * Failed to decode substance
 * Not perfectly superposed UVs can create artefacts
@@ -109,6 +120,7 @@ This page lists all the active known issues present in v12.1.5 of Substance 3D P
 * Brush parameters modifies from contextual toolbar do not appear in history
 * Can not rename or delete export presets if you already deleted and recreated it this session
 * Channel mapping does not work for projection tool preview in some cases
+* Mesh Matching Error does not ignore other high polys when Match-By-Name and Selected Texture set only is ON
 
 ## Stability
 
