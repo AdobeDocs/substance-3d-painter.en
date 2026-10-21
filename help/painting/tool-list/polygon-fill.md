@@ -70,7 +70,7 @@ These settings control how the fill result is mixed with the underlying pixels.
 | Blending Mode | Control how the fill is blended with existing pixel values. In **Material** mode, the blending mode applies to all channels enabled in the **Material** section. |
 | Opacity | Control the opacity of the fill. |
 
-> [!NOTE]
+>[!NOTE]
 >
 > The tool supports the same blending modes available in the layer stack. For more information, see the [blending modes documentation page](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/interface/layer-stack/blending-modes).
 
