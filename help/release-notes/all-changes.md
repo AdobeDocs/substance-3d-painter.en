@@ -4,7 +4,6 @@ description: Review all changes and updates across Substance 3D Painter versions
 title: All Changes
 user-guide-description: ''
 user-guide-title: ''
-hold: false
 ---
 
 # All Changes
