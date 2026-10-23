@@ -112,7 +112,6 @@ If you have any question that is not answered in this manual feel free to ask on
 ### Release Notes
 
 * [All Changes](release-notes/all-changes.md)
-* [Version 11.1](release-notes/version-11-1.md)
-* [Version 11.0](release-notes/version-11-0.md)
-* [Version 10.1](release-notes/version-10-1.md)
-
+* [Version 12.2](release-notes/version-12-2.md)
+* [Version 12.1](release-notes/version-12-1.md)
+* [Version 12.0](release-notes/version-12-0.md)
