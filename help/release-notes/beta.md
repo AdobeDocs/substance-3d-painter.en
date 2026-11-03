@@ -11,16 +11,16 @@ This Beta version of Substance 3D Painter adds native support for Windows on ARM
 
 ### **Build 2**
 
-Release date: **October 29, 2026**
+Release date: **November 2, 2026**
 
-**Added**: 
+**Added**:
 
 * &lbrack;Baking&rbrack; Highpoly Matching Error visualization uses Match-by-Name
 
-**Fixed**: 
+**Fixed**:
 
-* &lbrack;Python&rbrack; Some deprecated functions raise a warning but don't say who they are 
-* &lbrack;Baking&rbrack; Cage geometry can have holes when painting on one UV island 
+* &lbrack;Python&rbrack; Some deprecated functions raise a warning but don't say who they are
+* &lbrack;Baking&rbrack; Cage geometry can have holes when painting on one UV island
 * &lbrack;Mac&rbrack;&lbrack;Baking&rbrack; Performance issue in baking mode viewport with cage painting
 
 ### **Build 1**
