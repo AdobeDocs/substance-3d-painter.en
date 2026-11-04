@@ -24,4 +24,4 @@ Mesh Based Input are texture provided by the engine of Substance 3D Painter extr
 | *World Space Bitangent (RGB)* | **mesh\_world\_space\_bitangent** | **meshBitangentWS** | Retrieve a texture containing the vertex bi-tangent (bi-normal) in world space. |
 | *Texel Size (Grayscale)* | **mesh\_texel\_size** | **meshTexelSize** | Retrieve a texture containing the texel size (difference between pixel density and mesh UV). |
 | *UV Mask (Grayscale)* | **mesh\_uv\_mask** | **meshUVMask** | Retrieve a texture as black (outside) and white (inside) mask of the mesh UV islands. |
-| *UV Neighbor (RGB)* | **mesh\_uv\_neighbor** | **todo** | Retrieve a texture storing regular UV coordinates inside UV islands and the UV coordinates of the other side of the UV seams outside the UV islands. This texture can be used to create seamless effects. |
+| *UV Neighbor (RGB)* | **mesh\_uv\_neighbor** | **meshUVNeighbor** | Retrieve a texture storing regular UV coordinates inside UV islands and the UV coordinates of the other side of the UV seams outside the UV islands. This texture can be used to create seamless effects. |
