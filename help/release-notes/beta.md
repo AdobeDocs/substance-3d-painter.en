@@ -9,7 +9,15 @@ title: Beta release
 
 This Beta version of Substance 3D Painter adds native support for Windows on ARM (ARM64) systems. Expect more releases over the coming weeks as the team works to improve stability.
 
-### **Build 2**
+### Build 3
+
+**Fixed**:
+
+* &lbrack;Mac&rbrack;&lbrack;OpenPBR&rbrack; Texture artifacts in viewport with specific subsurface radius scale values
+* &lbrack;Mac&rbrack; Mipmap bias from Texture filtering in Display Settings has no effect
+* &lbrack;Windows&rbrack;&lbrack;Nvidia&rbrack; Generation of brush and material previews can lead to a TDR
+
+### Build 2
 
 Release date: **November 2, 2026**
 
@@ -23,7 +31,7 @@ Release date: **November 2, 2026**
 * &lbrack;Baking&rbrack; Cage geometry can have holes when painting on one UV island
 * &lbrack;Mac&rbrack;&lbrack;Baking&rbrack; Performance issue in baking mode viewport with cage painting
 
-### **Build 1**
+### Build 1
 
 Release date: **October 21, 2026**
 
