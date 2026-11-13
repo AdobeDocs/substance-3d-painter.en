@@ -52,9 +52,8 @@ To get good performance when using the UV Tile workflow we advise to use:
 Miscellaneous:
 
 * Many Substance Apps depend on OpenSSL 1.1.1 for RHEL8/9 compatibility. For systems with newer OpenSSL versions, the customer will need to provide it manually
-* For working in comfortable conditions we recommend a monitor with a vertical resolution greater than 1000 Pixels and wider than 1280 pixels.
-* Exporting at **8K** (8192\*8192 pixels) requires a GPU with **more than** 2GB of VRam.
-* Only versions 2019.x and above have been notarized in order to run on MacOS 10.15 (Catalina).
+* For comfortable working conditions, we recommend a monitor with a vertical resolution greater than 1000 Pixels and wider than 1280 pixels.
+* Exporting at **8K** (8192\*8192 pixels) is not available on GPUs with **less than** 2GB of VRAM.
 * To use the software via RDP (Remote Desktop) see the dedicated [documentation page](../pipeline-and-integration/configuration/remote-desktop.md).
 * Crash on Ryzen CPU when baking, can be fixed by updating the BIOS.
 
