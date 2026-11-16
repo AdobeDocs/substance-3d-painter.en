@@ -11,7 +11,6 @@ user-guide-title: ""
 This page lists all the active known issues present in v12.2.0 of Substance 3D Painter:
 
 * `[Baking]` Wrong AO on simple cubes
-* `[Baking]` Matching by name suffix interpretation is wrong
 * `[Baking]` Uv seams do not appear after mes reimport
 * `[Baking]` Grid-like artifacts with some settings
 
